@@ -1,6 +1,7 @@
 import os
 import numpy as np
 from PyQt5 import QtCore, QtOpenGL
+from PyQt5.QtWidgets import *
 import moderngl
 from converter import parse_mesh_helper, parse_mesh_original, parse_mesh_adaptive
 
@@ -68,22 +69,22 @@ def mesh_from_path(path):
             print(f"Parsing mesh using original parser")
             mesh = parse_mesh_original(path)
             if mesh is None or 'position' not in mesh:
-                raise ValueError("parse_mesh_original returned None or missing required data.")
+                raise ValueError("original parser failed.")
     except Exception as e:
         print(f"original parser failed: {e}. Attempting to use helper instead.")
         try:
             mesh = parse_mesh_helper(path) # Atempting second parser
             if mesh is None or 'position' not in mesh:
-                raise ValueError("helper returned None or missing required data.")
+                raise ValueError("helper parser failed.")
         except Exception as e2:
             print(f"helper parser also failed: {e2}. Attempting to use adaptive instead.")
             try:
                 mesh = parse_mesh_adaptive(path)  # Atempting third parser
                 if mesh is None or 'position' not in mesh:
-                    raise ValueError("adaptive returned None or missing required data.")
+                    raise ValueError("adaptive parser failed.")
             except Exception as e3:
-                print(f"adaptive parser also failed: {e3}")
-                raise ValueError("Failed to parse the mesh file with available parsers: original, helper, and adaptive.")
+                QMessageBox.critical(None, "Error", f"Failed to parse mesh file: {e}")
+                raise None
 
     # Proceed if we have a valid mesh
     pos = np.array(mesh['position'])

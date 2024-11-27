@@ -23,7 +23,7 @@ class Scene:
         self.load_point()
 
         # Initialize matrices and scaling
-        self.mesh_center = Vector3([0, 0, 0])
+        self.mesh_center = Vector3([0, 1, 0])
         self.model_scale = 1.0
         self.base_model_matrix = Matrix44.identity()
         self.model_matrix = Matrix44.identity()
@@ -96,6 +96,7 @@ class Scene:
 
     def load_mesh(self, mesh):
         self.release_mesh()
+        self.release_armature()
         self.mesh = mesh
 
         print("Attempting to load mesh with basic shader.")

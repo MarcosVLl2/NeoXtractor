@@ -8,12 +8,13 @@ from utils.console_handler import *
 from utils.util import *
 from utils.extractor_utils import read_index, read_entry
 
+from gui.viewer_3d import ViewerWidget
 from gui.main_window import create_main_viewer_tab
 from gui.mesh_tab import create_mesh_viewer_tab
 #from gui.extraction_tab import create_extraction_tab
 from gui.texture_tab import create_texture_tab
 from gui.text_tab import create_text_tab
-from gui.hex_tab import create_hex_tab
+from gui.raw_hex_viewer import HexViewerApp
 from gui.popups import AboutPopup
 
 #from bin.read_nxfn import NxfnResultViewer
@@ -23,13 +24,13 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('NeoXtractor')
-        self.setGeometry(50, 50, 1600, 950)
+        self.setGeometry(150, 50, 1600, 950)
         self.npkentries = dict()
         self.config_manager = ConfigManager() # Fetch Outputfolder from config manager
         self.decryption_key = self.config_manager.get("decryption_key", 150)
         self.output_folder = self.config_manager.get("output_folder", "out")
         self.project_folder = self.config_manager.get("project_folder", "")
-        
+
         # Initialize the console output handler
         self.console_handler = ConsoleOutputHandler()
         redirect_output(self.console_handler)  # Redirect stdout and stderr
@@ -137,7 +138,7 @@ class MainWindow(QMainWindow):
         self.showdialog.show()
     
     def show_hex(self):
-        self.window_hex = create_hex_tab(self)
+        self.window_hex = HexViewerApp(self.npkentries[self.selectednpkentry].data)
         self.window_hex.show()
         self.window_hex.raise_()
         
@@ -153,16 +154,20 @@ class MainWindow(QMainWindow):
         
     def show_mesh(self):
         mesh = mesh_from_path(self.npkentries[self.selectednpkentry].data)
-        #print(mesh)
-        #self.viewer.render()
-        self.window_mesh.viewer.initializeGL()
-        self.window_mesh.viewer.init()
-        self.window_mesh.viewer.ctx_init()
-        self.window_mesh.viewer.load_mesh(mesh, self.get_savefile_location())
-        self.window_mesh.viewer.update_aspect_ratio()
+        # #print(mesh)
+        # #self.viewer.render()
+        # self.window_mesh.viewer.initializeGL()
+        # self.window_mesh.viewer.init()
+        # self.window_mesh.viewer.ctx_init()
+        if mesh:
+            self.window_mesh.viewer.load_mesh(mesh, self.get_savefile_location())
+            self.window_mesh.viewer.focus_on_selected_object()
+            self.window_mesh.viewer.update_aspect_ratio()
+            self.update()
+        else:
+            QMessageBox.warning(self, "Error", "Failed to parse the mesh file.")
         
         self.window_mesh.raise_()
-
 
     # Main Toolbar       
     # ----------------------------------------------------------------------------------------------------------
@@ -178,11 +183,13 @@ class MainWindow(QMainWindow):
 
         open_folder_action = QAction(self.style().standardIcon(QStyle.SP_DirOpenIcon), "Open File", self)
         open_folder_action.setStatusTip("Choose File")
+        open_folder_action.setShortcut("Ctrl+O")
         open_folder_action.triggered.connect(self.load_npk)
         file_menu.addAction(open_folder_action)
 
         dkey_action = QAction(self.style().standardIcon(QStyle.SP_VistaShield), "Decryption Key", self)
         dkey_action.setStatusTip("Open a decryption key popup")
+        dkey_action.setShortcut("Ctrl+D")
         dkey_action.triggered.connect(self.show_decrypt_popup)  # Connect to the show popup function
         file_menu.addAction(dkey_action)
         
@@ -198,7 +205,6 @@ class MainWindow(QMainWindow):
     
     # Functionality
     # ----------------------------------------------------------------------------------------------------------
-    
     def get_savefile_location(self):
         currnpk = self.npkentries[self.selectednpkentry]
        
@@ -241,6 +247,7 @@ class MainWindow(QMainWindow):
             self.config_manager.set("decryption_key", result)
             print(f"Decryption Key Entered: {self.decryption_key}")
         self.statusBar().showMessage(f"Decryption key set to {result}")
+        
     def show_about_popup(self):
         """Show the about popup window."""
         self.statusBar().showMessage("About...")
@@ -279,6 +286,8 @@ class MainWindow(QMainWindow):
                     widgetitem.setIcon(self.style().standardIcon(QStyle.SP_DialogNoButton))
                     self.file_list_widget.addItem(widgetitem)
                     currfile += 1
+                    self.progress_bar.setValue((currfile + 1) * 100 // len(self.npk.index_table)) # Update progress bar
+
                 self.status_bar.showMessage(f'Finished loading NPK: {file_path}')
                 self.file_list_widget.sortItems(Qt.AscendingOrder)
         else:
@@ -288,7 +297,8 @@ class MainWindow(QMainWindow):
     def read_all_npk_data(self):
         # Check viewer initialization
         if hasattr(self, "npk"):
-            for index in range(0, len(self.npk.index_table), 1):
+            for index in range(0, len(self.npk.index_table)):
+                self.progress_bar.setValue((index + 1) * 100 // len(self.npk.index_table)) # Update progress bar
                 item = self.file_list_widget.item(index)
                 npkentry = read_entry(self, index)
                 if npkentry.file_original_length == 0:
@@ -302,6 +312,7 @@ class MainWindow(QMainWindow):
                     item.setData(4, True)
                     self.npkentries[index] = npkentry
                     item.setIcon(self.style().standardIcon(QStyle.SP_DialogYesButton))
+
             self.selectednpkentry = 0
             self.file_list_widget.setCurrentRow(0)
         else:
@@ -312,6 +323,7 @@ class MainWindow(QMainWindow):
             for index in self.npkentries:
                 currnpk = self.npkentries[index]
                 path = self.output_folder + "/" + os.path.basename(self.npk.path) + "/"
+                self.progress_bar.setValue((index + 1) * 100 // len(self.npk.index_table)) # Update progress bar
                 if not currnpk.file_structure:
                     os.makedirs(path, exist_ok=True)
                     path = path  + hex(currnpk.file_sign) + "." + currnpk.ext
@@ -322,8 +334,12 @@ class MainWindow(QMainWindow):
                     os.makedirs(path, exist_ok=True)
                     path = path + "/" + os.path.basename(filestructure)
                     
-                with open(path, "wb") as f:
-                    f.write(currnpk.data)
+                try:
+                    with open(path, "wb") as f:
+                        f.write(currnpk.data)
+                except Exception as e:
+                    QMessageBox.critical(self, "Error", f"Failed to save file: {str(e)}")
+
         else:
             QMessageBox.information(self, "Open NPK!", "You must open an NPK file before extracting it!")
     
@@ -356,6 +372,15 @@ class MainWindow(QMainWindow):
             self.console_handler.text_output.emit(text)
         else:
             print("Console handler is not properly initialized.")
+
+    def filter_list_items(self, text):
+        """Filter items in the QListWidget based on input text."""
+        for i in range(self.file_list_widget.count()):
+            item = self.file_list_widget.item(i)
+            if text.lower() in item.text().lower():
+                item.setHidden(False)
+            else:
+                item.setHidden(True)
 
 def main():
     app = QApplication(sys.argv)
