@@ -140,9 +140,6 @@ def create_mesh_viewer_tab(self):
 
     # Zoom Speed Slider
     zoom_speed_label = QLabel(f"Camera Zoom Speed Control: {default_zoom_speed:.2f}")
-
-    # Zoom Speed Slider
-    zoom_speed_label = QLabel("Camera Zoom Speed Control:")
     zoom_speed_label.setFixedHeight(15)
     right_side.addWidget(zoom_speed_label)
 
