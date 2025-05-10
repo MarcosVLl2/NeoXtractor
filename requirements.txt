@@ -1,4 +1,3 @@
-freetype_py
 lz4
 moderngl
 numpy

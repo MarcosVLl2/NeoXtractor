@@ -10,7 +10,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from pyrr import Matrix44
-from gui.help import StaticTextRenderer
+from gui.helpers.TextRenderer import TextRenderer
 from utils.util import *
 from gui.scene import Scene
 from gui.camera import Camera
@@ -48,12 +48,12 @@ class ViewerWidget(QModernGLWidget):
         self.current_scale = 1.0
         self.viewport = (0, 0, 1200, 1200)  # Default viewport size
         self.camera = Camera()
+        self.show_overlay_text = True
 
         self.update_aspect_ratio()
 
     def initializeGL(self):
         print("Creating OpenGL context...")
-        self.ctx = mgl.create_context() # Create the OpenGL context
         logger.info("Creating OpenGL context...")
         self.ctx = mgl.create_context()  # Create the OpenGL context
 
@@ -82,10 +82,8 @@ class ViewerWidget(QModernGLWidget):
 
         # Initialize TextRenderer with the current context
         # self.text_renderer = TextRenderer(self.ctx)
-        self.text_renderer = StaticTextRenderer(self.ctx)
+        self.text_renderer = TextRenderer(self.ctx)
         print("TextRenderer initialized.\n")
-        self.text_renderer = StaticTextRenderer(self.ctx)
-        # print("TextRenderer initialized.")
         logger.info("TextRenderer initialized.\n")
 
         self.setFocusPolicy(Qt.StrongFocus)  # Ensures widget can receive key events
@@ -94,8 +92,9 @@ class ViewerWidget(QModernGLWidget):
         self.ctx.viewport = self.viewport  # Ensure viewport matches window size
         self.screen.use()
         self.scene.draw()
-        # self.render_navigation_overlay(self.location)
-        self.render_navigation_overlay(self.filepath)
+        if self.show_overlay_text:
+            # self.render_overlay_text(self.location)
+            self.render_overlay_text(self.filepath)
         self.update_aspect_ratio()
         self.update()
 
@@ -153,7 +152,7 @@ class ViewerWidget(QModernGLWidget):
 
         return new_bone_count
 
-    def render_navigation_overlay(self, selected_file):
+    def render_overlay_text(self, selected_file):
 
         if not self.text_renderer:
             print("TextRenderer not initialized, skipping navigation keys rendering.")
@@ -233,8 +232,10 @@ class ViewerWidget(QModernGLWidget):
             ("Key 7", "Top View"),
         ]
         for i, (key, action) in enumerate(instructions):
-            self.text_renderer.render_static_text(f"{key}:", x=20, y=20 + i * 20, scale=1.0, color=(0.5, 1.0, 1.0))
-            self.text_renderer.render_static_text(f"{action}", x=90, y=20 + i * 20, scale=1.0, color=(1.0, 1.0, 1.0))
+            self.text_renderer.render_text(f"{key}:", x=20, y=30 + i * 20, scale=1.0, color=(0.5, 1.0, 1.0))
+            self.text_renderer.render_text(f"{action}", x=90, y=30 + i * 20, scale=1.0, color=(1.0, 1.0, 1.0))
+
+        y_cursor = self.viewport[3] - 20
 
         model_info = [
             ("Version", self.mesh_version),
@@ -244,8 +245,8 @@ class ViewerWidget(QModernGLWidget):
             ("Name", filename),
         ]
         for i, (key1, info) in enumerate(model_info):
-            self.text_renderer.render_static_text(f"{key1} :", x=20, y=620 + i * 20, scale=1.0, color=(0.5, 1.0, 1.0))
-            self.text_renderer.render_static_text(f"{info}", x=90, y=620 + i * 20, scale=1.0, color=(1.0, 1.0, 1.0))
+            self.text_renderer.render_text(f"{key1} :", x=20, y=y_cursor - i * 20, scale=1.0, color=(0.5, 1.0, 1.0))
+            self.text_renderer.render_text(f"{info}", x=90, y=y_cursor - i * 20, scale=1.0, color=(1.0, 1.0, 1.0))
 
     def resizeEvent(self, event):
         """Handle resizing and update the viewport if context is ready."""
@@ -491,6 +492,11 @@ class ViewerWidget(QModernGLWidget):
         # Update the scene based on the action's checked state
         self.scene.toggle_culling()
         self.scene.enable_culling = checked
+        self.update()
+
+    def toggle_overlay_text(self, checked):
+        # Update the scene based on the action's checked state
+        self.show_overlay_text = checked
         self.update()
 
 

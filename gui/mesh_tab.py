@@ -219,6 +219,7 @@ def create_view_menu(tab1):
     add_menu_action("Wireframe Mode", "Alt+W", lambda checked: tab1.viewer.toggle_wireframe_mode(checked), True, False)
     add_menu_action("Show Normals", "Alt+N", lambda checked: tab1.viewer.toggle_normals_visibility(checked), True, False)
     add_menu_action("Enable Face Culling", "Alt+C", lambda checked: tab1.viewer.toggle_culling_mode(checked), True, False)
+    add_menu_action("Show Overlay Text", "Alt+O", lambda checked: tab1.viewer.toggle_overlay_text(checked), True, True)
 
 def create_save_menu(tab1):
     save_menu = tab1.menuBar().addMenu("Save")
