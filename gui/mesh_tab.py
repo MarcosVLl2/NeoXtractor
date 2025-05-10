@@ -65,11 +65,9 @@ def create_mesh_viewer_tab(self):
 
     # -----------------------------------
     # Mesh Viewer
-    tab1 = QMainWindow()
+    tab1 = QMainWindow(self)
     tab1.setGeometry(350, 150, 1400, 800)
     tab1.setWindowTitle("ModernGL Mesh Viewer")
-
-    tab1.closeEvent = on_closing_mesh_view
 
     # Main Container
     central_widget = QWidget()
@@ -172,36 +170,6 @@ def create_mesh_viewer_tab(self):
     create_view_menu(tab1)
 
     return tab1
-
-
-def on_closing_mesh_view(event):
-    dialogbox = QDialog()
-    dialogbox.setWindowTitle("Mesh Viewer")
-
-    # Layout and Widgets
-    layout = QVBoxLayout()
-
-    # Message Label
-    label = QLabel(
-        "Are you sure you want to close the Mesh Viewer?\nIf you close it now, you wont be able to use it again until you restart the app.", )
-    layout.addWidget(label, alignment=Qt.AlignCenter)  # Align the message to the center
-
-    button_layout = QHBoxLayout()
-    close_button = QPushButton("Close Anyway")
-    close_button.clicked.connect(dialogbox.accept)
-    button_layout.addWidget(close_button)
-
-    cancel_button = QPushButton("Leave Open")
-    cancel_button.clicked.connect(dialogbox.reject)
-    button_layout.addWidget(cancel_button)
-
-    layout.addLayout(button_layout)
-    dialogbox.setLayout(layout)
-
-    if dialogbox.exec_() == QDialog.Accepted:
-        event.accept()
-    else:
-        event.ignore()
 
 
 def create_view_menu(tab1):

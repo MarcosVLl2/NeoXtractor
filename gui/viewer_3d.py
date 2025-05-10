@@ -49,6 +49,8 @@ class ViewerWidget(QModernGLWidget):
         self.viewport = (0, 0, 1200, 1200)  # Default viewport size
         self.camera = Camera()
 
+        self.on_init: function | None = None
+
         self.update_aspect_ratio()
 
     def initializeGL(self):
@@ -89,6 +91,10 @@ class ViewerWidget(QModernGLWidget):
         logger.info("TextRenderer initialized.\n")
 
         self.setFocusPolicy(Qt.StrongFocus)  # Ensures widget can receive key events
+
+        if self.on_init != None:
+            self.on_init()
+            self.on_init = None
 
     def render(self):
         self.ctx.viewport = self.viewport  # Ensure viewport matches window size

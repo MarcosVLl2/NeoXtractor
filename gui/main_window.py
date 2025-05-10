@@ -46,6 +46,7 @@ def create_main_viewer_tab(self):
     self.create_help_menu()
     self.create_edit_menu()
     self.create_extraction_menu()
+    self.create_tools_menu()
   
     self.list = QListView()
     self.list.doubleClicked.connect(self.on_item_double_clicked)
