@@ -2,6 +2,12 @@
 
 *.pyc
 *__pycache__
-/bin/tacentview
-/bin/pvr
+
+# Pyinstaller Build Results
+/build
+/dist
+
 /out/
+
+# User Preferences
+settings.json

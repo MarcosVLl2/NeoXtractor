@@ -1,0 +1,61 @@
+name: Build Workflow
+
+on:
+  workflow_call:
+    inputs:
+      asset_suffix:
+        description: 'Suffix to append to asset names'
+        required: false
+        default: ''
+        type: string
+    
+jobs:
+  build:
+    name: Build on ${{ matrix.os }} ${{ matrix.arch }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            arch: x64
+            asset_name: neoxtractor-linux
+          - os: windows-latest
+            arch: x64
+            asset_name: neoxtractor-windows
+          - os: macos-latest
+            arch: x64
+            asset_name: neoxtractor-macos-x64
+          - os: macos-latest
+            arch: arm64
+            asset_name: neoxtractor-macos-arm64
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version-file: '.python-version'
+          architecture: ${{ matrix.arch }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: '0.7.4'
+          
+      - name: Install dependencies
+        run: |
+          uv sync --locked
+          uv pip install pyinstaller
+
+      - name: Build with PyInstaller
+        run: |
+          uv run pyinstaller main.spec
+        
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.asset_name }}${{ inputs.asset_suffix }}
+          path: dist/main/
+          compression-level: 9

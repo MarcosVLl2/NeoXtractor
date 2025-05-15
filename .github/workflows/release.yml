@@ -1,0 +1,53 @@
+name: Build and Release
+
+on:
+  release:
+    types: [ created ]
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    
+  upload-to-release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          
+      - name: Prepare artifacts for release
+        shell: bash
+        run: |
+          mkdir -p releases
+          
+          # Find all platform directories in artifacts folder
+          find artifacts -mindepth 1 -maxdepth 1 -type d | while read platform_path; do
+            platform=$(basename "$platform_path")
+            echo "Processing platform: $platform"
+            
+            # For Windows, copy the artifact-zipped file directly with .zip extension
+            if [[ "$platform" == *"windows"* ]]; then
+              echo "Using existing zip archive for $platform"
+              # Download the zip artifact that GitHub Actions created
+              mv "$platform_path.zip" "releases/$platform.zip" 2>/dev/null || echo "No zip found for $platform"
+            else
+              # For non-Windows, create tar.gz archive of the contents
+              echo "Creating tar.gz archive for $platform"
+              cd "$platform_path"
+              tar -czf "../../releases/$platform.tar.gz" *
+              cd ../../
+            fi
+          done
+          
+          echo "Created archives:"
+          ls -la releases/
+          
+      - name: Upload artifacts to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: releases/*
+          fail_on_unmatched_files: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
