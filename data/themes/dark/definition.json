@@ -26,6 +26,22 @@
       "success": "#4caf50",
       "info": "#2196f3"
     },
+
+    "hex_viewer": {
+      "header_color_begin": "#3c3c3c",
+      "header_color_end": "#2d2d2d",
+      "header_separator_color": "#505050",
+      "header_text_color": "#b0b0b0",
+      "address_color": "#90caf9",
+      "hex_color": "#ffffff",
+      "ascii_color": "#bb86fc",
+      "highlight_bg_color": "#404040",
+      "highlight_fg_color": "#ffffff",
+      "selection_bg_color": "#264f78",
+      "selection_fg_color": "#ffffff",
+      "row_color": "#1e1e1e",
+      "alternate_row_color": "#252525"
+    },
     
     "custom": {
       "editor": {
@@ -49,14 +65,6 @@
         "class": "#4ec9b0",
         "variable": "#9cdcfe",
         "constant": "#4fc1ff"
-      },
-      
-      "hex": {
-        "address": "#6e7681",
-        "ascii": "#4fc1ff",
-        "selection": "#264f78",
-        "modified": "#ff7043",
-        "offset": "#8a8a8a"
       },
       
       "tree": {

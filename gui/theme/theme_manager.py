@@ -199,7 +199,7 @@ class ThemeManager(QtCore.QObject):
         # Default fallback
         return '#000000'
 
-    def get_color(self, color_path: str) -> str:
+    def get_color(self, color_path: str, default: str | None = None) -> str | None:
         """Get a color value from the current theme.
         
         Args:
@@ -210,11 +210,11 @@ class ThemeManager(QtCore.QObject):
         """
         # For system theme, return hardcoded values
         if self._current_theme is None:
-            return self._get_system_color(color_path)
+            return self._get_system_color(color_path, default)
 
         theme_data = self._theme_cache.get(self._current_theme)
         if not theme_data:
-            return self._get_system_color(color_path)
+            return self._get_system_color(color_path, default)
 
         colors = theme_data.get('colors', {})
 
@@ -225,12 +225,11 @@ class ThemeManager(QtCore.QObject):
         try:
             for part in parts:
                 current = current[part]
-            return str(current) if current else self._get_system_color(color_path)
+            return str(current) if current else self._get_system_color(color_path, default)
         except (KeyError, TypeError):
-            # Fallback: try simple key lookup for backward compatibility
-            return colors.get(color_path, self._get_system_color(color_path))
+            return None
 
-    def _get_system_color(self, color_path: str) -> str:
+    def _get_system_color(self, color_path: str, default: str | None = None) -> str | None:
         """Get hardcoded color values for system theme."""
         system_colors = {
             # Palette colors with dot notation
@@ -254,74 +253,8 @@ class ThemeManager(QtCore.QObject):
             'palette.warning': '#f57c00',
             'palette.success': '#388e3c',
             'palette.info': '#1976d2',
-
-            # Legacy flat colors for backward compatibility
-            'background': '#ffffff',
-            'surface': '#f8f9fa',
-            'primary': '#1976d2',
-            'secondary': '#424242',
-            'text': '#212121',
-            'text_secondary': '#757575',
-            'border': '#e0e0e0',
-            'hover': '#f5f5f5',
-            'selected': '#e3f2fd'
         }
-        return system_colors.get(color_path, '#000000')
-
-    def get_palette_colors(self) -> Dict[str, str]:
-        """Get all palette colors from current theme."""
-        if self._current_theme is None:
-            # Return system theme colors
-            return {
-                'background': '#ffffff',
-                'surface': '#f8f9fa',
-                'surface_variant': '#e9ecef',
-                'primary': '#1976d2',
-                'primary_variant': '#1565c0',
-                'secondary': '#424242',
-                'accent': '#ff5722',
-                'text': '#212121',
-                'text_secondary': '#757575',
-                'text_disabled': '#bdbdbd',
-                'border': '#e0e0e0',
-                'border_focus': '#1976d2',
-                'hover': '#f5f5f5',
-                'selected': '#e3f2fd',
-                'pressed': '#bbdefb',
-                'disabled': '#f5f5f5',
-                'error': '#d32f2f',
-                'warning': '#f57c00',
-                'success': '#388e3c',
-                'info': '#1976d2'
-            }
-
-        theme_data = self._theme_cache.get(self._current_theme)
-        if not theme_data:
-            return {}
-
-        colors = theme_data.get('colors', {})
-        return colors.get('palette', {})
-
-    def get_custom_colors(self, category: str) -> Dict[str, str]:
-        """Get custom colors for a specific category.
-        
-        Args:
-            category: The category name (e.g., 'editor', 'syntax', 'hex')
-        
-        Returns:
-            Dictionary of color names to hex values
-        """
-        if self._current_theme is None:
-            # System theme has no custom colors
-            return {}
-
-        theme_data = self._theme_cache.get(self._current_theme)
-        if not theme_data:
-            return {}
-
-        colors = theme_data.get('colors', {})
-        custom = colors.get('custom', {})
-        return custom.get(category, {})
+        return system_colors.get(color_path, default)
 
     def get_available_themes(self) -> Dict[str, Dict[str, str]]:
         """Get information about all available themes.

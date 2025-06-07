@@ -1,8 +1,25 @@
 """Provides HexArea widget."""
 
+from dataclasses import dataclass, field
 from PySide6 import QtWidgets, QtCore, QtGui
 
-# TODO: Integrate with Theme Manager
+@dataclass
+class HexAreaColors:
+    """Colors used in HexArea widget."""
+    header_color_begin: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(240, 240, 240))
+    header_color_end: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(220, 220, 220))
+    header_separator_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(180, 180, 180))
+    header_text_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(80, 80, 80))
+
+    address_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(80, 80, 80))
+    hex_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
+    ascii_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 180))
+    highlight_bg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(220, 240, 255))
+    highlight_fg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
+    selection_bg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(180, 220, 255))
+    selection_fg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
+    row_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(255, 255, 255))
+    alternate_row_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(245, 245, 245))
 
 class HexArea(QtWidgets.QWidget):
     """
@@ -27,18 +44,10 @@ class HexArea(QtWidgets.QWidget):
     _total_width = 0
     _total_lines = 0
 
-    # Colors
-    _address_color = QtGui.QColor(80, 80, 80)
-    _hex_color = QtGui.QColor(0, 0, 0)
-    _ascii_color = QtGui.QColor(0, 0, 180)
-    _highlight_bg_color = QtGui.QColor(220, 240, 255)
-    _highlight_fg_color = QtGui.QColor(0, 0, 0)
-    _selection_bg_color = QtGui.QColor(180, 220, 255)
-    _selection_fg_color = QtGui.QColor(0, 0, 0)
-    _alternate_row_color = QtGui.QColor(245, 245, 245)
-
     def __init__(self, parent: QtWidgets.QWidget | None = None):
         super().__init__(parent)
+
+        self.colors = HexAreaColors()
 
         self.setFocusPolicy(QtGui.Qt.FocusPolicy.StrongFocus)
         self.setMouseTracking(True)
@@ -245,29 +254,29 @@ class HexArea(QtWidgets.QWidget):
 
         # Draw header background
         header_bg = QtGui.QLinearGradient(header_rect.topLeft(), header_rect.bottomLeft())
-        header_bg.setColorAt(0, QtGui.QColor(240, 240, 240))
-        header_bg.setColorAt(1, QtGui.QColor(220, 220, 220))
+        header_bg.setColorAt(0, self.colors.header_color_begin)
+        header_bg.setColorAt(1, self.colors.header_color_end)
         painter.fillRect(header_rect, header_bg)
 
         # Draw header separator line
-        painter.setPen(QtGui.QColor(180, 180, 180))
+        painter.setPen(self.colors.header_separator_color)
         painter.drawLine(header_rect.left(), header_rect.bottom(),
                         header_rect.right(), header_rect.bottom())
 
         # Draw address column header
-        painter.setPen(QtGui.QColor(80, 80, 80))
+        painter.setPen(self.colors.header_text_color)
         addr_rect = QtCore.QRect(rect.left(), rect.top(), addr_width, self._char_height + 8)  # Increased height
         painter.drawText(addr_rect, QtCore.Qt.AlignmentFlag.AlignCenter, "Address")
 
         # Draw column separators
-        painter.setPen(QtGui.QColor(180, 180, 180))
+        painter.setPen(self.colors.header_separator_color)
         painter.drawLine(addr_rect.right(), header_rect.top(),
                         addr_rect.right(), header_rect.bottom())
 
         # Draw hex column headers (00-0F)
         hex_start_x = addr_rect.right() + 10
 
-        painter.setPen(QtGui.QColor(80, 80, 80))
+        painter.setPen(self.colors.header_text_color)
         col_width = self._char_width * 4  # Increased width for hex columns
         x_offset = 0
 
@@ -284,7 +293,7 @@ class HexArea(QtWidgets.QWidget):
 
         # Draw hex/ASCII separator
         if self._show_ascii:
-            painter.setPen(QtGui.QColor(180, 180, 180))
+            painter.setPen(self.colors.header_separator_color)
             ascii_start_x = hex_start_x + hex_width + x_offset + 5
             painter.drawLine(ascii_start_x - 5, header_rect.top(),
                             ascii_start_x - 5, header_rect.bottom())
@@ -292,7 +301,7 @@ class HexArea(QtWidgets.QWidget):
             # Draw ASCII header
             ascii_header_rect = QtCore.QRect(ascii_start_x, rect.top(),
                                     ascii_width, self._char_height + 8)
-            painter.setPen(QtGui.QColor(80, 80, 80))
+            painter.setPen(self.colors.header_text_color)
             painter.drawText(ascii_header_rect, QtCore.Qt.AlignmentFlag.AlignCenter, "ASCII")
 
     def _draw_hex_content(self, painter: QtGui.QPainter, rect: QtCore.QRect, addr_width: int,
@@ -319,12 +328,15 @@ class HexArea(QtWidgets.QWidget):
             row_addr = (first_row + row) * bytes_per_row
 
             # Draw alternating row backgrounds
-            if (first_row + row) % 2 == 1:
+            if (first_row + row) % 2 == 0:
                 painter.fillRect(QtCore.QRect(rect.left(), y, rect.width(), row_height),
-                                self._alternate_row_color)
+                                self.colors.row_color)
+            else:
+                painter.fillRect(QtCore.QRect(rect.left(), y, rect.width(), row_height),
+                                self.colors.alternate_row_color)
 
             # Draw address
-            painter.setPen(self._address_color)
+            painter.setPen(self.colors.address_color)
             addr_rect = QtCore.QRect(addr_x, y, addr_width, row_height)
 
             # Use minimum width of "Address" (7 chars)
@@ -370,13 +382,13 @@ class HexArea(QtWidgets.QWidget):
 
                 # Draw background if selected or cursor is here
                 if is_selected:
-                    painter.fillRect(byte_rect, self._selection_bg_color)
-                    painter.setPen(self._selection_fg_color)
+                    painter.fillRect(byte_rect, self.colors.selection_bg_color)
+                    painter.setPen(self.colors.selection_fg_color)
                 elif is_cursor:
-                    painter.fillRect(byte_rect, self._highlight_bg_color)
-                    painter.setPen(self._highlight_fg_color)
+                    painter.fillRect(byte_rect, self.colors.highlight_bg_color)
+                    painter.setPen(self.colors.highlight_fg_color)
                 else:
-                    painter.setPen(self._hex_color)
+                    painter.setPen(self.colors.hex_color)
 
                 byte_text = f"{byte_val:02X}"
                 painter.drawText(byte_rect, QtCore.Qt.AlignmentFlag.AlignCenter, byte_text)
@@ -401,13 +413,13 @@ class HexArea(QtWidgets.QWidget):
 
                     # Draw background if selected or cursor is here
                     if is_selected:
-                        painter.fillRect(char_rect, self._selection_bg_color)
-                        painter.setPen(self._selection_fg_color)
+                        painter.fillRect(char_rect, self.colors.selection_bg_color)
+                        painter.setPen(self.colors.selection_fg_color)
                     elif is_cursor:
-                        painter.fillRect(char_rect, self._highlight_bg_color)
-                        painter.setPen(self._highlight_fg_color)
+                        painter.fillRect(char_rect, self.colors.highlight_bg_color)
+                        painter.setPen(self.colors.highlight_fg_color)
                     else:
-                        painter.setPen(self._ascii_color)
+                        painter.setPen(self.colors.ascii_color)
 
                     # Get printable character or dot for control chars
                     if 32 <= byte_val <= 126:  # Printable ASCII

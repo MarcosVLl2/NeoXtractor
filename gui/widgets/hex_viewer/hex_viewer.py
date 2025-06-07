@@ -2,7 +2,9 @@
 
 from PySide6 import QtWidgets, QtCore, QtGui
 
-from .hex_area import HexArea
+from gui.theme.theme_manager import ThemeManager
+
+from .hex_area import HexArea, HexAreaColors
 from .data_inspector import DATA_INSPECTOR_TYPES
 
 class HexViewer(QtWidgets.QWidget):
@@ -128,6 +130,38 @@ class HexViewer(QtWidgets.QWidget):
                 self._update_data_inspector()
             )
         )
+
+        self._theme_manager = ThemeManager.instance()
+        self._theme_manager.theme_changed.connect(self._update_theme)
+        self._update_theme(self._theme_manager.get_current_theme())
+
+    def _update_theme(self, theme):
+        """Update the widget's theme based on the current theme."""
+        if theme is None:
+            return
+        color = HexAreaColors()
+
+        color_mapping = {
+            "hex_viewer.header_color_begin": "header_color_begin",
+            "hex_viewer.header_color_end": "header_color_end",
+            "hex_viewer.header_separator_color": "header_separator_color",
+            "hex_viewer.header_text_color": "header_text_color",
+            "hex_viewer.address_color": "address_color",
+            "hex_viewer.hex_color": "hex_color",
+            "hex_viewer.ascii_color": "ascii_color",
+            "hex_viewer.highlight_bg_color": "highlight_bg_color",
+            "hex_viewer.highlight_fg_color": "highlight_fg_color",
+            "hex_viewer.selection_bg_color": "selection_bg_color",
+            "hex_viewer.selection_fg_color": "selection_fg_color",
+            "hex_viewer.row_color": "row_color",
+            "hex_viewer.alternate_row_color": "alternate_row_color"
+        }
+        for key, attr in color_mapping.items():
+            clr = self._theme_manager.get_color(key)
+            if clr is None:
+                continue
+            setattr(color, attr, QtGui.QColor(clr))
+        self.area.colors = color
 
     def _update_data_inspector(self):
         """Update the data inspector labels based on the current cursor position."""

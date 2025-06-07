@@ -255,7 +255,6 @@ QSplitter::handle:hover {
 QScrollBar:vertical {
     background-color: @surface_variant;
     width: 16px;
-    border-radius: 8px;
     margin: 0px;
 }
 
@@ -273,7 +272,6 @@ QScrollBar::handle:vertical:hover {
 QScrollBar:horizontal {
     background-color: @surface_variant;
     height: 16px;
-    border-radius: 8px;
     margin: 0px;
 }
 
