@@ -43,37 +43,14 @@
       "alternate_row_color": "#252525"
     },
     
-    "custom": {
-      "editor": {
-        "background": "#1e1e1e",
-        "line_number": "#6e7681",
-        "line_number_current": "#adbac7",
-        "current_line": "#2f3349",
-        "selection": "#264f78",
-        "find_highlight": "#ffd54f",
-        "bracket_match": "#2d5a2d"
-      },
-      
-      "syntax": {
-        "default": "#d4d4d4",
-        "keyword": "#569cd6",
-        "string": "#ce9178",
-        "comment": "#6a9955",
-        "number": "#b5cea8",
-        "operator": "#d4d4d4",
-        "function": "#dcdcaa",
-        "class": "#4ec9b0",
-        "variable": "#9cdcfe",
-        "constant": "#4fc1ff"
-      },
-      
-      "tree": {
-        "item": "#cccccc",
-        "item_selected": "#90caf9",
-        "item_hover": "#383838",
-        "branch": "#666666",
-        "icon": "#b0b0b0"
-      }
+    "code_viewer": {
+      "background": "#1e1e1e",
+      "text": "#ffffff",
+      "line_number_background": "#2a2a2a",
+      "line_number_text": "#b0b0b0",
+      "current_line_background": "#3a3a3a",
+      "selection_background": "#264f78",
+      "selection_text": "#ffffff"
     }
   }
 }

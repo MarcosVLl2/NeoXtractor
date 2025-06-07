@@ -12,8 +12,7 @@ from PySide6.QtWidgets import QPlainTextEdit, QWidget, QHBoxLayout, QLabel, QCom
 
 from core.logger import get_logger
 from core.utils import get_application_path
-
-# TODO: Integrate with Theme Manager
+from gui.theme.theme_manager import ThemeManager
 
 class LineNumberArea(QWidget):
     """
@@ -33,11 +32,27 @@ class LineNumberArea(QWidget):
         super().__init__(editor)
         self.editor = editor
 
-        # Set background color
-        self.background_color = QColor("#2a2a2a")
-        self.current_line_color = QColor("#3a3a3a")
-        self.text_color = QColor("white")
+        # Initialize theme colors
+        self.background_color = QColor("#f5f5f5")
+        self.current_line_color = QColor("#e8e8e8")
+        self.text_color = QColor("#666666")
         self.font_size = 10
+
+        # Connect to theme manager
+        self._theme_manager = ThemeManager.instance()
+        self._theme_manager.theme_changed.connect(self._update_theme)
+        self._update_theme(self._theme_manager.get_current_theme())
+
+    def _update_theme(self, theme):
+        """Update colors based on current theme."""
+
+        self.background_color = QColor(self._theme_manager.get_color(
+            "code_viewer.line_number_background") or "#f5f5f5")
+        self.current_line_color = QColor(self._theme_manager.get_color(
+            "code_viewer.current_line_background") or "#e8e8e8")
+        self.text_color = QColor(self._theme_manager.get_color(
+            "code_viewer.line_number_text") or "#666666")
+        self.update()
 
     def sizeHint(self):
         """Calculate the appropriate width for the line number area."""
@@ -68,7 +83,7 @@ class LineNumberArea(QWidget):
                 painter.setPen(self.text_color)
                 painter.drawText(0, top, self.width() - 5,
                               self.editor.fontMetrics().height(),
-                              Qt.AlignmentFlag.AlignRight, number)
+                              Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter, number)
 
             block = block.next()
             top = bottom
@@ -314,7 +329,6 @@ class CodeEditor(QWidget):
         # Create bottom status bar
         self.status_bar = QFrame()
         self.status_bar.setFrameShape(QFrame.Shape.StyledPanel)
-        self.status_bar.setStyleSheet("background-color: #2a2a2a; color: white;")
 
         # Setup status bar layout
         status_layout = QHBoxLayout(self.status_bar)

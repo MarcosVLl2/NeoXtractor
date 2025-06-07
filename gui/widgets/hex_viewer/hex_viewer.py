@@ -133,12 +133,10 @@ class HexViewer(QtWidgets.QWidget):
 
         self._theme_manager = ThemeManager.instance()
         self._theme_manager.theme_changed.connect(self._update_theme)
-        self._update_theme(self._theme_manager.get_current_theme())
+        self._update_theme()
 
-    def _update_theme(self, theme):
+    def _update_theme(self):
         """Update the widget's theme based on the current theme."""
-        if theme is None:
-            return
         color = HexAreaColors()
 
         color_mapping = {
