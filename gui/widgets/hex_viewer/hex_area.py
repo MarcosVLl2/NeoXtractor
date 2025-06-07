@@ -48,6 +48,7 @@ class HexArea(QtWidgets.QWidget):
         self._main_layout.setSpacing(0)
 
         self._hex_widget = QtWidgets.QWidget(self)
+        self._hex_widget.setStyleSheet("background-color: transparent;")
 
         self._main_layout.addWidget(self._hex_widget, 0, 0)
 
