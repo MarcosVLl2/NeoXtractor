@@ -248,8 +248,8 @@ class HexArea(QtWidgets.QWidget):
         """Draw the header with column addresses."""
         header_rect = QtCore.QRect(rect.left(),
                                    rect.top(),
-                                   max(self._total_width, rect.width()),
-                                   self._char_height + 8# Increased height
+                                   rect.width(),
+                                   self._char_height + 8
                                    )
 
         # Draw header background
@@ -502,8 +502,9 @@ class HexArea(QtWidgets.QWidget):
         # Adjust position for horizontal scrolling
         pos.setX(pos.x() + self._h_scrollbar.value())
 
-        # Ignore clicks outside the content area - fully account for scrollbars
+        # Ignore clicks outside the hex area - fully account for scrollbars
         rect = self._hex_widget.geometry()
+        rect.setWidth(max(self._total_width, rect.width()))
 
         if not rect.contains(pos):
             return -1
@@ -837,6 +838,8 @@ class HexArea(QtWidgets.QWidget):
         ascii_width = 0
         if self._show_ascii:
             ascii_width = int(self._char_width * 1.5) * self._bytes_per_line  # Increased spacing for ASCII chars
+
+        rect.setWidth(max(self._total_width, rect.width()))
 
         # Draw the header
         self._draw_header(painter, rect, address_width, hex_width, ascii_width)
