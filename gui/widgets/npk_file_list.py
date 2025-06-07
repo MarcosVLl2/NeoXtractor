@@ -44,11 +44,13 @@ class NPKFileList(QtWidgets.QListView):
         if disabled:
             self.setSelectionMode(QtWidgets.QAbstractItemView.SelectionMode.NoSelection)
             self.setFocusPolicy(QtCore.Qt.FocusPolicy.NoFocus)
-            self.setStyleSheet("QListView { color: #888; background-color: #f0f0f0; }")
+            self.setProperty("disabled", True)
         else:
             self.setSelectionMode(QtWidgets.QAbstractItemView.SelectionMode.ExtendedSelection)
             self.setFocusPolicy(QtCore.Qt.FocusPolicy.StrongFocus)
-            self.setStyleSheet("")
+            self.setProperty("disabled", None)
+        self.style().unpolish(self)
+        self.style().polish(self)
 
         self._disabled = disabled
 

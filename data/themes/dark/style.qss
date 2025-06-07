@@ -14,6 +14,11 @@ QWidget {
     color: @text;
 }
 
+*[disabled="true"] {
+    background-color: @disabled;
+    color: @text_disabled;
+}
+
 /* =============================================================================
    BUTTONS
    ============================================================================= */
@@ -354,4 +359,20 @@ QTreeWidget::branch:open:has-children:has-siblings {
 QCheckBox, QRadioButton {
     color: @text;
     spacing: 8px;
+}
+
+/* =============================================================================
+   COMBO BOXES
+   ============================================================================= */
+
+QComboBox {
+    border: 1px solid @border;
+    border-radius: 4px;
+    padding: 0 4px;
+}
+
+QComboBox:disabled {
+    background-color: @disabled;
+    color: @text_disabled;
+    border-color: @border;
 }
