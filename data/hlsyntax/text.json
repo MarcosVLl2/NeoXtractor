@@ -8,14 +8,8 @@
       "foreground": "#0066cc@variable",
       "underline": true
     },
-    "path": {
-      "foreground": "#795548@function"
-    },
     "number": {
       "foreground": "#800080@number"
-    },
-    "email": {
-      "foreground": "#008080@type"
     }
   },
   "rules": [
@@ -28,16 +22,8 @@
       "format": "url"
     },
     {
-      "pattern": "\\b(?:[A-Za-z]:\\\\|/)[\\w\\d\\-\\._~:/\\\\]*\\b",
-      "format": "path"
-    },
-    {
       "pattern": "\\b\\d+(?:\\.\\d+)?\\b",
       "format": "number"
-    },
-    {
-      "pattern": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b",
-      "format": "email"
     }
   ]
 }

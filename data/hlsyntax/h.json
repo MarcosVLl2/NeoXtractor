@@ -1,75 +1,90 @@
 {
   "name": "C/C++ Header",
+  "string_patterns": [
+    {
+      "pattern": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "multiline": false
+    },
+    {
+      "pattern": "'(?:[^'\\\\]|\\\\.)*'",
+      "multiline": false
+    }
+  ],
+  "comment_patterns": [
+    {
+      "pattern": "//.*$",
+      "multiline": false
+    },
+    {
+      "pattern": "/\\*[\\s\\S]*?\\*/",
+      "multiline": true
+    }
+  ],
   "formats": {
     "keyword": {
       "foreground": "#0000ff@keyword",
       "bold": true
     },
-    "datatype": {
-      "foreground": "#008080@type",
-      "bold": false
-    },
-    "preprocessor": {
-      "foreground": "#800080@preprocessor",
-      "italic": true
+    "string": {
+      "foreground": "#008000@string"
     },
     "comment": {
       "foreground": "#808080@comment",
       "italic": true
     },
-    "string": {
-      "foreground": "#008000@string"
+    "preprocessor": {
+      "foreground": "#808000@preprocessor"
     },
-    "number": {
-      "foreground": "#800080@number"
+    "type": {
+      "foreground": "#008080@type"
     },
     "function": {
-      "foreground": "#795548@function"
+      "foreground": "#800080@function"
     },
-    "operator": {
-      "foreground": "#000000@operator"
+    "number": {
+      "foreground": "#ff8000@number"
+    },
+    "macro": {
+      "foreground": "#804000@keyword",
+      "bold": true
     }
   },
   "rules": [
     {
-      "pattern": "\\b(if|else|while|for|return|break|continue|switch|case|default|goto|sizeof|typedef|struct|union|enum|extern|static|const|volatile|register|inline|explicit|friend|class|namespace|template|new|delete|try|catch|throw|using|public|protected|private|virtual|override|final|auto|null|nullptr|true|false)\\b",
-      "format": "keyword"
+      "pattern": "//.*$",
+      "format": "comment"
     },
     {
-      "pattern": "\\b(void|int|char|float|double|short|long|unsigned|signed|size_t|wchar_t|bool|BOOL|DWORD|LPSTR|LPCSTR|LPTSTR|LPCTSTR|HANDLE|HWND|HINSTANCE|WPARAM|LPARAM|LRESULT)\\b",
-      "format": "datatype"
+      "pattern": "/\\*[\\s\\S]*?\\*/",
+      "format": "comment"
     },
     {
-      "pattern": "#\\s*(include|define|ifdef|ifndef|endif|else|elif|pragma|if|undef)(?:[^\\n]*)",
+      "pattern": "^\\s*#\\s*(include|define|undef|ifdef|ifndef|if|elif|else|endif|pragma|error|warning)\\b",
       "format": "preprocessor"
     },
     {
-      "pattern": "//[^\\n]*",
-      "format": "comment"
+      "pattern": "\\b(auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while|inline|restrict|_Bool|_Complex|_Imaginary)\\b",
+      "format": "keyword"
     },
     {
-      "pattern": "/\\*[^*]*\\*+(?:[^/*][^*]*\\*+)*/",
-      "format": "comment"
+      "pattern": "\\b(bool|char|double|float|int|long|short|signed|unsigned|void|size_t|ptrdiff_t|wchar_t|FILE|NULL)\\b",
+      "format": "type"
     },
     {
-      "pattern": "\"(?:\\\\.|[^\\\\\"])*\"",
-      "format": "string"
+      "pattern": "\\b[A-Z_][A-Z0-9_]*\\b",
+      "format": "macro"
     },
     {
-      "pattern": "'(?:\\\\.|[^\\\\'])*'",
-      "format": "string"
-    },
-    {
-      "pattern": "\\b[0-9]+\\b|\\b0x[0-9a-fA-F]+\\b",
-      "format": "number"
-    },
-    {
-      "pattern": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*\\(",
+      "pattern": "\\b(?:[a-zA-Z_][a-zA-Z0-9_]*)(?=\\s*\\()",
       "format": "function"
     },
     {
-      "pattern": "[\\+\\-\\*/%=<>!&|^~\\?\\:]",
-      "format": "operator"
+      "pattern": "\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?[fFlL]?\\b",
+      "format": "number"
+    },
+    {
+      "pattern": "\\b0[xX][0-9a-fA-F]+[uUlL]*\\b",
+      "format": "number"
     }
   ]
 }

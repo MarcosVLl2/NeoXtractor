@@ -165,6 +165,8 @@ class CodeHighlighter(QSyntaxHighlighter):
         """
         self.highlighting_rules = []
         self.formats = {}
+        self.string_patterns = []
+        self.comment_patterns = []
         self.language = language
         self.language_name: str | None = None
 
@@ -180,6 +182,14 @@ class CodeHighlighter(QSyntaxHighlighter):
 
             if 'name' in rules_data:
                 self.language_name = rules_data['name']
+
+            # Load string patterns if defined
+            if 'string_patterns' in rules_data:
+                self.string_patterns = rules_data['string_patterns']
+
+            # Load comment patterns if defined
+            if 'comment_patterns' in rules_data:
+                self.comment_patterns = rules_data['comment_patterns']
 
             # Create formats first
             if 'formats' in rules_data:
@@ -214,7 +224,8 @@ class CodeHighlighter(QSyntaxHighlighter):
                     if 'pattern' in rule and 'format' in rule and rule['format'] in self.formats:
                         pattern = QRegularExpression(rule['pattern'])
                         format_name = rule['format']
-                        self.highlighting_rules.append((pattern, self.formats[format_name]))
+                        capture_group = rule.get('capture_group', 0)  # Default to entire match
+                        self.highlighting_rules.append((pattern, self.formats[format_name], capture_group))
 
             return True
         except (json.JSONDecodeError, IOError, KeyError) as e:
@@ -228,12 +239,137 @@ class CodeHighlighter(QSyntaxHighlighter):
         Args:
             text: The text to highlight
         """
-        for pattern, format_data in self.highlighting_rules:
+        # Find all string and comment regions
+        string_regions = self._findStringRegions(text)
+        comment_regions = self._findCommentRegions(text)
+
+        # Merge and sort all protected regions
+        protected_regions = string_regions + comment_regions
+        protected_regions.sort()
+
+        # Apply string formatting first
+        string_formats = [fmt for name, fmt in self.formats.items() if 'string' in name.lower()]
+        if string_formats:
+            for start, end in string_regions:
+                self.setFormat(start, end - start, string_formats[0])
+
+        # Apply comment formatting
+        comment_formats = [fmt for name, fmt in self.formats.items() if 'comment' in name.lower()]
+        if comment_formats:
+            for start, end in comment_regions:
+                self.setFormat(start, end - start, comment_formats[0])
+
+        # Apply other rules, but skip protected regions
+        for pattern, format_data, capture_group in self.highlighting_rules:
+            # Skip string and comment formats as we handled them above
+            if format_data in string_formats or format_data in comment_formats:
+                continue
+
             match_iterator = pattern.globalMatch(text)
             while match_iterator.hasNext():
                 match = match_iterator.next()
-                self.setFormat(match.capturedStart(), match.capturedLength(), format_data)
 
+                # Use capture group if specified, otherwise use entire match
+                if capture_group > 0 and capture_group <= match.lastCapturedIndex():
+                    match_start = match.capturedStart(capture_group)
+                    match_length = match.capturedLength(capture_group)
+                else:
+                    match_start = match.capturedStart()
+                    match_length = match.capturedLength()
+
+                match_end = match_start + match_length
+
+                # Check if this match overlaps with any protected region
+                overlaps_protected = any(
+                    not (match_end <= region_start or match_start >= region_end)
+                    for region_start, region_end in protected_regions
+                )
+
+                # Only apply formatting if not inside a protected region
+                if not overlaps_protected:
+                    self.setFormat(match_start, match_length, format_data)
+
+    def _findStringRegions(self, text: str) -> list[tuple[int, int]]:
+        """
+        Find all string regions in the text based on the loaded language rules.
+        
+        Args:
+            text: The text to analyze
+            
+        Returns:
+            List of (start, end) tuples representing string regions
+        """
+        # Use string patterns from the loaded rules if available
+        if self.string_patterns:
+            patterns = self.string_patterns
+        else:
+            # Fallback to basic patterns if no string patterns defined
+            patterns = [
+                {"pattern": r'"(?:[^"\\]|\\.)*"', "multiline": False},  # Double quotes
+                {"pattern": r"'(?:[^'\\]|\\.)*'", "multiline": False}   # Single quotes
+            ]
+
+        return self._findRegionsFromPatterns(text, patterns)
+
+    def _findCommentRegions(self, text: str) -> list[tuple[int, int]]:
+        """
+        Find all comment regions in the text based on the loaded language rules.
+        
+        Args:
+            text: The text to analyze
+            
+        Returns:
+            List of (start, end) tuples representing comment regions
+        """
+        # Use comment patterns from the loaded rules if available
+        if self.comment_patterns:
+            patterns = self.comment_patterns
+        else:
+            # No fallback patterns for comments since they vary too much between languages
+            patterns = []
+
+        return self._findRegionsFromPatterns(text, patterns)
+
+    def _findRegionsFromPatterns(self, text: str, patterns: list[dict]) -> list[tuple[int, int]]:
+        """
+        Find all regions in text that match the given patterns.
+        
+        Args:
+            text: The text to analyze
+            patterns: List of pattern dictionaries with 'pattern' and optional 'multiline' keys
+            
+        Returns:
+            List of (start, end) tuples representing matching regions
+        """
+        regions = []
+
+        # Apply patterns to find regions
+        for pattern_info in patterns:
+            pattern = QRegularExpression(pattern_info["pattern"])
+
+            # Set multiline option if specified
+            if pattern_info.get("multiline", False):
+                pattern.setPatternOptions(QRegularExpression.PatternOption.DotMatchesEverythingOption)
+
+            match_iterator = pattern.globalMatch(text)
+            while match_iterator.hasNext():
+                match = match_iterator.next()
+                regions.append((match.capturedStart(), match.capturedEnd()))
+
+        # Sort regions by start position and merge overlapping ones
+        if regions:
+            regions.sort()
+            merged = [regions[0]]
+            for start, end in regions[1:]:
+                last_start, last_end = merged[-1]
+                if start <= last_end:
+                    # Overlapping or adjacent, merge them
+                    merged[-1] = (last_start, max(last_end, end))
+                else:
+                    merged.append((start, end))
+            regions = merged
+
+        return regions
 
 class CodeViewer(QPlainTextEdit):
     """

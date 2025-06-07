@@ -1,5 +1,11 @@
 {
   "name": "JSON",
+  "string_patterns": [
+    {
+      "pattern": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "multiline": false
+    }
+  ],
   "formats": {
     "key": {
       "foreground": "#000080@variable"
@@ -24,15 +30,11 @@
   },
   "rules": [
     {
-      "pattern": "\"(?:\\\\.|[^\\\\\"])*\"\\s*:",
+      "pattern": "\"[^\"]*\"\\s*:",
       "format": "key"
     },
     {
-      "pattern": "\"(?:\\\\.|[^\\\\\"])*\"(?!\\s*:)",
-      "format": "string"
-    },
-    {
-      "pattern": "\\b-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+      "pattern": "\\b-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
       "format": "number"
     },
     {
@@ -44,7 +46,7 @@
       "format": "null"
     },
     {
-      "pattern": "[\\[\\]\\{\\}\\,\\:]",
+      "pattern": "[{}\\[\\],:]",
       "format": "punctuation"
     }
   ]

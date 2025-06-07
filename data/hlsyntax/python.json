@@ -1,12 +1,33 @@
 {
   "name": "Python",
+  "string_patterns": [
+    {
+      "pattern": "\"\"\"(?:[^\\\\]|\\\\.|\\n|\"(?!\"\"))*?\"\"\"",
+      "multiline": true
+    },
+    {
+      "pattern": "'''(?:[^\\\\]|\\\\.|\\n|'(?!''))*?'''",
+      "multiline": true
+    },
+    {
+      "pattern": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "multiline": false
+    },
+    {
+      "pattern": "'(?:[^'\\\\]|\\\\.)*'",
+      "multiline": false
+    }
+  ],
+  "comment_patterns": [
+    {
+      "pattern": "#.*$",
+      "multiline": false
+    }
+  ],
   "formats": {
     "keyword": {
       "foreground": "#0000ff@keyword",
       "bold": true
-    },
-    "builtin": {
-      "foreground": "#0066cc@variable"
     },
     "string": {
       "foreground": "#008000@string"
@@ -16,66 +37,45 @@
       "italic": true
     },
     "function": {
-      "foreground": "#795548@function"
-    },
-    "decorator": {
-      "foreground": "#ff6600@preprocessor"
-    },
-    "number": {
-      "foreground": "#800080@number"
-    },
-    "operator": {
-      "foreground": "#000000@operator"
+      "foreground": "#800080@function"
     },
     "class": {
       "foreground": "#008080@class",
       "bold": true
+    },
+    "number": {
+      "foreground": "#ff8000@number"
+    },
+    "decorator": {
+      "foreground": "#808000@decorator"
     }
   },
   "rules": [
-    {
-      "pattern": "\\b(and|as|assert|async|await|break|class|continue|def|del|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield)\\b",
-      "format": "keyword"
-    },
-    {
-      "pattern": "\\b(True|False|None|NotImplemented|Ellipsis|__debug__|self|cls)\\b",
-      "format": "builtin"
-    },
-    {
-      "pattern": "\\b(abs|all|any|ascii|bin|bool|breakpoint|bytearray|bytes|callable|chr|classmethod|compile|complex|delattr|dict|dir|divmod|enumerate|eval|exec|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|isinstance|issubclass|iter|len|list|locals|map|max|memoryview|min|next|object|oct|open|ord|pow|print|property|range|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|vars|zip)\\b",
-      "format": "builtin"
-    },
-    {
-      "pattern": "\"\"\".*?\"\"\"|'''.*?'''",
-      "format": "string"
-    },
-    {
-      "pattern": "\".*?\"|'.*?'",
-      "format": "string"
-    },
     {
       "pattern": "#.*$",
       "format": "comment"
     },
     {
-      "pattern": "\\b[0-9]+\\b",
-      "format": "number"
+      "pattern": "\\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield|async|await|nonlocal)\\b",
+      "format": "keyword"
     },
     {
-      "pattern": "\\b[A-Za-z_][A-Za-z0-9_]*(?=\\()",
-      "format": "function"
+      "pattern": "\\b(?:class)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+      "format": "class",
+      "capture_group": 1
+    },
+    {
+      "pattern": "\\b(?:def)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+      "format": "function",
+      "capture_group": 1
     },
     {
       "pattern": "@[A-Za-z_][A-Za-z0-9_]*",
       "format": "decorator"
     },
     {
-      "pattern": "\\b[A-Z][A-Za-z0-9_]*\\b",
-      "format": "class"
-    },
-    {
-      "pattern": "[\\+\\-\\*\\/\\=\\<\\>\\!\\&\\|\\^\\~\\%]+",
-      "format": "operator"
+      "pattern": "\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+      "format": "number"
     }
   ]
 }
