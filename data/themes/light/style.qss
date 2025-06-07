@@ -332,7 +332,7 @@ QGroupBox::title {
    LIST AND TREE WIDGETS
    ============================================================================= */
 
-QListWidget, QTreeWidget {
+QListWidget, QListView, QTreeWidget {
     background-color: @background;
     border: 1px solid @border;
     border-radius: 4px;
@@ -340,17 +340,17 @@ QListWidget, QTreeWidget {
     alternate-background-color: @surface_variant;
 }
 
-QListWidget::item, QTreeWidget::item {
+QListWidget::item, QListView::item, QTreeWidget::item {
     padding: 4px;
     border: none;
 }
 
-QListWidget::item:selected, QTreeWidget::item:selected {
+QListWidget::item:selected, QListView::item:selected, QTreeWidget::item:selected {
     background-color: @selected;
     color: @text;
 }
 
-QListWidget::item:hover, QTreeWidget::item:hover {
+QListWidget::item:hover, QListView::item:hover, QTreeWidget::item:hover {
     background-color: @hover;
 }
 
