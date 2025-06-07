@@ -142,16 +142,16 @@ class CodeHighlighter(QSyntaxHighlighter):
             color_hex, theme_key = color_string.split('@', 1)
 
             if theme_key.startswith("."):
-                theme_color = self._theme_manager.get_color(f"palette.{theme_key}")
+                theme_color = self._theme_manager.get_color(f"palette{theme_key}")
             else:
                 theme_color = self._theme_manager.get_color(f"code_viewer.syntax.{theme_key}")
             if theme_color:
                 return QColor(theme_color)
 
             return QColor(color_hex)
-        else:
-            # Format: #ffffff - use color directly
-            return QColor(color_string)
+
+        # Format: #ffffff - use color directly
+        return QColor(color_string)
 
     def load_language(self, language: str) -> bool:
         """
