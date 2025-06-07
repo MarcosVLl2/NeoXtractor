@@ -6,7 +6,8 @@ import io
 import math
 from typing import Literal, cast
 from PIL import Image, ImageFile
-import astc_decomp_faster
+from astc_encoder import ASTCProfile
+import astc_encoder.pil_codec # pylint: disable=unused-import
 from bitstring import ConstBitStream
 
 DDS_HEADER = b"DDS\x20\x7C\0\0\0\x07\x10\0\0"
@@ -107,7 +108,7 @@ def pvr_convert(data: bytes):
                                f.read(
                                    f"bytes{_get_astc_file_size(height, width, x, y)}"
                                    ),
-                                'astc', bpp)
+                                'astc', ASTCProfile.LDR_SRGB, *bpp)
     texture_data = f.read(f"bytes:{width*height*bpp // 8}")
 
     dds_data = DDS_HEADER + int_to_bytes(height) + int_to_bytes(width) + \
@@ -142,7 +143,7 @@ def ktx_convert(data: bytes):
 
     image_size = _r_uintle32(f)
     image_data = f.read(f"bytes:{image_size}")
-    return Image.frombytes('RGBA', (pixelWidth, pixelHeight), image_data, 'astc', (8, 8))
+    return Image.frombytes('RGBA', (pixelWidth, pixelHeight), image_data, 'astc', ASTCProfile.LDR_SRGB, 8, 8)
 
 def astc_convert(data: bytes):
     """Convert ASTC to Image."""
@@ -150,7 +151,7 @@ def astc_convert(data: bytes):
     block_x, block_y = f.readlist("pad32, 2*uintle8 , pad8")
     size_x, size_y = cast(list[int], f.readlist("2*uintle24, pad24"))
 
-    return Image.frombytes('RGBA', (size_x, size_y), f.read("bytes"), "astc", (block_x, block_y))
+    return Image.frombytes('RGBA', (size_x, size_y), f.read("bytes"), "astc", ASTCProfile.LDR_SRGB, block_x, block_y)
 
 def convert_image(data, extension):
     """Identify and convert image data to Image."""

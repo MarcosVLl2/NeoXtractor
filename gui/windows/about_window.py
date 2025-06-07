@@ -68,6 +68,7 @@ class LogoWidget(QtWidgets.QWidget):
         neo_rect = QtCore.QRect(x_start, 20, self.neo_width, self.normal_height)
         painter.drawText(neo_rect, QtCore.Qt.AlignmentFlag.AlignLeft | QtCore.Qt.AlignmentFlag.AlignTop, "Neo")
         #painter.drawText(neo_rect, QtCore.Qt.AlignmentFlag.AlignLeft | QtCore.Qt.AlignmentFlag.AlignBottom, "Neo")
+        text_color = painter.pen().color()
 
         # X
         painter.setFont(self.x_font)
@@ -77,14 +78,17 @@ class LogoWidget(QtWidgets.QWidget):
 
         # tractor
         painter.setFont(self.normal_font)
-        painter.setPen(QtGui.QColor("#000000"))
-        tractor_rect = QtCore.QRect(x_start + self.neo_width + self.x_width - 25, 30, self.tractor_width, self.normal_height)
+        painter.setPen(text_color)
+        tractor_rect = QtCore.QRect(x_start + self.neo_width + self.x_width - 25, 30, self.tractor_width,
+                                    self.normal_height)
         painter.drawText(tractor_rect, QtCore.Qt.AlignmentFlag.AlignLeft | QtCore.Qt.AlignmentFlag.AlignTop, "tractor")
 
         # Version
         painter.setFont(self.ver_font)
-        ver_rect = QtCore.QRect(x_start + self.neo_width + self.x_width - 30 + self.tractor_width - self.ver_width, 30 - self.ver_height + 8, self.ver_width, self.ver_height)
-        painter.drawText(ver_rect, QtCore.Qt.AlignmentFlag.AlignLeft | QtCore.Qt.AlignmentFlag.AlignBottom, self.version_text)
+        ver_rect = QtCore.QRect(x_start + self.neo_width + self.x_width - 30 + self.tractor_width - self.ver_width,
+                                30 - self.ver_height + 8, self.ver_width, self.ver_height)
+        painter.drawText(ver_rect, QtCore.Qt.AlignmentFlag.AlignLeft | QtCore.Qt.AlignmentFlag.AlignBottom,
+                         self.version_text)
 
 class AboutWindow(QtWidgets.QDialog):
     """About window that displays information about the application."""
@@ -132,7 +136,7 @@ class AboutWindow(QtWidgets.QDialog):
                 build_time.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
                 layout.addWidget(build_time)
             layout.addStretch()
-        
+
         layout.addWidget(copyright_info)
 
         close_button = QtWidgets.QPushButton("Close")

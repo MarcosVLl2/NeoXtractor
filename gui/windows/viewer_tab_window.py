@@ -5,7 +5,7 @@ import os
 from typing import Type, TypeVar
 from PySide6 import QtWidgets, QtCore
 
-from gui.utils.viewer import set_data_for_viewer
+from gui.utils.viewer import get_viewer_display_name, set_data_for_viewer
 
 T = TypeVar("T", bound=QtWidgets.QWidget)
 
@@ -22,15 +22,15 @@ class ViewerTabWindow(QtWidgets.QMainWindow):
         super().__init__(parent)
 
         self._viewer_factory = viewer
-        self._viewer_name = getattr(viewer, "name") if hasattr(viewer, "name") else viewer.__name__
+        self._viewer_name = get_viewer_display_name(viewer)
 
         self.setWindowTitle(self._viewer_name)
         self.setMinimumSize(800, 600)
 
-        widget = QtWidgets.QWidget(self)
-        self.setCentralWidget(widget)
+        self.central_widget = QtWidgets.QWidget(self)
+        self.setCentralWidget(self.central_widget)
 
-        layout = QtWidgets.QVBoxLayout(widget)
+        self.central_layout = QtWidgets.QVBoxLayout(self.central_widget)
 
         self.no_tab_label = QtWidgets.QLabel("No file opened.")
         self.no_tab_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
@@ -52,19 +52,27 @@ class ViewerTabWindow(QtWidgets.QMainWindow):
         self.tab_widget.currentChanged.connect(
             lambda index: self.setWindowTitle(f"{self.tab_widget.tabText(index)} - {self._viewer_name}")
         )
-        layout.addWidget(self.no_tab_label)
-        layout.addWidget(self.tab_widget)
+        self.central_layout.addWidget(self.no_tab_label)
+        self.central_layout.addWidget(self.tab_widget)
 
         def file_menu() -> QtWidgets.QMenu:
             menu = QtWidgets.QMenu("File", self)
 
             open_file_action = menu.addAction("Open File")
+            open_file_action.setIcon(self.style().standardIcon(QtWidgets.QStyle.StandardPixmap.SP_DirOpenIcon))
+            open_file_action.setShortcut("Ctrl+O")
             def open_file_dialog():
+                file_filter = "All Files (*)"
+                if hasattr(self._viewer_factory, "accepted_extensions") and \
+                    (not hasattr(self._viewer_factory, "allow_unsupported_extensions") or \
+                     not getattr(self._viewer_factory, "allow_unsupported_extensions")):
+                    extensions = getattr(self._viewer_factory, "accepted_extensions")
+                    file_filter = f"Supported Files (*.{' *.'.join(extensions)})"
                 file_path, _ = QtWidgets.QFileDialog.getOpenFileName(
                     self,
                     "Open File",
                     "",
-                    "All Files (*)"
+                    file_filter
                 )
                 if file_path:
                     with open(file_path, "rb") as file:
@@ -73,9 +81,24 @@ class ViewerTabWindow(QtWidgets.QMainWindow):
                         self.load_file(data, filename)
             open_file_action.triggered.connect(open_file_dialog)
 
+            close_all_action = menu.addAction("Close All")
+            close_all_action.setIcon(
+                self.style().standardIcon(QtWidgets.QStyle.StandardPixmap.SP_DockWidgetCloseButton))
+            close_all_action.triggered.connect(
+                lambda: (
+                    self.tab_widget.clear(),
+                    self.setWindowTitle(self._viewer_name),
+                    self.tab_widget.setVisible(False),
+                    self.no_tab_label.setVisible(True)
+                )
+            )
+
             return menu
 
         self.menuBar().addMenu(file_menu())
+
+        if hasattr(self._viewer_factory, "setup_tab_window"):
+            getattr(self._viewer_factory, "setup_tab_window")(self)
 
     def load_file(self, data: bytes, filename: str):
         """

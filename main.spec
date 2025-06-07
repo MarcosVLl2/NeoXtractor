@@ -4,6 +4,8 @@ import subprocess
 import sys
 import atexit
 
+from PyInstaller.utils.hooks import collect_data_files
+
 subprocess.call([sys.executable, 'tools/build_info_tool.py', 'gen'])
 
 def cleanup():
@@ -18,7 +20,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('configs', 'configs'), ('data', 'data')],
+    datas=[('configs', 'configs'), ('data', 'data'), *collect_data_files('archspec', includes=['json/cpu/*.json'])],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

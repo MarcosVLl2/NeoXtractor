@@ -5,13 +5,9 @@ from PySide6 import QtWidgets, QtCore
 
 from core.npk.types import NPKEntry, NPKEntryDataFlags
 from core.utils import format_bytes
-from gui.utils.viewer import find_best_viewer, set_entry_for_viewer
-from gui.widgets.code_editor import CodeEditor
-from gui.widgets.hex_viewer import HexViewer
-from gui.widgets.texture_viewer import TextureViewer
+from gui.utils.viewer import ALL_VIEWERS, find_best_viewer, get_viewer_display_name, set_entry_for_viewer
 
 SELECT_ENTRY_TEXT = "Select an entry to preview."
-UNKNOWN_FILE_TYPE_TEXT = "Unknown file type. Using default viewer."
 
 class PreviewWidget(QtWidgets.QWidget):
     """
@@ -49,13 +45,10 @@ class PreviewWidget(QtWidgets.QWidget):
 
         self.widget_layout.addLayout(self.control_bar_layout)
 
-        self.hex_viewer = HexViewer()
-        self._add_previewer(self.hex_viewer)
-
-        self.code_editor = CodeEditor()
-        self._add_previewer(self.code_editor)
-
-        self._add_previewer(TextureViewer())
+        for viewer in ALL_VIEWERS:
+            previewer = viewer()
+            previewer.setParent(self)
+            self._add_previewer(previewer)
 
         for previewer in self._previewers:
             previewer.setVisible(False)
@@ -72,8 +65,7 @@ class PreviewWidget(QtWidgets.QWidget):
         :param previewer: The previewer to add.
         :param name: The name of the previewer.
         """
-        self.previewer_selector.addItem(getattr(previewer, "name") if hasattr(previewer, "name") else \
-                                        previewer.__class__.__name__, previewer)
+        self.previewer_selector.addItem(get_viewer_display_name(previewer), previewer)
         self._previewers.append(previewer)
 
     def _set_data_for_previewer(self, previewer: QtWidgets.QWidget, data: NPKEntry | None):
@@ -110,7 +102,8 @@ class PreviewWidget(QtWidgets.QWidget):
             # Memory cleanup
             self._set_data_for_previewer(p, None)
             p.setVisible(False)
-        previewer.setVisible(True)
+        if self.isVisible():
+            previewer.setVisible(True)
 
         # Set the previewer selector to the selected previewer
         self.previewer_selector.setCurrentIndex(self.previewer_selector.findData(previewer))
@@ -141,10 +134,6 @@ class PreviewWidget(QtWidgets.QWidget):
         for previewer in self._previewers:
             if isinstance(previewer, best_previewer):
                 self.select_previewer(previewer)
-
-        # TODO: Know when unknown file is encountered
-        #self.message_label.setText(UNKNOWN_FILE_TYPE_TEXT)
-        #self.message_label.setVisible(True)
 
     def clear(self):
         """

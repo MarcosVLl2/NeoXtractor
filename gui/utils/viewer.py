@@ -6,9 +6,10 @@ from PySide6 import QtWidgets
 from core.npk.types import NPKEntry
 from gui.widgets.code_editor import CodeEditor
 from gui.widgets.hex_viewer import HexViewer
+from gui.widgets.mesh_viewer.viewer_widget import MeshViewer
 from gui.widgets.texture_viewer import TextureViewer
 
-ALL_VIEWERS = (HexViewer, CodeEditor, TextureViewer)
+ALL_VIEWERS = (HexViewer, CodeEditor, TextureViewer, MeshViewer)
 
 def find_best_viewer(extension: str, is_text = False) -> Type[QtWidgets.QWidget]:
     """
@@ -52,6 +53,11 @@ def set_data_for_viewer(viewer: QtWidgets.QWidget, data: bytes | None, extension
         else:
             # Raises ValueError if the image is not supported
             viewer.set_texture(data, extension)
+    elif isinstance(viewer, MeshViewer):
+        if data is None:
+            viewer.unload_mesh()
+        else:
+            viewer.load_mesh(data)
 
 def set_entry_for_viewer(viewer: QtWidgets.QWidget, data: NPKEntry | None):
     """
@@ -62,3 +68,14 @@ def set_entry_for_viewer(viewer: QtWidgets.QWidget, data: NPKEntry | None):
     """
     set_data_for_viewer(viewer, data.data if data is not None else None, \
                          data.extension if data is not None else "dat")
+
+def get_viewer_display_name(viewer: QtWidgets.QWidget | type) -> str:
+    """
+    Get the display name for the viewer.
+    
+    :param viewer: The viewer to get the display name for.
+    :return: The display name of the viewer.
+    """
+    if hasattr(viewer, "name"):
+        return getattr(viewer, "name")
+    return viewer.__class__.__name__

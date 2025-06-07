@@ -3,20 +3,20 @@ name = "neoxtractor"
 version = "0.1.0"
 description = "NeoX NXPK / EXPK (.npk) extraction and viewer tool"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "arc4>=0.4.0",
-    "astc-decomp-faster>=1.1.2",
+    "astc-encoder-py>=0.1.11",
     "bitstring>=4.3.1",
     "lz4>=4.4.4",
-    "moderngl>=5.12.0",
     "numpy>=2.2.5",
     "p>=1.5.0",
     "pillow>=11.2.1",
     "pycryptodome>=3.22.0",
     "pymeshio>=3.0.1",
-    "pyrr>=0.10.3",
     "pyside6>=6.9.0",
-    "transformations>=2025.1.1",
     "zstandard>=0.23.0",
 ]
+
+[tool.uv]
+no-binary-package = ["astc-encoder-py"]

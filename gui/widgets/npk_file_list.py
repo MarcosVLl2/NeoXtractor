@@ -9,6 +9,7 @@ from core.npk.types import NPKEntry
 from gui.models.npk_file_model import NPKFileModel
 from gui.utils.config import save_config_manager_to_settings
 from gui.utils.npk import get_npk_file
+from gui.utils.viewer import ALL_VIEWERS, get_viewer_display_name
 
 class NPKFileList(QtWidgets.QListView):
     """
@@ -17,6 +18,7 @@ class NPKFileList(QtWidgets.QListView):
 
     preview_entry = QtCore.Signal(int, NPKEntry)
     open_entry = QtCore.Signal(int, NPKEntry)
+    open_entry_with = QtCore.Signal(int, NPKEntry, type)
 
     def __init__(self, parent: QtWidgets.QWidget | None = None):
         super().__init__(parent)
@@ -42,11 +44,13 @@ class NPKFileList(QtWidgets.QListView):
         if disabled:
             self.setSelectionMode(QtWidgets.QAbstractItemView.SelectionMode.NoSelection)
             self.setFocusPolicy(QtCore.Qt.FocusPolicy.NoFocus)
-            self.setStyleSheet("QListView { color: #888; background-color: #f0f0f0; }")
+            self.setProperty("disabled", True)
         else:
             self.setSelectionMode(QtWidgets.QAbstractItemView.SelectionMode.ExtendedSelection)
             self.setFocusPolicy(QtCore.Qt.FocusPolicy.StrongFocus)
-            self.setStyleSheet("")
+            self.setProperty("disabled", None)
+        self.style().unpolish(self)
+        self.style().polish(self)
 
         self._disabled = disabled
 
@@ -148,6 +152,13 @@ class NPKFileList(QtWidgets.QListView):
         extract = menu.addAction("Extract")
         extract.triggered.connect(lambda: self.extract_entries(indexes))
 
+        menu.addSeparator()
+        for viewer in ALL_VIEWERS:
+            viewer_action = menu.addAction("Open in " + get_viewer_display_name(viewer))
+            viewer_action.triggered.connect(
+                lambda _checked, v=viewer: self.open_entries_with(indexes, v)
+            )
+
         if len(indexes) == 1:
             menu.addSeparator()
             rename = menu.addAction("Rename")
@@ -155,6 +166,21 @@ class NPKFileList(QtWidgets.QListView):
 
         # Show the context menu at the current position
         menu.exec(self.viewport().mapToGlobal(position))
+
+    def open_entries_with(self, indexes: list[QtCore.QModelIndex], viewer: type):
+        """
+        Open the selected entry with the specified viewer.
+        
+        :param indexes: List of model indexes for the selected entries.
+        :param viewer: The viewer class to use.
+        """
+        npk_file = get_npk_file()
+        if npk_file is None:
+            return
+        for index in indexes:
+            row = index.row()
+            entry = npk_file.read_entry(row)
+            self.open_entry_with.emit(row, entry, viewer)
 
     def extract_entries(self, indexes: list[QtCore.QModelIndex]):
         """

@@ -1,0 +1,73 @@
+{
+  "name": "Dark Theme",
+  "base": "dark",
+  "description": "A modern dark theme for low-light environments",
+  
+  "colors": {
+    "palette": {
+      "background": "#1e1e1e",
+      "surface": "#2d2d2d",
+      "surface_variant": "#3c3c3c",
+      "primary": "#90caf9",
+      "primary_variant": "#64b5f6",
+      "secondary": "#bb86fc",
+      "accent": "#ff7043",
+      "text": "#ffffff",
+      "text_secondary": "#b0b0b0",
+      "text_disabled": "#666666",
+      "border": "#404040",
+      "border_focus": "#90caf9",
+      "hover": "#383838",
+      "selected": "#404040",
+      "pressed": "#505050",
+      "disabled": "#2a2a2a",
+      "error": "#f44336",
+      "warning": "#ff9800",
+      "success": "#4caf50",
+      "info": "#2196f3"
+    },
+
+    "hex_viewer": {
+      "header_color_begin": "#3c3c3c",
+      "header_color_end": "#2d2d2d",
+      "header_separator_color": "#505050",
+      "header_text_color": "#b0b0b0",
+      "address_color": "#90caf9",
+      "hex_color": "#ffffff",
+      "ascii_color": "#bb86fc",
+      "highlight_bg_color": "#404040",
+      "highlight_fg_color": "#ffffff",
+      "selection_bg_color": "#264f78",
+      "selection_fg_color": "#ffffff",
+      "row_color": "#1e1e1e",
+      "alternate_row_color": "#252525"
+    },
+    
+    "code_viewer": {
+      "background": "#1e1e1e",
+      "text": "#ffffff",
+      "line_number_background": "#2a2a2a",
+      "line_number_text": "#b0b0b0",
+      "current_line_background": "#3a3a3a",
+      "selection_background": "#264f78",
+      "selection_text": "#ffffff",
+      
+      "syntax": {
+        "keyword": "#569cd6",
+        "string": "#ce9178", 
+        "comment": "#6a9955",
+        "number": "#b5cea8",
+        "function": "#dcdcaa",
+        "type": "#4ec9b0",
+        "operator": "#d4d4d4",
+        "preprocessor": "#c586c0",
+        "escape": "#d7ba7d",
+        "variable": "#9cdcfe",
+        "constant": "#4fc1ff",
+        "class": "#4ec9b0",
+        "attribute": "#92c5f8",
+        "error": "#f44747"
+      }
+    }
+  }
+}

@@ -1,11 +1,11 @@
 """NPK File Reader"""
 
 import io
-import struct
 from typing import Optional, List, Dict
 
 from arc4 import ARC4
 
+from core.binary_readers import read_uint32, read_uint16, read_uint64
 from core.npk.decompression import check_nxs3, decompress_entry, unpack_nxs3
 from core.npk.decryption import decrypt_entry
 from core.npk.enums import NPKFileType
@@ -14,20 +14,6 @@ from core.logger import get_logger
 from .detection import get_ext, get_file_category, is_binary
 from .keys import KeyGenerator
 from .types import NPKEntryDataFlags, NPKIndex, NPKEntry, CompressionType, DecryptionType
-
-# Data readers
-def read_uint64(f):
-    """Extract unsigned 64-bit integer from binary stream."""
-    return struct.unpack('Q', f.read(8))[0]
-def read_uint32(f):
-    """Extract unsigned 32-bit integer from binary stream."""
-    return struct.unpack('I', f.read(4))[0]
-def read_uint16(f):
-    """Extract unsigned 16-bit integer from binary stream."""
-    return struct.unpack('H', f.read(2))[0]
-def read_uint8(f):
-    """Extract unsigned 8-bit integer from binary stream."""
-    return struct.unpack('B', f.read(1))[0]
 
 class NPKFile:
     """Main class for handling NPK files."""

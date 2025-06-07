@@ -17,6 +17,6 @@ def ransack_agent(data, search_string):
         if isinstance(data, bytes):  # Convert binary data to string for searching
             data = data.decode('utf-8', errors='ignore')
         return search_string in data.lower()
-    except Exception as e:
+    except (UnicodeDecodeError, AttributeError, TypeError) as e:
         get_logger().warning("Error scanning data: %s", e)
         return False

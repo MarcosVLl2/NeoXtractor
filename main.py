@@ -1,8 +1,9 @@
 """NeoXtractor entrypoint"""
 
+import core._patches # pylint: disable=unused-import
 from core.args import arguments, parse_args
-from gui import run as run_gui
 from core.logger import setup_logger
+from gui import run as run_gui
 
 def run_cli():
     """Run NeoXtractor as a CLI application."""

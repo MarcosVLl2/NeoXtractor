@@ -10,6 +10,8 @@ import os
 import sys
 import traceback
 
+import _use_application_modules # pylint: disable=unused-import
+
 # Import the NPK module
 from core.npk import NPKFile
 

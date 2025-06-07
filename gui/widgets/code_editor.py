@@ -12,6 +12,7 @@ from PySide6.QtWidgets import QPlainTextEdit, QWidget, QHBoxLayout, QLabel, QCom
 
 from core.logger import get_logger
 from core.utils import get_application_path
+from gui.theme.theme_manager import ThemeManager
 
 class LineNumberArea(QWidget):
     """
@@ -31,11 +32,27 @@ class LineNumberArea(QWidget):
         super().__init__(editor)
         self.editor = editor
 
-        # Set background color
-        self.background_color = QColor("#2a2a2a")
-        self.current_line_color = QColor("#3a3a3a")
-        self.text_color = QColor("white")
+        # Initialize theme colors
+        self.background_color = QColor("#f5f5f5")
+        self.current_line_color = QColor("#e8e8e8")
+        self.text_color = QColor("#666666")
         self.font_size = 10
+
+        # Connect to theme manager
+        self._theme_manager = ThemeManager.instance()
+        self._theme_manager.theme_changed.connect(self._update_theme)
+        self._update_theme(self._theme_manager.get_current_theme())
+
+    def _update_theme(self, theme):
+        """Update colors based on current theme."""
+
+        self.background_color = QColor(self._theme_manager.get_color(
+            "code_viewer.line_number_background") or "#f5f5f5")
+        self.current_line_color = QColor(self._theme_manager.get_color(
+            "code_viewer.current_line_background") or "#e8e8e8")
+        self.text_color = QColor(self._theme_manager.get_color(
+            "code_viewer.line_number_text") or "#666666")
+        self.update()
 
     def sizeHint(self):
         """Calculate the appropriate width for the line number area."""
@@ -66,7 +83,7 @@ class LineNumberArea(QWidget):
                 painter.setPen(self.text_color)
                 painter.drawText(0, top, self.width() - 5,
                               self.editor.fontMetrics().height(),
-                              Qt.AlignmentFlag.AlignRight, number)
+                              Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter, number)
 
             block = block.next()
             top = bottom
@@ -98,8 +115,43 @@ class CodeHighlighter(QSyntaxHighlighter):
         # Set default language to plain text
         self.language = language
 
+        # Connect to theme manager
+        self._theme_manager = ThemeManager.instance()
+        self._theme_manager.theme_changed.connect(self._on_theme_changed)
+
         # Load language rules
         self.load_language(language)
+
+    def _on_theme_changed(self):
+        """Handle theme changes by reloading colors and rehighlighting."""
+        self.load_language(self.language)
+        self.rehighlight()
+
+    def _parse_color(self, color_string: str) -> QColor:
+        """
+        Parse color string that can be in format '#ffffff' or '#ffffff@keyword'.
+        
+        Args:
+            color_string: Color in format '#ffffff' or '#ffffff@keyword'
+            
+        Returns:
+            QColor: The resolved color
+        """
+        if '@' in color_string:
+            # Format: #ffffff@keyword - check theme first, fallback to color
+            color_hex, theme_key = color_string.split('@', 1)
+
+            if theme_key.startswith("."):
+                theme_color = self._theme_manager.get_color(f"palette{theme_key}")
+            else:
+                theme_color = self._theme_manager.get_color(f"code_viewer.syntax.{theme_key}")
+            if theme_color:
+                return QColor(theme_color)
+
+            return QColor(color_hex)
+
+        # Format: #ffffff - use color directly
+        return QColor(color_string)
 
     def load_language(self, language: str) -> bool:
         """
@@ -136,11 +188,11 @@ class CodeHighlighter(QSyntaxHighlighter):
 
                     # Set foreground color
                     if 'foreground' in format_data:
-                        text_format.setForeground(QColor(format_data['foreground']))
+                        text_format.setForeground(self._parse_color(format_data['foreground']))
 
                     # Set background color
                     if 'background' in format_data:
-                        text_format.setBackground(QColor(format_data['background']))
+                        text_format.setBackground(self._parse_color(format_data['background']))
 
                     # Set font weight
                     if 'bold' in format_data and format_data['bold']:
@@ -216,6 +268,7 @@ class CodeViewer(QPlainTextEdit):
 
         # Create line number area
         self.line_number_area = LineNumberArea(self)
+        self.line_number_area.setFont(font)
 
         # Connect signals for line numbers
         self.blockCountChanged.connect(self.update_line_number_area_width)
@@ -298,6 +351,8 @@ class CodeEditor(QWidget):
 
     # Viewer name
     name = "Code Viewer"
+    accepted_extensions = ["txt", "h", "json", "py", "xml"]
+    allow_unsupported_extensions = True
 
     _ext_lang_map: dict[str, str] = {}
 
@@ -310,7 +365,6 @@ class CodeEditor(QWidget):
         # Create bottom status bar
         self.status_bar = QFrame()
         self.status_bar.setFrameShape(QFrame.Shape.StyledPanel)
-        self.status_bar.setStyleSheet("background-color: #2a2a2a; color: white;")
 
         # Setup status bar layout
         status_layout = QHBoxLayout(self.status_bar)

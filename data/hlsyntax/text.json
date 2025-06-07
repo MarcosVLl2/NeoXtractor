@@ -2,20 +2,20 @@
   "name": "Plain Text",
   "formats": {
     "default": {
-      "foreground": "black"
+      "foreground": "#000000@.text"
     },
     "url": {
-      "foreground": "#3794FF",
+      "foreground": "#0066cc@variable",
       "underline": true
     },
     "path": {
-      "foreground": "#DCDCAA"
+      "foreground": "#795548@function"
     },
     "number": {
-      "foreground": "#B5CEA8"
+      "foreground": "#800080@number"
     },
     "email": {
-      "foreground": "#4EC9B0"
+      "foreground": "#008080@type"
     }
   },
   "rules": [

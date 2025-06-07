@@ -6,8 +6,9 @@ from PIL import Image, ImageFile
 import numpy as np
 
 from core.images import convert_image, image_to_png_data
+from gui.widgets.tab_window_ui.texture_viewer import setup_texture_viewer_tab_window
 
-QT_SUPPORTED_FORMATS = tuple(fmt.toStdString() for fmt in QtGui.QImageReader.supportedImageFormats())
+QT_SUPPORTED_FORMATS = list(fmt.toStdString() for fmt in QtGui.QImageReader.supportedImageFormats())
 
 class ImageDecodeTaskSignals(QtCore.QObject):
     """Signals for the image decode task."""
@@ -18,10 +19,10 @@ class ImageDecodeTaskSignals(QtCore.QObject):
 class ImageDecodeTask(QtCore.QRunnable):
     """A task to decode an image in a separate thread."""
 
-    signals = ImageDecodeTaskSignals()
-
     def __init__(self, data: bytes, extension: str):
         super().__init__()
+
+        self.signals = ImageDecodeTaskSignals()
 
         self.cancelled = False
 
@@ -35,9 +36,13 @@ class ImageDecodeTask(QtCore.QRunnable):
             texture = QtGui.QImage.fromData(self.data)
         else:
             # Use custom conversion for unsupported formats
-            texture = QtGui.QImage.fromData(image_to_png_data(
-                cast(Image.Image | ImageFile.ImageFile,convert_image(self.data, self.extension))
-                ))
+            try:
+                texture = QtGui.QImage.fromData(image_to_png_data(
+                    cast(Image.Image | ImageFile.ImageFile,convert_image(self.data, self.extension))
+                    ))
+            except Exception as e:
+                self.signals.load_failed.emit(str(e))
+                raise e
 
         if self.cancelled:
             return
@@ -53,8 +58,9 @@ class TextureViewer(QtWidgets.QWidget):
 
     # Viewer attributes
     name = "Texture Viewer"
-    accepted_extensions = QT_SUPPORTED_FORMATS + ("tga", "ico",
-                           "tiff", "dds", "pvr", "ktx", "astc", "cbk")
+    accepted_extensions = QT_SUPPORTED_FORMATS + ["tga", "ico",
+                           "tiff", "dds", "pvr", "ktx", "astc", "cbk"]
+    setup_tab_window = setup_texture_viewer_tab_window
 
     def __init__(self):
         super().__init__()
@@ -176,6 +182,21 @@ class TextureViewer(QtWidgets.QWidget):
         self._processed_texture = image
 
         self._display_image()
+
+    @property
+    def texture(self) -> QtGui.QImage | None:
+        """Get the current texture."""
+        return self._texture
+    @property
+    def processed_texture(self) -> QtGui.QImage | None:
+        """Get the processed texture."""
+        return self._processed_texture
+
+    def showEvent(self, event: QtGui.QShowEvent):
+        """Handle show events."""
+        super().showEvent(event)
+        if self._texture is not None:
+            self._display_image()
 
     def resizeEvent(self, event: QtGui.QResizeEvent):
         """Handle resize events."""
