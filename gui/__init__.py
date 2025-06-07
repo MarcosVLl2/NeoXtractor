@@ -9,6 +9,7 @@ from core.logger import get_logger
 from gui.config_manager import ConfigManager
 from gui.fonts import load_font
 from gui.settings_manager import SettingsManager
+from gui.theme import ThemeManager
 from gui.utils.config import load_config_manager_from_settings, save_config_manager_to_settings
 from gui.windows.main_window import MainWindow
 
@@ -35,9 +36,15 @@ def run():
     config_manager = ConfigManager()
     get_logger().debug("Setup settings manager...")
     settings_manager = SettingsManager()
+    get_logger().debug("Setup theme manager...")
+    theme_manager = ThemeManager()
 
     app.setProperty("settings_manager", settings_manager)
     app.setProperty("config_manager", config_manager)
+    app.setProperty("theme_manager", theme_manager)
+
+    # Apply saved theme or default to system theme
+    theme_manager.set_theme(settings_manager.get("appearance.theme", None))
 
     app.setProperty("graphics_backend", settings_manager.get("graphics.backend", QtWidgets.QRhiWidget.Api.Null.value))
 

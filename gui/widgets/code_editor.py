@@ -13,6 +13,8 @@ from PySide6.QtWidgets import QPlainTextEdit, QWidget, QHBoxLayout, QLabel, QCom
 from core.logger import get_logger
 from core.utils import get_application_path
 
+# TODO: Integrate with Theme Manager
+
 class LineNumberArea(QWidget):
     """
     Widget that displays line numbers for a QPlainTextEdit.

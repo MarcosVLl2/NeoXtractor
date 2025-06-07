@@ -2,6 +2,8 @@
 
 from PySide6 import QtWidgets, QtCore, QtGui
 
+# TODO: Integrate with Theme Manager
+
 class HexArea(QtWidgets.QWidget):
     """
     A widget that displays a hex view of the given data.

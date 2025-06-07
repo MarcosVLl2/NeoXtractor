@@ -6,6 +6,7 @@ from typing import Any, cast, TYPE_CHECKING
 from PySide6 import QtGui, QtWidgets
 
 from gui.settings_manager import SettingsManager
+from gui.theme import ThemeManager
 from gui.widgets.color_triangle_widget import ColorTriangleWidget
 if TYPE_CHECKING:
     from gui.windows.main_window import MainWindow
@@ -27,6 +28,7 @@ class SettingsWindow(QtWidgets.QDialog):
 
         layout = QtWidgets.QVBoxLayout(self)
 
+        layout.addWidget(self._create_appearance_settings())
         layout.addWidget(self._create_graphics_settings())
 
         layout.addStretch()
@@ -47,6 +49,70 @@ class SettingsWindow(QtWidgets.QDialog):
         action_layout.addWidget(self.save_button)
 
         layout.addLayout(action_layout)
+
+    def _create_appearance_settings(self):
+        """Create the appearance settings section."""
+        appearance_group = QtWidgets.QGroupBox("Appearance Settings", self)
+        appearance_layout = QtWidgets.QVBoxLayout(appearance_group)
+
+        # Theme selection
+        theme_layout = QtWidgets.QHBoxLayout()
+        theme_layout.addWidget(QtWidgets.QLabel("Theme:", self))
+
+        self.theme_combobox = QtWidgets.QComboBox(self)
+
+        # Add system theme option
+        self.theme_combobox.addItem("System", None)
+
+        # Add available themes from theme manager
+        try:
+            theme_manager = ThemeManager.instance()
+            available_themes = theme_manager.get_available_themes()
+
+            for theme_id, theme_info in available_themes.items():
+                display_name = theme_info.get('name', theme_id.title())
+                self.theme_combobox.addItem(display_name, theme_id)
+
+        except Exception as e:
+            print(f"Error loading themes: {e}")
+
+        def set_theme(theme_id):
+            self._pending_changes["appearance.theme"] = theme_id
+
+        self.theme_combobox.currentIndexChanged.connect(
+            lambda idx: set_theme(self.theme_combobox.itemData(idx))
+        )
+
+        theme_layout.addWidget(self.theme_combobox)
+        theme_layout.addStretch()
+
+        appearance_layout.addLayout(theme_layout)
+
+        # Theme description
+        self.theme_description = QtWidgets.QLabel("", self)
+        self.theme_description.setWordWrap(True)
+        self.theme_description.setStyleSheet("color: gray; font-style: italic;")
+        appearance_layout.addWidget(self.theme_description)
+
+        # Update description when theme changes
+        def update_theme_description():
+            current_data = self.theme_combobox.currentData()
+            if current_data is None:
+                self.theme_description.setText("Use the system's default theme")
+            else:
+                try:
+                    theme_manager = ThemeManager.instance()
+                    theme_info = theme_manager.get_theme_info(current_data)
+                    description = theme_info.get('description', 'No description available')
+                    self.theme_description.setText(description)
+                except Exception:
+                    self.theme_description.setText("")
+
+        self.theme_combobox.currentIndexChanged.connect(update_theme_description)
+
+        appearance_layout.addStretch()
+
+        return appearance_group
 
     def _create_graphics_settings(self):
         """
@@ -115,6 +181,24 @@ class SettingsWindow(QtWidgets.QDialog):
         """
         Load settings from the settings manager.
         """
+        # Load theme setting
+        current_theme = self._settings_manager.get("appearance.theme", "system")
+        if current_theme == "system":
+            # Select system theme (None data)
+            for i in range(self.theme_combobox.count()):
+                if self.theme_combobox.itemData(i) is None:
+                    self.theme_combobox.setCurrentIndex(i)
+                    break
+        else:
+            # Select specific theme
+            theme_index = self.theme_combobox.findData(current_theme)
+            if theme_index != -1:
+                self.theme_combobox.setCurrentIndex(theme_index)
+        
+        # Trigger theme description update
+        self.theme_combobox.currentIndexChanged.emit(self.theme_combobox.currentIndex())
+        
+        # Load graphics settings
         backend = self._settings_manager.get("graphics.backend", QtWidgets.QRhiWidget.Api.Null.value)
         index = self.backend_combobox.findData(QtWidgets.QRhiWidget.Api(backend))
         if index != -1:
@@ -151,6 +235,14 @@ class SettingsWindow(QtWidgets.QDialog):
         for key, value in self._pending_changes.items():
             self._settings_manager.set(key, value)
         self._settings_manager.save_config()
+
+        # Apply theme changes immediately
+        if "appearance.theme" in self._pending_changes:
+            try:
+                theme_manager = ThemeManager.instance()
+                theme_manager.set_theme(self._pending_changes["appearance.theme"])
+            except Exception as e:
+                print(f"Error applying theme: {e}")
 
         main_window = cast('MainWindow', self.parent())
 
