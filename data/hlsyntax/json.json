@@ -2,24 +2,24 @@
   "name": "JSON",
   "formats": {
     "key": {
-      "foreground": "#9CDCFE"
+      "foreground": "#000080@variable"
     },
     "string": {
-      "foreground": "#CE9178"
+      "foreground": "#008000@string"
     },
     "number": {
-      "foreground": "#B5CEA8"
+      "foreground": "#800080@number"
     },
     "boolean": {
-      "foreground": "#569CD6",
+      "foreground": "#0000ff@keyword",
       "bold": true
     },
     "null": {
-      "foreground": "#569CD6",
+      "foreground": "#808080@comment",
       "italic": true
     },
     "punctuation": {
-      "foreground": "#D4D4D4"
+      "foreground": "#000000@operator"
     }
   },
   "rules": [

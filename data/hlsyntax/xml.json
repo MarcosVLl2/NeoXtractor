@@ -2,27 +2,27 @@
     "name": "XML",
     "formats": {
         "tag": {
-            "foreground": "#569CD6"
+            "foreground": "#800080@keyword"
         },
         "attribute": {
-            "foreground": "#9CDCFE"
+            "foreground": "#0066cc@attribute"
         },
         "value": {
-            "foreground": "#CE9178"
+            "foreground": "#008000@string"
         },
         "comment": {
-            "foreground": "#6A9955",
+            "foreground": "#808080@comment",
             "italic": true
         },
         "entity": {
-            "foreground": "#D7BA7D"
+            "foreground": "#ff6600@escape"
         },
         "cdata": {
-            "foreground": "#D4D4D4",
-            "background": "#1E1E1E"
+            "foreground": "#000000@operator",
+            "background": "#f0f0f0"
         },
         "declaration": {
-            "foreground": "#808080"
+            "foreground": "#808080@comment"
         }
     },
     "rules": [

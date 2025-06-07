@@ -115,8 +115,43 @@ class CodeHighlighter(QSyntaxHighlighter):
         # Set default language to plain text
         self.language = language
 
+        # Connect to theme manager
+        self._theme_manager = ThemeManager.instance()
+        self._theme_manager.theme_changed.connect(self._on_theme_changed)
+
         # Load language rules
         self.load_language(language)
+
+    def _on_theme_changed(self):
+        """Handle theme changes by reloading colors and rehighlighting."""
+        self.load_language(self.language)
+        self.rehighlight()
+
+    def _parse_color(self, color_string: str) -> QColor:
+        """
+        Parse color string that can be in format '#ffffff' or '#ffffff@keyword'.
+        
+        Args:
+            color_string: Color in format '#ffffff' or '#ffffff@keyword'
+            
+        Returns:
+            QColor: The resolved color
+        """
+        if '@' in color_string:
+            # Format: #ffffff@keyword - check theme first, fallback to color
+            color_hex, theme_key = color_string.split('@', 1)
+
+            if theme_key.startswith("."):
+                theme_color = self._theme_manager.get_color(f"palette.{theme_key}")
+            else:
+                theme_color = self._theme_manager.get_color(f"code_viewer.syntax.{theme_key}")
+            if theme_color:
+                return QColor(theme_color)
+
+            return QColor(color_hex)
+        else:
+            # Format: #ffffff - use color directly
+            return QColor(color_string)
 
     def load_language(self, language: str) -> bool:
         """
@@ -153,11 +188,11 @@ class CodeHighlighter(QSyntaxHighlighter):
 
                     # Set foreground color
                     if 'foreground' in format_data:
-                        text_format.setForeground(QColor(format_data['foreground']))
+                        text_format.setForeground(self._parse_color(format_data['foreground']))
 
                     # Set background color
                     if 'background' in format_data:
-                        text_format.setBackground(QColor(format_data['background']))
+                        text_format.setBackground(self._parse_color(format_data['background']))
 
                     # Set font weight
                     if 'bold' in format_data and format_data['bold']:

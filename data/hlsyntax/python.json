@@ -2,33 +2,33 @@
   "name": "Python",
   "formats": {
     "keyword": {
-      "foreground": "#569CD6",
+      "foreground": "#0000ff@keyword",
       "bold": true
     },
     "builtin": {
-      "foreground": "#4EC9B0"
+      "foreground": "#0066cc@variable"
     },
     "string": {
-      "foreground": "#CE9178"
+      "foreground": "#008000@string"
     },
     "comment": {
-      "foreground": "#6A9955",
+      "foreground": "#808080@comment",
       "italic": true
     },
     "function": {
-      "foreground": "#DCDCAA"
+      "foreground": "#795548@function"
     },
     "decorator": {
-      "foreground": "#FF8000"
+      "foreground": "#ff6600@preprocessor"
     },
     "number": {
-      "foreground": "#B5CEA8"
+      "foreground": "#800080@number"
     },
     "operator": {
-      "foreground": "#D4D4D4"
+      "foreground": "#000000@operator"
     },
     "class": {
-      "foreground": "#4EC9B0",
+      "foreground": "#008080@class",
       "bold": true
     }
   },

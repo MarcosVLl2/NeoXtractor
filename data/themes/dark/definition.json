@@ -50,7 +50,24 @@
       "line_number_text": "#b0b0b0",
       "current_line_background": "#3a3a3a",
       "selection_background": "#264f78",
-      "selection_text": "#ffffff"
+      "selection_text": "#ffffff",
+      
+      "syntax": {
+        "keyword": "#569cd6",
+        "string": "#ce9178", 
+        "comment": "#6a9955",
+        "number": "#b5cea8",
+        "function": "#dcdcaa",
+        "type": "#4ec9b0",
+        "operator": "#d4d4d4",
+        "preprocessor": "#c586c0",
+        "escape": "#d7ba7d",
+        "variable": "#9cdcfe",
+        "constant": "#4fc1ff",
+        "class": "#4ec9b0",
+        "attribute": "#92c5f8",
+        "error": "#f44747"
+      }
     }
   }
 }

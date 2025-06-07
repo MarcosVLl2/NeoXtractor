@@ -2,32 +2,32 @@
   "name": "C/C++ Header",
   "formats": {
     "keyword": {
-      "foreground": "#569CD6",
+      "foreground": "#0000ff@keyword",
       "bold": true
     },
     "datatype": {
-      "foreground": "#4EC9B0",
+      "foreground": "#008080@type",
       "bold": false
     },
     "preprocessor": {
-      "foreground": "#C586C0",
+      "foreground": "#800080@preprocessor",
       "italic": true
     },
     "comment": {
-      "foreground": "#6A9955",
+      "foreground": "#808080@comment",
       "italic": true
     },
     "string": {
-      "foreground": "#CE9178"
+      "foreground": "#008000@string"
     },
     "number": {
-      "foreground": "#B5CEA8"
+      "foreground": "#800080@number"
     },
     "function": {
-      "foreground": "#DCDCAA"
+      "foreground": "#795548@function"
     },
     "operator": {
-      "foreground": "#D4D4D4"
+      "foreground": "#000000@operator"
     }
   },
   "rules": [
