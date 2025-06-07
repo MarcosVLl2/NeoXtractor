@@ -268,6 +268,7 @@ class CodeViewer(QPlainTextEdit):
 
         # Create line number area
         self.line_number_area = LineNumberArea(self)
+        self.line_number_area.setFont(font)
 
         # Connect signals for line numbers
         self.blockCountChanged.connect(self.update_line_number_area_width)
