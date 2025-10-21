@@ -4,6 +4,7 @@ from typing import cast
 import zlib
 import lz4.block
 import zstandard
+import struct
 
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
@@ -34,10 +35,8 @@ def decompress_entry(entry: NPKEntry):
     of the provided `entry` and applies the corresponding decompression algorithm.
     The decompressed data is returned as the output.
 
-
     Returns:
         bytes: The decompressed data.
-
 
         The decompressed data is returned as a new object and does not modify the original
         `data` attribute of the `entry` object.
@@ -64,9 +63,31 @@ def check_rotor(entry: NPKEntry) -> bool:
     """Check if the data is ROTOR encrypted."""
     return (entry.data[:2] == bytes([0x1D, 0x04]) or entry.data[:2] == bytes([0x15, 0x23]))
 
+def check_stzb(entry: NPKEntry) -> bool:
+    return entry.data[:4] == b'STZB'
+
 def unpack_rotor(data):
     """Unpacks the ROTOR decryption with the RSA public key and zlib decompression"""
     return _reverse_string(zlib.decompress(init_rotor().decrypt(data)))
+
+def unpack_stzb(data):
+    """Unpacks STZB encrypted data - completely aligned with the second script"""
+    if data[:4] != b'STZB':
+        return data
+    
+    magic = data[0:4]
+    unknown = data[4:8]
+    compressed_len = struct.unpack('<I', data[8:12])[0]
+    encrypted_len = struct.unpack('<I', data[12:16])[0]
+    
+    xor_key = b'\x8E\x50\x9F\xE8\x59\x67\x91\xFB'
+    decrypted_data = bytearray()
+    
+    for i, byte in enumerate(encrypted_data):
+        key_byte = xor_key[i % len(xor_key)]
+        decrypted_data.append(byte ^ key_byte)
+    
+    return bytes(decrypted_data)
 
 def rsa_public_decrypt(signature: bytes, key: rsa.RSAPublicKey) -> bytes:
     """Converts a signature to an integer and decrypts it using the RSA public key."""
@@ -143,3 +164,4 @@ YWIEf8qgkylqsOQ3IIn76udV6m0AWC2jDlmLeRcR04w9NNw7+9t9AgMBAAE=
 
     decrypted = bytes(decrypted)
     return decrypted
+    
