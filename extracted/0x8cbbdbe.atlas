@@ -1,0 +1,48 @@
+
+insect_game_plants_c_14.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj_sf2_10
+  rotate: false
+  xy: 1052, 50
+  size: 521, 363
+  orig: 521, 363
+  offset: 0, 0
+  index: -1
+bj_sf2_3
+  rotate: false
+  xy: 1575, 119
+  size: 146, 101
+  orig: 146, 101
+  offset: 0, 0
+  index: -1
+bj_sf2_4
+  rotate: true
+  xy: 1575, 222
+  size: 191, 120
+  orig: 191, 120
+  offset: 0, 0
+  index: -1
+cj_b_51
+  rotate: true
+  xy: 2, 2
+  size: 411, 421
+  orig: 411, 421
+  offset: 0, 0
+  index: -1
+cj_b_59_sf
+  rotate: false
+  xy: 425, 50
+  size: 625, 363
+  orig: 625, 363
+  offset: 0, 0
+  index: -1
+cj_b_9_sf
+  rotate: true
+  xy: 1697, 390
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1

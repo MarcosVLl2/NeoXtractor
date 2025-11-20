@@ -1,0 +1,77 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "ttds_e_kbl_head",
+	"joint_names" : [
+		"bone071","bone072","bone074","bone117","bone112","bone108","bone085","bone125","bone126","bone127","bone091","bone080","bone096","bone100","bone104","bone121","bone129","bone128","bone130","bone131","bone078","bone076","bone118","bone113","bone109","bone086","bone092","bone081","bone097","bone101","bone105","bone123","bone079","bone077","bone119","bone114","bone110","bone087","bone095","bone082","bone098","bone103","bone107","bone124","bone073","bone075","bone120","bone115","bone111","bone088","bone093","bone084","bone116","bone102","bone106","bone122","bone089","bone094","bone083","bone099"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,10,11,12,13,14,15,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,49,50,51,52
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			60
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

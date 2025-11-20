@@ -1,0 +1,6 @@
+<NeoX>
+    <MaterialGroup MaterialCount="2" Name="hds_e_baojun_hair" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_head.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_head_01.mtl" />
+    </MaterialGroup>
+</NeoX>

@@ -1,0 +1,269 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="biped" BoundingInfo="(0.00, 12.00, -4.36),(8.41, 11.52, 8.20),16.45" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,11.7572,-3.4941" BoundingHalf="8.4085,11.2797,6.5055" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="banshee_d_huahuo_opposite_bo" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.7845,18.8083,-5.2459" BoundingHalf="7.5020,4.5046,7.3111" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="banshee_d_huahuo_opposite_he" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-0.0306,21.1178,2.4324" BoundingHalf="1.5706,2.3992,1.4062" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="banshee_d_huahuo_opposite_mi" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../h55_banshee.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../h55_banshee.animconfig" />
+    </AnimationConfigFile>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="5.4022,-0.1692,0.0246" LocalRotation="-0.0843,0.0514,-0.7018,0.7055" LocalScale="1.3013,1.3004,1.3013" Name="fx_id_001" PlayRatePolicy="1" />
+        <Socket_1 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="1.1834,0.5832,0.3256" LocalRotation="0.1774,-0.2782,-0.7737,0.5408" LocalScale="0.8009,0.8006,0.8010" Name="heart" PlayRatePolicy="1" />
+        <Socket_2 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.0931,-2.4759,0.0038" LocalRotation="0.3118,0.6490,-0.3387,0.6056" LocalScale="1.0022,1.0012,1.0016" Name="guajian_fazan" PlayRatePolicy="1" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_outside" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="7833670df710beb8" Inherit="7" Loading="1" Name="idle_special_1" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_idle_special_1" />
+            <Object CastShadow="false" Id="d36a396ae94768a3" Inherit="7" Loading="1" Name="idle_special_2" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_idle_special_2" />
+            <Object CastShadow="false" Id="d96c383300136673" Inherit="7" Loading="1" Name="idle_special_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_idle_special_3" />
+            <Object CastShadow="false" Id="2d172796699eb3ad" Inherit="7" Loading="1" Name="idle_special_4" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_idle_special_4" />
+            <Object CastShadow="false" Id="c91b9c9287cea469" Inherit="7" Loading="1" Name="load" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_load" />
+            <Object CastShadow="false" Id="9b466fc806b57461" Inherit="7" Loading="1" Name="load_spider_sit" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_load_spider_sit" />
+            <Object CastShadow="false" Id="479cb58c4381ee38" Inherit="7" Loading="1" Name="load_spider_stand" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_load_spider_stand" />
+            <Object CastShadow="false" Id="6e96611de90f83b3" Inherit="7" Loading="1" Name="load_spider_visit_delete" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_load_spider_visit" />
+            <Object CastShadow="false" Id="9d6fa27abdac82e2" Inherit="7" Loading="1" Name="show_appear_hunsha" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_appear_hunsha" />
+            <Object CastShadow="false" Id="dd0f411ff9e42bcb" Inherit="7" Loading="1" Name="show_idle_hunsha" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_idle_hunsha" />
+            <Object CastShadow="false" Id="c1b7ce7c7624d1f1" Inherit="7" Loading="1" Name="show_idle_special_hunsha" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_idle_special_hunsha" />
+            <Object CastShadow="false" Id="e97e41089f43ab10" Inherit="7" Loading="1" Name="show_appear_yumao" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_appear_yumao" />
+            <Object CastShadow="false" Id="b0abd90e78702e76" Inherit="7" Loading="1" Name="show_idle_yumao" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_idle_yumao" />
+            <Object CastShadow="false" Id="13dbb708b1eb3347" Inherit="7" Loading="1" Name="show_idle_special_yumao" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_banshee_show_idle_special_yumao" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="5482ddfa8951b2da" Inherit="7" Loading="1" Name="bird_view1_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_bird_view1_3" />
+            <Object CastShadow="false" Id="92c3e5a029e6e7da" Inherit="7" Loading="1" Name="close_cabinet_1" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_close_cabinet_1" />
+            <Object CastShadow="false" Id="8c85cbe0af25729e" Inherit="7" Loading="1" Name="close_cabinet_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_close_cabinet_3" />
+            <Object CastShadow="false" Id="91fc68087cd59290" Inherit="7" Loading="1" Name="destroy_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_destroy_3" />
+            <Object CastShadow="false" Id="5561ee56d21b5b6c" Inherit="7" Loading="1" Name="destroy_transmittter_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_destroy_transmittter_3" />
+            <Object CastShadow="false" Id="16ce4368638d616c" Inherit="7" Loading="1" Name="diziness" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_diziness" />
+            <Object CastShadow="false" Id="9cbbe513cf12c45b" Inherit="7" Loading="1" Name="dizziness_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_dizziness_3" />
+            <Object CastShadow="false" Id="d86926e81e602e1a" Inherit="7" Loading="1" Name="dizzy_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_dizzy" />
+            <Object CastShadow="false" Id="0624a8e7cda2bc66" Inherit="7" Loading="1" Name="dizzy_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_dizzy_3" />
+            <Object CastShadow="false" Id="a9c6f224b12a6607" Inherit="7" Loading="1" Name="fall_1" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_fall_1" />
+            <Object CastShadow="false" Id="3eb4c352c2fe6b16" Inherit="7" Loading="1" Name="fall_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_fall_3" />
+            <Object CastShadow="false" Id="3434cae462301bb2" Inherit="7" Loading="1" Name="fanttack_rebound_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_fanttack_rebound" />
+            <Object CastShadow="false" Id="63252f8d141c3f6f" Inherit="7" Loading="1" Name="fanttack_rebound_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_fanttack_rebound_3" />
+            <Object CastShadow="false" Id="4b1463c205ba9137" Inherit="7" Loading="1" Name="happy_carry_hit_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_carry_hit_3" />
+            <Object CastShadow="false" Id="9fea5133f0dcac89" Inherit="7" Loading="1" Name="happy_carry_struggle_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_carry_struggle_3" />
+            <Object CastShadow="false" Id="a823f669d2c94812" Inherit="7" Loading="1" Name="happy_catch_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_catch_3" />
+            <Object CastShadow="false" Id="8034ad57ad64249b" Inherit="7" Loading="1" Name="happy_discard_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_discard_3" />
+            <Object CastShadow="false" Id="a2e7a904adf3d23e" Inherit="7" Loading="1" Name="happy_fanttack_1_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_fanttack_1_3" />
+            <Object CastShadow="false" Id="81d66a0376ac8edf" Inherit="7" Loading="1" Name="happy_fanttack_2_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_fanttack_2_3" />
+            <Object CastShadow="false" Id="1b80adf3c221f904" Inherit="7" Loading="1" Name="happy_fanttack_show_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_fanttack_show_3" />
+            <Object CastShadow="false" Id="6cf280506b8144b5" Inherit="7" Loading="1" Name="happy_hang_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_hang_3" />
+            <Object CastShadow="false" Id="d57c7f2a1003ca92" Inherit="7" Loading="1" Name="happy_pick_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_pick_3" />
+            <Object CastShadow="false" Id="0aff26a9e7141e60" Inherit="7" Loading="1" Name="hit_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_hit" />
+            <Object CastShadow="false" Id="75de7a1d187f6896" Inherit="7" Loading="1" Name="hit_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_hit_3" />
+            <Object CastShadow="false" Id="d656f70069c92d1a" Inherit="7" Loading="1" Name="idle_special_1_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_idle_special_1" />
+            <Object CastShadow="false" Id="678f8e801c924eeb" Inherit="7" Loading="1" Name="idle_special_2_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_idle_special_2" />
+            <Object CastShadow="false" Id="0e1121a34efc7159" Inherit="7" Loading="1" Name="idle_special_3_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_idle_special_3" />
+            <Object CastShadow="false" Id="5790c0454ce25f4b" Inherit="7" Loading="1" Name="idle_special_4_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_idle_special_4" />
+            <Object CastShadow="false" Id="60ce0ebb1719fe27" Inherit="7" Loading="1" Name="load_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_load" />
+            <Object CastShadow="false" Id="cc459bb340c8558f" Inherit="7" Loading="1" Name="load_spider_sit_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_load_spider_sit" />
+            <Object CastShadow="false" Id="e83832ee4ebb3417" Inherit="7" Loading="1" Name="load_spider_stand_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_load_spider_stand" />
+            <Object CastShadow="false" Id="a638a9dd353804f8" Inherit="7" Loading="1" Name="load_spider_visit_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_load_spider_visit" />
+            <Object CastShadow="false" Id="cb88732dde6e3956" Inherit="7" Loading="1" Name="open_cabinet_1" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_open_cabinet_1" />
+            <Object CastShadow="false" Id="7055b9bbc1351451" Inherit="7" Loading="1" Name="open_cabinet_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_open_cabinet_3" />
+            <Object CastShadow="false" Id="90298ebe748fa8ee" Inherit="7" Loading="1" Name="repair_hook_3_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_repair_hook_3" />
+            <Object CastShadow="false" Id="c26dee0c36894cd8" Inherit="7" Loading="1" Name="span_1" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_span_1" />
+            <Object CastShadow="false" Id="70e32ace7769696b" Inherit="7" Loading="1" Name="span_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_span_3" />
+            <Object CastShadow="false" Id="40a1c83087960da7" Inherit="7" Loading="1" Name="load_01_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_1p_vo_banshee_load" />
+            <Object CastShadow="false" Id="ddba961c3ddcc2cc" Inherit="7" Loading="1" Name="load_spider_sit_01_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_1p_vo_banshee_load_spider_sit" />
+            <Object CastShadow="false" Id="d9275af643695c56" Inherit="7" Loading="1" Name="load_spider_stand_01_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_1p_vo_banshee_load_spider_stand" />
+            <Object CastShadow="false" Id="1f29aef6ed2d8258" Inherit="7" Loading="1" Name="load_spider_visit_01_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_1p_vo_banshee_load_spider_visit" />
+            <Object CastShadow="false" Id="e6a31a7bc73b1357" Inherit="7" Loading="1" Name="happy_carry_struggle_add_3" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_happy_carry_struggle_add_3" />
+            <Object CastShadow="false" Id="ae8aa9baac6b6407" Inherit="7" Loading="1" Name="show_appear_hunsha_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_appear_hunsha" />
+            <Object CastShadow="false" Id="d188ef05fc269f8d" Inherit="7" Loading="1" Name="show_idle_hunsha_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_idle_hunsha" />
+            <Object CastShadow="false" Id="238198d25a5705af" Inherit="7" Loading="1" Name="show_idle_special_hunsha_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_idle_special_hunsha" />
+            <Object CastShadow="false" Id="5240968e229c7a8e" Inherit="7" Loading="1" Name="show_appear_yumao_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_appear_yumao" />
+            <Object CastShadow="false" Id="235d91a4ce900ab8" Inherit="7" Loading="1" Name="show_idle_yumao_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_idle_yumao" />
+            <Object CastShadow="false" Id="ca0037b9f334f8a0" Inherit="7" Loading="1" Name="show_idle_special_yumao_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_vo_banshee_show_idle_special_yumao" />
+            <Object CastShadow="false" Id="60130f364d69c39a" Inherit="7" Loading="1" Name="emotion_salute_banshee_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_special_vo_emotion_salute_banshee" />
+            <Object CastShadow="false" Id="0930c3082d78c99d" Inherit="7" Loading="1" Name="emotion_salute_banshee_3_delete" Uri="wwise/killer_vo_banshee.bnk:killer_vo_banshee/Event|P_killer_vo_banshee_killer_3p_special_vo_emotion_salute_banshee_3" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.9019,-0.2813,0.4910" LocalRotation="-0.0098,0.5833,-0.1130,0.8043" LocalScale="1.0027,1.0012,1.0014" Name="puppet" PlayRatePolicy="1" />
+        <Socket_6 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.6890,0.0319,1.0498" LocalRotation="-0.0792,0.0792,-0.7026,0.7028" LocalScale="1.0012,1.0015,1.0022" Name="wuni_face_01" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="904900f858e8eac9" Inherit="7" Loading="1" Name="shuangguimoshi_skill_wuni_002" Uri="fx\common\shuangguimoshi_skill_wuni_002.pse" />
+        </Socket_6>
+        <Socket_7 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.3739,0.0004,-0.9521" LocalRotation="-0.0792,0.0792,-0.7026,0.7028" LocalScale="1.0012,1.0015,1.0022" Name="wuni_face_02" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="f320126a1a920ff4" Inherit="7" Loading="1" Name="shuangguimoshi_skill_wuni_004" Uri="fx\common\shuangguimoshi_skill_wuni_004.pse" />
+        </Socket_7>
+        <Socket_8 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="2.2107,-0.0004,1.9097" LocalRotation="-0.0792,0.0792,-0.7026,0.7028" LocalScale="1.0012,1.0015,1.0022" Name="fx_cuimianshi_001" PlayRatePolicy="1" />
+        <Socket_9 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.3591,0.0510,2.6246" LocalRotation="0.0018,0.0180,-0.8114,0.5841" LocalScale="1.0010,1.0005,1.0010" Name="eye" PlayRatePolicy="1" />
+        <Socket_10 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.0230,0.5582,0.0298,0.8288" LocalScale="0.9999,1.0005,1.0000" Name="chuansong" PlayRatePolicy="1" />
+        <Socket_11 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.9037,-0.1683,0.8307" LocalRotation="0.3411,-0.3270,-0.7012,0.5338" LocalScale="1.0012,1.0015,1.0017" Name="dual_bottle" PlayRatePolicy="1" />
+        <Socket_12 BindType="7" BindingBone="biped l calf" BindingFlag="2" LocalPosition="1.8624,-1.3723,0.7955" LocalRotation="0.5786,-0.4718,0.6492,0.1456" LocalScale="1.0004,1.0017,1.0021" Name="maildog_bite" PlayRatePolicy="1" />
+        <Socket_13 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.7936,0.0002,-0.1864" LocalRotation="0.0948,-0.0950,-0.7007,0.7008" LocalScale="1.0012,1.0005,1.0012" Name="miaozhun" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="dd08739b6ca33051" Inherit="7" Loading="1" Name="kongjun_miaozhun_01" Uri="fx\survivor\kongjun_miaozhun_01.pse" />
+        </Socket_13>
+        <Socket_14 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.4063,18.2325,1.1576" LocalRotation="0.2307,0.1249,0.1121,0.9584" LocalScale="1.0000,1.0000,1.0000" Name="redlight" PlayRatePolicy="1" />
+        <Socket_15 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0948,-0.0949,-0.7007,0.7008" LocalScale="1.0000,1.0000,1.0000" Name="magnet_guangquan" PlayRatePolicy="1" />
+        <Socket_16 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="0.1764,0.0018,-3.2483" LocalRotation="0.7132,0.6978,-0.0240,0.0626" LocalScale="1.0000,1.0000,0.9999" Name="guajian_tongyongbuou1" PlayRatePolicy="1" />
+        <Socket_17 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2850,19.9502,1.1576" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui" PlayRatePolicy="1" />
+        <Socket_18 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,22.7060,0.0000" LocalRotation="-0.0474,-0.0375,-0.0166,0.9980" LocalScale="1.0002,1.0004,0.9998" Name="dialogue" PlayRatePolicy="1" />
+        <Socket_19 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.4586,15.9765,12.0155" LocalRotation="-0.1908,-0.0441,-0.2210,0.9554" LocalScale="1.0000,1.0000,1.0000" Name="hit" PlayRatePolicy="1" />
+        <Socket_20 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,19.7950,2.3820" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="mianju" PlayRatePolicy="1" />
+        <Socket_21 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="-2.4034,9.4762,14.7678" LocalRotation="0.9292,0.0071,0.1225,-0.3486" LocalScale="1.0011,1.0008,1.0020" Name="carry_socket" PlayRatePolicy="1" />
+        <Socket_22 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0005,1.0005,1.0000" Name="fx_shandianqiu_001" PlayRatePolicy="1" />
+        <Socket_23 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_special" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="29c19a5c2267a989" Inherit="7" Loading="1" Name="emotion_dance" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dance" />
+            <Object CastShadow="false" Id="bea24e4114be8dff" Inherit="7" Loading="1" Name="emotion_dance_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dance_3" />
+            <Object CastShadow="false" Id="3f0b5896d46cf25f" Inherit="7" Loading="1" Name="emotion_salute_banshee" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_emotion_salute_banshee" />
+            <Object CastShadow="false" Id="4756199d5f16cb56" Inherit="7" Loading="1" Name="emotion_salute_banshee_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_emotion_salute_banshee_3" />
+            <Object CastShadow="false" Id="b0c63b1afb22faed" Inherit="7" Loading="1" Name="load_banshee_sit_yanyi_delete" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_load_banshee_sit_yanyi" />
+            <Object CastShadow="false" Id="ade1ca7efd545d37" Inherit="7" Loading="1" Name="load_yanyi_delete" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_load_yanyi" />
+            <Object CastShadow="false" Id="777f63b6d34fc266" Inherit="7" Loading="1" Name="show_appear_xueshan" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_appear_xueshan" />
+            <Object CastShadow="false" Id="39b7bda7ab5e0172" Inherit="7" Loading="1" Name="show_appear_yanyi" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_appear_yanyi" />
+            <Object CastShadow="false" Id="03d065e348ee27c6" Inherit="7" Loading="1" Name="show_idle_special_yanyi" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_idle_special_yanyi" />
+            <Object CastShadow="false" Id="9a0f4bf34b0c8b3f" Inherit="7" Loading="1" Name="show_idle_xueshan" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_idle_xueshan" />
+            <Object CastShadow="false" Id="fcad31ec92299cfb" Inherit="7" Loading="1" Name="show_idle_yanyi" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_idle_yanyi" />
+            <Object CastShadow="false" Id="7939ab3cc027b61a" Inherit="7" Loading="1" Name="emotion_dice_1" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dice_1" />
+            <Object CastShadow="false" Id="3209b7b977c55082" Inherit="7" Loading="1" Name="emotion_dice_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dice_3" />
+            <Object CastShadow="false" Id="4f82812e6c9f0573" Inherit="7" Loading="1" Name="emotion_dice_20_1" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dice_20_1" />
+            <Object CastShadow="false" Id="f8e06565f891e12d" Inherit="7" Loading="1" Name="emotion_dice_20_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_dice_20_3" />
+            <Object CastShadow="false" Id="309cdaab41a1bb5d" Inherit="7" Loading="1" Name="emotion_trouble_1" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_trouble_1" />
+            <Object CastShadow="false" Id="e5faf53e8b97b6b2" Inherit="7" Loading="1" Name="emotion_trouble_3" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_special_vo_banshee_emotion_trouble_3" />
+            <Object CastShadow="false" Id="e85584fddaaf4c83" Inherit="7" Loading="1" Name="show_idle_special_hei" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_idle_special_hei" />
+            <Object CastShadow="false" Id="ab814f6e60084067" Inherit="7" Loading="1" Name="show_appear_hei" Uri="wwise/dwrg_show_vo.bnk:dwrg_show_vo/Event|P_dwrg_show_vo_killer_show_vo_2020_banshee_show_appear_hei" />
+        </Socket_23>
+        <Socket_24 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="1.9468,-0.5465,1.6673" LocalRotation="0.6995,0.4793,0.4621,0.2597" LocalScale="1.0035,1.0034,1.0041" Name="fx_poker_idle_001" PlayRatePolicy="1" />
+        <Socket_25 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,25.1190,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="zuzhou" PlayRatePolicy="1" />
+        <Socket_26 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="0.1443,0.7993,-0.2012" LocalRotation="-0.0143,0.4374,0.0058,0.8992" LocalScale="1.0000,1.0005,1.0000" Name="const_fx_idle" PlayRatePolicy="1" />
+        <Socket_27 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0948,-0.0949,-0.7007,0.7008" LocalScale="1.0000,1.0000,1.0000" Name="magnet_yindao" PlayRatePolicy="1" />
+        <Socket_28 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="1.3143,0.0000,0.0000" LocalRotation="-0.0003,0.0000,0.0000,1.0000" LocalScale="1.0030,1.0030,1.0018" Name="puppet_tower_hand" PlayRatePolicy="1" />
+        <Socket_29 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="f25eafdac0e25b78" Inherit="7" Loading="1" Name="bird_view1_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_bird_view1_3" />
+            <Object CastShadow="false" Id="1cc50eb6b708b027" Inherit="7" Loading="1" Name="bird_view2_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_bird_view2_3" />
+            <Object CastShadow="false" Id="1a71f4cd76fb6002" Inherit="7" Loading="1" Name="close_cabinet_1" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_close_cabinet_1" />
+            <Object CastShadow="false" Id="15cc2fa6115a3452" Inherit="7" Loading="1" Name="destroy_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_destroy_3" />
+            <Object CastShadow="false" Id="7352891db39ffe9e" Inherit="7" Loading="1" Name="destroy_transmittter_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_destroy_transmittter_3" />
+            <Object CastShadow="false" Id="9629eb7e5ded34bc" Inherit="7" Loading="1" Name="diziness_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_diziness" />
+            <Object CastShadow="false" Id="1e10f9a87a2f81d0" Inherit="7" Loading="1" Name="dizziness_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_dizziness_3" />
+            <Object CastShadow="false" Id="e3294febc2bb426f" Inherit="7" Loading="1" Name="dizzy_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_dizzy" />
+            <Object CastShadow="false" Id="4213ad099e98089a" Inherit="7" Loading="1" Name="dizzy_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_dizzy_3" />
+            <Object CastShadow="false" Id="aa5e59991006d162" Inherit="7" Loading="1" Name="fall_1_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_fall_1" />
+            <Object CastShadow="false" Id="eeaa83e4ffa4f0e1" Inherit="7" Loading="1" Name="fall_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_fall_3" />
+            <Object CastShadow="false" Id="3ca078cad18daec3" Inherit="7" Loading="1" Name="fanttack_rebound_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_fanttack_rebound" />
+            <Object CastShadow="false" Id="7725efc41d737d77" Inherit="7" Loading="1" Name="fanttack_rebound_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_fanttack_rebound_3" />
+            <Object CastShadow="false" Id="5ac86195ec2e5cf5" Inherit="7" Loading="1" Name="happy_carry_hit_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_carry_hit_3" />
+            <Object CastShadow="false" Id="c1134046c2c193de" Inherit="7" Loading="1" Name="happy_carry_struggle_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_carry_struggle_3" />
+            <Object CastShadow="false" Id="faec5dee19416cfb" Inherit="7" Loading="1" Name="happy_catch_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_catch_3" />
+            <Object CastShadow="false" Id="6dba315772ee2e8e" Inherit="7" Loading="1" Name="happy_discard_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_discard_3" />
+            <Object CastShadow="false" Id="93c900cf5ad7e6c6" Inherit="7" Loading="1" Name="happy_fanttack_1_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_fanttack_1_3" />
+            <Object CastShadow="false" Id="a060f919d5cde444" Inherit="7" Loading="1" Name="happy_fanttack_1_end_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_fanttack_1_end_3" />
+            <Object CastShadow="false" Id="22a5c66d4958a41d" Inherit="7" Loading="1" Name="happy_fanttack_2_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_fanttack_2_3" />
+            <Object CastShadow="false" Id="663d90a4265ba5b0" Inherit="7" Loading="1" Name="happy_fanttack_2_end_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_fanttack_2_end_3" />
+            <Object CastShadow="false" Id="f5fb19b0d7120d95" Inherit="7" Loading="1" Name="happy_fanttack_show_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_fanttack_show_3" />
+            <Object CastShadow="false" Id="23f397f91b285f45" Inherit="7" Loading="1" Name="happy_hang_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_hang_3" />
+            <Object CastShadow="false" Id="5b7fecd0a9b58f7b" Inherit="7" Loading="1" Name="happy_pick_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_pick_3" />
+            <Object CastShadow="false" Id="4360b583f58e8bf2" Inherit="7" Loading="1" Name="hells_sprint_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_hells_sprint_3" />
+            <Object CastShadow="false" Id="5847c596e42407c3" Inherit="7" Loading="1" Name="hit_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_hit_3" />
+            <Object CastShadow="false" Id="416f7411f39cb853" Inherit="7" Loading="1" Name="idle_special_1_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_idle_special_1" />
+            <Object CastShadow="false" Id="bec59c74b80dd947" Inherit="7" Loading="1" Name="idle_special_2_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_idle_special_2" />
+            <Object CastShadow="false" Id="dd2f697375156ceb" Inherit="7" Loading="1" Name="idle_special_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_idle_special_3" />
+            <Object CastShadow="false" Id="d82f8f4581628ac9" Inherit="7" Loading="1" Name="idle_special_4" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_idle_special_4" />
+            <Object CastShadow="false" Id="af314fa53e1ca39e" Inherit="7" Loading="1" Name="load" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_load" />
+            <Object CastShadow="false" Id="5d514fd42e28d933" Inherit="7" Loading="1" Name="load_banshee_sit" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_load_banshee_sit" />
+            <Object CastShadow="false" Id="8c3b8cd491947866" Inherit="7" Loading="1" Name="load_banshee_stand" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_load_banshee_stand" />
+            <Object CastShadow="false" Id="af95d5f287c7fc4a" Inherit="7" Loading="1" Name="load_banshee_visit" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_load_banshee_visit" />
+            <Object CastShadow="false" Id="3e2e349f8f6f7fd9" Inherit="7" Loading="1" Name="open_cabinet_1" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_open_cabinet_1" />
+            <Object CastShadow="false" Id="66ee6a1471f696c0" Inherit="7" Loading="1" Name="open_cabinet_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_open_cabinet_3" />
+            <Object CastShadow="false" Id="31d0a5e8d853ffbf" Inherit="7" Loading="1" Name="place_patrol_puppet_banshee_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_place_patrol_puppet_banshee_3" />
+            <Object CastShadow="false" Id="340ea91a0b41322d" Inherit="7" Loading="1" Name="place_tower_banshee_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_place_tower_banshee_3" />
+            <Object CastShadow="false" Id="dadd8e2f6a20b562" Inherit="7" Loading="1" Name="repair_hook_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_repair_hook_3" />
+            <Object CastShadow="false" Id="f88dc1c337a5cfd0" Inherit="7" Loading="1" Name="run_1" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_run_1" />
+            <Object CastShadow="false" Id="c2928e4abff5094f" Inherit="7" Loading="1" Name="run_1_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_run_1_3" />
+            <Object CastShadow="false" Id="9d31fca8782463f2" Inherit="7" Loading="1" Name="run_2_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_run_2_3" />
+            <Object CastShadow="false" Id="667eb2eb85ae5c13" Inherit="7" Loading="1" Name="span_1" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_span_1" />
+            <Object CastShadow="false" Id="0b3b72356582dbbb" Inherit="7" Loading="1" Name="span_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_span_3" />
+            <Object CastShadow="false" Id="47c8dcdbde5f8c05" Inherit="7" Loading="1" Name="close_cabinet_3_delete" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_close_cabinet_3" />
+            <Object CastShadow="false" Id="2a0b3f8e6d654129" Inherit="7" Loading="1" Name="happy_carry_struggle_add_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_happy_carry_struggle_add_3" />
+            <Object CastShadow="false" Id="109f860abccf32f0" Inherit="7" Loading="1" Name="butcher_skill_destroy_transmittter" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_skill_3p_butcher_skill_destroy_transmittter" />
+            <Object CastShadow="false" Id="7030a60063c9aae1" Inherit="7" Loading="1" Name="butcher_repair_hook" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_happy_butcher_repair_hook" />
+            <Object CastShadow="false" Id="8219bb09ebae4f47" Inherit="7" Loading="1" Name="run_2" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_run_2" />
+            <Object CastShadow="false" Id="3f7c86a41212fcde" Inherit="7" Loading="1" Name="bird_view4_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_bird_view4_3" />
+            <Object CastShadow="false" Id="ee19f2eb9d5caa9e" Inherit="7" Loading="1" Name="show_appear_hunsha" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_appear_hunsha" />
+            <Object CastShadow="false" Id="5a5211a6f81c1f5f" Inherit="7" Loading="1" Name="show_idle_hunsha" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_idle_hunsha" />
+            <Object CastShadow="false" Id="8739f6062617c9ba" Inherit="7" Loading="1" Name="show_idle_special_hunsha" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_idle_special_hunsha" />
+            <Object CastShadow="false" Id="bea0eee72e53d759" Inherit="7" Loading="1" Name="show_appear_yumao" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_appear_yumao" />
+            <Object CastShadow="false" Id="839198699c1171f1" Inherit="7" Loading="1" Name="show_idle_yumao" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_idle_yumao" />
+            <Object CastShadow="false" Id="860e5f3a1909352c" Inherit="7" Loading="1" Name="show_idle_special_yumao" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_show_idle_special_yumao" />
+            <Object CastShadow="false" Id="b1a7a239a4ebe28c" Inherit="7" Loading="1" Name="show_appear_baiwugou" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_show_appear_baiwugou" />
+            <Object CastShadow="false" Id="4642d6c508e9e44e" Inherit="7" Loading="1" Name="show_idle_baiwugou" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_show_idle_baiwugou" />
+            <Object CastShadow="false" Id="7d31a51e8482080e" Inherit="7" Loading="1" Name="show_idle_special_baiwugou" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_show_idle_special_baiwugou" />
+            <Object CastShadow="false" Id="678dc63d54b3a35c" Inherit="7" Loading="1" Name="walk" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_walk" />
+            <Object CastShadow="false" Id="ccf6ffbde2bfaa2b" Inherit="7" Loading="1" Name="show_appear_xianhe" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_2019_show_appear_xianhe" />
+            <Object CastShadow="false" Id="808afdf2fc745832" Inherit="7" Loading="1" Name="show_idle_xianhe" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_2019_show_idle_xianhe" />
+            <Object CastShadow="false" Id="bf7dac5512e94123" Inherit="7" Loading="1" Name="show_idle_special_xianhe" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_2019_show_idle_special_xianhe" />
+            <Object CastShadow="false" Id="02526fadb972081f" Inherit="7" Loading="1" Name="banshee_outfire_butcher_1" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_banshee_outfire_butcher_1" />
+            <Object CastShadow="false" Id="013320475e82e30c" Inherit="7" Loading="1" Name="banshee_outfire_butcher_3" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_banshee_banshee_outfire_butcher_3" />
+            <Object CastShadow="false" Id="1c3b49f7dc756370" Inherit="7" Loading="1" Name="show_appear_xueshan" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_appear_xueshan" />
+            <Object CastShadow="false" Id="7f0bc7af91d66d8f" Inherit="7" Loading="1" Name="show_idle_special_xueshan" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_special_xueshan" />
+            <Object CastShadow="false" Id="8a6e1ac75306dca3" Inherit="7" Loading="1" Name="show_idle_xueshan" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_xueshan" />
+            <Object CastShadow="false" Id="7fbdad5a6812fd73" Inherit="7" Loading="1" Name="show_appear_yanyi" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_appear_yanyi" />
+            <Object CastShadow="false" Id="b85770e504842e6e" Inherit="7" Loading="1" Name="show_idle_special_yanyi" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_special_yanyi" />
+            <Object CastShadow="false" Id="a569d9d688c9b18a" Inherit="7" Loading="1" Name="show_idle_yanyi" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_yanyi" />
+            <Object CastShadow="false" Id="4630506bdd771e2f" Inherit="7" Loading="1" Name="diangong_light_open" Uri="wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_diangong_diangong_light_open" />
+            <Object CastShadow="false" Id="ecea8ad3c58a4fd3" Inherit="7" Loading="1" Name="show_idle_special_ssn" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_special_ssn" />
+            <Object CastShadow="false" Id="4c981e7c9a67fb53" Inherit="7" Loading="1" Name="show_appear_ssn" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_appear_ssn" />
+            <Object CastShadow="false" Id="08818e59b679a561" Inherit="7" Loading="1" Name="show_idle_ssn" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_ssn" />
+            <Object CastShadow="false" Id="a18463172e68b766" Inherit="7" Loading="1" Name="emo_banshee_salute" Uri="wwise/killer_01.bnk:killer_01/Event|P_killer_01_killer_3p_banshee_emo_banshee_salute" />
+        </Socket_29>
+        <Socket_30 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,25.1190,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="name" PlayRatePolicy="1" />
+        <Socket_31 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="0.0576,-16.1353,-0.1004" LocalRotation="0.0000,0.7070,0.0000,0.7072" LocalScale="1.0007,1.0000,1.0007" Name="feitian2" PlayRatePolicy="1" />
+        <Socket_32 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,2.5749,1.8562" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="feitian3" PlayRatePolicy="1" />
+        <Socket_33 BindType="7" BindingBone="biped_bone00" BindingFlag="2" LocalPosition="4.8613,1.3944,1.4406" LocalRotation="0.7353,-0.6593,0.1146,-0.1076" LocalScale="1.0011,1.0014,1.0018" Name="guajian_zhuanshu" PlayRatePolicy="1" />
+        <Socket_34 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.0931,-2.4759,0.0038" LocalRotation="0.3118,0.6490,-0.3387,0.6056" LocalScale="1.0022,1.0012,1.0016" Name="guajian_fazan_flat" PlayRatePolicy="1" />
+        <Socket_35 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="0.1443,0.7993,-0.2012" LocalRotation="-0.0143,0.4374,0.0058,0.8992" LocalScale="1.0000,1.0005,1.0000" Name="idle" PlayRatePolicy="1" />
+        <Socket_36 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.8970,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fanchuang" PlayRatePolicy="1" />
+        <Socket_37 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="feitian" PlayRatePolicy="1" />
+        <Socket_38 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.0792,0.0584,0.4637" LocalRotation="0.6537,0.3494,0.5617,-0.3675" LocalScale="1.0029,1.0010,1.0002" Name="carry_balloon" PlayRatePolicy="1" />
+        <Socket_39 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="root" PlayRatePolicy="1" />
+        <Socket_40 BindType="7" BindingBone="biped_bone13" BindingFlag="2" LocalPosition="0.5011,0.2270,0.5633" LocalRotation="-0.6825,0.1448,-0.7068,0.1171" LocalScale="1.0021,1.0019,1.0027" Name="weapon" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_41 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="0.7890,0.1725,0.5813" LocalRotation="-0.0003,0.0002,-0.7070,0.7072" LocalScale="0.7004,0.7003,0.7000" Name="wuni_spine_01" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="0704f0e033dbdd17" Inherit="7" Loading="1" Name="shuangguimoshi_skill_wuni_003" Uri="fx\common\shuangguimoshi_skill_wuni_003.pse" />
+        </Socket_41>
+        <Socket_42 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-3.8079,24.9799,7.2023" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_002" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="3fd0af48f1f0caa8" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_42>
+        <Socket_43 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-4.7336,21.8094,5.0461" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_001" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="086f0187fd142f60" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_43>
+        <Socket_44 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.6033,0.0333,0.2233" LocalRotation="0.0010,0.0000,0.9267,-0.3759" LocalScale="0.6648,0.6644,0.6638" Name="chunjie_yanhua" PlayRatePolicy="1" />
+        <Socket_45 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="5.4022,-0.1692,0.0246" LocalRotation="-0.0843,0.0514,-0.7018,0.7055" LocalScale="1.3013,1.3004,1.3013" Name="const_fx_id_001" PlayRatePolicy="1" />
+        <Socket_46 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_root" PlayRatePolicy="1" />
+        <Socket_47 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound_outside" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="36ae8d689b706d09" Inherit="7" Loading="1" Name="show_appear_jingyu" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_appear_jingyu" />
+            <Object CastShadow="false" Id="226894f6db480b37" Inherit="7" Loading="1" Name="show_idle_jingyu" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_jingyu" />
+            <Object CastShadow="false" Id="ac881b3a3c25a806" Inherit="7" Loading="1" Name="show_idle_special_jingyu" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_special_jingyu" />
+            <Object CastShadow="false" Id="4c44b4c7181aa36d" Inherit="7" Loading="1" Name="show_appear_wuji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_appear_wuji" />
+            <Object CastShadow="false" Id="3b41ad220a64b846" Inherit="7" Loading="1" Name="show_idle_special_wuji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_special_wuji" />
+            <Object CastShadow="false" Id="28e0d90182b33501" Inherit="7" Loading="1" Name="show_idle_wuji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_wuji" />
+            <Object CastShadow="false" Id="184499da4f75f034" Inherit="7" Loading="1" Name="show_idle_special_geji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_special_geji" />
+            <Object CastShadow="false" Id="99623e04674c3ec8" Inherit="7" Loading="1" Name="show_appear_geji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_appear_geji" />
+            <Object CastShadow="false" Id="b62d3b0269399bbb" Inherit="7" Loading="1" Name="show_idle_geji" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_geji" />
+            <Object CastShadow="false" Id="bafc6d90a75a5f48" Inherit="7" Loading="1" Name="show_appear_hei" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_appear_hei" />
+            <Object CastShadow="false" Id="30f6cd30be9d7947" Inherit="7" Loading="1" Name="show_idle_hei" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_hei" />
+            <Object CastShadow="false" Id="6bcb2dbb22f0fe03" Inherit="7" Loading="1" Name="show_idle_special_hei" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_special_hei" />
+            <Object CastShadow="false" Id="19718cf59113702d" Inherit="7" Loading="1" Name="show_appear_zh" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_zh" />
+            <Object CastShadow="false" Id="53e642cb6682cdc1" Inherit="7" Loading="1" Name="show_idle_special_zh" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_zh" />
+            <Object CastShadow="false" Id="eb8b9439ab8141e9" Inherit="7" Loading="1" Name="show_idle_zh_delete" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_zh" />
+            <Object CastShadow="false" Id="5a164b2d2252bbe7" Inherit="7" Loading="1" Name="show_appear_yiyuan_delete" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_yiyuan" />
+            <Object CastShadow="false" Id="bb7ecbcd5f1df493" Inherit="7" Loading="1" Name="show_idle_special_yiyuan_delete" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_yiyuan" />
+            <Object CastShadow="false" Id="3e77c6120cc7c25e" Inherit="7" Loading="1" Name="show_idle_yiyuan_delete" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_yiyuan" />
+            <Object CastShadow="false" Id="3a6c28192f201ae6" Inherit="7" Loading="1" Name="show_appear_liuh_banshee" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_liuh_banshee" />
+            <Object CastShadow="false" Id="4ea0243849c6b670" Inherit="7" Loading="1" Name="show_idle_liuh_banshee" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_liuh_banshee" />
+            <Object CastShadow="false" Id="694556b5f6e157f6" Inherit="7" Loading="1" Name="show_idle_special_liuh_banshee" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_liuh_banshee" />
+        </Socket_47>
+        <Socket_48 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.9742,1.0449,0.2838" LocalRotation="0.1946,0.6620,-0.2885,0.6638" LocalScale="1.0029,1.0034,1.0065" Name="room_insect_catch_wang" PlayRatePolicy="1" />
+        <Socket_49 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,1.5000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_haizhou_hand_firework" PlayRatePolicy="1" />
+        <Socket_50 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.9309,-0.3116,0.4938" LocalRotation="-0.4734,-0.1119,0.7230,-0.4906" LocalScale="1.0017,1.0023,1.0026" Name="const_fx_dmm_bld" PlayRatePolicy="1" />
+        <Socket_51 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.3308,-2.7468,0.2219" LocalRotation="0.0730,0.9841,0.0454,0.1552" LocalScale="1.0009,1.0004,1.0006" Name="ride_hold" PlayRatePolicy="1" />
+        <Socket_52 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="5.7927,2.6747,1.5116" LocalRotation="-0.7113,0.0441,-0.2933,0.6373" LocalScale="1.0019,1.0018,1.0026" Name="cushion_weapon2" PlayRatePolicy="1" />
+        <Socket_53 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="-2.2060,-0.4914,-0.3479" LocalRotation="0.8239,-0.0931,0.0185,0.5587" LocalScale="1.0232,0.9926,0.9846" Name="guajian_tianyu" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

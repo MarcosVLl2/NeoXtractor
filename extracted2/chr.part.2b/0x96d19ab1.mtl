@@ -1,0 +1,52 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="bonbon_e_cat_cailani01b">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="DYNAMIC_GI_ENABLE"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr_ex.nfx::TShader" />
+		<ParamTable>
+			<TexCamo
+				Value="" />
+			<TexCompress
+				Value="" />
+			<TexEnvironment
+				Value="shader/env/blood_fish04.dds" />
+			<TexMetal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_cailani01_m.tga" />
+			<TexReflection
+				Value="" />
+			<u_ibl_enhance
+				Value="3" />
+			<Tex0
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_cailani01_d.tga" />
+			<TexNormal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_cailani01_n.tga" />
+			<u_alpha_val
+				Value="0.588235" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="150"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="2" />
+		</RenderStates>
+	</Material>
+</NeoX>

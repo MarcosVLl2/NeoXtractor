@@ -1,0 +1,53 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="kbl_e_tuan">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_FOG"
+				Val="TRUE" />
+			<Macro1
+				Key="DISSOLVE_ADJUST_VIEW_FACTOR"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\unlit_uv_flake.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<u_albedo_enhance
+				Value="10" />
+			<u_far_decay
+				Value="100,0.100000" />
+			<u_mask_color
+				Value="1.000000,0.912947,0.129442,1.000000" />
+			<u_rand
+				Value="1" />
+			<u_rand_constrast
+				Value="3" />
+			<u_speed
+				Value="1.500000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_fuhao.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="5" />
+		</RenderStates>
+	</Material>
+</NeoX>

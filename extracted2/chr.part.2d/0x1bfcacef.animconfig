@@ -1,0 +1,36 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_huxu/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="5.733333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_bonbon_e_cat_huxu/idle.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_cat"
+			FileName="animations_bonbon_e_cat_huxu/run_cat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

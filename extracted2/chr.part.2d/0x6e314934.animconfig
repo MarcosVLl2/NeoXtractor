@@ -1,0 +1,27 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_show_chugui/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="3.333333" />
+		<Animation
+			Name="show_idle_special_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show_chugui/show_idle_special_cat_bonbon.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="false"
+			start_time="0"
+			end_time="19.5" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

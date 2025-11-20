@@ -1,0 +1,2274 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_ithaqua/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_ithaqua/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_ithaqua/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_ithaqua/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_ithaqua/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_ithaqua/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_ithaqua/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_ithaqua/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_ithaqua/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_ithaqua/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_ithaqua/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_ithaqua/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack_rebound"
+			FileName="animations_ithaqua/happy_shouye_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack1"
+			FileName="animations_ithaqua/happy_shouye_attack1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack1_end"
+			FileName="animations_ithaqua/happy_shouye_attack1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack2"
+			FileName="animations_ithaqua/happy_shouye_attack2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack2_end"
+			FileName="animations_ithaqua/happy_shouye_attack2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="qwind_excute"
+			FileName="animations_ithaqua/qwind_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="qwind_last"
+			FileName="animations_ithaqua/qwind_last.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="qwind_rush_begin"
+			FileName="animations_ithaqua/qwind_rush_begin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="qwind_rush_end"
+			FileName="animations_ithaqua/qwind_rush_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="qwind_rushing"
+			FileName="animations_ithaqua/qwind_rushing.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="qwind_start"
+			FileName="animations_ithaqua/qwind_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wind_buff"
+			FileName="animations_ithaqua/wind_buff.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_end"
+			FileName="animations_ithaqua/wind_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_last"
+			FileName="animations_ithaqua/wind_last.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wind_run"
+			FileName="animations_ithaqua/wind_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wind_span"
+			FileName="animations_ithaqua/wind_span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_span_window"
+			FileName="animations_ithaqua/wind_span_window.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_special_attack"
+			FileName="animations_ithaqua/wind_special_attack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_special_attack_end"
+			FileName="animations_ithaqua/wind_special_attack_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_special_attack2"
+			FileName="animations_ithaqua/wind_special_attack2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_special_attack2_end"
+			FileName="animations_ithaqua/wind_special_attack2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wind_special_idle"
+			FileName="animations_ithaqua/wind_special_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wind_start"
+			FileName="animations_ithaqua/wind_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_ithaqua/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_ithaqua/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_ithaqua/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_ithaqua/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="deceit"
+			FileName="animations_ithaqua/deceit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_ithaqua/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_ithaqua/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_ithaqua/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dread"
+			FileName="animations_ithaqua/dread.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_ithaqua"
+			FileName="animations_ithaqua/forbidden_therapy_ithaqua.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_ithaqua/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_ithaqua/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_ithaqua/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_ithaqua/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_ithaqua/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_ithaqua/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_ithaqua/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_ithaqua/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_ithaqua/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_ithaqua/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_ithaqua/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_ithaqua/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_ithaqua/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tough"
+			FileName="animations_ithaqua/tough.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_ithaqua/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="vigilance"
+			FileName="animations_ithaqua/vigilance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_ithaqua/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_ithaqua/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_ithaqua/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_ithaqua/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_ithaqua/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_ithaqua/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_ithaqua/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_ithaqua/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_ithaqua/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_shouye"
+			FileName="animations_ithaqua/load_sit_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_shouye"
+			FileName="animations_ithaqua/load_stand_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_shouye"
+			FileName="animations_ithaqua/load_visit_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack_show"
+			FileName="animations_ithaqua/happy_shouye_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_ithaqua/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_ithaqua/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_ithaqua/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_ithaqua/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_ithaqua/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_ithaqua/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_ithaqua/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack_carry"
+			FileName="animations_ithaqua/happy_shouye_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack_carry_end"
+			FileName="animations_ithaqua/happy_shouye_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_ithaqua/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_ithaqua/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_ithaqua/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_ithaqua/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_ithaqua/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_ithaqua/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_ithaqua/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_ithaqua/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_ithaqua/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_ithaqua/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_ithaqua/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_ithaqua/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_ithaqua/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_ithaqua/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_ithaqua/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_ithaqua/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_ithaqua/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_ithaqua/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_ithaqua/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_ithaqua/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_ithaqua/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_ithaqua/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_shouye"
+			FileName="animations_ithaqua/forbidden_therapy_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_ithaqua/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_ithaqua/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_ithaqua/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_ithaqua/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_ithaqua/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_ithaqua/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_ithaqua/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_ithaqua/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_ithaqua/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_ithaqua/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_ithaqua/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_ithaqua/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_ithaqua/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_bon"
+			FileName="animations_ithaqua/guisu_show_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_ithaqua/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_ithaqua/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_ithaqua/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_ithaqua/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_ithaqua/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_ithaqua/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_ithaqua/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_ithaqua/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_ithaqua/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_ithaqua/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_ithaqua/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_ithaqua/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_ithaqua/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_ithaqua/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_ithaqua/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_ithaqua/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_ithaqua/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_ithaqua/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_shouye"
+			FileName="animations_ithaqua/show_idle_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_shouye"
+			FileName="animations_ithaqua/show_idle_special_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_ithaqua/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_ithaqua/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_ithaqua/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_ithaqua/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_ithaqua/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shouye_idle_l"
+			FileName="animations_ithaqua/shouye_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shouye_idle_r"
+			FileName="animations_ithaqua/shouye_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shouye_special_l"
+			FileName="animations_ithaqua/shouye_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shouye_special_r"
+			FileName="animations_ithaqua/shouye_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_ithaqua/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_ithaqua/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_ithaqua/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_ithaqua/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_ithaqua/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_ithaqua/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_shiri"
+			FileName="animations_ithaqua/show_appear_shiri.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.666599"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_shiri"
+			FileName="animations_ithaqua/show_idle_shiri.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_shiri"
+			FileName="animations_ithaqua/show_idle_special_shiri.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="22.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_ithaqua/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_ithaqua/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_ithaqua/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_shouye"
+			FileName="animations_ithaqua/like_drink_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_ithaqua/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_ithaqua/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_ithaqua/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_ithaqua/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_ithaqua/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_ithaqua/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_ithaqua/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_touming"
+			FileName="animations_ithaqua/show_appear_touming.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="24.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_touming"
+			FileName="animations_ithaqua/show_idle_special_touming.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_touming"
+			FileName="animations_ithaqua/show_idle_touming.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_qishi"
+			FileName="animations_ithaqua/show_idle_qishi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_qishi"
+			FileName="animations_ithaqua/show_idle_special_qishi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_qishi"
+			FileName="animations_ithaqua/show_appear_qishi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_qs"
+			FileName="animations_ithaqua/beforecast_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda_qs"
+			FileName="animations_ithaqua/hall_basket_panda_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_qs"
+			FileName="animations_ithaqua/hall_sit_catsofa_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_qs"
+			FileName="animations_ithaqua/hall_sit_chair_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa_qs"
+			FileName="animations_ithaqua/hall_sit_oldcatsofa_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_qs"
+			FileName="animations_ithaqua/hall_sit_stool_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal_qs"
+			FileName="animations_ithaqua/hall_sleep_royal_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_qs"
+			FileName="animations_ithaqua/happy_carry_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_shouye_attack_show_qs"
+			FileName="animations_ithaqua/happy_shouye_attack_show_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_qs"
+			FileName="animations_ithaqua/liftcar_idle_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan_qs"
+			FileName="animations_ithaqua/rope_swing_2_jianguan_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_qs"
+			FileName="animations_ithaqua/run_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_qs"
+			FileName="animations_ithaqua/sit_dc_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_qs"
+			FileName="animations_ithaqua/sit_roller_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wind_start_qs"
+			FileName="animations_ithaqua/wind_start_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametabe"
+			FileName="animations_ithaqua/hall_sit_gametabe.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_qs"
+			FileName="animations_ithaqua/liftcar_move_qs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_ithaqua/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_ithaqua/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_ithaqua/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_ithaqua/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_ithaqua/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_ithaqua/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_ithaqua/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_ithaqua/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_ithaqua/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_ithaqua/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_ithaqua/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_ithaqua/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_ithaqua/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_ithaqua/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_ithaqua/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_ithaqua/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_ithaqua/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_ithaqua/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_ithaqua/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_zheren"
+			FileName="animations_ithaqua/show_appear_zheren.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zheren"
+			FileName="animations_ithaqua/show_idle_special_zheren.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zheren"
+			FileName="animations_ithaqua/show_idle_zheren.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_ithaqua/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_ithaqua/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_ithaqua/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_ithaqua/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_ithaqua/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_ithaqua/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_ithaqua/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_ithaqua/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_ithaqua/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_ithaqua/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_ithaqua/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_ithaqua/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_ithaqua/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_ithaqua/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_ithaqua/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_ithaqua/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_ithaqua/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_ithaqua/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_ithaqua/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_ithaqua/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_ithaqua/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_ithaqua/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_ithaqua/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_loop"
+			FileName="animations_ithaqua/cr_cannon_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_ithaqua/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_ithaqua/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_ithaqua/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_ithaqua/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_ithaqua/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_ithaqua/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_ithaqua/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_ithaqua/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_ithaqua/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_ithaqua/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_ithaqua/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_ithaqua/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_ithaqua/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_ithaqua/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_ithaqua/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_ithaqua/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_ithaqua/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_ithaqua/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_ithaqua/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_ithaqua/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_ithaqua/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_ithaqua/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_ithaqua/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_shouye"
+			FileName="animations_ithaqua/load_sleep_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play_qs"
+			FileName="animations_ithaqua/hall_box_play_qs.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="6.833333" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_ithaqua/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_ithaqua/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_ithaqua/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_ithaqua/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_ithaqua/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_ithaqua/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_ithaqua/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_ithaqua/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.5" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_ithaqua/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.5" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_ithaqua/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_ithaqua/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<idle
+			idle_special="3,200"
+			run="3,200"
+			happy_shouye_attack1="3,0"
+			happy_shouye_attack2="3,200" />
+		<idle_special
+			idle="3,200"
+			run="3,200" />
+		<run
+			idle="3,200"
+			happy_shouye_attack1="3,200"
+			happy_shouye_attack2="3,200"
+			qwind_rush_begin="3,180"
+			wind_span="3,200"
+			wind_span_window="3,200"
+			wind_start="3,200" />
+		<happy_shouye_attack_rebound
+			idle="3,200" />
+		<happy_shouye_attack1_end
+			idle="3,200" />
+		<happy_shouye_attack2_end
+			idle="3,200" />
+		<qwind_excute
+			TransitTime="-2147483648" />
+		<qwind_rush_end
+			idle="3,150"
+			run="3,150"
+			wind_run="3,150"
+			wind_special_idle="3,150" />
+		<wind_buff
+			wind_run="3,200" />
+		<wind_end
+			idle="3,200"
+			run="1,200"
+			wind_run="3,200" />
+		<wind_run
+			idle="3,200"
+			run="3,200"
+			qwind_rush_begin="3,150"
+			wind_special_attack="3,100"
+			wind_special_attack2="3,100"
+			wind_start="3,150" />
+		<wind_span_window
+			wind_run="3,180" />
+		<wind_special_attack_end
+			run="3,400"
+			wind_run="3,150" />
+		<wind_special_attack2_end
+			wind_run="3,150" />
+		<wind_special_idle
+			idle="3,300" />
+		<hall_idle_2
+			hall_interact_baize="3,200" />
+		<hall_walk_2
+			hall_idle_2="3,200" />
+		<show_appear_shiri
+			TransitTime="0.666"
+			fall="1,200" />
+		<cr_jump_loop
+			cr_cannon_fall="1,300" />
+		<cr_cannon_loop
+			fall="1,300"
+			cr_cannon_fall="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300"
+			cr_cannon_loop="1,300" />
+	</TransitInfo>
+</AnimationConfig>

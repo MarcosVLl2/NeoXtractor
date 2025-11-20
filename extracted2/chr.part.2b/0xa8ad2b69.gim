@@ -1,0 +1,44 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(-0.04, 2.47, -1.44),(1.52, 2.45, 5.34),6.07" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0397,3.2391,3.5463" BoundingHalf="1.5240,0.8703,0.3519" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_mao003_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.0000,2.4670,-1.6016" BoundingHalf="1.4777,2.4483,5.1775" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="h55_guajian_mao003_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_cat.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_cat.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_006" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="fd97866b7c8e8b34" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_011.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_011.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3cc2bafebdf8237d" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_012.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_012.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped r forearm" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_005" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="96f84b67ec5fdb96" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_010.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_010.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="ee981532a8f49d1b" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_009.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_009.pse" />
+            <Object CastShadow="false" Id="7e0a2959252481b1" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_008.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_008.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="biped_bone01" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_007" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="d133005b0189b27c" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_013.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_013.pse" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="biped_bone02" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_008" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="e784d5c05758570b" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_014.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_014.pse" />
+        </Socket_5>
+        <Socket_6 BindType="7" BindingBone="biped_bone03" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_009" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="cefb73046d80156a" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_015.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_015.pse" />
+        </Socket_6>
+        <Socket_7 BindType="7" BindingBone="biped l foot" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_010" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="361cba51ad98ce19" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_idle_special_007.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_007.pse" />
+        </Socket_7>
+    </SocketObject>
+</NeoX>

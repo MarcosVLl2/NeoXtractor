@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "billy_e_gelude_xuying",
+	"joint_names" : [
+		"bone_beizizi_01"
+	],
+	"joint_parent_indices" : [
+		-1
+	],
+	"reference_pose" : "YE9yvhCu6j4AAAAAAACAPyKtujKmeU6z9AQ1P/MENT8AAIA/7v9/P///fz8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			1
+		],
+		"joint_index_ordered_by_lod" : [
+			0
+		],
+		"joint_lod_levels" : [
+			0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

@@ -1,0 +1,360 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Animation",
+		"AssetVersion" : 1,
+		"Dependices" : [
+			"chr/player/dm65_survivor_m/h55_survivor_m_zbs/animations_h55_survivor_m_zbs/fear_run_chunxin.cpdanimation"
+		]
+	},
+	"_FileTypeInfo" : {
+		"/m_track_group/0/tracks/0" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/1" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/2" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/3" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/1" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/2" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/3" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/action_data_list/0/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/0" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/1/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/1" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/2/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/2" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/3/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/3" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/4/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/4" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/5/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/5" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/6/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/6" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/7/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/7" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/motion_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		},
+		"/motion_joint_rest_transform_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		}
+	},
+	"m_track_group" : [
+		{
+			"property_name" : "Notifier",
+			"display_name" : "",
+			"tracks" : [
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,2.5
+						],
+						"key_values" : [
+							"start","end"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/SyncNotifierTrack",
+					"display_name" : "sync",
+					"curve" : {
+						"key_times" : [],
+						"key_values" : []
+					}
+				},
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,0.24250000715255737,0.6166999936103821,0.8361999988555908,1.1576999425888062,1.3967000246047974,1.7146999835968018,1.9957000017166138,2.3436999320983887,2.5
+						],
+						"key_values" : [
+							"start0","sound","sound2","sound3","sound4","sound5","sound6","sound7","sound8","end0"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.24250000715255737,0.6166999936103821,0.8361999988555908,1.1576999425888062,1.3967000246047974,1.7146999835968018,1.9957000017166138,2.3436999320983887
+						],
+						"key_values" : [
+							"sound_0","sound2_0","sound3_0","sound4_0","sound5_0","sound6_0","sound7_0","sound8_0"
+						]
+					}
+				}
+			]
+		},
+		{
+			"property_name" : "CustomCurve",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Material",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Morph",
+			"display_name" : "",
+			"tracks" : []
+		}
+	],
+	"action_data_list" : [
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound2_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound3_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound4_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound5_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound6_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound7_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound8_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : -1
+		}
+	],
+	"name" : "fear_run_chunxin",
+	"animation_property" : {
+		"name" : "Clip",
+		"start_time" : 0,
+		"end_time" : 2.5,
+		"motion" : {
+			"extracted_joint_name" : "",
+			"rotation_mode" : "None",
+			"translation_mode" : "None",
+			"reference_frame" : "None"
+		},
+		"target_compression_level" : "High",
+		"default_loop" : true,
+		"default_rate" : 1,
+		"cached_pose_count" : 0,
+		"raw_fbx_uri" : "",
+		"compressed_by_editor" : false
+	},
+	"motion_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"motion_joint_rest_transform_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"animation_layer" : [],
+	"is_retargeted" : false,
+	"related_joint_names" : [],
+	"pose_time" : [],
+	"pose_data" : []
+}

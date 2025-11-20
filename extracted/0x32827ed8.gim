@@ -1,0 +1,12 @@
+<NeoX AnimAccumEnable="true" BoundingInfo="(0.00, 0.84, -0.00),(0.84, 0.84, 0.30),1.23" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,0.8370,-0.0009" BoundingHalf="0.8375,0.8370,0.2963" BoundingInfo="(0.00, 0.84, -0.00),(0.84, 0.84, 0.30),1.22" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_haidaoluopan" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_lvshi_luopan_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3bcc7db5cd0b417e" Inherit="263" Loading="4" Name="lvshi_haidaoluopan_fanchuang_001.pse" Uri="fx\pendant\lvshi_haidaoluopan_fanchuang_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

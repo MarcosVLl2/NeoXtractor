@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_chelun_01" BoundingInfo="(-19.82, 11.25, 2.01),(11.71, 10.91, 5.64),16.97" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-19.8238,11.2512,2.0107" BoundingHalf="11.7098,10.9129,5.6365" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="polun_lunzi" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="emotion_birth_polun_lun.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="emotion_birth_polun_lun.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_chelun_09" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5683,-0.3414,-0.2875,0.6912" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_idle_001" PlayRatePolicy="0" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2f22518d3686b85c" Inherit="7" Loading="2" Name="polun_emotion_fourth_polun_002.pse" Uri="fx\common\polun_emotion_fourth_polun_002.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

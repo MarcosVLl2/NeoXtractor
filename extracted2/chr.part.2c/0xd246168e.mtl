@@ -1,0 +1,43 @@
+<NeoX>
+	<Material
+		IsLegacy="true"
+		Name="qiutu_e_fangying_pingmu"
+		Version="0,0,1,3">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			TechName="shader\pbr_low.fx::TShader"
+			Type="Effect" />
+		<ParamTable>
+			<u_total_intensity
+				Value="1.5" />
+			<Tex0
+				Value="chr\player\dm65_survivor_m\h55_survivor_m_qiutu\separate_dir\qiutu_e_fangying\qiutu_e_fangying_pingmu_diff.tga" />
+			<Tex1
+				Value="" />
+			<u_albedo_enhance
+				Value="3.83089653176" />
+		</ParamTable>
+		<LightingMaterial
+			Ambient="0,0,0,0"
+			Diffuse="0,0,0,0"
+			Emissive="0,0,0,0"
+			Power="0"
+			Specular="0,0,0,0" />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullBack="True"
+			LightingEnable="False"
+			SpecularEnable="False"
+			StencilTestEnable="False"
+			StencilTestValue="0"
+			StencilWriteEnable="False"
+			StencilWriteValue="0"
+			VColorEnable="False">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

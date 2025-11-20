@@ -1,0 +1,18 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_lankuang_01" BoundingInfo="(-0.08, 3.21, -0.03),(25.00, 25.00, 25.00),43.30" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0827,3.2108,-0.0253" BoundingHalf="2.0283,3.2580,3.4574" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bonbon_e_cat_cailani01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-0.0355,2.8791,-2.4110" BoundingHalf="1.3107,1.6344,0.8986" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="bonbon_e_cat_cailani01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="bonbon_e_cat_show_cailani.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="bonbon_e_cat_show_cailani.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

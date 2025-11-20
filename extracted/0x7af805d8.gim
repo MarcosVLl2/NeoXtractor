@@ -1,0 +1,34 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="biped" BoundingInfo="(0.00, 9.84, -0.06),(5.45, 9.78, 1.71),11.33" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,8.2208,0.1791" BoundingHalf="5.4541,8.1682,1.4688" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="npc_kantan_body_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-1.4084,9.3841,1.2348" BoundingHalf="0.5349,0.5565,0.2172" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="npc_kantan_body_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.0002,17.1821,-0.1956" BoundingHalf="1.7534,2.4376,1.5752" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="npc_kantan_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="guanjia_kantan.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="guanjia_kantan.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.0190,19.7107,0.5031" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="name" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.0190,14.1885,0.5031" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-6.4479,15.8615,2.1364" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui1" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.0687,19.0633,0.9565" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="16a474251784ab4a" Inherit="7" Loading="1" Name="sp_game_e230_020_1000007_kantan" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_sp_game_e230_020_1000007_kantan" />
+            <Object CastShadow="false" Id="74f2481b74175c8e" Inherit="7" Loading="1" Name="sp_game_e230_030_1000007_kantan" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_sp_game_e230_030_1000007_kantan" />
+            <Object CastShadow="false" Id="7d53a09e0f6ca4f6" Inherit="7" Loading="1" Name="sp_game_e230_070_1000007_kantan_delete" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_sp_game_e230_070_1000007_kantan" />
+            <Object CastShadow="false" Id="71848ae6af3b0618" Inherit="7" Loading="1" Name="sp_game_e220_040_100006" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_sp_game_e220_040_100006" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0518b6a832ceb1d9" Inherit="7" Loading="1" Name="kantan_3p_cough" Uri="wwise/survivor_vo_kantan_gx.bnk:/Event|Play_vo_kantan_3p_cough" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="root" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

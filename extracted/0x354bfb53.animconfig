@@ -1,0 +1,712 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_suolian/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain"
+			FileName="animations_suolian/cast_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="extend_chain"
+			FileName="animations_suolian/extend_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_chain"
+			FileName="animations_suolian/hit_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_collision_chain"
+			FileName="animations_suolian/hit_collision_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="raise_chain"
+			FileName="animations_suolian/raise_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recuit_chain"
+			FileName="animations_suolian/recuit_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_chain"
+			FileName="animations_suolian/recycle_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_collision_chain"
+			FileName="animations_suolian/recycle_collision_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_unhit_chain"
+			FileName="animations_suolian/recycle_unhit_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shake_chain"
+			FileName="animations_suolian/shake_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="unhit_chain"
+			FileName="animations_suolian/unhit_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_punkll"
+			FileName="animations_suolian/show_appear_punkll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_punkll"
+			FileName="animations_suolian/show_idle_punkll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_punkll"
+			FileName="animations_suolian/show_idle_special_punkll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_dagger_sit"
+			FileName="animations_suolian/load_dagger_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_dagger_stand"
+			FileName="animations_suolian/load_dagger_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_dagger_visit"
+			FileName="animations_suolian/load_dagger_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_suolian/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.733299"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_butcher_ll"
+			FileName="animations_suolian/load_sleep_butcher_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="share_idle_ll"
+			FileName="animations_suolian/share_idle_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_suolian/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_shoulie_ll"
+			FileName="animations_suolian/show_appear_shoulie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_shoulie_ll"
+			FileName="animations_suolian/show_idle_shoulie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_shoulie_ll"
+			FileName="animations_suolian/show_idle_special_shoulie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_punkll_2"
+			FileName="animations_suolian/show_appear_punkll_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_punkll_2"
+			FileName="animations_suolian/show_idle_punkll_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_punkll_2"
+			FileName="animations_suolian/show_idle_special_punkll_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_anubis_ll"
+			FileName="animations_suolian/show_appear_anubis_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_anubis_ll"
+			FileName="animations_suolian/show_idle_anubis_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_anubis_ll"
+			FileName="animations_suolian/show_idle_special_anubis_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_kelvnie_ll"
+			FileName="animations_suolian/show_appear_kelvnie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_kelvnie_ll"
+			FileName="animations_suolian/show_idle_kelvnie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_kelvnie_ll"
+			FileName="animations_suolian/show_idle_special_kelvnie_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_by_down"
+			FileName="animations_suolian/fling_by_down.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_by_left"
+			FileName="animations_suolian/fling_by_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_by_right"
+			FileName="animations_suolian/fling_by_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_down"
+			FileName="animations_suolian/fling_off_down.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_down_fail"
+			FileName="animations_suolian/fling_off_down_fail.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_down_success"
+			FileName="animations_suolian/fling_off_down_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_left"
+			FileName="animations_suolian/fling_off_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_left_fail"
+			FileName="animations_suolian/fling_off_left_fail.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_left_success"
+			FileName="animations_suolian/fling_off_left_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_right"
+			FileName="animations_suolian/fling_off_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_right_fail"
+			FileName="animations_suolian/fling_off_right_fail.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_right_success"
+			FileName="animations_suolian/fling_off_right_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_up"
+			FileName="animations_suolian/fling_off_up.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_up_fail"
+			FileName="animations_suolian/fling_off_up_fail.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fling_off_up_success"
+			FileName="animations_suolian/fling_off_up_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="keep_wrestle"
+			FileName="animations_suolian/keep_wrestle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="start_wrestle"
+			FileName="animations_suolian/start_wrestle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_tiexian"
+			FileName="animations_suolian/show_appear_tiexian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_tiexian"
+			FileName="animations_suolian/show_idle_special_tiexian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_tiexian"
+			FileName="animations_suolian/show_idle_tiexian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_lt"
+			FileName="animations_suolian/emotion_dice_20_lt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_lt"
+			FileName="animations_suolian/emotion_dice_lt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_lt"
+			FileName="animations_suolian/emotion_salute_lt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_lt"
+			FileName="animations_suolian/emotion_threaten_lt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_lt"
+			FileName="animations_suolian/emotion_trouble_lt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_suolian/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_suolian/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_suolian/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_suolian/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zhelong_ll"
+			FileName="animations_suolian/show_idle_zhelong_ll.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_zl"
+			FileName="animations_suolian/cast_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="extend_chain_zl"
+			FileName="animations_suolian/extend_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_chain_zl"
+			FileName="animations_suolian/hit_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_collision_chain_zl"
+			FileName="animations_suolian/hit_collision_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="raise_chain_zl"
+			FileName="animations_suolian/raise_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recuit_chain_zl"
+			FileName="animations_suolian/recuit_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_chain_zl"
+			FileName="animations_suolian/recycle_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_collision_chain_zl"
+			FileName="animations_suolian/recycle_collision_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recycle_unhit_chain_zl"
+			FileName="animations_suolian/recycle_unhit_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shake_chain_zl"
+			FileName="animations_suolian/shake_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="unhit_chain_zl"
+			FileName="animations_suolian/unhit_chain_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_suolian/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas"
+			FileName="animations_suolian/cast_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.5" />
+		<Animation
+			Name="extend_chain_xmas"
+			FileName="animations_suolian/extend_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.333333" />
+		<Animation
+			Name="hit_chain_xmas"
+			FileName="animations_suolian/hit_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.7" />
+		<Animation
+			Name="raise_chain_xmas"
+			FileName="animations_suolian/raise_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.5" />
+		<Animation
+			Name="recuit_chain_xmas"
+			FileName="animations_suolian/recuit_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="recycle_chain_xmas"
+			FileName="animations_suolian/recycle_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.233333" />
+		<Animation
+			Name="recycle_collision_chain_xmas"
+			FileName="animations_suolian/recycle_collision_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="1.4" />
+		<Animation
+			Name="recycle_unhit_chain_xmas"
+			FileName="animations_suolian/recycle_unhit_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.8" />
+		<Animation
+			Name="shake_chain_xmas"
+			FileName="animations_suolian/shake_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="3.333333" />
+		<Animation
+			Name="hit_collision_chain_xmas"
+			FileName="animations_suolian/hit_collision_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.1" />
+		<Animation
+			Name="unhit_chain_xmas"
+			FileName="animations_suolian/unhit_chain_xmas.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<hit_collision_chain
+			TransitTime="7.9898" />
+	</TransitInfo>
+</AnimationConfig>

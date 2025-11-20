@@ -1,0 +1,1529 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_yidhra_2/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_yidhra_2/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_yidhra_2/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_yidhra_2/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_yidhra_2/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_yidhra_2/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_yidhra_2/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_yidhra_2/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_yidhra"
+			FileName="animations_yidhra_2/guisu_show_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_yidhra_2/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_yidhra_2/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_yidhra_2/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_yidhra_2/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_yidhra_2/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_yidhra_2/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_yidhra_2/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="infect"
+			FileName="animations_yidhra_2/infect.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_yidhra_2/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_yidhra_2/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_yidhra_2/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_yidhra_2/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_yidhra_2/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="set_substance_1"
+			FileName="animations_yidhra_2/set_substance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="set_substance_2"
+			FileName="animations_yidhra_2/set_substance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_yidhra_2/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_yidhra_2/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_yidhra_2/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_yidhra_2/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_yidhra_2/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_yidhra_2/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_yidhra_2/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_yidhra_2/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_yidhra_2/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_yidhra_2/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_yidhra_2/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_yidhra_2/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_tomie2_yidhra"
+			FileName="animations_yidhra_2/show_idle_special_tomie2_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_tomie2_yidhra"
+			FileName="animations_yidhra_2/show_idle_tomie2_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_tomie2_yidhra"
+			FileName="animations_yidhra_2/show_appear_tomie2_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_witch"
+			FileName="animations_yidhra_2/guisu_show_witch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_yidhra_2/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.0999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_yidhra_2/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_yidhra_2/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_yidhra_2/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_yidhra_2/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_yidhra_2/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_yidhra_2/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_yidhra_2/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_yidhra_2/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_yidhra_2/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_yidhra_sleep"
+			FileName="animations_yidhra_2/load_yidhra_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_yidhra"
+			FileName="animations_yidhra_2/load_sit_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_yidhra"
+			FileName="animations_yidhra_2/load_stand_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.666599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_yidhra"
+			FileName="animations_yidhra_2/load_visit_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_yidhra_2/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_yidhra_2/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_yidhra_2/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_yidhra_2/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_yidhra_2/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_yidhra_2/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_yidhra_2/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_yidhra_2/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_yidhra_2/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_yidhra_2/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_yidhra_2/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_yidhra_2/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_yidhra_2/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_yidhra_2/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_yidhra_2/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_yidhra_2/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_yidhra_2/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_yidhra_2/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_yidhra_2/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_yidhra_2/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_yidhra_2/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_yidhra_2/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_yidhra_2/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_yidhra_2/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_yidhra_2/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_xinshi"
+			FileName="animations_yidhra_2/show_appear_xinshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xinshi"
+			FileName="animations_yidhra_2/show_idle_special_xinshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_xinshi"
+			FileName="animations_yidhra_2/show_idle_xinshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_xs"
+			FileName="animations_yidhra_2/hall_idle_2_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_xs"
+			FileName="animations_yidhra_2/hall_walk_2_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_xs"
+			FileName="animations_yidhra_2/run_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_xs"
+			FileName="animations_yidhra_2/hall_sit_catsofa_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02_xs"
+			FileName="animations_yidhra_2/hall_sit_sofa02_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_xs"
+			FileName="animations_yidhra_2/hall_sit_stool_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_xs"
+			FileName="animations_yidhra_2/hall_throne_sit_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_yidhra_xs"
+			FileName="animations_yidhra_2/load_sit_yidhra_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_yidhra_xs"
+			FileName="animations_yidhra_2/load_stand_yidhra_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.666599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_yidhra_xs"
+			FileName="animations_yidhra_2/load_visit_yidhra_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_xs"
+			FileName="animations_yidhra_2/load_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_yidhra_2/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_yidhra_2/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_xs"
+			FileName="animations_yidhra_2/hall_idle_special_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_xs"
+			FileName="animations_yidhra_2/idle_special_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_xs"
+			FileName="animations_yidhra_2/idle_xs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_tomie2"
+			FileName="animations_yidhra_2/like_drink_tomie2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_yidhra_2/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_yidhra_2/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_divinate_yidhra"
+			FileName="animations_yidhra_2/emotion_divinate_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_yidhra_2/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_yidhra_2/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_yidhra_2/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_yidhra_2/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_yidhra_2/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_yidhra"
+			FileName="animations_yidhra_2/emotion_fourth_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_yidhra_2/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_yidhra_2/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_yidhra_2/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_yidhra_2/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_yidhra_2/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_yidhra_2/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_yidhra_2/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_yidhra_2/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_yidhra_2/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_yidhra_2/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_yidhra_2/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_yidhra_2/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_yidhra_2/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_yidhra_2/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_yidhra_2/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_yidhra_2/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_yidhra_2/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_yidhra_2/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_yidhra_2/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_yidhra_2/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_yidhra_2/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_yidhra_2/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_yidhra_2/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_yidhra_2/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_yidhra_2/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_yidhra_2/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_yidhra_2/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_yidhra_2/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_yidhra_2/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_yidhra_2/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_yidhra_2/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_yidhra_2/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_yidhra_2/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_yidhra_2/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_yidhra_2/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_yidhra_2/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_yidhra_2/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_yidhra_2/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_yidhra_2/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_yidhra_2/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_yidhra_2/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_loop"
+			FileName="animations_yidhra_2/cr_cannon_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_yidhra_2/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_yidhra_2/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_yidhra_2/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_yidhra_2/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_yidhra_2/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_yidhra_2/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_yidhra_2/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_yidhra_2/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_yidhra_2/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_yidhra_2/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_yidhra_2/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_yidhra_2/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_yidhra_2/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_yidhra_2/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_yidhra_2/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_yidhra_2/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_yidhra_2/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_yidhra_2/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_yidhra_2/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_yidhra_2/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.566667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_yidhra_2/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_yidhra_2/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_yidhra_2/pzjg_char_sit.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2.333333" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_yidhra_2/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_yidhra_2/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_yidhra_2/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_yidhra_2/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_yidhra_2/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_yidhra_2/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_yidhra_2/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_yidhra_2/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.6" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_yidhra_2/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_yidhra_2/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_yidhra_2/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<cast
+			idle="1,90" />
+		<emotion_dice
+			idle="1,90" />
+		<fall
+			idle="1,90" />
+		<hit
+			idle="1,90" />
+		<idle
+			idle_special="1,90"
+			run="1,90" />
+		<idle_special
+			idle="1,90"
+			run="1,90" />
+		<place_patrol_puppet
+			idle="1,90" />
+		<place_tower
+			idle="1,90" />
+		<scare_puppet_rigid
+			idle="1,90" />
+		<emotion_dice_20
+			idle="1,90" />
+		<emotion_salute
+			idle="1,90" />
+		<emotion_trouble
+			idle="1,90" />
+		<emotion_threaten
+			idle="1,90" />
+		<run
+			idle="1,90"
+			idle_special="1,60"
+			dmm_butcher_skill="1,200" />
+		<dmm_butcher_skill
+			run="1,200" />
+		<cr_jump_loop
+			fall="1,300" />
+		<cr_cannon_loop
+			fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300"
+			cr_cannon_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

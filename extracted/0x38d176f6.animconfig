@@ -1,0 +1,2934 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_yunv/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_idle_l"
+			FileName="animations_yunv/yunv_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_idle_r"
+			FileName="animations_yunv/yunv_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_special_l"
+			FileName="animations_yunv/yunv_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_special_r"
+			FileName="animations_yunv/yunv_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_yunv/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_yunv/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_yunv/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_yunv/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_yunv/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_yunv/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_yunv/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_yunv/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_yunv/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash"
+			FileName="animations_yunv/dash.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dash_end"
+			FileName="animations_yunv/dash_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash_end_ex"
+			FileName="animations_yunv/dash_end_ex.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash_ex"
+			FileName="animations_yunv/dash_ex.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_summon"
+			FileName="animations_yunv/end_summon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="operating"
+			FileName="animations_yunv/operating.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ready_dash_1"
+			FileName="animations_yunv/ready_dash_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ready_dash_2"
+			FileName="animations_yunv/ready_dash_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="summon"
+			FileName="animations_yunv/summon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_yunv/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_yunv/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_yunv/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_yunv/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_yunv/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_yunv/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_yunv/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_yunv/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_yunv/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_yunv/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_yunv/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_yunv/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_yunv/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_yunv/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_yunv/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_yunv/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_yunv/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_attack_carry"
+			FileName="animations_yunv/yunv_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_attack_carry_end"
+			FileName="animations_yunv/yunv_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_yunv/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_yunv/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_yunv/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_yunv/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_yunv/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit"
+			FileName="animations_yunv/load_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand"
+			FileName="animations_yunv/load_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit"
+			FileName="animations_yunv/load_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_yunv/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1"
+			FileName="animations_yunv/elec_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_yunv/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3"
+			FileName="animations_yunv/elec_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer"
+			FileName="animations_yunv/elecstrike_suffer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_1"
+			FileName="animations_yunv/happy_yunv_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_1_end"
+			FileName="animations_yunv/happy_yunv_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_2"
+			FileName="animations_yunv/happy_yunv_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_2_end"
+			FileName="animations_yunv/happy_yunv_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_rebound"
+			FileName="animations_yunv/happy_yunv_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_show"
+			FileName="animations_yunv/happy_yunv_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_yunv/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_yunv/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_yunv/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_yunv/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_yunv/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_yunv/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_yunv/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_yunv/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_yunv/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_yunv/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_yunv/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_yunv/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_yunv/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_yunv/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_yunv/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_yunv/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_yunv/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_yunv/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_yunv/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_yunv/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_yunv/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_yunv/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_yunv/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_yunv/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_yunv/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_yunv/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_yunv/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_yunv/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_yunv/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_yunv/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_yunv/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_yunv/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_yunv/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_yunv/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_yunv"
+			FileName="animations_yunv/guisu_show_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_yunv/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_yunv/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_yunv/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_yunv/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_yunv/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_yunv/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_yunv/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_yunv/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_yunv/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic"
+			FileName="animations_yunv/release_hypnotic.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_yunv/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_yunv/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping1"
+			FileName="animations_yunv/sleeping1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping2"
+			FileName="animations_yunv/sleeping2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_yunv/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_yunv/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yunv"
+			FileName="animations_yunv/show_idle_special_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yunv"
+			FileName="animations_yunv/show_idle_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_yunv/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_yunv/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_yunv/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_yunv/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_yunv/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_yunv/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_yunv/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_yunv/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_carry"
+			FileName="animations_yunv/happy_yunv_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_carry_end"
+			FileName="animations_yunv/happy_yunv_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_yunv"
+			FileName="animations_yunv/forbidden_therapy_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_yunv/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="insert_land"
+			FileName="animations_yunv/insert_land.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ready_throw"
+			FileName="animations_yunv/ready_throw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="throw_end"
+			FileName="animations_yunv/throw_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="throw_ing"
+			FileName="animations_yunv/throw_ing.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="withdraw"
+			FileName="animations_yunv/withdraw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash_end_ex_2"
+			FileName="animations_yunv/dash_end_ex_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_csz_jisi"
+			FileName="animations_yunv/show_idle_special_csz_jisi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_queen"
+			FileName="animations_yunv/show_appear_queen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_queen"
+			FileName="animations_yunv/show_idle_queen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_queen"
+			FileName="animations_yunv/show_idle_special_queen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_yunv/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_yunv/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_yunv/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_yunv/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_yunv/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_yunv/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_yunv/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_yunv/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_yunv/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_yunv/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_yunv/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_yunv/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_yunv/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_yunv/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_yunv_sleep"
+			FileName="animations_yunv/load_yunv_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_yunv/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_yunv/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_yunv/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_yunv/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_yunv/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_yunv/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_yunv/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_yunv/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_yunv/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_yunv/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_yunv/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_yunv/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_yunv/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_yunv/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_yunv/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_yunv/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_yunv/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_midiexiang"
+			FileName="animations_yunv/show_idle_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_special_midiexiang"
+			FileName="animations_yunv/show_special_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_midiexiang"
+			FileName="animations_yunv/show_appear_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_yunv/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_midiexiang"
+			FileName="animations_yunv/hall_sit_horse_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_midiexiang"
+			FileName="animations_yunv/load_sit_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_midiexiang"
+			FileName="animations_yunv/load_stand_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_yunv_sleep_midiexiang"
+			FileName="animations_yunv/load_yunv_sleep_midiexiang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_yunv/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_yunv/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_baiwan"
+			FileName="animations_yunv/show_appear_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_baiwan"
+			FileName="animations_yunv/show_idle_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_baiwan"
+			FileName="animations_yunv/show_idle_special_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_baiwan"
+			FileName="animations_yunv/hall_swing_nature_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_yunv_sleep_baiwan"
+			FileName="animations_yunv/load_yunv_sleep_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_yunv/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_yunv/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_chef"
+			FileName="animations_yunv/show_appear_chef.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_chef"
+			FileName="animations_yunv/show_idle_chef.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.3999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_chef"
+			FileName="animations_yunv/show_idle_special_chef.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_yunv"
+			FileName="animations_yunv/like_drink_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_yunv/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_yunv/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_yunv/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_yunv/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter_baiwan"
+			FileName="animations_yunv/hall_swing_hunter_baiwan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_yunv/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_yunv/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_yunv/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_pomo_yunv"
+			FileName="animations_yunv/show_appear_pomo_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_pomo_yunv"
+			FileName="animations_yunv/show_idle_special_pomo_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_pomo_yunv"
+			FileName="animations_yunv/show_idle_pomo_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_yunv"
+			FileName="animations_yunv/emotion_salute_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_kuqi"
+			FileName="animations_yunv/show_appear_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="29.233299"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_kuqi"
+			FileName="animations_yunv/show_idle_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_kuqi"
+			FileName="animations_yunv/show_idle_special_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_kuqi_xuying"
+			FileName="animations_yunv/show_appear_kuqi_xuying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="29.233299"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_kuqi"
+			FileName="animations_yunv/hall_sit_catsofa_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_kuqi"
+			FileName="animations_yunv/load_stand_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_kuqi"
+			FileName="animations_yunv/load_visit_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan_kuqi"
+			FileName="animations_yunv/rope_swing_1_jianguan_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_kuqi"
+			FileName="animations_yunv/hang_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_kuqi"
+			FileName="animations_yunv/sit_dc_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_kuqi"
+			FileName="animations_yunv/emotion_dice_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_kuqi"
+			FileName="animations_yunv/run_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_kuqi"
+			FileName="animations_yunv/emotion_dice_20_kuqi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_yunv/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_yunv/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_yunv/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_yunv/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_yunv/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_yunv/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_yunv/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_yunv/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_te"
+			FileName="animations_yunv/show_appear_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_te"
+			FileName="animations_yunv/show_idle_special_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_te"
+			FileName="animations_yunv/show_idle_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_yunv/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_yunv/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_yunv/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_yunv/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_yunv/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom_te"
+			FileName="animations_yunv/hall_interact_plum_blossom_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_te"
+			FileName="animations_yunv/load_stand_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_yunv_sleep_te"
+			FileName="animations_yunv/load_yunv_sleep_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run_te"
+			FileName="animations_yunv/ride_run_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan_te"
+			FileName="animations_yunv/rope_swing_1_jianguan_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_te"
+			FileName="animations_yunv/sit_dc_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_yunv/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_te"
+			FileName="animations_yunv/hall_idle_2_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_te"
+			FileName="animations_yunv/hall_idle_special_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_te"
+			FileName="animations_yunv/load_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_te"
+			FileName="animations_yunv/load_sit_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_te"
+			FileName="animations_yunv/load_visit_te.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_yunv/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_yunv/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_yunv/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_yunv/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_yunv/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_yunv/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_yunv/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_yunv/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_yunv/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_yunv/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_yunv/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_yunv/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_yunv/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_yunv/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_yunv/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_yunv/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_yunv/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_yunv/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_yunv/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_yunv/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_yunv/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_yunv/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_yunv/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_yunv/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_loop"
+			FileName="animations_yunv/cr_cannon_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_yunv/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_yunv/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_yunv/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_tang_dance"
+			FileName="animations_yunv/cr_tang_dance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_yunv/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yp"
+			FileName="animations_yunv/show_appear_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.333334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yp"
+			FileName="animations_yunv/show_idle_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yp"
+			FileName="animations_yunv/show_idle_special_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.200001"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_yunv/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add_yh"
+			FileName="animations_yunv/carry_struggle_add_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.466667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_yh"
+			FileName="animations_yunv/carry_struggle_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit_yh"
+			FileName="animations_yunv/carry_hit_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add_yh_0"
+			FileName="animations_yunv/carry_struggle_add_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.466667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_yh_0"
+			FileName="animations_yunv/carry_struggle_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_yh"
+			FileName="animations_yunv/carry_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="catch_yh"
+			FileName="animations_yunv/catch_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_yh"
+			FileName="animations_yunv/discard_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_yh"
+			FileName="animations_yunv/hang_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick_yh"
+			FileName="animations_yunv/pick_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="struggle4_yh"
+			FileName="animations_yunv/struggle4_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_attack_carry_end_yh"
+			FileName="animations_yunv/yunv_attack_carry_end_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_play_yunv"
+			FileName="animations_yunv/emotion_play_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_attack_carry_yh"
+			FileName="animations_yunv/yunv_attack_carry_yh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_yp"
+			FileName="animations_yunv/idle_special_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_yp"
+			FileName="animations_yunv/idle_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="insert_land_yp"
+			FileName="animations_yunv/insert_land_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ready_throw_yp"
+			FileName="animations_yunv/ready_throw_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_yp"
+			FileName="animations_yunv/run_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="throw_end_yp"
+			FileName="animations_yunv/throw_end_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="throw_ing_yp"
+			FileName="animations_yunv/throw_ing_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="withdraw_yp"
+			FileName="animations_yunv/withdraw_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_show_yp"
+			FileName="animations_yunv/happy_yunv_attack_show_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_yunv/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_yp"
+			FileName="animations_yunv/hall_idle_2_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_yp"
+			FileName="animations_yunv/hall_idle_special_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_yp"
+			FileName="animations_yunv/load_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_yp"
+			FileName="animations_yunv/load_mirror_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run_yp"
+			FileName="animations_yunv/ride_run_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_yp"
+			FileName="animations_yunv/load_sit_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.066667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_yp"
+			FileName="animations_yunv/load_stand_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.833334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_yp"
+			FileName="animations_yunv/span_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_play_yunv_yp"
+			FileName="animations_yunv/emotion_play_yunv_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2_yp"
+			FileName="animations_yunv/cr_solo_dance_2_yp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_yunv/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_yunv/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_cd_yunv"
+			FileName="animations_yunv/hall_sit_cd_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_yunv/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_yunv/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_mat"
+			FileName="animations_yunv/show_appear_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.733334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_mat"
+			FileName="animations_yunv/show_idle_special_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_mat"
+			FileName="animations_yunv/show_idle_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_yunv/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_yunv/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_yunv/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash_ex_mat"
+			FileName="animations_yunv/dash_ex_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_mat"
+			FileName="animations_yunv/run_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_mat"
+			FileName="animations_yunv/hall_walk_2_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_mat"
+			FileName="animations_yunv/hall_idle_special_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_mat"
+			FileName="animations_yunv/idle_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mat"
+			FileName="animations_yunv/load_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge_mat"
+			FileName="animations_yunv/emotion_charge_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror_mat"
+			FileName="animations_yunv/hall_sit_mirror_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play_mat"
+			FileName="animations_yunv/hall_toilet_play_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="throw_ing_mat"
+			FileName="animations_yunv/throw_ing_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ready_dash_2_mat"
+			FileName="animations_yunv/ready_dash_2_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ready_throw_mat"
+			FileName="animations_yunv/ready_throw_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_carry_mat"
+			FileName="animations_yunv/happy_yunv_attack_carry_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_yunv_attack_2_mat"
+			FileName="animations_yunv/happy_yunv_attack_2_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_attack_carry_mat"
+			FileName="animations_yunv/yunv_attack_carry_mat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dash_mat"
+			FileName="animations_yunv/dash_mat.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_yunv/cr_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_yunv/hall_shower_play.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_yunv/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2.333333" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_yunv/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="1.333333" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_yunv/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="1.5" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_yunv/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="1.233333" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_yunv/pzjg_char_sit.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2.333333" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_yunv/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_yunv/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="false"
+			start_time="0"
+			end_time="3.666667" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_yunv/hall_crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="emotion_bouquet_yunv"
+			FileName="animations_yunv/emotion_bouquet_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_yunv/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_yunv/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_yunv/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_yunv/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_yunv/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_yunv/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_yunv/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_yunv/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_yunv/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.433333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="../wuchang/separate_dir/wuchang_e_shiguang/animations_wuchang_e_shiguang/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_yunv/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<ready_dash_1
+			dash_ex="1,200" />
+		<ready_dash_2
+			dash_ex="1,200" />
+		<sprint_dizzy
+			disarm="1,300" />
+		<happy_yunv_attack_1_end
+			idle="1,200"
+			run="1,200" />
+		<happy_yunv_attack_2_end
+			idle="1,200"
+			run="1,200" />
+		<idle
+			happy_yunv_attack_1="1,200"
+			happy_yunv_attack_2="1,200"
+			run="1,200"
+			emotion_dice="1,200"
+			disarm="1,300" />
+		<idle_special
+			idle="1,200" />
+		<run
+			idle="1,200"
+			disarm="1,300" />
+		<hall_idle_special
+			hall_idle_2="3,250" />
+		<hall_walk_2
+			hall_idle_2="3,250"
+			hall_idle_2_yp="3,250" />
+		<hall_sit_mirror
+			TransitTime="-2147483648" />
+		<disarm
+			sprint_dizzy="1,300"
+			idle="1,300"
+			run="1,300" />
+		<cr_jump_loop
+			fall="1,300" />
+		<cr_cannon_loop
+			fall="1,300"
+			cr_cannon_fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300"
+			cr_cannon_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+		<hall_idle_2_yp
+			hall_walk_2="3,250" />
+		<hall_idle_special_yp
+			hall_idle_2_yp="3,250" />
+	</TransitInfo>
+</AnimationConfig>

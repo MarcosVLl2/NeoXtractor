@@ -1,0 +1,125 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="cp_e_hm_body03">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_BACKFACE_SPECULAR"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+			<Macro4
+				Key="FLOW_LUMINOUS"
+				Val="FALSE" />
+			<Macro5
+				Key="DISSOLVE_ADJUST_VIEW_FACTOR"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_transparent_flow_rotate.nfx::TShader" />
+		<ParamTable>
+			<FlowLuminace
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_xk.tga" />
+			<Flowmap
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_cp/separate_dir/cp_e_hm/flowmap1.tga" />
+			<RotateMask
+				Value="" />
+			<RotatePattern
+				Value="" />
+			<ScreenFlow
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_star2.tga" />
+			<Tex1
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_xk_test.tga" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_mask.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_mask01.tga" />
+			<anisotropy_color
+				Value="0.400015,0.200031,0.000000,1.000000" />
+			<anisotropy_noise
+				Value="0.600000" />
+			<anisotropy_offset
+				Value="-0.200000" />
+			<anisotropy_width
+				Value="2" />
+			<fresnel_color
+				Value="0.047059,0.070588,0.086275,0.113725" />
+			<fresnel_fac
+				Value="0.500000" />
+			<rim_color_tag
+				Value="0.500000" />
+			<u_ambient
+				Value="0.300000" />
+			<u_flow_color
+				Value="0.000000,0.568627,1.000000,0.000000" />
+			<u_flow_luminous_color
+				Value="1.000000,0.871244,0.227451,1.000000" />
+			<u_flow_luminous_scale
+				Value="1.500000,1.500000" />
+			<u_flow_luminous_speed
+				Value="0,-0.030000" />
+			<u_flow_scale
+				Value="0.300000,0" />
+			<u_flow_speed
+				Value="0.500000" />
+			<u_flow_strength
+				Value="2" />
+			<u_luminous_blink_speed
+				Value="0" />
+			<u_luminous_color
+				Value="1.000000,0.400656,0.000000,1.000000" />
+			<u_luminous_far_decay
+				Value="1" />
+			<u_luminous_intensity
+				Value="3" />
+			<u_luminous_scale
+				Value="2,1" />
+			<u_luminous_speed
+				Value="0.010000,-0.250000" />
+			<u_pattern_alpha
+				Value="1" />
+			<u_screen_flow_brightness
+				Value="6" />
+			<u_screen_flow_color
+				Value="0.172549,0.078431,0.062745,1.000000" />
+			<u_screen_flow_scale
+				Value="8,8" />
+			<u_screen_flow_speed
+				Value="0,0.020000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_weapon_nor03.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="2" />
+		</RenderStates>
+	</Material>
+</NeoX>

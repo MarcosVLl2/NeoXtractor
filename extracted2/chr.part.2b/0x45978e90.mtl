@@ -1,0 +1,48 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="bonbon_e_cat_chugui01b">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr_ex.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="" />
+			<TexCompress
+				Value="" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_chugui01a_m.tga" />
+			<TexReflection
+				Value="" />
+			<u_albedo_enhance
+				Value="1.500000" />
+			<Tex0
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_chugui01a_d.tga" />
+			<TexNormal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_chugui01a_n.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

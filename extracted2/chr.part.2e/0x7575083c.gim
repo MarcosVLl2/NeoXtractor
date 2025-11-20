@@ -1,0 +1,32 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_hair01" BoundingInfo="(0.18, 15.98, -0.55),(1.85, 2.65, 1.81),3.71" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.1811,15.5487,-0.5500" BoundingHalf="1.8500,2.2151,1.8121" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_head_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.0703,17.3666,-0.3339" BoundingHalf="1.5378,1.2673,0.5852" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="hds_e_baojun_head_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_hair.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_hair.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_hair.stb" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_hair31" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="095f6ef036ac3d49" Inherit="7" Loading="4" Name="huandeng_baojun_idle_003.pse" Uri="fx/survivor/huandeng_baojun_idle_003.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped_hair37" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5165,0.4846,0.4857,-0.5124" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_009" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="d2b49384f09bfd3f" Inherit="7" Loading="4" Name="huandeng_baojun_idle_009.pse" Uri="fx/survivor/huandeng_baojun_idle_009.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped_hair33" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.4346,-0.5341,-0.5812,0.4337" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_010" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="8474cbf7cf87af65" Inherit="7" Loading="4" Name="huandeng_baojun_idle_008.pse" Uri="fx/survivor/huandeng_baojun_idle_008.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="head_direction" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

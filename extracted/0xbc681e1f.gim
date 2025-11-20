@@ -1,0 +1,28 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="biped" BoundingInfo="(0.00, 9.22, -0.23),(5.45, 9.27, 1.77),10.90" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0021,7.5691,0.1145" BoundingHalf="4.4743,7.6184,1.4289" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="npc_bzt_body_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-0.2621,12.3653,0.9110" BoundingHalf="0.4282,0.3621,0.1472" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="npc_bzt_body_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.0039,15.7893,0.2018" BoundingHalf="1.3121,1.7023,1.2282" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="npc_bzt_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="0.1094,16.6760,-0.2638" BoundingHalf="1.6209,1.8178,1.7356" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="npc_bzt_head01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="0.9620,15.8654,0.3448" BoundingHalf="0.1850,0.6634,0.6848" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="npc_bzt_head01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="0.5197,16.3397,1.0586" BoundingHalf="0.3017,0.3080,0.0851" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="npc_bzt_head01_2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="0.0034,9.4003,0.4100" BoundingHalf="5.4539,1.1070,0.8779" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="guanjia_bzt_shoutao" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../../../player/dm65_survivor_m/h55_survivor_m_zbs/h55_survivor_m_zbs.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../../../player/dm65_survivor_m/h55_survivor_m_zbs/h55_survivor_m_zbs.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.4030,16.3480,0.3550" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.1486,0.1401,-0.6649,0.7185" LocalScale="1.0000,1.0000,1.0000" Name="head_direction" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

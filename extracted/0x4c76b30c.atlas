@@ -1,0 +1,132 @@
+
+insect_game_beetle_1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiachong_01_0
+  rotate: false
+  xy: 568, 7
+  size: 60, 102
+  orig: 62, 102
+  offset: 1, 0
+  index: -1
+jiachong_01_1
+  rotate: false
+  xy: 505, 5
+  size: 61, 102
+  orig: 62, 102
+  offset: 1, 0
+  index: -1
+jiachong_01_10
+  rotate: false
+  xy: 677, 39
+  size: 45, 71
+  orig: 47, 72
+  offset: 1, 0
+  index: -1
+jiachong_01_11
+  rotate: false
+  xy: 437, 109
+  size: 50, 145
+  orig: 50, 145
+  offset: 0, 0
+  index: -1
+jiachong_01_12
+  rotate: false
+  xy: 489, 109
+  size: 50, 145
+  orig: 50, 145
+  offset: 0, 0
+  index: -1
+jiachong_01_13
+  rotate: false
+  xy: 437, 2
+  size: 32, 105
+  orig: 33, 105
+  offset: 0, 0
+  index: -1
+jiachong_01_14
+  rotate: false
+  xy: 471, 4
+  size: 32, 103
+  orig: 33, 105
+  offset: 1, 1
+  index: -1
+jiachong_01_2
+  rotate: false
+  xy: 725, 175
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+jiachong_01_3
+  rotate: true
+  xy: 706, 147
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+jiachong_01_4
+  rotate: true
+  xy: 706, 198
+  size: 56, 46
+  orig: 57, 50
+  offset: 0, 2
+  index: -1
+jiachong_01_5
+  rotate: false
+  xy: 541, 111
+  size: 84, 143
+  orig: 91, 143
+  offset: 7, 0
+  index: -1
+jiachong_01_6
+  rotate: false
+  xy: 686, 6
+  size: 38, 31
+  orig: 39, 32
+  offset: 0, 0
+  index: -1
+jiachong_01_7
+  rotate: false
+  xy: 706, 124
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+jiachong_01_8
+  rotate: false
+  xy: 706, 172
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+jiachong_01_9
+  rotate: false
+  xy: 630, 39
+  size: 45, 71
+  orig: 47, 72
+  offset: 1, 0
+  index: -1
+jiachong_01_guang
+  rotate: true
+  xy: 2, 12
+  size: 242, 433
+  orig: 242, 433
+  offset: 0, 0
+  index: -1
+jiachong_01_yy_1
+  rotate: true
+  xy: 630, 2
+  size: 35, 54
+  orig: 36, 57
+  offset: 0, 2
+  index: -1
+jiachong_01_yy_3
+  rotate: false
+  xy: 627, 112
+  size: 77, 142
+  orig: 79, 145
+  offset: 1, 2
+  index: -1

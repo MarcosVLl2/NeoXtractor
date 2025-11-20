@@ -1,0 +1,9 @@
+<NeoX>
+    <MaterialGroup MaterialCount="5" Name="bonbon_e_cat_show_chugui" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_chugui01a.mtl" />
+        <Material_1 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_chugui01b.mtl" />
+        <Material_2 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_chugui01c.mtl" />
+        <Material_3 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_chugui01d.mtl" />
+        <Material_4 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_chugui01e.mtl" />
+    </MaterialGroup>
+</NeoX>

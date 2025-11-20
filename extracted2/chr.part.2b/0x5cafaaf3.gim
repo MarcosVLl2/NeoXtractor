@@ -1,0 +1,19 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone071" BoundingInfo="(0.31, 17.36, -0.78),(2.03, 2.81, 1.85),3.93" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.3081,17.3558,-0.7833" BoundingHalf="2.0345,2.8147,1.8481" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="Object001" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="ttds_e_kbl_head.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="ttds_e_kbl_head.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head.stb" />
+    <SocketObject />
+</NeoX>

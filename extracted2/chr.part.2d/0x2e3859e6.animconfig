@@ -1,0 +1,34 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="billy_e_gelude_glass/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_gelude_billy"
+			FileName="billy_e_gelude_glass/show_idle_special_gelude_billy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_gelude_billy"
+			FileName="billy_e_gelude_glass/show_appear_gelude_billy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.533334"
+			default_loop="false"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

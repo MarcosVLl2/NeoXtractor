@@ -1,0 +1,62 @@
+
+insect_game_butterfly_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudie_0
+  rotate: true
+  xy: 383, 158
+  size: 11, 54
+  orig: 11, 54
+  offset: 0, 0
+  index: -1
+hudie_01_guang
+  rotate: false
+  xy: 2, 2
+  size: 256, 211
+  orig: 256, 211
+  offset: 0, 0
+  index: -1
+hudie_1
+  rotate: false
+  xy: 319, 135
+  size: 53, 18
+  orig: 55, 18
+  offset: 0, 0
+  index: -1
+hudie_2
+  rotate: true
+  xy: 260, 129
+  size: 84, 57
+  orig: 84, 60
+  offset: 0, 1
+  index: -1
+hudie_3
+  rotate: true
+  xy: 319, 155
+  size: 58, 62
+  orig: 58, 63
+  offset: 0, 1
+  index: -1
+hudie_4
+  rotate: true
+  xy: 260, 67
+  size: 60, 82
+  orig: 60, 82
+  offset: 0, 0
+  index: -1
+hudie_5
+  rotate: true
+  xy: 344, 73
+  size: 60, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+hudie_6
+  rotate: true
+  xy: 383, 171
+  size: 42, 48
+  orig: 44, 49
+  offset: 2, 0
+  index: -1

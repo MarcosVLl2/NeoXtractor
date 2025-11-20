@@ -1,0 +1,168 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/sockets/spaces/0" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/1" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/2" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/3" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/4" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/5" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/6" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/constraint_data/0" : {
+			"type_name" : "shared_ptr<ConstraintDataBase>",
+			"customized" : false,
+			"wrapped_type_name" : "LockSelfConstraintData"
+		}
+	},
+	"name" : "ripper_e_aizhake",
+	"joint_names" : [
+		"biped","biped pelvis","biped spine","biped l thigh","biped r thigh","biped spine1","biped l calf","biped_koudai_bone01","biped r calf","biped_koudai_bone02","biped spine2","biped l foot","biped r foot","biped neck","biped l toe0","biped r toe0","biped head","biped l clavicle","biped r clavicle","biped_face_bone01","biped_hair_bone01","biped_hair_bone02","biped_hair_bone03","biped_maoyan_bone01","biped_maoyan_bone02","biped l upperarm","biped r upperarm","biped_face_bone02","biped_face_bone03","biped_face_bone04","biped_face_bone05","biped_face_bone06","biped_face_bone07","biped_face_bone08","biped_face_bone09","biped_face_bone10","biped_face_bone11","biped_face_bone12","biped_face_bone13","biped_face_bone14","biped_face_bone15","biped_face_bone16","biped_face_bone18","biped_face_bone19","biped_face_bone20","biped_face_bone21","biped_face_bone22","biped_face_bone23","biped_face_bone24","biped_face_bone25","biped_face_bone26","biped_face_bone27","biped_face_bone28","biped_face_bone29","biped_face_bone30","biped_face_bone31","biped_face_bone32","biped_face_bone33","biped_face_bone34","biped_face_bone35","biped_face_bone36","biped_face_bone37","biped_face_bone38","biped_face_bone39","biped_face_bone40","biped_face_bone41","biped_face_bone42","biped_face_bone43","biped_face_bone44","biped_face_bone45","biped_face_bone46","biped_face_bone47","biped_face_bone48","biped_face_bone49","biped_face_bone50","biped_face_bone51","biped_face_bone52","biped_face_bone53","biped_hair_bone06","biped_hair_bone08","biped_hair_bone04","biped l forearm","biped r forearm","biped_face_bone17","biped_face_bone54","biped_hair_bone07","biped_hair_bone05","biped l hand","biped r hand","biped l finger0","biped l finger1","biped l finger2","biped l finger3","biped l finger4","biped r finger0","biped r finger1","biped r finger2","biped r finger3","biped r finger4","biped_weapon","biped l finger01","biped l finger11","biped l finger21","biped l finger31","biped l finger41","biped r finger01","biped r finger11","biped r finger21","biped r finger31","biped r finger41","biped l finger02","biped l finger12","biped l finger22","biped l finger32","biped l finger42","biped r finger02","biped r finger12","biped r finger22","biped r finger32","biped r finger42"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,1,1,2,3,3,4,4,5,6,8,10,11,12,13,13,13,16,16,16,16,16,16,17,18,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,20,21,22,25,26,41,77,78,80,81,82,87,87,87,87,87,88,88,88,88,88,88,89,90,91,92,93,94,95,96,97,98,100,101,102,103,104,105,106,107,108,109
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			120
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [
+			"hall_pumpkin","decal","carry_balloon_moonriver","const_2024shengdan_r","const_2024shengdan_l","const_fx_chengyin_001","weapon_xmas"
+		],
+		"related_joint_names" : [
+			"biped head","","biped r hand","biped r foot","biped l foot","","biped l hand"
+		],
+		"spaces" : [
+			[
+				-0.775300,0.000399,-0.105099,0,0,-0.706929,0.707283,1.001700,1.001999,1.003600
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1.234359,0.042543,0.289095,-0.626542,0.765457,0.067691,0.130143,1,1,1
+			],
+			[
+				1.427675,-0.362486,0.024938,0.168309,-0.324784,0.689805,0.624783,0.999081,1.000954,0.999961
+			],
+			[
+				1.547888,0.004153,-0.004002,0.055576,-0.053211,0.705904,0.704116,0.999526,1.000540,0.999930
+			],
+			[
+				0,15,0,0,0,0,1,1,1,1
+			],
+			[
+				1.430906,0.059305,0.254043,0.001044,-0.000094,0.000548,0.999999,1.001053,1.004896,0.998458
+			]
+		],
+		"binding_flags" : [
+			"LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset"
+		],
+		"play_rate_policies" : [
+			"InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel"
+		],
+		"bind_types" : [
+			7,7,7,7,7,7,7
+		],
+		"sync_vos" : [
+			"None","None","None","None","None","None","None"
+		],
+		"submesh_sort_idxs" : [
+			-1,-1,-1,-1,-1,-1,-1
+		],
+		"preloading_levels" : [
+			-1,-1,-1,-1,-1,-1,-1
+		]
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [
+		{
+			"name" : "biped_weapon_LockSelfConstraint",
+			"id" : "e26b3581-7102-4946-b779-3d6add703414",
+			"enable" : false,
+			"type" : "LockSelf",
+			"owner_name" : "biped_weapon",
+			"target_name" : "",
+			"weight" : 1,
+			"lock_space" : "World ",
+			"apply_to_children" : true
+		}
+	],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "h55_guajian_yulongwu_yu",
+	"joint_names" : [
+		"bone_ylwg01_02","bone_ylwg01_03","bone_ylwg01_10","bone_ylwg01_11","bone_ylwg01_13","bone_ylwg01_15","bone_ylwg01_17","bone_ylwg01_01","bone_ylwg01_04","bone_ylwg01_06","bone_ylwg01_08","bone_ylwg01_12","bone_ylwg01_14","bone_ylwg01_16","bone_ylwg01_18","bone_ylwg01_05","bone_ylwg01_07","bone_ylwg01_09"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,0,0,1,1,1,3,4,5,6,8,9,10
+	],
+	"reference_pose" : "AAAAAAAAAAAAAAAAAACAPw8m474TJuM+/PQMP/z0DD8AAIA/AACAPwAAgD8AAIA/8Zo3QAAAAAAAAIg1AACAP/jYeTsHPwq+QEUkvU9yfT8EAIA/AACAPwUAgD8AAIA/rj3bP6Bmkj10gZ4/AACAP3AiZyYlLaS+sSCrJ2Z7cj8BAIA/AACAPwEAgD8AAIA/ep3HPw3PYT+G7Z6/AACAP8+MXz+sVHk+Vm7MvhQsDL4CAIA//f9/P///fz8AAIA/Pt64PUMpUT+tp4C/AACAP89eWj8GDoY+L5DmvgjRA70BAIA/AACAPwEAgD8AAIA/gt64PaUxTb+kp4C/AACAPz7RA70pkOY+CA6GvtBeWj/+/38//v9/PwAAgD8AAIA/ep3HP3vXXb+G7Z6/AACAPw0sDL5Vbsw+olR5vtCMXz8BAIA/AgCAPwAAgD8AAIA/AG9fvf//f7X+i3w7AACAPygANbM6138/ZT5CM1J3EL0AAIA/AACAPwAAgD8AAIA//6JVQAAAAAAcYwu+AACAP3iF9ryBjai+ET2yPfWTcD8CAIA/AACAPwIAgD8AAIA/t+xdQAAAgjVMXTm+AACAP0YQjz1i564+mvdGPqu4aj/5/38/AQCAP/v/fz8AAIA/yCyIPzITAj7P+Ey/AACAP4X9S7zAzLE+4O4cPcLYbz/+/38/AgCAP/n/fz8AAIA/FBXFPwAAIDQAAGA1AACAP8QvpTxgSRw+gFQoPkhseT8AAIA///9/P///fz8AAIA/LMqXPwAAIDQAAKC0AACAP6QKyjulEsk9mthkPUJbfj8AAIA/AACAP/7/fz8AAIA/LMqXPwAAhDUAAKA0AACAP5kKyru1Esm9HthkPUNbfj/+/38//v9/PwAAgD8AAIA/FBXFPwAAsLQAADC1AACAP9wvpbxdSRy+glQoPkhseT8CAIA/AACAP/7/fz8AAIA/TOwLQAAAAAAAAAAAAACAP8RN8LvfqI6+6rNqvM3TdT8CAIA/AACAPwEAgD8AAIA/Vo0AQAAAALQAAIA0AACAP91w9by6Fju+bFvgvY4Bej8BAIA//v9/PwIAgD8AAIA/NNKDPwAABLQAAIC0AACAP+IfT7sOmS++9LeUPO8pfD8AAIA/AACAPwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			18
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

@@ -1,0 +1,10 @@
+<NeoX>
+    <MaterialGroup MaterialCount="6" Name="guajia_bzt_glove" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/guanjia/guanjia_bzt/separate_dir/guajia_bzt_glove/guajia_bzt_glove_guanjia_bzt_head01_upgraded.mtl" />
+        <Material_1 Path="chr\guanjia\guanjia_bzt\separate_dir\guajia_bzt_glove\guajia_bzt_glove_guanjia_bzt_head02_upgraded.mtl" />
+        <Material_2 Path="chr\guanjia\guanjia_bzt\separate_dir\guajia_bzt_glove\guajia_bzt_glove_guanjia_bzt_head03_upgraded.mtl" />
+        <Material_3 Path="chr\guanjia\guanjia_bzt\separate_dir\guajia_bzt_glove\guajia_bzt_glove_guanjia_bzt_body01_upgraded.mtl" />
+        <Material_4 Path="chr\guanjia\guanjia_bzt\separate_dir\guajia_bzt_glove\guajia_bzt_glove_guanjia_bzt_body02_upgraded.mtl" />
+        <Material_5 Path="chr\guanjia\guanjia_bzt\separate_dir\guajia_bzt_glove\guajia_bzt_glove_guanjia_bzt_shoutao_upgraded.mtl" />
+    </MaterialGroup>
+</NeoX>

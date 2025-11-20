@@ -1,0 +1,14 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="false" />
+	<NonProportionalScaling Value="false" />
+	<DefaultAnimation Name="lockpicker1_move" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="lockpicker1_move" FileName="animations_lockpicker1/lockpicker1_move.animation" LoadAsync="false" start_time="0" end_time="2.6666" default_loop="True" default_rate="1" />
+		<Animation Name="lockpicker1_brocken" FileName="animations_lockpicker1/lockpicker1_brocken.animation" LoadAsync="false" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="suitroom_lady_lock" FileName="animations_lockpicker1/suitroom_lady_lock.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="8.6" />
+		<Animation Name="corridor_lady_lock1" FileName="animations_lockpicker1/corridor_lady_lock1.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="4.5" />
+		<Animation Name="corridor_lady_lock1_idle" FileName="animations_lockpicker1/corridor_lady_lock1_idle.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="4.1" />
+		<Animation Name="corridor_lady_lock2" FileName="animations_lockpicker1/corridor_lady_lock2.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="4.1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

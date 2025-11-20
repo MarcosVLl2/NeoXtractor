@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_sanzi_01" BoundingInfo="(-0.0775, 0.4233, 0.1176),(0.7759, 1.3203, 0.2257),1.3519" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0775,0.4233,0.1176" BoundingHalf="0.7759,1.3203,0.2257" BoundingInfo="(-0.0775, 0.4233, 0.1176),(0.7759, 1.3203, 0.2257),1.3519" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bp_h55_guajian_guiyan" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_guiyan.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_guiyan.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_sanzi_01" BindingFlag="2" LocalPosition="-0.1930,-0.0716,0.1018" LocalRotation="0.5013,0.4951,0.5580,-0.4384" LocalScale="0.7500,0.7000,0.7000" Name="const_fx_guiyan_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="053c56df8597f98e" Inherit="7" Loading="4" Name="yuanding_guiyan_idle_001" Uri="fx/pendant/yuanding_guiyan_idle_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

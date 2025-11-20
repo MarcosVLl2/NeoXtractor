@@ -1,0 +1,7 @@
+<NeoX>
+    <MaterialGroup MaterialCount="3" Name="hds_c_green" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_c_green/materials/hds_c_green_body.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_c_green/materials/hds_c_green_daoju.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_c_green/materials/hds_c_green_head.mtl" />
+    </MaterialGroup>
+</NeoX>

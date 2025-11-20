@@ -1,0 +1,168 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Animation",
+		"AssetVersion" : 1,
+		"Dependices" : [
+			"chr/player/dm65_survivor_w/animations_dm65_survivor_w/emotion_cjfirework_rens.cpdanimation"
+		]
+	},
+	"_FileTypeInfo" : {
+		"/m_track_group/0/tracks/0" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/1" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/2" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/1" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/2" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/3" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/action_data_list/0/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/0" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/motion_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		},
+		"/motion_joint_rest_transform_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		}
+	},
+	"m_track_group" : [
+		{
+			"property_name" : "Notifier",
+			"display_name" : "",
+			"tracks" : [
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,4.333333492279053
+						],
+						"key_values" : [
+							"start","end"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/SyncNotifierTrack",
+					"display_name" : "sync",
+					"curve" : {
+						"key_times" : [],
+						"key_values" : []
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.004333000164479017
+						],
+						"key_values" : [
+							"vo"
+						]
+					}
+				}
+			]
+		},
+		{
+			"property_name" : "CustomCurve",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Material",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Morph",
+			"display_name" : "",
+			"tracks" : []
+		}
+	],
+	"action_data_list" : [
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"vo"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "436d78b467bb64c4",
+			"socket_name" : "survivor_vo_w",
+			"obj_name" : "Event|Play_vo_w_3p_emotion_cjfirework",
+			"state" : 0,
+			"fadeout_time" : -1
+		}
+	],
+	"name" : "emotion_cjfirework_rens",
+	"animation_property" : {
+		"name" : "Clip",
+		"start_time" : 0,
+		"end_time" : 4.333333492279053,
+		"motion" : {
+			"extracted_joint_name" : "",
+			"rotation_mode" : "None",
+			"translation_mode" : "None",
+			"reference_frame" : "None"
+		},
+		"target_compression_level" : "High",
+		"default_loop" : false,
+		"default_rate" : 1,
+		"cached_pose_count" : 0,
+		"raw_fbx_uri" : "",
+		"compressed_by_editor" : false
+	},
+	"motion_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"motion_joint_rest_transform_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"animation_layer" : [],
+	"is_retargeted" : false,
+	"related_joint_names" : [],
+	"pose_time" : [],
+	"pose_data" : []
+}

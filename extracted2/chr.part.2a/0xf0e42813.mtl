@@ -1,0 +1,54 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_fx">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_ghost.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexAlpha
+				Value="" />
+			<TexCamo
+				Value="" />
+			<TexEnvironment
+				Value="" />
+			<TexMetal
+				Value="chr/boss/billy/billy_weapon_mask.tga" />
+			<TexReflection
+				Value="" />
+			<u_enhance_specular
+				Value="1" />
+			<u_fresnel_color
+				Value="0.254887,0.627451,1.000000,1.000000" />
+			<u_fresnel_fac
+				Value="0.500000" />
+			<u_fresnel_width
+				Value="0.700000" />
+			<Tex0
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_weapon_diff.tga" />
+			<TexNormal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_weapon_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="2" />
+		</RenderStates>
+	</Material>
+</NeoX>

@@ -1,0 +1,68 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="zuori_jizhe_body">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro1
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_character.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_deluosi/h55_survivor_w_deluosi_jizhe/separate_dir/deluosi_jizhe_zuori/deluosi_jizhe_zuori_body_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_deluosi/h55_survivor_w_deluosi_jizhe/separate_dir/deluosi_jizhe_zuori/deluosi_jizhe_zuori_body_mask.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_deluosi/h55_survivor_w_deluosi_jizhe/separate_dir/deluosi_jizhe_zuori/deluosi_jizhe_zuori_body_mask01.tga" />
+			<TexStyledShadow
+				Value="" />
+			<anisotropy_color
+				Value="0.815885,1.000000,0.625422,1.000000" />
+			<anisotropy_noise
+				Value="0.100000" />
+			<anisotropy_offset
+				Value="-0.100000" />
+			<anisotropy_width
+				Value="100" />
+			<u_ambient
+				Value="0.300000" />
+			<u_luminous_intensity
+				Value="0" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_deluosi/h55_survivor_w_deluosi_jizhe/separate_dir/deluosi_jizhe_zuori/deluosi_jizhe_zuori_body_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_deluosi/h55_survivor_w_deluosi_jizhe/separate_dir/deluosi_jizhe_zuori/deluosi_jizhe_zuori_body_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="4" />
+		</RenderStates>
+	</Material>
+</NeoX>

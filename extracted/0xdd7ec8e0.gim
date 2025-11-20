@@ -1,0 +1,43 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="biped" BoundingInfo="(0.00, 9.67, -0.18),(5.05, 9.84, 1.81),11.21" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.1008,17.7752,-0.3369" BoundingHalf="1.5481,1.7362,1.6576" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="guanjia_bzt_head01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.4927,17.4540,0.9261" BoundingHalf="0.2882,0.2942,0.0813" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="guanjia_bzt_head01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.9151,17.0009,0.2444" BoundingHalf="0.1767,0.6336,0.6541" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="guanjia_bzt_head01_2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="-0.0078,7.9960,0.1357" BoundingHalf="4.2106,8.1665,1.4944" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="guanjia_bzt_body_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="-0.2709,13.2038,0.9418" BoundingHalf="0.4427,0.3888,0.1522" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="guanjia_bzt_body_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="0.0000,16.8145,0.1078" BoundingHalf="1.2532,1.7396,1.1731" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="guanjia_bzt_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="0.0000,9.6427,0.3872" BoundingHalf="5.0480,1.1357,0.8421" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="guanjia_bzt_shoutao001" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../guanjia_bzt.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../guanjia_bzt.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2066,14.3116,-0.0500" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2066,20.3547,-0.0500" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="name" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_2 BindType="7" BindingBone="biped neck" BindingFlag="2" LocalPosition="-0.0983,0.0000,0.2936" LocalRotation="-0.0479,0.0478,-0.7054,0.7056" LocalScale="1.0007,1.0010,1.0017" Name="sound" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="5174624ceba3f35e" Inherit="7" Loading="1" Name="spzxjq2022_normal_doorclose_delete" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_doorclose" />
+            <Object CastShadow="false" Id="008062223475edb8" Inherit="7" Loading="1" Name="spzxjq2022_normal_dooropen_delete" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_dooropen" />
+            <Object CastShadow="false" Id="e415c883d4971c20" Inherit="7" Loading="1" Name="spzxjq2022_normal_foley" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_foley" />
+            <Object CastShadow="false" Id="fc9a27e50c2d84b2" Inherit="7" Loading="1" Name="spzxjq2022_normal_walk_m" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_walk_m" />
+            <Object CastShadow="false" Id="b75611fc0da308d4" Inherit="7" Loading="1" Name="spzxjq2023_normal_walk" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2023_normal_walk" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="biped neck" BindingFlag="2" LocalPosition="-0.0983,0.0000,0.2936" LocalRotation="-0.0479,0.0478,-0.7054,0.7056" LocalScale="1.0007,1.0010,1.0017" Name="sound_2023" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0e00b69eca07ffb4" Inherit="7" Loading="1" Name="spgame2023d185_060_bzt" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_spgame2023d185_060_bzt" />
+            <Object CastShadow="false" Id="339c3ae8d724190f" Inherit="7" Loading="1" Name="spgame2023d185_070_bzt" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_spzxjq2023_spgame2023d185_070_bzt" />
+            <Object CastShadow="false" Id="1ce05c78e7fefe67" Inherit="7" Loading="1" Name="spzxjq2023_normal_walk" Uri="wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2023_normal_walk" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-11.3487,20.3547,-6.7481" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui1" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_5 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.5543,18.2867,3.3935" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui2" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_6 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

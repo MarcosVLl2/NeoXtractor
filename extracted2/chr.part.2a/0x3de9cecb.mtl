@@ -1,0 +1,48 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_weapon">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\clearcoat_flake.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="common/lut/ice_diffuse38.dds" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_weapon_mask.tga" />
+			<u_coatAmount
+				Value="1" />
+			<u_coatNormalScale
+				Value="1" />
+			<u_flakeColorAmount
+				Value="1" />
+			<u_flakeNormalScale
+				Value="1" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_weapon_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_weapon_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

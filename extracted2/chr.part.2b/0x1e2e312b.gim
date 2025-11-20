@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_bone_01" BoundingInfo="(-0.0103, 12.6835, 0.0490),(8.1156, 11.1783, 8.1894),16.0587" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0103,12.6835,0.0490" BoundingHalf="8.1156,11.1783,8.1894" BoundingInfo="(-0.0103, 12.6835, 0.0490),(8.1156, 11.1783, 8.1894),16.0587" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="glass01_f01" RenderGroup="0" RenderOffset="1" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="billy_e_gelude_glassquan.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="billy_e_gelude_glassquan.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

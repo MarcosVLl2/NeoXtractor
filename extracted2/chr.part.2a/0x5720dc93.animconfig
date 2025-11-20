@@ -1,0 +1,18 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="idle"
+			FileName="animations_hds_e_baojun_niao/idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

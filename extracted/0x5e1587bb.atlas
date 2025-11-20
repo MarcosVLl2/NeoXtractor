@@ -1,0 +1,202 @@
+
+insect_game_beetle_6.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiachong_06_guang
+  rotate: false
+  xy: 2, 197
+  size: 260, 313
+  orig: 260, 313
+  offset: 0, 0
+  index: -1
+kc_0
+  rotate: true
+  xy: 2, 2
+  size: 10, 32
+  orig: 10, 32
+  offset: 0, 0
+  index: -1
+kc_1
+  rotate: true
+  xy: 197, 5
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+kc_10
+  rotate: false
+  xy: 264, 411
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+kc_11
+  rotate: false
+  xy: 198, 17
+  size: 52, 37
+  orig: 53, 39
+  offset: 1, 0
+  index: -1
+kc_12
+  rotate: true
+  xy: 264, 301
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+kc_13
+  rotate: true
+  xy: 264, 372
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+kc_14
+  rotate: true
+  xy: 264, 458
+  size: 52, 37
+  orig: 53, 39
+  offset: 0, 0
+  index: -1
+kc_15
+  rotate: true
+  xy: 300, 295
+  size: 43, 24
+  orig: 43, 24
+  offset: 0, 0
+  index: -1
+kc_16
+  rotate: false
+  xy: 264, 260
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+kc_17
+  rotate: true
+  xy: 60, 14
+  size: 51, 55
+  orig: 51, 57
+  offset: 0, 2
+  index: -1
+kc_18
+  rotate: false
+  xy: 300, 269
+  size: 43, 24
+  orig: 43, 24
+  offset: 0, 0
+  index: -1
+kc_19
+  rotate: true
+  xy: 311, 408
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+kc_2
+  rotate: false
+  xy: 200, 56
+  size: 72, 65
+  orig: 73, 78
+  offset: 0, 0
+  index: -1
+kc_20
+  rotate: true
+  xy: 2, 14
+  size: 51, 56
+  orig: 51, 57
+  offset: 0, 1
+  index: -1
+kc_21
+  rotate: true
+  xy: 303, 474
+  size: 36, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+kc_22
+  rotate: true
+  xy: 311, 381
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+kc_23
+  rotate: true
+  xy: 117, 39
+  size: 26, 79
+  orig: 26, 79
+  offset: 0, 0
+  index: -1
+kc_24
+  rotate: true
+  xy: 303, 436
+  size: 36, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+kc_25
+  rotate: true
+  xy: 311, 354
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+kc_26
+  rotate: true
+  xy: 117, 12
+  size: 25, 78
+  orig: 26, 79
+  offset: 1, 1
+  index: -1
+kc_3
+  rotate: false
+  xy: 252, 32
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+kc_4
+  rotate: false
+  xy: 252, 8
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+kc_5
+  rotate: false
+  xy: 274, 72
+  size: 87, 49
+  orig: 88, 49
+  offset: 1, 0
+  index: -1
+kc_6
+  rotate: false
+  xy: 274, 21
+  size: 87, 49
+  orig: 88, 49
+  offset: 0, 0
+  index: -1
+kc_7
+  rotate: false
+  xy: 200, 123
+  size: 98, 72
+  orig: 98, 73
+  offset: 0, 0
+  index: -1
+kc_8
+  rotate: true
+  xy: 2, 67
+  size: 128, 196
+  orig: 128, 196
+  offset: 0, 0
+  index: -1
+kc_9
+  rotate: false
+  xy: 264, 340
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1

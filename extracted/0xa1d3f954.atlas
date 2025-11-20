@@ -1,0 +1,55 @@
+
+book2.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 8875 拷贝 12_1
+  rotate: false
+  xy: 191, 32
+  size: 68, 85
+  orig: 68, 85
+  offset: 0, 0
+  index: -1
+图层 8875 拷贝 13
+  rotate: true
+  xy: 763, 49
+  size: 201, 141
+  orig: 201, 141
+  offset: 0, 0
+  index: -1
+图层 8875 拷贝 14
+  rotate: true
+  xy: 2, 2
+  size: 115, 187
+  orig: 115, 187
+  offset: 0, 0
+  index: -1
+图层 8875 拷贝 15
+  rotate: false
+  xy: 906, 63
+  size: 134, 187
+  orig: 134, 187
+  offset: 0, 0
+  index: -1
+图层 8875 拷贝 16
+  rotate: false
+  xy: 372, 35
+  size: 213, 215
+  orig: 218, 215
+  offset: 0, 0
+  index: -1
+图层 8875 拷贝 17
+  rotate: true
+  xy: 587, 6
+  size: 244, 174
+  orig: 244, 175
+  offset: 0, 1
+  index: -1
+图层 8875 拷贝 18
+  rotate: false
+  xy: 2, 119
+  size: 368, 131
+  orig: 368, 131
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,7 @@
+<NeoX>
+    <MaterialGroup MaterialCount="3" Name="ttds_d_fansheng" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_d_fansheng/materials/ttds_d_fansheng_body01.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_d_fansheng/materials/ttds_d_fansheng_body02.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_d_fansheng/materials/ttds_d_fansheng_head01.mtl" />
+    </MaterialGroup>
+</NeoX>

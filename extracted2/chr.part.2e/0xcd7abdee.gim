@@ -1,0 +1,24 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(-7.29, 10.78, -2.31),(12.15, 10.80, 3.83),16.70" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0083,12.8651,-0.0718" BoundingHalf="4.8708,5.4748,1.1901" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="billy_d_jue_body01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-2.5912,13.2369,-0.5284" BoundingHalf="1.4999,3.1621,0.7269" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="billy_d_jue_body01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-0.1153,6.3063,-0.0430" BoundingHalf="1.2733,6.3223,1.3688" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="billy_d_jue_body02_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="0.1248,9.0534,-3.2532" BoundingHalf="0.6079,3.2676,2.8860" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="billy_d_jue_body02_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="-0.1836,17.7778,-0.6668" BoundingHalf="2.4594,3.7982,2.1807" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="billy_d_jue_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="-10.8978,1.1533,0.0995" BoundingHalf="1.8127,0.9286,0.7676" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="billy_weapon" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="-19.2446,9.6512,0.0000" BoundingHalf="0.2029,9.5627,0.1757" ForceBatch="false" IsSkin4S="false" MtlIdx="6" Name="billy_weapon1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub7 BoundingCenter="-10.8979,1.1535,0.0995" BoundingHalf="1.8125,0.9283,0.7676" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="x57_weapon" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="billy_e_gelude_yp01.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="billy_e_gelude_yp01.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

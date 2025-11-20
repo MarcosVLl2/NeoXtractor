@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_cat",
+	"joint_names" : [
+		"biped","biped pelvis","biped spine","biped_bone01","biped_bone25","biped_bone23","biped_bone22","biped_bone24","biped spine1","biped l thigh","biped r thigh","biped_bone02","biped neck","biped l calf","biped r calf","biped_bone03","biped l clavicle","biped r clavicle","biped head","biped l foot","biped r foot","biped l upperarm","biped r upperarm","biped_bone12","biped_bone11","biped_bone10","biped_bone18","biped_bone16","biped_bone09","biped_bone06","biped_bone07","biped_bone08","biped_bone05","biped_bone04","biped l toe0","biped r toe0","biped l forearm","biped r forearm","biped_bone21","biped_bone20","biped_bone15","biped_bone19","biped_bone17","biped_bone14","biped l hand","biped r hand","biped_bone13","biped l finger0","biped r finger0"
+	],
+	"joint_parent_indices" : [
+		-1,0,1,1,1,1,1,1,2,2,2,3,8,9,10,11,12,12,12,13,14,16,17,18,18,18,18,18,18,18,18,18,18,18,19,20,21,22,23,24,25,26,27,28,36,37,43,44,45
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			49
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

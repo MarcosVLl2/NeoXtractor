@@ -1,0 +1,940 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_jyz_e_jierda_head/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_snow_jyz_shuji"
+			FileName="animations_jyz_e_jierda_head/emotion_snow_jyz_shuji.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animations_jyz_e_jierda_head/repair_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animations_jyz_e_jierda_head/repair_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="right_push_impact"
+			FileName="animations_jyz_e_jierda_head/right_push_impact.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_jyz_e_jierda_head/run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="save2"
+			FileName="animations_jyz_e_jierda_head/save2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_2"
+			FileName="animations_jyz_e_jierda_head/scare_idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_3"
+			FileName="animations_jyz_e_jierda_head/scare_idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shoot"
+			FileName="animations_jyz_e_jierda_head/shoot.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="silent"
+			FileName="animations_jyz_e_jierda_head/silent.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide"
+			FileName="animations_jyz_e_jierda_head/slide.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide2"
+			FileName="animations_jyz_e_jierda_head/slide2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide3"
+			FileName="animations_jyz_e_jierda_head/slide3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide4"
+			FileName="animations_jyz_e_jierda_head/slide4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide5"
+			FileName="animations_jyz_e_jierda_head/slide5.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide6"
+			FileName="animations_jyz_e_jierda_head/slide6.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_jyz_e_jierda_head/span.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span2"
+			FileName="animations_jyz_e_jierda_head/span2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span3"
+			FileName="animations_jyz_e_jierda_head/span3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash"
+			FileName="animations_jyz_e_jierda_head/splash.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_1"
+			FileName="animations_jyz_e_jierda_head/splash_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="behitch_hx"
+			FileName="animations_jyz_e_jierda_head/behitch_hx.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cautious"
+			FileName="animations_jyz_e_jierda_head/cautious.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_jyz_e_jierda_head/climb_upstairs.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_jyz_e_jierda_head/climb_upstairs_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="covereyes"
+			FileName="animations_jyz_e_jierda_head/covereyes.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="curious"
+			FileName="animations_jyz_e_jierda_head/curious.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cheer_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_cheer_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_dance_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.5999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_dice_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_lying_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_lying_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shame_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_shame_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="exciting"
+			FileName="animations_jyz_e_jierda_head/exciting.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_jyz_e_jierda_head/fall.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fear_run"
+			FileName="animations_jyz_e_jierda_head/fear_run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk"
+			FileName="animations_jyz_e_jierda_head/fear_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2"
+			FileName="animations_jyz_e_jierda_head/fear_walk2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="forward"
+			FileName="animations_jyz_e_jierda_head/forward.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="grope"
+			FileName="animations_jyz_e_jierda_head/grope.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shout_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_shout_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_look_jyz"
+			FileName="animations_jyz_e_jierda_head/wait_look_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_dice_20_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_2"
+			FileName="animations_jyz_e_jierda_head/splash_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint"
+			FileName="animations_jyz_e_jierda_head/sprint.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizziness"
+			FileName="animations_jyz_e_jierda_head/sprint_dizziness.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_hit"
+			FileName="animations_jyz_e_jierda_head/sprint_hit.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_stop"
+			FileName="animations_jyz_e_jierda_head/sprint_stop.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_greet_jyz"
+			FileName="animations_jyz_e_jierda_head/wait_greet_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_jyz_1"
+			FileName="animations_jyz_e_jierda_head/wait_jyz_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_play_jyz"
+			FileName="animations_jyz_e_jierda_head/wait_play_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_sleeping_jyz"
+			FileName="animations_jyz_e_jierda_head/wait_sleeping_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_stand_jyz"
+			FileName="animations_jyz_e_jierda_head/wait_stand_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animations_jyz_e_jierda_head/walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_jed_jyz"
+			FileName="animations_jyz_e_jierda_head/show_idle_jed_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_jed_jyz"
+			FileName="animations_jyz_e_jierda_head/show_appear_jed_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_jed_jyz"
+			FileName="animations_jyz_e_jierda_head/show_idle_special_jed_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="18"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_taunt_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_taunt_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse"
+			FileName="animations_jyz_e_jierda_head/happy_cockhorse.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4"
+			FileName="animations_jyz_e_jierda_head/happy_struggle4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_jyz_e_jierda_head/idle.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animations_jyz_e_jierda_head/idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_3"
+			FileName="animations_jyz_e_jierda_head/idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_cabinet"
+			FileName="animations_jyz_e_jierda_head/idle_cabinet.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_jyz_e_jierda_head/idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump"
+			FileName="animations_jyz_e_jierda_head/jump.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="left_push_impact"
+			FileName="animations_jyz_e_jierda_head/left_push_impact.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light"
+			FileName="animations_jyz_e_jierda_head/light.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animations_jyz_e_jierda_head/low_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="openbox"
+			FileName="animations_jyz_e_jierda_head/openbox.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="operate_remote_control"
+			FileName="animations_jyz_e_jierda_head/operate_remote_control.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="out"
+			FileName="animations_jyz_e_jierda_head/out.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="reading_map"
+			FileName="animations_jyz_e_jierda_head/reading_map.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair"
+			FileName="animations_jyz_e_jierda_head/repair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_2"
+			FileName="animations_jyz_e_jierda_head/repair_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_groundpet_common"
+			FileName="animations_jyz_e_jierda_head/idle_special_groundpet_common.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_owl_woman"
+			FileName="animations_jyz_e_jierda_head/idle_special_owl_woman.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ignorant"
+			FileName="animations_jyz_e_jierda_head/ignorant.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="knock1"
+			FileName="animations_jyz_e_jierda_head/knock1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="unvoice"
+			FileName="animations_jyz_e_jierda_head/unvoice.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crouch"
+			FileName="animations_jyz_e_jierda_head/crouch.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_jyz_e_jierda_head/glide.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_jyz_e_jierda_head/hall_walk_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_jyz_e_jierda_head/liftcar_idle.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="recall"
+			FileName="animations_jyz_e_jierda_head/recall.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_carrousel"
+			FileName="animations_jyz_e_jierda_head/sit_carrousel.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_jyz_e_jierda_head/hall_idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_jyz_e_jierda_head/hall_idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_idle_3"
+			FileName="animations_jyz_e_jierda_head/happy_idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_sickle_attack_1_lightly"
+			FileName="animations_jyz_e_jierda_head/happy_sickle_attack_1_lightly.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_race"
+			FileName="animations_jyz_e_jierda_head/run_race.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="smash"
+			FileName="animations_jyz_e_jierda_head/smash.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="smash2"
+			FileName="animations_jyz_e_jierda_head/smash2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_1"
+			FileName="animations_jyz_e_jierda_head/race_tram_jump_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_2"
+			FileName="animations_jyz_e_jierda_head/race_tram_jump_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_3"
+			FileName="animations_jyz_e_jierda_head/race_tram_jump_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_4"
+			FileName="animations_jyz_e_jierda_head/race_tram_jump_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_sit_left_gw"
+			FileName="animations_jyz_e_jierda_head/idle_special_sit_left_gw.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_sit_right_gw"
+			FileName="animations_jyz_e_jierda_head/idle_special_sit_right_gw.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_bosom"
+			FileName="animations_jyz_e_jierda_head/idle_bosom.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_epiphany_jyz"
+			FileName="animations_jyz_e_jierda_head/emotion_epiphany_jyz.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_cello"
+			FileName="animations_jyz_e_jierda_head/hall_interact_cello.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_violin"
+			FileName="animations_jyz_e_jierda_head/hall_interact_violin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_jyz_e_jierda_head/cr_solo_dance_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="14.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_nightingale"
+			FileName="animations_jyz_e_jierda_head/emotion_nightingale.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="13.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_jyz_e_jierda_head/cr_fish_show_end.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_jyz_e_jierda_head/cr_fish_show_loop.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_jyz_e_jierda_head/cr_fish_show_start.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_jyz_e_jierda_head/emotion_fish_show.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_jyz_e_jierda_head/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_dance_play"
+			FileName="animations_jyz_e_jierda_head/room_dance_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play_w_mv"
+			FileName="animations_jyz_e_jierda_head/hall_toilet_play_w_mv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_jyz_e_jierda_head/cr_fly_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="3.266667" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_jyz_e_jierda_head/cr_fly_run.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="6" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_jyz_e_jierda_head/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo"
+			FileName="animations_jyz_e_jierda_head/emotion_photo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

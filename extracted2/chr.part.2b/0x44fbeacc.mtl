@@ -1,0 +1,21 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		Name="fxj_d_mianbao_body02">
+		<AnimParam
+			Speed="1.000000" />
+		<ShaderMacro />
+		<Technique
+			Type="Surface"
+			Surface="shader/pbr_ex.fx::TShader" />
+		<ParamTable />
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

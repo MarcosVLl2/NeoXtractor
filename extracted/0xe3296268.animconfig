@@ -1,0 +1,66 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="true" />
+	<NonProportionalScaling Value="true" />
+	<DefaultAnimation Name="idle" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_niuzai_e_niuzai_weapon/skin.animation" LoadAsync="true" start_time="0" end_time="6.4" default_loop="True" default_rate="1" />
+		<Animation Name="cast_lasso" FileName="animations_niuzai_e_niuzai_weapon/cast_lasso.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="False" default_rate="1" />
+		<Animation Name="raise_lasso" FileName="animations_niuzai_e_niuzai_weapon/raise_lasso.animation" LoadAsync="true" start_time="0" end_time="0.4666" default_loop="False" default_rate="1" />
+		<Animation Name="shake_lasso" FileName="animations_niuzai_e_niuzai_weapon/shake_lasso.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="wait_look_niuzai" FileName="animations_niuzai_e_niuzai_weapon/wait_look_niuzai.animation" LoadAsync="true" start_time="0" end_time="10.8999" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_niuzai_qz" FileName="animations_niuzai_e_niuzai_weapon/show_appear_niuzai_qz.animation" LoadAsync="true" start_time="0" end_time="7.5999" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_niuzai_qz" FileName="animations_niuzai_e_niuzai_weapon/show_idle_niuzai_qz.animation" LoadAsync="true" start_time="0" end_time="6.3666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_niuzai_qz" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_niuzai_qz.animation" LoadAsync="true" start_time="0" end_time="5.9333" default_loop="False" default_rate="1" />
+		<Animation Name="take_back_lasso" FileName="animations_niuzai_e_niuzai_weapon/take_back_lasso.animation" LoadAsync="true" start_time="0" end_time="0.4666" default_loop="False" default_rate="1" />
+		<Animation Name="idle_lasso" FileName="animations_niuzai_e_niuzai_weapon/idle_lasso.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_cf_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_cf_niuzai.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_cf_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_cf_niuzai.animation" LoadAsync="true" start_time="0" end_time="7.4666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_cf_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_cf_niuzai.animation" LoadAsync="true" start_time="0" end_time="8.6" default_loop="False" default_rate="1" />
+		<Animation Name="idle_1" FileName="animations_niuzai_e_niuzai_weapon/idle_1.animation" LoadAsync="true" start_time="0" end_time="0.2" default_loop="False" default_rate="1" />
+		<Animation Name="idle_2" FileName="animations_niuzai_e_niuzai_weapon/idle_2.animation" LoadAsync="true" start_time="0" end_time="2.5666" default_loop="True" default_rate="1" />
+		<Animation Name="be_pull" FileName="animations_niuzai_e_niuzai_weapon/be_pull.animation" LoadAsync="true" start_time="0" end_time="0.2666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_niuzai.animation" LoadAsync="true" start_time="0" end_time="5.9333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_niuzai.animation" LoadAsync="true" start_time="0" end_time="6.5333" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_niuzai.animation" LoadAsync="true" start_time="0" end_time="4.3333" default_loop="False" default_rate="1" />
+		<Animation Name="idle" FileName="animations_niuzai_e_niuzai_weapon/idle.animation" LoadAsync="true" start_time="0" end_time="2.9666" default_loop="True" default_rate="1" />
+		<Animation Name="draw_1_lasso" FileName="animations_niuzai_e_niuzai_weapon/draw_1_lasso.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="draw_2_lasso" FileName="animations_niuzai_e_niuzai_weapon/draw_2_lasso.animation" LoadAsync="true" start_time="0" end_time="0.6666" default_loop="False" default_rate="1" />
+		<Animation Name="wait_play_niuzai" FileName="animations_niuzai_e_niuzai_weapon/wait_play_niuzai.animation" LoadAsync="true" start_time="0" end_time="7.9333" default_loop="True" default_rate="1" />
+		<Animation Name="wait_stand_niuzai" FileName="animations_niuzai_e_niuzai_weapon/wait_stand_niuzai.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_hunter_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_hunter_niuzai.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_hunter_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_hunter_niuzai.animation" LoadAsync="true" start_time="0" end_time="7.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_hunter_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_hunter_niuzai.animation" LoadAsync="true" start_time="0" end_time="5.3333" default_loop="False" default_rate="1" />
+		<Animation Name="be_pull_1" FileName="animations_niuzai_e_niuzai_weapon/be_pull_1.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_cb_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_cb_niuzai.animation" LoadAsync="true" start_time="0" end_time="6.7333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_cb_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_cb_niuzai.animation" LoadAsync="true" start_time="0" end_time="10.8999" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_cb_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_cb_niuzai.animation" LoadAsync="true" start_time="0" end_time="8.5666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_lzr_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_lzr_niuzai.animation" LoadAsync="true" start_time="0" end_time="10.9666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_lzr_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_lzr_niuzai.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_lzr_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_lzr_niuzai.animation" LoadAsync="true" start_time="0" end_time="10.6666" default_loop="False" default_rate="1" />
+		<Animation Name="cast_lasso_imba" FileName="animations_niuzai_e_niuzai_weapon/cast_lasso_imba.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="False" default_rate="1" />
+		<Animation Name="draw_1_lasso_imba" FileName="animations_niuzai_e_niuzai_weapon/draw_1_lasso_imba.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="draw_2_lasso_imba" FileName="animations_niuzai_e_niuzai_weapon/draw_2_lasso_imba.animation" LoadAsync="true" start_time="0" end_time="0.6666" default_loop="False" default_rate="1" />
+		<Animation Name="take_back_lasso_imba" FileName="animations_niuzai_e_niuzai_weapon/take_back_lasso_imba.animation" LoadAsync="true" start_time="0" end_time="0.4666" default_loop="False" default_rate="1" />
+		<Animation Name="be_pull_imba" FileName="animations_niuzai_e_niuzai_weapon/be_pull_imba.animation" LoadAsync="true" start_time="0" end_time="0.2666" default_loop="False" default_rate="1" />
+		<Animation Name="be_pull_girl" FileName="animations_niuzai_e_niuzai_weapon/be_pull_girl.animation" LoadAsync="true" start_time="0" end_time="0.7666" default_loop="True" default_rate="1" />
+		<Animation Name="be_pull_1_girl" FileName="animations_niuzai_e_niuzai_weapon/be_pull_1_girl.animation" LoadAsync="true" start_time="0" end_time="0.3" default_loop="False" default_rate="1" />
+		<Animation Name="cast_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/cast_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="False" default_rate="1" />
+		<Animation Name="get_off_1_girl" FileName="animations_niuzai_e_niuzai_weapon/get_off_1_girl.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="False" default_rate="1" />
+		<Animation Name="lift_idle_girl" FileName="animations_niuzai_e_niuzai_weapon/lift_idle_girl.animation" LoadAsync="true" start_time="0" end_time="3.2" default_loop="True" default_rate="1" />
+		<Animation Name="raise_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/raise_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="0.4666" default_loop="False" default_rate="1" />
+		<Animation Name="shake_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/shake_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="take_back_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/take_back_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="0.4666" default_loop="False" default_rate="1" />
+		<Animation Name="draw_1_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/draw_1_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="draw_2_lasso_girl" FileName="animations_niuzai_e_niuzai_weapon/draw_2_lasso_girl.animation" LoadAsync="true" start_time="0" end_time="0.6666" default_loop="False" default_rate="1" />
+		<Animation Name="start_bra_niuzai" FileName="animations_niuzai_e_niuzai_weapon/start_bra_niuzai.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="start_fir_niuzai" FileName="animations_niuzai_e_niuzai_weapon/start_fir_niuzai.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="start_per_niuzai" FileName="animations_niuzai_e_niuzai_weapon/start_per_niuzai.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="start_tra_niuzai" FileName="animations_niuzai_e_niuzai_weapon/start_tra_niuzai.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_mourn_nz" FileName="animations_niuzai_e_niuzai_weapon/emotion_mourn_nz.animation" LoadAsync="true" start_time="0" end_time="5.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_gdl_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_appear_gdl_niuzai.animation" LoadAsync="true" start_time="0" end_time="14.5333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_gdl_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_gdl_niuzai.animation" LoadAsync="true" start_time="0" end_time="9.9333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_gdl_niuzai" FileName="animations_niuzai_e_niuzai_weapon/show_idle_special_gdl_niuzai.animation" LoadAsync="true" start_time="0" end_time="8.8333" default_loop="False" default_rate="1" />
+		<Animation Name="shake_lasso_wuma" FileName="animations_niuzai_e_niuzai_weapon/shake_lasso_wuma.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

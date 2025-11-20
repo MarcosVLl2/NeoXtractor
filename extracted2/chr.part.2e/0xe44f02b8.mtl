@@ -1,0 +1,55 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name=" bonbon_e_cat_weapon02">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_BACKFACE_SPECULAR"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_character.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="" />
+			<TexEnvironment
+				Value="shader/env/bloodb5level.dds" />
+			<TexMetal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_weapon_mask.tga" />
+			<TexReflection
+				Value="" />
+			<TexStyledShadow
+				Value="" />
+			<u_luminous_intensity
+				Value="0" />
+			<Tex0
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_weapon_diff.tga" />
+			<TexNormal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_weapon_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

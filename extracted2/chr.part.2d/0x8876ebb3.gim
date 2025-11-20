@@ -1,0 +1,8 @@
+<NeoX AnimAccumEnable="false" BoundingInfo="(-1.72, 26.64, -33.52),(137.04, 26.92, 66.51),154.69" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-1.7163,26.6402,-33.5224" BoundingHalf="137.0414,26.9209,66.5065" BoundingInfo="(-1.72, 26.64, -33.52),(137.04, 26.92, 66.51),154.69" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

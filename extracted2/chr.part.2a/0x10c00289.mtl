@@ -1,0 +1,75 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_c_green_head">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_SELF_LUMINOUS"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_character.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/boss/billy/billy_head_no01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/billy/billy_head_mask.tga" />
+			<TexReflection
+				Value="chr/boss/billy/billy_head_mask01.tga" />
+			<TexStyledShadow
+				Value="" />
+			<anisotropy_color
+				Value="0.510124,0.417563,0.427955,1.000000" />
+			<anisotropy_noise
+				Value="0.120000" />
+			<anisotropy_offset
+				Value="-0.200000" />
+			<anisotropy_width
+				Value="60" />
+			<u_ambient
+				Value="0.300000" />
+			<u_luminous_blink_speed
+				Value="0" />
+			<u_luminous_color_mix
+				Value="0.611856,0.921859,0.638865,1.000000" />
+			<u_luminous_intensity
+				Value="3" />
+			<Tex0
+				Value="chr/boss/billy/separate_dir/billy_c_green/billy_c_green_head_diff.tga" />
+			<TexNormal
+				Value="chr/boss/billy/billy_head_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

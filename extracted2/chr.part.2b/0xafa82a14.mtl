@@ -1,0 +1,60 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_e_gelude_body01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_laser_transparent_rimlight.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body01_mask.tga" />
+			<TexNoise
+				Value="" />
+			<TexReflection
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body01_mask01.tga" />
+			<u_ambient
+				Value="0.300000" />
+			<u_laser_hue_offset
+				Value="0.390000" />
+			<u_laser_hue_scale
+				Value="2.220000" />
+			<u_laser_power
+				Value="0.329360" />
+			<u_rim_color
+				Value="0.000000,0.000000,0.461830,0.113725" />
+			<Tex0
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body01_diff.tga" />
+			<TexNormal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body01_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="42"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="4" />
+		</RenderStates>
+	</Material>
+</NeoX>

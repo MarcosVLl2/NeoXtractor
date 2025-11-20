@@ -1,0 +1,44 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="h55_guajian_gj">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			Type="Effect"
+			TechName="shader\blinn_phong.nfx::TShader" />
+		<ParamTable>
+			<TexCustomLightmap
+				Value="" />
+			<TexLuminous
+				Value="" />
+			<u_dir_base_factor
+				Value="0.100000" />
+			<u_enhance_pbr
+				Value="1.900000" />
+			<u_luminous_intensity
+				Value="0" />
+			<u_luminous_speed
+				Value="1" />
+			<Tex0
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_show_gj_d.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

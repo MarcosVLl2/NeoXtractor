@@ -1,0 +1,20 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="fk001" BoundingInfo="(7.62, 1.62, 0.02),(0.73, 1.07, 0.77),1.50" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="7.6167,1.6248,0.0236" BoundingHalf="0.7260,1.0682,0.7681" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="Object002" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../h55_survivor_m_ttds_hu.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../h55_survivor_m_ttds_hu.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="fk001" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5000,0.5000,-0.5000,0.5000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_ttds_kaibuli_idle_012" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="e4deeac456aa6a24" Inherit="7" Loading="4" Name="ttds_kaibuli_idle_001.pse" Uri="fx/survivor/ttds_kaibuli_idle_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

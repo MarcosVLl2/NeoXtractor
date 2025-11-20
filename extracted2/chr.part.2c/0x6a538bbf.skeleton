@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_hair",
+	"joint_names" : [
+		"biped_hair01","biped_hair02","biped_hair06","biped_hair09","biped_hair12","biped_hair15","biped_hair19","biped_hair23","biped_hair27","biped_hair31","biped_hair32","biped_hair36","biped_hair03","biped_hair07","biped_hair10","biped_hair13","biped_hair16","biped_hair20","biped_hair24","biped_hair28","biped_hair33","biped_hair37","biped_hair04","biped_hair17","biped_hair21","biped_hair25","biped_hair29","biped_hair34","biped_hair38"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,10,11,12,16,17,18,19,20,21
+	],
+	"reference_pose" : "AAAAAAAAAAAAAMCzAACAP1h+1Dy8fNS8xeU0P8LlND8AAIA//v9/PwEAgD8AAIA/FEmBP9CATj+IvG6+AACAP9/0yLozXCk/5jw/P0Eehr0BAIA//f9/P///fz8AAIA/5oOvP1DUTz84WFy/AACAPyedCj2XeXM/VyOdvlTDMrz+/38///9/PwEAgD8AAIA/roGpP/9L3bymWqi/AACAP1IuCrrqBDW/9gQ1P9QeCroBAIA/AQCAPwAAgD8AAIA/C+yyP4kGiL8DyDi/AACAP/4+yztSxzK+Yed7P8xnD70AAIA///9/P/3/fz8AAIA/A96DP5BSM7+u5Sg9AACAP4TbpT1N2T4/2lQpPwDyR7wAAIA/AACAPwAAgD8AAIA/g/YhQABIRLwV+4E/AACAPyjWsT7jaiU/7/8pP8DfE77+/38/AACAPwAAgD8AAIA/koY2QECZsL4vylQ/AACAP9jn272rtKE+QIlpP+Jxc74BAIA//v9/PwAAgD8AAIA/fyQ2QEG53T6r8D8/AACAP9FbdT5L72o/VGOZPnM60z0BAIA/AACAP///fz8AAIA/S9BYQAEEpDwt5yo/AACAP8kFHb/0IbS+7yG0vrsFHT/+/38//v9/PwAAgD8AAIA/zTszQNh8hj9BazC+AACAP92VMD/GaEQ+EVIfvX1yMj8AAIA//v9/P/3/fz8AAIA/zjszQKCHhr+LajC+AACAP3ByMj+SUR891WhEvumVMD///38//f9/PwAAgD8AAIA/l5QgPwAAgLIAAIAzAACAP4Nj1ztXWG+7LRRtPnUJeT8CAIA/AQCAPwAAgD8AAIA/zGZZPwAAADYAANA0AACAPxaktrSRTSuz5z3rPTtOfj/+/38///9/PwAAgD8AAIA/uGZZPwAAgDUAAAAAAACAPzpOfjTaPesy1j3rPTxOfj///38//v9/PwAAgD8AAIA/umZZPwAAgDUAAAAAAACAPxbtfzTgQ9Ey1z3rPTxOfj///38///9/PwEAgD8AAIA/lpQgPwAAgLUAAIA0AACAPyWT4Lv70ko7PbMZPq4XfT8BAIA/AQCAPwEAgD8AAIA/ZWEcPwAAAAAAAEA0AACAP8DXAL3kCjo+vHk7vvQ0dz8BAIA/AACAPwEAgD8AAIA/KguDPwAAAAAAAIC0AACAP84ePbyTbaK98SoZvn5JfD8BAIA//P9/P/z/fz8AAIA/JguDPwAAAAAAAAA0AACAPzt8EDxpJKM9eKg7vqfTej///38//f9/P/3/fz8AAIA/fDA6PwAAgDMAAAC1AACAP/4/XDXx//8xAAAAAAAAgD8BAIA/AgCAPwAAgD8AAIA/bDA6PwAAfDYAAOA0AACAPwGAf7UQAICx/v9/tAAAgD8CAIA/AACAP/7/fz8AAIA/PeD+PgDAibUAAIAzAACAP4eZx7ZI/Q+6jwJ3PrtweD8AAIA/AACAPwQAgD8AAIA/JOD+PgAAgLIAAAC0AACAP6F/0Lf2fBM6G09FPuUzez8EAIA/AACAP///fz8AAIA/9NjkPgAAkLUAAHA1AACAP45JWLzsAok+fr15vnSbbj8BAIA/AACAPwIAgD8AAIA/OjVNPwAAALQAAEi1AACAP+ogirKuyhY78wG6s9T/fz8AAIA/AACAP///fz8AAIA/RjVNPwAAALYAAFi1AACAPy0cHrH8yha7mlwxsdT/fz8DAIA/AQCAPwEAgD8AAIA/EB4lPwAA+LUAAMA0AACAP/7/lrT+/z+y+v//sQAAgD8CAIA/AgCAPwEAgD8AAIA/NB4lPwAAvrYAAKC0AACAP/y/ADUBAACyAAAAAAAAgD8CAIA/BQCAPwQAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			29
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

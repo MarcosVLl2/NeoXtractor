@@ -1,0 +1,8 @@
+<NeoX>
+    <MaterialGroup MaterialCount="4" Name="ttds_e_kbl" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/materials/ttds_e_kbl_body02.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/materials/ttds_e_kbl_head_01.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/materials/ttds_e_kbl_body01.mtl" />
+        <Material_3 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/materials/ttds_e_kbl_body01_01.mtl" />
+    </MaterialGroup>
+</NeoX>

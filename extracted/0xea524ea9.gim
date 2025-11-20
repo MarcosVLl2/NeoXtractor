@@ -1,0 +1,25 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="root1" BoundingInfo="(-3.44, -3.42, 0.42),(3.49, 3.70, 1.30),5.25" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-3.4426,-3.4196,0.4227" BoundingHalf="3.4884,3.7045,1.2996" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="Object007" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="polun_arm_left.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="polun_arm_left.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped  l hand" BindingFlag="2" LocalPosition="1.5894,-0.4230,-0.2795" LocalRotation="-0.4827,0.8754,-0.0087,-0.0262" LocalScale="1.0027,1.0009,1.0030" Name="jiazi" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.8677,19.4498,7.1135" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_001" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="99513025496c021b" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.2719,-0.8005,0.6208" LocalRotation="0.1560,0.7196,-0.0935,0.6702" LocalScale="1.0041,1.0034,1.0045" Name="chunjie_yanhua" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.9013,0.2036,0.2849" LocalRotation="0.0762,-0.2250,-0.8324,0.5007" LocalScale="1.0087,1.0053,1.0093" Name="const_fx_dmm_bld" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

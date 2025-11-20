@@ -1,0 +1,59 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "ttds_e_kbl_touguan",
+	"joint_names" : [
+		"bone_crown"
+	],
+	"joint_parent_indices" : [
+		-1
+	],
+	"reference_pose" : "AAAAAAAAAAB4a2CxAACAP////z4DAAA/////Pv///z4AAIA/AACAPwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [],
+		"joint_counts" : [],
+		"joint_index_ordered_by_lod" : [],
+		"joint_lod_levels" : [],
+		"current_lod_config" : -1
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : []
+}

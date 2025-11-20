@@ -1,0 +1,387 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(-3.9489, 10.7781, -2.4516),(8.7799, 10.8259, 4.0927),13.4327" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0011,13.0139,-0.0997" BoundingHalf="4.8322,5.2680,1.2004" BoundingInfo="(-0.0011, 13.0139, -0.0998),(4.8322, 5.2680, 1.2004),7.0865" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="billy_e_gelude_body01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.1103,15.4774,-0.1524" BoundingHalf="3.3288,3.3075,1.2935" BoundingInfo="(0.1103, 15.4774, -0.1524),(3.3288, 3.3075, 1.2935),4.6863" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="billy_e_gelude_body01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.0791,6.3956,-0.0538" BoundingHalf="1.7348,6.4274,1.6949" BoundingInfo="(0.0791, 6.3956, -0.0538),(1.7348, 6.4274, 1.6949),6.6860" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="billy_e_gelude_body02_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="0.2847,8.8883,-3.5060" BoundingHalf="0.5636,3.2726,3.0382" BoundingInfo="(0.2847, 8.8883, -3.5060),(0.5636, 3.2726, 3.0382),4.4275" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="billy_e_gelude_body02_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="0.1162,10.3925,-0.5000" BoundingHalf="4.3968,10.4403,1.8601" BoundingInfo="(0.1162, 10.3925, -0.5000),(4.3968, 10.4403, 1.8601),10.5964" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="billy_e_gelude_body03_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="-0.9150,11.1737,-0.7317" BoundingHalf="2.4505,5.7854,1.7109" BoundingInfo="(-0.9150, 11.1737, -0.7317),(2.4505, 5.7854, 1.7109),5.8026" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="billy_e_gelude_body03_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="-0.0356,7.8736,-1.3588" BoundingHalf="3.2873,5.4488,1.9847" BoundingInfo="(-0.0356, 7.8736, -1.3588),(3.2873, 5.4488, 1.9847),6.2026" ForceBatch="false" IsSkin4S="false" MtlIdx="6" Name="billy_e_gelude_body03_2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub7 BoundingCenter="-0.0858,18.1447,-1.3094" BoundingHalf="2.4571,3.4594,2.5503" BoundingInfo="(-0.0858, 18.1447, -1.3094),(2.4571, 3.4594, 2.5503),4.0093" ForceBatch="false" IsSkin4S="false" MtlIdx="7" Name="billy_e_gelude_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub8 BoundingCenter="-9.3731,0.4469,-0.0057" BoundingHalf="0.4483,0.4494,0.4490" BoundingInfo="(-9.3731, 0.4469, -0.0057),(0.4483, 0.4494, 0.4490),0.7775" ForceBatch="false" IsSkin4S="false" MtlIdx="8" Name="billy_e_gelude_weapon_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub9 BoundingCenter="-11.9456,1.3204,0.1197" BoundingHalf="0.7832,0.7832,0.7832" BoundingInfo="(-11.9456, 1.3204, 0.1197),(0.7832, 0.7832, 0.7832),0.7833" ForceBatch="false" IsSkin4S="false" MtlIdx="9" Name="billy_e_gelude_weapon_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="../../billy.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../billy.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude.stb" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="63efef705b690b4c" Inherit="7" Loading="1" Name="billy_3p_bee_push" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_bee_push" />
+            <Object CastShadow="false" Id="c8bd53103ddbb405" Inherit="7" Loading="1" Name="billy_3p_carry" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_carry" />
+            <Object CastShadow="false" Id="ee38fdbbaee7ce22" Inherit="7" Loading="1" Name="billy_3p_carry_hit" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_carry_hit" />
+            <Object CastShadow="false" Id="45960e2206b45fa6" Inherit="7" Loading="1" Name="billy_3p_catch" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_catch" />
+            <Object CastShadow="false" Id="16d9986eca6214dc" Inherit="7" Loading="1" Name="billy_3p_climb_downstairs" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_climb_downstairs" />
+            <Object CastShadow="false" Id="a67787f02360dce7" Inherit="7" Loading="1" Name="billy_3p_climb_upstairs" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_climb_upstairs" />
+            <Object CastShadow="false" Id="3e78b9712838145c" Inherit="7" Loading="1" Name="billy_3p_close_cabinet" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_close_cabinet" />
+            <Object CastShadow="false" Id="02f52f27e5d5856a" Inherit="7" Loading="1" Name="billy_3p_close_elecbox" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_close_elecbox" />
+            <Object CastShadow="false" Id="5f0388afb40902cc" Inherit="7" Loading="1" Name="billy_3p_cursed" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_cursed" />
+            <Object CastShadow="false" Id="aab92bb51d9348a5" Inherit="7" Loading="1" Name="billy_3p_destroy" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_destroy" />
+            <Object CastShadow="false" Id="5a6ca1964bc0c477" Inherit="7" Loading="1" Name="billy_3p_destroy_mb" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_destroy_mb" />
+            <Object CastShadow="false" Id="1571c9469277d772" Inherit="7" Loading="1" Name="billy_3p_destroy_transmittter" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_destroy_transmittter" />
+            <Object CastShadow="false" Id="b28476baedb5a9cb" Inherit="7" Loading="1" Name="billy_3p_disarm" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_disarm" />
+            <Object CastShadow="false" Id="b67e627ace0bdb57" Inherit="7" Loading="1" Name="billy_3p_dizziness" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_dizziness" />
+            <Object CastShadow="false" Id="864d7fc79f2984b6" Inherit="7" Loading="1" Name="billy_3p_dizzy" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_dizzy" />
+            <Object CastShadow="false" Id="1380d162e0e91f8e" Inherit="7" Loading="1" Name="billy_3p_dog_bite" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_dog_bite" />
+            <Object CastShadow="false" Id="853b5fda99e3bdf4" Inherit="7" Loading="1" Name="billy_3p_examining_weapon" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_examining_weapon" />
+            <Object CastShadow="false" Id="35ad9e0a14614da7" Inherit="7" Loading="1" Name="billy_3p_fall" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_fall" />
+            <Object CastShadow="false" Id="7966e61588e737b9" Inherit="7" Loading="1" Name="billy_3p_hang" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_hang" />
+            <Object CastShadow="false" Id="5d4b5c7f7147a84a" Inherit="7" Loading="1" Name="billy_3p_hangup" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_hangup" />
+            <Object CastShadow="false" Id="43f88e432a41fc96" Inherit="7" Loading="1" Name="billy_3p_happy_billy_attack_1" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_billy_attack_1" />
+            <Object CastShadow="false" Id="b3fcaeda8c1d0c6a" Inherit="7" Loading="1" Name="billy_3p_happy_billy_attack_2" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_billy_attack_2" />
+            <Object CastShadow="false" Id="4bdb0c103e41e51a" Inherit="7" Loading="1" Name="billy_3p_happy_billy_attack_rebound" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_billy_attack_rebound" />
+            <Object CastShadow="false" Id="cfb5a95660d35ea7" Inherit="7" Loading="1" Name="billy_3p_happy_billy_attack_show" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_billy_attack_show" />
+            <Object CastShadow="false" Id="ce4cd8b57184ec75" Inherit="7" Loading="1" Name="billy_3p_happy_carry" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_carry" />
+            <Object CastShadow="false" Id="aa6abc986cba864b" Inherit="7" Loading="1" Name="billy_3p_happy_catch" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_catch" />
+            <Object CastShadow="false" Id="48f29d14c646b138" Inherit="7" Loading="1" Name="billy_3p_happy_hang" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_happy_hang" />
+            <Object CastShadow="false" Id="6bcd70487392ef90" Inherit="7" Loading="1" Name="billy_3p_hit" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_hit" />
+            <Object CastShadow="false" Id="5c4f7e3182175b87" Inherit="7" Loading="1" Name="billy_3p_hit_skin_spnx" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_hit_skin_spnx" />
+            <Object CastShadow="false" Id="76bc053ad8d39cb1" Inherit="7" Loading="1" Name="billy_3p_littlegirl_pull" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_littlegirl_pull" />
+            <Object CastShadow="false" Id="71b34fd7cc002cd3" Inherit="7" Loading="1" Name="billy_3p_littlegirl_push" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_littlegirl_push" />
+            <Object CastShadow="false" Id="89a6477659801d69" Inherit="7" Loading="1" Name="billy_3p_open_cabinet" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_open_cabinet" />
+            <Object CastShadow="false" Id="5f49793f0ccac19a" Inherit="7" Loading="1" Name="billy_3p_place_patrol_puppet" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_place_patrol_puppet" />
+            <Object CastShadow="false" Id="b4a2c6a7a7f188bb" Inherit="7" Loading="1" Name="billy_3p_place_tower" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_place_tower" />
+            <Object CastShadow="false" Id="b2c85b4fde587e34" Inherit="7" Loading="1" Name="billy_3p_poker_exchange" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_poker_exchange" />
+            <Object CastShadow="false" Id="da3b41575da0abb4" Inherit="7" Loading="1" Name="billy_3p_poker_show_hunter" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_poker_show_hunter" />
+            <Object CastShadow="false" Id="9eca72984110b632" Inherit="7" Loading="1" Name="billy_3p_repair_hook" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_repair_hook" />
+            <Object CastShadow="false" Id="81613b441dca4684" Inherit="7" Loading="1" Name="billy_3p_repel" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_repel" />
+            <Object CastShadow="false" Id="2bd3de3acdb3c772" Inherit="7" Loading="1" Name="billy_3p_span" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_span" />
+            <Object CastShadow="false" Id="a382b3a444c4d09c" Inherit="7" Loading="1" Name="billy_3p_strong_cursed" Uri="wwise/killer_vo_billy.bnk:/Event|Play_billy_3p_strong_cursed" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="9ec08716eeacf9ce" Inherit="7" Loading="1" Name="Event|Play_3p_billy_activate_crystal" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_activate_crystal" />
+            <Object CastShadow="false" Id="5dc92a0913a114fb" Inherit="7" Loading="1" Name="Event|Play_3p_billy_answerphone" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_answerphone" />
+            <Object CastShadow="false" Id="a3bbc9baafabdf59" Inherit="7" Loading="1" Name="Event|Play_3p_billy_ballthorw_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_ballthorw_end" />
+            <Object CastShadow="false" Id="86fbe8be5043e2b6" Inherit="7" Loading="1" Name="Event|Play_3p_billy_ballthorw_end_myball" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_ballthorw_end_myball" />
+            <Object CastShadow="false" Id="efac6045db323266" Inherit="7" Loading="1" Name="Event|Play_3p_billy_bee_push" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_bee_push" />
+            <Object CastShadow="false" Id="0a76b29e93f59916" Inherit="7" Loading="1" Name="Event|Play_3p_billy_butcher_civilian_cure" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_butcher_civilian_cure" />
+            <Object CastShadow="false" Id="d593f1a744ace85c" Inherit="7" Loading="1" Name="Event|Play_3p_billy_carry_hit" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_carry_hit" />
+            <Object CastShadow="false" Id="b8edb7a890cc6bf7" Inherit="7" Loading="1" Name="Event|Play_3p_billy_carry_struggle" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_carry_struggle" />
+            <Object CastShadow="false" Id="40976bd27355745c" Inherit="7" Loading="1" Name="Event|Play_3p_billy_carry_struggle_add" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_carry_struggle_add" />
+            <Object CastShadow="false" Id="40aae5dfd617d664" Inherit="7" Loading="1" Name="Event|Play_3p_billy_cast" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_cast" />
+            <Object CastShadow="false" Id="404aceafca992361" Inherit="7" Loading="1" Name="Event|Play_3p_billy_climb_downstairs" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_climb_downstairs" />
+            <Object CastShadow="false" Id="59c34f2e77891a7d" Inherit="7" Loading="1" Name="Event|Play_3p_billy_climb_upstairs" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_climb_upstairs" />
+            <Object CastShadow="false" Id="0c94857865733320" Inherit="7" Loading="1" Name="Event|Play_3p_billy_close_cabinet" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_close_cabinet" />
+            <Object CastShadow="false" Id="b002fc1b2f651bee" Inherit="7" Loading="1" Name="Event|Play_3p_billy_close_elecbox" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_close_elecbox" />
+            <Object CastShadow="false" Id="2979fb4c32047913" Inherit="7" Loading="1" Name="Event|Play_3p_billy_crystalcard_used_butcher" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_crystalcard_used_butcher" />
+            <Object CastShadow="false" Id="377f392aadba688e" Inherit="7" Loading="1" Name="Event|Play_3p_billy_cursed" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_cursed" />
+            <Object CastShadow="false" Id="93629b86dcb6b273" Inherit="7" Loading="1" Name="Event|Play_3p_billy_destroy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_destroy" />
+            <Object CastShadow="false" Id="3ba68daafe845621" Inherit="7" Loading="1" Name="Event|Play_3p_billy_destroy_transmittter" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_destroy_transmittter" />
+            <Object CastShadow="false" Id="d2dcf8eeb39be3ef" Inherit="7" Loading="1" Name="Event|Play_3p_billy_dial" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_dial" />
+            <Object CastShadow="false" Id="1a5de621ea81ba98" Inherit="7" Loading="1" Name="Event|Play_3p_billy_dizziness" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_dizziness" />
+            <Object CastShadow="false" Id="7856f6a73cc9377c" Inherit="7" Loading="1" Name="Event|Play_3p_billy_dizzy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_dizzy" />
+            <Object CastShadow="false" Id="dca474297cde6213" Inherit="7" Loading="1" Name="Event|Play_3p_billy_fall" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_fall" />
+            <Object CastShadow="false" Id="8972f90a658c0996" Inherit="7" Loading="1" Name="Event|Play_3p_billy_glide" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_glide" />
+            <Object CastShadow="false" Id="360e769077f5bc0a" Inherit="7" Loading="1" Name="Event|Play_3p_billy_hall_idle_special" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_hall_idle_special" />
+            <Object CastShadow="false" Id="744d98a50cab5edb" Inherit="7" Loading="1" Name="Event|Play_3p_billy_hangup" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_hangup" />
+            <Object CastShadow="false" Id="8d410caa6f7882c3" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_carry_hit" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_carry_hit" />
+            <Object CastShadow="false" Id="6cec525bb7bedf69" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_carry_struggle" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_carry_struggle" />
+            <Object CastShadow="false" Id="eaf2a1f7718c868e" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_carry_struggle_add" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_carry_struggle_add" />
+            <Object CastShadow="false" Id="0d2574a56de0d3c2" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_catch" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_catch" />
+            <Object CastShadow="false" Id="51a80bdf4e0af139" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_discard" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_discard" />
+            <Object CastShadow="false" Id="be0ce80b8ad065ef" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_hang" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_hang" />
+            <Object CastShadow="false" Id="302d09175cfe4379" Inherit="7" Loading="1" Name="Event|Play_3p_billy_happy_pick" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_happy_pick" />
+            <Object CastShadow="false" Id="82f35563512f9074" Inherit="7" Loading="1" Name="Event|Play_3p_billy_hit" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_hit" />
+            <Object CastShadow="false" Id="9b768d90c1a32765" Inherit="7" Loading="1" Name="Event|Play_3p_billy_hit_skin_spnx" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_hit_skin_spnx" />
+            <Object CastShadow="false" Id="51d144de6017f2b5" Inherit="7" Loading="1" Name="Event|Play_3p_billy_hit_skin_spnx_1" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_hit_skin_spnx_1" />
+            <Object CastShadow="false" Id="fd45c32db9f31fe5" Inherit="7" Loading="1" Name="Event|Play_3p_billy_idle_special" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_idle_special" />
+            <Object CastShadow="false" Id="0edbb37dc732ab8f" Inherit="7" Loading="1" Name="Event|Play_3p_billy_kick_car_1" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_kick_car_1" />
+            <Object CastShadow="false" Id="f071c438bc0e4463" Inherit="7" Loading="1" Name="Event|Play_3p_billy_littlegirl_pull" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_littlegirl_pull" />
+            <Object CastShadow="false" Id="95f89ed9162d5d09" Inherit="7" Loading="1" Name="Event|Play_3p_billy_load_sit_billy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_load_sit_billy" />
+            <Object CastShadow="false" Id="d6101f9a0fad1f44" Inherit="7" Loading="1" Name="Event|Play_3p_billy_load_sleep_billy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_load_sleep_billy" />
+            <Object CastShadow="false" Id="d3486af76b82c5ab" Inherit="7" Loading="1" Name="Event|Play_3p_billy_load_stand_billy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_load_stand_billy" />
+            <Object CastShadow="false" Id="df850904fbf4dbbb" Inherit="7" Loading="1" Name="Event|Play_3p_billy_load_visit_billy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_load_visit_billy" />
+            <Object CastShadow="false" Id="368399bb815fc5eb" Inherit="7" Loading="1" Name="Event|Play_3p_billy_myball_run_hit" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_myball_run_hit" />
+            <Object CastShadow="false" Id="694d885c75f449d2" Inherit="7" Loading="1" Name="Event|Play_3p_billy_myball_run_lp" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_myball_run_lp" />
+            <Object CastShadow="false" Id="4a2bf7c89674f15d" Inherit="7" Loading="1" Name="Event|Play_3p_billy_offline_myball_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_offline_myball_end" />
+            <Object CastShadow="false" Id="e1385dae77b10b01" Inherit="7" Loading="1" Name="Event|Play_3p_billy_online_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_online_end" />
+            <Object CastShadow="false" Id="315ab6eb8f2d5787" Inherit="7" Loading="1" Name="Event|Play_3p_billy_online_start" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_online_start" />
+            <Object CastShadow="false" Id="b70252c2a369eeb4" Inherit="7" Loading="1" Name="Event|Play_3p_billy_open_cabinet" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_open_cabinet" />
+            <Object CastShadow="false" Id="ea72e2edf37c9e91" Inherit="7" Loading="1" Name="Event|Play_3p_billy_othterball_run_lp" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_othterball_run_lp" />
+            <Object CastShadow="false" Id="78864c986f17ccd2" Inherit="7" Loading="1" Name="Event|Play_3p_billy_place_patrol_puppet" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_place_patrol_puppet" />
+            <Object CastShadow="false" Id="3678f8df47d9c4f1" Inherit="7" Loading="1" Name="Event|Play_3p_billy_point_bihe" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_point_bihe" />
+            <Object CastShadow="false" Id="b2e92498496f2695" Inherit="7" Loading="1" Name="Event|Play_3p_billy_pointthorw_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_pointthorw_end" />
+            <Object CastShadow="false" Id="36f00e377c149757" Inherit="7" Loading="1" Name="Event|Play_3p_billy_pointthorw_start" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_pointthorw_start" />
+            <Object CastShadow="false" Id="559cbaba1c2dc83f" Inherit="7" Loading="1" Name="Event|Play_3p_billy_repair_hook" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_repair_hook" />
+            <Object CastShadow="false" Id="6dad03accff1b02e" Inherit="7" Loading="1" Name="Event|Play_3p_billy_rope_swing_1_jianguan" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_rope_swing_1_jianguan" />
+            <Object CastShadow="false" Id="2ffa5adc5ecf4ed6" Inherit="7" Loading="1" Name="Event|Play_3p_billy_run" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_run" />
+            <Object CastShadow="false" Id="3d11d7526e6c060c" Inherit="7" Loading="1" Name="Event|Play_3p_billy_scare_puppet_rigid" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_scare_puppet_rigid" />
+            <Object CastShadow="false" Id="1d3881d19114904e" Inherit="7" Loading="1" Name="Event|Play_3p_billy_span" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_span" />
+            <Object CastShadow="false" Id="3818409237e99917" Inherit="7" Loading="1" Name="Event|Play_3p_billy_strong_cursed" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_strong_cursed" />
+            <Object CastShadow="false" Id="06686a74ff8bfb30" Inherit="7" Loading="1" Name="Event|Play_3p_billy_xball_run_hit" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_xball_run_hit" />
+            <Object CastShadow="false" Id="3e5313f84ef60ded" Inherit="7" Loading="1" Name="Event|Play_3p_billy_xball_run_lp" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_xball_run_lp" />
+            <Object CastShadow="false" Id="52c4a442dbb11c5d" Inherit="7" Loading="1" Name="Event|Play_3p_destroy_mb" Uri="wwise/killer_billy.bnk:/Event|Play_3p_destroy_mb" />
+            <Object CastShadow="false" Id="f5dc88e551a45787" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_1" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_1" />
+            <Object CastShadow="false" Id="c69c40de8decc498" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_1_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_1_end" />
+            <Object CastShadow="false" Id="2833b8bde210696a" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_2" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_2" />
+            <Object CastShadow="false" Id="8741d744bc33c5c2" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_2_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_2_end" />
+            <Object CastShadow="false" Id="5108910558c72d9d" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_carry" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_carry" />
+            <Object CastShadow="false" Id="439d573981365107" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_carry_end" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_carry_end" />
+            <Object CastShadow="false" Id="b2607bc04cca3fa8" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_rebound" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_rebound" />
+            <Object CastShadow="false" Id="de638af09a65b929" Inherit="7" Loading="1" Name="Event|Play_3p_happy_billy_attack_show" Uri="wwise/killer_billy.bnk:/Event|Play_3p_happy_billy_attack_show" />
+            <Object CastShadow="false" Id="e235f20ebbce3b1f" Inherit="7" Loading="1" Name="Event|Play_3p_billy_toyman_jump_destroy" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_toyman_jump_destroy" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.4063,18.2325,1.1576" LocalRotation="0.2307,0.1249,0.1121,0.9584" LocalScale="1.0000,1.0000,1.0000" Name="redlight" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2850,19.9502,1.1576" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="ui" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,22.7060,0.0000" LocalRotation="-0.0474,-0.0375,-0.0166,0.9980" LocalScale="1.0002,1.0004,0.9998" Name="dialogue" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_5 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.2417,-0.2988,19.3492" LocalRotation="-0.6617,-0.1832,0.0737,0.7233" LocalScale="1.0014,1.0015,1.0010" Name="carry_socket" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_6 BindType="7" BindingBone="biped_bone38" BindingFlag="2" LocalPosition="-1.3156,-0.0355,-0.0014" LocalRotation="-0.1316,-0.6206,0.7294,0.2558" LocalScale="1.0033,1.0037,1.0039" Name="weapon" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_7 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.3377,0.0437,1.0198" LocalRotation="0.0223,0.0343,-0.8005,0.5980" LocalScale="1.0009,1.0005,1.0010" Name="eye" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_8 BindType="7" BindingBone="biped_bone02" BindingFlag="2" LocalPosition="3.2943,0.0492,0.9338" LocalRotation="0.7163,0.6883,0.1141,0.0088" LocalScale="1.0024,1.0048,1.0023" Name="hit_1" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2d5cb7d9c5b3ce42" Inherit="7" Loading="1" Name="attack_hit_01" Uri="fx\killer\attack_hit_01.pse" />
+        </Socket_8>
+        <Socket_9 BindType="7" BindingBone="biped_bone02" BindingFlag="2" LocalPosition="3.8193,1.3072,0.0718" LocalRotation="0.5342,0.4434,0.5390,0.4770" LocalScale="1.0024,1.0025,1.0045" Name="hit_2" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="efb5272f872bfaa6" Inherit="7" Loading="1" Name="attack_hit_03" Uri="fx\killer\attack_hit_03.pse" />
+        </Socket_9>
+        <Socket_10 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="4.8569,0.0000,11.1047" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="hit_3" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="295be16713560e42" Inherit="7" Loading="1" Name="attack_hit_02" Uri="fx\killer\attack_hit_02.pse" />
+        </Socket_10>
+        <Socket_11 BindType="7" BindingBone="biped_bone02" BindingFlag="2" LocalPosition="4.2524,1.0000,0.2262" LocalRotation="0.7163,0.6883,0.1141,0.0088" LocalScale="1.0024,1.0048,1.0023" Name="hit_5" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f586241ec8c7fd69" Inherit="7" Loading="1" Name="attack_hit_05" Uri="fx\killer\attack_hit_05.pse" />
+        </Socket_11>
+        <Socket_12 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="3.5006,0.0000,-9.1627" LocalRotation="0.0000,0.3524,0.0000,0.9358" LocalScale="1.0000,1.0000,1.0000" Name="hit_6" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3f7dd270763e9ea7" Inherit="7" Loading="1" Name="attack_hit_06" Uri="fx\killer\attack_hit_06.pse" />
+        </Socket_12>
+        <Socket_13 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="jiaoyin" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_14 BindType="7" BindingBone="biped_bone01" BindingFlag="2" LocalPosition="7.0143,-0.2780,1.7252" LocalRotation="0.1454,-0.6834,-0.7046,-0.1241" LocalScale="1.0034,1.0023,1.0027" Name="weapon_saw" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_15 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="dangban" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_16 BindType="7" BindingBone="biped spine2" BindingFlag="2" LocalPosition="6.2471,-0.0005,2.3869" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0006,1.0012,1.0016" Name="watch" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_17 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="0.9999,1.0000,0.9999" Name="root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_18 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.1681,0.1180,1.5523" LocalRotation="0.6146,-0.1205,-0.7783,0.0437" LocalScale="1.0006,0.9995,1.0012" Name="curse" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_19 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.6553,-0.0204,0.1412" LocalRotation="0.6146,-0.1205,-0.7783,0.0437" LocalScale="1.0006,0.9995,1.0012" Name="curse1" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="fdb151fa3d753cd5" Inherit="7" Loading="1" Name="jianjiao_01a" Uri="fx\killer\jianjiao_01a.pse" />
+        </Socket_19>
+        <Socket_20 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2850,11.1926,1.1282" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="kuilei" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_21 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.9019,-0.2813,0.4910" LocalRotation="-0.0098,0.5833,-0.1130,0.8043" LocalScale="1.0027,1.0012,1.0014" Name="puppet" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_22 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.4586,15.9765,12.0155" LocalRotation="-0.1908,-0.0441,-0.2210,0.9554" LocalScale="1.0000,1.0000,1.0000" Name="hit" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="59763a9eb037cdd6" Inherit="7" Loading="1" Name="kaitangshou_hit_01" Uri="fx\killer\kaitangshou_hit_01.pse" />
+        </Socket_22>
+        <Socket_23 BindType="7" BindingBone="biped spine2" BindingFlag="2" LocalPosition="0.9911,0.0251,0.4462" LocalRotation="0.0182,-0.0776,-0.6734,0.7349" LocalScale="1.0005,1.0000,1.0005" Name="kuilei1" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_24 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="kuilei2" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_25 BindType="7" BindingBone="biped_bone02" BindingFlag="2" LocalPosition="7.0630,1.1431,-0.1280" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0033,1.0037,1.0039" Name="saw_weapon" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_26 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="-1.6888,1.0006,-2.5604" LocalRotation="0.5952,0.8032,0.0260,0.0000" LocalScale="1.0004,1.0001,1.0000" Name="guajian_xiaonvhai_yuanding" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_27 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="2.1596,-14.3728,-0.4371" LocalRotation="-0.0401,0.5927,0.0592,0.8022" LocalScale="1.0005,1.0000,1.0005" Name="puppet_tower" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_28 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="3.0000,0.0000,20.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="patrol" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_29 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="1.0262,0.7378,-1.0601" LocalRotation="-0.8049,-0.5521,0.2072,-0.0657" LocalScale="1.0003,1.0006,1.0004" Name="guajian_tongyongbuou1" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_30 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="0.9933,-0.1220,0.7590" LocalRotation="0.7571,0.4296,0.2295,0.4354" LocalScale="1.0033,1.0024,1.0012" Name="puppet_tower_hand" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_31 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound_vo" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_32 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="-17.9316,0.0002,2.6811" LocalRotation="-0.0632,0.0632,-0.7042,0.7044" LocalScale="1.0012,1.0010,1.0018" Name="mianju" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_33 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="-0.0687,1.7165,-0.0781" LocalRotation="-0.0303,0.6687,-0.0004,0.7429" LocalScale="1.0000,1.0000,1.0000" Name="chuansong" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_34 BindType="7" BindingBone="biped spine2" BindingFlag="2" LocalPosition="1.5199,0.0002,-0.5128" LocalRotation="0.0367,-0.0369,-0.7061,0.7062" LocalScale="1.0012,1.0005,1.0017" Name="miaozhun" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b15ae3ba505a51c6" Inherit="7" Loading="1" Name="kongjun_miaozhun_01" Uri="fx\survivor\kongjun_miaozhun_01.pse" />
+        </Socket_34>
+        <Socket_35 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="1.1133,0.3650,0.3358" LocalRotation="0.5069,0.2733,0.8062,-0.1358" LocalScale="1.0014,1.0005,1.0027" Name="carry_balloon" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_36 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="1.2807,-0.1367,0.9029" LocalRotation="0.7105,0.6029,0.0106,0.3626" LocalScale="0.8011,0.8012,0.8015" Name="dual_bottle" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_37 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_photo_skill_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0500930361f9127a" Inherit="7" Loading="1" Name="shiguanggui_photo_skill_001" Uri="fx\killer\shiguanggui_photo_skill_001.pse" />
+            <Object CastShadow="false" Id="6e60923c42ca2a58" Inherit="7" Loading="1" Name="shiguanggui_photo_skill_002" Uri="fx\killer\shiguanggui_photo_skill_002.pse" />
+            <Object CastShadow="false" Id="13b4508fb60d3ae2" Inherit="7" Loading="1" Name="shiguanggui_photo_skill_003" Uri="fx\killer\shiguanggui_photo_skill_003.pse" />
+            <Object CastShadow="false" Id="b16c972f5a603b41" Inherit="7" Loading="1" Name="shiguanggui_photo_skill_004" Uri="fx\killer\shiguanggui_photo_skill_004.pse" />
+        </Socket_37>
+        <Socket_38 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_weiji_joseph_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="c73e91c251377426" Inherit="7" Loading="1" Name="shiguanggui_weiji_002" Uri="fx\killer\shiguanggui_weiji_002.pse" />
+        </Socket_38>
+        <Socket_39 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="0.5574,1.5529,-1.0753" LocalRotation="-0.8439,-0.5300,0.0593,0.0578" LocalScale="1.0003,1.0006,1.0004" Name="guajian_zhuanshu" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_40 BindType="7" BindingBone="biped_bone01" BindingFlag="2" LocalPosition="6.8512,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0026,1.0023,1.0020" Name="fx_shiguanggui_hit_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="d9576cf5799eb6bc" Inherit="7" Loading="1" Name="shiguanggui_azrael_hit_001" Uri="fx\killer\shiguanggui_azrael_hit_001.pse" />
+        </Socket_40>
+        <Socket_41 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,25.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="name" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_42 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0002,1.0002" Name="fx_shandianqiu_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_43 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.1688,0.0000,0.0046" LocalRotation="0.0098,-0.0100,-0.7070,0.7071" LocalScale="1.0000,1.0000,1.0000" Name="magnet_yindao" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_44 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.1688,0.0000,0.0046" LocalRotation="0.0098,-0.0100,-0.7070,0.7071" LocalScale="1.0000,1.0000,1.0000" Name="magnet_guangquan" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_45 BindType="7" BindingBone="biped spine2" BindingFlag="2" LocalPosition="0.2632,0.2977,0.0223" LocalRotation="0.0300,-0.0302,-0.7064,0.7065" LocalScale="0.8010,0.8012,0.8013" Name="heart" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_46 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,25.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="zuzhou" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_47 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="0.2020,1.5781,-1.0927" LocalRotation="-0.8439,-0.5300,0.0593,0.0578" LocalScale="1.3003,1.3000,1.3003" Name="guajian_cake" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_48 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,10.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="pighit" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_49 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.2570,0.5899,1.4680" LocalRotation="0.0000,-0.0002,-0.7070,0.7072" LocalScale="1.0012,1.0020,1.0017" Name="fx_cuimianshi_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_50 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="2.5264,0.2899,1.2104" LocalRotation="0.5966,0.6760,0.1261,0.4139" LocalScale="1.0056,1.0047,1.0061" Name="fx_poker_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_51 BindType="7" BindingBone="biped spine2" BindingFlag="2" LocalPosition="-0.0528,0.0000,-0.0046" LocalRotation="0.0299,-0.0302,-0.7064,0.7066" LocalScale="0.5507,0.5508,0.5509" Name="fx_shuijingqiu_lighting" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_52 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,27.1000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_shuijingqiu_zuzhou" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_53 BindType="7" BindingBone="biped r calf" BindingFlag="2" LocalPosition="4.3094,0.7718,0.7085" LocalRotation="-0.1761,0.3428,0.4658,0.7966" LocalScale="1.0019,1.0032,1.0023" Name="maildog_bite" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_54 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound_outside" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="398593855f4c0337" Inherit="7" Loading="1" Name="show_appear_jijian" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_appear_jijian" />
+            <Object CastShadow="false" Id="ad991e18b14fbc06" Inherit="7" Loading="1" Name="show_idle_jijian" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_jijian" />
+            <Object CastShadow="false" Id="4f4bd339fa83880a" Inherit="7" Loading="1" Name="show_idle_special_jijian" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_3p_attack_2020_show_idle_special_jijian" />
+            <Object CastShadow="false" Id="1c31783171d5b2bf" Inherit="7" Loading="1" Name="show_appear_zongcai" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2020_show_appear_zongcai" />
+            <Object CastShadow="false" Id="09b0b7a7804dbb99" Inherit="7" Loading="1" Name="show_idle_special_zongcai" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2020_show_idle_special_zongcai" />
+            <Object CastShadow="false" Id="8e75d7c49d3eb831" Inherit="7" Loading="1" Name="show_idle_zongcai" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2020_show_idle_zongcai" />
+            <Object CastShadow="false" Id="6b7c67deeb995ecc" Inherit="7" Loading="1" Name="load" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_load" />
+            <Object CastShadow="false" Id="2142b4e6421369f0" Inherit="7" Loading="1" Name="load_joseph_sit" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_load_joseph_sit" />
+            <Object CastShadow="false" Id="0f1eb39baa4835a3" Inherit="7" Loading="1" Name="load_joseph_stand" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_load_joseph_stand" />
+            <Object CastShadow="false" Id="2e60d166b41721b9" Inherit="7" Loading="1" Name="load_joseph_visit" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_load_joseph_visit" />
+            <Object CastShadow="false" Id="f5ebabb19955b2cc" Inherit="7" Loading="1" Name="load_joseph_sleep" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_load_joseph_sleep" />
+            <Object CastShadow="false" Id="fe34f4252aa8bce8" Inherit="7" Loading="1" Name="place_tower" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_place_tower" />
+            <Object CastShadow="false" Id="201247face6c3e68" Inherit="7" Loading="1" Name="run" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_run" />
+            <Object CastShadow="false" Id="085ac54e981eb726" Inherit="7" Loading="1" Name="show_idle_special_azrael" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_show_idle_special_azrael" />
+            <Object CastShadow="false" Id="307c995444674e6c" Inherit="7" Loading="1" Name="show_idle_azrael" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_show_idle_azrael" />
+            <Object CastShadow="false" Id="3f27f549e11ac27d" Inherit="7" Loading="1" Name="show_appear_azrael" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_show_appear_azrael" />
+            <Object CastShadow="false" Id="37a6214558953a53" Inherit="7" Loading="1" Name="joseph_emotion_threaten" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_joseph_emotion_threaten" />
+            <Object CastShadow="false" Id="5e802ac79e4b102b" Inherit="7" Loading="1" Name="joseph_outfire_butcher" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_joseph_outfire_butcher" />
+            <Object CastShadow="false" Id="7a1d039b583b3d2f" Inherit="7" Loading="1" Name="show_appear_langren" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_show_appear_langren" />
+            <Object CastShadow="false" Id="c2693e6669b6c613" Inherit="7" Loading="1" Name="show_idle_langren" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_show_idle_langren" />
+            <Object CastShadow="false" Id="0813c55ba18b8c09" Inherit="7" Loading="1" Name="show_idle_special_langren" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_show_idle_special_langren" />
+            <Object CastShadow="false" Id="e4b1992c36b9d0f2" Inherit="7" Loading="1" Name="show_idle_apollo" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_apollo" />
+            <Object CastShadow="false" Id="6c6264b9093a90f7" Inherit="7" Loading="1" Name="show_idle_special_apollo" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_special_apollo" />
+            <Object CastShadow="false" Id="d8702fc59dae4e6c" Inherit="7" Loading="1" Name="show_appear_apollo" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_appear_apollo" />
+            <Object CastShadow="false" Id="5044dcfe88c5ac99" Inherit="7" Loading="1" Name="show_idle_special_xuezu" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_special_xuezu" />
+            <Object CastShadow="false" Id="0e0f4f7992e03f71" Inherit="7" Loading="1" Name="show_appear_xuezu" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_appear_xuezu" />
+            <Object CastShadow="false" Id="dd37e068f127bc2d" Inherit="7" Loading="1" Name="show_idle_xuezu" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_2019_show_idle_xuezu" />
+            <Object CastShadow="false" Id="553d3c80e2d57ca3" Inherit="7" Loading="1" Name="hall_idle_special" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_hall_idle_special" />
+            <Object CastShadow="false" Id="2459ad100e5b564e" Inherit="7" Loading="1" Name="joseph_emotion_hetang" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_3p_joseph_joseph_emotion_hetang" />
+            <Object CastShadow="false" Id="703ce4b10dac4fdb" Inherit="7" Loading="1" Name="show_idle_special_dm" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_special_dm" />
+            <Object CastShadow="false" Id="28e3c5f5ec14805b" Inherit="7" Loading="1" Name="show_appear_dm" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_appear_dm" />
+            <Object CastShadow="false" Id="a091fdbba8becd66" Inherit="7" Loading="1" Name="show_idle_dm" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_dm" />
+            <Object CastShadow="false" Id="430230420db31c27" Inherit="7" Loading="1" Name="show_appear_pita" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_appear_pita" />
+            <Object CastShadow="false" Id="b795ac02a4e093a9" Inherit="7" Loading="1" Name="show_idle_pita" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_pita" />
+            <Object CastShadow="false" Id="21549598967e744c" Inherit="7" Loading="1" Name="show_idle_special_pita" Uri="wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_killer_show_2021_show_idle_special_pita" />
+        </Socket_54>
+        <Socket_55 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="4.9709,0.6402,0.1715" LocalRotation="-0.0382,0.0178,-0.6604,0.7498" LocalScale="1.0020,1.0005,1.0016" Name="fx_id_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_56 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_outside" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="22f16092b1062dd5" Inherit="7" Loading="1" Name="idle_special" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_joseph_idle_special" />
+            <Object CastShadow="false" Id="9244f16f6d2839d7" Inherit="7" Loading="1" Name="load" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_joseph_load" />
+            <Object CastShadow="false" Id="7211dd094561c7c4" Inherit="7" Loading="1" Name="load_joseph_sit" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_joseph_load_joseph_sit" />
+            <Object CastShadow="false" Id="29bd67db802f44ca" Inherit="7" Loading="1" Name="load_joseph_stand" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_joseph_load_joseph_stand" />
+            <Object CastShadow="false" Id="159cec7caa544618" Inherit="7" Loading="1" Name="load_joseph_visit" Uri="wwise/killer_vo.bnk:killer_vo/Event|P_killer_vo_killer_3p_vo_joseph_load_joseph_visit" />
+        </Socket_56>
+        <Socket_57 BindType="7" BindingBone="biped_bone03" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5003,0.4997,-0.4997,0.5003" LocalScale="1.0019,0.9974,1.0007" Name="fx_yaoyuehan_pick_loop" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_58 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_speicial" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="fe015d0dd0497a84" Inherit="7" Loading="1" Name="billy_3p_dislike_food_1" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_dislike_food_1" />
+            <Object CastShadow="false" Id="2f6aa1dddad0b348" Inherit="7" Loading="1" Name="billy_3p_dislike_food_2" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_dislike_food_2" />
+            <Object CastShadow="false" Id="536e860ee7948463" Inherit="7" Loading="1" Name="billy_3p_emotion_dice" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_dice" />
+            <Object CastShadow="false" Id="28718d900d381b83" Inherit="7" Loading="1" Name="billy_3p_emotion_dice_20" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_dice_20" />
+            <Object CastShadow="false" Id="2707a834d3f70b07" Inherit="7" Loading="1" Name="billy_3p_emotion_salute" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_salute" />
+            <Object CastShadow="false" Id="75c85126e4dedef9" Inherit="7" Loading="1" Name="billy_3p_emotion_srspark_h" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_srspark_h" />
+            <Object CastShadow="false" Id="209831d05f04fa35" Inherit="7" Loading="1" Name="billy_3p_emotion_threaten" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_threaten" />
+            <Object CastShadow="false" Id="da4fdf23d23e87aa" Inherit="7" Loading="1" Name="billy_3p_emotion_trouble" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_emotion_trouble" />
+            <Object CastShadow="false" Id="b44b298b0105bd79" Inherit="7" Loading="1" Name="billy_3p_idle" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_idle" />
+            <Object CastShadow="false" Id="9c7a669f87c955ec" Inherit="7" Loading="1" Name="billy_3p_idle_special" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_idle_special" />
+            <Object CastShadow="false" Id="8c712bce8944587e" Inherit="7" Loading="1" Name="billy_3p_light_firecrackers" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_light_firecrackers" />
+            <Object CastShadow="false" Id="dd3bc234192b6c9e" Inherit="7" Loading="1" Name="billy_3p_like_drink_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_like_drink_billy" />
+            <Object CastShadow="false" Id="0075dc7c7a1830db" Inherit="7" Loading="1" Name="billy_3p_like_food" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_like_food" />
+            <Object CastShadow="false" Id="e8998daef6eb5396" Inherit="7" Loading="1" Name="billy_3p_load" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_load" />
+            <Object CastShadow="false" Id="4271e599254cb991" Inherit="7" Loading="1" Name="billy_3p_load_sit_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_load_sit_billy" />
+            <Object CastShadow="false" Id="35eba505225c44f4" Inherit="7" Loading="1" Name="billy_3p_load_sleep_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_load_sleep_billy" />
+            <Object CastShadow="false" Id="8816217ba1221566" Inherit="7" Loading="1" Name="billy_3p_load_stand_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_load_stand_billy" />
+            <Object CastShadow="false" Id="4724cab2a0d27766" Inherit="7" Loading="1" Name="billy_3p_load_visit_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_load_visit_billy" />
+            <Object CastShadow="false" Id="d937a91d23b34264" Inherit="7" Loading="1" Name="billy_3p_setoff_firecrackers" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_setoff_firecrackers" />
+            <Object CastShadow="false" Id="7bf978e927172348" Inherit="7" Loading="1" Name="billy_3p_show_idle_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_show_idle_billy" />
+            <Object CastShadow="false" Id="f9659462aa8152ab" Inherit="7" Loading="1" Name="billy_3p_show_idle_special_billy" Uri="wwise/killer_vo_billy_gx.bnk:/Event|Play_billy_3p_show_idle_special_billy" />
+        </Socket_58>
+        <Socket_59 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.5508,0.0341,0.1179" LocalRotation="0.3424,-0.2579,-0.5486,0.7178" LocalScale="0.8011,0.8012,0.8015" Name="shuiqiu" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_60 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.3699,23.9623,4.9109" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f6fcf5fd30b0958c" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_60>
+        <Socket_61 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.0716,0.1284,0.2947" LocalRotation="0.4874,0.3059,-0.4220,0.7006" LocalScale="1.0027,1.0017,1.0010" Name="chunjie_yanhua" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_62 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound_outside01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b5b8b6eb291e20d6" Inherit="7" Loading="1" Name="show_appear_fsd_joseph" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_appear_fsd_joseph" />
+            <Object CastShadow="false" Id="5ee5dcfdecb93085" Inherit="7" Loading="1" Name="show_idle_fsd_joseph" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_fsd_joseph" />
+            <Object CastShadow="false" Id="eb91515ee59176f3" Inherit="7" Loading="1" Name="show_idle_special_fsd_joseph" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_special_fsd_joseph" />
+            <Object CastShadow="false" Id="d6e767629c74259a" Inherit="7" Loading="1" Name="show_appear_ouat" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_appear_ouat" />
+            <Object CastShadow="false" Id="576d3488dda51862" Inherit="7" Loading="1" Name="show_idle_ouat" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_ouat" />
+            <Object CastShadow="false" Id="25e08f4c27cfe7f6" Inherit="7" Loading="1" Name="show_idle_special_ouat" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2022_show_idle_special_ouat" />
+            <Object CastShadow="false" Id="c5d41801ab7b6842" Inherit="7" Loading="1" Name="show_appear_anning" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_anning" />
+            <Object CastShadow="false" Id="2f1086f4849475e7" Inherit="7" Loading="1" Name="show_idle_anning" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_anning" />
+            <Object CastShadow="false" Id="1f37898110a2890a" Inherit="7" Loading="1" Name="show_idle_special_anning" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_anning" />
+            <Object CastShadow="false" Id="f2a2f51f1b7cc78f" Inherit="7" Loading="1" Name="show_appear_wangling" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_wangling" />
+            <Object CastShadow="false" Id="69a6f96453b88066" Inherit="7" Loading="1" Name="show_idle_special_wangling" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_wangling" />
+            <Object CastShadow="false" Id="ce05892a4bf95897" Inherit="7" Loading="1" Name="show_idle_wangling" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_wangling" />
+            <Object CastShadow="false" Id="2dbbcb6ec93cb6f3" Inherit="7" Loading="1" Name="show_appear_daer" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_appear_daer" />
+            <Object CastShadow="false" Id="0b3b046fbf01bb8e" Inherit="7" Loading="1" Name="show_idle_daer" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_daer" />
+            <Object CastShadow="false" Id="0863595cfeaf83cf" Inherit="7" Loading="1" Name="show_idle_special_daer" Uri="wwise/dwrg_showkill01.bnk:dwrg_showkill01/Event|P_dwrg_showkill01_killer_show_2023_show_idle_special_daer" />
+        </Socket_62>
+        <Socket_63 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_emotion_fourth_joseph" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="a189a2e9a8b81be7" Inherit="7" Loading="2" Name="shiguanggui_emotion_fourth_joseph" Uri="fx\common\shiguanggui_emotion_fourth_joseph.pse" />
+        </Socket_63>
+        <Socket_64 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="4.9709,0.6402,0.1715" LocalRotation="-0.0382,0.0178,-0.6604,0.7498" LocalScale="1.0020,1.0005,1.0016" Name="const_fx_id_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_65 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="0.9999,1.0000,0.9999" Name="const_fx_root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_66 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="3.0627,2.9772,0.3113" LocalRotation="0.0405,0.0415,-0.2136,0.9752" LocalScale="1.0048,1.0059,1.0050" Name="room_insect_catch_wang" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_67 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="1.4713,0.1931,0.6259" LocalRotation="-0.3052,-0.1126,-0.5926,0.7368" LocalScale="1.2019,1.2018,1.2016" Name="const_fx_dmm_bld" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_68 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,1.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_haizhou_hand_firework" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_69 BindType="7" BindingBone="biped r hand" BindingFlag="2" LocalPosition="0.1815,-2.3000,1.2876" LocalRotation="-0.3104,-0.9337,0.1749,0.0338" LocalScale="1.0012,1.0018,1.0019" Name="ride_hold" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_70 BindType="7" BindingBone="biped l hand" BindingFlag="2" LocalPosition="7.1224,-6.5838,-2.4836" LocalRotation="-0.1192,0.4292,0.6157,0.6500" LocalScale="1.0007,1.0037,1.0044" Name="cushion_weapon2" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_71 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,12.9662,13.0841" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_ball_hit" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_72 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.3291,0.0010,-0.1138" LocalRotation="-0.0325,0.0279,-0.7061,0.7068" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="66646579acef15a3" Inherit="7" Loading="4" Name="x57_delude_idle_001.pse" Uri="fx\killer\x57_delude_idle_001.pse" />
+        </Socket_72>
+        <Socket_73 BindType="7" BindingBone="biped l clavicle" BindingFlag="2" LocalPosition="0.0882,0.2801,0.4193" LocalRotation="-0.0818,0.9720,-0.1503,0.1612" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="4dd5bfb214036baa" Inherit="7" Loading="4" Name="x57_delude_idle_002.pse" Uri="fx/killer/x57_delude_idle_002.pse" />
+        </Socket_73>
+        <Socket_74 BindType="7" BindingBone="biped l forearm" BindingFlag="2" LocalPosition="-0.3534,0.0293,-0.0532" LocalRotation="-0.5412,0.8364,-0.0431,0.0750" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="bc5c3c85ece842ed" Inherit="7" Loading="4" Name="x57_delude_idle_003.pse" Uri="fx/killer/x57_delude_idle_003.pse" />
+        </Socket_74>
+        <Socket_75 BindType="7" BindingBone="biped l thigh" BindingFlag="2" LocalPosition="3.9419,-0.1105,-0.2014" LocalRotation="-0.0056,-0.0059,0.7125,0.7016" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="ca311f49af68d3a4" Inherit="7" Loading="4" Name="x57_delude_idle_004.pse" Uri="fx/killer/x57_delude_idle_004.pse" />
+        </Socket_75>
+        <Socket_76 BindType="7" BindingBone="biped_bone163" BindingFlag="2" LocalPosition="0.9620,0.0095,0.0783" LocalRotation="0.3556,-0.4008,0.5386,0.6503" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_007" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="cc3a86f5702370c0" Inherit="7" Loading="4" Name="x57_delude_idle_007.pse" Uri="fx/killer/x57_delude_idle_007.pse" />
+        </Socket_76>
+        <Socket_77 BindType="7" BindingBone="biped_bone170" BindingFlag="2" LocalPosition="1.2232,0.1723,-0.7829" LocalRotation="0.5291,-0.7889,0.1842,0.2526" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_008" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="7093665d59b92773" Inherit="7" Loading="4" Name="x57_delude_idle_007.pse" Uri="fx/killer/x57_delude_idle_007.pse" />
+        </Socket_77>
+        <Socket_78 BindType="7" BindingBone="biped l foretwist" BindingFlag="2" LocalPosition="1.5071,-0.2510,0.1709" LocalRotation="-0.5448,0.8328,-0.0862,0.0471" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_009" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="9a7708ac08a13831" Inherit="7" Loading="4" Name="x57_delude_idle_008.pse" Uri="fx/killer/x57_delude_idle_008.pse" />
+        </Socket_78>
+        <Socket_79 BindType="7" BindingBone="biped l foot" BindingFlag="2" LocalPosition="0.5111,-0.1916,0.6597" LocalRotation="0.0732,-0.0601,0.7110,0.6968" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_010" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="55b62a3343172cd9" Inherit="7" Loading="4" Name="x57_delude_idle_009.pse" Uri="fx/killer/x57_delude_idle_009.pse" />
+        </Socket_79>
+        <Socket_80 BindType="7" BindingBone="biped r upperarm" BindingFlag="2" LocalPosition="-1.2532,-0.7398,0.0719" LocalRotation="0.8397,-0.5415,-0.0341,0.0228" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_011" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b81e3a7ba7e0748d" Inherit="7" Loading="4" Name="x57_delude_idle_010.pse" Uri="fx/killer/x57_delude_idle_010.pse" />
+        </Socket_80>
+        <Socket_81 BindType="7" BindingBone="biped_bone150" BindingFlag="2" LocalPosition="0.2516,0.3978,-0.7188" LocalRotation="0.3194,-0.1982,-0.5462,0.7486" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_012" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="77bbe52331d9ac85" Inherit="7" Loading="4" Name="x57_delude_idle_011.pse" Uri="fx/killer/x57_delude_idle_011.pse" />
+        </Socket_81>
+        <Socket_82 BindType="7" BindingBone="biped_bone199" BindingFlag="2" LocalPosition="0.0000,0.0612,-0.0030" LocalRotation="-0.4996,-0.5004,-0.4999,0.5001" LocalScale="0.6800,0.6800,0.6800" Name="const_fx_x57_dld_idle_019" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="95cf24afda4b726f" Inherit="7" Loading="4" Name="x57_delude_skill_ball_idle_001" Uri="fx/killer/x57_delude_skill_ball_idle_001.pse" />
+        </Socket_82>
+        <Socket_83 BindType="7" BindingBone="biped r clavicle" BindingFlag="2" LocalPosition="2.3960,-1.9042,0.5517" LocalRotation="0.9976,0.0000,0.0000,-0.0698" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_020" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2ea0541c54a6ff57" Inherit="7" Loading="4" Name="x57_delude_idle_020.pse" Uri="fx/killer/x57_delude_idle_020.pse" />
+        </Socket_83>
+        <Socket_84 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="1.2922,0.0077,0.9187" LocalRotation="0.0000,0.0000,0.7071,0.7071" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_021" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f9cd1b02f80e97b3" Inherit="7" Loading="4" Name="x57_delude_idle_021.pse" Uri="fx/killer/x57_delude_idle_021.pse" />
+        </Socket_84>
+        <Socket_85 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_dld_appear_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="4c5b83cbc8db0813" Inherit="7" Loading="2" Name="x57_delude_zhanshi_appear_001.pse" Uri="fx\killer\x57_delude_zhanshi_appear_001.pse" />
+        </Socket_85>
+        <Socket_86 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_dld_special_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="6dd5b8f0f29a3532" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_001.pse" Uri="fx\killer\x57_delude_zhanshi_special_001.pse" />
+        </Socket_86>
+        <Socket_87 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_dld_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="d76594df043a83eb" Inherit="7" Loading="2" Name="x57_delude_zhanshi_idle_001.pse" Uri="fx\killer\x57_delude_zhanshi_idle_001.pse" />
+        </Socket_87>
+        <Socket_88 BindType="7" BindingBone="biped l calf" BindingFlag="2" LocalPosition="3.3165,0.0612,-0.5823" LocalRotation="0.0000,0.0000,0.7071,0.7071" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_006" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="9ff3e97a1cb5aebc" Inherit="7" Loading="4" Name="x57_delude_idle_005" Uri="fx/killer/x57_delude_idle_005.pse" />
+        </Socket_88>
+        <Socket_89 BindType="7" BindingBone="biped spine" BindingFlag="2" LocalPosition="2.2590,0.1294,-0.4525" LocalRotation="-0.6184,0.2836,-0.3055,0.6662" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_x57_dld_idle_005" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="baaa6b4dceda2b9d" Inherit="7" Loading="4" Name="x57_delude_idle_006.pse" Uri="fx/killer/x57_delude_idle_006.pse" />
+        </Socket_89>
+        <Socket_90 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-3.7502,16.9088,-5.2053" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_xuying_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="ce6567c532548864" Inherit="7" Loading="2" Name="x57_delude_idle_019" Uri="fx/killer/x57_delude_idle_019.pse" />
+        </Socket_90>
+        <Socket_91 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound_show" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="c129e728184f7ea5" Inherit="7" Loading="1" Name="Event|Play_billy_show_appear_gelude_billy" Uri="wwise/show_billy.bnk:/Event|Play_billy_show_appear_gelude_billy" />
+            <Object CastShadow="false" Id="00e2d1cd4cb80460" Inherit="7" Loading="1" Name="Event|Play_billy_show_idle_gelude_billy" Uri="wwise/show_billy.bnk:/Event|Play_billy_show_idle_gelude_billy" />
+            <Object CastShadow="false" Id="b8209428a8eb7da1" Inherit="7" Loading="1" Name="Event|Play_billy_show_idle_special_gelude_billy" Uri="wwise/show_billy.bnk:/Event|Play_billy_show_idle_special_gelude_billy" />
+        </Socket_91>
+        <Socket_92 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.1007,0.0382,-0.6689,0.7355" LocalScale="1.0000,1.0000,1.0000" Name="head_direction" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

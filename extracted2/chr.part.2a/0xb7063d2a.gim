@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_beizizi_01" BoundingInfo="(-15.81, 11.58, -0.26),(0.61, 0.54, 0.62),1.02" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-15.8082,11.5753,-0.2648" BoundingHalf="0.6108,0.5411,0.6161" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="niuzai_e_qiang_bz" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="billy_e_gelude_xuying.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="billy_e_gelude_xuying.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

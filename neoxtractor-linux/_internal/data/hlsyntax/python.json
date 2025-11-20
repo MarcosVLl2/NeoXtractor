@@ -1,0 +1,81 @@
+{
+  "name": "Python",
+  "string_patterns": [
+    {
+      "pattern": "\"\"\"(?:[^\\\\]|\\\\.|\\n|\"(?!\"\"))*?\"\"\"",
+      "multiline": true
+    },
+    {
+      "pattern": "'''(?:[^\\\\]|\\\\.|\\n|'(?!''))*?'''",
+      "multiline": true
+    },
+    {
+      "pattern": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "multiline": false
+    },
+    {
+      "pattern": "'(?:[^'\\\\]|\\\\.)*'",
+      "multiline": false
+    }
+  ],
+  "comment_patterns": [
+    {
+      "pattern": "#.*$",
+      "multiline": false
+    }
+  ],
+  "formats": {
+    "keyword": {
+      "foreground": "#0000ff@keyword",
+      "bold": true
+    },
+    "string": {
+      "foreground": "#008000@string"
+    },
+    "comment": {
+      "foreground": "#808080@comment",
+      "italic": true
+    },
+    "function": {
+      "foreground": "#800080@function"
+    },
+    "class": {
+      "foreground": "#008080@class",
+      "bold": true
+    },
+    "number": {
+      "foreground": "#ff8000@number"
+    },
+    "decorator": {
+      "foreground": "#808000@decorator"
+    }
+  },
+  "rules": [
+    {
+      "pattern": "#.*$",
+      "format": "comment"
+    },
+    {
+      "pattern": "\\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield|async|await|nonlocal)\\b",
+      "format": "keyword"
+    },
+    {
+      "pattern": "\\b(?:class)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+      "format": "class",
+      "capture_group": 1
+    },
+    {
+      "pattern": "\\b(?:def)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+      "format": "function",
+      "capture_group": 1
+    },
+    {
+      "pattern": "@[A-Za-z_][A-Za-z0-9_]*",
+      "format": "decorator"
+    },
+    {
+      "pattern": "\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+      "format": "number"
+    }
+  ]
+}

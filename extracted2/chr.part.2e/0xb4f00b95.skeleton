@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_guaiwei",
+	"joint_names" : [
+		"biped_guaiwei01","biped_guaiwei02","biped_guaiwei03","biped_guaiwei04"
+	],
+	"joint_parent_indices" : [
+		-1,0,1,2
+	],
+	"reference_pose" : "AABwrAAAAAAAAAAAAACAP3TiyjTlUCE29QQ1P/IENT8AAIA/AACAPwAAgD8AAIA/4wg8voA7Tr7ToCvAAACAP4WEsD6P01g/j5CAvpF8or7+/38/AACAPwAAgD8AAIA/g9pKPwAAADQAAOC1AACAPyhfwzrVtqo+soqaO+9YcT/+/38/AQCAP///fz8AAIA/1GhCPwAAAAAAAIC0AACAP3lC6zs3aqM+6DvZPDaCcj8DAIA///9/PwEAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			4
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3
+		],
+		"joint_lod_levels" : [
+			0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

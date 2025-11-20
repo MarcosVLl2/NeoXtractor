@@ -1,0 +1,106 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_e_gelude_body03">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro1
+				Key="UES_GROUP2"
+				Val="TRUE" />
+			<Macro2
+				Key="FLOW_LUMINOUS"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_thunder.nfx::TShader" />
+		<ParamTable>
+			<HollowTex
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_mask02.tga" />
+			<Tex1
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/diff_01.tga" />
+			<TexCamo
+				Value="" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_mask.tga" />
+			<TexReflection
+				Value="" />
+			<ThunderDisturb
+				Value="chr/boss/wuchang/separate_dir/wuchang_e_gm/noise.tga" />
+			<u_ambient
+				Value="0.300000" />
+			<u_hollow_color
+				Value="0.603922,0.828367,1.000000,1.000000" />
+			<u_hollow_noise_speed
+				Value="0.050000" />
+			<u_hollow_parallax
+				Value="0.005000" />
+			<u_hollow_period
+				Value="5.000000,3.000000,3.000000,3.000000" />
+			<u_hollow_valve
+				Value="0.300000" />
+			<u_luminous_blink_min
+				Value="0.100000" />
+			<u_luminous_blink_speed
+				Value="0.500000" />
+			<u_luminous_color
+				Value="0.258152,0.303288,0.427451,1.000000" />
+			<u_luminous_far_decay
+				Value="0.530000" />
+			<u_luminous_speed
+				Value="0,-2" />
+			<u_thunder_branch_control
+				Value="1" />
+			<u_thunder_brightness
+				Value="8" />
+			<u_thunder_color
+				Value="0.141161,0.370199,1.000000,1.000000" />
+			<u_thunder_disturb_scale
+				Value="0.800000" />
+			<u_thunder_disturb_speed
+				Value="0.020000" />
+			<u_thunder_disturb_strength
+				Value="0.100000" />
+			<u_thunder_group1_line0
+				Value="0.700000,0.100000,0.300000,0.200000" />
+			<u_thunder_group1_line1
+				Value="0.800000,0.900000,0.400000,0.900000" />
+			<u_thunder_group1_phase
+				Value="1" />
+			<u_thunder_group2_line0
+				Value="0.600000,0.100000,0.600000,0.100000" />
+			<u_thunder_group2_line1
+				Value="0.700000,0.600000,0.400000,0.700000" />
+			<u_thunder_period
+				Value="0.300000,0.500000,1.000000,0.100000" />
+			<u_thunder_strength_range
+				Value="1,0.500000" />
+			<Tex0
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_diff.tga" />
+			<TexNormal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="4" />
+		</RenderStates>
+	</Material>
+</NeoX>

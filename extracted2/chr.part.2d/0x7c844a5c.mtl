@@ -1,0 +1,34 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="door01_mat">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro />
+		<Technique
+			Type="Effect"
+			TechName="shader\blinn_phong.nfx::TShader" />
+		<ParamTable>
+			<u_dir_base_factor
+				Value="0.300000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_table01b_d.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

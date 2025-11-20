@@ -1,0 +1,20 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(0.0059, 9.5418, -0.4751),(5.3937, 9.5508, 2.1379),9.9557" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0295,17.0532,-0.4753" BoundingHalf="1.7777,2.0394,2.1377" BoundingInfo="(-0.0295, 17.0532, -0.4753),(1.7777, 2.0394, 2.1377),2.6406" MtlIdx="0" Name="qiutu_e_dainjing_hair_new" />
+        <Sub1 BoundingCenter="0.0060,11.8072,0.0039" BoundingHalf="5.3937,3.6358,1.3948" BoundingInfo="(0.0059, 11.8072, 0.0039),(5.3937, 3.6358, 1.3948),6.4802" MtlIdx="1" Name="qiutu_e_dianjing_body01-new_0" />
+        <Sub2 BoundingCenter="3.0558,11.6239,-0.3045" BoundingHalf="0.7228,0.5699,0.7679" BoundingInfo="(3.0558, 11.6239, -0.3045),(0.7228, 0.5699, 0.7679),0.8969" MtlIdx="2" Name="qiutu_e_dianjing_body01-new_1" />
+        <Sub3 BoundingCenter="-0.3374,5.3955,0.1136" BoundingHalf="2.2483,5.4045,1.5492" BoundingInfo="(-0.3374, 5.3955, 0.1136),(2.2483, 5.4045, 1.5492),5.7538" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="qiutu_e_dianjing_body02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="0.1001,16.3260,0.2656" BoundingHalf="1.2844,1.3083,1.2379" BoundingInfo="(0.1001, 16.3260, 0.2656),(1.2844, 1.3083, 1.2379),1.5493" MtlIdx="0" Name="qiutu_e_dianjing_head-new" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="qiutu_e_dj_xuying02.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="qiutu_e_dj_xuying02.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <SocketObject />
+</NeoX>

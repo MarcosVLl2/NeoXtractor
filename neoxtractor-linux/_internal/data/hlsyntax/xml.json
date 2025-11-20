@@ -1,0 +1,95 @@
+{
+    "name": "XML",
+    "string_patterns": [],
+    "comment_patterns": [
+        {
+            "pattern": "<!--[\\s\\S]*?-->",
+            "multiline": true
+        }
+    ],
+    "formats": {
+        "tag": {
+            "foreground": "#800080@keyword"
+        },
+        "attribute": {
+            "foreground": "#0066cc@variable"
+        },
+        "value": {
+            "foreground": "#008000@string"
+        },
+        "number": {
+            "foreground": "#ff8000@number"
+        },
+        "comment": {
+            "foreground": "#808080@comment",
+            "italic": true
+        },
+        "entity": {
+            "foreground": "#ff6600@operator"
+        },
+        "cdata": {
+            "foreground": "#000000@operator",
+            "background": "#f0f0f0"
+        },
+        "declaration": {
+            "foreground": "#808080@comment"
+        },
+        "bracket": {
+            "foreground": "#666666@operator"
+        }
+    },
+    "rules": [
+        {
+            "pattern": "<\\?xml\\b[^>]*\\?>",
+            "format": "declaration"
+        },
+        {
+            "pattern": "<!DOCTYPE[^>]*>",
+            "format": "declaration"
+        },
+        {
+            "pattern": "<!--[\\s\\S]*?-->",
+            "format": "comment"
+        },
+        {
+            "pattern": "<!\\[CDATA\\[[\\s\\S]*?\\]\\]>",
+            "format": "cdata"
+        },
+        {
+            "pattern": "<\\?[a-zA-Z0-9_-]+[^>]*\\?>",
+            "format": "declaration"
+        },
+        {
+            "pattern": "<\\/?([a-zA-Z0-9_-]+(?::[a-zA-Z0-9_-]+)?)",
+            "format": "tag",
+            "capture_group": 1
+        },
+        {
+            "pattern": "\\s([a-zA-Z0-9_-]+(?::[a-zA-Z0-9_-]+)?)(?=\\s*=)",
+            "format": "attribute",
+            "capture_group": 1
+        },
+        {
+            "pattern": "=\\s*\"([^\"]*)\"",
+            "format": "value",
+            "capture_group": 1
+        },
+        {
+            "pattern": "=\\s*'([^']*)'",
+            "format": "value",
+            "capture_group": 1
+        },
+        {
+            "pattern": "\\b\\d+(?:\\.\\d+)*\\b",
+            "format": "number"
+        },
+        {
+            "pattern": "&[a-zA-Z0-9#]+;",
+            "format": "entity"
+        },
+        {
+            "pattern": "[<>]|\\/>",
+            "format": "bracket"
+        }
+    ]
+}

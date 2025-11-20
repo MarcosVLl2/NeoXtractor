@@ -1,0 +1,132 @@
+
+plot_2022_desk_placement_advanced.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baijian_huaping
+  rotate: false
+  xy: 1002, 214
+  size: 159, 296
+  orig: 160, 296
+  offset: 0, 0
+  index: -1
+wupin_17
+  rotate: false
+  xy: 1384, 130
+  size: 146, 152
+  orig: 146, 152
+  offset: 0, 0
+  index: -1
+wupin_31
+  rotate: false
+  xy: 1532, 139
+  size: 118, 144
+  orig: 118, 144
+  offset: 0, 0
+  index: -1
+wupin_36
+  rotate: true
+  xy: 798, 6
+  size: 99, 221
+  orig: 99, 221
+  offset: 0, 0
+  index: -1
+wupin_37
+  rotate: false
+  xy: 444, 2
+  size: 127, 63
+  orig: 127, 63
+  offset: 0, 0
+  index: -1
+wupin_42
+  rotate: true
+  xy: 1021, 4
+  size: 112, 227
+  orig: 112, 227
+  offset: 0, 0
+  index: -1
+wupin_43
+  rotate: true
+  xy: 1002, 118
+  size: 94, 226
+  orig: 94, 226
+  offset: 0, 0
+  index: -1
+wupin_44
+  rotate: false
+  xy: 1441, 285
+  size: 116, 225
+  orig: 116, 225
+  offset: 0, 0
+  index: -1
+wupin_45
+  rotate: true
+  xy: 1250, 2
+  size: 125, 224
+  orig: 125, 224
+  offset: 0, 0
+  index: -1
+wupin_46
+  rotate: false
+  xy: 1163, 283
+  size: 140, 227
+  orig: 140, 227
+  offset: 0, 0
+  index: -1
+wupin_47
+  rotate: true
+  xy: 1476, 3
+  size: 125, 220
+  orig: 125, 220
+  offset: 0, 0
+  index: -1
+wupin_48
+  rotate: false
+  xy: 1305, 284
+  size: 134, 226
+  orig: 134, 226
+  offset: 0, 0
+  index: -1
+wupin_49
+  rotate: false
+  xy: 647, 16
+  size: 149, 49
+  orig: 149, 49
+  offset: 0, 0
+  index: -1
+wupin_51
+  rotate: false
+  xy: 680, 107
+  size: 320, 403
+  orig: 321, 403
+  offset: 1, 0
+  index: -1
+wupin_52
+  rotate: true
+  xy: 2, 18
+  size: 492, 440
+  orig: 492, 440
+  offset: 0, 0
+  index: -1
+wupin_53
+  rotate: false
+  xy: 573, 3
+  size: 72, 62
+  orig: 73, 63
+  offset: 1, 0
+  index: -1
+wupin_guizi
+  rotate: true
+  xy: 444, 67
+  size: 443, 234
+  orig: 443, 234
+  offset: 0, 0
+  index: -1
+wupin_huan2
+  rotate: false
+  xy: 1230, 129
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

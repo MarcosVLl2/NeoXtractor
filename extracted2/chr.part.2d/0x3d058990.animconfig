@@ -1,0 +1,22 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<AnimationList>
+		<Animation
+			Name="show_idle_kbl_ttds"
+			FileName="animations_ttds_e_kbl_touguan/show_idle_kbl_ttds.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="12.533334" />
+		<Animation
+			Name="skin"
+			FileName="animations_ttds_e_kbl_touguan/skin.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+	</AnimationList>
+</AnimationConfig>

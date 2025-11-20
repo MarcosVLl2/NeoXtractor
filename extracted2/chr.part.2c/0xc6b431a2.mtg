@@ -1,0 +1,10 @@
+<NeoX>
+    <MaterialGroup MaterialCount="6" Name="bonbon_e_cat_show" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_body0101.mtl" />
+        <Material_1 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_body02.mtl" />
+        <Material_2 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_body0201.mtl" />
+        <Material_3 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_head.mtl" />
+        <Material_4 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_weapon02.mtl" />
+        <Material_5 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_body01_pp.mtl" />
+    </MaterialGroup>
+</NeoX>

@@ -1,0 +1,42 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="hds_e_baojun_niaolong01a">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="DYNAMIC_GI_ENABLE"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr_ex.nfx::TShader" />
+		<ParamTable>
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_m.tga" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_d.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_n.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

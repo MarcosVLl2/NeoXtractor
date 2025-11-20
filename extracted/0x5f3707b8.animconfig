@@ -1,0 +1,2851 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_spkantan/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_spkantan/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_spkantan/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_spkantan/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_spkantan/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_spkantan/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_spkantan/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_spkantan/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_spkantan/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_spkantan/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_spkantan/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_spkantan/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_spkantan/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_spkantan/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_spkantan/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_destroy"
+			FileName="animations_spkantan/surveyor_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_idle"
+			FileName="animations_spkantan/surveyor_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_end"
+			FileName="animations_spkantan/surveyor_mineral_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_end1"
+			FileName="animations_spkantan/surveyor_mineral_end1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_hold"
+			FileName="animations_spkantan/surveyor_mineral_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_hold1"
+			FileName="animations_spkantan/surveyor_mineral_hold1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_start"
+			FileName="animations_spkantan/surveyor_mineral_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_start1"
+			FileName="animations_spkantan/surveyor_mineral_start1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_retrieve_end"
+			FileName="animations_spkantan/surveyor_retrieve_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_retrieve_hold"
+			FileName="animations_spkantan/surveyor_retrieve_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_retrieve_start"
+			FileName="animations_spkantan/surveyor_retrieve_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_run"
+			FileName="animations_spkantan/surveyor_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_span"
+			FileName="animations_spkantan/surveyor_span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_throw_excute"
+			FileName="animations_spkantan/surveyor_throw_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_throw_hold"
+			FileName="animations_spkantan/surveyor_throw_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_throw_start"
+			FileName="animations_spkantan/surveyor_throw_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_end"
+			FileName="animations_spkantan/surveyor_tract_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_hitwall"
+			FileName="animations_spkantan/surveyor_tract_hitwall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_hold"
+			FileName="animations_spkantan/surveyor_tract_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_start"
+			FileName="animations_spkantan/surveyor_tract_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_end_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_1_end_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_1_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_2_end_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_2_end_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_2_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_2_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_rebound_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_rebound_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_show_nowp"
+			FileName="animations_spkantan/happy_spkt_attack_show_nowp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="attack_carry"
+			FileName="animations_spkantan/attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="attack_carry_end"
+			FileName="animations_spkantan/attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1"
+			FileName="animations_spkantan/happy_spkt_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_end"
+			FileName="animations_spkantan/happy_spkt_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_2"
+			FileName="animations_spkantan/happy_spkt_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_2_end"
+			FileName="animations_spkantan/happy_spkt_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_rebound"
+			FileName="animations_spkantan/happy_spkt_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_show"
+			FileName="animations_spkantan/happy_spkt_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_spkantan/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_spkantan/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_spkt"
+			FileName="animations_spkantan/load_sit_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_spkt"
+			FileName="animations_spkantan/load_sleep_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_spkt"
+			FileName="animations_spkantan/load_stand_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_spkt"
+			FileName="animations_spkantan/load_visit_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.066601"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_spkantan/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_spkantan/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_spkantan/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_spkantan/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_spkantan/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_spkantan/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_spkantan/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_spkantan/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_spkantan/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_spkantan/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_spkantan/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_spkantan/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_spkantan/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_spkantan/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_spkantan/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_spkantan/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_spkantan/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_spkantan/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_spkantan/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_spkantan/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_spkantan/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_bon"
+			FileName="animations_spkantan/guisu_show_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_spkantan/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_spkantan/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_spkantan/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_spkantan/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_spkantan/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_spkantan/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_spkantan/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_spkantan/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_spkantan/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_spkantan/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_spkantan/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_spkantan/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_spkantan/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_spkantan/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_spkt"
+			FileName="animations_spkantan/show_idle_special_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_spkt"
+			FileName="animations_spkantan/show_idle_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_spkantan/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_spkantan/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_spkantan/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_spkantan/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_spkantan/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_spkantan/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_spkantan/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_spkantan/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_carry"
+			FileName="animations_spkantan/happy_spkt_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_carry_end"
+			FileName="animations_spkantan/happy_spkt_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_spkantan/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_spkantan/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_spkantan/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_spkantan/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_spkantan/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_spkantan/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_spkantan/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_idle_l"
+			FileName="animations_spkantan/spkt_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spkt_idle_r"
+			FileName="animations_spkantan/spkt_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spkt_special_l"
+			FileName="animations_spkantan/spkt_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_special_r"
+			FileName="animations_spkantan/spkt_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_spkantan/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_spkantan/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_spkantan/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_spkantan/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_spkantan/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_spkantan/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_spkantan/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_spkantan/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_spkantan/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_spkantan/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_spkantan/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_spkantan/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_spkantan/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_spkantan/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_spkantan/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_spkantan/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_spkantan/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_spkt"
+			FileName="animations_spkantan/forbidden_therapy_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_spkantan/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_spkantan/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_spkantan/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_spkantan/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_spkantan/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_spkantan/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_spkantan/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_spkantan/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_spkantan/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="deceit"
+			FileName="animations_spkantan/deceit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_spkantan/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_spkantan/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_spkantan/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dread"
+			FileName="animations_spkantan/dread.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_spkantan/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_spkantan/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_spkantan/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_spkantan/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_spkantan/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_spkantan/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_spkantan/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_spkantan/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_spkantan/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_spkantan/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_spkantan/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_spkantan/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_spkantan/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_spkantan/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_spkantan/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_spkt"
+			FileName="animations_spkantan/like_drink_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_spkantan/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_spkantan/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_spkantan/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_spkantan/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_spkantan/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_spkantan/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_spkantan/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_attack_carry"
+			FileName="animations_spkantan/spkt_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_attack_carry_end"
+			FileName="animations_spkantan/spkt_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tough"
+			FileName="animations_spkantan/tough.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="vigilance"
+			FileName="animations_spkantan/vigilance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_spkantan/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_spkantan/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_spkantan/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_spkantan/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_spkantan/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_spkantan/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_spkantan/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_spkantan/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_spkantan/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_spkantan/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_spkantan/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_end01"
+			FileName="animations_spkantan/surveyor_tract_end01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ronghuo_spkt"
+			FileName="animations_spkantan/show_appear_ronghuo_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ronghuo_spkt"
+			FileName="animations_spkantan/show_idle_ronghuo_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ronghuo_spkt"
+			FileName="animations_spkantan/show_idle_special_ronghuo_spkt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm_01"
+			FileName="animations_spkantan/disarm_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_01"
+			FileName="animations_spkantan/hit_skin_spnx_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1_01"
+			FileName="animations_spkantan/hit_skin_spnx_1_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_spkantan/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_spkantan/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_spkantan/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_spkantan/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_spkantan/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_spkantan/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_spkantan/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_spkantan/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_spkantan/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_spkantan/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_spkantan/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_spkantan/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_spkantan/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_spkantan/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_spkantan/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_spkantan/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_spkantan/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_spkantan/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_spkantan/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_spkantan/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_spkantan/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_hui_spkantan"
+			FileName="animations_spkantan/show_appear_hui_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_hui_spkantan"
+			FileName="animations_spkantan/show_idle_hui_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hui_spkantan"
+			FileName="animations_spkantan/show_idle_special_hui_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_spkantan/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_spkantan/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_spkantan/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_spkantan/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_spkantan/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_spkantan/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_spkantan/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_spkantan/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_spkantan/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_spkantan/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_spkantan/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_spkantan/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_spkantan/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_spkantan/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_spkantan/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_spkantan/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_spkantan/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_spkantan/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_spkantan/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_spkantan/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_spkantan/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_spkantan/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_loop"
+			FileName="animations_spkantan/cr_cannon_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_spkantan/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_spkantan/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_spkantan/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_tjk_spkantan"
+			FileName="animations_spkantan/show_appear_tjk_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_tjk_spkantan"
+			FileName="animations_spkantan/show_idle_special_tjk_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_tjk_spkantan"
+			FileName="animations_spkantan/show_idle_tjk_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_spkantan/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_spkantan/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_tjk"
+			FileName="animations_spkantan/hall_idle_2_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_tjk"
+			FileName="animations_spkantan/destroy_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_tjk"
+			FileName="animations_spkantan/idle_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_spkantan/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_tjk"
+			FileName="animations_spkantan/hall_sit_horse_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_tjk"
+			FileName="animations_spkantan/hall_throne_sit_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa_tjk"
+			FileName="animations_spkantan/hall_sit_oldcatsofa_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_tjk"
+			FileName="animations_spkantan/hall_sit_catsofa_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_tjk"
+			FileName="animations_spkantan/hall_sit_stool_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair_tjk"
+			FileName="animations_spkantan/hall_sit_loungechair_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath_tjk"
+			FileName="animations_spkantan/hall_sit_bath_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize_tjk"
+			FileName="animations_spkantan/hall_interact_baize_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit_tjk"
+			FileName="animations_spkantan/cr_bar_sit_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_tjk"
+			FileName="animations_spkantan/emotion_dice_20_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="glide_tjk"
+			FileName="animations_spkantan/glide_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_tjk"
+			FileName="animations_spkantan/sit_roller_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show_tjk"
+			FileName="animations_spkantan/emotion_fish_show_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like_tjk"
+			FileName="animations_spkantan/hall_f_c_like_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike_tjk"
+			FileName="animations_spkantan/hall_f_c_dislike_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle_tjk"
+			FileName="animations_spkantan/hall_f_c_idle_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_tjk"
+			FileName="animations_spkantan/emotion_threaten_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_tjk"
+			FileName="animations_spkantan/emotion_trouble_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_spkantan/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cpc_spkantan_guide_you"
+			FileName="animations_spkantan/cpc_spkantan_guide_you.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cpc_spkantan_guide_you_loop"
+			FileName="animations_spkantan/cpc_spkantan_guide_you_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cpc_spkantan_guide_zuo_loop"
+			FileName="animations_spkantan/cpc_spkantan_guide_zuo_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cpc_spkantan_guide_zuo"
+			FileName="animations_spkantan/cpc_spkantan_guide_zuo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_spkantan/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_spkantan/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end_tjk"
+			FileName="animations_spkantan/cr_fish_show_end_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop_tjk"
+			FileName="animations_spkantan/cr_fish_show_loop_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start_tjk"
+			FileName="animations_spkantan/cr_fish_show_start_tjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_spkantan/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_spkantan/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_spkantan/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_spkantan/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_spkantan/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_spkantan/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_spkantan/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_spkantan/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_spkantan/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_spkantan/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_spkantan/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_spkantan/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_spkantan/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_spkantan/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_spkantan/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_spkantan/pzjg_char_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_spkantan/pzjg_char_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yunxing_spkantan"
+			FileName="animations_spkantan/show_appear_yunxing_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="22.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yunxing_spkantan"
+			FileName="animations_spkantan/show_idle_yunxing_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.833333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yunxing_spkantan"
+			FileName="animations_spkantan/show_idle_special_yunxing_spkantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.833333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_spkantan/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_yunx"
+			FileName="animations_spkantan/run_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_spkantan/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_yunx"
+			FileName="animations_spkantan/hall_idle_2_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_idle_yunx"
+			FileName="animations_spkantan/surveyor_idle_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_hold_yunx"
+			FileName="animations_spkantan/surveyor_mineral_hold_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_retrieve_hold_yunx"
+			FileName="animations_spkantan/surveyor_retrieve_hold_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_run_yunx"
+			FileName="animations_spkantan/surveyor_run_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_yunx"
+			FileName="animations_spkantan/hall_idle_special_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_end_nowp_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_1_end_nowp_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_end_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_1_end_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_nowp_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_1_nowp_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_1_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_1_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_2_nowp_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_2_nowp_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_show_nowp_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_show_nowp_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_spkt_attack_show_yunx"
+			FileName="animations_spkantan/happy_spkt_attack_show_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_yunx"
+			FileName="animations_spkantan/idle_special_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_end_yunx"
+			FileName="animations_spkantan/surveyor_mineral_end_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_mineral_start_yunx"
+			FileName="animations_spkantan/surveyor_mineral_start_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_yunx"
+			FileName="animations_spkantan/emotion_dice_20_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch_yunx"
+			FileName="animations_spkantan/hall_crouch_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_yunx"
+			FileName="animations_spkantan/idle_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_spkt_yunx"
+			FileName="animations_spkantan/load_sit_spkt_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_spkt_yunx"
+			FileName="animations_spkantan/load_sleep_spkt_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_spkt_yunx"
+			FileName="animations_spkantan/load_stand_spkt_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.333334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_tract_hold_yunx"
+			FileName="animations_spkantan/surveyor_tract_hold_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.966667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_throw_hold_yunx"
+			FileName="animations_spkantan/surveyor_throw_hold_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="surveyor_throw_excute_yunx"
+			FileName="animations_spkantan/surveyor_throw_excute_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_yunx"
+			FileName="animations_spkantan/emotion_dice_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_yunx"
+			FileName="animations_spkantan/hall_sit_chair_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_yunx"
+			FileName="animations_spkantan/hall_walk_2_yunx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_spkantan/hall_selfie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_spkantan/hall_selfie_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_spkantan/hall_selfie_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_spkantan/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_spkantan/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.433333" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_spkantan/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_spkantan/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<idle
+			TransitTime="0.1978"
+			run="3,120"
+			surveyor_idle="3,120"
+			surveyor_run="3,100" />
+		<dizziness
+			surveyor_idle="3,100" />
+		<dizzy
+			surveyor_idle="3,100" />
+		<dmm_butcher_skill
+			TransitTime="1.0928" />
+		<room_insect_catch
+			TransitTime="3333.333252" />
+		<emotion_srspark_h
+			TransitTime="0.389" />
+		<open_cabinet
+			TransitTime="1933.333374" />
+		<fall
+			TransitTime="0.0255"
+			surveyor_idle="3,100"
+			surveyor_run="3,100" />
+		<run
+			TransitTime="866.666687"
+			idle="3,200" />
+		<span
+			TransitTime="8422089"
+			surveyor_idle="3,100" />
+		<surveyor_destroy
+			TransitTime="533.333313" />
+		<surveyor_idle
+			TransitTime="1200"
+			idle="3,80"
+			dizziness="3,80"
+			dizzy="3,80"
+			fall="3,80"
+			run="3,80"
+			place_patrol_puppet="3,80"
+			place_tower="3,80"
+			prepare_place_tower="3,80"
+			cast="3,50"
+			cursed="3,50"
+			glide="3,80"
+			strong_cursed="3,100"
+			pullback_butcher="3,80"
+			pullback_butcher_girl="3,80"
+			pushforward_butcher="3,80"
+			bee_push="3,50"
+			repel="3,80"
+			disarm="3,80"
+			disarm_01="3,80" />
+		<surveyor_mineral_end
+			TransitTime="6466.666504" />
+		<surveyor_mineral_end1
+			TransitTime="7533.333496" />
+		<surveyor_mineral_hold
+			TransitTime="2600"
+			idle="3,120"
+			run="3,120" />
+		<surveyor_mineral_hold1
+			idle="3,120"
+			run="3,120" />
+		<surveyor_run
+			dizziness="3,80"
+			dizzy="3,80"
+			fall="3,80"
+			run="3,80"
+			surveyor_idle="3,120"
+			place_patrol_puppet="3,80"
+			place_tower="3,80"
+			prepare_place_tower="3,80"
+			cast="3,50"
+			cursed="3,50"
+			glide="3,80"
+			strong_cursed="3,100"
+			pullback_butcher="3,80"
+			pullback_butcher_girl="3,80"
+			pushforward_butcher="3,80"
+			bee_push="3,50"
+			repel="3,80"
+			disarm="3,80"
+			disarm_01="3,80" />
+		<surveyor_span
+			idle="3,100" />
+		<surveyor_throw_excute
+			TransitTime="0.0242" />
+		<surveyor_throw_hold
+			idle="3,130" />
+		<surveyor_tract_hitwall
+			idle="3,100" />
+		<surveyor_tract_hold
+			TransitTime="0.0008"
+			idle="3,120" />
+		<happy_spkt_attack_1_end
+			run="3,200" />
+		<happy_spkt_attack_2_end
+			run="3,200" />
+		<destroy_transmittter
+			surveyor_idle="3,100" />
+		<place_tower
+			surveyor_idle="3,100" />
+		<remote_patrol_puppet
+			surveyor_idle="3,100" />
+		<repair_hook
+			surveyor_idle="3,100" />
+		<cast
+			surveyor_idle="3,100" />
+		<cursed
+			surveyor_idle="3,100"
+			surveyor_run="3,100" />
+		<pullback_butcher_girl
+			surveyor_idle="3,100" />
+		<pushforward_butcher
+			surveyor_idle="3,100" />
+		<show_idle_special_spkt
+			surveyor_idle="3,100" />
+		<bee_push
+			surveyor_idle="3,100" />
+		<climb_upstairs
+			surveyor_idle="3,100" />
+		<climb_upstairs_1
+			surveyor_idle="3,100" />
+		<painting_attract
+			surveyor_idle="3,100" />
+		<repel
+			surveyor_idle="3,100" />
+		<cast_fear_start
+			surveyor_idle="3,100"
+			surveyor_run="3,100" />
+		<disarm
+			surveyor_idle="3,100"
+			surveyor_run="3,100" />
+		<hit_skin_spnx
+			surveyor_idle="3,100" />
+		<hit_skin_spnx_1
+			surveyor_idle="3,100" />
+		<littlegirl_pull
+			surveyor_idle="3,100" />
+		<littlegirl_push
+			surveyor_idle="3,100" />
+		<disarm_01
+			surveyor_idle="3,100"
+			surveyor_run="3,100" />
+		<cr_jump_loop
+			fall="1,300"
+			cr_jump_loop="1,0" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

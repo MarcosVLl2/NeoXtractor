@@ -1,0 +1,24 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(-19.13, 9.60, 0.12),(1.21, 9.51, 1.26),9.67" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-19.1321,9.6009,0.1222" BoundingHalf="1.2085,9.5148,1.2576" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="billy_e_gelude_weapon2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../billy.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../billy.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_bone38" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5013,0.5011,0.5000,-0.4975" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_wp_x57_dld_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b2fd982592299159" Inherit="7" Loading="4" Name="x57_delude_idle_018.pse" Uri="fx/killer/x57_delude_idle_018.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped_bone38" BindingFlag="2" LocalPosition="9.6178,0.0192,-0.0547" LocalRotation="-0.7143,0.0727,-0.6862,0.1167" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_gelude_zhasnhi_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="164d322d61bc82a8" Inherit="7" Loading="2" Name="x57_delude_zhanshi_idle_002.pse" Uri="fx\killer\x57_delude_zhanshi_idle_002.pse" />
+        </Socket_1>
+    </SocketObject>
+</NeoX>

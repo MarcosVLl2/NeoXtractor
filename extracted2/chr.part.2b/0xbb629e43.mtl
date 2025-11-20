@@ -1,0 +1,57 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_bird2">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_HALF_POS_PACKED"
+				Val="TRUE" />
+			<Macro1
+				Key="USE_FRAME_INTRTPOLATION"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\unlit_basic_softbody_uv1_vat.nfx::TShader" />
+		<ParamTable>
+			<VatTexColor
+				Value="" />
+			<VatTexLut
+				Value="" />
+			<VatTexPosition
+				Value="vat/player/hds_e_baojun/hds_e_baojun_bird.tga" />
+			<VatTexPositionLow
+				Value="" />
+			<VatTexRotation
+				Value="" />
+			<u_anim_frame_count
+				Value="60" />
+			<u_anim_speed
+				Value="0.500000" />
+			<u_bound_max
+				Value="1,115,1" />
+			<u_tex_pos_decode_scale
+				Value="0.010000,-0.010000,0.010000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_daoju_diff.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

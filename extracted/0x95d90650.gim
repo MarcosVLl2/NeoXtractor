@@ -1,0 +1,35 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="bone005" BoundingInfo="(0.11, 1.93, -0.07),(0.92, 1.90, 0.51),2.17" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.1069,1.9347,-0.0712" BoundingHalf="0.9228,1.9005,0.5137" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_yanli" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_yanli.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_yanli.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone005" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0005,1.0007,1.0012" Name="const_fx_yanli_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="87de27ce9baea0b7" Inherit="7" Loading="4" Name="liekou_yanli_idle_01" Uri="fx\pendant\liekou_yanli_idle_01.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone005" BindingFlag="2" LocalPosition="0.0057,-0.0080,-0.0536" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_yanli_idle_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="9d8e7ddf441b1038" Inherit="7" Loading="4" Name="liekou_yanli_idle_02bhudie_fen.pse" Uri="fx\pendant\liekou_yanli_idle_02bhudie_fen.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.4418,-0.5448,0.4543,0.5492" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_yanli_idle_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b25f1c976628cab8" Inherit="7" Loading="4" Name="liekou_yanli_idle_02bfen.pse" Uri="fx\pendant\liekou_yanli_idle_02bfen.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="bone003" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.4219,-0.5727,0.5185,0.4745" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_yanli_idle_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="5b29fc385f87892c" Inherit="7" Loading="4" Name="liekou_yanli_idle_02bdianfen.pse" Uri="fx\pendant\liekou_yanli_idle_02bdianfen.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="bone008" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.4350,-0.5577,0.4858,0.5135" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_yanli_idle_005" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="8215202c76a49686" Inherit="7" Loading="4" Name="liekou_yanli_idle_02brfen.pse" Uri="fx\pendant\liekou_yanli_idle_02brfen.pse" />
+        </Socket_4>
+    </SocketObject>
+</NeoX>

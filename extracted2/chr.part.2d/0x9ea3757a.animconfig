@@ -1,0 +1,28 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_maozi/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="5.733333" />
+		<Animation
+			Name="idle"
+			FileName="animations_bonbon_e_cat_maozi/idle.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

@@ -1,0 +1,28 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_show_gj/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="show_appear_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show_gj/show_appear_cat_bonbon.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="false"
+			start_time="0"
+			end_time="19.333334" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

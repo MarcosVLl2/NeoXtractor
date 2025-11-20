@@ -1,0 +1,125 @@
+
+insect_game_plants_a_13.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj_sf2_2
+  rotate: true
+  xy: 546, 31
+  size: 44, 107
+  orig: 44, 107
+  offset: 0, 0
+  index: -1
+bj_sf2_5
+  rotate: true
+  xy: 315, 13
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+bj_sf2_6
+  rotate: false
+  xy: 749, 382
+  size: 104, 109
+  orig: 104, 109
+  offset: 0, 0
+  index: -1
+bj_sf2_7
+  rotate: true
+  xy: 887, 94
+  size: 266, 165
+  orig: 266, 165
+  offset: 0, 0
+  index: -1
+bj_sf2_9
+  rotate: true
+  xy: 473, 493
+  size: 525, 364
+  orig: 525, 364
+  offset: 0, 0
+  index: -1
+cj_a_10_sf
+  rotate: true
+  xy: 272, 6
+  size: 57, 41
+  orig: 57, 41
+  offset: 0, 0
+  index: -1
+cj_a_41
+  rotate: true
+  xy: 272, 65
+  size: 291, 111
+  orig: 291, 111
+  offset: 0, 0
+  index: -1
+cj_a_42
+  rotate: true
+  xy: 2, 14
+  size: 342, 268
+  orig: 342, 268
+  offset: 0, 0
+  index: -1
+cj_a_56_sf
+  rotate: true
+  xy: 363, 16
+  size: 47, 91
+  orig: 47, 91
+  offset: 0, 0
+  index: -1
+cj_a_57_sf
+  rotate: false
+  xy: 650, 363
+  size: 97, 128
+  orig: 97, 128
+  offset: 0, 0
+  index: -1
+cj_a_58
+  rotate: true
+  xy: 385, 77
+  size: 279, 500
+  orig: 279, 503
+  offset: 0, 3
+  index: -1
+cj_a_62_sf
+  rotate: false
+  xy: 456, 6
+  size: 88, 69
+  orig: 88, 69
+  offset: 0, 0
+  index: -1
+cj_a_67_sf
+  rotate: false
+  xy: 473, 358
+  size: 175, 133
+  orig: 175, 133
+  offset: 0, 0
+  index: -1
+cj_a_67_sf_2
+  rotate: true
+  xy: 839, 532
+  size: 486, 271
+  orig: 486, 271
+  offset: 0, 0
+  index: -1
+cj_c_105
+  rotate: false
+  xy: 2, 358
+  size: 469, 660
+  orig: 469, 660
+  offset: 0, 0
+  index: -1
+cj_c_73_sf
+  rotate: false
+  xy: 855, 362
+  size: 105, 168
+  orig: 105, 168
+  offset: 0, 0
+  index: -1
+cj_c_75_sf
+  rotate: true
+  xy: 546, 2
+  size: 27, 171
+  orig: 27, 171
+  offset: 0, 0
+  index: -1

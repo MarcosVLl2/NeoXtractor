@@ -1,0 +1,59 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "ttds_e_kbl_jiachong1",
+	"joint_names" : [
+		"root_jiachong","bone_jiachong01","bone_jiachong03","bone_jiachong07","bone_jiachong11","bone_jiachong16","bone_jiachong20","bone_jiachong25","bone_jiachong29","bone_jiachong33","bone_jiachong37","bone_jiachong04","bone_jiachong08","bone_jiachong12","bone_jiachong17","bone_jiachong21","bone_jiachong26","bone_jiachong30","bone_jiachong34","bone_jiachong38","bone_jiachong05","bone_jiachong09","bone_jiachong13","bone_jiachong18","bone_jiachong22","bone_jiachong27","bone_jiachong31","bone_jiachong35","bone_jiachong14","bone_jiachong23"
+	],
+	"joint_parent_indices" : [
+		-1,0,1,1,1,1,1,1,1,1,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,22,24
+	],
+	"reference_pose" : "AAAAAFNVrCgr/uo0AACAPw41VjT0BDU/8wQ1P9zUE7QAAIA+AACAPgAAgD4AAIA/dNfsPAAAgLX/a6JAAACAP6f/M792NsM2yAg2P58HwTYAAIA/AACAPwAAgD8AAIA/2i+6PwQ7IT+TiSc/AACAPxDNIL63wji/7CARPsy4KD///38/AQCAPwAAgD8AAIA/MASLPtCK8j6e40k+AACAP6yXnj1JlGI/bt8jvfsX6r4AAIA/AQCAPwAAgD8AAIA/ANHKvOEVfT4MNCq/AACAP5W8vrzmzL4+DeFsvf0FbT8AAIA/AACAPwAAgD8AAIA/8LiHPqCJ8j5n+r++AACAP1Bvrj3WUmg/SDhAPT810T4AAIA/AQCAP/7/fz8AAIA/AAAWvKEbfT5W+jg/AACAP8RGuTxPdbm+multvc4Ubj8CAIA/AQCAP///fz8AAIA/chu4P4Q5IT+cUkq/AACAP3lpIj6TpTo/pkwPPl2iJj8AAIA/AQCAPwEAgD8AAIA/W7kmQKxMFj86Mzm/AACAP5oPRj1gqsk+sBblPXk6aT/8/38/AACAP/7/fz8AAIA/s8MnQChOFj+x2Dg/AACAP8X0QL0RaMS+SjPmPexYaj///38/AQCAP/7/fz8AAIA/AIAsOm9Coj4AME23AACAP8E9uDvyhgI39/5/P9fPu7P//38/AACAP///fz8AAIA/FzWxPwAAgLMAAAC1AACAP2ijDD0mq7m+ab6yvQBdbT8BAIA/AACAPwEAgD8AAIA/EH/iPwAAADQAAIC0AACAP2zBaD3kCFC/wrclvfYdFD8BAIA/AgCAPwAAgD8AAIA/HeUKQAAAcLQAAAAAAACAP7av071MQNU90J8HvhHzej8CAIA/AACAP///fz8AAIA/cNXLPwAAeLUAAIA0AACAPyq4P720sUk/jH5HvXa0HD/+/38/AgCAPwAAgD8AAIA/HuUKQAAAAAAAAAAAAACAP8ev0z1EQNW91Z8HvhHzej8BAIA/AACAPwAAgD8AAIA/FDWxPwAAgLMAAAA1AACAP6yjDL0lq7k+ar6yvQBdbT/+/38//f9/P///fz8AAIA/NUDrPwAAALQAAIA0AACAPxXIVT2ddFq/QrYBvUCMBD8BAIA/AQCAPwEAgD8AAIA/MkDrPwAAAAAAAIC0AACAP/jHVb2gdFo/IrYBvT2MBD///38/AACAPwEAgD8AAIA/+MqoPwAAgLMAADo0AACAP93+/6c/rgMQAAAAKAAAgD///38/AACAP///fz8AAIA/XKelPwAAAAAAAAA0AACAP1O3uLlFlwC/wHmcO15bXT8BAIA/AACAP/3/fz8AAIA/CBzTPwAAAAAAAIC1AACAPwKs8by7KB4+PcO6vTG8ez///38/AQCAP/3/fz8AAIA/K9viPwAAwLQAAAAAAACAP9WfR7ydoY4+RCjvu8/WdT8DAIA/AgCAP/3/fz8AAIA/DBzTPwAA/jUAAMA1AACAPw+s8TzsKB6+QMO6vS68ez8AAIA/9v9/P/z/fz8AAIA/L9viPwAAAAAAAAAAAACAP+ufRzyioY6+Xyjvu87WdT8AAIA///9/P/7/fz8AAIA/XKelPwAA4DQAAAC0AACAP9rBuDlJlwA/uHucO1xbXT8EAIA/AQCAP/7/fz8AAIA/fH14PwAAwDQAADA1AACAP/f0H71iPL4+tZLGvX0pbD8AAIA/AgCAPwAAgD8AAIA/fn14PwAAoDQAAOC0AACAP/P0Hz1iPL6+vJLGvX0pbD8CAIA/AACAPwIAgD8AAIA/cufDPwAAQLQAAEC1AACAPy9GELtiizI+834+O64TfD/+/38/+P9/PwIAgD8AAIA/cOfDPwAAAAAAAAAAAACAP4xFEDteizK+44I+O64TfD/8/38/AACAP/7/fz8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [],
+		"joint_counts" : [],
+		"joint_index_ordered_by_lod" : [],
+		"joint_lod_levels" : [],
+		"current_lod_config" : -1
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : []
+}

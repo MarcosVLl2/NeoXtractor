@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_dijiao01" BoundingInfo="(0.00, 0.24, 1.24),(7.92, 0.89, 9.94),12.74" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,0.2424,1.2435" BoundingHalf="7.9237,0.8872,9.9362" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_door01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_door.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_door.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

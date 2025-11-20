@@ -1,0 +1,58 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="true" />
+	<NonProportionalScaling Value="true" />
+	<DefaultAnimation Name="fold_idle" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="reading_map" FileName="animations_h55_pendant_map/reading_map.animation" LoadAsync="true" start_time="0" end_time="6.0666" default_loop="true" default_rate="1" />
+		<Animation Name="open_map" FileName="animations_h55_pendant_map/open_map.animation" LoadAsync="true" start_time="0" end_time="1.7333" default_loop="false" default_rate="1" />
+		<Animation Name="fold_map" FileName="animations_h55_pendant_map/fold_map.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="false" default_rate="1" />
+		<Animation Name="fold_idle" FileName="animations_h55_pendant_map/fold_idle.animation" LoadAsync="true" start_time="0" end_time="6.6666" default_loop="true" default_rate="1" />
+		<Animation Name="idle_1" FileName="animations_h55_pendant_map/idle_1.animation" LoadAsync="true" start_time="0" end_time="1.7333" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_it" FileName="animations_h55_pendant_map/wait_play_it.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_hlz" FileName="animations_h55_pendant_map/wait_play_hlz.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_it" FileName="animations_h55_pendant_map/wait_stand_it.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_haidao_it" FileName="animations_h55_pendant_map/show_idle_special_haidao_it.animation" LoadAsync="true" start_time="0" end_time="6.1666" default_loop="false" default_rate="1" />
+		<Animation Name="show_appear_haidao_it" FileName="animations_h55_pendant_map/show_appear_haidao_it.animation" LoadAsync="true" start_time="0" end_time="7.4666" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_haidao_it" FileName="animations_h55_pendant_map/show_idle_haidao_it.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="show_appear_baitu_it" FileName="animations_h55_pendant_map/show_appear_baitu_it.animation" LoadAsync="true" start_time="0" end_time="5.8333" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_baitu_it" FileName="animations_h55_pendant_map/show_idle_baitu_it.animation" LoadAsync="true" start_time="0" end_time="8.6666" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_baitu_it" FileName="animations_h55_pendant_map/show_idle_special_baitu_it.animation" LoadAsync="true" start_time="0" end_time="6.0999" default_loop="false" default_rate="1" />
+		<Animation Name="idle_2" FileName="animations_h55_pendant_map/idle_2.animation" LoadAsync="true" start_time="0" end_time="1.7333" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_it" FileName="animations_h55_pendant_map/show_idle_special_it.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_it" FileName="animations_h55_pendant_map/show_idle_it.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_lans_it" FileName="animations_h55_pendant_map/show_idle_special_lans_it.animation" LoadAsync="true" start_time="0" end_time="6.5" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_lans_it" FileName="animations_h55_pendant_map/show_idle_lans_it.animation" LoadAsync="true" start_time="0" end_time="10.5666" default_loop="true" default_rate="1" />
+		<Animation Name="show_appear_lans_it" FileName="animations_h55_pendant_map/show_appear_lans_it.animation" LoadAsync="true" start_time="0" end_time="7.5" default_loop="false" default_rate="1" />
+		<Animation Name="show_appear_maoli_it" FileName="animations_h55_pendant_map/show_appear_maoli_it.animation" LoadAsync="true" start_time="0" end_time="13.3333" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_maoli_it" FileName="animations_h55_pendant_map/show_idle_maoli_it.animation" LoadAsync="true" start_time="0" end_time="10.8999" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_maoli_it" FileName="animations_h55_pendant_map/show_idle_special_maoli_it.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="false" default_rate="1" />
+		<Animation Name="show_appear_yeyue_it" FileName="animations_h55_pendant_map/show_appear_yeyue_it.animation" LoadAsync="true" start_time="0" end_time="18.566601" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_special_yeyue_it" FileName="animations_h55_pendant_map/show_idle_special_yeyue_it.animation" LoadAsync="true" start_time="0" end_time="17.200001" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_yeyue_it" FileName="animations_h55_pendant_map/show_idle_yeyue_it.animation" LoadAsync="true" start_time="0" end_time="12.1333" default_loop="true" default_rate="1" />
+		<Animation Name="reading_map_yue" FileName="animations_h55_pendant_map/reading_map_yue.animation" LoadAsync="true" start_time="0" end_time="6.0666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_it_yue" FileName="animations_h55_pendant_map/wait_play_it_yue.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_it_yue" FileName="animations_h55_pendant_map/wait_stand_it_yue.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="idle_1_yue" FileName="animations_h55_pendant_map/idle_1_yue.animation" LoadAsync="true" start_time="0" end_time="1.7333" default_loop="true" default_rate="1" />
+		<Animation Name="reading_map_w" FileName="animations_h55_pendant_map/reading_map_w.animation" LoadAsync="true" start_time="0" end_time="6.0666" default_loop="true" default_rate="1" />
+		<Animation Name="start_per_it" FileName="animations_h55_pendant_map/start_per_it.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_special_maoli_it_jp" FileName="animations_h55_pendant_map/show_idle_special_maoli_it_jp.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="false" default_rate="1" />
+		<Animation Name="emotion_trial_it" FileName="animations_h55_pendant_map/emotion_trial_it.animation" LoadAsync="true" start_time="0" end_time="4.0666" default_loop="false" default_rate="1" />
+		<Animation Name="show_appear_yblh_it" FileName="animations_h55_pendant_map/show_appear_yblh_it.animation" LoadAsync="true" start_time="0" end_time="21.666599" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_special_yblh_it" FileName="animations_h55_pendant_map/show_idle_special_yblh_it.animation" LoadAsync="true" start_time="0" end_time="13.1" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_yblh_it" FileName="animations_h55_pendant_map/show_idle_yblh_it.animation" LoadAsync="true" start_time="0" end_time="9.3333" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_it_yblh" FileName="animations_h55_pendant_map/wait_play_it_yblh.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_it_yblh" FileName="animations_h55_pendant_map/wait_stand_it_yblh.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="reading_map_yblh" FileName="animations_h55_pendant_map/reading_map_yblh.animation" LoadAsync="true" start_time="0" end_time="6.0666" default_loop="true" default_rate="1" />
+		<Animation Name="show_appear_daoni_it" FileName="animations_h55_pendant_map/show_appear_daoni_it.animation" LoadAsync="true" start_time="0" end_time="18.4333" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_daoni_it" FileName="animations_h55_pendant_map/show_idle_daoni_it.animation" LoadAsync="true" start_time="0" end_time="12.4333" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_daoni_it" FileName="animations_h55_pendant_map/show_idle_special_daoni_it.animation" LoadAsync="true" start_time="0" end_time="14.1666" default_loop="false" default_rate="1" />
+		<Animation Name="show_appear_zy_it" FileName="animations_h55_pendant_map/show_appear_zy_it.animation" LoadAsync="true" start_time="0" end_time="15.833333" default_loop="false" default_rate="1" />
+		<Animation Name="show_idle_zy_it" FileName="animations_h55_pendant_map/show_idle_zy_it.animation" LoadAsync="true" start_time="0" end_time="12.333333" default_loop="true" default_rate="1" />
+		<Animation Name="show_idle_special_zy_it" FileName="animations_h55_pendant_map/show_idle_special_zy_it.animation" LoadAsync="true" start_time="0" end_time="14.666667" default_loop="false" default_rate="1" />
+		<Animation Name="wait_stand_it_zy" FileName="animations_h55_pendant_map/wait_stand_it_zy.animation" LoadAsync="true" start_time="0" end_time="11" default_loop="true" default_rate="1" />
+		<Animation Name="reading_map_zy" FileName="animations_h55_pendant_map/reading_map_zy.animation" LoadAsync="true" start_time="0" end_time="6.0666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_it_zy" FileName="animations_h55_pendant_map/wait_play_it_zy.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="reading_map_yunchou" FileName="animations_h55_pendant_map/reading_map_yunchou.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="6.066667" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

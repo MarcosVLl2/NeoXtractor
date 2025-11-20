@@ -1,0 +1,6 @@
+<NeoX>
+    <MaterialGroup MaterialCount="2" Name="ttds_e_kbl_maoxianjia" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_xcz/separate_dir/xcz_d_mitu/materials/xcz_d_mitu_body.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_m/h55_survivor_m_xcz/separate_dir/xcz_d_mitu/materials/xcz_d_mitu_head.mtl" />
+    </MaterialGroup>
+</NeoX>

@@ -1,0 +1,26 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="billy_e_gelude_yp/skin.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="show_idle_special_gelude_billy"
+			FileName="billy_e_gelude_yp/show_idle_special_gelude_billy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.4"
+			default_loop="false"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

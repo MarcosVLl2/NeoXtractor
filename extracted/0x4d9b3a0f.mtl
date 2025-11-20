@@ -1,0 +1,64 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="guajian_charas_head01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro1
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_character.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="lut/guanjia/guanjia_charas/guanjia_charas_head01_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="lut/guanjia/guanjia_charas/guanjia_charas_head01_mask.tga" />
+			<TexReflection
+				Value="chr/guanjia/guanjia_charas/guanjia_charas_head01_mask01.tga" />
+			<anisotropy_color
+				Value="1.000000,0.643100,0.439200,0.494100" />
+			<anisotropy_noise
+				Value="0.050000" />
+			<anisotropy_offset
+				Value="-0.100000" />
+			<anisotropy_width
+				Value="50" />
+			<u_ambient
+				Value="0.300000" />
+			<Tex0
+				Value="lut/guanjia/guanjia_charas/guanjia_charas_head01_diff.tga" />
+			<TexNormal
+				Value="lut/guanjia/guanjia_charas/guanjia_charas_head01_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

@@ -1,0 +1,384 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Animation",
+		"AssetVersion" : 1,
+		"Dependices" : [
+			"chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_glass/show_idle_special_gelude_billy.cpdanimation"
+		]
+	},
+	"_FileTypeInfo" : {
+		"/m_track_group/0/tracks/0" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/1" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/2" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/3" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/4" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/5" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/6" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/7" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/1" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/2" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/3" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/action_data_list/0/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/0" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/action_data_list/1/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/1" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/action_data_list/2/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/2" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/action_data_list/3/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/3" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/action_data_list/4/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/4" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/action_data_list/5/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/5" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "ParticleCreateData"
+		},
+		"/motion_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		},
+		"/motion_joint_rest_transform_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		}
+	},
+	"m_track_group" : [
+		{
+			"property_name" : "Notifier",
+			"display_name" : "",
+			"tracks" : [
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,12.399999618530273
+						],
+						"key_values" : [
+							"start","end"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/SyncNotifierTrack",
+					"display_name" : "sync",
+					"curve" : {
+						"key_times" : [],
+						"key_values" : []
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"1"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"2"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"3"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"4"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"5"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							7.333333492279053
+						],
+						"key_values" : [
+							"6"
+						]
+					}
+				}
+			]
+		},
+		{
+			"property_name" : "CustomCurve",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Material",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Morph",
+			"display_name" : "",
+			"tracks" : []
+		}
+	],
+	"action_data_list" : [
+		{
+			"type" : "Particle",
+			"events" : [
+				"1"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "c7f86491fd416f89",
+			"socket_name" : "fx_show_x57_special_01",
+			"obj_name" : "x57_delude_zhanshi_special_002",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		},
+		{
+			"type" : "Particle",
+			"events" : [
+				"2"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "6a6dd49641d63fc9",
+			"socket_name" : "fx_show_x57_special_02",
+			"obj_name" : "x57_delude_zhanshi_special_003",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		},
+		{
+			"type" : "Particle",
+			"events" : [
+				"3"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "391dd3cf1b502fa6",
+			"socket_name" : "fx_show_x57_special_03",
+			"obj_name" : "x57_delude_zhanshi_special_002.pse",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		},
+		{
+			"type" : "Particle",
+			"events" : [
+				"4"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5934670f5f69b402",
+			"socket_name" : "fx_show_x57_special_04",
+			"obj_name" : "x57_delude_zhanshi_special_002",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		},
+		{
+			"type" : "Particle",
+			"events" : [
+				"5"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "6a7ac524eff6f5e0",
+			"socket_name" : "fx_show_x57_special_05",
+			"obj_name" : "x57_delude_zhanshi_special_003",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		},
+		{
+			"type" : "Particle",
+			"events" : [
+				"6"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "3fd55287b9eb1bbd",
+			"socket_name" : "fx_show_x57_special_06",
+			"obj_name" : "x57_delude_zhanshi_special_003",
+			"state" : 0,
+			"break_binding_when_anim_switch_out" : false,
+			"create_new_instance" : false
+		}
+	],
+	"name" : "show_idle_special_gelude_billy",
+	"animation_property" : {
+		"name" : "Clip",
+		"start_time" : 0,
+		"end_time" : 12.399999618530273,
+		"motion" : {
+			"extracted_joint_name" : "",
+			"rotation_mode" : "None",
+			"translation_mode" : "None",
+			"reference_frame" : "None"
+		},
+		"target_compression_level" : "High",
+		"default_loop" : false,
+		"default_rate" : 1,
+		"cached_pose_count" : 0,
+		"raw_fbx_uri" : "",
+		"compressed_by_editor" : false
+	},
+	"motion_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"motion_joint_rest_transform_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"animation_layer" : [],
+	"is_retargeted" : false,
+	"related_joint_names" : [],
+	"pose_time" : [],
+	"pose_data" : []
+}

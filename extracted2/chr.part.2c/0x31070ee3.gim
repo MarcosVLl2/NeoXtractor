@@ -1,0 +1,22 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(0.0000, 8.1569, -0.0695),(3.7996, 7.9536, 1.7313),8.5078" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,6.3280,0.1149" BoundingHalf="3.7996,6.1247,1.0065" BoundingInfo="(0.0000, 6.3279, 0.1149),(3.7996, 6.1247, 1.0065),6.3621" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="zuori_jizhe_body" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-0.0001,13.7831,-0.0695" BoundingHalf="2.2136,2.3273,1.7313" BoundingInfo="(-0.0001, 13.7831, -0.0695),(2.2136, 2.3273, 1.7313),2.8816" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="zuori_jizhe_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../h55_survivor_w_deluosi_jizhe.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../h55_survivor_w_deluosi_jizhe.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0067,0.7067,-0.0067,0.7075" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_dls_zuori_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="dae5056c1b691b1c" Inherit="7" Loading="4" Name="diaochajizhe_zuori_idle_002.pse" Uri="fx/pendant/diaochajizhe_zuori_idle_002.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

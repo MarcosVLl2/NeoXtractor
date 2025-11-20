@@ -1,0 +1,10 @@
+<NeoX>
+    <MaterialGroup MaterialCount="6" Name="hds_e_baojun_frank" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/frank/separate_dir/frank_d_zhxs/materials/frank_d_zhxs_body.mtl" />
+        <Material_1 Path="chr/boss/frank/separate_dir/frank_d_zhxs/materials/frank_d_zhxs_daoju.mtl" />
+        <Material_2 Path="chr/boss/frank/separate_dir/frank_d_zhxs/materials/frank_d_zhxs_daoju01.mtl" />
+        <Material_3 Path="chr/boss/frank/separate_dir/frank_d_zhxs/materials/frank_d_zhxs_head.mtl" />
+        <Material_4 Path="chr/boss/frank/frank_10-default_upgraded.mtl" />
+        <Material_5 Path="chr/boss/frank/frank_11-default_upgraded.mtl" />
+    </MaterialGroup>
+</NeoX>

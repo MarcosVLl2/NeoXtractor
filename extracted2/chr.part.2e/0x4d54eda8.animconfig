@@ -1,0 +1,988 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_girl_e_ningfu_huahuan/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ningfu_girl"
+			FileName="animations_girl_e_ningfu_huahuan/show_appear_ningfu_girl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="23.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ningfu_girl"
+			FileName="animations_girl_e_ningfu_huahuan/show_idle_ningfu_girl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="12.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ningfu_girl"
+			FileName="animations_girl_e_ningfu_huahuan/show_idle_special_ningfu_girl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="15"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_oro"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_oro.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_photo.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_1"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_chase_lose_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_2"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_chase_lose_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_3"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_chase_lose_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_4"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_chase_lose_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_5"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_chase_lose_5.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_lose"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_lose.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_1"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_win_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_take_photo"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_take_photo.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_tredpack_girl"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_tredpack_girl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bainian"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_bainian.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cjfirework"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_cjfirework.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_xnh"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_dice_20_xnh.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_xnh"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_dice_xnh.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fkiss"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_fkiss.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fear_run"
+			FileName="animations_girl_e_ningfu_huahuan/fear_run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk"
+			FileName="animations_girl_e_ningfu_huahuan/fear_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2"
+			FileName="animations_girl_e_ningfu_huahuan/fear_walk2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_crouch"
+			FileName="animations_girl_e_ningfu_huahuan/hurt_crouch.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.7999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_girl_e_ningfu_huahuan/idle.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animations_girl_e_ningfu_huahuan/idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_3"
+			FileName="animations_girl_e_ningfu_huahuan/idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_girl_e_ningfu_huahuan/idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="openbox"
+			FileName="animations_girl_e_ningfu_huahuan/openbox.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_girl_e_ningfu_huahuan/run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_race"
+			FileName="animations_girl_e_ningfu_huahuan/run_race.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_girl_e_ningfu_huahuan/run_smooth.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="slide"
+			FileName="animations_girl_e_ningfu_huahuan/slide.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide2"
+			FileName="animations_girl_e_ningfu_huahuan/slide2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide3"
+			FileName="animations_girl_e_ningfu_huahuan/slide3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide4"
+			FileName="animations_girl_e_ningfu_huahuan/slide4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide5"
+			FileName="animations_girl_e_ningfu_huahuan/slide5.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide6"
+			FileName="animations_girl_e_ningfu_huahuan/slide6.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_girl_e_ningfu_huahuan/span.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_wall_2"
+			FileName="animations_girl_e_ningfu_huahuan/span_wall_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span2"
+			FileName="animations_girl_e_ningfu_huahuan/span2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span3"
+			FileName="animations_girl_e_ningfu_huahuan/span3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="walk_from_coffin"
+			FileName="animations_girl_e_ningfu_huahuan/walk_from_coffin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="opentheswitch"
+			FileName="animations_girl_e_ningfu_huahuan/opentheswitch.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_2"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_race_win_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair"
+			FileName="animations_girl_e_ningfu_huahuan/repair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_2"
+			FileName="animations_girl_e_ningfu_huahuan/repair_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animations_girl_e_ningfu_huahuan/repair_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animations_girl_e_ningfu_huahuan/repair_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animations_girl_e_ningfu_huahuan/low_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animations_girl_e_ningfu_huahuan/walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_girl_e_ningfu_huahuan/hall_idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_girl_e_ningfu_huahuan/hall_idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_girl_e_ningfu_huahuan/hall_walk_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_catsofa.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_chair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_chariot.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_gametable.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_hammock.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_horse.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_loungechair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_mirror.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_oldcatsofa.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_rockingchair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_sofa02.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sit_stool.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_girl_e_ningfu_huahuan/hall_sleep_royal.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_girl_e_ningfu_huahuan/hall_swing_nature.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_girl_e_ningfu_huahuan/hall_throne_sit.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_1"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_2"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_3"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_4"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_5"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_5.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_6"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_6.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_7"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_7.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_dual_8"
+			FileName="animations_girl_e_ningfu_huahuan/wait_dual_8.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_dance_play"
+			FileName="animations_girl_e_ningfu_huahuan/room_dance_play.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pick_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/pick_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/hang_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/discard_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_by_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/catch_by_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle2_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle2_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle1_redqu_heijin"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle1_redqu_heijin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon1"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_dragon1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon2"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_dragon2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon3"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_dragon3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle1_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle1_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle2_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle2_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_by_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/catch_by_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cockhorse_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/cockhorse_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="discard_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/discard_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/hang_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/pick_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="struggle4_llwl"
+			FileName="animations_girl_e_ningfu_huahuan/struggle4_llwl.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle1_yith"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle1_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle2_yith"
+			FileName="animations_girl_e_ningfu_huahuan/carry_struggle2_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_by_yith"
+			FileName="animations_girl_e_ningfu_huahuan/catch_by_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cockhorse_yith"
+			FileName="animations_girl_e_ningfu_huahuan/cockhorse_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="discard_yith"
+			FileName="animations_girl_e_ningfu_huahuan/discard_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_yith"
+			FileName="animations_girl_e_ningfu_huahuan/hang_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick_yith"
+			FileName="animations_girl_e_ningfu_huahuan/pick_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="struggle4_yith"
+			FileName="animations_girl_e_ningfu_huahuan/struggle4_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle1_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_carry_struggle1_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle2_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_carry_struggle2_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_by_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_catch_by_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_cockhorse_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_discard_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_hang_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_pick_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_yith"
+			FileName="animations_girl_e_ningfu_huahuan/happy_struggle4_yith.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_4wsurprise"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_4wsurprise.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fog_dmm"
+			FileName="animations_girl_e_ningfu_huahuan/fog_dmm.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="whistle_dmm"
+			FileName="animations_girl_e_ningfu_huahuan/whistle_dmm.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cared_esu"
+			FileName="animations_girl_e_ningfu_huahuan/cared_esu.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destory_scared"
+			FileName="animations_girl_e_ningfu_huahuan/destory_scared.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scared_esu"
+			FileName="animations_girl_e_ningfu_huahuan/scared_esu.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_nightingale"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_nightingale.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="13.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cockhorse_wuchang_ql"
+			FileName="animations_girl_e_ningfu_huahuan/cockhorse_wuchang_ql.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="struggle4_wuchang_ql"
+			FileName="animations_girl_e_ningfu_huahuan/struggle4_wuchang_ql.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_2000wishes"
+			FileName="animations_girl_e_ningfu_huahuan/emotion_2000wishes.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_girl_e_ningfu_huahuan/hall_selfie_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

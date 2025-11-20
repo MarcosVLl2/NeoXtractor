@@ -1,0 +1,532 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/sockets/spaces/0" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/1" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/2" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/3" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/4" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/5" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/6" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/7" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/8" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/9" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/10" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/11" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/12" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/13" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/14" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/15" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/16" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/17" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/18" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/19" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/20" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/21" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/22" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/23" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/24" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/25" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/26" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/27" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/28" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/29" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/30" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/31" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/32" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/33" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/34" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/35" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/36" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/37" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/38" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/39" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/40" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/41" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/42" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/43" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/44" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/45" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/46" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/47" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/48" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/49" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/50" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/constraint_data/0" : {
+			"type_name" : "shared_ptr<ConstraintDataBase>",
+			"customized" : false,
+			"wrapped_type_name" : "LockSelfConstraintData"
+		}
+	},
+	"name" : "dm65_survivor_girl",
+	"joint_names" : [
+		"biped","biped pelvis","biped spine","biped l thigh","biped r thigh","biped_ pqun_bone_00","biped_ pqun_bone_05","biped_ pqun_bone_10","biped_ pqun_bone_15","biped_ pqun_bone_20","biped_ pqun_bone_25","biped_cqun_bone_01","biped_cqun_bone_02","biped_cqun_bone_03","biped_cqun_bone_04","biped_cqun_bone_05","biped_cqun_bone_06","biped_shouwei_bone_01","biped spine1","biped l calf","biped r calf","biped_ pqun_bone_01","biped_ pqun_bone_06","biped_ pqun_bone_11","biped_ pqun_bone_16","biped_ pqun_bone_21","biped_ pqun_bone_26","biped_cqun_bone_12","biped_cqun_bone_17","biped_cqun_bone_22","biped_cqun_bone_27","biped_cqun_bone_07","biped_cqun_bone_32","biped_shouwei_bone_02","biped spine2","biped l foot","biped r foot","biped_ pqun_bone_02","biped_ pqun_bone_07","biped_ pqun_bone_12","biped_ pqun_bone_17","biped_ pqun_bone_22","biped_ pqun_bone_27","biped_cqun_bone_13","biped_cqun_bone_18","biped_cqun_bone_23","biped_cqun_bone_28","biped_cqun_bone_08","biped_cqun_bone_33","biped_shouwei_bone_03","biped neck","biped_doupeng_bone_01","biped_doupeng_bone_10","biped_doupeng_bone_11","biped_pijian_bone_04","biped_pijian_bone_05","biped_pijian_bone_06","biped l toe0","biped r toe0","biped_ pqun_bone_03","biped_ pqun_bone_08","biped_ pqun_bone_13","biped_ pqun_bone_18","biped_ pqun_bone_23","biped_ pqun_bone_28","biped_cqun_bone_14","biped_cqun_bone_19","biped_cqun_bone_24","biped_cqun_bone_29","biped_cqun_bone_09","biped_cqun_bone_34","biped_shouwei_bone_04","biped head","biped l clavicle","biped r clavicle","biped_shabaiquan_bone_01","biped_shabaiquan_bone_02","biped_shabaiquan_bone_03","biped_shabaiquan_bone_04","biped_doupeng_bone_02","biped_doupeng_bone_12","biped_doupeng_bone_13","biped_pijian_bone_21","biped_pijian_bone_14","biped_pijian_bone_24","biped_ pqun_bone_04","biped_ pqun_bone_09","biped_ pqun_bone_14","biped_ pqun_bone_19","biped_ pqun_bone_24","biped_ pqun_bone_29","biped_cqun_bone_15","biped_cqun_bone_20","biped_cqun_bone_25","biped_cqun_bone_30","biped_cqun_bone_10","biped_cqun_bone_35","biped_shouwei_bone_05","biped_face_bone_01","biped_face_bone_02","biped_face_bone_03","biped_face_bone_04","biped_face_bone_05","biped_face_bone_06","biped_face_bone_07","biped_face_bone_08","biped_hair_bone_05","biped_hair_bone_10","biped_hair_bone_11","biped_hair_bone_24","biped_hair_bone_33","biped_hair_bone_34","biped_hair_bone_43","biped_hair_bone_44","biped_hair_bone_57","biped_hair_bone_58","biped_hair_bone_70","biped_hair_bone_73","biped_hair_bone_76","biped_hat_bone_11","biped_shouer_bone_01","biped_shouer_bone_02","biped l upperarm","biped_pijian_bone_03","biped r upperarm","biped_pijian_bone_07","biped_doupeng_bone_03","biped_doupeng_bone_14","biped_doupeng_bone_15","biped_pijian_bone_22","biped_pijian_bone_15","biped_pijian_bone_25","biped_hair_bone_06","biped_hair_bone_12","biped_hair_bone_13","biped_hair_bone_25","biped_hair_bone_35","biped_hair_bone_36","biped_hair_bone_45","biped_hair_bone_46","biped_hair_bone_59","biped_hair_bone_60","biped_hair_bone_71","biped_hair_bone_74","biped_hair_bone_77","biped_hat_bone_01","biped_hat_bone_04","biped_hat_bone_08","biped_shouer_bone_04","biped_shouer_bone_03","biped l forearm","biped_pijian_bone_11","biped r forearm","biped_pijian_bone_08","biped_doupeng_bone_04","biped_doupeng_bone_16","biped_doupeng_bone_17","biped_hair_bone_07","biped_hair_bone_14","biped_hair_bone_15","biped_hair_bone_27","biped_hair_bone_37","biped_hair_bone_38","biped_hair_bone_47","biped_hair_bone_48","biped_hair_bone_61","biped_hair_bone_62","biped_hat_bone_02","biped_hat_bone_05","biped_hat_bone_09","biped l hand","biped_xiuzi_bone_03","biped_xiuzi_bone_06","biped_xiuzi_bone_09","biped_xiuzi_bone_17","biped_pijian_bone_12","biped r hand","biped_xiuzi_bone_15","biped_xiuzi_bone_20","biped_xiuzi_bone_23","biped_xiuzi_bone_26","biped_pijian_bone_09","biped_doupeng_bone_05","biped_doupeng_bone_18","biped_doupeng_bone_19","biped_hair_bone_08","biped_hair_bone_16","biped_hair_bone_17","biped_hair_bone_29","biped_hair_bone_39","biped_hair_bone_40","biped_hair_bone_55","biped_hair_bone_50","biped_hair_bone_65","biped_hair_bone_66","biped_hat_bone_06","bone203","biped l finger0","biped l finger1","biped l finger2","biped_xiuzi_bone_04","biped_xiuzi_bone_07","biped_xiuzi_bone_10","biped_xiuzi_bone_18","biped r finger0","biped r finger1","biped r finger2","biped_xiuzi_bone_16","biped_xiuzi_bone_21","biped_xiuzi_bone_24","biped_xiuzi_bone_27","biped_doupeng_bone_06","biped_doupeng_bone_20","biped_doupeng_bone_21","biped_hair_bone_18","biped_hair_bone_19","biped_hair_bone_31","biped_hair_bone_49","biped_hair_bone_51","biped01","biped l finger01","biped l finger11","biped l finger21","biped_xiuzi_bone_12","biped r finger01","biped r finger11","biped r finger21","biped_xiuzi_bone_32","biped_hair_bone_20","biped_hair_bone_21","biped01 pelvis","biped01 spine","biped_xiuzi_bone_13","biped_xiuzi_bone_31","biped01 l thigh","biped01 r thigh","biped01 spine1","biped_xiuzi_bone_02","biped_xiuzi_bone_30","biped01 l calf","biped01 r calf","biped01 neck","biped01 l foot","biped01 r foot","biped01 head","biped01 l clavicle","biped01 r clavicle","biped01 l upperarm","biped01 r upperarm","biped01 l forearm","biped01 r forearm","biped01 l hand","biped01 r hand"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,34,34,34,34,34,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,50,50,50,50,50,50,51,52,53,54,55,56,59,60,61,62,63,64,65,66,67,68,69,70,71,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,73,73,74,74,79,80,81,82,83,84,106,107,108,109,110,111,112,113,114,115,116,117,118,119,119,119,120,121,122,123,124,125,126,127,128,132,133,134,135,136,137,138,139,140,141,145,146,147,150,150,150,150,150,151,152,152,152,152,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,168,170,170,170,170,171,172,173,174,176,176,176,177,178,179,180,182,183,184,186,187,188,191,192,196,197,198,199,201,204,205,206,210,214,215,219,219,223,227,230,230,231,232,233,234,235,236,239,240,241,241,241,245,246,247,248,249,250
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			253
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [
+			"copycat_cuimianshi_huaibiao","cr_fish","likefood","hall_pumpkin","water_girl_kettle","sound_sk","cr_taoquan","decal","fx_spzaji_skill_buff_01","fx_zhadanren_guwu_debuff_001","fx_zhadanren_guwu_debuff_002","fx_zhadanren_guwu_debuff_003","fx_zhadanren_guwu_debuff_004","fx_zhadanren_guwu_debuff_005","fx_zhadanren_guwu_debuff_006","fx_zhadanren_guwu_debuff_007","fx_zhadanren_guwu_debuff_008","fx_zhadanren_guwu_debuff_009","carry_balloon_moonriver","copycat_xuetu_skill","const_2024shengdan_l","const_2024shengdan_r","sound_show_sk","hall_hand_prop","emotion_huadeng","skip_render_config_fx_001","pendant_bianzi","const_fx_leichong_feilun","cr_ww_l","cr_ww_r","cr_ww_gun","cr_ww_cannon","gouzhua_r","cr_ww_qiu","cr_ww_penguan_1","cr_ww_penguan_2","cr_ww_can","cr_ww_penshuihu_1","cr_hand_wand","sound_waterwar","const_fx_huandeng_skill_001","cr_ww_daoguang_1","cr_ww_sword","fx_sword_001","fx_sword_002","fx_sword_003","nanguadeng","maze_eye","const_fx_blk_owl_001","const_fx_blk_owl_002","weapon_xmas"
+		],
+		"related_joint_names" : [
+			"","biped l hand","","biped head","biped r hand","","biped r hand","","biped l forearm","biped head","biped r upperarm","biped r forearm","biped r thigh","biped r calf","biped l upperarm","biped l forearm","biped l thigh","biped l calf","biped r hand","","biped l foot","biped r foot","","biped r hand","biped r hand","","biped r hand","biped head","biped l hand","biped r hand","biped r hand","biped r hand","biped r forearm","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","","","","biped r hand","","","","biped r hand","biped head","","","biped r hand"
+		],
+		"spaces" : [
+			[
+				0,11,5,0,0,0,1,1,1,1
+			],
+			[
+				1.297798,-0.142498,-0.549898,-0.484362,0.138070,-0.633354,0.587530,1.004292,1.002621,1.003736
+			],
+			[
+				0,0,4.487009,0,0,0,1,1,1,1
+			],
+			[
+				-0.392500,0,0.026799,-0.026138,0.025626,-0.706537,0.706727,1.001199,1.001523,1.002184
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1.600110,-0.494729,0.194359,0.647237,0.039418,-0.031276,0.760625,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1,0,0,0,0,0.707106,0.707106,0.699998,0.699998,0.699998
+			],
+			[
+				0,0,0,-0.098655,0.099027,-0.705403,0.694886,0.699998,0.699998,0.699998
+			],
+			[
+				0.817673,-0.457136,-0.115372,0.778074,-0.513840,0.077782,0.352870,0.349999,0.349999,0.349999
+			],
+			[
+				0.860230,0.348868,-0.119341,0.691236,0.696852,0.114393,0.153306,0.349999,0.349999,0.349999
+			],
+			[
+				2.502151,-0.749373,-0.544497,-0.285501,-0.003765,0.636916,0.716109,0.699998,0.699998,0.699998
+			],
+			[
+				1.661527,-0.124782,0.104910,0.153511,-0.373743,0.630842,0.662410,0.699998,0.899999,0.699998
+			],
+			[
+				0.531310,0.442418,-0.363757,0.771876,0.602461,0.179434,0.095132,0.349999,0.349999,0.349999
+			],
+			[
+				0.812987,0.050512,-0.380246,-0.665954,0.283867,0.492415,0.483168,0.349999,0.349999,0.349999
+			],
+			[
+				2.055763,-0.080623,0.261622,0.530620,0.807621,-0.134092,0.219565,0.699998,0.699998,0.699998
+			],
+			[
+				1.906566,0.157462,-0.051054,-0.205197,0.127405,0.705781,0.665983,0.699998,0.899999,0.699998
+			],
+			[
+				0.750473,-0.072498,0.212843,-0.587454,0.682442,-0.168527,0.400959,1,1,1
+			],
+			[
+				0,18,0,0,0,0,1,1,1,1
+			],
+			[
+				0.970799,0.080899,0.597500,0.000087,0.000000,0.707230,0.706983,1.002200,1.001999,1.001399
+			],
+			[
+				0.971800,-0.077399,0.598100,-0.000000,0.000154,0.707247,0.706965,1.002200,1.001999,1.001399
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0.640316,-0.221018,0.216462,0.139053,-0.026001,-0.103586,0.984509,1,1,1
+			],
+			[
+				0.588913,-0.042341,0.204344,0.691331,-0.721817,-0.032108,0.003011,0.800000,0.799996,0.800000
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				2.426465,1.046347,0.013004,0.550528,-0.572304,-0.451197,-0.407193,0.998106,0.997159,1.004750
+			],
+			[
+				-0.911255,0.381549,0.724707,-0.241255,0.131905,-0.793219,0.543322,1.001587,1.006170,0.996088
+			],
+			[
+				0,0,0,0.304300,-0.578810,0.699975,0.287078,1,1,1
+			],
+			[
+				-0.156053,0.157185,0.107248,-0.574923,0.373840,0.310362,0.658317,0.999997,0.999997,0.999997
+			],
+			[
+				-0.384905,-0.487046,0.123372,-0.674989,0.286945,0.382460,0.561938,0.991702,1.011805,0.996599
+			],
+			[
+				0.050158,-0.130471,-0.010026,-0.516372,0.484745,0.388064,0.589734,0.991702,1.011805,0.996599
+			],
+			[
+				-0.034152,0.345602,-0.037174,-0.875439,0.467603,-0.049266,0.111918,1,1,1
+			],
+			[
+				0.171965,-0.298785,-0.298330,-0.578158,0.302329,0.290831,0.699818,1,1,1
+			],
+			[
+				-1.5,-0.949998,0.059999,-0.493936,0.485993,0.136353,0.707986,1,1,1
+			],
+			[
+				2.099997,2.75,0.449999,0.455689,-0.537924,0.351700,0.615865,1,1,1
+			],
+			[
+				-0.033038,-0.567529,0.341336,0.493874,-0.522761,-0.518012,-0.463110,0.999978,0.999979,0.999988
+			],
+			[
+				4,1.700000,-1.330000,-0.514375,0.145477,0.825199,0.182484,1,1,1
+			],
+			[
+				0.653424,0.778383,0.501088,-0.348920,0.544403,0.659213,0.383819,0.600000,0.600000,0.600000
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,8,0,0,0,0,1,1,1,1
+			],
+			[
+				0.5,7.5,2,0.773606,0.569189,0.269643,-0.069630,1,1,1
+			],
+			[
+				0.316720,-1.290948,0.250465,-0.048958,-0.252012,-0.103805,0.960894,1,1,1
+			],
+			[
+				0.200000,-2.599998,-3.599998,0,0,0,1,1,1,1
+			],
+			[
+				0,-3,0,0,0,0,1,1,1,1
+			],
+			[
+				0,-4,0,0,0,0,1,1,1,1
+			],
+			[
+				0.536561,-0.179923,0.188684,-0.581446,0.811650,-0.021021,0.051984,1,1,1
+			],
+			[
+				1.125213,-0.027372,1.031515,0,0,0,1,0.999720,1.000017,1.000262
+			],
+			[
+				-4.650630,14.632523,-15.731923,0,0,0,1,1,1,1
+			],
+			[
+				2.481532,11.723806,-18.059064,0,0,0,1,1,1,1
+			],
+			[
+				0.756976,0.017265,0.148012,0.000147,0.000104,-0.000380,0.999999,0.999172,1.005857,0.999870
+			]
+		],
+		"binding_flags" : [
+			"LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset"
+		],
+		"play_rate_policies" : [
+			"InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel"
+		],
+		"bind_types" : [
+			7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+		],
+		"sync_vos" : [
+			"None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None"
+		],
+		"submesh_sort_idxs" : [
+			-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+		],
+		"preloading_levels" : [
+			-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+		]
+	},
+	"socket_objects" : {
+		"names" : [
+			"likefood","Event|P_survivor_survivor_3p_attack_surv_skill_sprint","Event|Play_girl_emotion_water_3p","climb_delete","low_walk","run","walk","survivor_slide","survivor_slide_land","survivor_bind_up","survivor_getup_delete","survivor_getup2","survivor_grope","survivor_shy","w_survivor_shy_delete","survivor_treat","survivor_bodyfall_h","survivor_bodyfall_l","password_button","survivor_slide_wood","survivor_bind","survivor_dismantle_delete","survivor_repair1","survivor_repair2","survivor_repair4","survivor_tip","survivor_hit_fly_delete","survivor_agree","survivor_saveby2_delete","survivor_carry_struggle1_delete","surv_skill_sprint_hit","surv_skill_sprint_stop","surv_skill_paoku","surv_skill_blind_delete","surv_skill_blind_walk_delete","surv_skill_fenshen_yinshen","surv_skill_jisi_chuanqiang_delete","surv_skill_splash","surv_skill_splash2","surv_skill_duet_long_delete","surv_skill_duet_short_delete","surv_skill_bag_switch_delete","sur_w_whr_wind_delete","wht_e_mxt_idle_delete","tiaojiu_brew_wine_delete","tiaojiu_drink_wine_delete","tiaojiu_drunkenness_delete","tiaojiu_flair_delete","tiaojiu_idle_delete","tiaojiu_passing_wine_self_delete","tiaojiu_passing_wine_object","cuimianshi_skill","kunchong_command_swarm_2_2_delete","kunchong_dispel_swarm","kunchong_command_swarm_1_delete","emotion_listen_hlz_delete","emotion_listen_kunchong_delete","emotion_listen_zhoushu_delete","toyman_fly","toyman_fly_over_delete","toyman_fly_prepare","toyman_jump_back_delete","toyman_jump_out_1","toyman_jump_out_2","toyman_jump_set_delete","toyman_package_throw_delete","show_idle_special_wanju_delete","show_idle_wanju_delete","toyman_fly_foley_delete","emotion_dance_wanju_delete","emotion_dance_wanju_01_delete","littlegirl_appear","littlegirl_change_1","littlegirl_disappear","emotion_tredpack_girl","xuezhe_skill_hug_001_sfx","emotion_photo","survovir_remote","sprint_suhua_lp","sprint_suhua_step","yeren_whistle","Event|Play_ww_3p_run","scholar_throw_click","scholar_throw_fly","scholar_throw_miss","scholar_throw","scholar_throw_click_1","scholar_throw_fly_1","scholar_throw_jump_4","scholar_throw_jump_5_1_delete","scholar_throw_miss_1","scholar_throw_click_2","scholar_throw_fly_2","scholar_throw_miss_2","Event|Play_pzjg_char_doubt_w","Event|Play_girl_show_appear_eight_girl","Event|Play_girl_show_idle_eight_girl","Event|Play_girl_show_idle_special_eight_girl","Event|Play_ww_3p_switch_weapon","Event|Play_ww_show_clap","Event|Play_ww_show_fist","Event|Play_ww_show_jump","Event|Play_ww_show_pat_back","Event|Play_ww_show_pat_body","Event|Play_ww_3p_jumping_start","Event|Play_3p_short_arrow_jump"
+		],
+		"uris" : [
+			"fx\\scene\\guisudating\\2024guoqing_table_001.pse","wwise/survivor.bnk:/Event|P_survivor_survivor_3p_attack_surv_skill_sprint","wwise/survivor_girl.bnk:/Event|Play_girl_emotion_water_3p","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_climb","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_low_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_run","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide_land","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bind_up","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_getup","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_getup2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_grope","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_shy","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_w_survivor_shy","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_treat","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bodyfall_h","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bodyfall_l","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_password_button","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide_wood","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bind","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_dismantle","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair4","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_tip","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_hit_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_agree","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_saveby2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_carry_struggle1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_surv_skill_sprint_hit","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_surv_skill_sprint_stop","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_paoku","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_blind","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_blind_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_fenshen_yinshen","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_jisi_chuanqiang","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_splash","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_splash2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_duet_long","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_duet_short","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_bag_switch","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_sur_w_whr_wind","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_wht_e_mxt_idle","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_brew_wine","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_drink_wine","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_drunkenness","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_flair","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_idle","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_passing_wine_self","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_passing_wine_object","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cuimian_cuimianshi_skill","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kunchong_kunchong_command_swarm_2_2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kunchong_kunchong_dispel_swarm","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kunchong_kunchong_command_swarm_1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_listen_hlz","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_listen_kunchong","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_listen_zhoushu","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly_over","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly_prepare","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_back","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_out_1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_out_2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_set","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_package_throw","wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_survivor_show_2021_show_idle_special_wanju","wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_survivor_show_2021_show_idle_wanju","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly_foley","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_emotion_dance_wanju","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_emotion_dance_wanju_01","wwise/survivor_girl.bnk:survivor_girl/Event|P_survivor_girl_survivor_skill_3p_sur_girl_littlegirl_appear","wwise/survivor_girl.bnk:survivor_girl/Event|P_survivor_girl_survivor_skill_3p_sur_girl_littlegirl_change_1","wwise/survivor_girl.bnk:survivor_girl/Event|P_survivor_girl_survivor_skill_3p_sur_girl_littlegirl_disappear","wwise/survivor_girl.bnk:survivor_girl/Event|P_survivor_girl_survivor_skill_3p_emotion_emotion_tredpack_girl","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_xuezhe_skill_hug_001_sfx","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_emotion_emotion_photo","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survovir_remote","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_lp","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_step","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_yezhuqishi_yeren_yeren_whistle","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_run","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_click","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_miss","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw_click","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw_fly","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw_jump_4","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw_jump_5_1","wwise/survivor_vo_bh.bnk:survivor_vo_bh/Event|P_survivor_vo_bh_survivor_3p_vo_bh_scholar_throw_miss","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_click","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_miss","wwise/survivor_25pzjg.bnk:/Event|Play_pzjg_char_doubt_w","wwise/show_girl.bnk:/Event|Play_girl_show_appear_eight_girl","wwise/show_girl.bnk:/Event|Play_girl_show_idle_eight_girl","wwise/show_girl.bnk:/Event|Play_girl_show_idle_special_eight_girl","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_switch_weapon","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_clap","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_fist","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_jump","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_pat_back","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_pat_body","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_jumping_start","wwise/survivor_gjs.bnk:/Event|Play_3p_short_arrow_jump"
+		],
+		"ids" : [
+			"d2daaf28bd0225a7","372d4cda632a9355","c9a158ea3fee801f","f2d8c0294e757821","0ecace9dc729419e","d0325149783003ef","26cfdf9f659fa0f4","dbc110bc1f4e829e","f60da0c3ee81f024","7b35137b4861ebc6","a12b8404da98f6a3","b4f78894cb6db0fa","7468d49cc7801c27","296915a5f26ec0f0","751c095f3fac0758","5f56ebd5ebc84ff5","21efc85e244b13be","1d8b81f9ae65ca26","5eea209583a8174c","e73fe094934c0ea7","fc16e0bd21e21a6e","0b2b51f15b1e07a6","00be05e16501f239","a8c388e12b127779","84661188aad4eb28","7b96e0599e66d597","a6783e2b8b537b00","ff0a69c6290d1a3f","7007b67a31b1c621","effbc983954d2bd8","645a10fc68618221","bc1e5976ef71b264","1201c11829951b71","0b911d2f95e4c4c1","97896a9947c34e0d","3c320be06095d04a","36a0ca6cb27797f0","1c8657fc85fdf1e4","685421e006fad153","f94bf2a4b2f0eccc","21f0b1929e4d0b88","2e348a72fbd85565","ee209535654148ae","5ca2236211e0cd2f","61618ae3794e09da","e4ebfef413079afb","0a7f0e06d9e61247","8457258dcf8564ba","ccc0a1b923d6c78a","1a9be6566dd610e8","036c5af9cb95708b","08fb7bf2ad795c23","e570dd2bc6ade0d9","b41254794717784a","b49e0bbde7c0fc4f","0c4bf0ec0211bf48","f672fe8a7e185220","19dd725185276ebc","950edc460fdb01aa","36ddfeff0e9111ce","1d6cdafd956e420d","60cab9757beb0357","f0e4013ff8538f67","8fe9985de3ff50c6","492f037017d76c17","fb5e647cce5a572d","c330f5bfcb837c04","d530b5423179a849","2f035f99149cf2dc","9d36a6cfbac73f58","86b5038554d5e26a","892bee7dc1e5b426","11fc7bfffbcfa90d","3ee70ccaa93e37d4","67fd5b1647149fb5","5b402b6087d2678d","95d346e537e57c59","099f926132084aa1","c3c20703eeaef1f8","cddb7077a7300c84","7fe97240bb54883a","818ada1d9d01f9ed","c84c2305249959d8","0e5184d0ab93872c","0ad5df6db8d2983f","b8502c67e7861c6a","a8193fbaef1f1b1d","539ae1698cb465a0","2cb00fd62cb10466","5412ac7a6a35c0b7","ebe134a96b28f7d0","a27963d3f15a0c19","d8d0686003cbd0cd","ced315c3afc7c979","9d917aa37c6b47e4","f49ade860160d25b","7c49847784096c7e","58fb1db63430b985","f295b7697fd0d0d5","998d7790745608ba","30e8e712c84fe756","e65f7c8b1112cb81","666583f470b98144","84f84c1a24927451","3fc0702b3ad99009","2e756e4b4a87a0f3"
+		],
+		"related_socket_names" : [
+			"likefood","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar"
+		],
+		"space_inherit_flags" : [
+			"Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All"
+		],
+		"loading_flags" : [
+			"Loading","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None"
+		]
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [
+		{
+			"name" : "bone203_LockSelfConstraint",
+			"id" : "5b7c6dd5-ecf1-4d94-a26a-1cb98d18d838",
+			"enable" : false,
+			"type" : "LockSelf",
+			"owner_name" : "bone203",
+			"target_name" : "",
+			"weight" : 1,
+			"lock_space" : "World ",
+			"apply_to_children" : true
+		}
+	],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

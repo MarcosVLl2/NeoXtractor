@@ -1,0 +1,49 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="root" BoundingInfo="(0.30, 0.36, 0.27),(1.19, 1.47, 0.92),2.10" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.7672,0.8897,0.8069" BoundingHalf="0.4858,0.7211,0.3621" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_youling_01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.3012,0.3616,0.1487" BoundingHalf="1.1875,1.4724,0.7982" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="h55_guajian_tideng" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.2968,-0.3637,0.8311" BoundingHalf="0.4973,0.4704,0.3528" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="h55_guajian_youling_02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_tideng.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_tideng.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.4713,0.2869,0.2012" LocalRotation="0.1919,0.9551,0.1880,0.1248" LocalScale="1.2524,1.2541,1.2541" Name="const_fx_tideng_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="7ae15befb919ad9c" Inherit="7" Loading="4" Name="yuanding_tideng_idle_001" Uri="fx\pendant\yuanding_tideng_idle_001.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.4801,0.2880,-0.1860" LocalRotation="-0.1514,-0.9562,0.2505,-0.0016" LocalScale="1.2525,1.2546,1.2535" Name="const_fx_tideng_idle_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="d0ed181fdaa1e0cf" Inherit="7" Loading="4" Name="yuanding_tideng_idle_001" Uri="fx\pendant\yuanding_tideng_idle_001.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="bone011" BindingFlag="2" LocalPosition="0.4265,0.2237,0.1731" LocalRotation="-0.0653,-0.8586,-0.3031,0.4083" LocalScale="1.2517,1.2537,1.2530" Name="const_fx_tideng_idle_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="6b558e4710400872" Inherit="7" Loading="4" Name="yuanding_tideng_idle_001" Uri="fx\pendant\yuanding_tideng_idle_001.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.3965,0.0110,-0.0522" LocalRotation="0.4501,0.7980,0.3588,-0.1785" LocalScale="1.2525,1.2538,1.2543" Name="const_fx_tideng_idle_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="519c1e9f6e6c598d" Inherit="7" Loading="4" Name="yuanding_tideng_idle_002" Uri="fx\pendant\yuanding_tideng_idle_002.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="bone005" BindingFlag="2" LocalPosition="0.0774,-0.0444,0.0202" LocalRotation="-0.3691,0.1348,0.5773,0.7158" LocalScale="1.2529,1.2540,1.2546" Name="const_fx_tideng_idle_005" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="ea76957245ed8ce7" Inherit="7" Loading="4" Name="yuanding_tideng_idle_002" Uri="fx\pendant\yuanding_tideng_idle_002.pse" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="bone011" BindingFlag="2" LocalPosition="0.2460,-0.0335,0.0096" LocalRotation="-0.2678,-0.4502,-0.7791,0.3443" LocalScale="1.2519,1.2532,1.2534" Name="const_fx_tideng_idle_006" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2af1f2aac5e63c12" Inherit="7" Loading="4" Name="yuanding_tideng_idle_002" Uri="fx\pendant\yuanding_tideng_idle_002.pse" />
+        </Socket_5>
+        <Socket_6 BindType="7" BindingBone="bone012" BindingFlag="2" LocalPosition="0.1533,0.0376,-0.0227" LocalRotation="0.8381,-0.1643,-0.3289,-0.4029" LocalScale="1.0029,1.0034,1.0032" Name="const_fx_tideng_idle_007" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="cb89dca1b9628fe6" Inherit="7" Loading="4" Name="yuanding_tideng_idle_002" Uri="fx\pendant\yuanding_tideng_idle_002.pse" />
+        </Socket_6>
+        <Socket_7 BindType="7" BindingBone="root" BindingFlag="2" LocalPosition="1.6922,-0.0320,-0.0405" LocalRotation="0.4501,0.7980,0.3588,-0.1785" LocalScale="1.2525,1.2538,1.2543" Name="const_fx_tideng_idle_008" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="daa2f68b92540554" Inherit="7" Loading="4" Name="yuanding_tideng_idle_003" Uri="fx/pendant/yuanding_tideng_idle_003.pse" />
+        </Socket_7>
+        <Socket_8 BindType="7" BindingBone="root" BindingFlag="2" LocalPosition="0.7553,-0.6312,0.3066" LocalRotation="0.4501,0.7980,0.3588,-0.1785" LocalScale="1.2525,1.2538,1.2543" Name="const_fx_tideng_idle_009" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="00849caa6a239e8a" Inherit="7" Loading="4" Name="yuanding_tideng_idle_004" Uri="fx/pendant/yuanding_tideng_idle_004.pse" />
+        </Socket_8>
+    </SocketObject>
+</NeoX>

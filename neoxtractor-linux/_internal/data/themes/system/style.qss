@@ -1,0 +1,4 @@
+*[disabled="true"] {
+    background-color: @disabled;
+    color: @text_disabled;
+}

@@ -1,0 +1,78 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="bonbon_e_cat_body0101">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="SPECULAR_ENABLE"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_MASK_MAP"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro4
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_star_rimlight.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_body01_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMask
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_starmask.tga" />
+			<TexMetal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_body01_mask.tga" />
+			<TexReflection
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_body01_mask01.tga" />
+			<TexStar
+				Value="" />
+			<anisotropy_color
+				Value="0.473808,0.643503,0.764706,1.000000" />
+			<anisotropy_noise
+				Value="0.200000" />
+			<anisotropy_offset
+				Value="-0.100000" />
+			<anisotropy_width
+				Value="200" />
+			<u_ambient
+				Value="0.300000" />
+			<u_rim_color
+				Value="0.086290,0.062806,0.052842,0.247059" />
+			<u_rim_strength
+				Value="15" />
+			<Tex0
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_body01_diff.tga" />
+			<TexNormal
+				Value="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_body01_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

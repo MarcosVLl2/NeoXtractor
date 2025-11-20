@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_zhadan01" BoundingInfo="(0.00, 0.90, -0.00),(0.64, 0.90, 0.63),1.27" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,0.8986,0.0000" BoundingHalf="0.6386,0.8986,0.6264" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_shoulei" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_shoulei.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_shoulei.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_zhadan01" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.1837,-0.6905,0.3712,0.5930" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_010" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="a2db0ef2a8e3a9d5" Inherit="7" Loading="2" Name="huandeng_baojun_zhanshi_appear_003.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_003.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

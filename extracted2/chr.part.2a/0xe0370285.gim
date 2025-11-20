@@ -1,0 +1,11 @@
+<NeoX BoundingInfo="(7.6167, 7.0242, 0.0236),(0.7260, 6.4676, 0.7681),6.5528" TangentEnable="true" UseNewAnimationSystem="true">
+    <SubMesh>
+        <Sub0 BoundingCenter="7.6167,7.0242,0.0236" BoundingHalf="0.7260,6.4676,0.7681" BoundingInfo="(7.6167, 7.0242, 0.0236),(0.7260, 6.4676, 0.7681),6.5528" MtlIdx="0" Name="ttds_e_kbl_weapon" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../../../../prop/h55_pendant_ttds_hu/h55_pendant_ttds_hu.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../../../../prop/h55_pendant_ttds_hu/h55_pendant_ttds_hu.animconfig" />
+    </AnimationConfigFile>
+</NeoX>

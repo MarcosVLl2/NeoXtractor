@@ -1,0 +1,701 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="true" />
+	<NonProportionalScaling Value="true" />
+	<DefaultAnimation Name="idle" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="carry" FileName="animations_dm65_butcher_ll/carry.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="carry_hit" FileName="animations_dm65_butcher_ll/carry_hit.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="False" default_rate="1" />
+		<Animation Name="carry_struggle" FileName="animations_dm65_butcher_ll/carry_struggle.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="carry_struggle_add" FileName="animations_dm65_butcher_ll/carry_struggle_add.animation" LoadAsync="true" start_time="0" end_time="3.4666" default_loop="False" default_rate="1" />
+		<Animation Name="catch" FileName="animations_dm65_butcher_ll/catch.animation" LoadAsync="true" start_time="0" end_time="5.3333" default_loop="False" default_rate="1" />
+		<Animation Name="discard" FileName="animations_dm65_butcher_ll/discard.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="destroy" FileName="animations_dm65_butcher_ll/destroy.animation" LoadAsync="true" start_time="0" end_time="2.6666" default_loop="False" default_rate="1" />
+		<Animation Name="dizziness" FileName="animations_dm65_butcher_ll/dizziness.animation" LoadAsync="true" start_time="0" end_time="2.7666" default_loop="False" default_rate="1" />
+		<Animation Name="fall" FileName="animations_dm65_butcher_ll/fall.animation" LoadAsync="true" start_time="0" end_time="1.0333" default_loop="False" default_rate="1" />
+		<Animation Name="hang" FileName="animations_dm65_butcher_ll/hang.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="idle" FileName="animations_dm65_butcher_ll/idle.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="idle_special" FileName="animations_dm65_butcher_ll/idle_special.animation" LoadAsync="true" start_time="0" end_time="6.3" default_loop="True" default_rate="1" />
+		<Animation Name="open_cabinet" FileName="animations_dm65_butcher_ll/open_cabinet.animation" LoadAsync="true" start_time="0" end_time="1.5" default_loop="False" default_rate="1" />
+		<Animation Name="pick" FileName="animations_dm65_butcher_ll/pick.animation" LoadAsync="true" start_time="0" end_time="3.3666" default_loop="False" default_rate="1" />
+		<Animation Name="run" FileName="animations_dm65_butcher_ll/run.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="saw_attack_1_end" FileName="animations_dm65_butcher_ll/saw_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_1" FileName="animations_dm65_butcher_ll/saw_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.7666" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_2_end" FileName="animations_dm65_butcher_ll/saw_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_2" FileName="animations_dm65_butcher_ll/saw_attack_2.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_carry_end" FileName="animations_dm65_butcher_ll/saw_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.0333" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_carry" FileName="animations_dm65_butcher_ll/saw_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_rebound" FileName="animations_dm65_butcher_ll/saw_attack_rebound.animation" LoadAsync="true" start_time="0" end_time="0.9666" default_loop="False" default_rate="1" />
+		<Animation Name="saw_attack_show" FileName="animations_dm65_butcher_ll/saw_attack_show.animation" LoadAsync="true" start_time="0" end_time="2.7333" default_loop="True" default_rate="1" />
+		<Animation Name="saw_open" FileName="animations_dm65_butcher_ll/saw_open.animation" LoadAsync="true" start_time="0" end_time="3.8333" default_loop="False" default_rate="1" />
+		<Animation Name="saw_sprint" FileName="animations_dm65_butcher_ll/saw_sprint.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="True" default_rate="1" />
+		<Animation Name="saw_sprint_plank_end" FileName="animations_dm65_butcher_ll/saw_sprint_plank_end.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="saw_sprint_touch_end" FileName="animations_dm65_butcher_ll/saw_sprint_touch_end.animation" LoadAsync="true" start_time="0" end_time="1.7" default_loop="False" default_rate="1" />
+		<Animation Name="scare_attack_curse" FileName="animations_dm65_butcher_ll/scare_attack_curse.animation" LoadAsync="true" start_time="0" end_time="4.2666" default_loop="False" default_rate="1" />
+		<Animation Name="scare_attack_scream" FileName="animations_dm65_butcher_ll/scare_attack_scream.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="scare_attack_scream_end" FileName="animations_dm65_butcher_ll/scare_attack_scream_end.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="scare_puppet_1" FileName="animations_dm65_butcher_ll/scare_puppet_1.animation" LoadAsync="true" start_time="0" end_time="1.4666" default_loop="False" default_rate="1" />
+		<Animation Name="scare_puppet_frightens" FileName="animations_dm65_butcher_ll/scare_puppet_frightens.animation" LoadAsync="true" start_time="0" end_time="1.7" default_loop="False" default_rate="1" />
+		<Animation Name="scare_puppet_retrieve" FileName="animations_dm65_butcher_ll/scare_puppet_retrieve.animation" LoadAsync="true" start_time="0" end_time="2.5999" default_loop="False" default_rate="1" />
+		<Animation Name="scare_puppet_throw_1" FileName="animations_dm65_butcher_ll/scare_puppet_throw_1.animation" LoadAsync="true" start_time="0" end_time="2.5999" default_loop="False" default_rate="1" />
+		<Animation Name="scare_puppet_throw_2" FileName="animations_dm65_butcher_ll/scare_puppet_throw_2.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_1" FileName="animations_dm65_butcher_ll/sickle_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_1_end" FileName="animations_dm65_butcher_ll/sickle_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="1.1333" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_2" FileName="animations_dm65_butcher_ll/sickle_attack_2.animation" LoadAsync="true" start_time="0" end_time="2.5666" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_2_end" FileName="animations_dm65_butcher_ll/sickle_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.2333" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_3" FileName="animations_dm65_butcher_ll/sickle_attack_3.animation" LoadAsync="true" start_time="0" end_time="2.9" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_carry" FileName="animations_dm65_butcher_ll/sickle_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_carry_end" FileName="animations_dm65_butcher_ll/sickle_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.3999" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_rebound" FileName="animations_dm65_butcher_ll/sickle_attack_rebound.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="sickle_attack_show" FileName="animations_dm65_butcher_ll/sickle_attack_show.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="False" default_rate="1" />
+		<Animation Name="span_chainsaw" FileName="animations_dm65_butcher_ll/span_chainsaw.animation" LoadAsync="true" start_time="0" end_time="3.5333" default_loop="False" default_rate="1" />
+		<Animation Name="span_sickle" FileName="animations_dm65_butcher_ll/span_sickle.animation" LoadAsync="true" start_time="0" end_time="2.0999" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_1" FileName="animations_dm65_butcher_ll/dagger_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_1_end" FileName="animations_dm65_butcher_ll/dagger_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="1.1" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_carry" FileName="animations_dm65_butcher_ll/dagger_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_carry_end" FileName="animations_dm65_butcher_ll/dagger_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.3999" default_loop="False" default_rate="1" />
+		<Animation Name="skin" FileName="animations_dm65_butcher_ll/skin.animation" LoadAsync="true" start_time="0" end_time="0.03333" default_loop="True" default_rate="1" />
+		<Animation Name="dizzy" FileName="animations_dm65_butcher_ll/dizzy.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="close_cabinet" FileName="animations_dm65_butcher_ll/close_cabinet.animation" LoadAsync="true" start_time="0" end_time="1.6333" default_loop="False" default_rate="1" />
+		<Animation Name="raise_chain" FileName="animations_dm65_butcher_ll/raise_chain.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="shake_chain" FileName="animations_dm65_butcher_ll/shake_chain.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="recuit_chain" FileName="animations_dm65_butcher_ll/recuit_chain.animation" LoadAsync="true" start_time="0" end_time="0.6666" default_loop="False" default_rate="1" />
+		<Animation Name="hit_chain" FileName="animations_dm65_butcher_ll/hit_chain.animation" LoadAsync="true" start_time="0" end_time="0.9333" default_loop="False" default_rate="1" />
+		<Animation Name="cast_chain" FileName="animations_dm65_butcher_ll/cast_chain.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="hit_collision_chain" FileName="animations_dm65_butcher_ll/hit_collision_chain.animation" LoadAsync="true" start_time="0" end_time="1.5" default_loop="False" default_rate="1" />
+		<Animation Name="unhit_chain" FileName="animations_dm65_butcher_ll/unhit_chain.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="break" FileName="animations_dm65_butcher_ll/break.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="destroy_transmittter" FileName="animations_dm65_butcher_ll/destroy_transmittter.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="repair_hook_butcher" FileName="animations_dm65_butcher_ll/repair_hook_butcher.animation" LoadAsync="true" start_time="0" end_time="2.2666" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_2" FileName="animations_dm65_butcher_ll/dagger_attack_2.animation" LoadAsync="true" start_time="0" end_time="2.5666" default_loop="False" default_rate="1" />
+		<Animation Name="dagger_attack_2_end" FileName="animations_dm65_butcher_ll/dagger_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.9666" default_loop="False" default_rate="1" />
+		<Animation Name="place_patrol_puppet" FileName="animations_dm65_butcher_ll/place_patrol_puppet.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="False" default_rate="1" />
+		<Animation Name="remote_patrol_puppet" FileName="animations_dm65_butcher_ll/remote_patrol_puppet.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="prepare_place_tower" FileName="animations_dm65_butcher_ll/prepare_place_tower.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="place_tower" FileName="animations_dm65_butcher_ll/place_tower.animation" LoadAsync="true" start_time="0" end_time="1.6333" default_loop="False" default_rate="1" />
+		<Animation Name="load_dagger_stand" FileName="animations_dm65_butcher_ll/load_dagger_stand.animation" LoadAsync="true" start_time="0" end_time="14.0333" default_loop="True" default_rate="1" />
+		<Animation Name="load_dagger_sit" FileName="animations_dm65_butcher_ll/load_dagger_sit.animation" LoadAsync="true" start_time="0" end_time="11.2333" default_loop="True" default_rate="1" />
+		<Animation Name="scare_puppet_rigid" FileName="animations_dm65_butcher_ll/scare_puppet_rigid.animation" LoadAsync="true" start_time="0" end_time="3.0999" default_loop="True" default_rate="1" />
+		<Animation Name="load_dagger_visit" FileName="animations_dm65_butcher_ll/load_dagger_visit.animation" LoadAsync="true" start_time="0" end_time="20" default_loop="True" default_rate="1" />
+		<Animation Name="hit" FileName="animations_dm65_butcher_ll/hit.animation" LoadAsync="true" start_time="0" end_time="5.0999" default_loop="False" default_rate="1" />
+		<Animation Name="happy_carry" FileName="animations_dm65_butcher_ll/happy_carry.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="happy_carry_hit" FileName="animations_dm65_butcher_ll/happy_carry_hit.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="False" default_rate="1" />
+		<Animation Name="happy_carry_struggle" FileName="animations_dm65_butcher_ll/happy_carry_struggle.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="happy_carry_struggle_add" FileName="animations_dm65_butcher_ll/happy_carry_struggle_add.animation" LoadAsync="true" start_time="0" end_time="3.5" default_loop="False" default_rate="1" />
+		<Animation Name="happy_catch" FileName="animations_dm65_butcher_ll/happy_catch.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_dagger_attack_carry" FileName="animations_dm65_butcher_ll/happy_dagger_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_discard" FileName="animations_dm65_butcher_ll/happy_discard.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_hang" FileName="animations_dm65_butcher_ll/happy_hang.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="happy_pick" FileName="animations_dm65_butcher_ll/happy_pick.animation" LoadAsync="true" start_time="0" end_time="3.2666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_repair_hook_butcher" FileName="animations_dm65_butcher_ll/happy_repair_hook_butcher.animation" LoadAsync="true" start_time="0" end_time="2.2666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_dagger_attack_carry_end" FileName="animations_dm65_butcher_ll/happy_dagger_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.2999" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_carry" FileName="animations_dm65_butcher_ll/happy_saw_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_carry_end" FileName="animations_dm65_butcher_ll/happy_saw_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.0333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_carry" FileName="animations_dm65_butcher_ll/happy_sickle_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_carry_end" FileName="animations_dm65_butcher_ll/happy_sickle_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.3999" default_loop="False" default_rate="1" />
+		<Animation Name="load_saw_sit" FileName="animations_dm65_butcher_ll/load_saw_sit.animation" LoadAsync="true" start_time="0" end_time="12.8999" default_loop="True" default_rate="1" />
+		<Animation Name="load_saw_stand" FileName="animations_dm65_butcher_ll/load_saw_stand.animation" LoadAsync="true" start_time="0" end_time="13.3333" default_loop="True" default_rate="1" />
+		<Animation Name="load_sickle_sit" FileName="animations_dm65_butcher_ll/load_sickle_sit.animation" LoadAsync="true" start_time="0" end_time="10.9333" default_loop="True" default_rate="1" />
+		<Animation Name="load_saw_visit" FileName="animations_dm65_butcher_ll/load_saw_visit.animation" LoadAsync="true" start_time="0" end_time="20" default_loop="True" default_rate="1" />
+		<Animation Name="load_sickle_stand" FileName="animations_dm65_butcher_ll/load_sickle_stand.animation" LoadAsync="true" start_time="0" end_time="15.7333" default_loop="True" default_rate="1" />
+		<Animation Name="load_sickle_visit" FileName="animations_dm65_butcher_ll/load_sickle_visit.animation" LoadAsync="true" start_time="0" end_time="20" default_loop="True" default_rate="1" />
+		<Animation Name="open_close_cabinet" FileName="animations_dm65_butcher_ll/open_close_cabinet.animation" LoadAsync="true" start_time="0" end_time="3.2666" default_loop="False" default_rate="1" />
+		<Animation Name="open_saw" FileName="animations_dm65_butcher_ll/open_saw.animation" LoadAsync="true" start_time="0" end_time="0.7333" default_loop="False" default_rate="1" />
+		<Animation Name="scare_attack_scream_2" FileName="animations_dm65_butcher_ll/scare_attack_scream_2.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="share_idle_ll" FileName="animations_dm65_butcher_ll/share_idle_ll.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="share_idle_butcher" FileName="animations_dm65_butcher_ll/share_idle_butcher.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="share_idle_sxwd" FileName="animations_dm65_butcher_ll/share_idle_sxwd.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="load" FileName="animations_dm65_butcher_ll/load.animation" LoadAsync="true" start_time="0" end_time="18.733299" default_loop="True" default_rate="1" />
+		<Animation Name="load_butcher" FileName="animations_dm65_butcher_ll/load_butcher.animation" LoadAsync="true" start_time="0" end_time="19.0333" default_loop="True" default_rate="1" />
+		<Animation Name="saw_open_prepare" FileName="animations_dm65_butcher_ll/saw_open_prepare.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="span" FileName="animations_dm65_butcher_ll/span.animation" LoadAsync="true" start_time="0" end_time="2.5999" default_loop="False" default_rate="1" />
+		<Animation Name="dm65_ani01_butcher" FileName="animations_dm65_butcher_ll/dm65_ani01_butcher.animation" LoadAsync="true" start_time="0" end_time="27.3333" default_loop="False" default_rate="1" />
+		<Animation Name="dm65_ani02_butcher" FileName="animations_dm65_butcher_ll/dm65_ani02_butcher.animation" LoadAsync="true" start_time="0" end_time="21.233299" default_loop="False" default_rate="1" />
+		<Animation Name="dm65_ani03_butcher" FileName="animations_dm65_butcher_ll/dm65_ani03_butcher.animation" LoadAsync="true" start_time="0" end_time="20.9666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_1" FileName="animations_dm65_butcher_ll/happy_saw_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.7666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_1_end" FileName="animations_dm65_butcher_ll/happy_saw_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_2_end" FileName="animations_dm65_butcher_ll/happy_saw_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_rebound" FileName="animations_dm65_butcher_ll/happy_saw_attack_rebound.animation" LoadAsync="true" start_time="0" end_time="0.9666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_show" FileName="animations_dm65_butcher_ll/happy_saw_attack_show.animation" LoadAsync="true" start_time="0" end_time="2.7333" default_loop="True" default_rate="1" />
+		<Animation Name="happy_sickle_attack_1" FileName="animations_dm65_butcher_ll/happy_sickle_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_1_end" FileName="animations_dm65_butcher_ll/happy_sickle_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="1.1333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_2" FileName="animations_dm65_butcher_ll/happy_sickle_attack_2.animation" LoadAsync="true" start_time="0" end_time="2.5666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_2_end" FileName="animations_dm65_butcher_ll/happy_sickle_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.2333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_3" FileName="animations_dm65_butcher_ll/happy_sickle_attack_3.animation" LoadAsync="true" start_time="0" end_time="2.9" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_rebound" FileName="animations_dm65_butcher_ll/happy_sickle_attack_rebound.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_sickle_attack_show" FileName="animations_dm65_butcher_ll/happy_sickle_attack_show.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_cast_chain" FileName="animations_dm65_butcher_ll/happy_cast_chain.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="run_saw" FileName="animations_dm65_butcher_ll/run_saw.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="happy_dagger_attack_1" FileName="animations_dm65_butcher_ll/happy_dagger_attack_1.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="happy_dagger_attack_1_end" FileName="animations_dm65_butcher_ll/happy_dagger_attack_1_end.animation" LoadAsync="true" start_time="0" end_time="1.1" default_loop="False" default_rate="1" />
+		<Animation Name="happy_dagger_attack_2" FileName="animations_dm65_butcher_ll/happy_dagger_attack_2.animation" LoadAsync="true" start_time="0" end_time="2.5666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_dagger_attack_2_end" FileName="animations_dm65_butcher_ll/happy_dagger_attack_2_end.animation" LoadAsync="true" start_time="0" end_time="1.9666" default_loop="False" default_rate="1" />
+		<Animation Name="happy_saw_attack_2" FileName="animations_dm65_butcher_ll/happy_saw_attack_2.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="end_gaming_butcher_ll" FileName="animations_dm65_butcher_ll/end_gaming_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_lose_butcher_ll" FileName="animations_dm65_butcher_ll/end_lose_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_win_butcher_ll" FileName="animations_dm65_butcher_ll/end_win_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_gaming_butcher" FileName="animations_dm65_butcher_ll/end_gaming_butcher.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_lose_butcher" FileName="animations_dm65_butcher_ll/end_lose_butcher.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_win_butcher" FileName="animations_dm65_butcher_ll/end_win_butcher.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_gaming_joker" FileName="animations_dm65_butcher_ll/end_gaming_joker.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_lose_joker" FileName="animations_dm65_butcher_ll/end_lose_joker.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="end_win_joker" FileName="animations_dm65_butcher_ll/end_win_joker.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_punkll" FileName="animations_dm65_butcher_ll/show_appear_punkll.animation" LoadAsync="true" start_time="0" end_time="6.8666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_punkll" FileName="animations_dm65_butcher_ll/show_idle_punkll.animation" LoadAsync="true" start_time="0" end_time="8.3999" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_punkll" FileName="animations_dm65_butcher_ll/show_idle_special_punkll.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="False" default_rate="1" />
+		<Animation Name="sprint_dizzy" FileName="animations_dm65_butcher_ll/sprint_dizzy.animation" LoadAsync="true" start_time="0" end_time="1.4666" default_loop="True" default_rate="1" />
+		<Animation Name="sprint_flying" FileName="animations_dm65_butcher_ll/sprint_flying.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="True" default_rate="1" />
+		<Animation Name="saw_repack" FileName="animations_dm65_butcher_ll/saw_repack.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_daocaoren" FileName="animations_dm65_butcher_ll/show_appear_daocaoren.animation" LoadAsync="true" start_time="0" end_time="12.5666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_daocaoren" FileName="animations_dm65_butcher_ll/show_idle_daocaoren.animation" LoadAsync="true" start_time="0" end_time="6.4666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_daocaoren" FileName="animations_dm65_butcher_ll/show_idle_special_daocaoren.animation" LoadAsync="true" start_time="0" end_time="7.5333" default_loop="False" default_rate="1" />
+		<Animation Name="load_sleep_butcher" FileName="animations_dm65_butcher_ll/load_sleep_butcher.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_ll" FileName="animations_dm65_butcher_ll/load_sleep_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_sxwd" FileName="animations_dm65_butcher_ll/load_sleep_butcher_sxwd.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_haidao" FileName="animations_dm65_butcher_ll/show_appear_haidao.animation" LoadAsync="true" start_time="0" end_time="8.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_haidao" FileName="animations_dm65_butcher_ll/show_idle_haidao.animation" LoadAsync="true" start_time="0" end_time="6.8" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_haidao" FileName="animations_dm65_butcher_ll/show_idle_special_haidao.animation" LoadAsync="true" start_time="0" end_time="5.4666" default_loop="False" default_rate="1" />
+		<Animation Name="glide" FileName="animations_dm65_butcher_ll/glide.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="sit_roller" FileName="animations_dm65_butcher_ll/sit_roller.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_lutou" FileName="animations_dm65_butcher_ll/show_appear_lutou.animation" LoadAsync="true" start_time="0" end_time="4.4" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_lutou" FileName="animations_dm65_butcher_ll/show_idle_lutou.animation" LoadAsync="true" start_time="0" end_time="5.7333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_lutou" FileName="animations_dm65_butcher_ll/show_idle_special_lutou.animation" LoadAsync="true" start_time="0" end_time="5.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_joker" FileName="animations_dm65_butcher_ll/show_appear_joker.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_joker" FileName="animations_dm65_butcher_ll/show_idle_joker.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_joker" FileName="animations_dm65_butcher_ll/show_idle_special_joker.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="False" default_rate="1" />
+		<Animation Name="answerphone" FileName="animations_dm65_butcher_ll/answerphone.animation" LoadAsync="true" start_time="0" end_time="3.7333" default_loop="True" default_rate="1" />
+		<Animation Name="beforecast" FileName="animations_dm65_butcher_ll/beforecast.animation" LoadAsync="true" start_time="0" end_time="1.0666" default_loop="True" default_rate="1" />
+		<Animation Name="cast" FileName="animations_dm65_butcher_ll/cast.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="dial" FileName="animations_dm65_butcher_ll/dial.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="hangup" FileName="animations_dm65_butcher_ll/hangup.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="load_mirror" FileName="animations_dm65_butcher_ll/load_mirror.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_yasewang" FileName="animations_dm65_butcher_ll/show_appear_yasewang.animation" LoadAsync="true" start_time="0" end_time="6.5666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_yasewang" FileName="animations_dm65_butcher_ll/show_idle_special_yasewang.animation" LoadAsync="true" start_time="0" end_time="5.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_yasewang" FileName="animations_dm65_butcher_ll/show_idle_yasewang.animation" LoadAsync="true" start_time="0" end_time="8.6666" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_trouble_xc" FileName="animations_dm65_butcher_ll/emotion_trouble_xc.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_trouble_lt" FileName="animations_dm65_butcher_ll/emotion_trouble_lt.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_trouble_cz" FileName="animations_dm65_butcher_ll/emotion_trouble_cz.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_king_sxwd" FileName="animations_dm65_butcher_ll/show_appear_king_sxwd.animation" LoadAsync="true" start_time="0" end_time="5.8" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_king_sxwd" FileName="animations_dm65_butcher_ll/show_idle_king_sxwd.animation" LoadAsync="true" start_time="0" end_time="9.3" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_king_sxwd" FileName="animations_dm65_butcher_ll/show_idle_special_king_sxwd.animation" LoadAsync="true" start_time="0" end_time="12.0666" default_loop="False" default_rate="1" />
+		<Animation Name="destroy_mb" FileName="animations_dm65_butcher_ll/destroy_mb.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_cz" FileName="animations_dm65_butcher_ll/show_idle_special_cz.animation" LoadAsync="true" start_time="0" end_time="2.8333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_cz" FileName="animations_dm65_butcher_ll/show_idle_cz.animation" LoadAsync="true" start_time="0" end_time="8.7666" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_salute_cz" FileName="animations_dm65_butcher_ll/emotion_salute_cz.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_salute_lt" FileName="animations_dm65_butcher_ll/emotion_salute_lt.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_salute_xc" FileName="animations_dm65_butcher_ll/emotion_salute_xc.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_threaten_cz" FileName="animations_dm65_butcher_ll/emotion_threaten_cz.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_threaten_lt" FileName="animations_dm65_butcher_ll/emotion_threaten_lt.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_threaten_xc" FileName="animations_dm65_butcher_ll/emotion_threaten_xc.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_shoulie_ll" FileName="animations_dm65_butcher_ll/show_appear_shoulie_ll.animation" LoadAsync="true" start_time="0" end_time="5.9333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_shoulie_ll" FileName="animations_dm65_butcher_ll/show_idle_shoulie_ll.animation" LoadAsync="true" start_time="0" end_time="7.0333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_shoulie_ll" FileName="animations_dm65_butcher_ll/show_idle_special_shoulie_ll.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_ald" FileName="animations_dm65_butcher_ll/show_appear_ald.animation" LoadAsync="true" start_time="0" end_time="8.6" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_ald" FileName="animations_dm65_butcher_ll/show_idle_ald.animation" LoadAsync="true" start_time="0" end_time="9.7333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_ald" FileName="animations_dm65_butcher_ll/show_idle_special_ald.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="False" default_rate="1" />
+		<Animation Name="load_greeting_xc" FileName="animations_dm65_butcher_ll/load_greeting_xc.animation" LoadAsync="true" start_time="0" end_time="14.8666" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2_xc" FileName="animations_dm65_butcher_ll/hall_idle_2_xc.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special_xc" FileName="animations_dm65_butcher_ll/hall_idle_special_xc.animation" LoadAsync="true" start_time="0" end_time="6.3333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2_xc" FileName="animations_dm65_butcher_ll/hall_walk_2_xc.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2_lt" FileName="animations_dm65_butcher_ll/hall_idle_2_lt.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special_lt" FileName="animations_dm65_butcher_ll/hall_idle_special_lt.animation" LoadAsync="true" start_time="0" end_time="6.5666" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2_lt" FileName="animations_dm65_butcher_ll/hall_walk_2_lt.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special_cz" FileName="animations_dm65_butcher_ll/hall_idle_special_cz.animation" LoadAsync="true" start_time="0" end_time="6.3333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2_cz" FileName="animations_dm65_butcher_ll/hall_walk_2_cz.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2_cz" FileName="animations_dm65_butcher_ll/hall_idle_2_cz.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="idle_special_pet_joker" FileName="animations_dm65_butcher_ll/idle_special_pet_joker.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2" FileName="animations_dm65_butcher_ll/hall_walk_2.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special" FileName="animations_dm65_butcher_ll/hall_idle_special.animation" LoadAsync="true" start_time="0" end_time="6.5666" default_loop="False" default_rate="1" />
+		<Animation Name="hall_idle_2" FileName="animations_dm65_butcher_ll/hall_idle_2.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_punkll_2" FileName="animations_dm65_butcher_ll/show_appear_punkll_2.animation" LoadAsync="true" start_time="0" end_time="6.8333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_punkll_2" FileName="animations_dm65_butcher_ll/show_idle_punkll_2.animation" LoadAsync="true" start_time="0" end_time="9.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_punkll_2" FileName="animations_dm65_butcher_ll/show_idle_special_punkll_2.animation" LoadAsync="true" start_time="0" end_time="9.1" default_loop="False" default_rate="1" />
+		<Animation Name="idle_special_pet_lutou_2" FileName="animations_dm65_butcher_ll/idle_special_pet_lutou_2.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_anubis_ll" FileName="animations_dm65_butcher_ll/show_appear_anubis_ll.animation" LoadAsync="true" start_time="0" end_time="8.7333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_anubis_ll" FileName="animations_dm65_butcher_ll/show_idle_anubis_ll.animation" LoadAsync="true" start_time="0" end_time="9.4666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_anubis_ll" FileName="animations_dm65_butcher_ll/show_idle_special_anubis_ll.animation" LoadAsync="true" start_time="0" end_time="5.5666" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_xc" FileName="animations_dm65_butcher_ll/emotion_dice_xc.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_lt" FileName="animations_dm65_butcher_ll/emotion_dice_lt.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_cz" FileName="animations_dm65_butcher_ll/emotion_dice_cz.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="pullback_butcher" FileName="animations_dm65_butcher_ll/pullback_butcher.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="pushforward_butcher" FileName="animations_dm65_butcher_ll/pushforward_butcher.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_nxr" FileName="animations_dm65_butcher_ll/show_appear_nxr.animation" LoadAsync="true" start_time="0" end_time="7.5999" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_nxr" FileName="animations_dm65_butcher_ll/show_idle_nxr.animation" LoadAsync="true" start_time="0" end_time="11.1" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_nxr" FileName="animations_dm65_butcher_ll/show_idle_special_nxr.animation" LoadAsync="true" start_time="0" end_time="7.6666" default_loop="False" default_rate="1" />
+		<Animation Name="cursed" FileName="animations_dm65_butcher_ll/cursed.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="strong_cursed" FileName="animations_dm65_butcher_ll/strong_cursed.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="idle_special_pet_butcher_2" FileName="animations_dm65_butcher_ll/idle_special_pet_butcher_2.animation" LoadAsync="true" start_time="0" end_time="5.9" default_loop="False" default_rate="1" />
+		<Animation Name="sit_dc" FileName="animations_dm65_butcher_ll/sit_dc.animation" LoadAsync="true" start_time="0" end_time="7.6666" default_loop="True" default_rate="1" />
+		<Animation Name="kick_car_1" FileName="animations_dm65_butcher_ll/kick_car_1.animation" LoadAsync="true" start_time="0" end_time="2.3333" default_loop="False" default_rate="1" />
+		<Animation Name="kick_car_2" FileName="animations_dm65_butcher_ll/kick_car_2.animation" LoadAsync="true" start_time="0" end_time="2.3333" default_loop="False" default_rate="1" />
+		<Animation Name="pighit_flying" FileName="animations_dm65_butcher_ll/pighit_flying.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_kelvnie_ll" FileName="animations_dm65_butcher_ll/show_appear_kelvnie_ll.animation" LoadAsync="true" start_time="0" end_time="5.5666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_kelvnie_ll" FileName="animations_dm65_butcher_ll/show_idle_kelvnie_ll.animation" LoadAsync="true" start_time="0" end_time="7.1666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_kelvnie_ll" FileName="animations_dm65_butcher_ll/show_idle_special_kelvnie_ll.animation" LoadAsync="true" start_time="0" end_time="5.6666" default_loop="False" default_rate="1" />
+		<Animation Name="outfire_butcher" FileName="animations_dm65_butcher_ll/outfire_butcher.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="release_hypnotic" FileName="animations_dm65_butcher_ll/release_hypnotic.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="sleeping" FileName="animations_dm65_butcher_ll/sleeping.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_20_cz" FileName="animations_dm65_butcher_ll/emotion_dice_20_cz.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_20_lt" FileName="animations_dm65_butcher_ll/emotion_dice_20_lt.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_20_xc" FileName="animations_dm65_butcher_ll/emotion_dice_20_xc.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="sleeping_2" FileName="animations_dm65_butcher_ll/sleeping_2.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="sleeping_1" FileName="animations_dm65_butcher_ll/sleeping_1.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_down" FileName="animations_dm65_butcher_ll/fling_by_down.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_left" FileName="animations_dm65_butcher_ll/fling_by_left.animation" LoadAsync="true" start_time="0" end_time="1.9666" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_right" FileName="animations_dm65_butcher_ll/fling_by_right.animation" LoadAsync="true" start_time="0" end_time="1.9666" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_down" FileName="animations_dm65_butcher_ll/fling_off_down.animation" LoadAsync="true" start_time="0" end_time="1.7999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_down_fail" FileName="animations_dm65_butcher_ll/fling_off_down_fail.animation" LoadAsync="true" start_time="0" end_time="1.7999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_down_success" FileName="animations_dm65_butcher_ll/fling_off_down_success.animation" LoadAsync="true" start_time="0" end_time="1.7999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_left" FileName="animations_dm65_butcher_ll/fling_off_left.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_left_fail" FileName="animations_dm65_butcher_ll/fling_off_left_fail.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_left_success" FileName="animations_dm65_butcher_ll/fling_off_left_success.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_right" FileName="animations_dm65_butcher_ll/fling_off_right.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_right_fail" FileName="animations_dm65_butcher_ll/fling_off_right_fail.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_right_success" FileName="animations_dm65_butcher_ll/fling_off_right_success.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_up" FileName="animations_dm65_butcher_ll/fling_off_up.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_up_fail" FileName="animations_dm65_butcher_ll/fling_off_up_fail.animation" LoadAsync="true" start_time="0" end_time="1.7999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_off_up_success" FileName="animations_dm65_butcher_ll/fling_off_up_success.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="keep_wrestle" FileName="animations_dm65_butcher_ll/keep_wrestle.animation" LoadAsync="true" start_time="0" end_time="2.6666" default_loop="True" default_rate="1" />
+		<Animation Name="start_wrestle" FileName="animations_dm65_butcher_ll/start_wrestle.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="idle_poker_exchange" FileName="animations_dm65_butcher_ll/idle_poker_exchange.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="poker_exchange" FileName="animations_dm65_butcher_ll/poker_exchange.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="wait_21_idle" FileName="animations_dm65_butcher_ll/wait_21_idle.animation" LoadAsync="true" start_time="0" end_time="8.9333" default_loop="True" default_rate="1" />
+		<Animation Name="poker_show_hunter" FileName="animations_dm65_butcher_ll/poker_show_hunter.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_down_1" FileName="animations_dm65_butcher_ll/fling_by_down_1.animation" LoadAsync="true" start_time="0" end_time="0.6999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_down_2" FileName="animations_dm65_butcher_ll/fling_by_down_2.animation" LoadAsync="true" start_time="0" end_time="1.2333" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_left_1" FileName="animations_dm65_butcher_ll/fling_by_left_1.animation" LoadAsync="true" start_time="0" end_time="0.6999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_left_2" FileName="animations_dm65_butcher_ll/fling_by_left_2.animation" LoadAsync="true" start_time="0" end_time="1.2666" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_right_1" FileName="animations_dm65_butcher_ll/fling_by_right_1.animation" LoadAsync="true" start_time="0" end_time="0.6999" default_loop="False" default_rate="1" />
+		<Animation Name="fling_by_right_2" FileName="animations_dm65_butcher_ll/fling_by_right_2.animation" LoadAsync="true" start_time="0" end_time="1.2333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_catsofa" FileName="animations_dm65_butcher_ll/hall_sit_catsofa.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sleep_royal" FileName="animations_dm65_butcher_ll/hall_sleep_royal.animation" LoadAsync="true" start_time="0" end_time="5.0333" default_loop="True" default_rate="1" />
+		<Animation Name="hall_swing_nature" FileName="animations_dm65_butcher_ll/hall_swing_nature.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="liftcar_idle" FileName="animations_dm65_butcher_ll/liftcar_idle.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="liftcar_move" FileName="animations_dm65_butcher_ll/liftcar_move.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="liftcar_switch" FileName="animations_dm65_butcher_ll/liftcar_switch.animation" LoadAsync="true" start_time="0" end_time="1.2333" default_loop="False" default_rate="1" />
+		<Animation Name="climb_downstairs" FileName="animations_dm65_butcher_ll/climb_downstairs.animation" LoadAsync="true" start_time="0" end_time="3.2999" default_loop="False" default_rate="1" />
+		<Animation Name="climb_upstairs" FileName="animations_dm65_butcher_ll/climb_upstairs.animation" LoadAsync="true" start_time="0" end_time="3.2999" default_loop="False" default_rate="1" />
+		<Animation Name="climb_upstairs_1" FileName="animations_dm65_butcher_ll/climb_upstairs_1.animation" LoadAsync="true" start_time="0" end_time="4.6999" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_pikeman" FileName="animations_dm65_butcher_ll/show_appear_pikeman.animation" LoadAsync="true" start_time="0" end_time="10.1666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_pikeman" FileName="animations_dm65_butcher_ll/show_idle_pikeman.animation" LoadAsync="true" start_time="0" end_time="11.1333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_pikeman" FileName="animations_dm65_butcher_ll/show_idle_special_pikeman.animation" LoadAsync="true" start_time="0" end_time="8.5666" default_loop="False" default_rate="1" />
+		<Animation Name="hall_throne_sit" FileName="animations_dm65_butcher_ll/hall_throne_sit.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="close_elecbox" FileName="animations_dm65_butcher_ll/close_elecbox.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="False" default_rate="1" />
+		<Animation Name="elec_suffer_1" FileName="animations_dm65_butcher_ll/elec_suffer_1.animation" LoadAsync="true" start_time="0" end_time="0.1333" default_loop="False" default_rate="1" />
+		<Animation Name="elec_suffer_2" FileName="animations_dm65_butcher_ll/elec_suffer_2.animation" LoadAsync="true" start_time="0" end_time="0.4333" default_loop="True" default_rate="1" />
+		<Animation Name="elec_suffer_3" FileName="animations_dm65_butcher_ll/elec_suffer_3.animation" LoadAsync="true" start_time="0" end_time="1.0333" default_loop="False" default_rate="1" />
+		<Animation Name="elecstrike_suffer" FileName="animations_dm65_butcher_ll/elecstrike_suffer.animation" LoadAsync="true" start_time="0" end_time="0.1333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_shechi_sxwd" FileName="animations_dm65_butcher_ll/show_appear_shechi_sxwd.animation" LoadAsync="true" start_time="0" end_time="9.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_shechi_sxwd" FileName="animations_dm65_butcher_ll/show_idle_shechi_sxwd.animation" LoadAsync="true" start_time="0" end_time="14.2333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_shechi_sxwd" FileName="animations_dm65_butcher_ll/show_idle_special_shechi_sxwd.animation" LoadAsync="true" start_time="0" end_time="14.3" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_joker_hexie" FileName="animations_dm65_butcher_ll/show_idle_joker_hexie.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_nxr_hx" FileName="animations_dm65_butcher_ll/show_appear_nxr_hx.animation" LoadAsync="true" start_time="0" end_time="7.5999" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_nxr_hx" FileName="animations_dm65_butcher_ll/show_idle_nxr_hx.animation" LoadAsync="true" start_time="0" end_time="11.1" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_nxr_hx" FileName="animations_dm65_butcher_ll/show_idle_special_nxr_hx.animation" LoadAsync="true" start_time="0" end_time="7.6666" default_loop="False" default_rate="1" />
+		<Animation Name="forbidden_therapy_butcher" FileName="animations_dm65_butcher_ll/forbidden_therapy_butcher.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="forbidden_therapy_sxwd" FileName="animations_dm65_butcher_ll/forbidden_therapy_sxwd.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="forbidden_therapy_butcher_ll" FileName="animations_dm65_butcher_ll/forbidden_therapy_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="repel" FileName="animations_dm65_butcher_ll/repel.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="butcher_idle_l" FileName="animations_dm65_butcher_ll/butcher_idle_l.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="butcher_idle_r" FileName="animations_dm65_butcher_ll/butcher_idle_r.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="butcher_special_l" FileName="animations_dm65_butcher_ll/butcher_special_l.animation" LoadAsync="true" start_time="0" end_time="3.0999" default_loop="False" default_rate="1" />
+		<Animation Name="butcher_special_r" FileName="animations_dm65_butcher_ll/butcher_special_r.animation" LoadAsync="true" start_time="0" end_time="3.0999" default_loop="False" default_rate="1" />
+		<Animation Name="butcher_ll_idle_l" FileName="animations_dm65_butcher_ll/butcher_ll_idle_l.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="butcher_ll_idle_r" FileName="animations_dm65_butcher_ll/butcher_ll_idle_r.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="butcher_ll_special_l" FileName="animations_dm65_butcher_ll/butcher_ll_special_l.animation" LoadAsync="true" start_time="0" end_time="5.5" default_loop="False" default_rate="1" />
+		<Animation Name="butcher_ll_special_r" FileName="animations_dm65_butcher_ll/butcher_ll_special_r.animation" LoadAsync="true" start_time="0" end_time="5.5" default_loop="False" default_rate="1" />
+		<Animation Name="sxwd_idle_l" FileName="animations_dm65_butcher_ll/sxwd_idle_l.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="sxwd_idle_r" FileName="animations_dm65_butcher_ll/sxwd_idle_r.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="sxwd_special_l" FileName="animations_dm65_butcher_ll/sxwd_special_l.animation" LoadAsync="true" start_time="0" end_time="2.6666" default_loop="False" default_rate="1" />
+		<Animation Name="sxwd_special_r" FileName="animations_dm65_butcher_ll/sxwd_special_r.animation" LoadAsync="true" start_time="0" end_time="2.6666" default_loop="False" default_rate="1" />
+		<Animation Name="butcher_civilian_cure" FileName="animations_dm65_butcher_ll/butcher_civilian_cure.animation" LoadAsync="true" start_time="0" end_time="1.5" default_loop="False" default_rate="1" />
+		<Animation Name="crystalcard_used_butcher" FileName="animations_dm65_butcher_ll/crystalcard_used_butcher.animation" LoadAsync="true" start_time="0" end_time="1.2666" default_loop="False" default_rate="1" />
+		<Animation Name="stone_used_butcher1" FileName="animations_dm65_butcher_ll/stone_used_butcher1.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="stone_used_butcher2" FileName="animations_dm65_butcher_ll/stone_used_butcher2.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="stone_used_butcher3" FileName="animations_dm65_butcher_ll/stone_used_butcher3.animation" LoadAsync="true" start_time="0" end_time="0.6333" default_loop="False" default_rate="1" />
+		<Animation Name="painting_attract" FileName="animations_dm65_butcher_ll/painting_attract.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_stool" FileName="animations_dm65_butcher_ll/hall_sit_stool.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_chair" FileName="animations_dm65_butcher_ll/hall_sit_chair.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_chariot" FileName="animations_dm65_butcher_ll/hall_sit_chariot.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_horse" FileName="animations_dm65_butcher_ll/hall_sit_horse.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_sofa02" FileName="animations_dm65_butcher_ll/hall_sit_sofa02.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="bee_push" FileName="animations_dm65_butcher_ll/bee_push.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="True" default_rate="1" />
+		<Animation Name="place_trap" FileName="animations_dm65_butcher_ll/place_trap.animation" LoadAsync="true" start_time="0" end_time="2.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_julu" FileName="animations_dm65_butcher_ll/show_appear_julu.animation" LoadAsync="true" start_time="0" end_time="8.1666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_julu" FileName="animations_dm65_butcher_ll/show_idle_julu.animation" LoadAsync="true" start_time="0" end_time="10.1666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_julu" FileName="animations_dm65_butcher_ll/show_idle_special_julu.animation" LoadAsync="true" start_time="0" end_time="8.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_tiexian" FileName="animations_dm65_butcher_ll/show_appear_tiexian.animation" LoadAsync="true" start_time="0" end_time="7.9666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_tiexian" FileName="animations_dm65_butcher_ll/show_idle_special_tiexian.animation" LoadAsync="true" start_time="0" end_time="15.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_tiexian" FileName="animations_dm65_butcher_ll/show_idle_tiexian.animation" LoadAsync="true" start_time="0" end_time="9.6333" default_loop="True" default_rate="1" />
+		<Animation Name="idle_tiexian" FileName="animations_dm65_butcher_ll/idle_tiexian.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_hammock" FileName="animations_dm65_butcher_ll/hall_sit_hammock.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_mirror" FileName="animations_dm65_butcher_ll/hall_sit_mirror.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_rockingchair" FileName="animations_dm65_butcher_ll/hall_sit_rockingchair.animation" LoadAsync="true" start_time="0" end_time="9.3333" default_loop="True" default_rate="1" />
+		<Animation Name="toyman_jump_destroy" FileName="animations_dm65_butcher_ll/toyman_jump_destroy.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_busi" FileName="animations_dm65_butcher_ll/show_idle_special_busi.animation" LoadAsync="true" start_time="0" end_time="6.9333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_busi" FileName="animations_dm65_butcher_ll/show_idle_busi.animation" LoadAsync="true" start_time="0" end_time="7.5666" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_busi" FileName="animations_dm65_butcher_ll/show_appear_busi.animation" LoadAsync="true" start_time="0" end_time="9.3333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_oldcatsofa" FileName="animations_dm65_butcher_ll/hall_sit_oldcatsofa.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="activate_crystal" FileName="animations_dm65_butcher_ll/activate_crystal.animation" LoadAsync="true" start_time="0" end_time="4.1666" default_loop="True" default_rate="1" />
+		<Animation Name="run_smooth" FileName="animations_dm65_butcher_ll/run_smooth.animation" LoadAsync="true" start_time="0" end_time="2.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_shuxin_sxwd" FileName="animations_dm65_butcher_ll/show_appear_shuxin_sxwd.animation" LoadAsync="true" start_time="0" end_time="17.3333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_shuxin_sxwd" FileName="animations_dm65_butcher_ll/show_idle_shuxin_sxwd.animation" LoadAsync="true" start_time="0" end_time="20.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_shuxin_sxwd" FileName="animations_dm65_butcher_ll/show_idle_special_shuxin_sxwd.animation" LoadAsync="true" start_time="0" end_time="16.8333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_loungechair" FileName="animations_dm65_butcher_ll/hall_sit_loungechair.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_gametable" FileName="animations_dm65_butcher_ll/hall_sit_gametable.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="rope_swing_1_jianguan" FileName="animations_dm65_butcher_ll/rope_swing_1_jianguan.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="False" default_rate="1" />
+		<Animation Name="rope_swing_2_jianguan" FileName="animations_dm65_butcher_ll/rope_swing_2_jianguan.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="df_pull_bag" FileName="animations_dm65_butcher_ll/df_pull_bag.animation" LoadAsync="true" start_time="0" end_time="21.666599" default_loop="False" default_rate="1" />
+		<Animation Name="littlegirl_pull" FileName="animations_dm65_butcher_ll/littlegirl_pull.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="littlegirl_push" FileName="animations_dm65_butcher_ll/littlegirl_push.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="dislike_food_1" FileName="animations_dm65_butcher_ll/dislike_food_1.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="True" default_rate="1" />
+		<Animation Name="like_food" FileName="animations_dm65_butcher_ll/like_food.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="False" default_rate="1" />
+		<Animation Name="hit_skin_spnx" FileName="animations_dm65_butcher_ll/hit_skin_spnx.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="pullback_butcher_girl" FileName="animations_dm65_butcher_ll/pullback_butcher_girl.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_bear" FileName="animations_dm65_butcher_ll/hall_sit_bear.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_xiaolu_ll" FileName="animations_dm65_butcher_ll/show_appear_xiaolu_ll.animation" LoadAsync="true" start_time="0" end_time="15.1666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_xiaolu_ll" FileName="animations_dm65_butcher_ll/show_idle_special_xiaolu_ll.animation" LoadAsync="true" start_time="0" end_time="14.1" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_xiaolu_ll" FileName="animations_dm65_butcher_ll/show_idle_xiaolu_ll.animation" LoadAsync="true" start_time="0" end_time="10.3333" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_bath" FileName="animations_dm65_butcher_ll/hall_sit_bath.animation" LoadAsync="true" start_time="0" end_time="3.2333" default_loop="False" default_rate="1" />
+		<Animation Name="light_firecrackers" FileName="animations_dm65_butcher_ll/light_firecrackers.animation" LoadAsync="true" start_time="0" end_time="4.9666" default_loop="False" default_rate="1" />
+		<Animation Name="setoff_firecrackers" FileName="animations_dm65_butcher_ll/setoff_firecrackers.animation" LoadAsync="true" start_time="0" end_time="4.9666" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fredpack_joker" FileName="animations_dm65_butcher_ll/emotion_fredpack_joker.animation" LoadAsync="true" start_time="0" end_time="9.3333" default_loop="False" default_rate="1" />
+		<Animation Name="dislike_food_2" FileName="animations_dm65_butcher_ll/dislike_food_2.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="False" default_rate="1" />
+		<Animation Name="cast_fear_finish" FileName="animations_dm65_butcher_ll/cast_fear_finish.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="cast_fear_prepare" FileName="animations_dm65_butcher_ll/cast_fear_prepare.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="True" default_rate="1" />
+		<Animation Name="cast_fear_start" FileName="animations_dm65_butcher_ll/cast_fear_start.animation" LoadAsync="true" start_time="0" end_time="0.3" default_loop="False" default_rate="1" />
+		<Animation Name="hit_skin_spnx_1" FileName="animations_dm65_butcher_ll/hit_skin_spnx_1.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="disarm" FileName="animations_dm65_butcher_ll/disarm.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="True" default_rate="1" />
+		<Animation Name="friendly_hug_czyd_cz" FileName="animations_dm65_butcher_ll/friendly_hug_czyd_cz.animation" LoadAsync="true" start_time="0" end_time="6.9" default_loop="False" default_rate="1" />
+		<Animation Name="friendly_hug_ydcz_cz" FileName="animations_dm65_butcher_ll/friendly_hug_ydcz_cz.animation" LoadAsync="true" start_time="0" end_time="7.5333" default_loop="False" default_rate="1" />
+		<Animation Name="sprint_jiaoxie" FileName="animations_dm65_butcher_ll/sprint_jiaoxie.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_interact_baize" FileName="animations_dm65_butcher_ll/hall_interact_baize.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_basket_panda" FileName="animations_dm65_butcher_ll/hall_basket_panda.animation" LoadAsync="true" start_time="0" end_time="6.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_fengyue" FileName="animations_dm65_butcher_ll/show_appear_fengyue.animation" LoadAsync="true" start_time="0" end_time="11.0666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_fengyue" FileName="animations_dm65_butcher_ll/show_idle_fengyue.animation" LoadAsync="true" start_time="0" end_time="11.3999" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_fengyue" FileName="animations_dm65_butcher_ll/show_idle_special_fengyue.animation" LoadAsync="true" start_time="0" end_time="13.5" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_newyear_xc" FileName="animations_dm65_butcher_ll/emotion_newyear_xc.animation" LoadAsync="true" start_time="0" end_time="2.9333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fourth_butcher" FileName="animations_dm65_butcher_ll/emotion_fourth_butcher.animation" LoadAsync="true" start_time="0" end_time="9.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_bianlian_sxwd" FileName="animations_dm65_butcher_ll/show_appear_bianlian_sxwd.animation" LoadAsync="true" start_time="0" end_time="15.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_bianlian_sxwd" FileName="animations_dm65_butcher_ll/show_idle_bianlian_sxwd.animation" LoadAsync="true" start_time="0" end_time="8.8666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_bianlian_sxwd" FileName="animations_dm65_butcher_ll/show_idle_special_bianlian_sxwd.animation" LoadAsync="true" start_time="0" end_time="9.8333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_interact_plum_blossom" FileName="animations_dm65_butcher_ll/hall_interact_plum_blossom.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_changeface_xc" FileName="animations_dm65_butcher_ll/emotion_changeface_xc.animation" LoadAsync="true" start_time="0" end_time="2.7333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_perform_xc" FileName="animations_dm65_butcher_ll/emotion_perform_xc.animation" LoadAsync="true" start_time="0" end_time="36" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_performidle_xc" FileName="animations_dm65_butcher_ll/emotion_performidle_xc.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="True" default_rate="1" />
+		<Animation Name="saw_sprint_bainlian" FileName="animations_dm65_butcher_ll/saw_sprint_bainlian.animation" LoadAsync="true" start_time="0" end_time="0.5333" default_loop="True" default_rate="1" />
+		<Animation Name="saw_sprint_plank_end_bainlian" FileName="animations_dm65_butcher_ll/saw_sprint_plank_end_bainlian.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_interact_tea_table" FileName="animations_dm65_butcher_ll/hall_interact_tea_table.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_ll_bainlian" FileName="animations_dm65_butcher_ll/load_sleep_butcher_ll_bainlian.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="hall_interact_baize_fy" FileName="animations_dm65_butcher_ll/hall_interact_baize_fy.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_chair_fy" FileName="animations_dm65_butcher_ll/hall_sit_chair_fy.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_gametable_fy" FileName="animations_dm65_butcher_ll/hall_sit_gametable_fy.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_hammock_fy" FileName="animations_dm65_butcher_ll/hall_sit_hammock_fy.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_loungechair_fy" FileName="animations_dm65_butcher_ll/hall_sit_loungechair_fy.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sleep_royal_fy" FileName="animations_dm65_butcher_ll/hall_sleep_royal_fy.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="load_sickle_sit_fy" FileName="animations_dm65_butcher_ll/load_sickle_sit_fy.animation" LoadAsync="true" start_time="0" end_time="10.9333" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_fy" FileName="animations_dm65_butcher_ll/load_sleep_butcher_fy.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="sit_dc_fy" FileName="animations_dm65_butcher_ll/sit_dc_fy.animation" LoadAsync="true" start_time="0" end_time="7.6666" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_srspark_h" FileName="animations_dm65_butcher_ll/emotion_srspark_h.animation" LoadAsync="true" start_time="0" end_time="5.1666" default_loop="False" default_rate="1" />
+		<Animation Name="room_insect_catch" FileName="animations_dm65_butcher_ll/room_insect_catch.animation" LoadAsync="true" start_time="0" end_time="3.2" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fourth_butcher_ll" FileName="animations_dm65_butcher_ll/emotion_fourth_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="7.1666" default_loop="False" default_rate="1" />
+		<Animation Name="like_drink_butcher" FileName="animations_dm65_butcher_ll/like_drink_butcher.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="False" default_rate="1" />
+		<Animation Name="hall_swing_hunter" FileName="animations_dm65_butcher_ll/hall_swing_hunter.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="dmm_butcher_skill" FileName="animations_dm65_butcher_ll/dmm_butcher_skill.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="ride_idle" FileName="animations_dm65_butcher_ll/ride_idle.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="ride_run" FileName="animations_dm65_butcher_ll/ride_run.animation" LoadAsync="true" start_time="0" end_time="0.6" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_fourth_joker" FileName="animations_dm65_butcher_ll/emotion_fourth_joker.animation" LoadAsync="true" start_time="0" end_time="10.5666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_liujin_ll" FileName="animations_dm65_butcher_ll/show_appear_liujin_ll.animation" LoadAsync="true" start_time="0" end_time="17.3333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_liujin_ll" FileName="animations_dm65_butcher_ll/show_idle_liujin_ll.animation" LoadAsync="true" start_time="0" end_time="12.5" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_liujin_ll" FileName="animations_dm65_butcher_ll/show_idle_special_liujin_ll.animation" LoadAsync="true" start_time="0" end_time="16.166599" default_loop="False" default_rate="1" />
+		<Animation Name="ride_sprint" FileName="animations_dm65_butcher_ll/ride_sprint.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_swing_nature_liujin" FileName="animations_dm65_butcher_ll/hall_swing_nature_liujin.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="sit_dc_liujin" FileName="animations_dm65_butcher_ll/sit_dc_liujin.animation" LoadAsync="true" start_time="0" end_time="7.6666" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_sofa02_liujin" FileName="animations_dm65_butcher_ll/hall_sit_sofa02_liujin.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_chair_liujin" FileName="animations_dm65_butcher_ll/hall_sit_chair_liujin.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_catsofa_liujin" FileName="animations_dm65_butcher_ll/hall_sit_catsofa_liujin.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_loungechair_liujin" FileName="animations_dm65_butcher_ll/hall_sit_loungechair_liujin.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_stool_liujin" FileName="animations_dm65_butcher_ll/hall_sit_stool_liujin.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_ll_liujin" FileName="animations_dm65_butcher_ll/load_sleep_butcher_ll_liujin.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="sp_mxj23_m030_080_100017" FileName="animations_dm65_butcher_ll/sp_mxj23_m030_080_100017.animation" LoadAsync="true" start_time="0" end_time="3.1" default_loop="True" default_rate="1" />
+		<Animation Name="sp_mxj23_m030_090_100017" FileName="animations_dm65_butcher_ll/sp_mxj23_m030_090_100017.animation" LoadAsync="true" start_time="0" end_time="2.8666" default_loop="True" default_rate="1" />
+		<Animation Name="llwl_attack_carry" FileName="animations_dm65_butcher_ll/llwl_attack_carry.animation" LoadAsync="true" start_time="0" end_time="1.1666" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_attack_carry_end" FileName="animations_dm65_butcher_ll/llwl_attack_carry_end.animation" LoadAsync="true" start_time="0" end_time="1.2999" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_carry" FileName="animations_dm65_butcher_ll/llwl_carry.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="llwl_carry_hit" FileName="animations_dm65_butcher_ll/llwl_carry_hit.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_carry_struggle" FileName="animations_dm65_butcher_ll/llwl_carry_struggle.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_carry_struggle_add" FileName="animations_dm65_butcher_ll/llwl_carry_struggle_add.animation" LoadAsync="true" start_time="0" end_time="3.5" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_catch" FileName="animations_dm65_butcher_ll/llwl_catch.animation" LoadAsync="true" start_time="0" end_time="5.3333" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_discard" FileName="animations_dm65_butcher_ll/llwl_discard.animation" LoadAsync="true" start_time="0" end_time="1.8333" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_hang" FileName="animations_dm65_butcher_ll/llwl_hang.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="llwl_pick" FileName="animations_dm65_butcher_ll/llwl_pick.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_zhelong_ll" FileName="animations_dm65_butcher_ll/show_appear_zhelong_ll.animation" LoadAsync="true" start_time="0" end_time="13.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_zhelong_ll" FileName="animations_dm65_butcher_ll/show_idle_special_zhelong_ll.animation" LoadAsync="true" start_time="0" end_time="14.7333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_zhelong_ll" FileName="animations_dm65_butcher_ll/show_idle_zhelong_ll.animation" LoadAsync="true" start_time="0" end_time="8.8333" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_dragonhead_butcher_ll" FileName="animations_dm65_butcher_ll/emotion_dragonhead_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="6.3333" default_loop="False" default_rate="1" />
+		<Animation Name="room_dragonhead_butcher_ll" FileName="animations_dm65_butcher_ll/room_dragonhead_butcher_ll.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2_zl" FileName="animations_dm65_butcher_ll/hall_idle_2_zl.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special_zl" FileName="animations_dm65_butcher_ll/hall_idle_special_zl.animation" LoadAsync="true" start_time="0" end_time="6.5666" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2_zl" FileName="animations_dm65_butcher_ll/hall_walk_2_zl.animation" LoadAsync="true" start_time="0" end_time="7.1999" default_loop="True" default_rate="1" />
+		<Animation Name="idle_special_zl" FileName="animations_dm65_butcher_ll/idle_special_zl.animation" LoadAsync="true" start_time="0" end_time="6.3" default_loop="False" default_rate="1" />
+		<Animation Name="idle_zl" FileName="animations_dm65_butcher_ll/idle_zl.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="run_zl" FileName="animations_dm65_butcher_ll/run_zl.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="cast_chain_zl" FileName="animations_dm65_butcher_ll/cast_chain_zl.animation" LoadAsync="true" start_time="0" end_time="0.8333" default_loop="False" default_rate="1" />
+		<Animation Name="hit_chain_zl" FileName="animations_dm65_butcher_ll/hit_chain_zl.animation" LoadAsync="true" start_time="0" end_time="0.9333" default_loop="False" default_rate="1" />
+		<Animation Name="hit_collision_chain_zl" FileName="animations_dm65_butcher_ll/hit_collision_chain_zl.animation" LoadAsync="true" start_time="0" end_time="1.5" default_loop="False" default_rate="1" />
+		<Animation Name="raise_chain_zl" FileName="animations_dm65_butcher_ll/raise_chain_zl.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="recuit_chain_zl" FileName="animations_dm65_butcher_ll/recuit_chain_zl.animation" LoadAsync="true" start_time="0" end_time="0.6666" default_loop="False" default_rate="1" />
+		<Animation Name="shake_chain_zl" FileName="animations_dm65_butcher_ll/shake_chain_zl.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="unhit_chain_zl" FileName="animations_dm65_butcher_ll/unhit_chain_zl.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fourth_butcher_ll_zl" FileName="animations_dm65_butcher_ll/emotion_fourth_butcher_ll_zl.animation" LoadAsync="true" start_time="0" end_time="7.1666" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_trouble_lt_zl" FileName="animations_dm65_butcher_ll/emotion_trouble_lt_zl.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_catsofa_zl" FileName="animations_dm65_butcher_ll/hall_sit_catsofa_zl.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_sofa02_zl" FileName="animations_dm65_butcher_ll/hall_sit_sofa02_zl.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sit_stool_zl" FileName="animations_dm65_butcher_ll/hall_sit_stool_zl.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sleep_royal_zl" FileName="animations_dm65_butcher_ll/hall_sleep_royal_zl.animation" LoadAsync="true" start_time="0" end_time="5.0333" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_ll_zl" FileName="animations_dm65_butcher_ll/load_sleep_butcher_ll_zl.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="load_zl" FileName="animations_dm65_butcher_ll/load_zl.animation" LoadAsync="true" start_time="0" end_time="18.733299" default_loop="True" default_rate="1" />
+		<Animation Name="happy_sickle_attack_show_zl" FileName="animations_dm65_butcher_ll/happy_sickle_attack_show_zl.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="False" default_rate="1" />
+		<Animation Name="wormhole_excute" FileName="animations_dm65_butcher_ll/wormhole_excute.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="wormhole_start" FileName="animations_dm65_butcher_ll/wormhole_start.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="hall_interact_bed_h" FileName="animations_dm65_butcher_ll/hall_interact_bed_h.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_interact_bed_s" FileName="animations_dm65_butcher_ll/hall_interact_bed_s.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="cr_sit_1" FileName="animations_dm65_butcher_ll/cr_sit_1.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_interact_motorcycle" FileName="animations_dm65_butcher_ll/hall_interact_motorcycle.animation" LoadAsync="true" start_time="0" end_time="8.333333" default_loop="True" default_rate="1" />
+		<Animation Name="cr_bar_sit" FileName="animations_dm65_butcher_ll/cr_bar_sit.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="cr_solo_dance_1" FileName="animations_dm65_butcher_ll/cr_solo_dance_1.animation" LoadAsync="true" start_time="0" end_time="8.8" default_loop="True" default_rate="1" />
+		<Animation Name="cr_dizzy_left" FileName="animations_dm65_butcher_ll/cr_dizzy_left.animation" LoadAsync="true" start_time="0" end_time="2.3333" default_loop="False" default_rate="1" />
+		<Animation Name="cr_dizzy_right" FileName="animations_dm65_butcher_ll/cr_dizzy_right.animation" LoadAsync="true" start_time="0" end_time="2.3333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fish_show" FileName="animations_dm65_butcher_ll/emotion_fish_show.animation" LoadAsync="true" start_time="0" end_time="5.666667" default_loop="False" default_rate="1" />
+		<Animation Name="cr_fish_show_end" FileName="animations_dm65_butcher_ll/cr_fish_show_end.animation" LoadAsync="true" start_time="0" end_time="1.3333" default_loop="False" default_rate="1" />
+		<Animation Name="cr_fish_show_loop" FileName="animations_dm65_butcher_ll/cr_fish_show_loop.animation" LoadAsync="true" start_time="0" end_time="2.666667" default_loop="True" default_rate="1" />
+		<Animation Name="cr_fish_show_start" FileName="animations_dm65_butcher_ll/cr_fish_show_start.animation" LoadAsync="true" start_time="0" end_time="1.6666" default_loop="False" default_rate="1" />
+		<Animation Name="examining_weapon" FileName="animations_dm65_butcher_ll/examining_weapon.animation" LoadAsync="true" start_time="0" end_time="2.2" default_loop="False" default_rate="1" />
+		<Animation Name="remove_cage_killer" FileName="animations_dm65_butcher_ll/remove_cage_killer.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="hall_moto_idle" FileName="animations_dm65_butcher_ll/hall_moto_idle.animation" LoadAsync="true" start_time="0" end_time="8.3333" default_loop="True" default_rate="1" />
+		<Animation Name="hall_d_s_like" FileName="animations_dm65_butcher_ll/hall_d_s_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_s_dislike" FileName="animations_dm65_butcher_ll/hall_f_s_dislike.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_s_like" FileName="animations_dm65_butcher_ll/hall_f_s_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="dog_bite" FileName="animations_dm65_butcher_ll/dog_bite.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="cr_qixi_pose" FileName="animations_dm65_butcher_ll/cr_qixi_pose.animation" LoadAsync="true" start_time="0" end_time="10" default_loop="True" default_rate="1" />
+		<Animation Name="hall_d_c_like" FileName="animations_dm65_butcher_ll/hall_d_c_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_c_dislike" FileName="animations_dm65_butcher_ll/hall_f_c_dislike.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_c_idle" FileName="animations_dm65_butcher_ll/hall_f_c_idle.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="hall_f_c_like" FileName="animations_dm65_butcher_ll/hall_f_c_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="cr_jump_end" FileName="animations_dm65_butcher_ll/cr_jump_end.animation" LoadAsync="true" start_time="0" end_time="0.6" default_loop="False" default_rate="1" />
+		<Animation Name="cr_jump_end2" FileName="animations_dm65_butcher_ll/cr_jump_end2.animation" LoadAsync="true" start_time="0" end_time="0.366667" default_loop="False" default_rate="1" />
+		<Animation Name="cr_jump_loop" FileName="animations_dm65_butcher_ll/cr_jump_loop.animation" LoadAsync="true" start_time="0" end_time="0.666667" default_loop="True" default_rate="1" />
+		<Animation Name="cr_jump_start" FileName="animations_dm65_butcher_ll/cr_jump_start.animation" LoadAsync="true" start_time="0" end_time="0.266667" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_xiemu_joker" FileName="animations_dm65_butcher_ll/emotion_xiemu_joker.animation" LoadAsync="true" start_time="0" end_time="5.433333" default_loop="False" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y000_010_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y000_010_1000016.animation" LoadAsync="false" start_time="0" end_time="3.5" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y120_060_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y120_060_1000016.animation" LoadAsync="false" start_time="0" end_time="2.566" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y120_070_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y120_070_1000016.animation" LoadAsync="false" start_time="0" end_time="2.5" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y120_090_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y120_090_1000016.animation" LoadAsync="false" start_time="0" end_time="0.833" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y120_120_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y120_120_1000016.animation" LoadAsync="false" start_time="0" end_time="2.833" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y030_030_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y030_030_1000016.animation" LoadAsync="false" start_time="0" end_time="3.933" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y030_040_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y030_040_1000016.animation" LoadAsync="false" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y030_050_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y030_050_1000016.animation" LoadAsync="false" start_time="0" end_time="1.9" default_loop="True" default_rate="1" />
+		<Animation Name="sp_zhixian_ybzx_y030_070_1000016" FileName="animations_dm65_butcher_ll/sp/sp_zhixian_ybzx_y030_070_1000016.animation" LoadAsync="false" start_time="0" end_time="2.7" default_loop="True" default_rate="1" />
+		<Animation Name="cr_slide_end2" FileName="animations_dm65_butcher_ll/cr_slide_end2.animation" LoadAsync="true" start_time="0" end_time="1.366667" default_loop="False" default_rate="1" />
+		<Animation Name="cr_slide_loop" FileName="animations_dm65_butcher_ll/cr_slide_loop.animation" LoadAsync="true" start_time="0" end_time="0.666667" default_loop="True" default_rate="1" />
+		<Animation Name="cr_slide_start" FileName="animations_dm65_butcher_ll/cr_slide_start.animation" LoadAsync="true" start_time="0" end_time="0.766667" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_suhui" FileName="animations_dm65_butcher_ll/show_idle_suhui.animation" LoadAsync="true" start_time="0" end_time="13.5" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_suhui" FileName="animations_dm65_butcher_ll/show_appear_suhui.animation" LoadAsync="true" start_time="0" end_time="23.333334" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_suhui" FileName="animations_dm65_butcher_ll/show_idle_special_suhui.animation" LoadAsync="true" start_time="0" end_time="18.666666" default_loop="False" default_rate="1" />
+		<Animation Name="cr_solo_dance_2" FileName="animations_dm65_butcher_ll/cr_solo_dance_2.animation" LoadAsync="true" start_time="0" end_time="12.566667" default_loop="False" default_rate="1" />
+		<Animation Name="load_sickle_sit_suhui" FileName="animations_dm65_butcher_ll/load_sickle_sit_suhui.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_trouble_cz_suhui" FileName="animations_dm65_butcher_ll/emotion_trouble_cz_suhui.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="cr_cannon_pose" FileName="animations_dm65_butcher_ll/cr_cannon_pose.animation" LoadAsync="true" start_time="0" end_time="1.333333" default_loop="True" default_rate="1" />
+		<Animation Name="cr_cannon_fly" FileName="animations_dm65_butcher_ll/cr_cannon_fly.animation" LoadAsync="true" start_time="0" end_time="0.666667" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2_suhui" FileName="animations_dm65_butcher_ll/hall_idle_2_suhui.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special_suhui" FileName="animations_dm65_butcher_ll/hall_idle_special_suhui.animation" LoadAsync="true" start_time="0" end_time="6.566667" default_loop="False" default_rate="1" />
+		<Animation Name="hall_walk_2_suhui" FileName="animations_dm65_butcher_ll/hall_walk_2_suhui.animation" LoadAsync="true" start_time="0" end_time="7.2" default_loop="True" default_rate="1" />
+		<Animation Name="room_skate_idle" FileName="animations_dm65_butcher_ll/room_skate_idle.animation" LoadAsync="true" start_time="0" end_time="1.733333" default_loop="False" default_rate="1" />
+		<Animation Name="room_skate_play" FileName="animations_dm65_butcher_ll/room_skate_play.animation" LoadAsync="true" start_time="0" end_time="2.233333" default_loop="True" default_rate="1" />
+		<Animation Name="room_skate_start" FileName="animations_dm65_butcher_ll/room_skate_start.animation" LoadAsync="true" start_time="0" end_time="0.933333" default_loop="False" default_rate="1" />
+		<Animation Name="cr_fly_run" FileName="animations_dm65_butcher_ll/cr_fly_run.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="cr_fly_idle" FileName="animations_dm65_butcher_ll/cr_fly_idle.animation" LoadAsync="true" start_time="0" end_time="3.266667" default_loop="True" default_rate="1" />
+		<Animation Name="cr_jk_cabinet" FileName="animations_dm65_butcher_ll/cr_jk_cabinet.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="cr_linkdoor" FileName="animations_dm65_butcher_ll/cr_linkdoor.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="cr_photo_wall" FileName="animations_dm65_butcher_ll/cr_photo_wall.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="idle_suhui" FileName="animations_dm65_butcher_ll/idle_suhui.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="hall_toilet_play" FileName="animations_dm65_butcher_ll/hall_toilet_play.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="cr_sit_1_suhui" FileName="animations_dm65_butcher_ll/cr_sit_1_suhui.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_bathtub_play" FileName="animations_dm65_butcher_ll/hall_bathtub_play.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_charge" FileName="animations_dm65_butcher_ll/emotion_charge.animation" LoadAsync="true" start_time="0" end_time="12.333333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_dianjing_sxwd" FileName="animations_dm65_butcher_ll/show_idle_dianjing_sxwd.animation" LoadAsync="true" start_time="0" end_time="11.666667" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_dianjing_sxwd" FileName="animations_dm65_butcher_ll/show_idle_special_dianjing_sxwd.animation" LoadAsync="true" start_time="0" end_time="12.666667" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_dianjing_sxwd" FileName="animations_dm65_butcher_ll/show_appear_dianjing_sxwd.animation" LoadAsync="true" start_time="0" end_time="21" default_loop="False" default_rate="1" />
+		<Animation Name="carry_hit_oph" FileName="animations_dm65_butcher_ll/carry_hit_oph.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="False" default_rate="1" />
+		<Animation Name="carry_oph" FileName="animations_dm65_butcher_ll/carry_oph.animation" LoadAsync="true" start_time="0" end_time="2.633333" default_loop="True" default_rate="1" />
+		<Animation Name="carry_struggle_add_oph" FileName="animations_dm65_butcher_ll/carry_struggle_add_oph.animation" LoadAsync="true" start_time="0" end_time="3.5" default_loop="False" default_rate="1" />
+		<Animation Name="carry_struggle_oph" FileName="animations_dm65_butcher_ll/carry_struggle_oph.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="catch_oph" FileName="animations_dm65_butcher_ll/catch_oph.animation" LoadAsync="true" start_time="0" end_time="3.333333" default_loop="False" default_rate="1" />
+		<Animation Name="discard_oph" FileName="animations_dm65_butcher_ll/discard_oph.animation" LoadAsync="true" start_time="0" end_time="1.833333" default_loop="False" default_rate="1" />
+		<Animation Name="hang_oph" FileName="animations_dm65_butcher_ll/hang_oph.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="pick_oph" FileName="animations_dm65_butcher_ll/pick_oph.animation" LoadAsync="true" start_time="0" end_time="3.266667" default_loop="False" default_rate="1" />
+		<Animation Name="start_sxwd_oph" FileName="animations_dm65_butcher_ll/start_sxwd_oph.animation" LoadAsync="true" start_time="0" end_time="5.333333" default_loop="False" default_rate="1" />
+		<Animation Name="sxwd_attack_carry_end_oph" FileName="animations_dm65_butcher_ll/sxwd_attack_carry_end_oph.animation" LoadAsync="true" start_time="0" end_time="1.033333" default_loop="False" default_rate="1" />
+		<Animation Name="sxwd_attack_carry_oph" FileName="animations_dm65_butcher_ll/sxwd_attack_carry_oph.animation" LoadAsync="true" start_time="0" end_time="1.333333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_choco_play" FileName="animations_dm65_butcher_ll/hall_choco_play.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_box_play" FileName="animations_dm65_butcher_ll/hall_box_play.animation" LoadAsync="true" start_time="0" end_time="6.2" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_huajiao" FileName="animations_dm65_butcher_ll/hall_sit_huajiao.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="load_sleep_butcher_ll_dianj" FileName="animations_dm65_butcher_ll/load_sleep_butcher_ll_dianj.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="True" default_rate="1" />
+		<Animation Name="idle_special_dianj" FileName="animations_dm65_butcher_ll/idle_special_dianj.animation" LoadAsync="true" start_time="0" end_time="6.3" default_loop="False" default_rate="1" />
+		<Animation Name="saw_sprint_touch_end_dianj" FileName="animations_dm65_butcher_ll/saw_sprint_touch_end_dianj.animation" LoadAsync="true" start_time="0" end_time="1.7" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_fourth_joker_dianj" FileName="animations_dm65_butcher_ll/emotion_fourth_joker_dianj.animation" LoadAsync="true" start_time="0" end_time="10.566667" default_loop="False" default_rate="1" />
+		<Animation Name="idle_dianj" FileName="animations_dm65_butcher_ll/idle_dianj.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="remote_patrol_puppet_dianj" FileName="animations_dm65_butcher_ll/remote_patrol_puppet_dianj.animation" LoadAsync="true" start_time="0" end_time="1.6" default_loop="True" default_rate="1" />
+		<Animation Name="place_patrol_puppet_dianj" FileName="animations_dm65_butcher_ll/place_patrol_puppet_dianj.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_removing_obstacles_all" FileName="animations_dm65_butcher_ll/emotion_removing_obstacles_all.animation" LoadAsync="true" start_time="0" end_time="1.866667" default_loop="False" default_rate="1" />
+		<Animation Name="cr_sit_2" FileName="animations_dm65_butcher_ll/cr_sit_2.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="true" default_rate="1" />
+		<Animation Name="hall_shower_play" FileName="animations_dm65_butcher_ll/hall_shower_play.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="pzjg_char_think_idle" FileName="animations_dm65_butcher_ll/pzjg_char_think_idle.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="pzjg_char_think_start" FileName="animations_dm65_butcher_ll/pzjg_char_think_start.animation" LoadAsync="true" start_time="0" end_time="1.233333" default_loop="False" default_rate="1" />
+		<Animation Name="pzjg_char_think_end" FileName="animations_dm65_butcher_ll/pzjg_char_think_end.animation" LoadAsync="true" start_time="0" end_time="1.5" default_loop="False" default_rate="1" />
+		<Animation Name="pzjg_char_gameover" FileName="animations_dm65_butcher_ll/pzjg_char_gameover.animation" LoadAsync="true" start_time="0" end_time="1.333333" default_loop="False" default_rate="1" />
+		<Animation Name="pzjg_char_doubt" FileName="animations_dm65_butcher_ll/pzjg_char_doubt.animation" LoadAsync="true" start_time="0" end_time="2.333333" default_loop="False" default_rate="1" />
+		<Animation Name="hall_yongzhe_play" FileName="animations_dm65_butcher_ll/hall_yongzhe_play.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="False" default_rate="1" />
+		<Animation Name="pzjg_char_sit" FileName="animations_dm65_butcher_ll/pzjg_char_sit.animation" LoadAsync="true" start_time="0" end_time="2.333333" default_loop="true" default_rate="1" />
+		<Animation Name="hall_box_play_zl" FileName="animations_dm65_butcher_ll/hall_box_play_zl.animation" LoadAsync="true" start_time="0" end_time="6.2" default_loop="false" default_rate="1" />
+		<Animation Name="cr_sit_cz" FileName="animations_dm65_butcher_ll/cr_sit_cz.animation" LoadAsync="true" start_time="0" end_time="9.7" default_loop="True" default_rate="1" />
+		<Animation Name="hall_crouch" FileName="animations_dm65_butcher_ll/hall_crouch.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="hall_selfie_1" FileName="animations_dm65_butcher_ll/hall_selfie_1.animation" LoadAsync="true" start_time="0" end_time="0.166667" default_loop="True" default_rate="1" />
+		<Animation Name="hall_selfie_2" FileName="animations_dm65_butcher_ll/hall_selfie_2.animation" LoadAsync="true" start_time="0" end_time="0.166667" default_loop="True" default_rate="1" />
+		<Animation Name="hall_selfie_3" FileName="animations_dm65_butcher_ll/hall_selfie_3.animation" LoadAsync="true" start_time="0" end_time="0.166667" default_loop="True" default_rate="1" />
+		<Animation Name="pzjg_char_lose" FileName="animations_dm65_butcher_ll/pzjg_char_lose.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="pzjg_char_success" FileName="animations_dm65_butcher_ll/pzjg_char_success.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="hall_flower_sit_1" FileName="animations_dm65_butcher_ll/hall_flower_sit_1.animation" LoadAsync="true" start_time="0" end_time="8" default_loop="True" default_rate="1" />
+		<Animation Name="hall_flower_sit_2" FileName="animations_dm65_butcher_ll/hall_flower_sit_2.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="cast_chain_xmas_loop" FileName="animations_dm65_butcher_ll/cast_chain_xmas_loop.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="true" default_rate="1" />
+		<Animation Name="cast_chain_xmas_end" FileName="animations_dm65_butcher_ll/cast_chain_xmas_end.animation" LoadAsync="true" start_time="0" end_time="0.433333" default_loop="false" default_rate="1" />
+		<Animation Name="cast_chain_xmas_start" FileName="animations_dm65_butcher_ll/cast_chain_xmas_start.animation" LoadAsync="true" start_time="0" end_time="0.566667" default_loop="False" default_rate="1" />
+		<Animation Name="gift_throw" FileName="animations_dm65_butcher_ll/gift_throw.animation" LoadAsync="true" start_time="0" end_time="1.666667" default_loop="false" default_rate="1" />
+		<Animation Name="ride" FileName="animations_dm65_butcher_ll/ride.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="0.666667" />
+		<Animation Name="ride_left" FileName="animations_dm65_butcher_ll/ride_left.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="0.666667" />
+		<Animation Name="ride_right" FileName="animations_dm65_butcher_ll/ride_right.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="0.666667" />
+		<Animation Name="cr_lantern_h_play" FileName="animations_dm65_butcher_ll/cr_lantern_h_play.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="1.2" />
+		<Animation Name="cr_lantern_h_end" FileName="animations_dm65_butcher_ll/cr_lantern_h_end.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="1" />
+		<Animation Name="cr_lantern_h_loop" FileName="animations_dm65_butcher_ll/cr_lantern_h_loop.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="3.133333" />
+		<Animation Name="emotion_huadeng" FileName="animations_dm65_butcher_ll/emotion_huadeng.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="4.166667" />
+		<Animation Name="hall_selfie_idle" FileName="animations_dm65_butcher_ll/hall_selfie_idle.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<carry carry="1,100" carry_hit="1,100" carry_struggle="1,100" carry_struggle_add="1,100" catch="1,100" discard="1,100" destroy="1,100" dizziness="1,100" fall="1,100" hang="1,100" idle_special="1,100" open_cabinet="1,100" pick="1,100" run="1,100" saw_attack_1_end="1,100" saw_attack_1="1,100" saw_attack_2_end="1,100" saw_attack_2="1,100" saw_attack_carry_end="1,100" saw_attack_carry="1,100" saw_attack_rebound="1,100" saw_attack_show="1,100" saw_open="1,100" saw_sprint="1,100" saw_sprint_plank_end="1,100" saw_sprint_touch_end="1,100" scare_attack_curse="1,100" scare_attack_scream="1,100" scare_attack_scream_end="1,100" scare_puppet_1="1,100" scare_puppet_frightens="1,100" scare_puppet_retrieve="1,100" scare_puppet_throw_1="1,100" scare_puppet_throw_2="1,100" sickle_attack_1="1,100" sickle_attack_1_end="1,100" sickle_attack_2="1,100" sickle_attack_2_end="1,100" sickle_attack_3="1,100" sickle_attack_carry="1,100" sickle_attack_carry_end="1,100" sickle_attack_rebound="1,100" sickle_attack_show="1,100" span_chainsaw="1,100" span_sickle="1,100" dagger_attack_1="1,100" dagger_attack_1_end="1,100" dagger_attack_carry="1,100" dagger_attack_carry_end="1,100" skin="1,100" dizzy="1,100" close_cabinet="1,100" raise_chain="1,100" shake_chain="1,100" recuit_chain="1,100" hit_chain="1,100" cast_chain="1,100" hit_collision_chain="1,100" unhit_chain="1,100" break="1,100" destroy_transmittter="1,100" repair_hook_butcher="1,100" dagger_attack_2="1,100" dagger_attack_2_end="1,100" place_patrol_puppet="1,100" remote_patrol_puppet="1,100" prepare_place_tower="1,100" place_tower="1,100" scare_puppet_rigid="1,100" hit="1,100" happy_carry="1,100" happy_carry_hit="1,100" happy_carry_struggle="1,100" happy_carry_struggle_add="1,100" happy_catch="1,100" happy_dagger_attack_carry="1,100" happy_discard="1,100" happy_hang="1,100" happy_pick="1,100" happy_repair_hook_butcher="1,100" happy_dagger_attack_carry_end="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<carry_hit carry="1,100" run="1,100" happy_carry="1,100" />
+		<carry_struggle carry="1,100" run="1,100" happy_carry="1,100" />
+		<carry_struggle_add carry="1,100" run="1,100" happy_carry="1,100" />
+		<catch carry="1,100" run="1,100" happy_carry="1,100" />
+		<discard carry="1,100" run="1,100" happy_carry="1,100" />
+		<destroy carry="1,100" run="1,100" happy_carry="1,100" />
+		<dizziness carry="1,100" run="1,100" happy_carry="1,100" />
+		<fall carry="1,100" run="1,100" happy_carry="1,100" />
+		<hang carry="1,100" run="1,100" happy_carry="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<idle TransitTime="36" carry="1,100" carry_hit="1,100" carry_struggle="1,100" carry_struggle_add="1,100" catch="1,100" discard="1,100" destroy="1,100" dizziness="1,100" fall="1,100" hang="1,100" idle_special="1,100" open_cabinet="1,100" pick="1,100" run="1,100" saw_attack_1_end="1,100" saw_attack_1="1,100" saw_attack_2_end="1,100" saw_attack_2="1,100" saw_attack_carry_end="1,100" saw_attack_carry="1,100" saw_attack_rebound="1,100" saw_attack_show="1,100" saw_open="1,100" saw_sprint="1,100" saw_sprint_plank_end="1,100" saw_sprint_touch_end="1,100" scare_attack_curse="1,100" scare_attack_scream="1,100" scare_attack_scream_end="1,100" scare_puppet_1="1,100" scare_puppet_frightens="1,100" scare_puppet_retrieve="1,100" scare_puppet_throw_1="1,100" scare_puppet_throw_2="1,100" sickle_attack_1="1,100" sickle_attack_1_end="1,100" sickle_attack_2="1,100" sickle_attack_2_end="1,100" sickle_attack_3="1,100" sickle_attack_carry="1,100" sickle_attack_carry_end="1,100" sickle_attack_rebound="1,100" sickle_attack_show="1,100" span_chainsaw="1,100" span_sickle="1,100" dagger_attack_1="1,100" dagger_attack_1_end="1,100" dagger_attack_carry="1,100" dagger_attack_carry_end="1,100" skin="1,100" dizzy="1,100" close_cabinet="1,100" raise_chain="1,100" shake_chain="1,100" recuit_chain="1,100" hit_chain="1,100" cast_chain="1,100" hit_collision_chain="1,100" unhit_chain="1,100" break="1,100" destroy_transmittter="1,100" repair_hook_butcher="1,100" dagger_attack_2="1,100" dagger_attack_2_end="1,100" place_patrol_puppet="1,100" remote_patrol_puppet="1,100" prepare_place_tower="1,100" place_tower="1,100" scare_puppet_rigid="1,100" hit="1,100" happy_carry="1,100" happy_carry_hit="1,100" happy_carry_struggle="1,100" happy_carry_struggle_add="1,100" happy_catch="1,100" happy_dagger_attack_carry="1,100" happy_discard="1,100" happy_hang="1,100" happy_pick="1,100" happy_repair_hook_butcher="1,100" happy_dagger_attack_carry_end="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" pullback_butcher="1,200" pushforward_butcher="1,200" disarm="1,300" />
+		<idle_special carry="1,100" run="1,100" happy_carry="1,100" />
+		<open_cabinet carry="1,100" run="1,100" happy_carry="1,100" />
+		<pick carry="1,100" run="1,100" happy_carry="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<run carry="1,100" carry_hit="1,100" carry_struggle="1,100" carry_struggle_add="1,100" catch="1,100" discard="1,100" destroy="1,100" dizziness="1,100" fall="1,100" hang="1,100" idle_special="1,100" open_cabinet="1,100" pick="1,100" run="1,100" saw_attack_1_end="1,100" saw_attack_1="1,100" saw_attack_2_end="1,100" saw_attack_2="1,100" saw_attack_carry_end="1,100" saw_attack_carry="1,100" saw_attack_rebound="1,100" saw_attack_show="1,100" saw_open="1,100" saw_sprint="1,100" saw_sprint_plank_end="1,100" saw_sprint_touch_end="1,100" scare_attack_curse="1,100" scare_attack_scream="1,100" scare_attack_scream_end="1,100" scare_puppet_1="1,100" scare_puppet_frightens="1,100" scare_puppet_retrieve="1,100" scare_puppet_throw_1="1,100" scare_puppet_throw_2="1,100" sickle_attack_1="1,100" sickle_attack_1_end="1,100" sickle_attack_2="1,100" sickle_attack_2_end="1,100" sickle_attack_3="1,100" sickle_attack_carry="1,100" sickle_attack_carry_end="1,100" sickle_attack_rebound="1,100" sickle_attack_show="1,100" span_chainsaw="1,100" span_sickle="1,100" dagger_attack_1="1,100" dagger_attack_1_end="1,100" dagger_attack_carry="1,100" dagger_attack_carry_end="1,100" skin="1,100" dizzy="1,100" close_cabinet="1,100" raise_chain="1,100" shake_chain="1,100" recuit_chain="1,100" hit_chain="1,100" cast_chain="1,100" hit_collision_chain="1,100" unhit_chain="1,100" break="1,100" destroy_transmittter="1,100" repair_hook_butcher="1,100" dagger_attack_2="1,100" dagger_attack_2_end="1,100" place_patrol_puppet="1,100" remote_patrol_puppet="1,100" prepare_place_tower="1,100" place_tower="1,100" scare_puppet_rigid="1,100" hit="1,100" happy_carry="1,100" happy_carry_hit="1,100" happy_carry_struggle="1,100" happy_carry_struggle_add="1,100" happy_catch="1,100" happy_dagger_attack_carry="1,100" happy_discard="1,100" happy_hang="1,100" happy_pick="1,100" happy_repair_hook_butcher="1,100" happy_dagger_attack_carry_end="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" pullback_butcher="1,200" pushforward_butcher="1,200" disarm="1,300" dmm_butcher_skill="1,0" />
+		<saw_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_2 carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_carry_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_carry carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_rebound carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_attack_show carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_open carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_sprint carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_sprint_plank_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<saw_sprint_touch_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_attack_curse carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_attack_scream carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_attack_scream_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_frightens carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_retrieve carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_throw_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_throw_2 carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_2 carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_3 carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_carry carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_carry_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_rebound carry="1,100" run="1,100" happy_carry="1,100" />
+		<sickle_attack_show carry="1,100" run="1,100" happy_carry="1,100" />
+		<span_chainsaw carry="1,100" run="1,100" happy_carry="1,100" />
+		<span_sickle carry="1,100" run="1,100" happy_carry="1,100" />
+		<dagger_attack_1 carry="1,100" run="1,100" dagger_attack_1_end="1,100" happy_carry="1,100" />
+		<dagger_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<dagger_attack_carry carry="1,100" run="1,100" dagger_attack_carry_end="1,150" happy_carry="1,100" />
+		<dagger_attack_carry_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<skin carry="1,100" run="1,100" happy_carry="1,100" />
+		<dizzy carry="1,100" run="1,100" happy_carry="1,100" />
+		<close_cabinet carry="1,100" run="1,100" happy_carry="1,100" />
+		<raise_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<shake_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<recuit_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<hit_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<cast_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<hit_collision_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<unhit_chain carry="1,100" run="1,100" happy_carry="1,100" />
+		<break carry="1,100" run="1,100" happy_carry="1,100" />
+		<destroy_transmittter carry="1,100" run="1,100" happy_carry="1,100" />
+		<repair_hook_butcher carry="1,100" run="1,100" happy_carry="1,100" />
+		<dagger_attack_2 carry="1,100" run="1,100" dagger_attack_2_end="1,150" happy_carry="1,100" />
+		<dagger_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<place_patrol_puppet carry="1,100" run="1,100" happy_carry="1,100" />
+		<remote_patrol_puppet carry="1,100" run="1,100" happy_carry="1,100" />
+		<prepare_place_tower carry="1,100" run="1,100" happy_carry="1,100" />
+		<place_tower carry="1,100" run="1,100" happy_carry="1,100" />
+		<load_dagger_stand carry="1,100" run="1,100" happy_carry="1,100" />
+		<load_dagger_sit carry="1,100" run="1,100" happy_carry="1,100" />
+		<scare_puppet_rigid carry="1,100" run="1,100" happy_carry="1,100" />
+		<load_dagger_visit carry="1,100" run="1,100" happy_carry="1,100" />
+		<hit carry="1,100" run="1,100" happy_carry="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<happy_carry carry="1,100" carry_hit="1,100" carry_struggle="1,100" carry_struggle_add="1,100" catch="1,100" discard="1,100" destroy="1,100" dizziness="1,100" fall="1,100" hang="1,100" idle_special="1,100" open_cabinet="1,100" pick="1,100" run="1,100" saw_attack_1_end="1,100" saw_attack_1="1,100" saw_attack_2_end="1,100" saw_attack_2="1,100" saw_attack_carry_end="1,100" saw_attack_carry="1,100" saw_attack_rebound="1,100" saw_attack_show="1,100" saw_open="1,100" saw_sprint="1,100" saw_sprint_plank_end="1,100" saw_sprint_touch_end="1,100" scare_attack_curse="1,100" scare_attack_scream="1,100" scare_attack_scream_end="1,100" scare_puppet_1="1,100" scare_puppet_frightens="1,100" scare_puppet_retrieve="1,100" scare_puppet_throw_1="1,100" scare_puppet_throw_2="1,100" sickle_attack_1="1,100" sickle_attack_1_end="1,100" sickle_attack_2="1,100" sickle_attack_2_end="1,100" sickle_attack_3="1,100" sickle_attack_carry="1,100" sickle_attack_carry_end="1,100" sickle_attack_rebound="1,100" sickle_attack_show="1,100" span_chainsaw="1,100" span_sickle="1,100" dagger_attack_1="1,100" dagger_attack_1_end="1,100" dagger_attack_carry="1,100" dagger_attack_carry_end="1,100" skin="1,100" dizzy="1,100" close_cabinet="1,100" raise_chain="1,100" shake_chain="1,100" recuit_chain="1,100" hit_chain="1,100" cast_chain="1,100" hit_collision_chain="1,100" unhit_chain="1,100" break="1,100" destroy_transmittter="1,100" repair_hook_butcher="1,100" dagger_attack_2="1,100" dagger_attack_2_end="1,100" place_patrol_puppet="1,100" remote_patrol_puppet="1,100" prepare_place_tower="1,100" place_tower="1,100" scare_puppet_rigid="1,100" hit="1,100" happy_carry="1,100" happy_carry_hit="1,100" happy_carry_struggle="1,100" happy_carry_struggle_add="1,100" happy_catch="1,100" happy_dagger_attack_carry="1,100" happy_discard="1,100" happy_hang="1,100" happy_pick="1,100" happy_repair_hook_butcher="1,100" happy_dagger_attack_carry_end="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" run_saw="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<happy_carry_hit carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_carry_struggle carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_carry_struggle_add carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_catch carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_dagger_attack_carry carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_discard carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_hang carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_pick carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_repair_hook_butcher carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_dagger_attack_carry_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<load_butcher carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_rebound carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_show carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_1 carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_2 carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_3 carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_rebound carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_sickle_attack_show carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_cast_chain carry="1,100" run="1,100" happy_carry="1,100" happy_dagger_attack_1="1,100" happy_dagger_attack_1_end="1,100" happy_dagger_attack_2="1,100" happy_dagger_attack_2_end="1,100" happy_saw_attack_2="1,100" />
+		<run_saw carry="1,100" carry_hit="1,100" carry_struggle="1,100" carry_struggle_add="1,100" catch="1,100" discard="1,100" destroy="1,100" dizziness="1,100" fall="1,100" hang="1,100" idle_special="1,100" open_cabinet="1,100" pick="1,100" run="1,100" saw_attack_1_end="1,100" saw_attack_1="1,100" saw_attack_2_end="1,100" saw_attack_2="1,100" saw_attack_carry_end="1,100" saw_attack_carry="1,100" saw_attack_rebound="1,100" saw_attack_show="1,100" saw_open="1,100" saw_sprint="1,100" saw_sprint_plank_end="1,100" saw_sprint_touch_end="1,100" scare_attack_curse="1,100" scare_attack_scream="1,100" scare_attack_scream_end="1,100" scare_puppet_1="1,100" scare_puppet_frightens="1,100" scare_puppet_retrieve="1,100" scare_puppet_throw_1="1,100" scare_puppet_throw_2="1,100" sickle_attack_1="1,100" sickle_attack_1_end="1,100" sickle_attack_2="1,100" sickle_attack_2_end="1,100" sickle_attack_3="1,100" sickle_attack_carry="1,100" sickle_attack_carry_end="1,100" sickle_attack_rebound="1,100" sickle_attack_show="1,100" span_chainsaw="1,100" span_sickle="1,100" dagger_attack_1="1,100" dagger_attack_1_end="1,100" dagger_attack_carry="1,100" dagger_attack_carry_end="1,100" skin="1,100" dizzy="1,100" close_cabinet="1,100" raise_chain="1,100" shake_chain="1,100" recuit_chain="1,100" hit_chain="1,100" cast_chain="1,100" hit_collision_chain="1,100" unhit_chain="1,100" break="1,100" destroy_transmittter="1,100" repair_hook_butcher="1,100" dagger_attack_2="1,100" dagger_attack_2_end="1,100" place_patrol_puppet="1,100" remote_patrol_puppet="1,100" prepare_place_tower="1,100" place_tower="1,100" scare_puppet_rigid="1,100" hit="1,100" happy_carry="1,100" happy_carry_hit="1,100" happy_carry_struggle="1,100" happy_carry_struggle_add="1,100" happy_catch="1,100" happy_dagger_attack_carry="1,100" happy_discard="1,100" happy_hang="1,100" happy_pick="1,100" happy_repair_hook_butcher="1,100" happy_dagger_attack_carry_end="1,100" share_idle_butcher="1,100" share_idle_sxwd="1,100" happy_saw_attack_1="1,100" happy_saw_attack_1_end="1,100" happy_saw_attack_2_end="1,100" happy_saw_attack_rebound="1,100" happy_saw_attack_show="1,100" happy_sickle_attack_1="1,100" happy_sickle_attack_1_end="1,100" happy_sickle_attack_2="1,100" happy_sickle_attack_2_end="1,100" happy_sickle_attack_3="1,100" happy_sickle_attack_rebound="1,100" happy_sickle_attack_show="1,100" happy_cast_chain="1,100" />
+		<happy_dagger_attack_1 carry="1,100" run="1,100" dagger_attack_1_end="1,100" happy_carry="1,100" />
+		<happy_dagger_attack_1_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_dagger_attack_2 carry="1,100" run="1,100" dagger_attack_2_end="1,150" happy_carry="1,100" />
+		<happy_dagger_attack_2_end carry="1,100" run="1,100" happy_carry="1,100" />
+		<happy_saw_attack_2 carry="1,100" run="1,100" happy_carry="1,100" />
+		<sprint_dizzy TransitTime="9.6666" disarm="1,300" />
+		<cast run="1,200" />
+		<pullback_butcher idle="1,200" run="1,200" />
+		<pushforward_butcher idle="1,200" run="1,200" />
+		<disarm idle="1,300" run="1,300" sprint_dizzy="1,300" />
+		<hall_interact_baize_fy TransitTime="-2147483648" />
+		<hall_sit_chair_fy TransitTime="0.927" />
+		<dmm_butcher_skill run="1,200" />
+		<cr_jump_loop fall="1,300" />
+		<cr_cannon_pose cr_cannon_fly="1,200" />
+		<cr_cannon_fly cr_jump_loop="1,300" />
+	</TransitInfo>
+</AnimationConfig>

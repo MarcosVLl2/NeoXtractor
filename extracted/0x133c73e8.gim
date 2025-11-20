@@ -1,0 +1,30 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_yanzi_01" BoundingInfo="(-0.34, 0.60, -0.37),(2.27, 1.08, 2.85),3.80" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.3358,0.6022,-0.3663" BoundingHalf="2.2734,1.0823,2.8474" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bp_h55_guajian_guiyan_yanzi02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_guiyan_yanzi.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_guiyan_yanzi.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_yanzi_05" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.2239,-0.3350,-0.0400,0.9144" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_guiyan_idle_03" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0d2bd914770efa20" Inherit="7" Loading="1" Name="yuanding_guiyan_skill_001c" Uri="fx/pendant/yuanding_guiyan_skill_001c.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone_yanzi_21" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.2239,-0.3350,-0.0400,0.9144" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_guiyan_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f234a007c599390a" Inherit="7" Loading="4" Name="yuanding_guiyan_skill_001b.pse" Uri="fx/pendant/yuanding_guiyan_skill_001b.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="bone_yanzi_31" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.2239,-0.3350,-0.0400,0.9144" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_guiyan_idle_02" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2ba6527c3eeddaf6" Inherit="7" Loading="4" Name="yuanding_guiyan_skill_001b.pse" Uri="fx/pendant/yuanding_guiyan_skill_001b.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="bone_yanzi_05" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.2239,-0.3350,-0.0400,0.9144" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_guiyan_idle_04" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="55d605b2ab6e0188" Inherit="7" Loading="1" Name="yuanding_guiyan_skill_001e" Uri="fx/pendant/yuanding_guiyan_skill_001e.pse" />
+        </Socket_3>
+    </SocketObject>
+</NeoX>

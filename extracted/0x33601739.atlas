@@ -1,0 +1,139 @@
+
+insect_game_bee_4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mf_0
+  rotate: false
+  xy: 146, 6
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+mf_1
+  rotate: true
+  xy: 75, 2
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+mf_10
+  rotate: true
+  xy: 266, 10
+  size: 59, 42
+  orig: 59, 42
+  offset: 0, 0
+  index: -1
+mf_11
+  rotate: false
+  xy: 266, 133
+  size: 36, 73
+  orig: 36, 75
+  offset: 0, 0
+  index: -1
+mf_12
+  rotate: true
+  xy: 310, 15
+  size: 54, 43
+  orig: 54, 45
+  offset: 0, 2
+  index: -1
+mf_13
+  rotate: true
+  xy: 340, 353
+  size: 75, 42
+  orig: 75, 42
+  offset: 0, 0
+  index: -1
+mf_14
+  rotate: false
+  xy: 266, 71
+  size: 59, 60
+  orig: 59, 62
+  offset: 0, 0
+  index: -1
+mf_2
+  rotate: false
+  xy: 207, 37
+  size: 57, 139
+  orig: 57, 139
+  offset: 0, 0
+  index: -1
+mf_3
+  rotate: false
+  xy: 146, 37
+  size: 59, 139
+  orig: 59, 139
+  offset: 0, 0
+  index: -1
+mf_4
+  rotate: false
+  xy: 340, 430
+  size: 67, 80
+  orig: 67, 84
+  offset: 0, 4
+  index: -1
+mf_5
+  rotate: false
+  xy: 261, 208
+  size: 78, 108
+  orig: 78, 108
+  offset: 0, 0
+  index: -1
+mf_6
+  rotate: true
+  xy: 341, 303
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+mf_7
+  rotate: true
+  xy: 304, 152
+  size: 54, 36
+  orig: 54, 36
+  offset: 0, 0
+  index: -1
+mf_8
+  rotate: true
+  xy: 327, 96
+  size: 54, 36
+  orig: 54, 36
+  offset: 0, 0
+  index: -1
+mf_9
+  rotate: false
+  xy: 355, 43
+  size: 42, 51
+  orig: 42, 56
+  offset: 0, 5
+  index: -1
+mifeng_04_guang
+  rotate: false
+  xy: 2, 178
+  size: 257, 332
+  orig: 257, 332
+  offset: 0, 0
+  index: -1
+yz_0
+  rotate: false
+  xy: 2, 18
+  size: 71, 158
+  orig: 71, 158
+  offset: 0, 0
+  index: -1
+yz_1
+  rotate: false
+  xy: 75, 26
+  size: 69, 150
+  orig: 69, 150
+  offset: 0, 0
+  index: -1
+yz_10
+  rotate: false
+  xy: 261, 318
+  size: 77, 192
+  orig: 78, 192
+  offset: 0, 0
+  index: -1

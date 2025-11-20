@@ -1,0 +1,207 @@
+
+plot_2022_envelope.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+信封替换/frame/vx_envelope_flip_04
+  rotate: true
+  xy: 1253, 143
+  size: 741, 427
+  orig: 824, 599
+  offset: 2, 61
+  index: -1
+信封替换/frame/vx_envelope_flip_06
+  rotate: false
+  xy: 536, 372
+  size: 715, 501
+  orig: 824, 599
+  offset: 8, 26
+  index: -1
+信封替换/frame/vx_envelope_flip_07
+  rotate: true
+  xy: 2, 206
+  size: 676, 532
+  orig: 824, 599
+  offset: 30, 16
+  index: -1
+信封替换/frame/vx_envelope_flip_08
+  rotate: true
+  xy: 2, 884
+  size: 589, 550
+  orig: 824, 599
+  offset: 86, 18
+  index: -1
+信封替换/frame/vx_envelope_flip_10
+  rotate: false
+  xy: 554, 875
+  size: 130, 598
+  orig: 824, 599
+  offset: 426, 1
+  index: -1
+信封替换/frame/vx_envelope_flip_11
+  rotate: false
+  xy: 1513, 938
+  size: 353, 594
+  orig: 824, 599
+  offset: 334, 3
+  index: -1
+信封替换/frame/vx_envelope_flip_12
+  rotate: true
+  xy: 770, 1329
+  size: 578, 551
+  orig: 824, 599
+  offset: 226, 19
+  index: -1
+信封替换/frame/vx_envelope_flip_14
+  rotate: false
+  xy: 686, 886
+  size: 723, 441
+  orig: 824, 599
+  offset: 79, 62
+  index: -1
+信封替换/frame/vx_envelope_flip_18
+  rotate: false
+  xy: 1323, 1534
+  size: 723, 373
+  orig: 824, 599
+  offset: 1, 91
+  index: -1
+信封替换/frame/vx_envelope_flip_20
+  rotate: false
+  xy: 536, 2
+  size: 715, 368
+  orig: 824, 599
+  offset: 2, 94
+  index: -1
+信封资源/png/shadow
+  rotate: false
+  xy: 1323, 1431
+  size: 188, 101
+  orig: 188, 101
+  offset: 0, 0
+  index: -1
+信封资源/png/信封单独版/信件3
+  rotate: false
+  xy: 2, 1475
+  size: 766, 432
+  orig: 766, 432
+  offset: 0, 0
+  index: -1
+
+plot_2022_envelope2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+信封替换/2-1
+  rotate: false
+  xy: 2, 374
+  size: 724, 380
+  orig: 726, 382
+  offset: 0, 1
+  index: -1
+信封替换/2-2
+  rotate: false
+  xy: 2, 756
+  size: 728, 391
+  orig: 734, 396
+  offset: 4, 2
+  index: -1
+信封替换/2-3
+  rotate: false
+  xy: 2, 2
+  size: 721, 370
+  orig: 722, 374
+  offset: 0, 2
+  index: -1
+信封替换/frame/vx_envelope_flip_02
+  rotate: false
+  xy: 1134, 922
+  size: 713, 373
+  orig: 824, 599
+  offset: 9, 92
+  index: -1
+信封替换/frame/vx_envelope_flip_03
+  rotate: true
+  xy: 1426, 1297
+  size: 729, 395
+  orig: 824, 599
+  offset: 6, 79
+  index: -1
+信封替换/frame/vx_envelope_flip_05
+  rotate: false
+  xy: 2, 1562
+  size: 738, 464
+  orig: 824, 599
+  offset: 1, 42
+  index: -1
+信封替换/frame/vx_envelope_flip_13
+  rotate: false
+  xy: 742, 1536
+  size: 682, 490
+  orig: 824, 599
+  offset: 142, 43
+  index: -1
+信封替换/frame/vx_envelope_flip_15
+  rotate: false
+  xy: 2, 1149
+  size: 735, 411
+  orig: 824, 599
+  offset: 39, 73
+  index: -1
+信封替换/frame/vx_envelope_flip_16
+  rotate: true
+  xy: 739, 802
+  size: 732, 393
+  orig: 824, 599
+  offset: 18, 80
+  index: -1
+信封替换/frame/vx_envelope_flip_17
+  rotate: true
+  xy: 732, 73
+  size: 727, 381
+  orig: 824, 599
+  offset: 7, 87
+  index: -1
+信封替换/frame/vx_envelope_flip_19
+  rotate: true
+  xy: 1115, 81
+  size: 719, 371
+  orig: 824, 599
+  offset: 0, 92
+  index: -1
+信封替换/frame/vx_envelope_flip_21
+  rotate: true
+  xy: 1488, 207
+  size: 713, 366
+  orig: 824, 599
+  offset: 4, 96
+  index: -1
+
+plot_2022_envelope3.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+信封替换/frame/vx_envelope_flip_01
+  rotate: false
+  xy: 715, 12
+  size: 708, 365
+  orig: 824, 599
+  offset: 8, 97
+  index: -1
+信封替换/frame/vx_envelope_flip_09
+  rotate: true
+  xy: 1425, 2
+  size: 375, 569
+  orig: 824, 599
+  offset: 219, 17
+  index: -1
+信封替换/frame/vx_envelope_flip_22
+  rotate: false
+  xy: 2, 12
+  size: 711, 365
+  orig: 824, 599
+  offset: 6, 97
+  index: -1

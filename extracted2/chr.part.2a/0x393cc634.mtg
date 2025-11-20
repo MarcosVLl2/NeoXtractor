@@ -1,0 +1,14 @@
+<NeoX>
+    <MaterialGroup MaterialCount="10" Name="hds_e_baojun_show" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_bird2.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_bird1.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_body02_02.mtl" />
+        <Material_3 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_daoju.mtl" />
+        <Material_4 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_weapon.mtl" />
+        <Material_5 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_body01.mtl" />
+        <Material_6 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_body01_01.mtl" />
+        <Material_7 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_body02_mao.mtl" />
+        <Material_8 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_head.mtl" />
+        <Material_9 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_head_01.mtl" />
+    </MaterialGroup>
+</NeoX>

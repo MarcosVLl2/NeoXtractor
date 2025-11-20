@@ -1,0 +1,52 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="redqueen_e_al_qiang/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="0.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_al_redqueen"
+			FileName="redqueen_e_al_qiang/show_idle_al_redqueen.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="11.866667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="redqueen_e_al_qiang/idle_special.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="8.933333" />
+		<Animation
+			Name="load"
+			FileName="redqueen_e_al_qiang/load.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="17" />
+		<Animation
+			Name="load_visit_redqu"
+			FileName="redqueen_e_al_qiang/load_visit_redqu.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="12.833333" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

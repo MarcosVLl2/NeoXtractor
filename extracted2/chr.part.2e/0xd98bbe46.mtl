@@ -1,0 +1,55 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="Material #76">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro1
+				Key="USE_ALPHA"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr_ex.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/redqueen/separate_dir/redqueen_e_ajue/redqueen_e_ajue_mirror_mask.tga" />
+			<fresnel_color
+				Value="0.000000,0.592200,0.745100,0.105900" />
+			<fresnel_fac
+				Value="1" />
+			<u_ambient
+				Value="0.300000" />
+			<u_mask_color
+				Value="0.913700,0.913700,0.913700,1.000000" />
+			<Tex0
+				Value="chr/boss/redqueen/separate_dir/redqueen_e_ajue/redqueen_e_ajue_mirror_diff_02.tga" />
+			<TexNormal
+				Value="chr/boss/redqueen/separate_dir/redqueen_e_ajue/redqueen_e_ajue_mirror_nor01.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="5" />
+		</RenderStates>
+	</Material>
+</NeoX>

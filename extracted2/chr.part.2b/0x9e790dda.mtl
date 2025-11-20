@@ -1,0 +1,57 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_head_02">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_FUR_DIR_MAP"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\fur_vertexlighting.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="common/lut/ice_diffuse38.dds" />
+			<TexFurDir
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/h55_guajian_mao_mask01.tga" />
+			<TexPattern
+				Value="chr/player/dm65_survivor_w/h55_survivor_tqz/separate_dir/tqz_e_linef/fur01.tga" />
+			<u_fur_density
+				Value="6" />
+			<u_fur_dir_factor
+				Value="0.370000" />
+			<u_fur_length
+				Value="0.260000" />
+			<u_fur_shape
+				Value="3.600000" />
+			<u_toon_offset
+				Value="0.100000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/h55_guajian_mao_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/h55_guajian_mao_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

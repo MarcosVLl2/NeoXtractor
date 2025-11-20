@@ -1,0 +1,3196 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_boy/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_boy/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_boy/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_boy/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_boy/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit"
+			FileName="animations_boy/load_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand"
+			FileName="animations_boy/load_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit"
+			FileName="animations_boy/load_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_boy/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_boy/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_boy/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_show"
+			FileName="animations_boy/happy_axeboy_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_rebound"
+			FileName="animations_boy/happy_axeboy_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_2"
+			FileName="animations_boy/happy_axeboy_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_2_end"
+			FileName="animations_boy/happy_axeboy_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_1"
+			FileName="animations_boy/happy_axeboy_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_1_end"
+			FileName="animations_boy/happy_axeboy_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_boy/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_boy/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_bj_ab"
+			FileName="animations_boy/show_appear_bj_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_bj_ab"
+			FileName="animations_boy/show_idle_bj_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_bj_ab"
+			FileName="animations_boy/show_idle_special_bj_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_boy/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="axeboy_attack_carry"
+			FileName="animations_boy/axeboy_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="axeboy_attack_carry_end"
+			FileName="animations_boy/axeboy_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_boy/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_boy/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_boy/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_boy/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_boy/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_boy/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_boy/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_boy/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_boy/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_boy/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_boy/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_boy/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_boy/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_boy/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_boy/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_boy/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_boy/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_boy/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_boy/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_boy/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_boy/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_boy/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_boy/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmitter"
+			FileName="animations_boy/destroy_transmitter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_boy/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_boy/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_attack_carry"
+			FileName="animations_boy/happy_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_attack_carry_end"
+			FileName="animations_boy/happy_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_boy/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_boy/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_boy/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_boy/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_boy/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_boy/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_boy/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_boy/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_boy/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_boy/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_boy/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_boy/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="breakoff_branch"
+			FileName="animations_boy/breakoff_branch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="plant_tree"
+			FileName="animations_boy/plant_tree.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="grow_stage2"
+			FileName="animations_boy/grow_stage2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="tree_spread"
+			FileName="animations_boy/tree_spread.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tree_sprint"
+			FileName="animations_boy/tree_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_boy/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_boy/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_boy/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_boy/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_boy/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_boy/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_boy/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_boy/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_carry"
+			FileName="animations_boy/happy_axeboy_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_carry_end"
+			FileName="animations_boy/happy_axeboy_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tree_spread_loop"
+			FileName="animations_boy/tree_spread_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="tree_spread_loop_end"
+			FileName="animations_boy/tree_spread_loop_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_boy/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_boy/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ab"
+			FileName="animations_boy/show_idle_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ab"
+			FileName="animations_boy/show_idle_special_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_boy/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_boy/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic"
+			FileName="animations_boy/release_hypnotic.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_boy/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_boy/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_boy/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_boy/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_boy/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_boy/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_boy/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yiwang_ab"
+			FileName="animations_boy/show_appear_yiwang_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yiwang_ab"
+			FileName="animations_boy/show_idle_special_yiwang_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yiwang_ab"
+			FileName="animations_boy/show_idle_yiwang_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_boy/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_boy/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_boy/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_boy/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_boy/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_boy/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_boy/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_tongku_ab"
+			FileName="animations_boy/show_appear_tongku_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_tongku_ab"
+			FileName="animations_boy/show_idle_special_tongku_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_tongku_ab"
+			FileName="animations_boy/show_idle_tongku_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_boy/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_boy/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_boy/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_boy/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_boy/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_boy/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_boy/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1"
+			FileName="animations_boy/elec_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_boy/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3"
+			FileName="animations_boy/elec_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_boy/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yiwan_ab"
+			FileName="animations_boy/show_appear_yiwan_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yiwan_ab"
+			FileName="animations_boy/show_idle_special_yiwan_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yiwan_ab"
+			FileName="animations_boy/show_idle_yiwan_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_boy"
+			FileName="animations_boy/forbidden_therapy_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_boy/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_idle_l"
+			FileName="animations_boy/boy_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_idle_r"
+			FileName="animations_boy/boy_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_special_l"
+			FileName="animations_boy/boy_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_special_r"
+			FileName="animations_boy/boy_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_boy/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_boy/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_boy/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_boy/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_boy/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_boy/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_boy/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_boy/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_boy/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_boy/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_askfor_aikugui"
+			FileName="animations_boy/emotion_askfor_aikugui.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_boy/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_listen"
+			FileName="animations_boy/emotion_listen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_boy/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_dp_ab"
+			FileName="animations_boy/show_idle_dp_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_dp_ab"
+			FileName="animations_boy/show_appear_dp_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_dp_ab"
+			FileName="animations_boy/show_idle_special_dp_ab.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_dp"
+			FileName="animations_boy/beforecast_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="glide_dp"
+			FileName="animations_boy/glide_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_attack_carry_dp"
+			FileName="animations_boy/happy_attack_carry_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_attack_carry_end_dp"
+			FileName="animations_boy/happy_attack_carry_end_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower_dp"
+			FileName="animations_boy/prepare_place_tower_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_dp"
+			FileName="animations_boy/idle_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_dp"
+			FileName="animations_boy/cast_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup_dp"
+			FileName="animations_boy/hangup_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_dp"
+			FileName="animations_boy/happy_catch_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet_dp"
+			FileName="animations_boy/place_patrol_puppet_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower_dp"
+			FileName="animations_boy/place_tower_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="plant_tree_dp"
+			FileName="animations_boy/plant_tree_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_dp"
+			FileName="animations_boy/span_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tree_sprint_dp"
+			FileName="animations_boy/tree_sprint_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="axeboy_attack_carry_dp"
+			FileName="animations_boy/axeboy_attack_carry_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="axeboy_attack_carry_end_dp"
+			FileName="animations_boy/axeboy_attack_carry_end_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_dp"
+			FileName="animations_boy/carry_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit_dp"
+			FileName="animations_boy/carry_hit_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add_dp"
+			FileName="animations_boy/carry_struggle_add_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_dp"
+			FileName="animations_boy/carry_struggle_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_dp"
+			FileName="animations_boy/catch_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed_dp"
+			FileName="animations_boy/cursed_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_dp"
+			FileName="animations_boy/destroy_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb_dp"
+			FileName="animations_boy/destroy_mb_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmitter_dp"
+			FileName="animations_boy/destroy_transmitter_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_dp"
+			FileName="animations_boy/discard_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall_dp"
+			FileName="animations_boy/fall_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_dp"
+			FileName="animations_boy/hang_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_1_dp"
+			FileName="animations_boy/happy_axeboy_attack_1_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_1_end_dp"
+			FileName="animations_boy/happy_axeboy_attack_1_end_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_rebound_dp"
+			FileName="animations_boy/happy_axeboy_attack_rebound_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_2_end_dp"
+			FileName="animations_boy/happy_axeboy_attack_2_end_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_2_dp"
+			FileName="animations_boy/happy_axeboy_attack_2_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_show_dp"
+			FileName="animations_boy/happy_axeboy_attack_show_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_dp"
+			FileName="animations_boy/happy_carry_hit_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add_dp"
+			FileName="animations_boy/happy_carry_struggle_add_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_dp"
+			FileName="animations_boy/happy_carry_struggle_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_dp"
+			FileName="animations_boy/happy_discard_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_dp"
+			FileName="animations_boy/happy_pick_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_dp"
+			FileName="animations_boy/hit_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_dp"
+			FileName="animations_boy/idle_special_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_dp"
+			FileName="animations_boy/load_sit_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_dp"
+			FileName="animations_boy/load_stand_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_dp"
+			FileName="animations_boy/load_visit_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pick_dp"
+			FileName="animations_boy/pick_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_dp"
+			FileName="animations_boy/repair_hook_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_dp"
+			FileName="animations_boy/run_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed_dp"
+			FileName="animations_boy/strong_cursed_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_boy/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_boy/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_boy/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_dp"
+			FileName="animations_boy/emotion_dice_20_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_dp"
+			FileName="animations_boy/emotion_salute_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange_dp"
+			FileName="animations_boy/idle_poker_exchange_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher_dp"
+			FileName="animations_boy/outfire_butcher_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange_dp"
+			FileName="animations_boy/poker_exchange_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_dp"
+			FileName="animations_boy/sit_dc_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_dp"
+			FileName="animations_boy/wait_21_idle_dp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_boy/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_boy/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_boy/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_boy/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_boy/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_carry_w"
+			FileName="animations_boy/happy_axeboy_attack_carry_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_w"
+			FileName="animations_boy/happy_carry_hit_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add_w"
+			FileName="animations_boy/happy_carry_struggle_add_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_w"
+			FileName="animations_boy/happy_carry_struggle_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_w"
+			FileName="animations_boy/happy_carry_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_w"
+			FileName="animations_boy/happy_discard_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang_w"
+			FileName="animations_boy/happy_hang_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_w"
+			FileName="animations_boy/happy_pick_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_boy_w"
+			FileName="animations_boy/happy_struggle4_boy_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_w"
+			FileName="animations_boy/happy_catch_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_axeboy_attack_carry_end_w"
+			FileName="animations_boy/happy_axeboy_attack_carry_end_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_boy/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_boy/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_boy/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_boy/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_boy/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_boy/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_boy/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_boy/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_boy/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_boy/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_boy/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_boy/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_boy/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_boy/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_wangzi"
+			FileName="animations_boy/show_appear_wangzi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_wangzi"
+			FileName="animations_boy/show_idle_special_wangzi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_wangzi"
+			FileName="animations_boy/show_idle_wangzi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_wangzi"
+			FileName="animations_boy/load_wangzi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_boy/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_drink"
+			FileName="animations_boy/like_drink.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_boy/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_boy/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_boy/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_boy/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_boy/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_boy/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_boy/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_boy/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_boy/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_boy"
+			FileName="animations_boy/emotion_fourth_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_flower"
+			FileName="animations_boy/emotion_flower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_boy/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_boy/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_boy/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_boy/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_boy/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_boy/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_boy/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_boy/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_boy/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_monuo_boy"
+			FileName="animations_boy/show_appear_monuo_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.233334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_monuo_boy"
+			FileName="animations_boy/show_idle_monuo_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_monuo_boy"
+			FileName="animations_boy/show_idle_special_monuo_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_mono"
+			FileName="animations_boy/climb_upstairs_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_mono"
+			FileName="animations_boy/emotion_salute_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_mono"
+			FileName="animations_boy/idle_special_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mono"
+			FileName="animations_boy/load_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_mono"
+			FileName="animations_boy/load_sit_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_boy/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_boy/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_mono"
+			FileName="animations_boy/climb_upstairs_1_mono.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_boy/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_boy/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_boy/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_boy/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_boy/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_boy/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_boy/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_boy/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_boy/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_boy/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_boy/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_boy/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_boy/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_boy/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_boy/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_boy/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_boy/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_boy/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_boy/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_boy/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_boy/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_boy/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_boy/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_boy/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_boy/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_boy/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_boy/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_boy/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_boy/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_boy/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_boy/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_boy/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_boy/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_boy/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_boy/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_boy/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_boy/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_boy/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_boy/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_boy/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_boy/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_boy/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_pxn_boy"
+			FileName="animations_boy/show_appear_pxn_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_pxn_boy"
+			FileName="animations_boy/show_idle_pxn_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_pxn_boy"
+			FileName="animations_boy/show_idle_special_pxn_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.233334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_pxn"
+			FileName="animations_boy/hall_idle_special_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_pxn"
+			FileName="animations_boy/idle_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_pxn"
+			FileName="animations_boy/idle_special_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_pxn"
+			FileName="animations_boy/span_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_boy/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_pxn"
+			FileName="animations_boy/emotion_salute_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_pxn"
+			FileName="animations_boy/load_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_pxn"
+			FileName="animations_boy/hall_sit_stool_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_pxn"
+			FileName="animations_boy/happy_carry_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_pxn"
+			FileName="animations_boy/beforecast_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_pxn"
+			FileName="animations_boy/cast_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_pxn"
+			FileName="animations_boy/emotion_dice_20_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers_pxn"
+			FileName="animations_boy/setoff_firecrackers_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_pxn"
+			FileName="animations_boy/emotion_threaten_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_pxn"
+			FileName="animations_boy/emotion_dice_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_askfor_aikugui_pxn"
+			FileName="animations_boy/emotion_askfor_aikugui_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_pxn"
+			FileName="animations_boy/emotion_trouble_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_flower_pxn"
+			FileName="animations_boy/emotion_flower_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_pxn"
+			FileName="animations_boy/glide_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_pxn"
+			FileName="animations_boy/climb_upstairs_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_pxn"
+			FileName="animations_boy/climb_upstairs_1_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_idle_r_pxn"
+			FileName="animations_boy/boy_idle_r_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_special_r_pxn"
+			FileName="animations_boy/boy_special_r_pxn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_boy/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_boy/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.466667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_boy/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_boy/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_boy/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_boy/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_boy/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_boy/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_boy/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_boy/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_boy/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_boy/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_boy/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep"
+			FileName="animations_boy/load_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.733334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_boy/hall_crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_boy/pzjg_char_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_boy/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_boy/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_boy/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_boy/hall_selfie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_boy/hall_selfie_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_boy/hall_selfie_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_boy/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_boy/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_boy/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.433333" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_boy/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<skin
+			idle="1,120"
+			run="1,130" />
+		<idle
+			skin="1,120"
+			run="1,130"
+			idle_special="1,120"
+			fall="1,120"
+			dizzy="1,120"
+			dizziness="1,120"
+			happy_axeboy_attack_show="1,120"
+			happy_axeboy_attack_rebound="1,120"
+			happy_axeboy_attack_2="1,120"
+			happy_axeboy_attack_2_end="1,120"
+			happy_axeboy_attack_1="1,120"
+			happy_axeboy_attack_1_end="1,120"
+			open_cabinet="1,120"
+			close_cabinet="1,120"
+			show_appear_bj_ab="1,120"
+			show_idle_bj_ab="1,120"
+			show_idle_special_bj_ab="1,120"
+			emotion_dice="1,120"
+			axeboy_attack_carry="1,120"
+			axeboy_attack_carry_end="1,120"
+			carry="1,120"
+			carry_hit="1,120"
+			carry_struggle="1,120"
+			carry_struggle_add="1,120"
+			catch="1,120"
+			destroy="1,120"
+			destroy_mb="1,120"
+			discard="1,120"
+			hang="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			hit="1,120"
+			pick="1,120"
+			repair_hook="1,120"
+			sprint_dizzy="1,120"
+			sprint_flying="1,120"
+			cursed="1,120"
+			strong_cursed="1,120"
+			disarm="1,300" />
+		<run
+			skin="1,120"
+			idle="1,120"
+			run="1,130"
+			idle_special="1,120"
+			load="1,120"
+			load_sit="1,120"
+			load_stand="1,120"
+			load_visit="1,120"
+			fall="1,120"
+			dizzy="1,120"
+			dizziness="1,120"
+			happy_axeboy_attack_show="1,120"
+			happy_axeboy_attack_rebound="1,120"
+			happy_axeboy_attack_2="1,120"
+			happy_axeboy_attack_2_end="1,120"
+			happy_axeboy_attack_1="1,120"
+			happy_axeboy_attack_1_end="1,120"
+			open_cabinet="1,120"
+			close_cabinet="1,120"
+			show_appear_bj_ab="1,120"
+			show_idle_bj_ab="1,120"
+			show_idle_special_bj_ab="1,120"
+			emotion_dice="1,120"
+			axeboy_attack_carry="1,120"
+			axeboy_attack_carry_end="1,120"
+			carry="1,120"
+			carry_hit="1,120"
+			carry_struggle="1,120"
+			carry_struggle_add="1,120"
+			catch="1,120"
+			destroy="1,120"
+			destroy_mb="1,120"
+			discard="1,120"
+			hang="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			hit="1,120"
+			pick="1,120"
+			repair_hook="1,120"
+			sprint_dizzy="1,120"
+			sprint_flying="1,120"
+			cursed="1,120"
+			strong_cursed="1,120"
+			disarm="1,300"
+			dmm_butcher_skill="1,200" />
+		<idle_special
+			idle="1,120"
+			run="1,130" />
+		<load
+			run="1,130" />
+		<load_sit
+			run="1,130" />
+		<load_stand
+			run="1,130" />
+		<load_visit
+			run="1,130" />
+		<fall
+			idle="1,120"
+			run="1,130" />
+		<dizzy
+			idle="1,120"
+			run="1,130" />
+		<dizziness
+			idle="1,120"
+			run="1,130" />
+		<happy_axeboy_attack_show
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_axeboy_attack_rebound
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_axeboy_attack_2
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_axeboy_attack_2_end
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_axeboy_attack_1
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_axeboy_attack_1_end
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<open_cabinet
+			idle="1,120"
+			run="1,130" />
+		<close_cabinet
+			idle="1,120"
+			run="1,130" />
+		<show_appear_bj_ab
+			idle="1,120"
+			run="1,130" />
+		<show_idle_bj_ab
+			idle="1,120"
+			run="1,130" />
+		<show_idle_special_bj_ab
+			idle="1,120"
+			run="1,130" />
+		<emotion_dice
+			idle="1,120"
+			run="1,130" />
+		<axeboy_attack_carry
+			idle="1,120"
+			run="1,130" />
+		<axeboy_attack_carry_end
+			idle="1,120"
+			run="1,130" />
+		<carry
+			idle="1,120"
+			run="1,130"
+			axeboy_attack_carry="1,120" />
+		<carry_hit
+			idle="1,120"
+			run="1,130" />
+		<carry_struggle
+			idle="1,120"
+			run="1,130" />
+		<carry_struggle_add
+			idle="1,120"
+			run="1,130" />
+		<catch
+			idle="1,120"
+			run="1,130" />
+		<destroy
+			idle="1,120"
+			run="1,130" />
+		<destroy_mb
+			idle="1,120"
+			run="1,130" />
+		<discard
+			idle="1,120"
+			run="1,130" />
+		<hang
+			idle="1,120"
+			run="1,130" />
+		<happy_carry
+			idle="1,120"
+			run="1,130"
+			happy_axeboy_attack_show="1,120"
+			happy_axeboy_attack_rebound="1,120"
+			happy_axeboy_attack_2="1,120"
+			happy_axeboy_attack_2_end="1,120"
+			happy_axeboy_attack_1="1,120"
+			happy_axeboy_attack_1_end="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120" />
+		<happy_carry_hit
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_carry_struggle
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_carry_struggle_add
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_discard
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<happy_pick
+			idle="1,120"
+			run="1,130"
+			happy_carry="1,120" />
+		<hit
+			idle="1,120"
+			run="1,130" />
+		<pick
+			idle="1,120"
+			run="1,130" />
+		<repair_hook
+			idle="1,120"
+			run="1,130" />
+		<sprint_dizzy
+			idle="1,120"
+			run="1,130"
+			disarm="1,300" />
+		<sprint_flying
+			idle="1,120"
+			run="1,130" />
+		<cursed
+			idle="1,120"
+			run="1,130" />
+		<strong_cursed
+			idle="1,120"
+			run="1,130" />
+		<disarm
+			idle="1,300"
+			run="1,300"
+			sprint_dizzy="1,300" />
+		<dmm_butcher_skill
+			run="1,200" />
+		<cr_jump_loop
+			cr_cannon_fall="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+	</TransitInfo>
+</AnimationConfig>

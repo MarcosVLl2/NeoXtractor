@@ -1,0 +1,26 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(0.32, 9.59, -1.52),(5.55, 9.59, 3.25),11.55" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0044,15.8785,0.1588" BoundingHalf="1.2615,1.9474,1.2432" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="muou_e_qishi_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.3168,13.3604,-0.1640" BoundingHalf="5.5536,3.6044,1.7905" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="muou_e_qishi_body01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.2658,13.4739,-0.3541" BoundingHalf="4.7576,2.5675,1.7557" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="muou_e_qishi_body01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="-0.0340,5.4297,-0.0141" BoundingHalf="1.8747,5.4280,1.7354" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="muou_e_qishi_body02_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="0.0609,1.7263,-0.2219" BoundingHalf="1.7797,1.6224,1.2161" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="muou_e_qishi_body02_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="0.0839,16.9474,-0.2612" BoundingHalf="2.0251,2.1826,1.8033" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="muou_e_qishi_hair_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="0.0245,18.1485,0.1046" BoundingHalf="1.4598,1.0386,0.5704" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="muou_e_qishi_hair_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub7 BoundingCenter="0.0915,8.0596,-2.7686" BoundingHalf="0.3603,1.7500,2.0026" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="muou_e_qishi_tail" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_muou.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_muou.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped head" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="-0.0285,0.0239,-0.7063,0.7069" LocalScale="1.0000,1.0000,1.0000" Name="head_direction" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

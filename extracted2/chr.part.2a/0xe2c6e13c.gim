@@ -1,0 +1,28 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_bone50" BoundingInfo="(0.17, 7.73, -4.47),(7.16, 5.75, 3.52),9.84" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.1734,7.8060,-4.3498" BoundingHalf="7.1650,5.6688,3.3429" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="ttds_e_kbl_weapon005_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.1434,7.7190,-4.4738" BoundingHalf="6.9965,5.7421,3.5184" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="ttds_e_kbl_weapon005_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.0535,6.0617,-5.1372" BoundingHalf="5.7362,2.9518,2.7055" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="ttds_e_kbl_weapon005_2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="../../../h55_survivor_m_zbs/separate_dir/zbs_e_jide/zbs_e_jide_pifeng.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../../h55_survivor_m_zbs/separate_dir/zbs_e_jide/zbs_e_jide_pifeng.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_pifeng.stb" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_bone53" BindingFlag="2" LocalPosition="-0.0859,-0.0001,0.5918" LocalRotation="-0.2811,0.0918,0.6886,0.6621" LocalScale="0.9998,1.0000,1.0002" Name="const_fx_pf_kaibuli_idle_013" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f1969f8b1e430d0d" Inherit="7" Loading="4" Name="ttds_kaibuli_idle_011.pse" Uri="fx/survivor/ttds_kaibuli_idle_011.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone069" BindingFlag="2" LocalPosition="1.6848,0.0034,-0.3084" LocalRotation="-0.0676,-0.0679,0.7038,0.7039" LocalScale="0.9994,1.0000,1.0006" Name="const_fx_pf_kaibuli_idle_014" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b4fd9af18322d3de" Inherit="7" Loading="4" Name="ttds_kaibuli_idle_010.pse" Uri="fx/survivor/ttds_kaibuli_idle_010.pse" />
+        </Socket_1>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,20 @@
+
+plot_2022_desk_placement_advanced_2.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wupin_28
+  rotate: true
+  xy: 2, 23
+  size: 57, 192
+  orig: 57, 192
+  offset: 0, 0
+  index: -1
+wupin_29
+  rotate: false
+  xy: 196, 2
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1

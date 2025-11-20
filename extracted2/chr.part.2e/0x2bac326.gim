@@ -1,0 +1,24 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(0.01, 9.45, -0.37),(5.43, 9.45, 2.34),11.15" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0102,7.7270,0.0887" BoundingHalf="5.4292,7.7285,1.8822" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="fxj_d_mianbao_body" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.0616,13.5396,0.3159" BoundingHalf="5.1992,4.7660,1.1122" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="fxj_d_mianbao_body02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-0.0789,16.2049,-0.3710" BoundingHalf="2.0499,2.6890,2.0271" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="fxj_d_mianbao_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="0.0000,11.1214,-0.7867" BoundingHalf="2.3179,2.2132,1.9239" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="fxj_d_mianbao_weapon" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_fxj.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_fxj.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_bone14" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.6494,-0.6771,0.1573,0.3083" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_011" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0388860245eb1251" Inherit="7" Loading="2" Name="huandeng_baojun_zhanshi_idle_special_006.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_006.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

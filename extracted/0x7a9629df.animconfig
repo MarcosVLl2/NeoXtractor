@@ -1,0 +1,156 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_polun_arm_right/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_polun"
+			FileName="animations_polun_arm_right/show_idle_special_polun.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8.1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="human_to_wheel_1"
+			FileName="animations_polun_arm_right/human_to_wheel_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="wheel_to_human_2"
+			FileName="animations_polun_arm_right/wheel_to_human_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="nage_wana"
+			FileName="animations_polun_arm_right/nage_wana.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="ready_nage_wana"
+			FileName="animations_polun_arm_right/ready_nage_wana.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_qiuqiu_polun"
+			FileName="animations_polun_arm_right/show_appear_qiuqiu_polun.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_hutao_polun"
+			FileName="animations_polun_arm_right/show_appear_hutao_polun.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="13.2666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hutao_polun"
+			FileName="animations_polun_arm_right/show_idle_special_hutao_polun.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.0333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_shatan_polun"
+			FileName="animations_polun_arm_right/show_appear_shatan_polun.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="16"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_pzz_polun"
+			FileName="animations_polun_arm_right/show_idle_pzz_polun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.466666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_pzz_polun"
+			FileName="animations_polun_arm_right/show_appear_pzz_polun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.333333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_pzz_polun"
+			FileName="animations_polun_arm_right/show_idle_special_pzz_polun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.033333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_polun_arm_right/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_polun_arm_right/hall_selfie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_polun_arm_right/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_polun_arm_right/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_polun_arm_right/hall_selfie_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

@@ -1,0 +1,45 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="bone002" BoundingInfo="(0.00, 1.74, -0.03),(1.76, 1.73, 0.51),2.52" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" Mesh="chr\boss\banshee\skill_hudie_banshee\skill_hudie_banshee.mesh" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,1.7351,-0.0276" BoundingHalf="1.7619,1.7308,0.5083" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="skill_hudie_banshee" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="skill_hudie_banshee.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="skill_hudie_banshee.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0007,0.0004,-0.3827,0.9239" LocalScale="1.0002,1.0002,1.0002" Name="const_fx_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="89c58a11e7db33b6" Inherit="7" Loading="1" Name="liekou_yanli_skill_hudie_idle_001" Uri="fx\pendant\liekou_yanli_skill_hudie_idle_001.pse" />
+            <Object CastShadow="false" Id="d6ab9c29873eb959" Inherit="7" Loading="1" Name="liekou_yanli_skill_hudie_idle_005.pse" Uri="fx\pendant\liekou_yanli_skill_hudie_idle_005.pse" />
+            <Object CastShadow="false" Id="b33a6e2430200514" Inherit="7" Loading="2" Name="liekou_yanli_skill_hudie_idle_006.pse" Uri="fx\pendant\liekou_yanli_skill_hudie_idle_006.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-0.2780,20.0050,0.2540" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="key" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="e2169e0eba356e7d" Inherit="7" Loading="1" Name="liekou_skill_hudie_001" Uri="wwise/killer.bnk:killer/Event|P_killer_killer_skill_3p_liekou_skill_hudie_001" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_special" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_6 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="vo_outside" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_7 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-3.8079,24.9799,7.2023" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="24ad898b3ec72bf5" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_7>
+        <Socket_8 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-4.7336,21.8094,5.0461" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="57cc86df4a4b7c1f" Inherit="7" Loading="1" Name="yanhua2022_shouchi" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_8>
+        <Socket_9 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.6033,0.0333,0.2233" LocalRotation="-0.0010,0.0000,-0.9267,0.3759" LocalScale="0.6648,0.6644,0.6638" Name="chunjie_yanhua" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_10 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_11 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.9309,-0.3116,0.4938" LocalRotation="0.4734,0.1119,-0.7230,0.4906" LocalScale="1.0017,1.0023,1.0026" Name="const_fx_dmm_bld" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_12 BindType="7" BindingBone="bone002" BindingFlag="2" LocalPosition="0.8187,0.8424,-0.0168" LocalRotation="0.6587,-0.2481,-0.6752,-0.2205" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_idle_004" PlayRatePolicy="0" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="c99236e13312f116" Inherit="7" Loading="1" Name="liekou_yanli_skill_hudie_idle_004.pse" Uri="fx\pendant\liekou_yanli_skill_hudie_idle_004.pse" />
+        </Socket_12>
+    </SocketObject>
+</NeoX>

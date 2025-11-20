@@ -1,0 +1,702 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Animation",
+		"AssetVersion" : 1,
+		"Dependices" : [
+			"chr/player/dm65_survivor_m/h55_survivor_m_zbs/animations_h55_survivor_m_zbs/run_chunxin.cpdanimation"
+		]
+	},
+	"_FileTypeInfo" : {
+		"/m_track_group/0/tracks/0" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/1" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/2" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/3" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/4" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/1" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/2" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/3" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/action_data_list/0/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/0" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/1/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/1" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/2/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/2" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/3/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/3" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/4/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/4" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/5/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/5" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/6/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/6" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/7/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/7" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/8/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/8" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/9/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/9" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/10/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/10" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/11/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/11" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/12/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/12" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/13/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/13" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/14/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/14" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/15/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/15" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/16/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/16" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/17/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/17" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/18/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/18" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/19/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/19" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/20/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/20" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/motion_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		},
+		"/motion_joint_rest_transform_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		}
+	},
+	"m_track_group" : [
+		{
+			"property_name" : "Notifier",
+			"display_name" : "",
+			"tracks" : [
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,3.6666667461395264
+						],
+						"key_values" : [
+							"start","end"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/SyncNotifierTrack",
+					"display_name" : "sync",
+					"curve" : {
+						"key_times" : [],
+						"key_values" : []
+					}
+				},
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,0.11330000311136246,0.2540999948978424,0.6200000047683716,0.9858999848365784,1.3517999649047852,1.7178000211715698,2.0841000080108643,2.450000047683716,2.8159000873565674,3.1819000244140625,3.547800064086914,3.666599988937378
+						],
+						"key_values" : [
+							"start0","sound0","sound3","sound4","sound5","sound1","sound6","sound7","sound8","sound9","sound10","sound2","end0"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.11330000311136246,0.2540999948978424,0.6200000047683716,0.9858999848365784,1.3517999649047852,1.7178000211715698,2.0841000080108643,2.450000047683716,2.8159000873565674,3.1819000244140625,3.547800064086914
+						],
+						"key_values" : [
+							"sound0_0","sound3_0","sound4_0","sound5_0","sound1_0","sound6_0","sound7_0","sound8_0","sound9_0","sound10_0","sound2_0"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.2540999948978424,0.6200000047683716,0.9858999848365784,1.3517999649047852,1.7178000211715698,2.0841000080108643,2.450000047683716,2.8159000873565674,3.1819000244140625,3.547800064086914
+						],
+						"key_values" : [
+							"sound3_1","sound4_1","sound5_1","sound1_1","sound6_1","sound7_1","sound8_1","sound9_1","sound10_1","sound2_1"
+						]
+					}
+				}
+			]
+		},
+		{
+			"property_name" : "CustomCurve",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Material",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Morph",
+			"display_name" : "",
+			"tracks" : []
+		}
+	],
+	"action_data_list" : [
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound0_0"
+			],
+			"loop_trigger" : false,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "ebc01e9b3d7fbb24",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax_lp",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound3_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound4_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound5_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound1_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound6_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound7_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound8_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound9_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound10_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound2_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "5a463d11a1b8eacb",
+			"socket_name" : "sound",
+			"obj_name" : "2022wanshengjie_chase_wax",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound3_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound4_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound5_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound1_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound6_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound7_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound8_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound9_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound10_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound2_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "92468a94636b2814",
+			"socket_name" : "sound",
+			"obj_name" : "run",
+			"state" : 0,
+			"fadeout_time" : 0
+		}
+	],
+	"name" : "run_chunxin",
+	"animation_property" : {
+		"name" : "Clip",
+		"start_time" : 0,
+		"end_time" : 3.6666667461395264,
+		"motion" : {
+			"extracted_joint_name" : "",
+			"rotation_mode" : "None",
+			"translation_mode" : "None",
+			"reference_frame" : "None"
+		},
+		"target_compression_level" : "High",
+		"default_loop" : true,
+		"default_rate" : 1,
+		"cached_pose_count" : 0,
+		"raw_fbx_uri" : "",
+		"compressed_by_editor" : false
+	},
+	"motion_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"motion_joint_rest_transform_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"animation_layer" : [],
+	"is_retargeted" : false,
+	"related_joint_names" : [],
+	"pose_time" : [],
+	"pose_data" : []
+}

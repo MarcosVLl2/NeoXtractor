@@ -1,0 +1,31 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<AnimationList>
+		<Animation
+			Name="show_idle_special_kbl_ttds"
+			FileName="animations_ttds_e_kbl_jiachong1/show_idle_special_kbl_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="skin"
+			FileName="animations_ttds_e_kbl_jiachong1/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_tx"
+			FileName="animations_ttds_e_kbl_jiachong1/idle_tx.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.4" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

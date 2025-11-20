@@ -1,0 +1,563 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/sockets/spaces/0" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/1" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/2" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/3" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/4" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/5" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/6" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/7" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/8" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/9" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/10" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/11" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/12" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/13" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/14" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/15" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/16" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/17" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/18" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/19" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/20" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/21" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/22" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/23" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/24" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/25" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/26" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/27" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/28" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/29" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/30" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/31" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/32" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/33" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/34" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/35" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/36" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/37" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/38" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/39" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/40" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/41" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/42" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/43" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/44" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/45" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/46" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/47" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/48" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/49" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/50" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/51" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/52" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/53" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/54" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/55" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/56" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "h55_survivor_m_zbs",
+	"joint_names" : [
+		"biped","biped pelvis","biped spine","biped l thigh","biped r thigh","biped_bone10","biped_bone11","biped spine1","biped l calf","biped r calf","biped spine2","biped l foot","biped r foot","biped neck","biped_bone12","biped l toe0","biped r toe0","biped head","biped l clavicle","biped r clavicle","biped_bone13","biped_bone01","biped_bone02","biped_bone03","biped_bone04","biped_bone05","biped_bone06","biped_bone07","biped_bone08","biped_bone09","biped l upperarm","biped r upperarm","biped_bone14","biped l forearm","biped r forearm","biped l hand","biped r hand","biped l finger0","biped l finger1","biped l finger2","biped l finger3","biped r finger0","biped r finger1","biped r finger2","biped r finger3","biped l finger01","biped l finger11","biped l finger21","biped l finger31","biped r finger01","biped r finger11","biped r finger21","biped r finger31"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,1,1,1,1,2,3,4,7,8,9,10,10,11,12,13,13,13,14,17,17,17,17,17,17,17,17,17,18,19,20,30,31,33,34,35,35,35,35,36,36,36,36,37,38,39,40,41,42,43,44
+	],
+	"reference_pose" : "AAAAAKiBEkEZjby9AACAPwAAAAD7BDW/AAAAAOwENT8AAIA/AACAPwAAgD8AAIA/AAAAAAAAAAAAAAAAAACAP+j//z4AAAA/AAAAPwwAAD8AAIA/AACAPwAAgD8AAIA/zfoBPTCmmz8AADgrAACAPxgNAD8D5v8+1eX/PvsMAD8AAIA/AACAPwAAgD8AAIA/st+Gtfp/OT8AACI1AACAP/vWHL0S24G6nsl/P/PjYjwAAIA/AACAPwAAgD8AAIA/rN+GNfp/Ob8AAL21AACAP//WHL2tqoE6ncl/P+jpYrz//38/AACAPwAAgD8AAIA/FJUKP4sdYb+TN3A/AACAP1nnAr26w34/kJS0PfBg7LwAAIA/AACAPwAAgD8AAIA/22pBP/bHZz9KfG4/AACAP91Bfz2ym3Q/IrhMvl3AVL4AAIA/AACAPwAAgD8AAIA/8WU+P2DjarEgh6G6AACAPwAAACkAAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/FrN4QAAAAAAAAICzAACAP+sHgC2FLbS87AcAsSbwfz8AAIA/AACAPwAAgD8AAIA/F7N4QAAAAAAAAAAzAACAP+wHAC6GLbS87AeAMCbwfz8AAIA/AACAPwAAgD8AAIA/2BXGP0AndLFA5qe6AACAP/YiCCnpbjc9A18FtEC+fz///38/AACAP///fz8AAIA/EJiOQAAAgLMAAICzAACAP11snToLloW8/HZiPPrwfz8BAIA/AACAPwEAgD8AAIA/EZiOQAAAAAAAAAAAAACAP1FsnboMloW8WndivPrwfz8AAIA/AACAPwAAgD8AAIA/TX7XP2riOLVWSH6+AACAP1xvQilwjSG+i+zqNEPLfD8BAIA/AACAPwEAgD8AAIA/HbsxP9dvVj96Jsa/AACAP0JVdb2ShH8/ZlPeu8eWOrz//38/AACAPwAAgD8AAIA/uoZNPwAAAACrY5U/AACAP+e8EyDzBDW/57wTIPQENT8AAIA/AACAPwAAgD8AAIA/uoZNPwAAgDOqY5U/AACAPwYFFqDzBDW/BgUWoPQENT8AAIA/AACAPwAAgD8AAIA/eFj/PoBQqDEAZec6AACAP6+LNiqDOp49oxZmtB08fz8AAIA/AACAPwAAgD8AAIA/mRoavx2xQD8kd1Q+AACAPyMDID/oYUM/SKaGvcCYGb7+/38///9/PwAAgD8AAIA/mRoavwuxQL88eFQ+AACAPxwDIL/qYUM/LKWGPTSZGb4AAIA///9/PwAAgD8AAIA/j747QAAAwDMAAFq3AACAPxAB7bdf7fI8I+d2PfRrfz///38/AACAP///fz8AAIA/zWINQI5z6z6r8WY/AACAP4pnC78a7O6+A9DNvta+ET8AAIA///9/P/7/fz8AAIA/8BzzPnE9yr6iRZg/AACAP6iJOz/g4CY13kEuP4/CVjX//38/AACAP///fz8AAIA/JQXiPz+RAz/iRk4/AACAP15cGbXJ5yS/P0Y5NMrPQz///38/AACAP///fz8AAIA/NAXiP1+VA7/wRk4/AACAP8jPQz/x+pQ0yuckP5jR7zT+/38/AACAP/7/fz8AAIA/cxftP703hjbgYZQ/AACAP0IrCbNONXo/YXYetB2WWL4AAIA/AACAPwAAgD8AAIA/zGINQLqE67698WY/AACAP+u+Eb8J0M2+7+vuvoVnCz///38//P9/PwAAgD8AAIA/shzzPgcMyj6YRZg/AACAP3nLsrThQS6/irH/M6WJOz8AAIA/AACAPwAAgD8AAIA/aErGP743BjYknX++AACAPxodrbTvtR6/wAQcNI3dSD/+/38/AACAP/7/fz8AAIA/Lt/YPgAAgCqWqVI+AACAP1WGo7RvCUu/jsrjNFfsGz///38/AACAP///fz8AAIA/8T6HPwAA4LUAAMA0AACAPzfSMr2pC2C9WFG8vjRhbT8AAIA/AQCAPwAAgD8AAIA/7T6HPwAA8DUAAIA0AACAPzjSMj2rC2C9WlG8PjRhbT///38/AACAPwAAgD8AAIA/L896QAAAgLMAAAC0AACAP4uE0znZyo08PVrqti72fz8CAIA/AQCAPwIAgD8AAIA/ZJYGQAAAgLQAAAAAAACAP/bK0DHUTbI95nyAsicHfz8AAIA/AACAPwEAgD8AAIA/XpYGQAAAALUAAICzAACAPx+cILHUTbI9AAAAACcHfz///38/AACAP///fz8AAIA/N4cOQAAAgLQAAICzAACAPy8QOj8Zkom9MX6OPTwULj8BAIA/AQCAPwEAgD8AAIA/MocOQAAAQLUAAEC0AACAPzIQOr8akom9NH6OvToULj8BAIA/AQCAPwEAgD8AAIA/sDegPmv1L78gJf89AACAP0gVB78PJdQ+mr7lvl4iFz8CAIA/AACAPwAAgD8AAIA/0u2OP5qp1r5AaJG9AACAP5JNzTk+Odq5kMWDPIP3fz/9/38/BQCAPwIAgD8AAIA/opGNP5GzsT1Auvy9AACAP7N60Dkp40u9vEGmt8Gufz8FAIA/AQCAPwQAgD8AAIA/En+IPwPNoz4AHZS8AACAP+uH0DkSFpU3B+82vZq+fz8DAIA/AwCAP///fz8AAIA/gDegPmr1Lz+AJf89AACAP0gVBz8RJdQ+m77lPl0iFz8BAIA/AACAP///fz8AAIA/yu2OP5ip1j5AaJG9AACAP6RNzbk+Ndq5kMWDvIP3fz/8/38/BACAPwIAgD8AAIA/lpGNP5Kzsb0Auvy9AACAP7V60Lki40u9vD+mN8Gufz8EAIA///9/PwQAgD8AAIA/Cn+IPwPNo76AHJS8AACAP6KH0LkcNpU3Bu82PZq+fz8CAIA/AwCAP///fz8AAIA//LrbPgAAgLQAAMC0AACAP78GADLuMKY8vwYAMYPyfz///38/AACAP///fz8AAIA/YH61PgAAAAAAAAAAAACAP7JagDDGDZi9sloAMSBLfz///38/AACAP///fz8AAIA/SCq9PgAAILMAAMA1AACAP0ZEADBzAIS9SEQAsLt3fz///38/AACAP///fz8AAIA/cKfpPgAAgDMAAMA1AACAP3k3ADD2CG69eTeAMD6Rfz///38/AACAPwAAgD8AAIA/+LrbPgAAgDUAAIC1AACAP8EGALLsMKY8vgaAsYPyfz8BAIA/AACAP///fz8AAIA/WH61PgAAgDMAAAC1AACAP7FaALHBDZi9sVqAMCBLfz8AAIA/AQCAPwAAgD8AAIA/QCq9PgAAwDIAAMA1AACAPwAAAAByAIS9RkSAsLt3fz///38/AACAP///fz8AAIA/YKfpPgAAAAAAAAAAAACAP3k3ADDuCG69AAAAAD6Rfz///38/AACAPwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			53
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [
+			"copycat_cuimianshi_huaibiao","cr_fish","hall_pumpkin","sound_show_sk","decal","sound_sk","cr_taoquan","survivor_vo_m","fx_spzaji_skill_buff_01","fx_zhadanren_guwu_debuff_001","fx_zhadanren_guwu_debuff_005","fx_zhadanren_guwu_debuff_009","fx_zhadanren_guwu_debuff_004","fx_zhadanren_guwu_debuff_002","fx_zhadanren_guwu_debuff_003","fx_zhadanren_guwu_debuff_006","fx_zhadanren_guwu_debuff_007","carry_balloon_moonriver","guajian_yuyan_jinji","copycat_xuetu_skill","const_2024shengdan_r","const_2024shengdan_l","hall_hand_prop","emotion_huadeng","hall_pumpkin_1","fx_zhadanren_guwu_debuff_001_1","root_wuma","skip_render_config_fx_001","const_fx_oph_idle_l","const_fx_oph_idle_r","const_fx_leichong_feilun","cr_ww_l","cr_ww_r","cr_ww_gun","cr_ww_cannon","cr_ww_qiu","cr_ww_penguan_1","cr_ww_penguan_2","cr_hand_wand","cr_ww_penshuihu_1","sound_waterwar","const_fx_huandeng_skill_001","cr_ww_can","cr_ww_daoguang_1","friendly_meet","cr_ww_sword","fx_sword_001","fx_sword_002","fx_sword_003","nanguadeng","guajian_xzblk","maze_eye","const_fx_blk_owl_002","const_fx_blk_owl_001","h55_guajian_rlsbk","weapon_xmas","vo_guge"
+		],
+		"related_joint_names" : [
+			"","biped l hand","biped head","","","","biped r hand","","biped l forearm","biped head","biped r calf","biped l calf","biped r thigh","biped r upperarm","biped r forearm","biped l upperarm","biped l forearm","biped r hand","biped l forearm","","biped r foot","biped l foot","biped r hand","biped r hand","biped head","biped head","biped","","biped l forearm","biped r forearm","biped spine1","biped l hand","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","biped r hand","","","biped r hand","","biped r hand","biped r hand","","","","biped r hand","biped spine2","biped head","","","biped spine2","biped r hand",""
+		],
+		"spaces" : [
+			[
+				0,15,5,0,0,0,1,1,1,1
+			],
+			[
+				1.069398,-0.0329,-0.689899,-0.366699,0.440284,-0.627447,0.527247,1.004415,1.003553,1.001206
+			],
+			[
+				-0.529797,0.000096,0.0114,-0.025854,0.025823,-0.706543,0.706725,1.001199,1.0015,1.001286
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1.464678,0.366766,1.181838,0.237231,0.000959,0.166829,0.95702,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				2,0,0,0,0,0.707106,0.707106,0.699998,0.699998,0.699998
+			],
+			[
+				0,0,0,-0.724303,-0.679077,0.076984,0.091163,1,1,1
+			],
+			[
+				2.02618,-0.146181,0.14515,0.153242,-0.37387,0.630973,0.662276,0.999997,1.2,0.999997
+			],
+			[
+				2.401268,-0.426784,-0.788447,0.737453,-0.633882,0.118827,0.200589,0.999997,1.2,0.999997
+			],
+			[
+				2.459098,-0.743938,-0.654129,-0.32771,-0.056469,0.612619,0.717017,1,1,1
+			],
+			[
+				1.331537,-0.608739,0.095408,0.770951,-0.509393,0.091026,0.371302,0.6,0.6,0.6
+			],
+			[
+				1.130069,0.363489,0.381229,-0.065347,0.008321,0.62288,0.779538,0.699998,0.699998,1
+			],
+			[
+				0.748255,0.95503,-0.084509,0.665619,0.72272,0.18117,-0.042454,0.6,0.6,0.6
+			],
+			[
+				1.224482,-0.087476,-0.524155,0.693486,-0.653245,-0.302733,-0.026417,0.699998,0.699998,0.699998
+			],
+			[
+				0.933969,0.322447,0.353632,-0.676249,0.72654,-0.121742,-0.001917,1,1,1
+			],
+			[
+				0,0,0,-0.462303,0.882416,-0.010563,0.08663,1,1,1
+			],
+			[
+				0,22.5,2.7021,0,0,0,1,1,1,1
+			],
+			[
+				0.843698,-0.015398,0.5338,0,0.000161,0.70723,0.706983,1.001999,1.001798,1.001
+			],
+			[
+				0.8446,0.019796,0.5339,0.000134,0,0.707247,0.706965,1.001999,1.001798,1.001
+			],
+			[
+				0.876218,0.249621,0.200938,-0.053897,0.158142,-0.144096,0.975357,1.004866,0.986768,1.008499
+			],
+			[
+				0.844847,-0.222552,0.508445,0.681084,-0.731106,-0.038637,0.010653,0.982203,1.001564,1.016523
+			],
+			[
+				-0.529797,0.000096,0.0114,-0.025854,0.025823,-0.706543,0.706725,1.001199,1.0015,1.001286
+			],
+			[
+				0,0,0,-0.724303,-0.679077,0.076984,0.091163,1,1,1
+			],
+			[
+				-0.078169,-8.628252,-0.18343,0.04992,0.67596,0.008767,0.735193,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1,0,0,0,0,0,1,1,1,1
+			],
+			[
+				1.850998,-0.0046,-0.2614,-0.125769,0.050638,-0.840855,0.524003,1.000679,1.000517,1.000674
+			],
+			[
+				0,0,0,0.312476,-0.631793,0.624014,0.337345,1,1,1
+			],
+			[
+				0,0,0,-0.63029,0.313565,0.339771,0.623671,1,1,1
+			],
+			[
+				-0.000003,0.000006,0,-0.653079,0.25979,0.294426,0.647541,1,1,1
+			],
+			[
+				-0.000009,0.000018,0.000003,-0.510281,0.470762,0.362331,0.621861,1,1,1
+			],
+			[
+				0.404989,-0.183687,-0.115873,-0.630437,0.316363,0.337368,0.623413,0.999997,0.999996,0.999996
+			],
+			[
+				-1.5,-0.949998,0.059999,-0.49394,0.48599,0.136353,0.707985,1,1,1
+			],
+			[
+				2.099997,2.75,0.449999,0.497507,-0.547381,0.320557,0.591694,1,1,1
+			],
+			[
+				0.603999,1.643,0.442999,-0.630387,0.316519,0.337226,0.623461,1,1,1
+			],
+			[
+				4.5,1.899999,0.079998,-0.676085,0.079264,0.709624,0.181822,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,10,0,0,0,0,1,1,1,1
+			],
+			[
+				0.171011,-0.207883,0.025232,-0.557844,0.400536,0.438542,0.579707,1,1,1
+			],
+			[
+				3,10.3,4.699995,0.727097,0.676845,0.078312,-0.084123,1,1,1
+			],
+			[
+				0.970444,0.182144,0.23747,-0.496325,0.476914,0.461897,0.559342,1,1,1
+			],
+			[
+				0.470079,-0.875539,0.264454,-0.035355,-0.186057,-0.100418,0.976754,0.999997,0.999993,0.999993
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0.648024,-0.220036,0.205253,-0.580133,0.801609,-0.138778,0.040102,1,1,1
+			],
+			[
+				-0.284514,1.320358,1.207151,-0.23221,-0.134427,-0.664982,0.696996,1,1,1
+			],
+			[
+				1.971498,0.040072,1.416489,0,0,0,1,1,1,1
+			],
+			[
+				5.642555,23,-18.059065,0,0,0,1,1,1,1
+			],
+			[
+				0.247528,28.366405,-11.190723,0,0,0,1,1,1,1
+			],
+			[
+				0.037533,0.975744,1.167389,0.009827,0.108799,-0.71651,0.688968,1,1,1
+			],
+			[
+				0.96499,0.026346,0.389423,0.000189,0.000087,-0.000498,0.999999,0.998603,1.002366,1.003437
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			]
+		],
+		"binding_flags" : [
+			"LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset"
+		],
+		"play_rate_policies" : [
+			"InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel"
+		],
+		"bind_types" : [
+			7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+		],
+		"sync_vos" : [
+			"None","None","None","None","None","None","None","Sync","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None"
+		],
+		"submesh_sort_idxs" : [
+			7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,-1,-1,-1,-1,-1,-1,-1
+		],
+		"preloading_levels" : [
+			-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+		]
+	},
+	"socket_objects" : {
+		"names" : [
+			"Event|Play_m_show_appear_peng_xf","Event|Play_m_show_idle_peng_xf","Event|Play_m_show_idle_special_peng_xf","Event|Play_m_show_appear_panta_yc","Event|Play_m_show_idle_special_panta_yc","Event|Play_m_show_idle_panta_yc","Event|Play_m_show_appear_wenshi_rls","Event|Play_m_show_idle_special_wenshi_rls","Event|Play_m_show_idle_wenshi_rls","Event|Play_m_show_appear_oph_yxz","Event|Play_m_show_idle_xd_yxz","Event|Play_m_show_idle_special_oph_yxz","Event|Play_m_show_idle_special_xd_yxz","Event|Play_m_show_appear_xd_yxz","Event|Play_m_show_idle_oph_yxz","Event|Play_show_appear_hqs_dzxh","Event|Play_show_idle_has_dzxh","Event|Play_show_idle_special_hqs_dzxh","Event|Play_show_appear_weiwei_cp","Event|Play_show_idle_special_weiwei_cp","Event|Play_show_idle_weiwei_cp","Event|Play_m_show_appear_nongchen_spjk","Event|Play_m_show_idle_nongchen_spjk","Event|Play_m_show_idle_special_nongchen_spjk","Event|Play_m_show_appear_duose_artist","Event|Play_m_show_idle_duose_artist","Event|Play_m_show_idle_special_duose_artist","Event|Play_m_show_appear_luo_cp","Event|Play_m_show_idle_luo_cp","Event|Play_m_show_idle_special_luo_cp","Event|Play_yinyue_show_appear_qz_yinyue","Event|Play_yinyue_show_idle_qz_yinyue","Event|Play_yinyue_show_idle_special_qz_yinyue","Event|Play_fxj_show_appear_shaobing_fxj","Event|Play_fxj_show_idle_shaobing_fxj","Event|Play_fxj_show_idle_special_shaobing_fxj","Event|Play_muou_show_appear_coa8_muou","Event|Play_muou_show_idle_coa8_muou","Event|Play_muou_show_idle_special_coa8_muou","Event|Play_bzt_show_appear_huisu_bzt","Event|Play_bzt_show_idle_huisu_bzt","Event|Play_bzt_show_idle_special_huisu_bzt","Event|Play_m_show_appear_ltc_zaji","Event|Play_m_show_idle_ltc_zaji","Event|Play_m_show_idle_special_ltc_zaji","Event|Play_m_show_idle_moli_dxzh","Event|Play_m_show_appear_moli_dxzh","Event|Play_m_show_idle_special_moli_dxzh","Event|Play_show_appear_tanzhang_dafu","Event|Play_show_idle_special_tanzhang_dafu","Event|Play_show_idle_tanzhang_dafu","Event|Play_show_appear_holmes_bzt","Event|Play_show_idle_holmes_bzt","Event|Play_show_idle_special_holmes_bzt","Event|Play_m_show_appear_huasheng_yc","Event|Play_m_show_idle_huasheng_yc","Event|Play_m_show_idle_special_huasheng_yc","Event|Play_m_show_appear_qiang_niuzai","Event|Play_m_show_idle_qiang_niuzai","Event|Play_m_show_idle_special_qiang_niuzai","Event|Play_m_show_appear_nf_kantan","Event|Play_m_show_idle_nf_kantan","Event|Play_m_show_idle_special_nf_kantan","Event|Play_it_show_appear_zy_it","Event|Play_it_show_idle_special_zy_it","Event|Play_it_show_idle_zy_it","Event|Play_m_show_appear_dj_qiutu","Event|Play_m_show_idle_dj_qiutu","Event|Play_m_show_idle_special_dj_qiutu","Event|Play_m_show_appear_kfc_dzxh","Event|Play_m_show_idle_kfc_dzxh","Event|Play_m_show_idle_special_kfc_dzxh","Event|Play_m_show_appear_pzn_yinyue","Event|Play_m_show_idle_pzn_yinyue","Event|Play_m_show_idle_special_pzn_yinyue","Event|Play_m_show_appear_niexi_e_axyy","Event|Play_m_show_idle_niexi_e_axyy","Event|Play_m_show_idle_special_niexi_e_axyy","Event|Play_m_show_appear_sg_cp","Event|Play_m_show_idle_sg_cp","Event|Play_m_show_idle_special_sg_cp","Event|Play_3p_emotion_qiangwei_kantan","Event|P_survivor_survivor_3p_foot_run","Event|P_survivor_survivor_1p_attack_surv_skill_sprint","Event|Play_3p_knight_predict_2","Event|Play_3p_knight_predict_1","Event|Play_3p_knight_rescue","Event|Play_3p_knight_rescue_end","Event|P_survivor_survivor_3p_attack_survivor_savejoin2","Event|P_dwrg_detective_detective_knock_wall","climb","low_walk","run","walk","survivor_carry_struggle1","survivor_catch_by","survivor_hit3","survivor_slide","survivor_slide_land","survivor_bind_up","survivor_getup","survivor_getup2","survivor_grope","survivor_hit2_delete","survivor_idle_special_delete","survivor_out","survivor_shy","survivor_treat","survivor_bodyfall_h","survivor_bodyfall_l","password_button","survivor_slide_wood","survivor_dismantle_delete","survivor_repair1","survivor_repair2","survivor_repair4","survivor_hit_fly_delete","survivor_agree","survivor_saveby2_delete","survivor_savejoin2_delete","surv_skill_sprint_dizziness","surv_skill_sprint_hit","surv_skill_sprint_stop","surv_skill_paoku","surv_skill_blind_walk","surv_skill_blind","surv_skill_fenshen_yinshen","cast_magnet_1","cast_magnet_3","raise_magnet","dig_soil","outfire_survivor","zaji_jump_over_ice","zaji_jump_over_fire","zaji_jump_over_earth","cuimianshi_skill","qianfeng_sprint_hit_p5","tiaojiu_passing_wine_object","survivor_whoosh_fb","survivor_emotion_careful_fb_delete","emotion_ace_zaji_delete","check_window_lock","painting_over","painting_set","painting_start","painting_continue_01","emotion_wonder_zaji","emotion_tired_yc","kitchenknife_attack","kitchenknife_attacked","tiaojiu_drink_wine","bat_end","bat_exciting","ball_find","emotion_listen_yc","emotion_listen_niuzai","emotion_tredpack_kt","show_appear_lzr_niuzai","show_idle_lzr_niuzai","show_idle_special_lzr_niuzai","emotion_anfu_yeren","toyman_jump_out_1","toyman_jump_out_2","scholar_throw_click","scholar_throw_fly","scholar_throw_miss","notebook_write_start","notebook_read_end","notebook_read_start","sprint_suhua_lp","sprint_suhua_step","xuezhe_skill_hug_001_sfx","fst_run_spjk","emotion_photo","emotion_rebirth_xz","toyman_fly_over","toyman_fly_prepare","toyman_fly","dod_catch_normal_delete","dod_catch_perfect","dod_charging","dod_throw","dod_throw_above","dod_throw_left","dod_throw_right","surv_skill_splash","surv_skill_splash2","music_start","cast_elecstrike_1_taizai","survovir_remote_delete","makeup_gatto","fxj_jet_fly","fxj_jet_go_front","fxj_jet_go_front_air","fxj_jet_go_up_delete","fxj_jet_go_up_during","fxj_jet_ready_delete","park_slide_survivor","spzxjq2022_normal_dooropen_delete","spzxjq2022_normal_doorclose_delete","yeren_whistle","manor_anni6_fish_finish","manor_anni6_fish_start","emotion_fourth_qiutu","Event|Play_3p_emotion_xiemu_spjk","Event|Play_3p_emotion_xiemu_yeren","Event|Play_3p_emotion_xiemu_zaji","emotion_geis_zbs","Event|Play_3p_emotion_bless_kantan","Event|Play_3p_emotion_write_niuzai","Event|Play_qiutu_3p_cast_elecstrike_1_dj","Event|Play_3p_emotion_huiyi_kantan","Event|Play_3p_emotion_yanzou_bzt","Event|Play_25summer_3p_cr_volleyball_hit","Event|Play_25summer_3p_cr_volleyball_play","Event|Play_25summer_3p_cr_volleyball_throw","Event|Play_3p_ttds_smoke","Event|Play_3p_ttds_smoke_hold","Event|Play_3p_ttds_smoke_release","Event|Play_3p_emotion_fourth_jiqiu","Event|Play_ww_3p_run","Event|P_survivor_survivor_3p_attack_emotion_emotion_ace_zaji","Event|Play_3p_emotion_sword_dxzh","Event|Play_3p_emotion_fourth_joker","Event|Play_3p_emotion_throw_kantan","Event|Play_3p_emotion_sand_jiqiu","Event|Play_3p_emotion_bouquet_it","Event|Play_3p_emotion_bouquet_shoumu","Event|Play_3p_25wansheng_maze_attack","Event|Play_3p_25wansheng_maze_pick","Event|Play_pzjg_char_doubt_m","Event|Play_3p_fst_walk_yeren_guaipy","stick_swing_1_2l_1","stick_swing_1_2r_1","Event|Play_3p_emotion_fourth_binhuan","butcher_ll_chain_cast","Event|Play_3p_emotion_fourth_spnx","emotion_race_win_2","Event|Play_vo_m_3p_emotion_fkiss","Event|Play_vo_m_3p_emotion_geis_zbs","emotion_bless_kantan","Event|Play_vo_m_3p_ghost_cautious","Event|Play_vo_m_3p_ghost_curious","Event|Play_vo_m_3p_ghost_exciting","Event|Play_vo_m_3p_ghost_silent","Event|Play_vo_m_3p_load_cautious","Event|Play_vo_m_3p_load_curious","Event|Play_vo_m_3p_load_exciting","Event|Play_vo_m_3p_load_silent","Event|Play_vo_m_3p_carry_struggle1","Event|Play_vo_m_3p_carry_struggle2","Event|Play_vo_m_3p_carry_struggle4","Event|Play_vo_m_3p_agree","Event|Play_vo_m_3p_behitch","Event|Play_vo_m_3p_forward","diangong_oph_skill_brust_003.pse","Event|Play_ww_3p_switch_weapon","Event|Play_ww_show_clap","Event|Play_ww_show_fist","Event|Play_ww_show_jump","Event|Play_ww_show_pat_back","Event|Play_ww_show_pat_body","Event|Play_ww_3p_jumping_start","Event|Play_3p_short_arrow_jump","emotion_dance_xye"
+		],
+		"uris" : [
+			"wwise/show_xf.bnk:/Event|Play_m_show_appear_peng_xf","wwise/show_xf.bnk:/Event|Play_m_show_idle_peng_xf","wwise/show_xf.bnk:/Event|Play_m_show_idle_special_peng_xf","wwise/show_yc.bnk:/Event|Play_m_show_appear_panta_yc","wwise/show_yc.bnk:/Event|Play_m_show_idle_special_panta_yc","wwise/show_yc.bnk:/Event|Play_m_show_idle_panta_yc","wwise/show_rls.bnk:/Event|Play_m_show_appear_wenshi_rls","wwise/show_rls.bnk:/Event|Play_m_show_idle_special_wenshi_rls","wwise/show_rls.bnk:/Event|Play_m_show_idle_wenshi_rls","wwise/show_yxz.bnk:/Event|Play_m_show_appear_oph_yxz","wwise/show_yxz.bnk:/Event|Play_m_show_idle_xd_yxz","wwise/show_yxz.bnk:/Event|Play_m_show_idle_special_oph_yxz","wwise/show_yxz.bnk:/Event|Play_m_show_idle_special_xd_yxz","wwise/show_yxz.bnk:/Event|Play_m_show_appear_xd_yxz","wwise/show_yxz.bnk:/Event|Play_m_show_idle_oph_yxz","wwise/show_dxzh.bnk:/Event|Play_show_appear_hqs_dzxh","wwise/show_dxzh.bnk:/Event|Play_show_idle_has_dzxh","wwise/show_dxzh.bnk:/Event|Play_show_idle_special_hqs_dzxh","wwise/show_cp_m.bnk:/Event|Play_show_appear_weiwei_cp","wwise/show_cp_m.bnk:/Event|Play_show_idle_special_weiwei_cp","wwise/show_cp_m.bnk:/Event|Play_show_idle_weiwei_cp","wwise/show_spjk.bnk:/Event|Play_m_show_appear_nongchen_spjk","wwise/show_spjk.bnk:/Event|Play_m_show_idle_nongchen_spjk","wwise/show_spjk.bnk:/Event|Play_m_show_idle_special_nongchen_spjk","wwise/show_artist.bnk:/Event|Play_m_show_appear_duose_artist","wwise/show_artist.bnk:/Event|Play_m_show_idle_duose_artist","wwise/show_artist.bnk:/Event|Play_m_show_idle_special_duose_artist","wwise/show_cp_m.bnk:/Event|Play_m_show_appear_luo_cp","wwise/show_cp_m.bnk:/Event|Play_m_show_idle_luo_cp","wwise/show_cp_m.bnk:/Event|Play_m_show_idle_special_luo_cp","wwise/show_yinyue.bnk:/Event|Play_yinyue_show_appear_qz_yinyue","wwise/show_yinyue.bnk:/Event|Play_yinyue_show_idle_qz_yinyue","wwise/show_yinyue.bnk:/Event|Play_yinyue_show_idle_special_qz_yinyue","wwise/show_fxj.bnk:/Event|Play_fxj_show_appear_shaobing_fxj","wwise/show_fxj.bnk:/Event|Play_fxj_show_idle_shaobing_fxj","wwise/show_fxj.bnk:/Event|Play_fxj_show_idle_special_shaobing_fxj","wwise/show_muou.bnk:/Event|Play_muou_show_appear_coa8_muou","wwise/show_muou.bnk:/Event|Play_muou_show_idle_coa8_muou","wwise/show_muou.bnk:/Event|Play_muou_show_idle_special_coa8_muou","wwise/show_bzt.bnk:/Event|Play_bzt_show_appear_huisu_bzt","wwise/show_bzt.bnk:/Event|Play_bzt_show_idle_huisu_bzt","wwise/show_bzt.bnk:/Event|Play_bzt_show_idle_special_huisu_bzt","wwise/show_zaji.bnk:/Event|Play_m_show_appear_ltc_zaji","wwise/show_zaji.bnk:/Event|Play_m_show_idle_ltc_zaji","wwise/show_zaji.bnk:/Event|Play_m_show_idle_special_ltc_zaji","wwise/show_dxzh.bnk:/Event|Play_m_show_idle_moli_dxzh","wwise/show_dxzh.bnk:/Event|Play_m_show_appear_moli_dxzh","wwise/show_dxzh.bnk:/Event|Play_m_show_idle_special_moli_dxzh","wwise/show_dafu.bnk:/Event|Play_show_appear_tanzhang_dafu","wwise/show_dafu.bnk:/Event|Play_show_idle_special_tanzhang_dafu","wwise/show_dafu.bnk:/Event|Play_show_idle_tanzhang_dafu","wwise/show_bzt.bnk:/Event|Play_show_appear_holmes_bzt","wwise/show_bzt.bnk:/Event|Play_show_idle_holmes_bzt","wwise/show_bzt.bnk:/Event|Play_show_idle_special_holmes_bzt","wwise/show_yc.bnk:/Event|Play_m_show_appear_huasheng_yc","wwise/show_yc.bnk:/Event|Play_m_show_idle_huasheng_yc","wwise/show_yc.bnk:/Event|Play_m_show_idle_special_huasheng_yc","wwise/show_niuzai.bnk:/Event|Play_m_show_appear_qiang_niuzai","wwise/show_niuzai.bnk:/Event|Play_m_show_idle_qiang_niuzai","wwise/show_niuzai.bnk:/Event|Play_m_show_idle_special_qiang_niuzai","wwise/show_kantan.bnk:/Event|Play_m_show_appear_nf_kantan","wwise/show_kantan.bnk:/Event|Play_m_show_idle_nf_kantan","wwise/show_kantan.bnk:/Event|Play_m_show_idle_special_nf_kantan","wwise/show_it.bnk:/Event|Play_it_show_appear_zy_it","wwise/show_it.bnk:/Event|Play_it_show_idle_special_zy_it","wwise/show_it.bnk:/Event|Play_it_show_idle_zy_it","wwise/show_qiutu.bnk:/Event|Play_m_show_appear_dj_qiutu","wwise/show_qiutu.bnk:/Event|Play_m_show_idle_dj_qiutu","wwise/show_qiutu.bnk:/Event|Play_m_show_idle_special_dj_qiutu","wwise/show_dxzh.bnk:/Event|Play_m_show_appear_kfc_dzxh","wwise/show_dxzh.bnk:/Event|Play_m_show_idle_kfc_dzxh","wwise/show_dxzh.bnk:/Event|Play_m_show_idle_special_kfc_dzxh","wwise/show_yinyue.bnk:/Event|Play_m_show_appear_pzn_yinyue","wwise/show_yinyue.bnk:/Event|Play_m_show_idle_pzn_yinyue","wwise/show_yinyue.bnk:/Event|Play_m_show_idle_special_pzn_yinyue","wwise/show_niexi.bnk:/Event|Play_m_show_appear_niexi_e_axyy","wwise/show_niexi.bnk:/Event|Play_m_show_idle_niexi_e_axyy","wwise/show_niexi.bnk:/Event|Play_m_show_idle_special_niexi_e_axyy","wwise/show_cp_m.bnk:/Event|Play_m_show_appear_sg_cp","wwise/show_cp_m.bnk:/Event|Play_m_show_idle_sg_cp","wwise/show_cp_m.bnk:/Event|Play_m_show_idle_special_sg_cp","wwise/survivor_01.bnk:/Event|Play_3p_emotion_qiangwei_kantan","wwise/dwrg_spzxjq2023.bnk:/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2023_normal_walk","wwise/survivor.bnk:/Event|P_survivor_survivor_3p_attack_surv_skill_sprint","wwise/survivor_dxzh.bnk:/Event|Play_3p_knight_predict_2","wwise/survivor_dxzh.bnk:/Event|Play_3p_knight_predict_1","wwise/survivor_dxzh.bnk:/Event|Play_3p_knight_rescue","wwise/survivor_dxzh.bnk:/Event|Play_3p_knight_rescue_end","wwise/survivor.bnk:/Event|P_survivor_survivor_3p_attack_survivor_savejoin2","wwise/dwrg.bnk:/Event|P_dwrg_detective_detective_knock_wall","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_climb","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_low_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_run","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_carry_struggle1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_catch_by","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_hit3","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide_land","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bind_up","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_getup","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_getup2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_grope","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_hit2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_idle_special","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_out","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_shy","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_treat","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bodyfall_h","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_bodyfall_l","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_password_button","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_slide_wood","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_dismantle","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_repair4","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_hit_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_agree","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_saveby2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_savejoin2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_sprint_dizziness","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_surv_skill_sprint_hit","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_surv_skill_sprint_stop","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_paoku","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_blind_walk","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_blind","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_fenshen_yinshen","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kantan_cast_magnet_1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kantan_cast_magnet_3","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_kantan_raise_magnet","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_maoxian_dig_soil","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_2019_outfire_survivor","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_zaji_zaji_jump_over_ice","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_zaji_zaji_jump_over_fire","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_zaji_zaji_jump_over_earth","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cuimian_cuimianshi_skill","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_hit_p5","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_passing_wine_object","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_whoosh_fb","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survivor_emotion_careful_fb","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_ace_zaji","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_zhixian_ldz_check_window_lock","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_huajia_painting_over","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_huajia_painting_set","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_huajia_painting_start","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_huajia_painting_continue_01","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_wonder_zaji","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_tired_yc","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_zhixian_ldz_kitchenknife_attack","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_zhixian_ldz_kitchenknife_attacked","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_tiaojiu_tiaojiu_drink_wine","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_jiqiu_bat_end","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_jiqiu_bat_exciting","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_jiqiu_ball_find","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_listen_yc","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_listen_niuzai","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_tredpack_kt","wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_survivor_show_2021_show_appear_lzr_niuzai","wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_survivor_show_2021_show_idle_lzr_niuzai","wwise/dwrg_show.bnk:dwrg_show/Event|P_dwrg_show_survivor_show_2021_show_idle_special_lzr_niuzai","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_emotion_emotion_anfu_yeren","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_out_1","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_jump_out_2","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_click","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_fly","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_scholar_throw_miss","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_bzt_notebook_write_start","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_bzt_notebook_read_end","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_bzt_notebook_read_start","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_lp","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_step","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_cp_xuezhe_skill_hug_001_sfx","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_foot_fst_run_spjk","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_emotion_emotion_photo","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_emotion_emotion_rebirth_xz","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly_over","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly_prepare","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_toyman_toyman_fly","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_catch_normal","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_catch_perfect","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_charging","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_throw","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_throw_above","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_throw_left","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_model_dodgeball_dod_throw_right","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_splash","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_surv_skill_splash2","wwise/survivor_yinyue.bnk:survivor_yinyue/Event|P_survivor_yinyue_survivor_skill_3p_sur_yinyue_music_start","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_qiutu_jingua_cast_elecstrike_1_taizai","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_3p_attack_survovir_remote","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_rls_gatto_makeup_gatto","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_fly","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_go_front","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_go_front_air","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_go_up","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_go_up_during","wwise/survivor_fxj.bnk:survivor_fxj/Event|P_survivor_fxj_survivor_skill_3p_sur_fxj_fxj_jet_ready","wwise/dwrg.bnk:dwrg/Event|P_dwrg_model_park_park_slide_survivor","wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_dooropen","wwise/dwrg_spzxjq2022.bnk:dwrg_spzxjq2022/Event|P_dwrg_spzxjq2022_movie_normal_spzxjq2022_normal_doorclose","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_yezhuqishi_yeren_yeren_whistle","wwise/amb.bnk:amb/Event|P_amb_static_manor_anni6_manor_anni6_fish_finish","wwise/amb.bnk:amb/Event|P_amb_static_manor_anni6_manor_anni6_fish_start","wwise/survivor_01.bnk:survivor_01/Event|P_survivor_01_survivor_3p_qiutu_emotion_emotion_fourth_qiutu","wwise/survivor_01.bnk:/Event|Play_3p_emotion_xiemu_spjk","wwise/survivor_01.bnk:/Event|Play_3p_emotion_xiemu_yeren","wwise/survivor_01.bnk:/Event|Play_3p_emotion_xiemu_zaji","wwise/survivor_01.bnk:/Event|Play_m_emotion_geis_zbs","wwise/survivor_01.bnk:/Event|Play_3p_emotion_bless_kantan","wwise/survivor_01.bnk:/Event|Play_3p_emotion_write_niuzai","wwise/survivor_01.bnk:/Event|Play_qiutu_3p_cast_elecstrike_1_dj","wwise/survivor_01.bnk:/Event|Play_3p_emotion_huiyi_kantan","wwise/survivor_01.bnk:/Event|Play_3p_emotion_yanzou_bzt","wwise/survivor_01.bnk:/Event|Play_25summer_3p_cr_volleyball_hit","wwise/survivor_01.bnk:/Event|Play_25summer_3p_cr_volleyball_play","wwise/survivor_01.bnk:/Event|Play_25summer_3p_cr_volleyball_throw","wwise/survivor_ttds.bnk:/Event|Play_3p_ttds_smoke","wwise/survivor_ttds.bnk:/Event|Play_3p_ttds_smoke_hold","wwise/survivor_ttds.bnk:/Event|Play_3p_ttds_smoke_release","wwise/survivor_01.bnk:/Event|Play_3p_emotion_fourth_jiqiu","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_run","wwise/survivor.bnk:/Event|P_survivor_survivor_3p_attack_emotion_emotion_ace_zaji","wwise/survivor_dxzh.bnk:/Event|Play_3p_emotion_sword_dxzh","wwise/survivor_01.bnk:/Event|Play_3p_emotion_fourth_joker","wwise/survivor_01.bnk:/Event|Play_3p_emotion_throw_kantan","wwise/survivor_01.bnk:/Event|Play_3p_emotion_sand_jiqiu","wwise/survivor_01.bnk:/Event|Play_3p_emotion_bouquet_it","wwise/survivor_01.bnk:/Event|Play_3p_emotion_bouquet_shoumu","wwise/sur_25wansheng.bnk:/Event|Play_3p_25wansheng_maze_attack","wwise/sur_25wansheng.bnk:/Event|Play_3p_25wansheng_maze_pick","wwise/survivor_25pzjg.bnk:/Event|Play_pzjg_char_doubt_m","wwise/survivor.bnk:/Event|Play_3p_fst_walk_yeren_guaipy","wwise/survivor_wushu.bnk:survivor_wushu/Event|P_survivor_wushu_survivor_skill_3p_sur_wushu_stick_swing_1_2l","wwise/survivor_wushu.bnk:survivor_wushu/Event|P_survivor_wushu_survivor_skill_3p_sur_wushu_stick_swing_1_2r","wwise/survivor_01.bnk:/Event|Play_3p_emotion_fourth_binhuan","wwise/killer.bnk:killer/Event|P_killer_killer_3p_attack_butcher_ll_chain_cast","wwise/survivor_01.bnk:/Event|Play_3p_emotion_fourth_spnx","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_emotion_race_win_2","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_emotion_fkiss","wwise/survivor_vo_zbs.bnk:/Event|Play_vo_m_3p_emotion_geis_zbs","wwise/survivor_vo_kantan_gx.bnk:/Event|Play_vo_m_3p_emotion_bless_kantan","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_ghost_cautious","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_ghost_curious","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_ghost_exciting","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_ghost_silent","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_load_cautious","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_load_curious","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_load_exciting","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_load_silent","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_carry_struggle1","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_carry_struggle2","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_carry_struggle4","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_agree","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_behitch","wwise/survivor_vo_m.bnk:/Event|Play_vo_m_3p_forward","fx\\pendant\\diangong_oph_skill_brust_003.pse","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_switch_weapon","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_clap","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_fist","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_jump","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_pat_back","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_show_pat_body","wwise/sur_25waterwar_foley.bnk:/Event|Play_ww_3p_jumping_start","wwise/survivor_gjs.bnk:/Event|Play_3p_short_arrow_jump","wwise/survivor_vo.bnk:/Event|Play_xys_3p_emotion_dance_xye"
+		],
+		"ids" : [
+			"72d9a49e07b8c338","70e0c2180350fc1d","3a1cf8985cecdf5a","b7ca4613e672b1ea","9fbfbaca9f1741c0","68b4226d23a9e3ea","a32b562a177f5adb","1c77efb19cc56cb3","ca3e5a59fc2acc97","c3c3db646657fa79","770193b986dcc607","06dcc1a6488297ad","bf6d3a514522cda3","4f368fb197cf8f37","ce115cc71d7f47c0","61dd673737349d78","7a31fa000cdf9aa7","b152bc0d1c5b58f6","09d380072a6e1735","e133f06f2eb31b78","9eb53feffae6e772","ded15ece09d43bcb","6c41a7d4d26118a4","70f06cd7a95683d1","8bedd3002037f6bc","452c0eb8ceff9c2a","b0dac033bea4993b","f9b3d21f2fbd5d32","3e37525478f70f86","6e46842bd9777923","59a2a86290cc9c1b","abc54ab5e147c51b","19c019ac0faf1b06","30126581d225ca20","809cffbb45f176ab","a4cc588eef798f33","d437d228f53366e2","8c68364e9a30d037","9d4ec02c33c26bbd","218730f09749a9f0","05e9e76e74a9a6bf","ed0505904ac7e668","cb4fd6c424bd64df","301f7090c552da4e","d1ed4d44780c3d2d","5e1a58a21314602a","bdbc389339706db4","79b721c076daf2a4","87314e6bcbb7737d","7d9d6fbec60be99d","8b02f5d4b9647335","3595ffcf986e05b1","ae6190bdd114e6fc","d01c768e8ad58e7a","d7ab810c3080b365","1fa67f55b3d2e6ac","d23df98d1ce658a6","138c2e83450355b6","0800b18060f61a78","b91bee7c8f2eee3b","0d082b4f69854ede","e15eabc0e1b9ceed","1fae51aa3919decc","fcac25b44123b6cb","5eec1b69bd668426","0b2f33a06498134a","c8d3994f851b47ee","14c62792c14cb15f","006b13f17fc7853d","d72a9c0642b9c710","fbbe242309c4e365","9fa337f54e220ae6","76519c5c7bb599d1","901853ada34b85b1","1c7513c8175c13c0","1464f8e1419a624d","e3e5e2fa1912fa64","e689e8b12ef14fce","4986d1b7dec78006","37ea17da385a401d","1e7ed72b4d855785","2f4409ab85528862","09206c4b303be02e","73dd86568c9399c2","26b0eb4a1c97e109","dbe25d6b3fc4a4cd","3f51ee43b6fa09c9","7e2bbdb8f1a3e328","62cb48e0fe8d13ad","011ffd75d18b0228","0736d18b212947d5","22769b1106ae55bb","2c742bb43070b803","ee47f380fef2304b","4e59f1863d7ad4df","a8367986b99da21f","896d4e7c527b1214","cbdc448fb059d76c","9ac2895201e5cd93","80202591f6532d9e","f463d6914592ed0d","9156eb16423ba6f9","b8ab43b4400a46a0","792940162fa44894","7f40484fd0f21cd5","166518da9f92a44d","f68e0b05f4313b68","150bc815762638b5","a2b0f225e2fda98b","6d8ccdb623c959cb","d2fa13a9a865e470","c92cded8231f4f12","89b5626f564f1605","3f8829901cd9a362","d6074a1235389931","0f8d7cacf7b8f8b5","a5c4930e8ee431bb","466f7ae801eb6932","d729e86d5f2c8633","3ed70af8c141bfe7","92035d219d873f4d","e1f7e2f405ccde33","cb32f22f43d29880","958cb006ca1d63de","50944843e2465f97","98e0522ac427981f","7853c1d309a96f3b","d51ce8aef309e9ae","cfa3a0b23c540017","457c23eb67be0746","1af8805efa5b46f1","bfc7d61774d1f22b","8d09701ef3ab9b36","cfdd46484d00d796","ebb3ac5abdc25c37","e1bc07f674684b46","c413875b85239bae","a8de4a7c0ba41a7e","6d0386fe28e171eb","019b558acd912b8b","982eb65a5b97a90d","473ae81aba3ac97d","4ec21295950d5fc4","5f0a0103366beaeb","93d697a500c4f153","38ba1f5940917682","f04c4a8cfed33df6","a8665f8610b66c5c","3223d572852e934f","c534422ccdeb05de","93ac7cb156697927","7866c5f5bd180422","05d58c9901d3f20b","eee2e8cc864249eb","d73048d13ce057d8","3b83f258d3e4b6b8","ee456a7cb100b2de","771fdba39f38cda6","ee11058c6d7f1221","40b05a8e7e154539","718bc091dec11a64","76b1b3302fdaedac","dfea68b2f34a6f3d","dd565da1466e98e8","4702801e147a5790","e235ebe7bcad136b","137f09100d1cf9cb","cc980fef158ed463","00effd33b89fd8eb","a2e5c6eca5c9b73f","f72b120ad22433f9","5d012d525ad548cd","b482304b3f0a40df","b18baab805e4d24b","3371ecef985fe7e6","87ab5408b5a0b37d","1caed2f0a794809a","425742044ba9e826","75a0ff02a2101d38","e7019a2a9f59533b","ec8095f113e1a6a1","eaa7587585f5db9c","715074f564a34072","674eb62282e2e283","93dafdb766b9c33a","6871330d8748559e","52cbe95329611459","d4316f0deee2f14e","e34c32c039022478","1d3678db0b2128a4","47194caa48663956","d521f5468196e952","39531c9af04b298e","984ffc615475b401","1e8a9c9cd55d0b58","86846949950814b1","0a72e3f323b710ac","cce1f180c2d55315","4508c315c4019821","500fce987e77ff0a","687164c850a30962","eadfecf7a6321576","e8feef89a46c31c2","ab80cd7b1b11c36a","70032c168c918b6d","6e60ffa3857f6e77","89f2a2a2b5f44313","e5f77fb3b3a20412","2908362e4cc2e6c8","3f43e032a5cc3a7c","1088ddbf78065e81","9972c2a399a8a5c6","9c0522ed49851922","c236796084ff8c6f","475b5bfca44ad435","a9e65f574423d65d","8e0246096898140d","66e7a803245a00cb","8979a7e0f5953c62","32bc4cf0f166fb52","7d3954efc444491c","8c88d1b577cd46c6","a99f5b8d2289cf4f","f31245d236bbdc5c","dd23cb8ad3644294","1e169e6e55667320","a7ec48ac481dbd54","11dca62ae893b136","7a2d59f15f3d1aee","8cf3499d80a5cfce","703804c35be4c3b3","48302c7ae7c8b00f","74c2a324a8bd3132","517acff34c769066","eaeeb79fd2732b94","c06603f85ac728d6","6a5d8a6464db6e48","15d1c5c5e725c8b2","77503c3b59d1a3a2","8f07c87faf3fe882","b220392b48ace780","c660a3b6fe92808b","02871d793b59ba9b","c569a4a71917de96","d5601369fba0fd0c","c91e3360a41aab8a","6293a77e3a69bacc","5ae5fdf626e8e79f","be28a7a603a3321e","a201ae8bec3b262e","416aab435bdde515","826f2c63bd64ad89","d189d08ab1e12b29","a670b8fc5356158d","3bef295298e68fc1","4f384df6a4ae2d75","22c9b77062402dd8","477d1c4cca421d81","9907517bf20521f4","b73e1e8eb108367b","17b4bcc74fcdf692","dc84d7d747ca86c5","24bf886e4b79e9d8","53f0b5109bfa3a24","21ff5325192b04f5"
+		],
+		"related_socket_names" : [
+			"sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_show_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","sound_sk","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","survivor_vo_m","const_fx_oph_idle_r","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","sound_waterwar","vo_guge"
+		],
+		"space_inherit_flags" : [
+			"Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All","Space All"
+		],
+		"loading_flags" : [
+			"None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","None","Loading","None","None","None","None","None","None","None","None","None"
+		]
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

@@ -1,0 +1,5 @@
+<NeoX>
+    <MaterialGroup MaterialCount="1" Name="ttds_e_kbl_head" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/materials/ttds_e_kbl_head.mtl" />
+    </MaterialGroup>
+</NeoX>

@@ -1,0 +1,56 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_hds_e_baojun_guaiwei/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="slide_idle"
+			FileName="animations_hds_e_baojun_guaiwei/slide_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="slide_left"
+			FileName="animations_hds_e_baojun_guaiwei/slide_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide_stay"
+			FileName="animations_hds_e_baojun_guaiwei/slide_stay.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="slide_return"
+			FileName="animations_hds_e_baojun_guaiwei/slide_return.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="False"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<slide_idle
+			slide_left="1,200" />
+		<slide_stay
+			slide_return="1,200" />
+	</TransitInfo>
+</AnimationConfig>

@@ -1,0 +1,61 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_bone02" BoundingInfo="(41.48, 12.45, 0.00),(51.54, 15.21, 9.98),54.66" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="true" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,13.8326,0.0000" BoundingHalf="10.0531,13.8326,9.9815" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="cabinet01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="1" />
+        <Sub1 BoundingCenter="-0.0030,12.6297,0.0030" BoundingHalf="8.0699,11.6003,8.0699" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="cabinet01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="0" />
+        <Sub2 BoundingCenter="0.1388,3.3225,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="2" />
+        <Sub3 BoundingCenter="0.1388,7.1776,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor03" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="3" />
+        <Sub4 BoundingCenter="0.1388,11.0326,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor04" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="4" />
+        <Sub5 BoundingCenter="0.1388,14.8876,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor05" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="5" />
+        <Sub6 BoundingCenter="0.1388,18.7426,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor06" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="6" />
+        <Sub7 BoundingCenter="0.1388,22.5976,0.0773" BoundingHalf="1.9933,1.6206,1.8465" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="monitor07" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="7" />
+        <Sub8 BoundingCenter="87.1043,0.0000,0.0000" BoundingHalf="5.9185,0.2808,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="rope006" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="8" />
+        <Sub9 BoundingCenter="30.0000,-1.2399,0.0000" BoundingHalf="5.9186,1.5208,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="rope007" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="10" />
+        <Sub10 BoundingCenter="15.0000,0.0000,0.0000" BoundingHalf="5.9186,0.2808,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="rope01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="9" />
+        <Sub11 BoundingCenter="30.0000,-1.2399,0.0000" BoundingHalf="5.9186,1.5208,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="rope02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="11" />
+        <Sub12 BoundingCenter="70.0000,0.0000,0.0000" BoundingHalf="5.9185,0.2808,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="rope03" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="12" />
+        <Sub13 BoundingCenter="50.0000,0.0000,0.0000" BoundingHalf="5.9185,0.2808,0.2852" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="rope04" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" SortId="13" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="billy_e_gelude_glass01.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="billy_e_gelude_glass01.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_bone42" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="c7f86491fd416f89" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_002" Uri="fx/killer/x57_delude_zhanshi_special_002.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped_bone34" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_02" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="6a6dd49641d63fc9" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_003" Uri="fx/killer/x57_delude_zhanshi_special_003.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped_bone46" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_03" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="391dd3cf1b502fa6" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_002.pse" Uri="fx\killer\x57_delude_zhanshi_special_002.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="biped_bone38" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_04" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="5934670f5f69b402" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_002" Uri="fx/killer/x57_delude_zhanshi_special_002.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="biped_bone30" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_05" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="6a7ac524eff6f5e0" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_003" Uri="fx/killer/x57_delude_zhanshi_special_003.pse" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="biped_bone50" BindingFlag="2" LocalPosition="0.0911,-0.2238,-0.0151" LocalRotation="-0.6760,-0.1091,-0.7108,0.1610" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_x57_special_06" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3fd55287b9eb1bbd" Inherit="7" Loading="2" Name="x57_delude_zhanshi_special_003" Uri="fx/killer/x57_delude_zhanshi_special_003.pse" />
+        </Socket_5>
+        <Socket_6 BindType="7" BindingBone="bone054" BindingFlag="2" LocalPosition="0.3961,0.0993,-0.1851" LocalRotation="-0.7376,-0.6554,0.1465,-0.0696" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_boli_appear_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="7e2391a3ed01b614" Inherit="7" Loading="2" Name="x57_delude_zhanshi_appear_002.pse" Uri="fx/killer/x57_delude_zhanshi_appear_002.pse" />
+        </Socket_6>
+        <Socket_7 BindType="7" BindingBone="bone023" BindingFlag="2" LocalPosition="1.0681,0.4834,0.0303" LocalRotation="0.2393,-0.6287,-0.4301,0.6020" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_boli_appear_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="2f8a484121ba1cee" Inherit="7" Loading="2" Name="x57_delude_zhanshi_appear_002.pse" Uri="fx/killer/x57_delude_zhanshi_appear_002.pse" />
+        </Socket_7>
+        <Socket_8 BindType="7" BindingBone="bone067" BindingFlag="2" LocalPosition="1.8292,-1.1025,0.1727" LocalRotation="0.5618,-0.6110,-0.4084,0.3797" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_boli_appear_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="779c55a58898f7dc" Inherit="7" Loading="2" Name="x57_delude_zhanshi_appear_002.pse" Uri="fx/killer/x57_delude_zhanshi_appear_002.pse" />
+        </Socket_8>
+        <Socket_9 BindType="7" BindingBone="bone003" BindingFlag="2" LocalPosition="0.7263,-0.1945,0.3912" LocalRotation="0.4962,0.7148,-0.1723,0.4617" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_boli_appear_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="6f86ffea186b5584" Inherit="7" Loading="2" Name="x57_delude_zhanshi_appear_002.pse" Uri="fx/killer/x57_delude_zhanshi_appear_002.pse" />
+        </Socket_9>
+    </SocketObject>
+</NeoX>

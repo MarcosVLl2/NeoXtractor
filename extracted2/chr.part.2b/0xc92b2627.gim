@@ -1,0 +1,20 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_maozi_root" BoundingInfo="(-0.1991, 18.8794, 0.0701),(4.0337, 2.1751, 3.8759),4.1549" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.1991,18.8794,0.0701" BoundingHalf="4.0336,2.1751,3.8759" BoundingInfo="(-0.1991, 18.8794, 0.0701),(4.0337, 2.1751, 3.8759),4.1549" Name="bonbon_e_cat_maozi" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="bonbon_e_cat_maozi.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="bonbon_e_cat_maozi.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/bonbon_e_cat_maozi.stb" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

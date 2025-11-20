@@ -1,0 +1,69 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="h55_guajian_guiyan">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_BACKFACE_SPECULAR"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_character.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/guajian/h55_guajian_guiyan/h55_guajian_guiyan_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/guajian/h55_guajian_guiyan/h55_guajian_guiyan_mask.tga" />
+			<TexReflection
+				Value="chr/guajian/h55_guajian_guiyan/h55_guajian_guiyan_mask01.tga" />
+			<TexStyledShadow
+				Value="" />
+			<anisotropy_color
+				Value="0.901961,1.000000,0.988235,1.000000" />
+			<anisotropy_noise
+				Value="0.100000" />
+			<anisotropy_offset
+				Value="0.400000" />
+			<anisotropy_width
+				Value="303" />
+			<u_ambient
+				Value="0.300000" />
+			<Tex0
+				Value="chr/guajian/h55_guajian_guiyan/h55_guajian_guiyan_diff.tga" />
+			<TexNormal
+				Value="chr/guajian/h55_guajian_guiyan/h55_guajian_guiyan_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="101"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="6" />
+		</RenderStates>
+	</Material>
+</NeoX>

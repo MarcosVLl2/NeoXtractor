@@ -1,0 +1,42 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_h55_guajian_guiyan_yanzi/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_h55_guajian_guiyan_yanzi/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="play"
+			FileName="animations_h55_guajian_guiyan_yanzi/play.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="7.433333" />
+		<Animation
+			Name="play2"
+			FileName="animations_h55_guajian_guiyan_yanzi/play2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="4.1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

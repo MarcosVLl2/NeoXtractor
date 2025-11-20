@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_niao01" BoundingInfo="(-0.12, 10.15, -2.08),(0.56, 0.63, 0.37),0.92" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.1244,10.1484,-2.0769" BoundingHalf="0.5612,0.6342,0.3743" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird3" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_bird.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_bird.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_niao03" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_017" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="4ec5f0ce9f209f67" Inherit="7" Loading="4" Name="huandeng_baojun_idle_002.pse" Uri="fx/survivor/huandeng_baojun_idle_002.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,2350 @@
+{
+				"Head" : {
+								"Type" : "NewSpringAnimData",
+								"MainVer" : 1,
+								"SubVer" : 0
+				},
+				"Body" : {
+								"TypeName" : "NewSpringAnimData",
+								"m_SpringAnimChainArray" : [
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone078",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone079",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.0359575748443604,
+																								"angle_limit" : 1.328428030014038,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone078"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone073",
+																								"item_index" : 2,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.2672245502471924,
+																								"angle_limit" : 1.6568560600280762,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone079"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone073",
+																								"item_index" : 3,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,-0.0000001224729260229651,-0.000000653188919841341
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 3,
+																								"parent_bone_name" : "bone073"
+																				}
+																],
+																"curve_sample_num" : 4,
+																"attachedBoneName" : "bone078",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 4,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [
+																				{
+																								"TypeName" : "ChainSyncEditType",
+																								"target_chain_bone_name" : "bone114"
+																				},
+																				{
+																								"TypeName" : "ChainSyncEditType",
+																								"target_chain_bone_name" : "bone123"
+																				},
+																				{
+																								"TypeName" : "ChainSyncEditType",
+																								"target_chain_bone_name" : "bone119"
+																				}
+																],
+																"sync_parent" : ""
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone076",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone077",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.0359575748443604,
+																								"angle_limit" : 1.328428030014038,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone076"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone075",
+																								"item_index" : 2,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.2672245502471924,
+																								"angle_limit" : 1.6568560600280762,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone077"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone075",
+																								"item_index" : 3,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,-0.000000004469518088967561,-0.000012642062756640371
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 3,
+																								"parent_bone_name" : "bone075"
+																				}
+																],
+																"curve_sample_num" : 4,
+																"attachedBoneName" : "bone076",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 4,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : ""
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone114",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone115",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.1515910625457764,
+																								"angle_limit" : 1.4926419258117676,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone114"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone115",
+																								"item_index" : 2,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone115"
+																				}
+																],
+																"curve_sample_num" : 3,
+																"attachedBoneName" : "bone114",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 3,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : "bone078"
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone123",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone124",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.0359575748443604,
+																								"angle_limit" : 1.328428030014038,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone123"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone122",
+																								"item_index" : 2,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.2672245502471924,
+																								"angle_limit" : 1.6568560600280762,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone124"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone122",
+																								"item_index" : 3,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0,-0.000002188963890148443
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 3,
+																								"parent_bone_name" : "bone122"
+																				}
+																],
+																"curve_sample_num" : 4,
+																"attachedBoneName" : "bone123",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 4,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : "bone078"
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone082",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone084",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.0359575748443604,
+																								"angle_limit" : 1.328428030014038,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone082"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone083",
+																								"item_index" : 2,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.2672245502471924,
+																								"angle_limit" : 1.6568560600280762,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone084"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone083",
+																								"item_index" : 3,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0.0000003561485186764912,0.0000014245940747059649
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 3,
+																								"parent_bone_name" : "bone083"
+																				}
+																],
+																"curve_sample_num" : 4,
+																"attachedBoneName" : "bone082",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 4,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.10000000149011612,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : "bone087"
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone107",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone106",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.1515910625457764,
+																								"angle_limit" : 1.4926419258117676,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone107"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone106",
+																								"item_index" : 2,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0.0000004273693434697634,-0.0000003418954861444945
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone106"
+																				}
+																],
+																"curve_sample_num" : 3,
+																"attachedBoneName" : "bone107",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 3,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : ""
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone119",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone120",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.1515910625457764,
+																								"angle_limit" : 1.4926419258117676,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone119"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone120",
+																								"item_index" : 2,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0.00000018246976196678588,0.00000036493952393357176
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone120"
+																				}
+																],
+																"curve_sample_num" : 3,
+																"attachedBoneName" : "bone119",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 3,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.33000001311302185,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [],
+																"sync_parent" : "bone078"
+												},
+												{
+																"TypeName" : "NewSpringAnimChainData",
+																"chain_mass" : [
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone087",
+																								"item_index" : 0,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 0.8073986172676086,
+																								"angle_limit" : 1,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 0,
+																								"parent_bone_name" : ""
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone088",
+																								"item_index" : 1,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.0359575748443604,
+																								"angle_limit" : 1.328428030014038,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 1,
+																								"parent_bone_name" : "bone087"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone089",
+																								"item_index" : 2,
+																								"is_virtual_item" : false,
+																								"is_last_item" : false,
+																								"virtual_bone_direction_normalized" : [
+																												-1,0,0
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.2672245502471924,
+																								"angle_limit" : 1.6568560600280762,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 2,
+																								"parent_bone_name" : "bone088"
+																				},
+																				{
+																								"TypeName" : "NewSpringAnimChainItemData",
+																								"mass_binded_bone_name" : "bone089",
+																								"item_index" : 3,
+																								"is_virtual_item" : true,
+																								"is_last_item" : true,
+																								"virtual_bone_direction_normalized" : [
+																												1,0,-0.00000031368966801892384
+																								],
+																								"mass_damping" : 1,
+																								"mass_elasticity" : 1,
+																								"mass_stiffness" : 1,
+																								"mass_movement_inert" : 1,
+																								"mass_rotation_inert" : 1,
+																								"mass_friction" : 1,
+																								"mass_radius" : 1.4984915256500244,
+																								"angle_limit" : 1.9852839708328247,
+																								"mass_wind_force_multiplier" : 1,
+																								"curve_sample_index" : 3,
+																								"parent_bone_name" : "bone089"
+																				}
+																],
+																"curve_sample_num" : 4,
+																"attachedBoneName" : "bone087",
+																"soft_bone_chain_type" : 0,
+																"chain_mass_num" : 4,
+																"pause_simulation" : false,
+																"chain_blend_weight" : 1,
+																"add_virtual_bone" : true,
+																"virtual_bone_length" : 0.8301329612731934,
+																"chain_damping" : 0.699999988079071,
+																"damping_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_elasticity" : 0.10000000149011612,
+																"elasticity_curve_keypoints" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_stiffness" : 0.10000000149011612,
+																"stiffness_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_inert" : 0.5,
+																"inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_rotation_inert" : 0,
+																"rotation_inert_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"add_angle_limit" : true,
+																"angle_limit_degree" : 15,
+																"angle_limit_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0048036575317383,
+																								"value" : 1.9900169372558594,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"chain_collision_hierarchy" : 1,
+																"chain_friction" : 0.5,
+																"friction_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1,
+																								"value" : 1,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.33000001311302185,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.33000001311302185
+																				}
+																],
+																"chain_mass_radius" : 0.10000000149011612,
+																"radius_curve_keypoint_array" : [
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 0.0039031035266816616,
+																								"value" : 0.8073986172676086,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				},
+																				{
+																								"TypeName" : "KeyPoint",
+																								"time" : 1.0183992385864258,
+																								"value" : 1.5112569332122803,
+																								"mode" : 1,
+																								"left_tangent" : 0,
+																								"left_weight" : 0.3330000042915344,
+																								"right_tangent" : 0,
+																								"right_weight" : 0.3330000042915344
+																				}
+																],
+																"apply_gravity" : false,
+																"gravity_scale" : 9.800000190734863,
+																"gravity_direction" : [
+																				0,-1,0
+																],
+																"chain_apply_wind" : false,
+																"wind_force_multiplier" : 50,
+																"adjacent_next_chain_name" : "",
+																"adjacent_previous_chain_name" : "",
+																"adjacent_stiffness" : 1,
+																"sync_bones" : [
+																				{
+																								"TypeName" : "ChainSyncEditType",
+																								"target_chain_bone_name" : "bone082"
+																				}
+																],
+																"sync_parent" : ""
+												}
+								],
+								"m_SkeletonName" : "chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head.skeleton",
+								"m_SpringAnimColliderArray" : [],
+								"m_SpringAnimGlobalSetting" : {
+												"TypeName" : "NewSpringAnimGlobalData",
+												"multithread" : true,
+												"chain_update_rate" : 60,
+												"chain_update_mode" : 1,
+												"max_update_distance" : 1000000,
+												"update_level" : 0,
+												"fade_in_time" : 0,
+												"fade_out_time" : 0,
+												"global_weight" : 1,
+												"max_rotation_degree" : 0,
+												"max_travel_distance" : 0,
+												"add_global_wind" : false,
+												"wind_direction" : [
+																1,0,0
+												],
+												"wind_min_value" : 1,
+												"wind_max_value" : 2,
+												"base_bone" : ""
+								},
+								"m_NewSoftBoneClothData" : []
+				}
+}

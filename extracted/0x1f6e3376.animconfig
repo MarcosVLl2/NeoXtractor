@@ -1,0 +1,2926 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_frank/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_frank"
+			FileName="animations_frank/load_sit_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_frank"
+			FileName="animations_frank/load_stand_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.333334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_frank/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_frank/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_frank/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_frank/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_frank/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_frank/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_frank/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_frank/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_frank/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_frank/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_frank/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_frank/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_frank/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_frank/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_1"
+			FileName="animations_frank/happy_frank_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_1_end"
+			FileName="animations_frank/happy_frank_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_2"
+			FileName="animations_frank/happy_frank_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_2_end"
+			FileName="animations_frank/happy_frank_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_rebound"
+			FileName="animations_frank/happy_frank_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_frank/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_frank/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_frank/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_frank/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_frank/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_frank/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_frank"
+			FileName="animations_frank/load_visit_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.166666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_frank/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_frank/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_frank/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_frank/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_frank/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_frank/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_frank/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_frank/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_frank/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_frank/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_frank/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_frank/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_frank/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_frank/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_frank/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_frank/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_frank/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_frank/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_frank/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_frank/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_frank/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_carry"
+			FileName="animations_frank/happy_frank_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_carry_end"
+			FileName="animations_frank/happy_frank_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_frank/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_frank/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_frank"
+			FileName="animations_frank/happy_struggle4_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_idle_l"
+			FileName="animations_frank/frankenstein_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_idle_r"
+			FileName="animations_frank/frankenstein_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_special_l"
+			FileName="animations_frank/frankenstein_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_special_r"
+			FileName="animations_frank/frankenstein_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_frank/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_frank/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_frank/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_frank/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_frank/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_forbidden_therapy"
+			FileName="animations_frank/frankenstein_forbidden_therapy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_frank/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_frank/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1"
+			FileName="animations_frank/elec_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_frank/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3"
+			FileName="animations_frank/elec_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer"
+			FileName="animations_frank/elecstrike_suffer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="energy_rotation"
+			FileName="animations_frank/energy_rotation.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop"
+			FileName="animations_frank/jump_chop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_circle"
+			FileName="animations_frank/jump_chop_circle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_end"
+			FileName="animations_frank/jump_chop_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_forward"
+			FileName="animations_frank/jump_chop_forward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike"
+			FileName="animations_frank/spike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_end"
+			FileName="animations_frank/spike_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_end_ex"
+			FileName="animations_frank/spike_end_ex.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_ex"
+			FileName="animations_frank/spike_ex.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_forward"
+			FileName="animations_frank/spike_forward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_1"
+			FileName="animations_frank/thump_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_2"
+			FileName="animations_frank/thump_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_1"
+			FileName="animations_frank/thump_forward_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_2"
+			FileName="animations_frank/thump_forward_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_3"
+			FileName="animations_frank/thump_forward_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_frank/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_show"
+			FileName="animations_frank/happy_frank_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_frank"
+			FileName="animations_frank/show_idle_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_frank"
+			FileName="animations_frank/show_idle_special_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_frank/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_frank/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_frank/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_frank/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_frank/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_bon"
+			FileName="animations_frank/guisu_show_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_frank/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_frank/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_frank/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_frank/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_frank/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_frank/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_frank/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_frank/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_frank/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_frank/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_frank/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_frank/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_frank/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_frank/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_frank/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_frank/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic"
+			FileName="animations_frank/release_hypnotic.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_frank/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_frank/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_frank/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_frank/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_frank/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_frank/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_junguan"
+			FileName="animations_frank/show_appear_junguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_junguan"
+			FileName="animations_frank/show_idle_junguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.0999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_junguan"
+			FileName="animations_frank/show_idle_special_junguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_stand"
+			FileName="animations_frank/idle_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_frank/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_frank/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_frank/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_frank/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_frank/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_frank/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_frank/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_frank/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_frank/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_frank/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_frank/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_frank/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_frank/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_frank/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_frank/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_frank/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dizzy_cj"
+			FileName="animations_frank/dizzy_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup_cj"
+			FileName="animations_frank/hangup_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher_cj"
+			FileName="animations_frank/pushforward_butcher_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_frank/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_chaji_frank"
+			FileName="animations_frank/show_appear_chaji_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_chaji_frank"
+			FileName="animations_frank/show_idle_chaji_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_chaji_frank"
+			FileName="animations_frank/show_idle_special_chaji_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter_cj"
+			FileName="animations_frank/poker_show_hunter_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_cj"
+			FileName="animations_frank/load_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_cj"
+			FileName="animations_frank/load_mirror_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_frank_cj"
+			FileName="animations_frank/load_visit_frank_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.166599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_1_cj"
+			FileName="animations_frank/happy_frank_attack_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_2_cj"
+			FileName="animations_frank/happy_frank_attack_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_rebound_cj"
+			FileName="animations_frank/happy_frank_attack_rebound_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_cj"
+			FileName="animations_frank/happy_carry_hit_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add_cj"
+			FileName="animations_frank/happy_carry_struggle_add_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_cj"
+			FileName="animations_frank/happy_carry_struggle_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_cj"
+			FileName="animations_frank/happy_catch_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_carry_cj"
+			FileName="animations_frank/happy_frank_attack_carry_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_carry_end_cj"
+			FileName="animations_frank/happy_frank_attack_carry_end_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang_cj"
+			FileName="animations_frank/happy_hang_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_cj"
+			FileName="animations_frank/happy_pick_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure_cj"
+			FileName="animations_frank/butcher_civilian_cure_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_cj"
+			FileName="animations_frank/destroy_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall_cj"
+			FileName="animations_frank/fall_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_cj"
+			FileName="animations_frank/hit_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_cj"
+			FileName="animations_frank/run_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_cj"
+			FileName="animations_frank/span_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_cj"
+			FileName="animations_frank/hall_sit_catsofa_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_cj"
+			FileName="animations_frank/hall_sit_chair_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable_cj"
+			FileName="animations_frank/hall_sit_gametable_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock_cj"
+			FileName="animations_frank/hall_sit_hammock_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_cj"
+			FileName="animations_frank/hall_sit_horse_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa_cj"
+			FileName="animations_frank/hall_sit_oldcatsofa_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair_cj"
+			FileName="animations_frank/hall_sit_rockingchair_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02_cj"
+			FileName="animations_frank/hall_sit_sofa02_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_cj"
+			FileName="animations_frank/hall_sit_stool_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox_cj"
+			FileName="animations_frank/close_elecbox_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1_cj"
+			FileName="animations_frank/elec_suffer_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2_cj"
+			FileName="animations_frank/elec_suffer_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer_cj"
+			FileName="animations_frank/elecstrike_suffer_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter_cj"
+			FileName="animations_frank/destroy_transmittter_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy_cj"
+			FileName="animations_frank/sprint_dizzy_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying_cj"
+			FileName="animations_frank/sprint_flying_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb_cj"
+			FileName="animations_frank/destroy_mb_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_cj"
+			FileName="animations_frank/glide_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_cj"
+			FileName="animations_frank/sit_roller_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs_cj"
+			FileName="animations_frank/climb_downstairs_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_cj"
+			FileName="animations_frank/climb_upstairs_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_cj"
+			FileName="animations_frank/emotion_dice_20_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_cj"
+			FileName="animations_frank/emotion_dice_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_cj"
+			FileName="animations_frank/hall_idle_special_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_cj"
+			FileName="animations_frank/hall_swing_nature_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_cj"
+			FileName="animations_frank/hall_throne_sit_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_cj"
+			FileName="animations_frank/hall_walk_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_circle_cj"
+			FileName="animations_frank/jump_chop_circle_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_cj"
+			FileName="animations_frank/jump_chop_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_end_cj"
+			FileName="animations_frank/jump_chop_end_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_forward_cj"
+			FileName="animations_frank/jump_chop_forward_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1_cj"
+			FileName="animations_frank/kick_car_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2_cj"
+			FileName="animations_frank/kick_car_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_cj"
+			FileName="animations_frank/liftcar_idle_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_cj"
+			FileName="animations_frank/liftcar_move_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch_cj"
+			FileName="animations_frank/liftcar_switch_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying_cj"
+			FileName="animations_frank/pighit_flying_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repel_cj"
+			FileName="animations_frank/repel_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_cj"
+			FileName="animations_frank/sit_dc_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spike_cj"
+			FileName="animations_frank/spike_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_end_cj"
+			FileName="animations_frank/spike_end_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_end_ex_cj"
+			FileName="animations_frank/spike_end_ex_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_ex_cj"
+			FileName="animations_frank/spike_ex_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_forward_cj"
+			FileName="animations_frank/spike_forward_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_1_cj"
+			FileName="animations_frank/thump_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_2_cj"
+			FileName="animations_frank/thump_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_1_cj"
+			FileName="animations_frank/thump_forward_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_2_cj"
+			FileName="animations_frank/thump_forward_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="thump_forward_3_cj"
+			FileName="animations_frank/thump_forward_3_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy_cj"
+			FileName="animations_frank/toyman_jump_destroy_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_frank_cj"
+			FileName="animations_frank/load_sit_frank_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_frank_cj"
+			FileName="animations_frank/load_stand_frank_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth_cj"
+			FileName="animations_frank/run_smooth_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_cj"
+			FileName="animations_frank/emotion_threaten_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_frank_attack_2_end_cj"
+			FileName="animations_frank/happy_frank_attack_2_end_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_frank/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_frank/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_frank/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_frank/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_frank/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_frank/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_frank/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="frequency_conversion"
+			FileName="animations_frank/frequency_conversion.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_frank/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_frank/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_frank/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_frank/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_frank/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_frank/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_frank/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1_cj"
+			FileName="animations_frank/dislike_food_1_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2_cj"
+			FileName="animations_frank/dislike_food_2_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_food_cj"
+			FileName="animations_frank/like_food_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_frank/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_frank/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_frank/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_frank/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_frank/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_frank/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_frank/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_frank/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_frank/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_frank"
+			FileName="animations_frank/like_drink_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_frank/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_frank/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_frank/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_frank/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_frank/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_frank/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_frank/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_frank/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_frank/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_frank/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_frank/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle_cj"
+			FileName="animations_frank/hall_interact_motorcycle_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_frank/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_frank/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_frank/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_frank/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_frank/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_frank/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_frank/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_frank/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_frank/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_frank/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_frank/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_frank/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_frank/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_frank/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_frank/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_frank/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_frank/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_frank/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_frank/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_frank/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_frank/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_frank/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_frank/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_frank/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_frank/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_frank/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_frank/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_frank/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_frank/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_frank/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_cz_frank"
+			FileName="animations_frank/show_appear_cz_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_cz_frank"
+			FileName="animations_frank/show_idle_cz_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_cz_frank"
+			FileName="animations_frank/show_idle_special_cz_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.766666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_frank/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_frank/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_frank/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_cz"
+			FileName="animations_frank/hall_idle_2_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_cz"
+			FileName="animations_frank/hall_sit_chair_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_cz"
+			FileName="animations_frank/idle_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_cz"
+			FileName="animations_frank/emotion_salute_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump_chop_cz"
+			FileName="animations_frank/jump_chop_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spike_end_ex_cz"
+			FileName="animations_frank/spike_end_ex_cz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_frank/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_frank/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_frank/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_frank/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_frank/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_frank/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_frank/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_frank/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_frank/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_frank/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_frank/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_birth_frank"
+			FileName="animations_frank/emotion_birth_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_frank/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_frank/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_birth_frank_cj"
+			FileName="animations_frank/emotion_birth_frank_cj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_frank/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_frank/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_frank/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_frank/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_frank/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_frank/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_frank/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_frank/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_frank/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_frank/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep"
+			FileName="animations_frank/load_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_frank/hall_crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_frank/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_frank/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_frank/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_frank/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_frank/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.433333" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_frank/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_frank/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_frank/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_frank/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_frank/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_frank/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<skin
+			idle="1,100" />
+		<beforecast
+			idle="1,100" />
+		<cast
+			idle="1,100" />
+		<cursed
+			idle="1,100" />
+		<dizziness
+			idle="1,100" />
+		<dizzy
+			idle="1,100" />
+		<happy_frank_attack_1
+			idle="1,100" />
+		<happy_frank_attack_1_end
+			idle="1,200" />
+		<happy_frank_attack_2
+			idle="1,100" />
+		<happy_frank_attack_2_end
+			idle="1,200" />
+		<happy_frank_attack_rebound
+			idle="1,100" />
+		<idle
+			skin="1,100"
+			answerphone="1,100"
+			beforecast="1,100"
+			cast="1,100"
+			cursed="1,100"
+			dizziness="1,100"
+			dizzy="1,100"
+			idle="1,100"
+			idle_poker_exchange="1,100"
+			idle_special="1,100"
+			place_patrol_puppet="1,100"
+			place_tower="1,100"
+			poker_exchange="1,100"
+			prepare_place_tower="1,100"
+			remote_patrol_puppet="1,100"
+			run="1,100"
+			scare_puppet_rigid="1,100"
+			strong_cursed="1,100"
+			happy_pick="1,100"
+			butcher_civilian_cure="1,100"
+			crystalcard_used_butcher="1,100"
+			stone_used_butcher1="1,100"
+			stone_used_butcher2="1,100"
+			stone_used_butcher3="1,100"
+			painting_attract="1,100"
+			close_elecbox="1,100"
+			elec_suffer_1="1,100"
+			elec_suffer_2="1,100"
+			elec_suffer_3="1,100"
+			elecstrike_suffer="1,100"
+			energy_rotation="1,100"
+			jump_chop="1,100"
+			jump_chop_circle="1,100"
+			jump_chop_end="1,100"
+			jump_chop_forward="1,100"
+			spike_end="1,100"
+			spike_end_ex="1,100"
+			spike_forward="1,100"
+			thump_1="1,100"
+			thump_2="1,100"
+			thump_forward_1="1,100"
+			thump_forward_2="1,100"
+			thump_forward_3="1,100"
+			disarm="1,300" />
+		<idle_poker_exchange
+			idle="1,100" />
+		<idle_special
+			idle="1,100" />
+		<place_patrol_puppet
+			idle="1,100" />
+		<place_tower
+			idle="1,100" />
+		<poker_exchange
+			idle="1,100" />
+		<prepare_place_tower
+			idle="1,100" />
+		<remote_patrol_puppet
+			idle="1,100" />
+		<run
+			idle="1,100"
+			disarm="1,300"
+			dmm_butcher_skill="1,200" />
+		<scare_puppet_rigid
+			idle="1,100" />
+		<sprint_dizzy
+			idle="1,100"
+			disarm="1,300" />
+		<sprint_flying
+			idle="1,100" />
+		<strong_cursed
+			idle="1,100" />
+		<wait_21_idle
+			idle="1,100" />
+		<happy_carry
+			idle="1,100" />
+		<happy_carry_hit
+			idle="1,100" />
+		<happy_carry_struggle
+			idle="1,100" />
+		<happy_carry_struggle_add
+			idle="1,100" />
+		<happy_catch
+			idle="1,100" />
+		<happy_discard
+			idle="1,100" />
+		<happy_frank_attack_carry
+			idle="1,100" />
+		<happy_frank_attack_carry_end
+			idle="1,100" />
+		<happy_hang
+			idle="1,100" />
+		<happy_pick
+			idle="1,100" />
+		<happy_struggle4_frank
+			idle="1,100" />
+		<butcher_civilian_cure
+			idle="1,100" />
+		<crystalcard_used_butcher
+			idle="1,100" />
+		<stone_used_butcher1
+			idle="1,100" />
+		<stone_used_butcher2
+			idle="1,100" />
+		<stone_used_butcher3
+			idle="1,100" />
+		<painting_attract
+			idle="1,100" />
+		<close_elecbox
+			idle="1,100" />
+		<elec_suffer_1
+			idle="1,100" />
+		<elec_suffer_2
+			idle="1,100" />
+		<elec_suffer_3
+			idle="1,100" />
+		<elecstrike_suffer
+			idle="1,100" />
+		<energy_rotation
+			idle="1,100" />
+		<jump_chop_end
+			idle="1,100" />
+		<spike_end
+			idle="1,100" />
+		<spike_forward
+			idle="1,100" />
+		<thump_1
+			idle="1,100" />
+		<thump_2
+			idle="1,100" />
+		<thump_forward_1
+			idle="1,100" />
+		<thump_forward_2
+			idle="1,100" />
+		<thump_forward_3
+			idle="1,100" />
+		<happy_frank_attack_show
+			idle="1,100" />
+		<sprint_dizzy_cj
+			disarm="1,300" />
+		<disarm
+			idle="1,300"
+			run="1,300"
+			sprint_dizzy="1,300"
+			run_cj="1,300"
+			sprint_dizzy_cj="1,300" />
+		<dmm_butcher_skill
+			run="1,200" />
+		<cr_jump_loop
+			cr_cannon_fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

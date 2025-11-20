@@ -1,0 +1,8 @@
+<NeoX AnimAccumEnable="true" BoundingInfo="(0.00, 0.00, 0.00),(3.73, 3.73, 0.00),5.28" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,0.0000,0.0000" BoundingHalf="3.7256,3.7256,0.0000" BoundingInfo="(0.00, 0.00, 0.00),(3.73, 3.73, 0.00),5.27" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="activity_shiyanshiyumilianming" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

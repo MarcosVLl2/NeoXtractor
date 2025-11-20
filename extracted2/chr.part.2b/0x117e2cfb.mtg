@@ -1,0 +1,5 @@
+<NeoX>
+    <MaterialGroup MaterialCount="1" Name="hds_e_baojun_zidan" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/materials/hds_e_baojun_prop01.mtl" />
+    </MaterialGroup>
+</NeoX>

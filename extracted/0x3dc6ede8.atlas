@@ -1,0 +1,34 @@
+
+plot_2022_note_turn.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+page_l
+  rotate: true
+  xy: 2, 3
+  size: 261, 356
+  orig: 261, 356
+  offset: 0, 0
+  index: -1
+page_l_sp
+  rotate: true
+  xy: 360, 3
+  size: 261, 356
+  orig: 261, 356
+  offset: 0, 0
+  index: -1
+page_r
+  rotate: true
+  xy: 718, 2
+  size: 262, 354
+  orig: 262, 354
+  offset: 0, 0
+  index: -1
+page_r_sp
+  rotate: true
+  xy: 1074, 2
+  size: 262, 354
+  orig: 262, 354
+  offset: 0, 0
+  index: -1
