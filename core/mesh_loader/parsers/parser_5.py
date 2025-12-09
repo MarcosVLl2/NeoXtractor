@@ -98,7 +98,7 @@ class MeshParser5(BaseMeshParser):
         self._validate_face_count(face_count)
         
         model['position'] = []
-        # vertex position - adaptive format based on bone_exist
+        # vertex position
         for _ in range(vertex_count):
             if model['bone_exist'] < 2:
                 x = read_float(f)
@@ -111,7 +111,7 @@ class MeshParser5(BaseMeshParser):
             model['position'].append((x, y, z))
         
         model['normal'] = []
-        # vertex normal - adaptive format based on bone_exist
+        # vertex normal
         for _ in range(vertex_count):
             if model['bone_exist'] < 2:
                 x = read_float(f)
@@ -122,12 +122,31 @@ class MeshParser5(BaseMeshParser):
                 y = read_half_float(f)
                 z = read_half_float(f)
             model['normal'].append((x, y, z))
-        
-        # Skip optional second normal layer if present
+
+
+        """
+        if read_uint16(f) == 1:
+            for _ in range(vertex_count):
+                if model['bone_exist'] < 2:
+                    x = read_float(f)
+                    y = read_float(f)
+                    z = read_float(f)
+                else:
+                    x = read_half_float(f)
+                    y = read_half_float(f)
+                    z = read_half_float(f)
+        else:
+            current_position = f.tell()
+            f.seek(current_position - 2)
+            
+        #new normal, but i don't know how to add new normal-maps
+        """
+        # So just skip it
+        # Skip
         if read_uint16(f) == 1:
             f.seek(vertex_count * 12, 1)
-        
-        # Face index table with adaptive reading
+
+        # Face
         model['face'] = []
         face_start_position = f.tell()
         max_face = 0
@@ -137,18 +156,18 @@ class MeshParser5(BaseMeshParser):
             v2 = read_uint16(f)
             v3 = read_uint16(f)
             model['face'].append((v1, v2, v3))
-            if v3 - max_face < 16:
-                max_face = max(max_face, v1, v2, v3)
-            else:
-                # Retry with different alignment if needed
-                model['face'] = []
-                f.seek(face_start_position - 2)
-                for _ in range(face_count):
-                    v1 = read_uint16(f)
-                    v2 = read_uint16(f)
-                    v3 = read_uint16(f)
-                    model['face'].append((v1, v2, v3))
-                break
+            # if v3 - max_face < 16:
+            #     max_face = max(max_face, v1, v2, v3)
+            # else:
+            #     # Retry with different alignment if needed
+            #     model['face'] = []
+            #     f.seek(face_start_position - 2)
+            #     for _ in range(face_count):
+            #         v1 = read_uint16(f)
+            #         v2 = read_uint16(f)
+            #         v3 = read_uint16(f)
+            #         model['face'].append((v1, v2, v3))
+            #     break
         
         model['uv'] = []
         # vertex uv
