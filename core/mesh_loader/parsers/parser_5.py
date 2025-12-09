@@ -8,7 +8,7 @@ from core.mesh_loader.types import BaseMeshParser, MeshData
 
 
 class MeshParser5(BaseMeshParser):
-    """Enhanced mesh parser with support for half-float formats and adaptive face reading."""
+    """Enhanced mesh parser with support for half-float formats."""
     
     def parse(self, data: bytes) -> MeshData:
         """Parse mesh using the enhanced parsing method."""
@@ -20,7 +20,6 @@ class MeshParser5(BaseMeshParser):
         return self._standardize_mesh_data(raw_model)
     
     def _parse_mesh_enhanced(self, model: dict[str, Any], f: BinaryIO) -> dict[str, Any]:
-        """Internal enhanced parsing implementation."""
         _magic_number = f.read(4)
         s_type = f.read(2)
         uk2 = f.read(2)
