@@ -10,7 +10,8 @@ from core.mesh_loader.parsers import (
     MeshParser1,
     MeshParser2,
     MeshParser3,
-    MeshParser4
+    MeshParser4,
+    MeshParser5
 )
 from core.mesh_loader.types import BaseMeshParser, MeshData
 
@@ -37,7 +38,8 @@ class MeshLoader:
             MeshParser1(),
             MeshParser2(),
             MeshParser3(),
-            MeshParser4()
+            MeshParser4(),
+            MeshParser5()
         ]
 
     def load_from_bytes(self, data: bytes) -> Optional[MeshData]:

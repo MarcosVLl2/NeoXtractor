@@ -20,6 +20,9 @@ def read_uint8(f: BinaryIO):
 def read_float(f: BinaryIO) -> float:
     """Extract float from binary stream."""
     return struct.unpack("<f", f.read(4))[0]
+def read_half_float(f):
+    """Extract half-precision floating-point from binary stream."""
+    return struct.unpack('e', f.read(2))[0]
 
 def read_uintle32(f: ConstBitStream):
     """Extract unsigned 32-bit integer from a bit stream in little-endian format."""
