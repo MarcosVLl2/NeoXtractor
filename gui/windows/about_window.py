@@ -115,7 +115,7 @@ class AboutWindow(QtWidgets.QDialog):
         description.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
 
         # Copyright info
-        copyright_info = QtWidgets.QLabel("© 2025 MarcosVLl2 & contributors\nNeoX is an game engine developed by Netease. NeoXtractor is not affiliated with Netease.\nThis project is limited for educational purposes.")
+        copyright_info = QtWidgets.QLabel("© 2026 MarcosVLl2 & contributors\nNeoX is an game engine developed by Netease. NeoXtractor is not affiliated with Netease.\nThis project is limited for educational purposes.")
         copyright_info.setWordWrap(True)
         copyright_info.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
 
