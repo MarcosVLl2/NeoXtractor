@@ -2,6 +2,7 @@
 
 import ctypes
 import os
+import sys
 from typing import cast, overload
 
 import numpy as np
@@ -28,7 +29,7 @@ INSTRUCTIONS = [
     ("Key 1", ("Front View", "Back View")),
     ("Key 3", ("Right View", "Left View")),
     ("Key 7", ("Top View", "Bottom View")),
-    ("Ctrl", "Alternative Actions")
+    ((sys.platform == "darwin" and "Option" or "Ctrl"), "Alternative Actions")
 ]
 
 GRID_COLOR = [0.3, 0.3, 0.3]
