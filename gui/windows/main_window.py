@@ -1,6 +1,7 @@
 """Provides MainWindow class."""
 
 import os
+import sys
 from typing import Any, cast
 
 from PySide6 import QtCore, QtWidgets, QtGui
@@ -271,7 +272,11 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.menuBar().addMenu(file_menu())
 
-        settings_action = self.menuBar().addAction("Settings")
+        app_menu = None
+        if sys.platform == "darwin":
+            app_menu = self.menuBar().addMenu("NeoXtractor")
+
+        settings_action = (app_menu or self.menuBar()).addAction("Settings")
         settings_action.setStatusTip("Open Settings window.")
         settings_action.setMenuRole(QtGui.QAction.MenuRole.PreferencesRole)
         settings_action.triggered.connect(
@@ -291,7 +296,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.menuBar().addMenu(tools_menu())
 
-        self.menuBar().addAction("About",
+        (app_menu or self.menuBar()).addAction("About",
             lambda: AboutWindow(self).exec()
         ).setMenuRole(QtGui.QAction.MenuRole.AboutRole)
 

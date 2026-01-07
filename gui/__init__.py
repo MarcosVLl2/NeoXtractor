@@ -19,7 +19,6 @@ def run():
     get_logger().info("Starting NeoXtractor in GUI mode...")
 
     app = QtWidgets.QApplication(sys.argv)
-    app.setApplicationName("NeoXtractor")
 
     fonts_dir = os.path.join(get_application_path(), "data", "fonts")
 
