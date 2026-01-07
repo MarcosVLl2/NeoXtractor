@@ -1,0 +1,28 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_all_root" BoundingInfo="(0.10, 7.41, 0.03),(22.36, 7.80, 15.89),28.52" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0998,4.4370,0.0262" BoundingHalf="22.3597,4.8244,15.8934" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bonbon_e_cat_chugui01_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-16.4080,9.3713,-10.6185" BoundingHalf="3.4073,1.8462,4.2614" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="bonbon_e_cat_chugui01_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-16.5167,10.1801,-9.8034" BoundingHalf="0.5140,2.3059,0.3273" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="bonbon_e_cat_chugui01_2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="-0.0400,8.9767,0.9316" BoundingHalf="21.1910,6.2380,14.7934" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="bonbon_e_cat_chugui01_3" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="14.0169,10.0787,6.7427" BoundingHalf="4.6009,1.5713,5.1594" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="bonbon_e_cat_chugui01_4" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="bonbon_e_cat_show_chugui.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="bonbon_e_cat_show_chugui.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_pingdiguo" BindingFlag="2" LocalPosition="-3.8160,0.1442,0.5921" LocalRotation="-0.1813,-0.6832,0.6837,0.1816" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_cg_special_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="7b52cf11e8f7b33d" Inherit="7" Loading="2" Name="zhadanren_dachucat_zhanshi_idle_special_002.pse" Uri="fx/killer/zhadanren_dachucat_zhanshi_idle_special_002.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone_guo_02" BindingFlag="2" LocalPosition="2.4288,0.0009,0.0009" LocalRotation="0.4999,0.5001,-0.4999,0.5001" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_cg_special_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="912ab4052bc544d1" Inherit="7" Loading="2" Name="zhadanren_dachucat_zhanshi_idle_special_003.pse" Uri="fx/killer/zhadanren_dachucat_zhanshi_idle_special_003.pse" />
+        </Socket_1>
+    </SocketObject>
+</NeoX>

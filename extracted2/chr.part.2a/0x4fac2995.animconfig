@@ -1,0 +1,18 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="show_appear_gelude_billy"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="show_appear_gelude_billy"
+			FileName="billy_e_gelude_glassquan/show_appear_gelude_billy.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="14.533334" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

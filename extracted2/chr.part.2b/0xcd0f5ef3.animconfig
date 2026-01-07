@@ -1,0 +1,144 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_hds_e_baojun_hair/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_hds_e_baojun_hair/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_hds_e_baojun_hair/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_hds"
+			FileName="animations_hds_e_baojun_hair/hall_idle_2_hds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_hds_baojun"
+			FileName="animations_hds_e_baojun_hair/hall_idle_special_hds_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_baojun"
+			FileName="animations_hds_e_baojun_hair/idle_special_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animations_hds_e_baojun_hair/repair_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animations_hds_e_baojun_hair/repair_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="walk_hds"
+			FileName="animations_hds_e_baojun_hair/walk_hds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crouch_baojun"
+			FileName="animations_hds_e_baojun_hair/crouch_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2_hds_baojun"
+			FileName="animations_hds_e_baojun_hair/fear_walk2_hds_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk_hds"
+			FileName="animations_hds_e_baojun_hair/fear_walk_hds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_hds_baojun"
+			FileName="animations_hds_e_baojun_hair/hall_idle_2_hds_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2_hds_baojun"
+			FileName="animations_hds_e_baojun_hair/idle_2_hds_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_baojun"
+			FileName="animations_hds_e_baojun_hair/idle_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_hds_baojun"
+			FileName="animations_hds_e_baojun_hair/run_hds_baojun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<idle_baojun
+			run_hds_baojun="1,300" />
+		<run_hds_baojun
+			idle_baojun="1,300" />
+	</TransitInfo>
+</AnimationConfig>

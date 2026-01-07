@@ -1,0 +1,20 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_jiachong01" BoundingInfo="(-0.03, 3.78, 0.39),(6.97, 3.65, 1.89),8.09" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0289,3.7756,0.3866" BoundingHalf="6.9740,3.6535,1.8895" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="ttds_e_kbl_jiachong" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="ttds_e_kbl_jiachong1.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="ttds_e_kbl_jiachong1.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_jiachong01" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0552,0.0401,-0.9784,0.1949" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_001" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0c826b0a3ae7acb8" Inherit="7" Loading="2" Name="ttds_kaibuli_zhanshi_special_004.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_004.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,28 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_bone202" BoundingInfo="(-5.6819, 1.6403, -0.4694),(2.3472, 2.5066, 2.6991),3.5238" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-5.6819,1.6403,-0.6849" BoundingHalf="2.3472,2.5066,2.4837" BoundingInfo="(-5.6819, 1.6403, -0.6849),(2.3472, 2.5066, 2.4837),3.5118" MtlIdx="0" Name="billy_e_gelude_weapon01_0" />
+        <Sub1 BoundingCenter="-5.7421,1.9558,0.9422" BoundingHalf="1.6976,1.1614,1.2876" BoundingInfo="(-5.7421, 1.9558, 0.9422),(1.6976, 1.1614, 1.2876),2.0761" MtlIdx="1" Name="billy_e_gelude_weapon01_1" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../billy_weapon01.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../billy_weapon01.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="online_tail" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,4.5766,0.1965" LocalRotation="0.2307,0.1249,0.1121,0.9584" LocalScale="1.0000,1.0000,1.0000" Name="redlight" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_2 BindType="7" BindingBone="biped_bone202" BindingFlag="2" LocalPosition="1.9788,1.5590,-0.0209" LocalRotation="-0.4997,-0.5003,-0.4997,0.5003" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="9e7e9b229704a3b9" Inherit="7" Loading="4" Name="x57_delude_idle_022" Uri="fx/killer/x57_delude_idle_022.pse" />
+        </Socket_2>
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="e319d9b7a090f84c" Inherit="7" Loading="1" Name="Event|Play_3p_billy_myball_run_lp" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_myball_run_lp" />
+            <Object CastShadow="false" Id="388550d5adaa16d3" Inherit="7" Loading="1" Name="Event|Play_3p_billy_ballthorw_end_myball" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_ballthorw_end_myball" />
+        </Socket_2>
+    </SocketObject>
+</NeoX>

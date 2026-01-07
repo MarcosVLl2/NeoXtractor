@@ -1,0 +1,3237 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_lizard/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_lizard/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_lizard/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_lizard/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_lizard/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_lizard/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_lizard/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_lizard/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_lizard/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_lizard/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_lizard/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_lizard/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_lizard/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_lizard/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_lizard/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_lizard/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_lizard/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_lizard/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="drop_savage"
+			FileName="animations_lizard/drop_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="dropbefore_savage"
+			FileName="animations_lizard/dropbefore_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dropend_savage"
+			FileName="animations_lizard/dropend_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_lizard/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_lizard/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fallbefore_savage_1"
+			FileName="animations_lizard/fallbefore_savage_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fallbefore_savage_2"
+			FileName="animations_lizard/fallbefore_savage_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fallbefore_savage_3"
+			FileName="animations_lizard/fallbefore_savage_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fallend_savage"
+			FileName="animations_lizard/fallend_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage"
+			FileName="animations_lizard/fly_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage_to_stay_savage_1"
+			FileName="animations_lizard/fly_savage_to_stay_savage_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage_to_stay_savage_2"
+			FileName="animations_lizard/fly_savage_to_stay_savage_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage_to_stay_savage_3"
+			FileName="animations_lizard/fly_savage_to_stay_savage_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="flyend_savage"
+			FileName="animations_lizard/flyend_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_lizard/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_lizard"
+			FileName="animations_lizard/guisu_show_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_lizard/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_lizard/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_lizard/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_lizard/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_lizard/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_lizard/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_lizard/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_lizard/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_lizard/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_lizard/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_lizard/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_lizard/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_1"
+			FileName="animations_lizard/happy_lizard_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_1_end"
+			FileName="animations_lizard/happy_lizard_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_2"
+			FileName="animations_lizard/happy_lizard_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_2_end"
+			FileName="animations_lizard/happy_lizard_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_carry"
+			FileName="animations_lizard/happy_lizard_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_rebound"
+			FileName="animations_lizard/happy_lizard_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_show"
+			FileName="animations_lizard/happy_lizard_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_lizard/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_lizard/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_lizard/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_lizard/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="jump_savage"
+			FileName="animations_lizard/jump_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_lizard/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_lizard/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_lizard/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.0666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_lizard/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.0666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_lizard"
+			FileName="animations_lizard/load_sit_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_lizard"
+			FileName="animations_lizard/load_stand_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_lizard"
+			FileName="animations_lizard/load_visit_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.0666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_lizard/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_lizard/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_lizard/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_lizard/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_lizard/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_lizard/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pushforward"
+			FileName="animations_lizard/pushforward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_lizard/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_lizard/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_lizard/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_lizard/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_lizard"
+			FileName="animations_lizard/show_idle_special_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.1999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_lizard"
+			FileName="animations_lizard/show_idle_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_lizard/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_lizard/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_lizard/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_lizard/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stay_savage_1"
+			FileName="animations_lizard/stay_savage_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stay_savage_2"
+			FileName="animations_lizard/stay_savage_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stay_savage_3"
+			FileName="animations_lizard/stay_savage_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_lizard/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage_to_fall_savage"
+			FileName="animations_lizard/fly_savage_to_fall_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fall_savage"
+			FileName="animations_lizard/fall_savage.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_lizard/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic"
+			FileName="animations_lizard/release_hypnotic.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_lizard/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_lizard/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_lizard/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zhentan_hlz"
+			FileName="animations_lizard/show_idle_special_zhentan_hlz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.1999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zhentan_hlz"
+			FileName="animations_lizard/show_idle_zhentan_hlz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_lizard"
+			FileName="animations_lizard/happy_struggle4_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_lizard/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="jump_savage_2"
+			FileName="animations_lizard/jump_savage_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_lizard/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_lizard/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_lizard/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_lizard/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_cry_lizard"
+			FileName="animations_lizard/show_appear_cry_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_cry_lizard"
+			FileName="animations_lizard/show_idle_cry_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_cry_lizard"
+			FileName="animations_lizard/show_idle_special_cry_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_qm_lizard"
+			FileName="animations_lizard/show_appear_qm_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_qm_lizard"
+			FileName="animations_lizard/show_idle_qm_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_qm_lizard"
+			FileName="animations_lizard/show_idle_special_qm_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_lizard/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_lizard/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_lizard/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_lizard/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_lizard/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_lizard/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_lizard/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_lizard/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_lizard/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_lizard/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_lizard/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_lizard/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="load_lizard_sleep"
+			FileName="animations_lizard/load_lizard_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_lizard/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_lizard/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_lizard/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1"
+			FileName="animations_lizard/elec_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_lizard/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3"
+			FileName="animations_lizard/elec_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer"
+			FileName="animations_lizard/elecstrike_suffer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_gudi_lizard"
+			FileName="animations_lizard/show_appear_gudi_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.0999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_gudi_lizard"
+			FileName="animations_lizard/show_idle_gudi_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_gudi_lizard"
+			FileName="animations_lizard/show_idle_special_gudi_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="happy_lizard_attack_carry_end"
+			FileName="animations_lizard/happy_lizard_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_lizard_hx"
+			FileName="animations_lizard/load_visit_lizard_hx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.0666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_lizard_hx"
+			FileName="animations_lizard/show_idle_lizard_hx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3999"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_lizard_hx"
+			FileName="animations_lizard/show_idle_special_lizard_hx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.1999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_lizard"
+			FileName="animations_lizard/forbidden_therapy_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_lizard/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="lizard_idle_l"
+			FileName="animations_lizard/lizard_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="lizard_idle_r"
+			FileName="animations_lizard/lizard_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="lizard_special_l"
+			FileName="animations_lizard/lizard_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="lizard_special_r"
+			FileName="animations_lizard/lizard_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_lizard/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_lizard/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_lizard/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_lizard/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_lizard/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_lizard/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_lizard/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_lizard/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_lizard/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_lizard/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_lizard/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_lizard/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_lizard/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_lizard/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_lizard/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_lizard/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_lizard/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_liuke"
+			FileName="animations_lizard/show_appear_liuke.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_liuke"
+			FileName="animations_lizard/show_idle_liuke.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_liuke"
+			FileName="animations_lizard/show_idle_special_liuke.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_lizard/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_lizard/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_lizard/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_lizard/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_lizard/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_lizard/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_lizard/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_lizard/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_lizard/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_zheng_lizard"
+			FileName="animations_lizard/show_appear_zheng_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.1666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zheng_lizard"
+			FileName="animations_lizard/show_idle_special_zheng_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zheng_lizard"
+			FileName="animations_lizard/show_idle_zheng_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ezy_xnh"
+			FileName="animations_lizard/show_appear_ezy_xnh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_lizard/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_lizard/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_lizard/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_lizard/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_lizard/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_lizard/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_lizard/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_lizard/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_lizard/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_lizard/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_lizard/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_lizard/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_lizard/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_lizard/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_lizard/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_lizard/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_lizard/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_sd_lizard"
+			FileName="animations_lizard/show_appear_sd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_sd_lizard"
+			FileName="animations_lizard/show_idle_sd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.2666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_sd_lizard"
+			FileName="animations_lizard/show_idle_special_sd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_lizard/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.9"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_lizard/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_lizard"
+			FileName="animations_lizard/like_drink_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_lizard/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_lizard/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_lizard/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_lizard/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_lizard/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_lizard/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_lizard/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="fly_savage_1"
+			FileName="animations_lizard/fly_savage_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_lizard"
+			FileName="animations_lizard/emotion_fourth_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_lizard/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_lizard/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_lizard/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_lizard/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_lizard/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_lizard/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_lizard/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_lizard/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_lizard/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_lizard/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_lizard/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_lizard/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_lizard/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_lizard/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="lizard_attack_carry"
+			FileName="animations_lizard/lizard_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="lizard_attack_carry_end"
+			FileName="animations_lizard/lizard_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="carry_run"
+			FileName="animations_lizard/carry_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_lizard/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_lizard/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_lizard/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_lizard/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_lizard/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_lizard/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_lizard/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_lizard/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_lizard/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_lizard/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_lizard/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_lizard/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_lizard/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_lizard/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_lizard/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_lizard/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_lizard/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_lizard/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_lizard/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_lizard/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_lizard/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_lizard/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_lizard/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_lizard/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_lizard/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ymjd_lizard"
+			FileName="animations_lizard/show_idle_special_ymjd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.533334"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ymjd_lizard"
+			FileName="animations_lizard/show_idle_ymjd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.666667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ymjd_lizard"
+			FileName="animations_lizard/show_appear_ymjd_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_lizard/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_lizard/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_lizard/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_lizard/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle_ymjd"
+			FileName="animations_lizard/idle_ymjd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.666667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_ymjd"
+			FileName="animations_lizard/run_ymjd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_ymjd"
+			FileName="animations_lizard/hall_idle_2_ymjd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_ymjd"
+			FileName="animations_lizard/hall_walk_2_ymjd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_lizard/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_lizard/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_lizard/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_lizard/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.433333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_lizard/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_lizard/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_lizard/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_lizard/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_lizard/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_lizard/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_lizard/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_lizard/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_lizard/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_lizard/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_lizard/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_lizard/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_lizard/hall_crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_lizard/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_lizard/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_lizard/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_lizard/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_lizard/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_lizard/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.533333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_lizard/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.566667" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_lizard/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_lizard/hall_selfie_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_lizard/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="gift_throw"
+			FileName="animations_lizard/gift_throw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="ride"
+			FileName="animations_lizard/ride.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="ride_left"
+			FileName="animations_lizard/ride_left.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="ride_right"
+			FileName="animations_lizard/ride_right.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_lizard/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="cr_jump_xmas_loop"
+			FileName="animations_lizard/cr_jump_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<skin
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<answerphone
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<beforecast
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<carry
+			skin="1,200"
+			beforecast="1,200"
+			carry="1,200"
+			carry_hit="1,200"
+			carry_struggle="1,200"
+			carry_struggle_add="1,200"
+			cast="1,200"
+			catch="1,200"
+			close_cabinet="1,200"
+			cursed="1,200"
+			destroy="1,200"
+			destroy_mb="1,200"
+			destroy_transmittter="1,200"
+			dial="1,200"
+			discard="1,200"
+			dizziness="1,200"
+			dizzy="1,200"
+			drop_savage="1,200"
+			dropbefore_savage="1,200"
+			dropend_savage="1,200"
+			emotion_dice="1,200"
+			fall="1,200"
+			fallbefore_savage_1="1,200"
+			fallbefore_savage_2="1,200"
+			fallbefore_savage_3="1,200"
+			fallend_savage="1,200"
+			fly_savage="1,200"
+			fly_savage_to_stay_savage_1="1,200"
+			fly_savage_to_stay_savage_2="1,200"
+			fly_savage_to_stay_savage_3="1,200"
+			flyend_savage="1,200"
+			glide="1,200"
+			guisu_show_lizard="1,200"
+			hall_idle_2="1,200"
+			hall_idle_special="1,200"
+			hall_walk_2="1,200"
+			hang="1,200"
+			hangup="1,200"
+			happy_carry="1,120"
+			happy_carry_hit="1,200"
+			happy_carry_struggle="1,200"
+			happy_carry_struggle_add="1,200"
+			happy_catch="1,200"
+			happy_discard="1,200"
+			happy_hang="1,200"
+			happy_lizard_attack_1="1,200"
+			happy_lizard_attack_1_end="1,200"
+			happy_lizard_attack_2="1,200"
+			happy_lizard_attack_2_end="1,200"
+			happy_lizard_attack_carry="1,200"
+			happy_lizard_attack_rebound="1,200"
+			happy_lizard_attack_show="1,200"
+			happy_pick="1,200"
+			hit="1,200"
+			idle="1,200"
+			idle_special="1,200"
+			jump_savage="1,200"
+			kick_car_1="1,200"
+			kick_car_2="1,200"
+			load="1,200"
+			load_mirror="1,200"
+			load_sit_lizard="1,200"
+			load_stand_lizard="1,200"
+			load_visit_lizard="1,200"
+			open_cabinet="1,200"
+			outfire_butcher="1,200"
+			pick="1,200"
+			place_patrol_puppet="1,200"
+			place_tower="1,200"
+			prepare_place_tower="1,200"
+			pushforward="1,200"
+			remote_patrol_puppet="1,200"
+			repair_hook="1,200"
+			run="1,200"
+			scare_puppet_rigid="1,200"
+			show_idle_special_lizard="1,200"
+			show_idle_lizard="1,200"
+			sit_roller="1,200"
+			span="1,200"
+			sprint_dizzy="1,200"
+			sprint_flying="1,200"
+			stay_savage_1="1,200"
+			stay_savage_2="1,200"
+			stay_savage_3="1,200"
+			strong_cursed="1,200"
+			fly_savage_to_fall_savage="1,200"
+			fall_savage="1,200"
+			sit_dc="1,200"
+			release_hypnotic="1,200"
+			sleeping="1,200"
+			emotion_salute="1,200"
+			emotion_threaten="1,200"
+			show_idle_special_zhentan_hlz="1,200"
+			show_idle_zhentan_hlz="1,200"
+			happy_lizard_attack_carry_end="1,200" />
+		<carry_hit
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<carry_struggle
+			carry="1,200"
+			carry_struggle_add="1,200"
+			happy_carry="1,120"
+			happy_lizard_attack_1="1,120"
+			happy_lizard_attack_1_end="1,120"
+			happy_lizard_attack_2="1,120"
+			happy_lizard_attack_2_end="1,120"
+			happy_lizard_attack_carry="1,120"
+			happy_lizard_attack_rebound="1,120"
+			happy_lizard_attack_show="1,120"
+			happy_pick="1,120"
+			idle="1,200"
+			run="1,200"
+			happy_lizard_attack_carry_end="1,120" />
+		<carry_struggle_add
+			carry="1,200"
+			happy_carry="1,120"
+			happy_lizard_attack_1="1,120"
+			happy_lizard_attack_1_end="1,120"
+			happy_lizard_attack_2="1,120"
+			happy_lizard_attack_2_end="1,120"
+			happy_lizard_attack_carry="1,120"
+			happy_lizard_attack_rebound="1,120"
+			happy_lizard_attack_show="1,120"
+			happy_pick="1,120"
+			idle="1,200"
+			run="1,200"
+			happy_lizard_attack_carry_end="1,120" />
+		<cast
+			TransitTime="0.006"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<catch
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<close_cabinet
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<cursed
+			TransitTime="0.3335"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<destroy
+			TransitTime="0.3333"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<destroy_mb
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<destroy_transmittter
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<dial
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<discard
+			TransitTime="0.6665"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<dizziness
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<dizzy
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<drop_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<dropbefore_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<dropend_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<emotion_dice
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fall
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fallbefore_savage_1
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fallbefore_savage_2
+			TransitTime="0.6784"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fallbefore_savage_3
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fallend_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fly_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fly_savage_to_stay_savage_1
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fly_savage_to_stay_savage_2
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fly_savage_to_stay_savage_3
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<flyend_savage
+			TransitTime="-2147483648"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<glide
+			TransitTime="-2147483648"
+			carry="1,200"
+			happy_carry="1,120"
+			run="1,200" />
+		<guisu_show_lizard
+			TransitTime="-2147483648"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hall_idle_2
+			TransitTime="-2147483648"
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hall_idle_special
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hall_walk_2
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hang
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hangup
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_carry
+			skin="1,200"
+			answerphone="1,200"
+			beforecast="1,200"
+			carry="1,200"
+			carry_hit="1,120"
+			carry_struggle="1,200"
+			carry_struggle_add="1,200"
+			cast="1,200"
+			catch="1,200"
+			close_cabinet="1,200"
+			cursed="1,200"
+			destroy="1,200"
+			destroy_mb="1,200"
+			destroy_transmittter="1,200"
+			dial="1,200"
+			discard="1,200"
+			dizziness="1,200"
+			dizzy="1,200"
+			drop_savage="1,200"
+			dropbefore_savage="1,200"
+			dropend_savage="1,200"
+			emotion_dice="1,200"
+			fall="1,200"
+			fallbefore_savage_1="1,200"
+			fallbefore_savage_2="1,200"
+			fallbefore_savage_3="1,200"
+			fallend_savage="1,200"
+			fly_savage="1,200"
+			fly_savage_to_stay_savage_1="1,200"
+			fly_savage_to_stay_savage_2="1,200"
+			fly_savage_to_stay_savage_3="1,200"
+			flyend_savage="1,200"
+			glide="1,200"
+			guisu_show_lizard="1,200"
+			hall_idle_2="1,200"
+			hall_idle_special="1,200"
+			hall_walk_2="1,200"
+			hang="1,200"
+			hangup="1,200"
+			happy_carry="1,120"
+			happy_carry_hit="1,200"
+			happy_carry_struggle="1,200"
+			happy_carry_struggle_add="1,200"
+			happy_catch="1,200"
+			happy_discard="1,200"
+			happy_hang="1,200"
+			happy_lizard_attack_1="1,200"
+			happy_lizard_attack_1_end="1,200"
+			happy_lizard_attack_2="1,200"
+			happy_lizard_attack_2_end="1,200"
+			happy_lizard_attack_carry="1,200"
+			happy_lizard_attack_rebound="1,200"
+			happy_lizard_attack_show="1,200"
+			happy_pick="1,200"
+			hit="1,200"
+			idle="1,200"
+			idle_special="1,200"
+			jump_savage="1,200"
+			kick_car_1="1,200"
+			kick_car_2="1,200"
+			load="1,200"
+			load_mirror="1,200"
+			load_sit_lizard="1,200"
+			load_stand_lizard="1,200"
+			load_visit_lizard="1,200"
+			open_cabinet="1,200"
+			outfire_butcher="1,200"
+			pick="1,200"
+			place_patrol_puppet="1,200"
+			place_tower="1,200"
+			prepare_place_tower="1,200"
+			pushforward="1,200"
+			remote_patrol_puppet="1,200"
+			repair_hook="1,200"
+			run="1,200"
+			scare_puppet_rigid="1,200"
+			show_idle_special_lizard="1,200"
+			show_idle_lizard="1,200"
+			sit_roller="1,200"
+			span="1,200"
+			sprint_dizzy="1,200"
+			sprint_flying="1,200"
+			stay_savage_1="1,200"
+			stay_savage_2="1,200"
+			stay_savage_3="1,200"
+			strong_cursed="1,200"
+			fly_savage_to_fall_savage="1,200"
+			fall_savage="1,200"
+			sit_dc="1,200"
+			release_hypnotic="1,200"
+			sleeping="1,200"
+			emotion_salute="1,200"
+			emotion_threaten="1,200"
+			show_idle_special_zhentan_hlz="1,200"
+			show_idle_zhentan_hlz="1,200"
+			happy_lizard_attack_carry_end="1,200" />
+		<happy_carry_hit
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_carry_struggle
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_carry_struggle_add
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_catch
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_discard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_hang
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_1
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_1_end
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_2
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_2_end
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_carry
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_rebound
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_show
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_pick
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<hit
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<idle
+			skin="1,200"
+			answerphone="1,200"
+			beforecast="1,200"
+			carry="1,200"
+			carry_hit="1,200"
+			carry_struggle="1,200"
+			carry_struggle_add="1,200"
+			cast="1,200"
+			catch="1,200"
+			close_cabinet="1,200"
+			cursed="1,200"
+			destroy="1,200"
+			destroy_mb="1,200"
+			destroy_transmittter="1,200"
+			dial="1,200"
+			discard="1,200"
+			dizziness="1,200"
+			dizzy="1,200"
+			drop_savage="1,200"
+			dropbefore_savage="1,200"
+			dropend_savage="1,200"
+			emotion_dice="1,200"
+			fall="1,200"
+			fallbefore_savage_1="1,200"
+			fallbefore_savage_2="1,200"
+			fallbefore_savage_3="1,200"
+			fallend_savage="1,200"
+			fly_savage="1,200"
+			fly_savage_to_stay_savage_1="1,200"
+			fly_savage_to_stay_savage_2="1,200"
+			fly_savage_to_stay_savage_3="1,200"
+			flyend_savage="1,200"
+			glide="1,200"
+			guisu_show_lizard="1,200"
+			hall_idle_2="1,200"
+			hall_idle_special="1,200"
+			hall_walk_2="1,200"
+			hang="1,200"
+			hangup="1,200"
+			happy_carry="1,120"
+			happy_carry_hit="1,200"
+			happy_carry_struggle="1,200"
+			happy_carry_struggle_add="1,200"
+			happy_catch="1,200"
+			happy_discard="1,200"
+			happy_hang="1,200"
+			happy_lizard_attack_1="1,200"
+			happy_lizard_attack_1_end="1,200"
+			happy_lizard_attack_2="1,200"
+			happy_lizard_attack_2_end="1,200"
+			happy_lizard_attack_carry="1,200"
+			happy_lizard_attack_rebound="1,200"
+			happy_lizard_attack_show="1,200"
+			happy_pick="1,200"
+			hit="1,200"
+			idle="1,200"
+			idle_special="1,200"
+			jump_savage="1,200"
+			kick_car_1="1,200"
+			kick_car_2="1,200"
+			load="1,200"
+			load_mirror="1,200"
+			load_sit_lizard="1,200"
+			load_stand_lizard="1,200"
+			load_visit_lizard="1,200"
+			open_cabinet="1,200"
+			outfire_butcher="1,200"
+			pick="1,200"
+			place_patrol_puppet="1,200"
+			place_tower="1,200"
+			prepare_place_tower="1,200"
+			pushforward="1,200"
+			remote_patrol_puppet="1,200"
+			repair_hook="1,200"
+			run="1,300"
+			scare_puppet_rigid="1,200"
+			show_idle_special_lizard="1,200"
+			show_idle_lizard="1,200"
+			sit_roller="1,200"
+			span="1,200"
+			sprint_dizzy="1,200"
+			sprint_flying="1,200"
+			stay_savage_1="1,200"
+			stay_savage_2="1,200"
+			stay_savage_3="1,200"
+			strong_cursed="1,200"
+			fly_savage_to_fall_savage="1,200"
+			fall_savage="1,200"
+			sit_dc="1,200"
+			release_hypnotic="1,200"
+			sleeping="1,200"
+			emotion_salute="1,200"
+			emotion_threaten="1,200"
+			show_idle_special_zhentan_hlz="1,200"
+			show_idle_zhentan_hlz="1,200"
+			happy_lizard_attack_carry_end="1,200"
+			disarm="1,300" />
+		<idle_special
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<jump_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<kick_car_1
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<kick_car_2
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<load
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<load_mirror
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<load_sit_lizard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<load_stand_lizard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<load_visit_lizard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<open_cabinet
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<outfire_butcher
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<pick
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<place_patrol_puppet
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<place_tower
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<prepare_place_tower
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<pushforward
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<remote_patrol_puppet
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<repair_hook
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<run
+			skin="1,200"
+			answerphone="1,200"
+			beforecast="1,200"
+			carry="1,200"
+			carry_hit="1,200"
+			carry_struggle="1,200"
+			carry_struggle_add="1,200"
+			cast="1,200"
+			catch="1,200"
+			close_cabinet="1,200"
+			cursed="1,200"
+			destroy="1,200"
+			destroy_mb="1,200"
+			destroy_transmittter="1,200"
+			dial="1,200"
+			discard="1,200"
+			dizziness="1,200"
+			dizzy="1,200"
+			drop_savage="1,200"
+			dropbefore_savage="1,200"
+			dropend_savage="1,200"
+			emotion_dice="1,200"
+			fall="1,200"
+			fallbefore_savage_1="1,200"
+			fallbefore_savage_2="1,200"
+			fallbefore_savage_3="1,200"
+			fallend_savage="1,200"
+			fly_savage="1,200"
+			fly_savage_to_stay_savage_1="1,200"
+			fly_savage_to_stay_savage_2="1,200"
+			fly_savage_to_stay_savage_3="1,200"
+			flyend_savage="1,200"
+			glide="1,200"
+			guisu_show_lizard="1,200"
+			hall_idle_2="1,200"
+			hall_idle_special="1,200"
+			hall_walk_2="1,200"
+			hang="1,200"
+			hangup="1,200"
+			happy_carry="1,200"
+			happy_carry_hit="1,200"
+			happy_carry_struggle="1,200"
+			happy_carry_struggle_add="1,200"
+			happy_catch="1,200"
+			happy_discard="1,200"
+			happy_hang="1,200"
+			happy_lizard_attack_1="1,200"
+			happy_lizard_attack_1_end="1,200"
+			happy_lizard_attack_2="1,200"
+			happy_lizard_attack_2_end="1,200"
+			happy_lizard_attack_carry="1,200"
+			happy_lizard_attack_rebound="1,200"
+			happy_lizard_attack_show="1,200"
+			happy_pick="1,200"
+			hit="1,200"
+			idle="1,300"
+			idle_special="1,200"
+			jump_savage="1,200"
+			kick_car_1="1,200"
+			kick_car_2="1,200"
+			load="1,200"
+			load_mirror="1,200"
+			load_sit_lizard="1,200"
+			load_stand_lizard="1,200"
+			load_visit_lizard="1,200"
+			open_cabinet="1,200"
+			outfire_butcher="1,200"
+			pick="1,200"
+			place_patrol_puppet="1,200"
+			place_tower="1,200"
+			prepare_place_tower="1,200"
+			pushforward="1,200"
+			remote_patrol_puppet="1,200"
+			repair_hook="1,200"
+			run="1,200"
+			scare_puppet_rigid="1,200"
+			show_idle_special_lizard="1,200"
+			show_idle_lizard="1,200"
+			sit_roller="1,200"
+			span="1,200"
+			sprint_dizzy="1,200"
+			sprint_flying="1,200"
+			stay_savage_1="1,200"
+			stay_savage_2="1,200"
+			stay_savage_3="1,200"
+			strong_cursed="1,200"
+			fly_savage_to_fall_savage="1,200"
+			fall_savage="1,200"
+			sit_dc="1,200"
+			release_hypnotic="1,200"
+			sleeping="1,200"
+			emotion_salute="1,200"
+			emotion_threaten="1,200"
+			show_idle_special_zhentan_hlz="1,200"
+			show_idle_zhentan_hlz="1,200"
+			happy_lizard_attack_carry_end="1,200"
+			disarm="1,300"
+			dmm_butcher_skill="1,150" />
+		<scare_puppet_rigid
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<show_idle_special_lizard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<show_idle_lizard
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<sit_roller
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<span
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<sprint_dizzy
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200"
+			disarm="1,300" />
+		<sprint_flying
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<stay_savage_1
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<stay_savage_2
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<stay_savage_3
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<strong_cursed
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fly_savage_to_fall_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<fall_savage
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<sit_dc
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<release_hypnotic
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<sleeping
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<emotion_salute
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<emotion_threaten
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<show_idle_special_zhentan_hlz
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<show_idle_zhentan_hlz
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<happy_lizard_attack_carry_end
+			carry="1,200"
+			happy_carry="1,120"
+			idle="1,200"
+			run="1,200" />
+		<disarm
+			idle="1,300"
+			run="1,300"
+			sprint_dizzy="1,300" />
+		<dmm_butcher_skill
+			run="1,150" />
+		<cr_jump_loop
+			fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

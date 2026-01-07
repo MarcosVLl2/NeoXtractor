@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone005" BoundingInfo="(0.00, 5.00, 3.00),(15.00, 15.00, 15.00),25.98" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="14.3935,12.8684,0.4696" BoundingHalf="1.4348,5.3109,0.7801" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bonbon_e_cat_weapon2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../bonbon_e_rabbit/bonbon_e_rabbit.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../bonbon_e_rabbit/bonbon_e_rabbit.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

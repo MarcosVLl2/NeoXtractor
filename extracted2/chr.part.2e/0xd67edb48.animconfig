@@ -1,0 +1,1233 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animation_gd_e_qiaol_head/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="aloft"
+			FileName="animation_gd_e_qiaol_head/aloft.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animation_gd_e_qiaol_head/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.033333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="be_lift_idle"
+			FileName="animation_gd_e_qiaol_head/be_lift_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up"
+			FileName="animation_gd_e_qiaol_head/bind_up.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="collapse_walk"
+			FileName="animation_gd_e_qiaol_head/collapse_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="crouch"
+			FileName="animation_gd_e_qiaol_head/crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="curious"
+			FileName="animation_gd_e_qiaol_head/curious.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yyzx_win1"
+			FileName="animation_gd_e_qiaol_head/emotion_yyzx_win1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yyzx_win2"
+			FileName="animation_gd_e_qiaol_head/emotion_yyzx_win2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="exciting"
+			FileName="animation_gd_e_qiaol_head/exciting.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_run_gd"
+			FileName="animation_gd_e_qiaol_head/fear_run_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2_gd"
+			FileName="animation_gd_e_qiaol_head/fear_walk2_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk_gd"
+			FileName="animation_gd_e_qiaol_head/fear_walk_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="grope"
+			FileName="animation_gd_e_qiaol_head/grope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animation_gd_e_qiaol_head/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animation_gd_e_qiaol_head/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animation_gd_e_qiaol_head/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animation_gd_e_qiaol_head/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_cflute"
+			FileName="animation_gd_e_qiaol_head/hall_play_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_piano"
+			FileName="animation_gd_e_qiaol_head/hall_play_piano.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animation_gd_e_qiaol_head/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animation_gd_e_qiaol_head/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animation_gd_e_qiaol_head/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animation_gd_e_qiaol_head/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animation_gd_e_qiaol_head/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animation_gd_e_qiaol_head/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animation_gd_e_qiaol_head/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animation_gd_e_qiaol_head/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animation_gd_e_qiaol_head/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animation_gd_e_qiaol_head/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animation_gd_e_qiaol_head/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animation_gd_e_qiaol_head/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animation_gd_e_qiaol_head/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animation_gd_e_qiaol_head/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animation_gd_e_qiaol_head/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animation_gd_e_qiaol_head/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse"
+			FileName="animation_gd_e_qiaol_head/happy_cockhorse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4"
+			FileName="animation_gd_e_qiaol_head/happy_struggle4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_run"
+			FileName="animation_gd_e_qiaol_head/hurt_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animation_gd_e_qiaol_head/idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_bosom"
+			FileName="animation_gd_e_qiaol_head/idle_bosom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ignorant"
+			FileName="animation_gd_e_qiaol_head/ignorant.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animation_gd_e_qiaol_head/low_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.133333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair"
+			FileName="animation_gd_e_qiaol_head/repair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animation_gd_e_qiaol_head/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animation_gd_e_qiaol_head/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animation_gd_e_qiaol_head/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animation_gd_e_qiaol_head/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="silent"
+			FileName="animation_gd_e_qiaol_head/silent.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_1_2"
+			FileName="animation_gd_e_qiaol_head/stick_swing_1_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.033333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_1"
+			FileName="animation_gd_e_qiaol_head/wait_21_idle_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_2"
+			FileName="animation_gd_e_qiaol_head/wait_21_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_3"
+			FileName="animation_gd_e_qiaol_head/wait_21_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_look_gudong"
+			FileName="animation_gd_e_qiaol_head/wait_look_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_play_gudong"
+			FileName="animation_gd_e_qiaol_head/wait_play_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.766667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_sleeping_gudong"
+			FileName="animation_gd_e_qiaol_head/wait_sleeping_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_stand_gudong"
+			FileName="animation_gd_e_qiaol_head/wait_stand_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animation_gd_e_qiaol_head/walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_gd"
+			FileName="animation_gd_e_qiaol_head/idle_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="agree"
+			FileName="animation_gd_e_qiaol_head/agree.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animation_gd_e_qiaol_head/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="be_lift"
+			FileName="animation_gd_e_qiaol_head/be_lift.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cautious"
+			FileName="animation_gd_e_qiaol_head/cautious.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="change_cocoon_spider"
+			FileName="animation_gd_e_qiaol_head/change_cocoon_spider.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animation_gd_e_qiaol_head/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animation_gd_e_qiaol_head/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="covereyes"
+			FileName="animation_gd_e_qiaol_head/covereyes.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_envelope"
+			FileName="animation_gd_e_qiaol_head/discard_envelope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.033333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_charging"
+			FileName="animation_gd_e_qiaol_head/dod_charging.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_die_front"
+			FileName="animation_gd_e_qiaol_head/dod_die_front.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bainian"
+			FileName="animation_gd_e_qiaol_head/emotion_bainian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cheer_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_cheer_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_circle"
+			FileName="animation_gd_e_qiaol_head/emotion_circle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cjfirework"
+			FileName="animation_gd_e_qiaol_head/emotion_cjfirework.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_dance_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animation_gd_e_qiaol_head/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_dice_20_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_dice_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon"
+			FileName="animation_gd_e_qiaol_head/emotion_dragon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_etj"
+			FileName="animation_gd_e_qiaol_head/emotion_etj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.533333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fkiss"
+			FileName="animation_gd_e_qiaol_head/emotion_fkiss.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_lying_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_lying_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_oro"
+			FileName="animation_gd_e_qiaol_head/emotion_oro.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo"
+			FileName="animation_gd_e_qiaol_head/emotion_photo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_1"
+			FileName="animation_gd_e_qiaol_head/emotion_race_chase_lose_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_2"
+			FileName="animation_gd_e_qiaol_head/emotion_race_chase_lose_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_3"
+			FileName="animation_gd_e_qiaol_head/emotion_race_chase_lose_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_4"
+			FileName="animation_gd_e_qiaol_head/emotion_race_chase_lose_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_5"
+			FileName="animation_gd_e_qiaol_head/emotion_race_chase_lose_5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_lose"
+			FileName="animation_gd_e_qiaol_head/emotion_race_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_1"
+			FileName="animation_gd_e_qiaol_head/emotion_race_win_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_2"
+			FileName="animation_gd_e_qiaol_head/emotion_race_win_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shame_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_shame_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shout_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_shout_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_taunt_gudong"
+			FileName="animation_gd_e_qiaol_head/emotion_taunt_gudong.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yd_xiangsi"
+			FileName="animation_gd_e_qiaol_head/emotion_yd_xiangsi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.233334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animation_gd_e_qiaol_head/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="get_off_2"
+			FileName="animation_gd_e_qiaol_head/get_off_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.533333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animation_gd_e_qiaol_head/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_putback_cflute"
+			FileName="animation_gd_e_qiaol_head/hall_putback_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animation_gd_e_qiaol_head/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animation_gd_e_qiaol_head/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_groundpet_common"
+			FileName="animation_gd_e_qiaol_head/idle_special_groundpet_common.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="openbox"
+			FileName="animation_gd_e_qiaol_head/openbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="out"
+			FileName="animation_gd_e_qiaol_head/out.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recall"
+			FileName="animation_gd_e_qiaol_head/recall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_down"
+			FileName="animation_gd_e_qiaol_head/ride_down.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animation_gd_e_qiaol_head/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="save2"
+			FileName="animation_gd_e_qiaol_head/save2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="save_by2"
+			FileName="animation_gd_e_qiaol_head/save_by2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shoot"
+			FileName="animation_gd_e_qiaol_head/shoot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide"
+			FileName="animation_gd_e_qiaol_head/slide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide2"
+			FileName="animation_gd_e_qiaol_head/slide2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide3"
+			FileName="animation_gd_e_qiaol_head/slide3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide4"
+			FileName="animation_gd_e_qiaol_head/slide4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide5"
+			FileName="animation_gd_e_qiaol_head/slide5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide6"
+			FileName="animation_gd_e_qiaol_head/slide6.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animation_gd_e_qiaol_head/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.033333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span2"
+			FileName="animation_gd_e_qiaol_head/span2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span3"
+			FileName="animation_gd_e_qiaol_head/span3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_1_1"
+			FileName="animation_gd_e_qiaol_head/stick_swing_1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_1_3"
+			FileName="animation_gd_e_qiaol_head/stick_swing_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_2"
+			FileName="animation_gd_e_qiaol_head/stick_swing_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_2_fall"
+			FileName="animation_gd_e_qiaol_head/stick_swing_2_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_3_1"
+			FileName="animation_gd_e_qiaol_head/stick_swing_3_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_3_1_from4"
+			FileName="animation_gd_e_qiaol_head/stick_swing_3_1_from4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_3_1_from5"
+			FileName="animation_gd_e_qiaol_head/stick_swing_3_1_from5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_3_2"
+			FileName="animation_gd_e_qiaol_head/stick_swing_3_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_4_1"
+			FileName="animation_gd_e_qiaol_head/stick_swing_4_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_4_1_from3"
+			FileName="animation_gd_e_qiaol_head/stick_swing_4_1_from3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_4_1_from5"
+			FileName="animation_gd_e_qiaol_head/stick_swing_4_1_from5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_4_2"
+			FileName="animation_gd_e_qiaol_head/stick_swing_4_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_5_1"
+			FileName="animation_gd_e_qiaol_head/stick_swing_5_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_5_1_from3"
+			FileName="animation_gd_e_qiaol_head/stick_swing_5_1_from3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_5_1_from4"
+			FileName="animation_gd_e_qiaol_head/stick_swing_5_1_from4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stick_swing_5_2"
+			FileName="animation_gd_e_qiaol_head/stick_swing_5_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_2"
+			FileName="animation_gd_e_qiaol_head/repair_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animation_gd_e_qiaol_head/repair_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animation_gd_e_qiaol_head/repair_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_qiaol_gd"
+			FileName="animation_gd_e_qiaol_head/show_appear_qiaol_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_qiaol_gd"
+			FileName="animation_gd_e_qiaol_head/show_idle_qiaol_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.933332"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_qiaol_gd"
+			FileName="animation_gd_e_qiaol_head/show_idle_special_qiaol_gd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_qiaol"
+			FileName="animation_gd_e_qiaol_head/idle_qiaol.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_qiaol"
+			FileName="animation_gd_e_qiaol_head/idle_special_qiaol.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_qiaol"
+			FileName="animation_gd_e_qiaol_head/run_qiaol.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_qiaol_gd_jp"
+			FileName="animation_gd_e_qiaol_head/show_idle_qiaol_gd_jp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.933332"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_qiaol_gd_jp"
+			FileName="animation_gd_e_qiaol_head/show_appear_qiaol_gd_jp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_qiaol_gd_jp"
+			FileName="animation_gd_e_qiaol_head/show_idle_special_qiaol_gd_jp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crouch_qiaol"
+			FileName="animation_gd_e_qiaol_head/crouch_qiaol.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_qiaol"
+			FileName="animation_gd_e_qiaol_head/hall_sit_chair_qiaol.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_gudong_qiaol"
+			FileName="animation_gd_e_qiaol_head/emotion_dance_gudong_qiaol.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="8" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<hall_idle_2
+			hall_walk_2="1,300"
+			hall_idle_special="1,300" />
+		<hall_walk_2
+			hall_idle_2="1,300" />
+	</TransitInfo>
+</AnimationConfig>

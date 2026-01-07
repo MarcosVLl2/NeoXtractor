@@ -1,0 +1,9 @@
+<NeoX>
+    <MaterialGroup MaterialCount="5" Name="qiutu_e_fangying" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_fangying/materials/qiutu_e_fangying_pingmu_0.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_fangying/materials/qiutu_e_fangying_pingmu_1.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_fangying/materials/qiutu_e_fangying_pingmu_2.mtl" />
+        <Material_3 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_fangying/materials/qiutu_e_fangying_head.mtl" />
+        <Material_4 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_fangying/materials/qiutu_e_fangying_body.mtl" />
+    </MaterialGroup>
+</NeoX>

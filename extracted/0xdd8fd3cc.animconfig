@@ -1,0 +1,4602 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_ripper/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_ripper/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_ripper/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_ripper/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_ripper/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_ripper/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_ripper/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_ripper/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_ripper/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_ripper/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_ripper/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_ripper/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_ripper/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_ripper/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_ripper/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_ripper/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_ripper/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_1"
+			FileName="animations_ripper/scissors_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_1_end"
+			FileName="animations_ripper/scissors_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_2"
+			FileName="animations_ripper/scissors_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_2_end"
+			FileName="animations_ripper/scissors_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_carry"
+			FileName="animations_ripper/scissors_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_rebound"
+			FileName="animations_ripper/scissors_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_show"
+			FileName="animations_ripper/scissors_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_ripper/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_carry_end"
+			FileName="animations_ripper/scissors_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_ripper/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_run"
+			FileName="animations_ripper/carry_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_ripper/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="skin"
+			FileName="animations_ripper/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_retrieve"
+			FileName="animations_ripper/scare_puppet_retrieve.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="break"
+			FileName="animations_ripper/break.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_ripper/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_ripper/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_ripper/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_ripper/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_ripper/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_ripper/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_stand"
+			FileName="animations_ripper/load_scissors_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_sit"
+			FileName="animations_ripper/load_scissors_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_jack"
+			FileName="animations_ripper/repair_hook_jack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_visit"
+			FileName="animations_ripper/load_scissors_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.133301"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_ripper/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_ripper/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_run"
+			FileName="animations_ripper/happy_carry_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_ripper/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_ripper/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_ripper/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_ripper/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_carry"
+			FileName="animations_ripper/happy_scissors_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_carry_end"
+			FileName="animations_ripper/happy_scissors_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_ripper/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_ripper/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_act1"
+			FileName="animations_ripper/run_act1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happpy_scissors_attack_1"
+			FileName="animations_ripper/happpy_scissors_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_1_end"
+			FileName="animations_ripper/happy_scissors_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_2"
+			FileName="animations_ripper/happy_scissors_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_2_end"
+			FileName="animations_ripper/happy_scissors_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_rebound"
+			FileName="animations_ripper/happy_scissors_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_show"
+			FileName="animations_ripper/happy_scissors_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_repair_hook_jack"
+			FileName="animations_ripper/happy_repair_hook_jack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_act2"
+			FileName="animations_ripper/run_act2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_1"
+			FileName="animations_ripper/happy_scissors_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_dc"
+			FileName="animations_ripper/show_appear_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_dc"
+			FileName="animations_ripper/show_idle_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_dc"
+			FileName="animations_ripper/show_idle_special_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_gaming_jack"
+			FileName="animations_ripper/end_gaming_jack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_lose_jack"
+			FileName="animations_ripper/end_lose_jack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_win_jack"
+			FileName="animations_ripper/end_win_jack.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry"
+			FileName="animations_ripper/princ_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_scissors_attack_carry"
+			FileName="animations_ripper/princ_scissors_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_scissors_attack_carry_end"
+			FileName="animations_ripper/princ_scissors_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_hit"
+			FileName="animations_ripper/princ_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_run"
+			FileName="animations_ripper/princ_carry_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_struggle"
+			FileName="animations_ripper/princ_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_struggle_add"
+			FileName="animations_ripper/princ_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_catch"
+			FileName="animations_ripper/princ_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_discard"
+			FileName="animations_ripper/princ_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_hang"
+			FileName="animations_ripper/princ_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_pick"
+			FileName="animations_ripper/princ_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_ripper/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_ripper/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_ripper"
+			FileName="animations_ripper/load_sleep_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_ripper/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_ripper/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_ripper/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_ripper/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_ripper/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_ripper/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_ripper/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_ripper/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_xiyan_ripper"
+			FileName="animations_ripper/show_appear_xiyan_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_xiyan_ripper"
+			FileName="animations_ripper/show_idle_xiyan_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xiyan_ripper"
+			FileName="animations_ripper/show_idle_special_xiyan_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_ripper/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_ripper/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ripper"
+			FileName="animations_ripper/show_idle_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ripper"
+			FileName="animations_ripper/show_idle_special_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_ripper/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_ripper/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_sishen"
+			FileName="animations_ripper/show_appear_sishen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_sishen"
+			FileName="animations_ripper/show_idle_sishen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_sishen"
+			FileName="animations_ripper/show_idle_special_sishen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_ripper/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_ripper/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_ripper/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_vp_ripper"
+			FileName="animations_ripper/show_appear_vp_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_vp_ripper"
+			FileName="animations_ripper/show_idle_special_vp_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_vp_ripper"
+			FileName="animations_ripper/show_idle_vp_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_ripper/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_eyes_ripper"
+			FileName="animations_ripper/show_appear_eyes_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_eyes_ripper"
+			FileName="animations_ripper/show_idle_eyes_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_eyes_ripper"
+			FileName="animations_ripper/show_idle_special_eyes_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_ripper/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_ripper/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_ripper/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_ripper/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_ripper/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_ripper/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_ripper/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_ripper/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_ripper/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic"
+			FileName="animations_ripper/release_hypnotic.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_ripper/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_ripper/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_ripper/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_ripper/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_ripper/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_ripper/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_give"
+			FileName="animations_ripper/poker_give.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_lose"
+			FileName="animations_ripper/poker_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_receive"
+			FileName="animations_ripper/poker_receive.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_ripper/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach"
+			FileName="animations_ripper/poker_win_attach.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_fade"
+			FileName="animations_ripper/poker_win_fade.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach_1"
+			FileName="animations_ripper/poker_win_attach_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach_2"
+			FileName="animations_ripper/poker_win_attach_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_ripper/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_ripper/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_ripper/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_ripper/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_01"
+			FileName="animations_ripper/span_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_ripper/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_ripper/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_ripper/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_ripper/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_ripper/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_edward"
+			FileName="animations_ripper/run_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_edward_b"
+			FileName="animations_ripper/show_appear_edward_b.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_edward_w"
+			FileName="animations_ripper/show_appear_edward_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_edward_b"
+			FileName="animations_ripper/show_idle_edward_b.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_edward_w"
+			FileName="animations_ripper/show_idle_edward_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.7666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_edward_b"
+			FileName="animations_ripper/show_idle_special_edward_b.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_edward_w"
+			FileName="animations_ripper/show_idle_special_edward_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_edward"
+			FileName="animations_ripper/emotion_dice_20_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_edward"
+			FileName="animations_ripper/emotion_threaten_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_edward"
+			FileName="animations_ripper/load_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_sit_edward"
+			FileName="animations_ripper/load_scissors_sit_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_stand_edward"
+			FileName="animations_ripper/load_scissors_stand_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_visit_edward"
+			FileName="animations_ripper/load_scissors_visit_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.133301"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_ripper_edward"
+			FileName="animations_ripper/load_sleep_ripper_edward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_ripper/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_ripper/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_ripper/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1"
+			FileName="animations_ripper/elec_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_ripper/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3"
+			FileName="animations_ripper/elec_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer"
+			FileName="animations_ripper/elecstrike_suffer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_sishen_hexie"
+			FileName="animations_ripper/show_appear_sishen_hexie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_sishen_hexie"
+			FileName="animations_ripper/show_idle_sishen_hexie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_sishen_hexie"
+			FileName="animations_ripper/show_idle_special_sishen_hexie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_js"
+			FileName="animations_ripper/show_appear_js.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_js"
+			FileName="animations_ripper/show_idle_js.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_js"
+			FileName="animations_ripper/show_idle_special_js.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_ripper"
+			FileName="animations_ripper/forbidden_therapy_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_ripper/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_l"
+			FileName="animations_ripper/ripper_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_r"
+			FileName="animations_ripper/ripper_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_l"
+			FileName="animations_ripper/ripper_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_r"
+			FileName="animations_ripper/ripper_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_ripper/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_ripper/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_ripper/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_ripper/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_ripper/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_ripper/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_ripper/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_ripper/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_ripper/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_ripper/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_ripper/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_ripper/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_ripper/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_ripper/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_ripper/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_ripper/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_ripper/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_ripper/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_ripper/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_ripper/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_gd_ripper"
+			FileName="animations_ripper/show_appear_gd_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_gd_ripper"
+			FileName="animations_ripper/show_idle_gd_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_gd_ripper"
+			FileName="animations_ripper/show_idle_special_gd_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_sj_ripper"
+			FileName="animations_ripper/show_appear_sj_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_sj_ripper"
+			FileName="animations_ripper/show_idle_sj_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_sj_ripper"
+			FileName="animations_ripper/show_idle_special_sj_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_ripper/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit_sj"
+			FileName="animations_ripper/carry_hit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_sj"
+			FileName="animations_ripper/carry_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add_sj"
+			FileName="animations_ripper/carry_struggle_add_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_sj"
+			FileName="animations_ripper/carry_struggle_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_sj"
+			FileName="animations_ripper/catch_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet_sj"
+			FileName="animations_ripper/close_cabinet_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_sj"
+			FileName="animations_ripper/destroy_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_sj"
+			FileName="animations_ripper/discard_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall_sj"
+			FileName="animations_ripper/fall_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_sj"
+			FileName="animations_ripper/hang_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_sj"
+			FileName="animations_ripper/hit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_sj"
+			FileName="animations_ripper/idle_special_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet_sj"
+			FileName="animations_ripper/open_cabinet_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick_sj"
+			FileName="animations_ripper/pick_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_sj"
+			FileName="animations_ripper/run_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_1_end_sj"
+			FileName="animations_ripper/scissors_attack_1_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_1_sj"
+			FileName="animations_ripper/scissors_attack_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_2_end_sj"
+			FileName="animations_ripper/scissors_attack_2_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_2_sj"
+			FileName="animations_ripper/scissors_attack_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="break_sj"
+			FileName="animations_ripper/break_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter_sj"
+			FileName="animations_ripper/destroy_transmittter_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy_sj"
+			FileName="animations_ripper/dizzy_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="end_gaming_jack_sj"
+			FileName="animations_ripper/end_gaming_jack_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_lose_jack_sj"
+			FileName="animations_ripper/end_lose_jack_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="end_win_jack_sj"
+			FileName="animations_ripper/end_win_jack_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_sj"
+			FileName="animations_ripper/happy_catch_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_sj"
+			FileName="animations_ripper/happy_discard_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang_sj"
+			FileName="animations_ripper/happy_hang_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_sj"
+			FileName="animations_ripper/happy_pick_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_visit_sj"
+			FileName="animations_ripper/load_scissors_visit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet_sj"
+			FileName="animations_ripper/place_patrol_puppet_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower_sj"
+			FileName="animations_ripper/place_tower_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower_sj"
+			FileName="animations_ripper/prepare_place_tower_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_hit_sj"
+			FileName="animations_ripper/princ_carry_hit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet_sj"
+			FileName="animations_ripper/remote_patrol_puppet_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_jack_sj"
+			FileName="animations_ripper/repair_hook_jack_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_rebound_sj"
+			FileName="animations_ripper/scissors_attack_rebound_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_show_sj"
+			FileName="animations_ripper/scissors_attack_show_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_01_sj"
+			FileName="animations_ripper/span_01_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_sj"
+			FileName="animations_ripper/cast_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed_sj"
+			FileName="animations_ripper/cursed_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb_sj"
+			FileName="animations_ripper/destroy_mb_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial_sj"
+			FileName="animations_ripper/dial_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_sj"
+			FileName="animations_ripper/emotion_dice_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_sj"
+			FileName="animations_ripper/emotion_salute_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_sj"
+			FileName="animations_ripper/emotion_threaten_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_sj"
+			FileName="animations_ripper/emotion_trouble_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_sj"
+			FileName="animations_ripper/glide_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hp_scissors_attack_carry_end_sj"
+			FileName="animations_ripper/hp_scissors_attack_carry_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hp_scissors_attack_carry_sj"
+			FileName="animations_ripper/hp_scissors_attack_carry_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_run_sj"
+			FileName="animations_ripper/princ_carry_run_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_sj"
+			FileName="animations_ripper/princ_carry_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_struggle_add_sj"
+			FileName="animations_ripper/princ_carry_struggle_add_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_struggle_sj"
+			FileName="animations_ripper/princ_carry_struggle_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_catch_sj"
+			FileName="animations_ripper/princ_catch_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_discard_sj"
+			FileName="animations_ripper/princ_discard_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_hang_sj"
+			FileName="animations_ripper/princ_hang_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="princ_pick_sj"
+			FileName="animations_ripper/princ_pick_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pr_scissors_attack_carry_end_sj"
+			FileName="animations_ripper/pr_scissors_attack_carry_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_sj"
+			FileName="animations_ripper/emotion_dice_20_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_sj"
+			FileName="animations_ripper/hall_idle_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_sj"
+			FileName="animations_ripper/hall_idle_special_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup_sj"
+			FileName="animations_ripper/hangup_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange_sj"
+			FileName="animations_ripper/idle_poker_exchange_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1_sj"
+			FileName="animations_ripper/kick_car_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2_sj"
+			FileName="animations_ripper/kick_car_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_sj"
+			FileName="animations_ripper/load_mirror_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher_sj"
+			FileName="animations_ripper/outfire_butcher_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange_sj"
+			FileName="animations_ripper/poker_exchange_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_give_sj"
+			FileName="animations_ripper/poker_give_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_lose_sj"
+			FileName="animations_ripper/poker_lose_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_receive_sj"
+			FileName="animations_ripper/poker_receive_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter_sj"
+			FileName="animations_ripper/poker_show_hunter_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach_1_sj"
+			FileName="animations_ripper/poker_win_attach_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach_2_sj"
+			FileName="animations_ripper/poker_win_attach_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_attach_sj"
+			FileName="animations_ripper/poker_win_attach_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_sj"
+			FileName="animations_ripper/pullback_butcher_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher_sj"
+			FileName="animations_ripper/pushforward_butcher_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed_sj"
+			FileName="animations_ripper/strong_cursed_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs_sj"
+			FileName="animations_ripper/climb_downstairs_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_sj"
+			FileName="animations_ripper/climb_upstairs_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_sj"
+			FileName="animations_ripper/climb_upstairs_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox_sj"
+			FileName="animations_ripper/close_elecbox_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1_sj"
+			FileName="animations_ripper/elec_suffer_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2_sj"
+			FileName="animations_ripper/elec_suffer_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3_sj"
+			FileName="animations_ripper/elec_suffer_3_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer_sj"
+			FileName="animations_ripper/elecstrike_suffer_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_ripper_sj"
+			FileName="animations_ripper/forbidden_therapy_ripper_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_sj"
+			FileName="animations_ripper/hall_sit_catsofa_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_sj"
+			FileName="animations_ripper/hall_throne_sit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_win_fade_sj"
+			FileName="animations_ripper/poker_win_fade_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic_sj"
+			FileName="animations_ripper/release_hypnotic_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel_sj"
+			FileName="animations_ripper/repel_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_l_sj"
+			FileName="animations_ripper/ripper_idle_l_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_sj"
+			FileName="animations_ripper/sit_dc_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1_sj"
+			FileName="animations_ripper/sleeping_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2_sj"
+			FileName="animations_ripper/sleeping_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_sj"
+			FileName="animations_ripper/sleeping_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_sj"
+			FileName="animations_ripper/span_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_run_sj"
+			FileName="animations_ripper/happy_carry_run_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_sj"
+			FileName="animations_ripper/happy_carry_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_sj"
+			FileName="animations_ripper/liftcar_idle_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_sj"
+			FileName="animations_ripper/liftcar_move_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch_sj"
+			FileName="animations_ripper/liftcar_switch_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_sit_sj"
+			FileName="animations_ripper/load_scissors_sit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_stand_sj"
+			FileName="animations_ripper/load_scissors_stand_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sj"
+			FileName="animations_ripper/load_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_ripper_sj"
+			FileName="animations_ripper/load_sleep_ripper_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying_sj"
+			FileName="animations_ripper/pighit_flying_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_r_sj"
+			FileName="animations_ripper/ripper_special_r_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_carry_end_sj"
+			FileName="animations_ripper/scissors_attack_carry_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_carry_sj"
+			FileName="animations_ripper/scissors_attack_carry_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_sj"
+			FileName="animations_ripper/sit_roller_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_sj"
+			FileName="animations_ripper/idle_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal_sj"
+			FileName="animations_ripper/activate_crystal_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push_sj"
+			FileName="animations_ripper/bee_push_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure_sj"
+			FileName="animations_ripper/butcher_civilian_cure_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher_sj"
+			FileName="animations_ripper/crystalcard_used_butcher_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa_sj"
+			FileName="animations_ripper/hall_sit_oldcatsofa_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_sj"
+			FileName="animations_ripper/happy_carry_hit_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_1_end_sj"
+			FileName="animations_ripper/happy_scissors_attack_1_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_1_sj"
+			FileName="animations_ripper/happy_scissors_attack_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_2_end_sj"
+			FileName="animations_ripper/happy_scissors_attack_2_end_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_2_sj"
+			FileName="animations_ripper/happy_scissors_attack_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_scissors_attack_show_sj"
+			FileName="animations_ripper/happy_scissors_attack_show_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract_sj"
+			FileName="animations_ripper/painting_attract_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_r_sj"
+			FileName="animations_ripper/ripper_idle_r_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_l_sj"
+			FileName="animations_ripper/ripper_special_l_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth_sj"
+			FileName="animations_ripper/run_smooth_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_retrieve_sj"
+			FileName="animations_ripper/scare_puppet_retrieve_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1_sj"
+			FileName="animations_ripper/stone_used_butcher1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2_sj"
+			FileName="animations_ripper/stone_used_butcher2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3_sj"
+			FileName="animations_ripper/stone_used_butcher3_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy_sj"
+			FileName="animations_ripper/toyman_jump_destroy_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_sj"
+			FileName="animations_ripper/wait_21_idle_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone_sj"
+			FileName="animations_ripper/answerphone_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_sj"
+			FileName="animations_ripper/beforecast_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_run_sj"
+			FileName="animations_ripper/carry_run_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_sj"
+			FileName="animations_ripper/hall_sit_chair_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot_sj"
+			FileName="animations_ripper/hall_sit_chariot_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable_sj"
+			FileName="animations_ripper/hall_sit_gametable_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock_sj"
+			FileName="animations_ripper/hall_sit_hammock_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_sj"
+			FileName="animations_ripper/hall_sit_horse_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror_sj"
+			FileName="animations_ripper/hall_sit_mirror_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair_sj"
+			FileName="animations_ripper/hall_sit_rockingchair_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02_sj"
+			FileName="animations_ripper/hall_sit_sofa02_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_sj"
+			FileName="animations_ripper/hall_sit_stool_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal_sj"
+			FileName="animations_ripper/hall_sleep_royal_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_sj"
+			FileName="animations_ripper/hall_swing_nature_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_sj"
+			FileName="animations_ripper/hall_walk_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_think"
+			FileName="animations_ripper/emotion_think.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_think_sj"
+			FileName="animations_ripper/emotion_think_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_ripper/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_ripper/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_ripper/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_ripper/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_ripper/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_ripper/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_ripper/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_ripper/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_ripper/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_ripper/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_ripper/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_ripper/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_ripper/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_ripper/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_ripper/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_ripper/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_ripper/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1_sj"
+			FileName="animations_ripper/dislike_food_1_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2_sj"
+			FileName="animations_ripper/dislike_food_2_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food_sj"
+			FileName="animations_ripper/like_food_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_ripper/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_ripper/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ylx_ripper"
+			FileName="animations_ripper/show_appear_ylx_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.666599"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ylx_ripper_01"
+			FileName="animations_ripper/show_appear_ylx_ripper_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.666599"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ylx_ripper"
+			FileName="animations_ripper/show_idle_special_ylx_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ylx_ripper"
+			FileName="animations_ripper/show_idle_ylx_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_ripper/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_ripper/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_ripper/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_ripper/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_lie_jk"
+			FileName="animations_ripper/emotion_lie_jk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_ripper"
+			FileName="animations_ripper/like_drink_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_ripper/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_ripper/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_ripper/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_ripper/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_ripper"
+			FileName="animations_ripper/emotion_fourth_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_ripper/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_ripper/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_ripper/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_ripper/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_ripper/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_ripper/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_ripper/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_ripper/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_ripper/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_ripper/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_ripper/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_ripper/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_ripper/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_ripper/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_ripper/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_ripper/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_ripper/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_ripper/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_ripper/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_ripper/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_ripper/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_ripper/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_ripper/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_ripper/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_ripper/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_ripper/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_ripper/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_ripper/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_ripper/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end"
+			FileName="animations_ripper/cr_slide_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_ripper/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_ripper/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_ripper/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bless_ripper"
+			FileName="animations_ripper/emotion_bless_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_ripper/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_ripper/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_ripper/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_ripper/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_ripper/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_ripper/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_ripper/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_ripper/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_ripper/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_nf_ripper"
+			FileName="animations_ripper/show_appear_nf_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_nf_ripper"
+			FileName="animations_ripper/show_idle_nf_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_nf_ripper"
+			FileName="animations_ripper/show_idle_special_nf_ripper.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.833334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_ripper/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_ripper/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_ripper/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_ripper/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_nf"
+			FileName="animations_ripper/idle_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_nf"
+			FileName="animations_ripper/idle_special_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_nf"
+			FileName="animations_ripper/load_mirror_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_nf"
+			FileName="animations_ripper/load_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.366667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_stand_nf"
+			FileName="animations_ripper/load_scissors_stand_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_scissors_visit_nf"
+			FileName="animations_ripper/load_scissors_visit_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.133333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_nf"
+			FileName="animations_ripper/run_nf.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_ripper/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_ripper/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_ripper/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_4"
+			FileName="animations_ripper/scissors_attack_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_4_end"
+			FileName="animations_ripper/scissors_attack_4_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_5"
+			FileName="animations_ripper/scissors_attack_5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_5_end"
+			FileName="animations_ripper/scissors_attack_5_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_rebound_4"
+			FileName="animations_ripper/scissors_attack_rebound_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scissors_attack_show_4"
+			FileName="animations_ripper/scissors_attack_show_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_ripper/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_ripper/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_ripper/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_ripper/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_ripper/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_ripper/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_ripper/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_ripper/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_ripper/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_ripper/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_ripper/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_ripper/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_ripper/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao_sj"
+			FileName="animations_ripper/hall_sit_huajiao_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_ripper/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play_sj"
+			FileName="animations_ripper/hall_box_play_sj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_ripper/hall_crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_ripper/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_ripper/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_ripper/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_ripper/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_ripper/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_ripper/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_ripper/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_ripper/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.6" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_ripper/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.4" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_ripper/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_ripper/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<carry_struggle_add
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<carry_struggle
+			carry_struggle_add="1,120"
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<carry
+			carry_struggle_add="1,120"
+			carry_struggle="1,120"
+			carry="1,120"
+			catch="1,120"
+			close_cabinet="1,120"
+			destroy="1,120"
+			discard="1,120"
+			dizziness="1,120"
+			fall="1,120"
+			hang="1,120"
+			hit="1,120"
+			idle_special="1,120"
+			open_cabinet="1,120"
+			carry_hit="1,120"
+			pick="1,120"
+			run="1,120"
+			scissors_attack_1="1,120"
+			scissors_attack_1_end="1,120"
+			scissors_attack_2="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry="1,120"
+			scissors_attack_rebound="1,120"
+			scissors_attack_show="1,120"
+			span="1,120"
+			scissors_attack_carry_end="1,120"
+			load="1,120"
+			carry_run="1,120"
+			dizzy="1,120"
+			skin="1,120"
+			scare_puppet_retrieve="1,120"
+			break="1,120"
+			destroy_transmittter="1,120"
+			scare_puppet_rigid="1,120"
+			place_patrol_puppet="1,120"
+			remote_patrol_puppet="1,120"
+			place_tower="1,120"
+			prepare_place_tower="1,120"
+			load_scissors_stand="1,120"
+			load_scissors_sit="1,120"
+			repair_hook_jack="1,120"
+			load_scissors_visit="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_run="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			happy_scissors_attack_carry="1,120"
+			happy_scissors_attack_carry_end="1,120"
+			happy_catch="1,120"
+			happy_hang="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<catch
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<close_cabinet
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<destroy
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<discard
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<dizziness
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<fall
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<hang
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<hit
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<idle_special
+			carry="1,120"
+			run="1,120"
+			scare_puppet_retrieve="1,250"
+			happy_carry="1,120"
+			scissors_attack_4="1,0" />
+		<idle
+			run="1,120"
+			scissors_attack_1="1,300"
+			scissors_attack_2="1,300"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			disarm="1,300"
+			scissors_attack_4="1,300"
+			scissors_attack_5="1,300" />
+		<open_cabinet
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<carry_hit
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<pick
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<run
+			carry_struggle_add="1,120"
+			carry_struggle="1,120"
+			carry="1,120"
+			catch="1,120"
+			close_cabinet="1,120"
+			destroy="1,120"
+			discard="1,120"
+			dizziness="1,120"
+			fall="1,120"
+			hang="1,120"
+			hit="1,120"
+			idle_special="1,120"
+			idle="1,120"
+			open_cabinet="1,120"
+			carry_hit="1,120"
+			pick="1,120"
+			run="1,120"
+			scissors_attack_1="1,120"
+			scissors_attack_1_end="1,120"
+			scissors_attack_2="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry="1,120"
+			scissors_attack_rebound="1,120"
+			scissors_attack_show="1,120"
+			span="1,120"
+			scissors_attack_carry_end="1,120"
+			load="1,120"
+			carry_run="1,120"
+			dizzy="1,120"
+			skin="1,120"
+			scare_puppet_retrieve="1,120"
+			break="1,120"
+			destroy_transmittter="1,120"
+			scare_puppet_rigid="1,120"
+			place_patrol_puppet="1,120"
+			remote_patrol_puppet="1,120"
+			place_tower="1,120"
+			prepare_place_tower="1,120"
+			load_scissors_stand="1,120"
+			load_scissors_sit="1,120"
+			repair_hook_jack="1,120"
+			load_scissors_visit="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_run="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			happy_scissors_attack_carry="1,120"
+			happy_scissors_attack_carry_end="1,120"
+			happy_catch="1,120"
+			happy_hang="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			disarm="1,300"
+			dmm_butcher_skill="1,250" />
+		<scissors_attack_1
+			carry="1,120"
+			run="1,120"
+			scissors_attack_1_end="1,120"
+			happy_carry="1,120" />
+		<scissors_attack_1_end
+			carry="1,120"
+			idle="1,300"
+			run="1,300"
+			scissors_attack_2_end="1,200"
+			happy_carry="1,120"
+			run_nf="1,300" />
+		<scissors_attack_2
+			carry="1,120"
+			run="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry_end="1,120"
+			happy_carry="1,120" />
+		<scissors_attack_2_end
+			carry="1,120"
+			idle="1,300"
+			run="1,300"
+			happy_carry="1,120"
+			run_nf="1,300" />
+		<scissors_attack_carry
+			carry="1,120"
+			run="1,120"
+			scissors_attack_carry_end="1,120"
+			happy_carry="1,120" />
+		<scissors_attack_rebound
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<scissors_attack_show
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<span
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<scissors_attack_carry_end
+			carry="1,120"
+			run="1,120"
+			scissors_attack_carry="1,120"
+			happy_carry="1,120" />
+		<load
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<carry_run
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<dizzy
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<skin
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<scare_puppet_retrieve
+			carry="1,120"
+			run="1,120"
+			scissors_attack_1_end="1,200"
+			happy_carry="1,120" />
+		<break
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<destroy_transmittter
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<scare_puppet_rigid
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<place_patrol_puppet
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<remote_patrol_puppet
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<place_tower
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<prepare_place_tower
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<load_scissors_stand
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<load_scissors_sit
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<repair_hook_jack
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<load_scissors_visit
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<happy_carry
+			carry_struggle_add="1,120"
+			carry_struggle="1,120"
+			carry="1,120"
+			catch="1,120"
+			close_cabinet="1,120"
+			destroy="1,120"
+			discard="1,120"
+			dizziness="1,120"
+			fall="1,120"
+			hang="1,120"
+			hit="1,120"
+			idle_special="1,120"
+			open_cabinet="1,120"
+			carry_hit="1,120"
+			pick="1,120"
+			run="1,120"
+			scissors_attack_1="1,120"
+			scissors_attack_1_end="1,120"
+			scissors_attack_2="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry="1,120"
+			scissors_attack_rebound="1,120"
+			scissors_attack_show="1,120"
+			span="1,120"
+			scissors_attack_carry_end="1,120"
+			load="1,120"
+			carry_run="1,120"
+			dizzy="1,120"
+			skin="1,120"
+			scare_puppet_retrieve="1,120"
+			break="1,120"
+			destroy_transmittter="1,120"
+			scare_puppet_rigid="1,120"
+			place_patrol_puppet="1,120"
+			remote_patrol_puppet="1,120"
+			place_tower="1,120"
+			prepare_place_tower="1,120"
+			load_scissors_stand="1,120"
+			load_scissors_sit="1,120"
+			repair_hook_jack="1,120"
+			load_scissors_visit="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_run="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			happy_scissors_attack_carry="1,100"
+			happy_scissors_attack_carry_end="1,120"
+			happy_catch="1,120"
+			happy_hang="1,120"
+			run_act1="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<happy_carry_hit
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_carry_run
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_carry_struggle
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_carry_struggle_add
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_discard
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_pick
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_scissors_attack_carry
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			happy_scissors_attack_carry_end="1,120" />
+		<happy_scissors_attack_carry_end
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,100" />
+		<happy_catch
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_hang
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120"
+			happpy_scissors_attack_1="1,120"
+			happy_scissors_attack_1_end="1,120"
+			happy_scissors_attack_2="1,120"
+			happy_scissors_attack_2_end="1,120"
+			happy_scissors_attack_rebound="1,120"
+			happy_scissors_attack_show="1,120"
+			happy_repair_hook_jack="1,120"
+			run_act2="1,120"
+			happy_scissors_attack_1="1,120" />
+		<run_act1
+			carry_struggle_add="1,120"
+			carry_struggle="1,120"
+			carry="1,120"
+			catch="1,120"
+			close_cabinet="1,120"
+			destroy="1,120"
+			discard="1,120"
+			dizziness="1,120"
+			fall="1,120"
+			hang="1,120"
+			hit="1,120"
+			idle_special="1,120"
+			idle="1,120"
+			open_cabinet="1,120"
+			carry_hit="1,120"
+			pick="1,120"
+			run="1,120"
+			scissors_attack_1="1,120"
+			scissors_attack_1_end="1,120"
+			scissors_attack_2="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry="1,120"
+			scissors_attack_rebound="1,120"
+			scissors_attack_show="1,120"
+			span="1,120"
+			scissors_attack_carry_end="1,120"
+			load="1,120"
+			carry_run="1,120"
+			dizzy="1,120"
+			skin="1,120"
+			scare_puppet_retrieve="1,120"
+			break="1,120"
+			destroy_transmittter="1,120"
+			scare_puppet_rigid="1,120"
+			place_patrol_puppet="1,120"
+			remote_patrol_puppet="1,120"
+			place_tower="1,120"
+			prepare_place_tower="1,120"
+			load_scissors_stand="1,120"
+			load_scissors_sit="1,120"
+			repair_hook_jack="1,120"
+			load_scissors_visit="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_run="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			happy_scissors_attack_carry="1,120"
+			happy_scissors_attack_carry_end="1,120"
+			happy_catch="1,120"
+			happy_hang="1,120" />
+		<happpy_scissors_attack_1
+			carry="1,120"
+			run="1,120"
+			scissors_attack_1_end="1,120"
+			happy_carry="1,120" />
+		<happy_scissors_attack_1_end
+			carry="1,120"
+			run="1,120"
+			scissors_attack_2_end="1,200"
+			happy_carry="1,120" />
+		<happy_scissors_attack_2
+			carry="1,120"
+			run="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry_end="1,120"
+			happy_carry="1,120" />
+		<happy_scissors_attack_2_end
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_scissors_attack_rebound
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_scissors_attack_show
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<happy_repair_hook_jack
+			carry="1,120"
+			run="1,120"
+			happy_carry="1,120" />
+		<run_act2
+			carry_struggle_add="1,120"
+			carry_struggle="1,120"
+			carry="1,120"
+			catch="1,120"
+			close_cabinet="1,120"
+			destroy="1,120"
+			discard="1,120"
+			dizziness="1,120"
+			fall="1,120"
+			hang="1,120"
+			hit="1,120"
+			idle_special="1,120"
+			idle="1,120"
+			open_cabinet="1,120"
+			carry_hit="1,120"
+			pick="1,120"
+			run="1,120"
+			scissors_attack_1="1,120"
+			scissors_attack_1_end="1,120"
+			scissors_attack_2="1,120"
+			scissors_attack_2_end="1,120"
+			scissors_attack_carry="1,120"
+			scissors_attack_rebound="1,120"
+			scissors_attack_show="1,120"
+			span="1,120"
+			scissors_attack_carry_end="1,120"
+			load="1,120"
+			carry_run="1,120"
+			dizzy="1,120"
+			skin="1,120"
+			scare_puppet_retrieve="1,120"
+			break="1,120"
+			destroy_transmittter="1,120"
+			scare_puppet_rigid="1,120"
+			place_patrol_puppet="1,120"
+			remote_patrol_puppet="1,120"
+			place_tower="1,120"
+			prepare_place_tower="1,120"
+			load_scissors_stand="1,120"
+			load_scissors_sit="1,120"
+			repair_hook_jack="1,120"
+			load_scissors_visit="1,120"
+			happy_carry="1,120"
+			happy_carry_hit="1,120"
+			happy_carry_run="1,120"
+			happy_carry_struggle="1,120"
+			happy_carry_struggle_add="1,120"
+			happy_discard="1,120"
+			happy_pick="1,120"
+			happy_scissors_attack_carry="1,120"
+			happy_scissors_attack_carry_end="1,120"
+			happy_catch="1,120"
+			happy_hang="1,120" />
+		<happy_scissors_attack_1
+			carry="1,120"
+			run="1,120"
+			scissors_attack_1_end="1,120"
+			happy_carry="1,120" />
+		<princ_carry
+			princ_scissors_attack_carry="1,100"
+			princ_carry_run="1,100"
+			princ_carry_struggle="1,50"
+			princ_hang="1,100" />
+		<princ_scissors_attack_carry
+			princ_carry="1,120" />
+		<princ_carry_run
+			princ_carry="1,100" />
+		<princ_catch
+			princ_carry="1,100" />
+		<princ_pick
+			princ_carry="1,100" />
+		<sprint_dizzy
+			disarm="1,300" />
+		<show_appear_xiyan_ripper
+			show_idle_xiyan_ripper="3,200" />
+		<pullback_butcher
+			idle="1,200"
+			run="1,200" />
+		<pushforward_butcher
+			idle="1,200"
+			run="1,200" />
+		<show_appear_js
+			show_idle_js="1,200" />
+		<show_idle_special_js
+			TransitTime="0.1355" />
+		<disarm
+			idle="1,300"
+			run="1,300"
+			sprint_dizzy="1,300" />
+		<dmm_butcher_skill
+			run="1,250" />
+		<cr_jump_loop
+			fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+		<idle_nf
+			scissors_attack_1="1,300"
+			scissors_attack_2="1,300"
+			scissors_attack_4="1,300"
+			scissors_attack_5="1,300" />
+		<scissors_attack_4
+			run="1,150" />
+		<scissors_attack_4_end
+			idle="1,300"
+			run="1,300"
+			run_nf="1,300" />
+		<scissors_attack_5
+			run="1,150" />
+		<scissors_attack_5_end
+			idle="1,300"
+			run="1,300"
+			run_nf="1,300" />
+		<scissors_attack_rebound_4
+			run="1,150" />
+		<scissors_attack_show_4
+			run="1,150" />
+	</TransitInfo>
+</AnimationConfig>

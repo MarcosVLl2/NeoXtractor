@@ -1,0 +1,25 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_bone200" BoundingInfo="(-14.56, 1.32, 0.07),(1.15, 1.21, 1.21),2.07" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-14.5624,1.3174,0.0681" BoundingHalf="1.1540,1.2134,1.2134" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="billy_e_gelude_white" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../billy_white.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../billy_white.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-14.4968,1.2381,0.0687" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="root" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="biped_bone200" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_idle_01" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="1c69a1ff77ce5e33" Inherit="7" Loading="4" Name="x57_delude_skill_ball_idle_002.pse" Uri="fx\killer\x57_delude_skill_ball_idle_002.pse" />
+        </Socket_1>
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="sound" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="316348614d0601e7" Inherit="7" Loading="1" Name="Event|Play_3p_billy_othterball_run_lp" Uri="wwise/killer_billy.bnk:/Event|Play_3p_billy_othterball_run_lp" />
+        </Socket_1>
+    </SocketObject>
+</NeoX>

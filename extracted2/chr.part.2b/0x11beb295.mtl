@@ -1,0 +1,83 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_body01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_LASER"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_VERTEX_COLOR"
+				Val="FALSE" />
+			<Macro3
+				Key="USE_TURBULENCE_TEX"
+				Val="FALSE" />
+			<Macro4
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro5
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_turbulence.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="common/lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_micai.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_mask.tga" />
+			<TexNoise
+				Value="" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_mask01.tga" />
+			<TexWaveMix
+				Value="" />
+			<anisotropy_color
+				Value="0.316487,0.394293,0.411765,1.000000" />
+			<anisotropy_noise
+				Value="0.100000" />
+			<anisotropy_width
+				Value="10" />
+			<u_ambient
+				Value="0.300000" />
+			<u_laser_hue_offset
+				Value="0.160000" />
+			<u_laser_hue_scale
+				Value="0.250000" />
+			<u_laser_power
+				Value="1.031000" />
+			<u_laser_saturation
+				Value="0.340000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

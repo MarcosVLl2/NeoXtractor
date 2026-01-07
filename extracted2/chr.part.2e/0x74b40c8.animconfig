@@ -1,0 +1,18 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="billy_e_gelude_xuying/skin.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.666667" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

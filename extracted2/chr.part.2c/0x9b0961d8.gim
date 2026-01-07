@@ -1,0 +1,20 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_qianpd_root" BoundingInfo="(0.10, 5.54, 1.01),(1.24, 2.44, 0.38),2.76" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0988,5.5399,1.0069" BoundingHalf="1.2408,2.4412,0.3772" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="yiyaoshi_e_sm_piaodai3" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="yiyaoshi_e_syao_qpd.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="yiyaoshi_e_syao_qpd.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/player/dm65_survivor_w/dm65_survivor_w_yiyaoshi/separate_dir/yiyaoshi_e_syao/yiyaoshi_e_syao_qpd.stb" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

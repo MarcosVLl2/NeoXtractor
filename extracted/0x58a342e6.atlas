@@ -1,0 +1,111 @@
+
+insect_game_beetle_10.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiachong10_0
+  rotate: false
+  xy: 2, 34
+  size: 88, 123
+  orig: 89, 124
+  offset: 1, 0
+  index: -1
+jiachong10_1
+  rotate: false
+  xy: 70, 4
+  size: 62, 28
+  orig: 64, 33
+  offset: 0, 0
+  index: -1
+jiachong10_10
+  rotate: false
+  xy: 168, 54
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+jiachong10_11
+  rotate: false
+  xy: 36, 3
+  size: 32, 29
+  orig: 32, 31
+  offset: 0, 1
+  index: -1
+jiachong10_12
+  rotate: false
+  xy: 219, 20
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+jiachong10_13
+  rotate: false
+  xy: 168, 106
+  size: 41, 51
+  orig: 41, 58
+  offset: 0, 0
+  index: -1
+jiachong10_2
+  rotate: false
+  xy: 134, 12
+  size: 41, 22
+  orig: 42, 30
+  offset: 1, 1
+  index: -1
+jiachong10_3
+  rotate: false
+  xy: 233, 3
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+jiachong10_4
+  rotate: false
+  xy: 219, 3
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+jiachong10_5
+  rotate: false
+  xy: 92, 36
+  size: 74, 121
+  orig: 74, 121
+  offset: 0, 0
+  index: -1
+jiachong10_6
+  rotate: false
+  xy: 2, 3
+  size: 32, 29
+  orig: 32, 31
+  offset: 0, 1
+  index: -1
+jiachong10_7
+  rotate: false
+  xy: 215, 64
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+jiachong10_8
+  rotate: false
+  xy: 177, 2
+  size: 40, 50
+  orig: 41, 58
+  offset: 0, 0
+  index: -1
+jiachong10_9
+  rotate: false
+  xy: 211, 108
+  size: 45, 49
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+jiachong_10_guang
+  rotate: false
+  xy: 2, 159
+  size: 253, 351
+  orig: 253, 351
+  offset: 0, 0
+  index: -1

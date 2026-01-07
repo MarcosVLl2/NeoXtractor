@@ -1,0 +1,34 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(-0.02, 9.46, -0.72),(5.34, 9.50, 2.51),11.19" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0189,7.7371,-0.7219" BoundingHalf="5.3411,7.7828,2.5110" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="xcz_d_mitu_body" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="0.0073,16.8725,-0.3492" BoundingHalf="1.7717,2.0917,1.8717" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="xcz_d_mitu_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="ttds_e_kbl_maoxianjia.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="ttds_e_kbl_maoxianjia.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped r forearm" BindingFlag="2" LocalPosition="1.3966,0.2213,-0.0169" LocalRotation="-0.6406,0.2477,-0.7019,0.1888" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_005" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0b9cf4727ccb1a65" Inherit="7" Loading="2" Name="ttds_kaibuli_zhanshi_special_008.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_008.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped l forearm" BindingFlag="2" LocalPosition="1.5250,-0.0923,-0.1480" LocalRotation="-0.5790,-0.4113,0.5629,0.4228" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_004" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="1559746f15f55245" Inherit="7" Loading="2" Name="ttds_kaibuli_zhanshi_special_008.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_008.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped r calf" BindingFlag="2" LocalPosition="3.0000,0.0000,0.0000" LocalRotation="-0.5419,-0.5301,0.4759,0.4459" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_002" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="1117944e190db652" Inherit="7" Loading="2" Name="ttds_kaibuli_zhanshi_special_008.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_008.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="biped l calf" BindingFlag="2" LocalPosition="3.0000,0.0000,0.0000" LocalRotation="-0.6780,-0.2902,0.6389,0.2188" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_001" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="7eea8918c61c5ad5" Inherit="7" Loading="2" Name="ttds_kaibuli_zhanshi_special_008.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_008.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="biped spine1" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.7075,-0.5941,-0.3582,-0.1351" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_kbl_special_003" PlayRatePolicy="1" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0ed5f01653b7e0f8" Inherit="1" Loading="2" Name="ttds_kaibuli_zhanshi_special_009.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_009.pse" />
+            <Object CastShadow="false" Id="b2caacbbc4765843" Inherit="1" Loading="2" Name="ttds_kaibuli_zhanshi_special_011.pse" Uri="fx/survivor/ttds_kaibuli_zhanshi_special_011.pse" />
+        </Socket_4>
+    </SocketObject>
+</NeoX>

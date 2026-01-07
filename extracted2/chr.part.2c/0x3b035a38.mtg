@@ -1,0 +1,8 @@
+<NeoX>
+    <MaterialGroup MaterialCount="4" Name="hds_d_yjmy" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_d_yjmy/materials/hds_d_yjmy_body.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_d_yjmy/materials/hds_d_yjmy_daoju.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_d_yjmy/materials/hds_d_yjmy_head.mtl" />
+        <Material_3 Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_d_yjmy/materials/hds_d_yjmy_head01.mtl" />
+    </MaterialGroup>
+</NeoX>

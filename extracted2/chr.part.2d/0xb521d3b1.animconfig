@@ -1,0 +1,122 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_ttds_e_kbl_head/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_kbl_ttds"
+			FileName="animations_ttds_e_kbl_head/show_idle_special_kbl_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_kbl_ttds"
+			FileName="animations_ttds_e_kbl_head/show_idle_kbl_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.533334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_kbl_ttds"
+			FileName="animations_ttds_e_kbl_head/show_appear_kbl_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.766666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_ttds"
+			FileName="animations_ttds_e_kbl_head/run_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_ttds"
+			FileName="animations_ttds_e_kbl_head/idle_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_ttds_e_kbl_head/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_ttds_e_kbl_head/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.033334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_ttds_e_kbl_head/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_ttds_e_kbl_head/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_ttds_e_kbl_head/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_kbl"
+			FileName="animations_ttds_e_kbl_head/hall_idle_2_kbl.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="8.033334" />
+		<Animation
+			Name="hall_walk_2_kbl"
+			FileName="animations_ttds_e_kbl_head/hall_walk_2_kbl.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="7.2" />
+		<Animation
+			Name="hall_idle_special_kbl"
+			FileName="animations_ttds_e_kbl_head/hall_idle_special_kbl.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="6.333333" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

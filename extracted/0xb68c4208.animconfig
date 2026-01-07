@@ -1,0 +1,1188 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="banshee_idle_l"
+			FileName="animations_h55_guajian_lazhu02/banshee_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="skin"
+			FileName="animations_h55_guajian_lazhu02/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_idle_r"
+			FileName="animations_h55_guajian_lazhu02/banshee_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_special_l"
+			FileName="animations_h55_guajian_lazhu02/banshee_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_special_r"
+			FileName="animations_h55_guajian_lazhu02/banshee_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_idle_l"
+			FileName="animations_h55_guajian_lazhu02/boy_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_idle_r"
+			FileName="animations_h55_guajian_lazhu02/boy_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_special_l"
+			FileName="animations_h55_guajian_lazhu02/boy_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_special_r"
+			FileName="animations_h55_guajian_lazhu02/boy_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_idle_l"
+			FileName="animations_h55_guajian_lazhu02/butcher_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_idle_r"
+			FileName="animations_h55_guajian_lazhu02/butcher_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_special_l"
+			FileName="animations_h55_guajian_lazhu02/butcher_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.0999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_special_r"
+			FileName="animations_h55_guajian_lazhu02/butcher_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.0999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sculptor_idle_l"
+			FileName="animations_h55_guajian_lazhu02/sculptor_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sculptor_idle_r"
+			FileName="animations_h55_guajian_lazhu02/sculptor_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sculptor_special_l"
+			FileName="animations_h55_guajian_lazhu02/sculptor_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sculptor_special_r"
+			FileName="animations_h55_guajian_lazhu02/sculptor_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="redqueen_idle_l"
+			FileName="animations_h55_guajian_lazhu02/redqueen_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="redqueen_idle_r"
+			FileName="animations_h55_guajian_lazhu02/redqueen_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="redqueen_special_l"
+			FileName="animations_h55_guajian_lazhu02/redqueen_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="redqueen_special_r"
+			FileName="animations_h55_guajian_lazhu02/redqueen_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hastur_idle_l"
+			FileName="animations_h55_guajian_lazhu02/hastur_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hastur_idle_r"
+			FileName="animations_h55_guajian_lazhu02/hastur_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hastur_special_l"
+			FileName="animations_h55_guajian_lazhu02/hastur_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hastur_special_r"
+			FileName="animations_h55_guajian_lazhu02/hastur_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="burke_idle_l"
+			FileName="animations_h55_guajian_lazhu02/burke_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="burke_idle_r"
+			FileName="animations_h55_guajian_lazhu02/burke_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="burke_special_l"
+			FileName="animations_h55_guajian_lazhu02/burke_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="burke_special_r"
+			FileName="animations_h55_guajian_lazhu02/burke_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_idle_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_special_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_blood_idle_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_blood_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_blood_idle_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_blood_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_blood_special_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_blood_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_blood_special_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_blood_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_ll_idle_l"
+			FileName="animations_h55_guajian_lazhu02/butcher_ll_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_ll_idle_r"
+			FileName="animations_h55_guajian_lazhu02/butcher_ll_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_ll_special_l"
+			FileName="animations_h55_guajian_lazhu02/butcher_ll_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_ll_special_r"
+			FileName="animations_h55_guajian_lazhu02/butcher_ll_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yidhra_idle_l"
+			FileName="animations_h55_guajian_lazhu02/yidhra_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yidhra_idle_r"
+			FileName="animations_h55_guajian_lazhu02/yidhra_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yidhra_special_l"
+			FileName="animations_h55_guajian_lazhu02/yidhra_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yidhra_special_r"
+			FileName="animations_h55_guajian_lazhu02/yidhra_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="joan_idle_l"
+			FileName="animations_h55_guajian_lazhu02/joan_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="joan_idle_r"
+			FileName="animations_h55_guajian_lazhu02/joan_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="joan_special_l"
+			FileName="animations_h55_guajian_lazhu02/joan_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="joan_special_r"
+			FileName="animations_h55_guajian_lazhu02/joan_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wuchang_idle_l"
+			FileName="animations_h55_guajian_lazhu02/wuchang_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wuchang_idle_r"
+			FileName="animations_h55_guajian_lazhu02/wuchang_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wuchang_special_l"
+			FileName="animations_h55_guajian_lazhu02/wuchang_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wuchang_special_r"
+			FileName="animations_h55_guajian_lazhu02/wuchang_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="lizard_idle_l"
+			FileName="animations_h55_guajian_lazhu02/lizard_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="lizard_idle_r"
+			FileName="animations_h55_guajian_lazhu02/lizard_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="lizard_special_l"
+			FileName="animations_h55_guajian_lazhu02/lizard_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="lizard_special_r"
+			FileName="animations_h55_guajian_lazhu02/lizard_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sxwd_idle_l"
+			FileName="animations_h55_guajian_lazhu02/sxwd_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sxwd_idle_r"
+			FileName="animations_h55_guajian_lazhu02/sxwd_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sxwd_special_l"
+			FileName="animations_h55_guajian_lazhu02/sxwd_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sxwd_special_r"
+			FileName="animations_h55_guajian_lazhu02/sxwd_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="paganini_idle_l"
+			FileName="animations_h55_guajian_lazhu02/paganini_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="paganini_idle_r"
+			FileName="animations_h55_guajian_lazhu02/paganini_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="paganini_special_l"
+			FileName="animations_h55_guajian_lazhu02/paganini_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="paganini_special_r"
+			FileName="animations_h55_guajian_lazhu02/paganini_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="joseph_idle_l"
+			FileName="animations_h55_guajian_lazhu02/joseph_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="joseph_idle_r"
+			FileName="animations_h55_guajian_lazhu02/joseph_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="joseph_special_l"
+			FileName="animations_h55_guajian_lazhu02/joseph_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="joseph_special_r"
+			FileName="animations_h55_guajian_lazhu02/joseph_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_idle_l"
+			FileName="animations_h55_guajian_lazhu02/bonbon_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_idle_r"
+			FileName="animations_h55_guajian_lazhu02/bonbon_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_special_l"
+			FileName="animations_h55_guajian_lazhu02/bonbon_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_special_r"
+			FileName="animations_h55_guajian_lazhu02/bonbon_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_rabbit_idle_l"
+			FileName="animations_h55_guajian_lazhu02/bonbon_rabbit_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_rabbit_idle_r"
+			FileName="animations_h55_guajian_lazhu02/bonbon_rabbit_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_rabbit_special_l"
+			FileName="animations_h55_guajian_lazhu02/bonbon_rabbit_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bonbon_rabbit_special_r"
+			FileName="animations_h55_guajian_lazhu02/bonbon_rabbit_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spider_idle_l"
+			FileName="animations_h55_guajian_lazhu02/spider_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spider_idle_r"
+			FileName="animations_h55_guajian_lazhu02/spider_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spider_special_l"
+			FileName="animations_h55_guajian_lazhu02/spider_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spider_special_r"
+			FileName="animations_h55_guajian_lazhu02/spider_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_idle_l"
+			FileName="animations_h55_guajian_lazhu02/frankenstein_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_idle_r"
+			FileName="animations_h55_guajian_lazhu02/frankenstein_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_special_l"
+			FileName="animations_h55_guajian_lazhu02/frankenstein_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="frankenstein_special_r"
+			FileName="animations_h55_guajian_lazhu02/frankenstein_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="polun_special_r"
+			FileName="animations_h55_guajian_lazhu02/polun_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="polun_idle_l"
+			FileName="animations_h55_guajian_lazhu02/polun_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="polun_idle_r"
+			FileName="animations_h55_guajian_lazhu02/polun_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="polun_special_l"
+			FileName="animations_h55_guajian_lazhu02/polun_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_idle_l"
+			FileName="animations_h55_guajian_lazhu02/yunv_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_idle_r"
+			FileName="animations_h55_guajian_lazhu02/yunv_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yunv_special_l"
+			FileName="animations_h55_guajian_lazhu02/yunv_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yunv_special_r"
+			FileName="animations_h55_guajian_lazhu02/yunv_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="messager_idle_l"
+			FileName="animations_h55_guajian_lazhu02/messager_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="messager_idle_r"
+			FileName="animations_h55_guajian_lazhu02/messager_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="messager_special_l"
+			FileName="animations_h55_guajian_lazhu02/messager_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="messager_special_r"
+			FileName="animations_h55_guajian_lazhu02/messager_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wax_idle_l"
+			FileName="animations_h55_guajian_lazhu02/wax_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wax_idle_r"
+			FileName="animations_h55_guajian_lazhu02/wax_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wax_special_l"
+			FileName="animations_h55_guajian_lazhu02/wax_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wax_special_r"
+			FileName="animations_h55_guajian_lazhu02/wax_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hermit_idle_l"
+			FileName="animations_h55_guajian_lazhu02/hermit_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hermit_idle_r"
+			FileName="animations_h55_guajian_lazhu02/hermit_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hermit_special_l"
+			FileName="animations_h55_guajian_lazhu02/hermit_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hermit_special_r"
+			FileName="animations_h55_guajian_lazhu02/hermit_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shouye_idle_l"
+			FileName="animations_h55_guajian_lazhu02/shouye_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shouye_idle_r"
+			FileName="animations_h55_guajian_lazhu02/shouye_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shouye_special_l"
+			FileName="animations_h55_guajian_lazhu02/shouye_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shouye_special_r"
+			FileName="animations_h55_guajian_lazhu02/shouye_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_idle_l"
+			FileName="animations_h55_guajian_lazhu02/goat_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="goat_idle_r"
+			FileName="animations_h55_guajian_lazhu02/goat_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="goat_special_l"
+			FileName="animations_h55_guajian_lazhu02/goat_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_special_r"
+			FileName="animations_h55_guajian_lazhu02/goat_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_zhake_idle_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_zhake_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_zhake_idle_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_zhake_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ripper_zhake_special_l"
+			FileName="animations_h55_guajian_lazhu02/ripper_zhake_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ripper_zhake_special_r"
+			FileName="animations_h55_guajian_lazhu02/ripper_zhake_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_aikugui_idle_l"
+			FileName="animations_h55_guajian_lazhu02/boy_aikugui_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_aikugui_idle_r"
+			FileName="animations_h55_guajian_lazhu02/boy_aikugui_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="boy_aikugui_special_l"
+			FileName="animations_h55_guajian_lazhu02/boy_aikugui_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="boy_aikugui_special_r"
+			FileName="animations_h55_guajian_lazhu02/boy_aikugui_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_idle_l"
+			FileName="animations_h55_guajian_lazhu02/spkt_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spkt_idle_r"
+			FileName="animations_h55_guajian_lazhu02/spkt_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="spkt_special_l"
+			FileName="animations_h55_guajian_lazhu02/spkt_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="spkt_special_r"
+			FileName="animations_h55_guajian_lazhu02/spkt_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yith_idle_l"
+			FileName="animations_h55_guajian_lazhu02/yith_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yith_idle_r"
+			FileName="animations_h55_guajian_lazhu02/yith_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="yith_special_l"
+			FileName="animations_h55_guajian_lazhu02/yith_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="yith_special_r"
+			FileName="animations_h55_guajian_lazhu02/yith_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="space_idle_l"
+			FileName="animations_h55_guajian_lazhu02/space_idle_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="space_idle_r"
+			FileName="animations_h55_guajian_lazhu02/space_idle_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="space_special_l"
+			FileName="animations_h55_guajian_lazhu02/space_special_l.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="space_special_r"
+			FileName="animations_h55_guajian_lazhu02/space_special_r.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="paganini_idle_l_duyue"
+			FileName="animations_h55_guajian_lazhu02/paganini_idle_l_duyue.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="paganini_idle_r_duyue"
+			FileName="animations_h55_guajian_lazhu02/paganini_idle_r_duyue.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="grocer_special_l"
+			FileName="animations_h55_guajian_lazhu02/grocer_special_l.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="5.666667" />
+		<Animation
+			Name="grocer_special_r"
+			FileName="animations_h55_guajian_lazhu02/grocer_special_r.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="5.666667" />
+		<Animation
+			Name="grocer_idle_r"
+			FileName="animations_h55_guajian_lazhu02/grocer_idle_r.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="grocer_idle_l"
+			FileName="animations_h55_guajian_lazhu02/grocer_idle_l.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="billy_idle_l"
+			FileName="animations_h55_guajian_lazhu02/billy_idle_l.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="billy_idle_r"
+			FileName="animations_h55_guajian_lazhu02/billy_idle_r.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="billy_special_l"
+			FileName="animations_h55_guajian_lazhu02/billy_special_l.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="4.666667" />
+		<Animation
+			Name="billy_special_r"
+			FileName="animations_h55_guajian_lazhu02/billy_special_r.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="4.666667" />
+		<Animation
+			Name="spkunc_special_l"
+			FileName="animations_h55_guajian_lazhu02/spkunc_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="spkunc_special_r"
+			FileName="animations_h55_guajian_lazhu02/spkunc_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="spkunc_idle_l"
+			FileName="animations_h55_guajian_lazhu02/spkunc_idle_l.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="spkunc_idle_r"
+			FileName="animations_h55_guajian_lazhu02/spkunc_idle_r.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

@@ -1,0 +1,26 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_h55_guajian_yulongwu_yu/skin.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="3.3" />
+		<Animation
+			Name="idle"
+			FileName="animations_h55_guajian_yulongwu_yu/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

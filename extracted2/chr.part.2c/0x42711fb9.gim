@@ -1,0 +1,22 @@
+<NeoX AnimAccumEnable="true" BoundingBoneName="face_bone01" BoundingInfo="(-0.78, 13.77, 1.44),(0.00, 0.00, 0.00),0.00" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="true" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.7833,13.7675,1.4368" BoundingHalf="0.0000,0.0000,0.0000" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="wht_e_shameile_daoju001" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="wht_e_shalemei_face_show.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="wht_e_shalemei_face_show.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <Triggers />
+    <CutBones />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.3461,-0.4662,0.1467" LocalRotation="-0.0008,0.9580,-0.0783,0.2757" LocalScale="1.0014,1.0031,1.0023" Name="pendant_xiangshuiping_ling" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.9268,-0.5116,-0.4264" LocalRotation="0.9915,-0.1143,0.0552,-0.0285" LocalScale="1.0013,1.0016,1.0016" Name="pendant_owl" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+    </SocketObject>
+</NeoX>

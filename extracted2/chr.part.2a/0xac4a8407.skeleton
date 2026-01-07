@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_table",
+	"joint_names" : [
+		"bone_table01","bone_lazhu01","bone_mianbao01","bone_lazhu02","bone_mianbao02"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,1,2
+	],
+	"reference_pose" : "b4AKPLFNEkG8lda0AACAP/IENbPvBDUz8QQ1v/UENT8AAIA/AACAPwAAgD8AAIA/rG4SQVdeiMEiC9u1AACAPyq9uycAAAC0AACAPzC9O7MAAIA/AACAPwAAgD8AAIA/QKsMQaD1w8HmIim2AACAP7XDByi1wweo8QQ1P/UENT8AAIA/AACAPwAAgD8AAIA/EOAHQAAAADYAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/ABYAv5RTNj+Bghc9AACAP06lJ74IjGs/ak9/ve9bsz7//38/AQCAPwEAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			5
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

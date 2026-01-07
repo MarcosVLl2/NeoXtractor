@@ -1,0 +1,43 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_show/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="5.733333" />
+		<Animation
+			Name="show_appear_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show/show_appear_cat_bonbon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.333334"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show/show_idle_cat_bonbon.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="12" />
+		<Animation
+			Name="show_idle_special_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show/show_idle_special_cat_bonbon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.5"
+			default_loop="false"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

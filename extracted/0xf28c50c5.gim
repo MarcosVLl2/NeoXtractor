@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_zhifeiji" BoundingInfo="(0.06, -0.13, 0.16),(0.85, 0.41, 1.18),1.51" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0581,-0.1290,0.1612" BoundingHalf="0.8494,0.4093,1.1849" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_zhifeiji" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="emotion_birth_wanju_zhifeji.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="emotion_birth_wanju_zhifeji.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_zhifeiji" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.7447,0.1486,0.0145,0.6504" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_sr_wanju_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="85b3b608ee940556" Inherit="7" Loading="4" Name="toyman_emotion_fourth_wanju_002.pse" Uri="fx/common/toyman_emotion_fourth_wanju_002.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,1404 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_kantan_e_rixiangblack_head/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_rx_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/show_appear_rx_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_rx_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/show_idle_rx_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_rx_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/show_idle_special_rx_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_sz"
+			FileName="animations_kantan_e_rixiangblack_head/idle_sz.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_1"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_2"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_3"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animations_kantan_e_rixiangblack_head/low_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_survivor"
+			FileName="animations_kantan_e_rixiangblack_head/pullback_survivor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_survivor"
+			FileName="animations_kantan_e_rixiangblack_head/pushforward_survivor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="raise_magnet"
+			FileName="animations_kantan_e_rixiangblack_head/raise_magnet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_kantan_e_rixiangblack_head/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animations_kantan_e_rixiangblack_head/walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_race"
+			FileName="animations_kantan_e_rixiangblack_head/run_race.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_kantan_e_rixiangblack_head/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_kantan_e_rixiangblack_head/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal_jd"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sleep_royal_jd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_kantan_e_rixiangblack_head/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_kantan_e_rixiangblack_head/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_jd"
+			FileName="animations_kantan_e_rixiangblack_head/hall_throne_sit_jd.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_kantan_e_rixiangblack_head/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="agree"
+			FileName="animations_kantan_e_rixiangblack_head/agree.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bainian"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_bainian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cheer_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_cheer_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cjfirework"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_cjfirework.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dance_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dice_20_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dice_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_lying_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_lying_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_oro"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_oro.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shame_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_shame_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shout_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_shout_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sp_forward_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_sp_forward_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_taunt_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_taunt_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_tredpack_kt"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_tredpack_kt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forward"
+			FileName="animations_kantan_e_rixiangblack_head/forward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ignorant"
+			FileName="animations_kantan_e_rixiangblack_head/ignorant.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="recall"
+			FileName="animations_kantan_e_rixiangblack_head/recall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="unvoice"
+			FileName="animations_kantan_e_rixiangblack_head/unvoice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="chariot_drive"
+			FileName="animations_kantan_e_rixiangblack_head/chariot_drive.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="chariot_left"
+			FileName="animations_kantan_e_rixiangblack_head/chariot_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_1"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_chase_lose_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_2"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_chase_lose_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_3"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_chase_lose_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_4"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_chase_lose_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_5"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_chase_lose_5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_lose"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_1"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_win_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_2"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_race_win_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fkiss"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_fkiss.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_kantan_e_rixiangblack_head/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_kantan_e_rixiangblack_head/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_piano"
+			FileName="animations_kantan_e_rixiangblack_head/hall_idle_piano.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_piano"
+			FileName="animations_kantan_e_rixiangblack_head/hall_play_piano.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_kantan_e_rixiangblack_head/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_cflute"
+			FileName="animations_kantan_e_rixiangblack_head/hall_idle_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_pickup_cflute"
+			FileName="animations_kantan_e_rixiangblack_head/hall_pickup_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_cflute"
+			FileName="animations_kantan_e_rixiangblack_head/hall_play_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_putback_cflute"
+			FileName="animations_kantan_e_rixiangblack_head/hall_putback_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_photo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_kty"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_fourth_kty.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_kantan_e_rixiangblack_head/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_darts_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_darts_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_darts_throw"
+			FileName="animations_kantan_e_rixiangblack_head/hall_darts_throw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_g_m"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_g_m.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_m"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_m.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_m_1"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_m_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_m_g"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_m_g.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_m_w"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_m_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_high_five_w_m"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_high_five_w_m.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_konghou"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_konghou.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_clarinet"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_clarinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_flute"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_flute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_cello"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_cello.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_violin"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_violin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon1"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dragon1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon2"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dragon2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon3"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_dragon3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_wardrobe_l_enter"
+			FileName="animations_kantan_e_rixiangblack_head/hall_wardrobe_l_enter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_wardrobe_r_out"
+			FileName="animations_kantan_e_rixiangblack_head/hall_wardrobe_r_out.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_kantan_e_rixiangblack_head/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_kantan_e_rixiangblack_head/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_s_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.033334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_kantan_e_rixiangblack_head/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_kantan_e_rixiangblack_head/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_nightingale"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_nightingale.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_2000wishes"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_2000wishes.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_kantan_e_rixiangblack_head/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_kantan_e_rixiangblack_head/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_kantan_e_rixiangblack_head/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_kantan_e_rixiangblack_head/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_kantan_e_rixiangblack_head/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_kantan_e_rixiangblack_head/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_kantan_e_rixiangblack_head/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sheng_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sheng_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sheng_pick"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sheng_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sheng_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sheng_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_fan_hold"
+			FileName="animations_kantan_e_rixiangblack_head/hall_fan_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_fan_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_fan_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_fan_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_fan_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_fan_take"
+			FileName="animations_kantan_e_rixiangblack_head/hall_fan_take.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_rattle_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_rattle_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_cflute_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_cflute_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_cflute_pick"
+			FileName="animations_kantan_e_rixiangblack_head/hall_cflute_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_cflute_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_cflute_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bless_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_bless_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_cd_m"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_cd_m.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ugc_jump_2"
+			FileName="animations_kantan_e_rixiangblack_head/ugc_jump_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ugc_jump_1"
+			FileName="animations_kantan_e_rixiangblack_head/ugc_jump_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ugc_jump_3"
+			FileName="animations_kantan_e_rixiangblack_head/ugc_jump_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ugc_push_1"
+			FileName="animations_kantan_e_rixiangblack_head/ugc_push_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ugc_push_2"
+			FileName="animations_kantan_e_rixiangblack_head/ugc_push_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_cabinet_enter"
+			FileName="animations_kantan_e_rixiangblack_head/hall_cabinet_enter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_1_qiangwei"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_1_qiangwei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_2_qiangwei"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_2_qiangwei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_magnet_3_qiangwei"
+			FileName="animations_kantan_e_rixiangblack_head/cast_magnet_3_qiangwei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_kantan_e_rixiangblack_head/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_kantan_e_rixiangblack_head/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="emotion_huiyi_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_huiyi_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_gm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_gm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_mg_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_mg_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_mm_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_mm_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_mm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_mm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_mw_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_mw_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_fist_pump_wm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_fist_pump_wm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_gm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_gm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_mg_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_mg_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_mm_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_mm_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_mm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_mm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_mw_left"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_mw_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_pat_back_wm_right"
+			FileName="animations_kantan_e_rixiangblack_head/ww_pat_back_wm_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.033333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_throw_kantan"
+			FileName="animations_kantan_e_rixiangblack_head/emotion_throw_kantan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="maze_pick"
+			FileName="animations_kantan_e_rixiangblack_head/maze_pick.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_kantan_e_rixiangblack_head/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_kantan_e_rixiangblack_head/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="crouch"
+			FileName="animations_kantan_e_rixiangblack_head/crouch.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1.166667" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_kantan_e_rixiangblack_head/hall_selfie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_kantan_e_rixiangblack_head/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_kantan_e_rixiangblack_head/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_kantan_e_rixiangblack_head/hall_selfie_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

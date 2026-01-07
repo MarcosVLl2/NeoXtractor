@@ -1,0 +1,89 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="false" />
+	<NonProportionalScaling Value="true" />
+	<DefaultAnimation Name="skin" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_h55_survivor_m_dxzh_head/skin.animation" LoadAsync="false" start_time="0" end_time="1.666667" default_loop="True" default_rate="1" />
+		<Animation Name="knight_predict_1" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_1.animation" LoadAsync="false" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="knight_predict_1_loop" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_1_loop.animation" LoadAsync="false" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="knight_predict_2" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_2.animation" LoadAsync="false" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="knight_predict_2_loop" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_2_loop.animation" LoadAsync="false" start_time="0" end_time="2" default_loop="True" default_rate="1" />
+		<Animation Name="knight_rescue" FileName="animations_h55_survivor_m_dxzh_head/knight_rescue.animation" LoadAsync="false" start_time="0" end_time="0.8" default_loop="False" default_rate="1" />
+		<Animation Name="knight_rescue_end" FileName="animations_h55_survivor_m_dxzh_head/knight_rescue_end.animation" LoadAsync="false" start_time="0" end_time="0.4" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_dxzh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_dxzh.animation" LoadAsync="false" start_time="0" end_time="8.2333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_dxzh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_special_dxzh.animation" LoadAsync="false" start_time="0" end_time="5.8333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_hqs_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_appear_hqs_dzxh.animation" LoadAsync="false" start_time="0" end_time="13.9" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_hqs_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_hqs_dzxh.animation" LoadAsync="false" start_time="0" end_time="9.666667" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_hqs_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_special_hqs_dzxh.animation" LoadAsync="false" start_time="0" end_time="10.833333" default_loop="False" default_rate="1" />
+		<Animation Name="wait_look_dxzh" FileName="animations_h55_survivor_m_dxzh_head/wait_look_dxzh.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="True" default_rate="1" />
+		<Animation Name="wait_play_dxzh" FileName="animations_h55_survivor_m_dxzh_head/wait_play_dxzh.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="True" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh" FileName="animations_h55_survivor_m_dxzh_head/wait_sleeping_dxzh.animation" LoadAsync="true" start_time="0" end_time="11.4" default_loop="True" default_rate="1" />
+		<Animation Name="wait_stand_dxzh" FileName="animations_h55_survivor_m_dxzh_head/wait_stand_dxzh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_cheer_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_cheer_knight.animation" LoadAsync="true" start_time="0" end_time="5.033333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_lying_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_lying_knight.animation" LoadAsync="true" start_time="0" end_time="6.6" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_shame_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_shame_knight.animation" LoadAsync="true" start_time="0" end_time="4.666667" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_shout_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_shout_knight.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_taunt_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_taunt_knight.animation" LoadAsync="true" start_time="0" end_time="5.1" default_loop="False" default_rate="1" />
+		<Animation Name="knight_predict_1_loop_run" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_1_loop_run.animation" LoadAsync="true" start_time="0" end_time="0.733333" default_loop="True" default_rate="1" />
+		<Animation Name="knight_predict_2_loop_run" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_2_loop_run.animation" LoadAsync="true" start_time="0" end_time="0.733333" default_loop="True" default_rate="1" />
+		<Animation Name="knight_predict_1_run" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_1_run.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="knight_predict_2_run" FileName="animations_h55_survivor_m_dxzh_head/knight_predict_2_run.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="crouch_1_dxzh" FileName="animations_h55_survivor_m_dxzh_head/crouch_1_dxzh.animation" LoadAsync="true" start_time="0" end_time="1.166667" default_loop="True" default_rate="1" />
+		<Animation Name="fear_run_dxzh" FileName="animations_h55_survivor_m_dxzh_head/fear_run_dxzh.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="True" default_rate="1" />
+		<Animation Name="fear_walk2_dxzh" FileName="animations_h55_survivor_m_dxzh_head/fear_walk2_dxzh.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="True" default_rate="1" />
+		<Animation Name="fear_walk_dxzh" FileName="animations_h55_survivor_m_dxzh_head/fear_walk_dxzh.animation" LoadAsync="true" start_time="0" end_time="4.266667" default_loop="True" default_rate="1" />
+		<Animation Name="hurt_crouch_dxzh" FileName="animations_h55_survivor_m_dxzh_head/hurt_crouch_dxzh.animation" LoadAsync="true" start_time="0" end_time="3.766667" default_loop="True" default_rate="1" />
+		<Animation Name="idle_2_dxzh" FileName="animations_h55_survivor_m_dxzh_head/idle_2_dxzh.animation" LoadAsync="true" start_time="0" end_time="1.733333" default_loop="True" default_rate="1" />
+		<Animation Name="idle_dxzh" FileName="animations_h55_survivor_m_dxzh_head/idle_dxzh.animation" LoadAsync="true" start_time="0" end_time="6.666667" default_loop="True" default_rate="1" />
+		<Animation Name="idle_special_dxzh" FileName="animations_h55_survivor_m_dxzh_head/idle_special_dxzh.animation" LoadAsync="true" start_time="0" end_time="4.4" default_loop="True" default_rate="1" />
+		<Animation Name="low_walk_dxzh" FileName="animations_h55_survivor_m_dxzh_head/low_walk_dxzh.animation" LoadAsync="true" start_time="0" end_time="1.066667" default_loop="True" default_rate="1" />
+		<Animation Name="run_dxzh" FileName="animations_h55_survivor_m_dxzh_head/run_dxzh.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="True" default_rate="1" />
+		<Animation Name="walk_dxzh" FileName="animations_h55_survivor_m_dxzh_head/walk_dxzh.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="True" default_rate="1" />
+		<Animation Name="fall_dxzh" FileName="animations_h55_survivor_m_dxzh_head01/fall_dxzh.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="crouch_dxzh" FileName="animations_h55_survivor_m_dxzh_head/crouch_dxzh.animation" LoadAsync="true" start_time="0" end_time="1.166667" default_loop="True" default_rate="1" />
+		<Animation Name="idle_bosom" FileName="animations_h55_survivor_m_dxzh_head/idle_bosom.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_photo" FileName="animations_h55_survivor_m_dxzh_head/emotion_photo.animation" LoadAsync="true" start_time="0" end_time="3.6" default_loop="False" default_rate="1" />
+		<Animation Name="getup2_dxzh" FileName="animations_h55_survivor_m_dxzh_head/getup2_dxzh.animation" LoadAsync="true" start_time="0" end_time="1.3" default_loop="True" default_rate="1" />
+		<Animation Name="hall_walk_2" FileName="animations_h55_survivor_m_dxzh_head/hall_walk_2.animation" LoadAsync="true" start_time="0" end_time="7.2" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_2" FileName="animations_h55_survivor_m_dxzh_head/hall_idle_2.animation" LoadAsync="true" start_time="0" end_time="8.033334" default_loop="True" default_rate="1" />
+		<Animation Name="hall_idle_special" FileName="animations_h55_survivor_m_dxzh_head/hall_idle_special.animation" LoadAsync="true" start_time="0" end_time="6.333333" default_loop="False" default_rate="1" />
+		<Animation Name="repair" FileName="animations_h55_survivor_m_dxzh_head/repair.animation" LoadAsync="true" start_time="0" end_time="5.4" default_loop="True" default_rate="1" />
+		<Animation Name="repair_2" FileName="animations_h55_survivor_m_dxzh_head/repair_2.animation" LoadAsync="true" start_time="0" end_time="5.4" default_loop="True" default_rate="1" />
+		<Animation Name="repair_3" FileName="animations_h55_survivor_m_dxzh_head/repair_3.animation" LoadAsync="true" start_time="0" end_time="5.4" default_loop="True" default_rate="1" />
+		<Animation Name="repair_4" FileName="animations_h55_survivor_m_dxzh_head/repair_4.animation" LoadAsync="true" start_time="0" end_time="5.4" default_loop="True" default_rate="1" />
+		<Animation Name="happy_climb" FileName="animations_h55_survivor_m_dxzh_head/happy_climb.animation" LoadAsync="true" start_time="0" end_time="3.4" default_loop="True" default_rate="1" />
+		<Animation Name="happy_idle_3" FileName="animations_h55_survivor_m_dxzh_head/happy_idle_3.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_dice_20_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_dice_20_knight.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dice_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_dice_knight.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_think_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_think_knight.animation" LoadAsync="true" start_time="0" end_time="5.833333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_dance_knight" FileName="animations_h55_survivor_m_dxzh_head/emotion_dance_knight.animation" LoadAsync="true" start_time="0" end_time="6.666667" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_kfc_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_special_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="13" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_kfc_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_idle_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_kfc_dzxh" FileName="animations_h55_survivor_m_dxzh_head/show_appear_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="17" default_loop="False" default_rate="1" />
+		<Animation Name="setoff_firecrackers_kfc" FileName="animations_h55_survivor_m_dxzh_head/setoff_firecrackers_kfc.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_sit_stool_kfc" FileName="animations_h55_survivor_m_dxzh_head/hall_sit_stool_kfc.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="hall_sleep_royal_kfc" FileName="animations_h55_survivor_m_dxzh_head/hall_sleep_royal_kfc.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="True" default_rate="1" />
+		<Animation Name="sit_carrousel_kfc" FileName="animations_h55_survivor_m_dxzh_head/sit_carrousel_kfc.animation" LoadAsync="true" start_time="0" end_time="6.166667" default_loop="True" default_rate="1" />
+		<Animation Name="sit_dc" FileName="animations_h55_survivor_m_dxzh_head/sit_dc.animation" LoadAsync="true" start_time="0" end_time="6.666667" default_loop="True" default_rate="1" />
+		<Animation Name="rope_swing_2_qiusheng" FileName="animations_h55_survivor_m_dxzh_head/rope_swing_2_qiusheng.animation" LoadAsync="true" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="slide6" FileName="animations_h55_survivor_m_dxzh_head/slide6.animation" LoadAsync="true" start_time="0" end_time="1.633333" default_loop="False" default_rate="1" />
+		<Animation Name="run" FileName="animations_h55_survivor_m_dxzh_head/run.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="True" default_rate="1" />
+		<Animation Name="repair_kfc" FileName="animations_h55_survivor_m_dxzh_head/repair.animation" LoadAsync="true" start_time="0" end_time="5.4" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_dxzh_kfc" FileName="animations_h55_survivor_m_dxzh_head/wait_stand_dxzh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="true" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh_kfc" FileName="animations_h55_survivor_m_dxzh_head/wait_sleeping_dxzh.animation" LoadAsync="true" start_time="0" end_time="11.4" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_dxzh_kfc" FileName="animations_h55_survivor_m_dxzh_head/wait_play_dxzh.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_look_dxzh_kfc" FileName="animations_h55_survivor_m_dxzh_head/wait_look_dxzh.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="true" default_rate="1" />
+		<Animation Name="like_food" FileName="animations_h55_survivor_m_dxzh_head/like_food.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_c_like" FileName="animations_h55_survivor_m_dxzh_head/hall_f_c_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="hall_f_s_like" FileName="animations_h55_survivor_m_dxzh_head/hall_f_s_like.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="false" default_rate="1" />
+		<Animation Name="emotion_relaxed_dxzh" FileName="animations_h55_survivor_m_dxzh_head/emotion_relaxed_dxzh.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="true" default_rate="1" />
+		<Animation Name="idle" FileName="animations_h55_survivor_m_dxzh_head/idle.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="6.666667" />
+		</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<knight_predict_1_loop TransitTime="-2147483648" />
+		<hall_walk_2 hall_idle_2="1,300" />
+		<hall_idle_2 hall_walk_2="1,300" hall_idle_2="1,0" hall_idle_special="1,300" />
+		<hall_idle_special hall_idle_2="1,300" />
+	</TransitInfo>
+</AnimationConfig>

@@ -1,0 +1,168 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_yc_e_youya_gj/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_yc_e_youya_gj/idle.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_youya_yc"
+			FileName="animations_yc_e_youya_gj/show_appear_youya_yc.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.4666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_youya_yc"
+			FileName="animations_yc_e_youya_gj/show_idle_youya_yc.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_youya_yc"
+			FileName="animations_yc_e_youya_gj/show_idle_special_youya_yc.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_yc"
+			FileName="animations_yc_e_youya_gj/emotion_fourth_yc.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tls_think"
+			FileName="animations_yc_e_youya_gj/tls_think.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_listen_right"
+			FileName="animations_yc_e_youya_gj/tls_listen_right.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_think_left"
+			FileName="animations_yc_e_youya_gj/tls_think_left.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_think_right"
+			FileName="animations_yc_e_youya_gj/tls_think_right.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_listen_left"
+			FileName="animations_yc_e_youya_gj/tls_listen_left.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_idle"
+			FileName="animations_yc_e_youya_gj/tls_idle.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="tls_speak"
+			FileName="animations_yc_e_youya_gj/tls_speak.animation"
+			LoadAsync="false"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="cpc_celebrate_lose01"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_lose01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cpc_celebrate_lose02"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_lose02.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="cpc_celebrate_lose03"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_lose03.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="3.833333" />
+		<Animation
+			Name="cpc_celebrate_win01"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_win01.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2.4" />
+		<Animation
+			Name="cpc_celebrate_win02"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_win02.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="3.766667" />
+		<Animation
+			Name="cpc_celebrate_win03"
+			FileName="animations_yc_e_youya_gj/cpc_celebrate_win03.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2.6" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<show_idle_youya_yc
+			TransitTime="9518808172410280345600.000000" />
+	</TransitInfo>
+</AnimationConfig>

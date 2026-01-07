@@ -1,0 +1,14 @@
+<NeoX>
+    <MaterialGroup MaterialCount="10" Name="billy_e_gelude" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body01.mtl" />
+        <Material_1 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body04.mtl" />
+        <Material_2 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body02.mtl" />
+        <Material_3 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body05.mtl" />
+        <Material_4 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body03.mtl" />
+        <Material_5 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body06.mtl" />
+        <Material_6 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_body07.mtl" />
+        <Material_7 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_head.mtl" />
+        <Material_8 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_weapon01.mtl" />
+        <Material_9 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_weapon02.mtl" />
+    </MaterialGroup>
+</NeoX>

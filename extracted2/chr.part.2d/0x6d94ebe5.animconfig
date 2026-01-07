@@ -1,0 +1,856 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_yiyaoshi_e_zuimu_head/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_hide_yiyaoshi_sp"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_hide_yiyaoshi_sp.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="15.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cheer_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_cheer_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_dice_20_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shame_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_shame_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shout_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_shout_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fear_run"
+			FileName="animations_yiyaoshi_e_zuimu_head/fear_run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk"
+			FileName="animations_yiyaoshi_e_zuimu_head/fear_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2"
+			FileName="animations_yiyaoshi_e_zuimu_head/fear_walk2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="grope"
+			FileName="animations_yiyaoshi_e_zuimu_head/grope.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse"
+			FileName="animations_yiyaoshi_e_zuimu_head/happy_cockhorse.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_3"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_cabinet"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_cabinet.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animations_yiyaoshi_e_zuimu_head/low_walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="openbox"
+			FileName="animations_yiyaoshi_e_zuimu_head/openbox.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="out"
+			FileName="animations_yiyaoshi_e_zuimu_head/out.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair"
+			FileName="animations_yiyaoshi_e_zuimu_head/repair.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/repair_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animations_yiyaoshi_e_zuimu_head/repair_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animations_yiyaoshi_e_zuimu_head/repair_4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_yiyaoshi_e_zuimu_head/run.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="save2"
+			FileName="animations_yiyaoshi_e_zuimu_head/save2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/scare_idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_3"
+			FileName="animations_yiyaoshi_e_zuimu_head/scare_idle_3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="shoot"
+			FileName="animations_yiyaoshi_e_zuimu_head/shoot.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_yiyaoshi_e_zuimu_head/span.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span2"
+			FileName="animations_yiyaoshi_e_zuimu_head/span2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span3"
+			FileName="animations_yiyaoshi_e_zuimu_head/span3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_look_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_look_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="11.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_play_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_play_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_sleeping_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_sleeping_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_stand_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_stand_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_writing_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_writing_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_yiyaoshi_1"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_yiyaoshi_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animations_yiyaoshi_e_zuimu_head/walk.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sp_lose_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_sp_lose_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="behitch_hx"
+			FileName="animations_yiyaoshi_e_zuimu_head/behitch_hx.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cautious"
+			FileName="animations_yiyaoshi_e_zuimu_head/cautious.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_yiyaoshi_e_zuimu_head/climb_upstairs.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_yiyaoshi_e_zuimu_head/climb_upstairs_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="covereyes"
+			FileName="animations_yiyaoshi_e_zuimu_head/covereyes.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="curious"
+			FileName="animations_yiyaoshi_e_zuimu_head/curious.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_taunt_yys"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_taunt_yys.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_tribute_yys"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_tribute_yys.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="exciting"
+			FileName="animations_yiyaoshi_e_zuimu_head/exciting.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_yiyaoshi_e_zuimu_head/fall.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forward"
+			FileName="animations_yiyaoshi_e_zuimu_head/forward.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_groundpet_common"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_special_groundpet_common.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_owl_woman"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_special_owl_woman.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="inject"
+			FileName="animations_yiyaoshi_e_zuimu_head/inject.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject_failed"
+			FileName="animations_yiyaoshi_e_zuimu_head/inject_failed.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump"
+			FileName="animations_yiyaoshi_e_zuimu_head/jump.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_yiyaoshi_e_zuimu_head/beforecast.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_yiyaoshi_e_zuimu_head/cast.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="left_push_impact"
+			FileName="animations_yiyaoshi_e_zuimu_head/left_push_impact.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light"
+			FileName="animations_yiyaoshi_e_zuimu_head/light.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="operate_remote_control"
+			FileName="animations_yiyaoshi_e_zuimu_head/operate_remote_control.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="reading_map"
+			FileName="animations_yiyaoshi_e_zuimu_head/reading_map.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="right_push_impact"
+			FileName="animations_yiyaoshi_e_zuimu_head/right_push_impact.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="silent"
+			FileName="animations_yiyaoshi_e_zuimu_head/silent.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="slide2"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide3"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide4"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide4.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide5"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide5.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide6"
+			FileName="animations_yiyaoshi_e_zuimu_head/slide6.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash"
+			FileName="animations_yiyaoshi_e_zuimu_head/splash.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_1"
+			FileName="animations_yiyaoshi_e_zuimu_head/splash_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/splash_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint"
+			FileName="animations_yiyaoshi_e_zuimu_head/sprint.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizziness"
+			FileName="animations_yiyaoshi_e_zuimu_head/sprint_dizziness.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_hit"
+			FileName="animations_yiyaoshi_e_zuimu_head/sprint_hit.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_stop"
+			FileName="animations_yiyaoshi_e_zuimu_head/sprint_stop.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zm_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/show_idle_zm_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_zm_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/show_appear_zm_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zm_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/show_idle_special_zm_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_idle_special.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_yiyaoshi_e_zuimu_head/bee_push.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_idle_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_mooncake_yys"
+			FileName="animations_yiyaoshi_e_zuimu_head/wait_mooncake_yys.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="9.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_dance_yiyaoshi.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="12.8666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_1"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_race_win_1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_2"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_race_win_2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_lose"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_race_lose.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ignorant"
+			FileName="animations_yiyaoshi_e_zuimu_head/ignorant.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="recall"
+			FileName="animations_yiyaoshi_e_zuimu_head/recall.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="unvoice"
+			FileName="animations_yiyaoshi_e_zuimu_head/unvoice.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_bosom"
+			FileName="animations_yiyaoshi_e_zuimu_head/idle_bosom.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon1"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_dragon1.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon2"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_dragon2.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dragon3"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_dragon3.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_nightingale"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_nightingale.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="13.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_xuanhu_yiyaoshi"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_xuanhu_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_yiyaoshi_e_zuimu_head/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_yiyaoshi_e_zuimu_head/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_yiyaoshi_e_zuimu_head/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ww_standing"
+			FileName="animations_yiyaoshi_e_zuimu_head/ww_standing.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_yiyaoshi_e_zuimu_head/hall_box_play.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="6.333333" />
+		<Animation
+			Name="inject_plus"
+			FileName="animations_yiyaoshi_e_zuimu_head/inject_plus.animation"
+			LoadAsync="true" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

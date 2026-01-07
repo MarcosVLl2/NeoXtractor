@@ -1,0 +1,9 @@
+<NeoX>
+    <MaterialGroup MaterialCount="5" Name="billy_c_green" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/billy/separate_dir/billy_c_green/materials/billy_c_green_body01.mtl" />
+        <Material_1 Path="chr/boss/billy/separate_dir/billy_c_green/materials/billy_c_green_body02.mtl" />
+        <Material_2 Path="chr/boss/billy/separate_dir/billy_c_green/materials/billy_c_green_body02_2.mtl" />
+        <Material_3 Path="chr/boss/billy/separate_dir/billy_c_green/materials/billy_c_green_head.mtl" />
+        <Material_4 Path="chr/boss/billy/materials/billy_weapon.mtl" />
+    </MaterialGroup>
+</NeoX>

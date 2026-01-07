@@ -1,0 +1,26 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_table01" BoundingInfo="(-7.84, 4.56, 0.00),(18.73, 4.56, 6.25),20.26" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-17.0388,1.7353,0.0000" BoundingHalf="0.5792,1.7353,0.5792" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_lazhu01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-24.5101,0.6820,0.0000" BoundingHalf="2.0666,0.6820,2.0666" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_mianbao01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="0.0000,4.5655,0.0000" BoundingHalf="10.8885,4.5582,6.2487" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="hds_e_baojun_table01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_table.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_table.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_lazhu02" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="a8a26cc9ccec6456" Inherit="7" Loading="2" Name="huandeng_baojun_zhanshi_idle_special_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_002.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone_mianbao02" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_idle_special_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="c32b573071eaa424" Inherit="7" Loading="2" Name="huandeng_baojun_zhanshi_idle_special_003.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_idle_special_003.pse" />
+        </Socket_1>
+    </SocketObject>
+</NeoX>

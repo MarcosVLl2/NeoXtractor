@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone067" BoundingInfo="(-0.0473, 15.4475, 1.6460),(2.0279, 0.7428, 0.4937),2.0405" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0473,15.4475,1.6460" BoundingHalf="2.0279,0.7428,0.4937" BoundingInfo="(-0.0473, 15.4475, 1.6460),(2.0279, 0.7428, 0.4937),2.0405" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bonbon_e_cat_eye" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="bonbon_e_cat_eye.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="bonbon_e_cat_eye.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

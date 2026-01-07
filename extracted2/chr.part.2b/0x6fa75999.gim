@@ -1,0 +1,13 @@
+<NeoX AnimAccumEnable="false" BoundingInfo="(0.0000, 1.8568, 0.0378),(2.6319, 1.9128, 0.9911),2.8089" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,1.8568,0.0378" BoundingHalf="2.6319,1.9128,0.9911" BoundingInfo="(0.0000, 1.8568, 0.0378),(2.6319, 1.9128, 0.9911),2.8089" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="ttds_e_kbl_touguan" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <SocketObject />
+    <SkeletonFile>
+        <FileName Value="ttds_e_kbl_touguan.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="ttds_e_kbl_touguan.animconfig" />
+    </AnimationConfigFile>
+</NeoX>

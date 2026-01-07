@@ -1,0 +1,92 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="ttds_e_kbl_head_01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_BACKFACE_SPECULAR"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="FLOW_LUMINOUS"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro4
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_crystal_fade.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexAdd
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/baoshi.tga" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head_mask.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head_mask01.tga" />
+			<TexStarNoise
+				Value="" />
+			<Tex_const
+				Value="" />
+			<Tex_const_mask
+				Value="" />
+			<anisotropy_color
+				Value="0.000000,1.000000,0.788235,1.000000" />
+			<anisotropy_noise
+				Value="0.200000" />
+			<anisotropy_offset
+				Value="-0.100000" />
+			<anisotropy_width
+				Value="50" />
+			<u_add_color_2
+				Value="1.000000,0.623529,0.658824,1.000000" />
+			<u_ambient
+				Value="0.300000" />
+			<u_bump_inten
+				Value="0.500000" />
+			<u_crystal_tiling
+				Value="6,6" />
+			<u_luminous_intensity
+				Value="0.500000" />
+			<u_luminous_speed
+				Value="0.005000,0.000000,0.000000,0.000000" />
+			<u_toon_offset
+				Value="0.200000" />
+			<u_water_gap
+				Value="0.776471,0.819608,0.423545,1.000000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_m/h55_survivor_m_ttds/separate_dir/ttds_e_kbl/ttds_e_kbl_head_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

@@ -1,0 +1,2695 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_hermit/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_hermit/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_hermit/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_prepare"
+			FileName="animations_hermit/theologist_bomb_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_shoot"
+			FileName="animations_hermit/theologist_bomb_shoot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_shoot_click"
+			FileName="animations_hermit/theologist_bomb_shoot_click.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_start"
+			FileName="animations_hermit/theologist_bomb_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_lifing"
+			FileName="animations_hermit/theologist_eleccore_lifing.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend"
+			FileName="animations_hermit/theologist_eleccore_suspend.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend_end"
+			FileName="animations_hermit/theologist_eleccore_suspend_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_end"
+			FileName="animations_hermit/theologist_map_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_lasting"
+			FileName="animations_hermit/theologist_map_lasting.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_start"
+			FileName="animations_hermit/theologist_map_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_polarity_shift"
+			FileName="animations_hermit/theologist_polarity_shift.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_1"
+			FileName="animations_hermit/happy_hermit_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_1_end"
+			FileName="animations_hermit/happy_hermit_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_2"
+			FileName="animations_hermit/happy_hermit_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_2_end"
+			FileName="animations_hermit/happy_hermit_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_rebound"
+			FileName="animations_hermit/happy_hermit_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_show"
+			FileName="animations_hermit/happy_hermit_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="deceit"
+			FileName="animations_hermit/deceit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dread"
+			FileName="animations_hermit/dread.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tough"
+			FileName="animations_hermit/tough.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="vigilance"
+			FileName="animations_hermit/vigilance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_hermit/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_hermit/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_hermit/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_hermit/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_hermit/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_hermit/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_hermit/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_hermit/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_hermit/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_hermit/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_hermit/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_hermit/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_hermit/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_hermit/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_hermit/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_hermit/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_hermit/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_hermit/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_hermit"
+			FileName="animations_hermit/show_idle_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hermit"
+			FileName="animations_hermit/show_idle_special_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_hermit/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5002"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_hermit/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_hermit/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_bon"
+			FileName="animations_hermit/guisu_show_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_hermit/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_hermit/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_hermit/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_deckchair"
+			FileName="animations_hermit/hall_sit_deckchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_hermit/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_hermit/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_hermit/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_hermit/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_hermit/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_hermit/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_hermit/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_hermit/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_hermit/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_hermit/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_hermit/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_hermit/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_hermit/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_carry"
+			FileName="animations_hermit/happy_hermit_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_carry_end"
+			FileName="animations_hermit/happy_hermit_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_hermit/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.0999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_hermit/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_hermit/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_hermit/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_hermit/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_hermit/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_hermit/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_hermit/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_hermit/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_hermit/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_hermit/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_hermit/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_hermit/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_hermit/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_hermit/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_hermit/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_hermit/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_hermit/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_hermit/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_hermit/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_hermit/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_hermit/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_hermit/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_hermit/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_hermit/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_hermit/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_hermit/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_hermit/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_hermit/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_hermit/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_hermit/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_hermit/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_hermit/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_hermit/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_hermit/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_hermit/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_hermit/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_hermit/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_hermit/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_hermit/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_hermit/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_hermit/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_hermit/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hermit_idle_l"
+			FileName="animations_hermit/hermit_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hermit_idle_r"
+			FileName="animations_hermit/hermit_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hermit_special_l"
+			FileName="animations_hermit/hermit_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hermit_special_r"
+			FileName="animations_hermit/hermit_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher_1"
+			FileName="animations_hermit/stone_used_butcher_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher_2"
+			FileName="animations_hermit/stone_used_butcher_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher_3"
+			FileName="animations_hermit/stone_used_butcher_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_hermit/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_hermit/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_hermit/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_hermit/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_hermit/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_hermit/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_hermit/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_hermit/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_hermit/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_hermit/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_hermit/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_hermit/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_hermit/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_hermit/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_hermit/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend_stp"
+			FileName="animations_hermit/theologist_eleccore_suspend_stp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_hermit/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_hermit/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit"
+			FileName="animations_hermit/load_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep"
+			FileName="animations_hermit/load_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand"
+			FileName="animations_hermit/load_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_hermit/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_hermit/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_visit"
+			FileName="animations_hermit/load_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_hermit/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_hermit/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_hermit/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy"
+			FileName="animations_hermit/forbidden_therapy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_dianyu"
+			FileName="animations_hermit/show_appear_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_dianyu"
+			FileName="animations_hermit/show_idle_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_dianyu"
+			FileName="animations_hermit/show_idle_special_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_hermit/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_hermit/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_hermit/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_hermit"
+			FileName="animations_hermit/forbidden_therapy_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_hermit/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_hermit/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_dianyu"
+			FileName="animations_hermit/hall_sit_catsofa_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_dianyu"
+			FileName="animations_hermit/hall_sit_chair_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_dianyu"
+			FileName="animations_hermit/hall_swing_nature_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_dianyu"
+			FileName="animations_hermit/hall_throne_sit_dianyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="attack_carry"
+			FileName="animations_hermit/attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="attack_carry_end"
+			FileName="animations_hermit/attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_hermit/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_hermit/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.566667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_hermit/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_hermit/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.333333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_hermit/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_hermit/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_hermit/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_hermit/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_hermit/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yousun"
+			FileName="animations_hermit/show_appear_yousun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yousun"
+			FileName="animations_hermit/show_idle_special_yousun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yousun"
+			FileName="animations_hermit/show_idle_yousun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair_ys"
+			FileName="animations_hermit/hall_sit_loungechair_ys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_ys"
+			FileName="animations_hermit/hall_swing_nature_ys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_ys"
+			FileName="animations_hermit/hall_throne_sit_ys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_hermit"
+			FileName="animations_hermit/like_drink_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_hermit/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_hermit/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_hermit/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_hermit/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_silaoge"
+			FileName="animations_hermit/show_appear_silaoge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.566601"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_silaoge"
+			FileName="animations_hermit/show_idle_silaoge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_silaoge"
+			FileName="animations_hermit/show_idle_special_silaoge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_curtaincall_hermit"
+			FileName="animations_hermit/emotion_curtaincall_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_hermit/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_hermit/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_p_ys_play"
+			FileName="animations_hermit/hall_interact_p_ys_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_p_ys_sit"
+			FileName="animations_hermit/hall_interact_p_ys_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_closet"
+			FileName="animations_hermit/hall_show_closet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_piano_1"
+			FileName="animations_hermit/hall_show_piano_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_read"
+			FileName="animations_hermit/hall_show_read.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_treasure"
+			FileName="animations_hermit/hall_show_treasure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_turn_left"
+			FileName="animations_hermit/hall_show_turn_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_turn_right"
+			FileName="animations_hermit/hall_show_turn_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_1"
+			FileName="animations_hermit/hall_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_2"
+			FileName="animations_hermit/hall_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_show_art"
+			FileName="animations_hermit/hall_show_art.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.0333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_1_loop"
+			FileName="animations_hermit/hall_sit_1_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_hermit/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_hermit/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_hermit/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_shengxue"
+			FileName="animations_hermit/show_appear_shengxue.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_shengxue"
+			FileName="animations_hermit/show_idle_shengxue.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_shengxue"
+			FileName="animations_hermit/show_idle_special_shengxue.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_hermit/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_hermit/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_hermit/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_hermit/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_hermit/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_hermit/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_hermit/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_hermit/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_hermit/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_hermit/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_hermit/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_hermit/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_hermit/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_hermit/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_hermit/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_hermit/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_hermit/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_hermit/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_hermit/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_hermit/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_warning_hermit"
+			FileName="animations_hermit/emotion_warning_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_hermit/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_hermit/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_hermit/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_hermit/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_hermit/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_hermit/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_hermit/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_hermit/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_hermit/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_hermit/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_hermit/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_hermit/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_hermit/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_hermit/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_hermit/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_hermit/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_hermit/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_hermit/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_hermit/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_hermit/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_hermit/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_loop"
+			FileName="animations_hermit/cr_cannon_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fall"
+			FileName="animations_hermit/cr_cannon_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_mushi"
+			FileName="animations_hermit/show_idle_mushi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.166666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_mushi"
+			FileName="animations_hermit/show_appear_mushi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.833334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_mushi"
+			FileName="animations_hermit/show_idle_special_mushi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.133333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_hermit/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_hermit/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_hermit/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_hermit/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_ms"
+			FileName="animations_hermit/hall_sit_chair_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_ms"
+			FileName="animations_hermit/load_sleep_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_ms"
+			FileName="animations_hermit/sit_dc_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.466666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_ms"
+			FileName="animations_hermit/sit_roller_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_prepare_ms"
+			FileName="animations_hermit/theologist_bomb_prepare_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_hermit/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_shoot_ms"
+			FileName="animations_hermit/theologist_bomb_shoot_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_start_ms"
+			FileName="animations_hermit/theologist_bomb_start_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_hermit/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.733334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_hermit/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_hermit/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_hermit/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.133333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_hermit/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_hermit/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_hermit/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_hermit/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_hermit/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_hermit/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_hermit/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_hermit/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_hermit/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_hermit/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_hermit/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_bojin_hermit"
+			FileName="animations_hermit/show_appear_bojin_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_bojin_hermit"
+			FileName="animations_hermit/show_idle_bojin_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.633333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_bojin_hermit"
+			FileName="animations_hermit/show_idle_special_bojin_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_bojin"
+			FileName="animations_hermit/hall_idle_2_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_bojin"
+			FileName="animations_hermit/hall_idle_special_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_bojin"
+			FileName="animations_hermit/hall_walk_2_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_1_bojin"
+			FileName="animations_hermit/happy_hermit_attack_1_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_1_end_bojin"
+			FileName="animations_hermit/happy_hermit_attack_1_end_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_bojin"
+			FileName="animations_hermit/run_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_prepare_bojin"
+			FileName="animations_hermit/theologist_bomb_prepare_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_bomb_shoot_bojin"
+			FileName="animations_hermit/theologist_bomb_shoot_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend_end_bojin"
+			FileName="animations_hermit/theologist_eleccore_suspend_end_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet_bojin"
+			FileName="animations_hermit/open_cabinet_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_bojin"
+			FileName="animations_hermit/destroy_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_bojin"
+			FileName="animations_hermit/load_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.1"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten_bojin"
+			FileName="animations_hermit/emotion_threaten_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_bojin"
+			FileName="animations_hermit/emotion_dice_20_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_bojin"
+			FileName="animations_hermit/hall_sit_chair_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan_bojin"
+			FileName="animations_hermit/rope_swing_2_jianguan_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge_bojin"
+			FileName="animations_hermit/emotion_charge_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.033334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_curtaincall_hermit_bojin"
+			FileName="animations_hermit/emotion_curtaincall_hermit_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_bojin"
+			FileName="animations_hermit/span_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_bojin"
+			FileName="animations_hermit/idle_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_bojin"
+			FileName="animations_hermit/idle_special_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hermit_attack_show_bojin"
+			FileName="animations_hermit/happy_hermit_attack_show_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_lifing_bojin"
+			FileName="animations_hermit/theologist_eleccore_lifing_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend_stp_bojin"
+			FileName="animations_hermit/theologist_eleccore_suspend_stp_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_end_bojin"
+			FileName="animations_hermit/theologist_map_end_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_start_bojin"
+			FileName="animations_hermit/theologist_map_start_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="theologist_eleccore_suspend_bojin"
+			FileName="animations_hermit/theologist_eleccore_suspend_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="theologist_map_lasting_bojin"
+			FileName="animations_hermit/theologist_map_lasting_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_bojin"
+			FileName="animations_hermit/load_sit_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_bojin"
+			FileName="animations_hermit/load_sleep_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_bojin"
+			FileName="animations_hermit/load_stand_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_bojin"
+			FileName="animations_hermit/load_visit_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_hermit/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower_bojin"
+			FileName="animations_hermit/prepare_place_tower_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start_bojin"
+			FileName="animations_hermit/wormhole_start_bojin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_hermit/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_hermit/pzjg_char_sit.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2.333333" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_hermit/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_hermit/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_hermit/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_hermit/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_hermit/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_hermit/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_hermit/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_hermit/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.566667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_hermit/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.433333" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_hermit/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_hermit/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<idle
+			run="1,300"
+			happy_hermit_attack_1="1,200"
+			theologist_bomb_prepare_ms="1,300"
+			theologist_bomb_shoot_ms="1,300" />
+		<run
+			idle="1,300"
+			happy_hermit_attack_1_end="1,300"
+			happy_hermit_attack_2_end="1,300"
+			theologist_bomb_prepare_ms="1,300"
+			theologist_bomb_shoot_ms="1,300" />
+		<theologist_bomb_prepare
+			run="1,300" />
+		<theologist_bomb_shoot
+			idle="1,200"
+			run="1,300" />
+		<theologist_bomb_shoot_click
+			idle="1,200"
+			run="1,300" />
+		<theologist_eleccore_suspend_end
+			idle="1,200" />
+		<theologist_map_end
+			idle="1,200"
+			run="1,200" />
+		<theologist_polarity_shift
+			idle="1,200" />
+		<happy_hermit_attack_1_end
+			idle="1,300"
+			run="1,300" />
+		<happy_hermit_attack_2_end
+			idle="1,200"
+			run="1,300" />
+		<hall_idle_2
+			emotion_salute="1,300" />
+		<theologist_eleccore_suspend_stp
+			idle="1,200" />
+		<emotion_salute
+			hall_idle_2="1,300" />
+		<cr_qixi_pose
+			cr_cannon_fly="1,300" />
+		<cr_jump_loop
+			cr_cannon_fall="1,300" />
+		<cr_cannon_loop
+			cr_cannon_fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300"
+			cr_cannon_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

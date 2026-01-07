@@ -1,0 +1,5 @@
+<NeoX BoundingInfo="(6.9463, 9.2398, -2.5604),(3.5529, 9.2511, 2.4873),9.9549" TangentEnable="true" UseLightProbe="1">
+    <SubMesh>
+        <Sub0 BoundingCenter="6.9463,9.2398,-2.5604" BoundingHalf="3.5529,9.2511,2.4873" BoundingInfo="(6.9463, 9.2398, -2.5604),(3.5529, 9.2511, 2.4873),9.9549" MtlIdx="0" Name="bp_h55_guajian_guiyan_shuzhi02" />
+    </SubMesh>
+</NeoX>

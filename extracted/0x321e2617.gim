@@ -1,0 +1,12 @@
+<NeoX AnimAccumEnable="true" BoundingInfo="(-0.85, 1.25, 0.02),(0.98, 1.25, 0.15),1.60" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.8530,1.2517,0.0217" BoundingHalf="0.9799,1.2536,0.1486" BoundingInfo="(-0.85, 1.25, 0.02),(0.98, 1.25, 0.15),1.60" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_haidaoqi" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_haidaoqi_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="71767f4601b63937" Inherit="7" Loading="4" Name="yuanding_haidaoqi_idle_001.pse" Uri="fx/pendant/yuanding_haidaoqi_idle_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,175 @@
+{
+"skeleton": {
+	"hash": "AtITc8Ka6Y51Hqd//kWw5eaZV6k",
+	"spine": "3.8.97",
+	"x": -315.4,
+	"y": -147.11,
+	"width": 105.42,
+	"height": 225.3,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "sf", "parent": "root", "length": 79.78 },
+	{
+		"name": "zt",
+		"parent": "sf",
+		"length": 821.74,
+		"x": 0.16,
+		"y": 1.7,
+		"scaleX": 0.689,
+		"scaleY": 0.689
+	},
+	{ "name": "wupin", "parent": "zt", "length": 589.28, "x": -4.65, "y": 26.82 },
+	{ "name": "wupin4", "parent": "wupin", "length": 75.11, "x": -349.56, "y": -182.75 }
+],
+"slots": [
+	{ "name": "wupin_50", "bone": "root" },
+	{ "name": "wupin_53", "bone": "wupin" },
+	{ "name": "wupin_52", "bone": "wupin" },
+	{ "name": "wupin_guizi", "bone": "wupin" },
+	{ "name": "wupin_51", "bone": "wupin" },
+	{ "name": "wupin_49", "bone": "wupin" },
+	{ "name": "wupin_48", "bone": "wupin" },
+	{ "name": "wupin_47", "bone": "wupin" },
+	{ "name": "wupin_46", "bone": "wupin" },
+	{ "name": "wupin_45", "bone": "wupin" },
+	{ "name": "wupin_44", "bone": "wupin" },
+	{ "name": "wupin_43", "bone": "wupin" },
+	{ "name": "wupin_42", "bone": "wupin" },
+	{ "name": "wupin_41", "bone": "wupin" },
+	{ "name": "wupin_40", "bone": "wupin" },
+	{ "name": "wupin_39", "bone": "wupin" },
+	{ "name": "wupin_38", "bone": "wupin" },
+	{ "name": "wupin_37", "bone": "wupin" },
+	{ "name": "wupin_36", "bone": "wupin" },
+	{ "name": "wupin_35", "bone": "wupin" },
+	{ "name": "wupin_34", "bone": "wupin" },
+	{ "name": "wupin_33", "bone": "wupin" },
+	{ "name": "wupin_32", "bone": "wupin" },
+	{ "name": "wupin_31", "bone": "wupin" },
+	{ "name": "wupin_30", "bone": "wupin" },
+	{ "name": "wupin_29", "bone": "wupin", "attachment": "wupin_29" },
+	{ "name": "wupin_28", "bone": "wupin4", "attachment": "wupin_28" },
+	{ "name": "wupin_27", "bone": "wupin" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"wupin_28": {
+				"wupin_28": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0.71874, 1, 0.48809, 1, 0.19154, 1, 0, 1, 0, 0, 0.20802, 0, 0.49633, 0, 0.72698, 0, 1, 0 ],
+					"triangles": [ 3, 4, 5, 6, 3, 5, 2, 6, 7, 3, 6, 2, 1, 2, 8, 2, 7, 8, 1, 8, 9, 9, 0, 1 ],
+					"vertices": [ 49.21, -9.05, 26.71, -9.05, 8.26, -9.05, -15.46, -9.05, -30.79, -9.05, -30.79, 266.95, -14.15, 266.95, 8.92, 266.95, 27.37, 266.95, 49.21, 266.95 ],
+					"hull": 10,
+					"edges": [ 8, 10, 0, 18, 14, 4, 0, 2, 2, 4, 14, 16, 16, 18, 2, 16, 10, 12, 12, 14, 4, 6, 6, 8, 12, 6 ],
+					"width": 57,
+					"height": 192
+				}
+			},
+			"wupin_29": {
+				"wupin_29": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -335.34, -242.8, -453.34, -242.8, -453.34, -131.8, -335.34, -131.8 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 83,
+					"height": 78
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"in": {
+		"bones": {
+			"wupin": {
+				"scale": [
+					{ "x": 0.869, "y": 0.869, "curve": 0, "c2": 0.29, "c3": 0.321, "c4": 0.96 },
+					{ "time": 0.6667 }
+				]
+			},
+			"wupin4": {
+				"translate": [
+					{ "y": -33.07, "curve": "stepped" },
+					{ "time": 0.0667, "y": -33.07, "curve": 0.167, "c2": 0.23, "c3": 0.75 },
+					{ "time": 0.9, "y": 7.76 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"wupin_28": {
+					"wupin_28": [
+						{
+							"vertices": [ 1.82995, 0, 0.36602, 0, -2.19592, 0, -1.82991, 0, 1.09796, 0, 2.37423, 0, 0.72263, 0, -0.28152, 0, 1.64229, 0, 3.10622 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.0667,
+							"vertices": [ 1.82995, 0, 0.36602, 0, -2.19592, 0, -1.82991, 0, 1.09796, 0, 2.37423, 0, 0.72263, 0, -0.28152, 0, 1.64229, 0, 3.10622 ],
+							"curve": 0.167,
+							"c2": 0.23,
+							"c3": 0.75
+						},
+						{ "time": 0.9 }
+					]
+				},
+				"wupin_29": {
+					"wupin_29": [
+						{
+							"vertices": [ -0.97295, 0.91524, 0.97295, 0.91524, 0.97295, -0.91524, -0.97295, -0.91524 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.0667,
+							"vertices": [ -0.97295, 0.91524, 0.97295, 0.91524, 0.97295, -0.91524, -0.97295, -0.91524 ],
+							"curve": 0.351,
+							"c2": 0.4,
+							"c3": 0.757
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -3.42841, 3.22504, 3.42841, 3.22504, 3.42841, -3.22504, -3.42841, -3.22504 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"loop": {
+		"bones": {
+			"wupin4": {
+				"translate": [
+					{ "y": 7.76, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "y": 7.76 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"wupin_29": {
+					"wupin_29": [
+						{
+							"vertices": [ -3.42841, 3.22504, 3.42841, 3.22504, 3.42841, -3.22504, -3.42841, -3.22504 ],
+							"curve": 0.25,
+							"c3": 0.75
+						},
+						{ "time": 2, "curve": 0.25, "c3": 0.75 },
+						{
+							"time": 4,
+							"vertices": [ -3.42841, 3.22504, 3.42841, 3.22504, 3.42841, -3.22504, -3.42841, -3.22504 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

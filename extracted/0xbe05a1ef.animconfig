@@ -1,0 +1,63 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="false" />
+	<NonProportionalScaling Value="false" />
+	<DefaultAnimation Name="skin" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_h55_pendant_dxzh_toukui/skin.animation" LoadAsync="false" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="idle" FileName="animations_h55_pendant_dxzh_toukui/idle.animation" LoadAsync="false" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_dxzh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_dxzh.animation" LoadAsync="false" start_time="0" end_time="8.2333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_dxzh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_special_dxzh.animation" LoadAsync="false" start_time="0" end_time="5.8333" default_loop="False" default_rate="1" />
+		<Animation Name="wait_look_dxzh" FileName="animations_h55_pendant_dxzh_toukui/wait_look_dxzh.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="true" default_rate="1" />
+		<Animation Name="wait_play_dxzh" FileName="animations_h55_pendant_dxzh_toukui/wait_play_dxzh.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh" FileName="animations_h55_pendant_dxzh_toukui/wait_sleeping_dxzh.animation" LoadAsync="true" start_time="0" end_time="11.4" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_dxzh" FileName="animations_h55_pendant_dxzh_toukui/wait_stand_dxzh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="true" default_rate="1" />
+		<Animation Name="emotion_cheer_knight" FileName="animations_h55_pendant_dxzh_toukui/emotion_cheer_knight.animation" LoadAsync="true" start_time="0" end_time="5.033333" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_lying_knight" FileName="animations_h55_pendant_dxzh_toukui/emotion_lying_knight.animation" LoadAsync="true" start_time="0" end_time="6.6" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_shame_knight" FileName="animations_h55_pendant_dxzh_toukui/emotion_shame_knight.animation" LoadAsync="true" start_time="0" end_time="4.666667" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_shout_knight" FileName="animations_h55_pendant_dxzh_toukui/emotion_shout_knight.animation" LoadAsync="true" start_time="0" end_time="3" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_taunt_knight" FileName="animations_h55_pendant_dxzh_toukui/emotion_taunt_knight.animation" LoadAsync="true" start_time="0" end_time="5.1" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_hqs_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_hqs_dzxh.animation" LoadAsync="true" start_time="0" end_time="9.666667" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_hqs_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_appear_hqs_dzxh.animation" LoadAsync="true" start_time="0" end_time="13.9" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_hqs_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_special_hqs_dzxh.animation" LoadAsync="true" start_time="0" end_time="10.833333" default_loop="False" default_rate="1" />
+		<Animation Name="idle_1" FileName="animations_h55_pendant_dxzh_toukui/idle_1.animation" LoadAsync="true" start_time="0" end_time="1.666667" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_moli_dxzh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_moli_dxzh.animation" LoadAsync="true" start_time="0" end_time="9.2" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_moli_dxzh" FileName="animations_h55_pendant_dxzh_toukui/show_appear_moli_dxzh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_moli_dxzh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_special_moli_dxzh.animation" LoadAsync="true" start_time="0" end_time="16.166666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_kfc_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_appear_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="17" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_kfc_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_kfc_dzxh" FileName="animations_h55_pendant_dxzh_toukui/show_idle_special_kfc_dzxh.animation" LoadAsync="true" start_time="0" end_time="13" default_loop="False" default_rate="1" />
+		<Animation Name="wait_play_dxzh_moli" FileName="animations_h55_pendant_dxzh_toukui/wait_play_dxzh_moli.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh_moli" FileName="animations_h55_pendant_dxzh_toukui/wait_sleeping_dxzh_moli.animation" LoadAsync="true" start_time="0" end_time="11.4" default_loop="true" default_rate="1" />
+		<Animation Name="wait_stand_dxzh_moli" FileName="animations_h55_pendant_dxzh_toukui/wait_stand_dxzh_moli.animation" LoadAsync="true" start_time="0" end_time="11.966666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_look_dxzh_moli" FileName="animations_h55_pendant_dxzh_toukui/wait_look_dxzh_moli.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="true" default_rate="1" />
+		<Animation Name="fall_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/fall_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="getup2_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/getup2_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1.3" default_loop="False" default_rate="1" />
+		<Animation Name="crouch_1_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/crouch_1_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1.166667" default_loop="True" default_rate="1" />
+		<Animation Name="crouch_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/crouch_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1.166667" default_loop="True" default_rate="1" />
+		<Animation Name="fear_run_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/fear_run_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="2.5" default_loop="True" default_rate="1" />
+		<Animation Name="fear_walk2_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/fear_walk2_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="True" default_rate="1" />
+		<Animation Name="fear_walk_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/fear_walk_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="4.266667" default_loop="True" default_rate="1" />
+		<Animation Name="hurt_crouch_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/hurt_crouch_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="3.766667" default_loop="True" default_rate="1" />
+		<Animation Name="idle_2_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/idle_2_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1.733333" default_loop="True" default_rate="1" />
+		<Animation Name="low_walk_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/low_walk_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="1.066667" default_loop="True" default_rate="1" />
+		<Animation Name="run_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/run_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="3.666667" default_loop="True" default_rate="1" />
+		<Animation Name="wait_look_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/wait_look_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="10.933333" default_loop="True" default_rate="1" />
+		<Animation Name="wait_play_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/wait_play_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="True" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/wait_sleeping_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="11.4" default_loop="True" default_rate="1" />
+		<Animation Name="wait_stand_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/wait_stand_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="11.966666" default_loop="True" default_rate="1" />
+		<Animation Name="walk_dxzh_xin" FileName="animations_h55_pendant_dxzh_toukui/walk_dxzh_xin.animation" LoadAsync="true" start_time="0" end_time="4.5" default_loop="True" default_rate="1" />
+		<Animation Name="emotion_kneel_dxzh" FileName="animations_h55_pendant_dxzh_toukui/emotion_kneel_dxzh.animation" LoadAsync="true" start_time="0" end_time="4.4" default_loop="False" default_rate="1" />
+		<Animation Name="idle_xin" FileName="animations_h55_pendant_dxzh_toukui/idle_xin.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="6.666667" />
+		<Animation Name="idle_special_xin" FileName="animations_h55_pendant_dxzh_toukui/idle_special_xin.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="4.4" />
+		<Animation Name="silent_xin" FileName="animations_h55_pendant_dxzh_toukui/silent_xin.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="9" />
+		<Animation Name="cautious_xin" FileName="animations_h55_pendant_dxzh_toukui/cautious_xin.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="9" />
+		<Animation Name="curious_xin" FileName="animations_h55_pendant_dxzh_toukui/curious_xin.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="true" default_rate="1" />
+		<Animation Name="exciting_xin" FileName="animations_h55_pendant_dxzh_toukui/exciting_xin.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="9" />
+		<Animation Name="idle_1_xin" FileName="animations_h55_pendant_dxzh_toukui/idle_1_xin.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="1.666667" />
+		<Animation Name="wait_play_dxzh_kfc" FileName="animations_h55_pendant_dxzh_toukui/wait_play_dxzh_kfc.animation" LoadAsync="true" start_time="0" end_time="9.466666" default_loop="true" default_rate="1" />
+		<Animation Name="wait_look_dxzh_kfc" FileName="animations_h55_pendant_dxzh_toukui/wait_look_dxzh_kfc.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="10.933333" />
+		<Animation Name="wait_stand_dxzh_kfc" FileName="animations_h55_pendant_dxzh_toukui/wait_stand_dxzh_kfc.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="true" default_rate="1" />
+		<Animation Name="wait_sleeping_dxzh_kfc" FileName="animations_h55_pendant_dxzh_toukui/wait_sleeping_dxzh_kfc.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="11.4" />
+		</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

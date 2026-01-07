@@ -1,0 +1,28 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="false" />
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="NPC_kantanyounian"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_npc_kantanyounian/skin.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="npc_kantanyounian"
+			FileName="animations_npc_kantanyounian/npc_kantanyounian.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="6" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

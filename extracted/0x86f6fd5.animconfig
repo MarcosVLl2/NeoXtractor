@@ -1,0 +1,45 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="true" />
+	<NonProportionalScaling Value="true" />
+	<DefaultAnimation Name="idle" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_h55_pendant_huaibiao/skin.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="idle" FileName="animations_h55_pendant_huaibiao/idle.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="idle_1" FileName="animations_h55_pendant_huaibiao/idle_1.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="idle_2" FileName="animations_h55_pendant_huaibiao/idle_2.animation" LoadAsync="true" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="shakewatch" FileName="animations_h55_pendant_huaibiao/shakewatch.animation" LoadAsync="true" start_time="0" end_time="2" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_dafu.animation" LoadAsync="true" start_time="0" end_time="5.7333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_dafu.animation" LoadAsync="true" start_time="0" end_time="5.5666" default_loop="False" default_rate="1" />
+		<Animation Name="shakewatchplus_1" FileName="animations_h55_pendant_huaibiao/shakewatchplus_1.animation" LoadAsync="true" start_time="0" end_time="0.5" default_loop="False" default_rate="1" />
+		<Animation Name="shakewatchplus_2" FileName="animations_h55_pendant_huaibiao/shakewatchplus_2.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="True" default_rate="1" />
+		<Animation Name="shakewatchplus_3" FileName="animations_h55_pendant_huaibiao/shakewatchplus_3.animation" LoadAsync="true" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_huke_dafu" FileName="animations_h55_pendant_huaibiao/show_appear_huke_dafu.animation" LoadAsync="true" start_time="0" end_time="6.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_huke_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_huke_dafu.animation" LoadAsync="true" start_time="0" end_time="12.8333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_huke_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_huke_dafu.animation" LoadAsync="true" start_time="0" end_time="6.0333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_crow" FileName="animations_h55_pendant_huaibiao/show_appear_crow.animation" LoadAsync="true" start_time="0" end_time="5.1999" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_crow" FileName="animations_h55_pendant_huaibiao/show_idle_crow.animation" LoadAsync="true" start_time="0" end_time="8.5666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_goro" FileName="animations_h55_pendant_huaibiao/show_idle_goro.animation" LoadAsync="true" start_time="0" end_time="7.2666" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_crow" FileName="animations_h55_pendant_huaibiao/show_idle_special_crow.animation" LoadAsync="true" start_time="0" end_time="6" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_goro" FileName="animations_h55_pendant_huaibiao/show_idle_special_goro.animation" LoadAsync="true" start_time="0" end_time="6.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_goro" FileName="animations_h55_pendant_huaibiao/show_appear_goro.animation" LoadAsync="true" start_time="0" end_time="8.3333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_luole_dafu" FileName="animations_h55_pendant_huaibiao/show_appear_luole_dafu.animation" LoadAsync="true" start_time="0" end_time="12.4333" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_luole_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_luole_dafu.animation" LoadAsync="true" start_time="0" end_time="8.8333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_luole_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_luole_dafu.animation" LoadAsync="true" start_time="0" end_time="12.3333" default_loop="False" default_rate="1" />
+		<Animation Name="wait_play_df" FileName="animations_h55_pendant_huaibiao/wait_play_df.animation" LoadAsync="true" start_time="0" end_time="14.1" default_loop="True" default_rate="1" />
+		<Animation Name="wait_stand_df" FileName="animations_h55_pendant_huaibiao/wait_stand_df.animation" LoadAsync="true" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_qhr_dafu" FileName="animations_h55_pendant_huaibiao/show_appear_qhr_dafu.animation" LoadAsync="true" start_time="0" end_time="11.1666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_qhr_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_qhr_dafu.animation" LoadAsync="true" start_time="0" end_time="7" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_qhr_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_qhr_dafu.animation" LoadAsync="true" start_time="0" end_time="7.3333" default_loop="False" default_rate="1" />
+		<Animation Name="start_bra_dafu" FileName="animations_h55_pendant_huaibiao/start_bra_dafu.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="start_per_dafu" FileName="animations_h55_pendant_huaibiao/start_per_dafu.animation" LoadAsync="true" start_time="0" end_time="9" default_loop="False" default_rate="1" />
+		<Animation Name="start_fri_dafu" FileName="animations_h55_pendant_huaibiao/start_fri_dafu.animation" LoadAsync="true" start_time="0" end_time="5" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_diantai_dafu" FileName="animations_h55_pendant_huaibiao/show_appear_diantai_dafu.animation" LoadAsync="true" start_time="0" end_time="14.8666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_diantai_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_diantai_dafu.animation" LoadAsync="true" start_time="0" end_time="13.3333" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_special_diantai_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_diantai_dafu.animation" LoadAsync="true" start_time="0" end_time="12.6666" default_loop="False" default_rate="1" />
+		<Animation Name="show_idle_special_xunxing_dafu" FileName="animations_h55_pendant_huaibiao/show_idle_special_xunxing_dafu.animation" LoadAsync="true" start_time="0" end_time="12.5" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_tanzhang_dafu_1" FileName="animations_h55_pendant_huaibiao/show_appear_tanzhang_dafu_1.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="26" />
+		<Animation Name="show_idle_tanzhang_dafu_1" FileName="animations_h55_pendant_huaibiao/show_idle_tanzhang_dafu_1.animation" LoadAsync="true" default_rate="1" default_loop="True" start_time="0" end_time="16.5" />
+		<Animation Name="show_idle_special_tanzhang_dafu_1" FileName="animations_h55_pendant_huaibiao/show_idle_special_tanzhang_dafu_1.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="22.766666" />
+		</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

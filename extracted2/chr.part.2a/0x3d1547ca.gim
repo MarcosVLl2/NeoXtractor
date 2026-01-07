@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_huapian_bone01" BoundingInfo="(10.5025, 0.6425, -0.0107),(6.0201, 0.6206, 0.6667),6.2985" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="5.3701,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" BoundingInfo="(5.3701, 0.6425, -0.0107),(0.8877, 0.6206, 0.6667),1.1661" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird2" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="7.9363,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" BoundingInfo="(7.9363, 0.6425, -0.0107),(0.8877, 0.6206, 0.6667),1.1661" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird4" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="10.5025,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" BoundingInfo="(10.5025, 0.6425, -0.0107),(0.8877, 0.6206, 0.6667),1.1661" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird5" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="13.0687,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" BoundingInfo="(13.0687, 0.6425, -0.0107),(0.8877, 0.6206, 0.6667),1.1661" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird6" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="15.6348,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" BoundingInfo="(15.6348, 0.6425, -0.0107),(0.8877, 0.6206, 0.6667),1.1661" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird7" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_pian.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_pian.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

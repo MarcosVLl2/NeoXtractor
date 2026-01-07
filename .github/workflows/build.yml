@@ -1,4 +1,4 @@
-name: Build Workflow
+pip install .name: Build Workflow
 
 on:
   workflow_call:

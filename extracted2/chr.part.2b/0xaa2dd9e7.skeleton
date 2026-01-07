@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_bird",
+	"joint_names" : [
+		"biped_niao01","biped_niao02","biped_niao03","biped_niao05","biped_niao08","biped_niao09","biped_niao04","biped_niao06"
+	],
+	"joint_parent_indices" : [
+		-1,0,1,1,1,1,2,3
+	],
+	"reference_pose" : "AACArAAAAAAAAAAAAACAP1XftbRO+oc15gQ1PwEFNT8AAIA/AACAPwAAgD8AAIA/ZnisPoCNCD75ewjAAACAPy6d8r71C6O+tMUsPvqwTT8BAIA/AACAP///fz8AAIA/cPypPgAAwLQAAIA0AACAP+XnwjNJdq49XTt/NccRfz/+/38/AQCAPwAAgD8AAIA/QNUevABEabuAz7a7AACAP2Y487mG1X8/WJZ/PMreBD37/38/AACAPwIAgD8AAIA/aDntPQBO1b3wlk8+AACAP8XMGj21ZjK/TSfpvEMzNz/+/38/AQCAP///fz8AAIA/gJPwPWBOuj2EdU0+AACAP5GMQDwhgDO//+VfPaT2NT8BAIA/AQCAPwIAgD8AAIA/LVWXPgAAILYAAIA1AACAP3zNXTSFtOc8B9h/tcjlfz/9/38/AQCAPwEAgD8AAIA/nEbbPgAAgDUAAFC1AACAPxBD5boLpp29s2yGPJk0fz8AAIA/AACAPwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			8
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

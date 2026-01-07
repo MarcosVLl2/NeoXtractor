@@ -1,0 +1,29 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped001" BoundingInfo="(0.06, 4.27, 0.71),(6.33, 4.33, 3.62),8.48" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.0060,4.2681,0.7058" BoundingHalf="1.9722,4.3341,3.6230" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_gj" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="4.4228,4.2681,0.7058" BoundingHalf="1.9722,4.3341,3.6230" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_gj001" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-4.2982,4.2681,0.7058" BoundingHalf="1.9722,4.3341,3.6230" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_gj002" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="bonbon_e_cat_show_gj.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="bonbon_e_cat_show_gj.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped002 pelvis" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0007,-0.7074,0.7068" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_gj_appear_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3d0565b257f0faf7" Inherit="7" Loading="2" Name="zhadanren_dachucat_zhanshi_appear_002.pse" Uri="fx/killer/zhadanren_dachucat_zhanshi_appear_002.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="biped pelvis" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0007,-0.7074,0.7068" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_gj_appear_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="25cb16a9a07c0f81" Inherit="7" Loading="2" Name="zhadanren_dachucat_zhanshi_appear_002.pse" Uri="fx/killer/zhadanren_dachucat_zhanshi_appear_002.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped001 pelvis" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0007,-0.7074,0.7068" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_gj_appear_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="0ecbfea344e838c7" Inherit="7" Loading="2" Name="zhadanren_dachucat_zhanshi_appear_002.pse" Uri="fx/killer/zhadanren_dachucat_zhanshi_appear_002.pse" />
+        </Socket_2>
+    </SocketObject>
+</NeoX>

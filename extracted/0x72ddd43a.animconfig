@@ -1,0 +1,20 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="false" />
+	<NonProportionalScaling Value="false" />
+	<DefaultAnimation Name="skin" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_messager_bird/skin.animation" LoadAsync="false" start_time="0" end_time="3.3333" default_loop="True" default_rate="1" />
+		<Animation Name="fly" FileName="animations_messager_bird/fly.animation" LoadAsync="false" start_time="0" end_time="0.8333" default_loop="True" default_rate="1" />
+		<Animation Name="fly_change" FileName="animations_messager_bird/fly_change.animation" LoadAsync="false" start_time="0" end_time="4" default_loop="False" default_rate="1" />
+		<Animation Name="fly_crow" FileName="animations_messager_bird/fly_crow.animation" LoadAsync="false" start_time="0" end_time="1" default_loop="False" default_rate="1" />
+		<Animation Name="fly_idle" FileName="animations_messager_bird/fly_idle.animation" LoadAsync="false" start_time="0" end_time="4.6666" default_loop="True" default_rate="1" />
+		<Animation Name="fly_round" FileName="animations_messager_bird/fly_round.animation" LoadAsync="false" start_time="0" end_time="2.5" default_loop="True" default_rate="1" />
+		<Animation Name="fly_sing" FileName="animations_messager_bird/fly_sing.animation" LoadAsync="false" start_time="0" end_time="4" default_loop="True" default_rate="1" />
+		<Animation Name="show_idle_sj_ms" FileName="animations_messager_bird/show_idle_sj_ms.animation" LoadAsync="false" start_time="0" end_time="12" default_loop="True" default_rate="1" />
+		<Animation Name="show_appear_liezhe_ms" FileName="animations_messager_bird/show_appear_liezhe_ms.animation" LoadAsync="true" start_time="0" end_time="18.4" default_loop="false" default_rate="1" />
+		</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<fly_round TransitTime="0.0031" />
+	</TransitInfo>
+</AnimationConfig>
