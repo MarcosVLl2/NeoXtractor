@@ -42,10 +42,19 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
         with:
-          version: '0.7.4'
+          version: '0.9.22'
 
-      - name: Install dependencies
+      - name: Install dependencies (macOS)
         shell: bash
+        if: ${{ startsWith(matrix.os, 'macos') }}
+        run: |
+          export MACOSX_DEPLOYMENT_TARGET=12.0
+          uv sync --python-platform ${{ matrix.arch == 'x64' && 'x86_64-apple-darwin' || 'aarch64-apple-darwin' }} --locked
+          uv pip install pyinstaller
+      
+      - name: Install dependencies (Linux/Windows)
+        shell: bash
+        if: ${{ !startsWith(matrix.os, 'macos') }}
         run: |
           uv sync --locked
           uv pip install pyinstaller
