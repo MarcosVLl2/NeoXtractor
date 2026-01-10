@@ -12,6 +12,12 @@ THIS TOOL IS IN ITS EARLY STAGES, ANY HELP IS WELCOME! FEEL FREE TO OPEN A PULL 
 
 Download the latest release at [GitHub Releases](https://github.com/MarcosVLl2/NeoXtractor/releases)
 
+### Bleeding edge builds
+
+If you'd like to download the latest builds without waiting for a release, you can go to the [Actions](https://github.com/MarcosVLl2/NeoXtractor/releases) tab to see a list of automatic builds.
+
+Find the build that you'd like to use, click it and download at the **Artifacts** section.
+
 ## Usage
 
 ### GUI
