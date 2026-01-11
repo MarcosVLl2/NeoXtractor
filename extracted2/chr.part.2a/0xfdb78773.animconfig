@@ -1,0 +1,2458 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animation_yiyaoshi_e_syao_qpd/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_syao_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/show_appear_syao_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.666666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_syao_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/show_idle_syao_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_syao_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/show_idle_special_syao_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.666666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="aloft"
+			FileName="animation_yiyaoshi_e_syao_qpd/aloft.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animation_yiyaoshi_e_syao_qpd/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.033333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animation_yiyaoshi_e_syao_qpd/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="be_lift_idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/be_lift_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up_left"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up_right"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cam_hold_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/cam_hold_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cam_over_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/cam_over_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cam_start_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/cam_start_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="collapse_walk"
+			FileName="animation_yiyaoshi_e_syao_qpd/collapse_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="crouch"
+			FileName="animation_yiyaoshi_e_syao_qpd/crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="curious"
+			FileName="animation_yiyaoshi_e_syao_qpd/curious.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="destroy_wall"
+			FileName="animation_yiyaoshi_e_syao_qpd/destroy_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_dribble"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_dribble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_fall_loop"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_fall_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_fly_loop1"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_fly_loop1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_hit_rear"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_hit_rear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_pace"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_pace.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_stand_charge"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_stand_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dod_stand_hold"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_stand_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yyzx_win1"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_yyzx_win1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yyzx_win2"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_yyzx_win2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="exciting"
+			FileName="animation_yiyaoshi_e_syao_qpd/exciting.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/fear_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk"
+			FileName="animation_yiyaoshi_e_syao_qpd/fear_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fear_walk2"
+			FileName="animation_yiyaoshi_e_syao_qpd/fear_walk2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="grope"
+			FileName="animation_yiyaoshi_e_syao_qpd/grope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_cflute"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_idle_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_cflute"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_play_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_play_piano"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_play_piano.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_bon_struggle4"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_bon_struggle4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_climb"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_climb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_banshee"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_bon"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_boy"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_boy_akg"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_boy_akg.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_boy_w"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_boy_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_burke"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_burke.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_frank"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_goat"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_hastur"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_hastur.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_hermit"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_joan"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_joan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_joan_ks"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_joan_ks.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_joan_mjk"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_joan_mjk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_joan_sophia"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_joan_sophia.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_joseph"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_joseph.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_lady"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_lady.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_lizard"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_ms"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_pagan"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_pagan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_polun"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_polun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_redqu"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_redqu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_sculp"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_sculp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_shouye"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_spider"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_spider.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_wax"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_wax.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_wuchang"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_wuchang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_wuchang_y"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_wuchang_y.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_yidhra"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_yunv"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_cockhorse_zhake"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_cockhorse_zhake.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_idle_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_ripper_struggle4"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_ripper_struggle4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_banshee"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_bon"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_boy"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_boy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_boy_akg"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_boy_akg.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_boy_w"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_boy_w.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_burke"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_burke.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.633333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_frank"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_frank.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_goat"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_hastur"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_hastur.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_hermit"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_hermit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_joan"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_joan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_joan_ks"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_joan_ks.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_joseph"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_joseph.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_lady"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_lady.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_lizard"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_lizard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_ms"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_ms.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_pagan"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_pagan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_polun"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_polun.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_redqu"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_redqu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_sculp"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_sculp.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_shouye"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_shouye.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_spider"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_spider.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_wax"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_wax.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_wuchang"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_wuchang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_wuchang_y"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_wuchang_y.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_yidhra"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_yidhra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_struggle4_yunv"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_struggle4_yunv.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_zhake_struggle4"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_zhake_struggle4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_crouch"
+			FileName="animation_yiyaoshi_e_syao_qpd/hurt_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.766667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_crouchwalk"
+			FileName="animation_yiyaoshi_e_syao_qpd/hurt_crouchwalk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/hurt_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hurt_walk"
+			FileName="animation_yiyaoshi_e_syao_qpd/hurt_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_bosom"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_bosom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_cabinet"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_light"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_light.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ignorant"
+			FileName="animation_yiyaoshi_e_syao_qpd/ignorant.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject_zl"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="in_chain"
+			FileName="animation_yiyaoshi_e_syao_qpd/in_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="lift_idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/lift_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="light"
+			FileName="animation_yiyaoshi_e_syao_qpd/light.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.166667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="low_walk"
+			FileName="animation_yiyaoshi_e_syao_qpd/low_walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.133333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="magnet_dizzy"
+			FileName="animation_yiyaoshi_e_syao_qpd/magnet_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="opentheswitch"
+			FileName="animation_yiyaoshi_e_syao_qpd/opentheswitch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="operate_remote_control"
+			FileName="animation_yiyaoshi_e_syao_qpd/operate_remote_control.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="princ_carry_run"
+			FileName="animation_yiyaoshi_e_syao_qpd/princ_carry_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pry"
+			FileName="animation_yiyaoshi_e_syao_qpd/pry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.633333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_survivor"
+			FileName="animation_yiyaoshi_e_syao_qpd/pullback_survivor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.966667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_survivor"
+			FileName="animation_yiyaoshi_e_syao_qpd/pushforward_survivor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="reading_map"
+			FileName="animation_yiyaoshi_e_syao_qpd/reading_map.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.066667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair"
+			FileName="animation_yiyaoshi_e_syao_qpd/repair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/repair_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/repair_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_4"
+			FileName="animation_yiyaoshi_e_syao_qpd/repair_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/rope_swing_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/rope_swing_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/rope_swing_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animation_yiyaoshi_e_syao_qpd/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_race"
+			FileName="animation_yiyaoshi_e_syao_qpd/run_race.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.133333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animation_yiyaoshi_e_syao_qpd/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/scare_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_idle_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/scare_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="silent"
+			FileName="animation_yiyaoshi_e_syao_qpd/silent.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_carrousel"
+			FileName="animation_yiyaoshi_e_syao_qpd/sit_carrousel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animation_yiyaoshi_e_syao_qpd/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animation_yiyaoshi_e_syao_qpd/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint"
+			FileName="animation_yiyaoshi_e_syao_qpd/sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizziness"
+			FileName="animation_yiyaoshi_e_syao_qpd/sprint_dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="struggle1"
+			FileName="animation_yiyaoshi_e_syao_qpd/struggle1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="struggle2"
+			FileName="animation_yiyaoshi_e_syao_qpd/struggle2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_21_idle_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_21_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_21_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_look_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_look_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.033334"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_mooncake_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_mooncake_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.433333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_play_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_play_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_sleeping_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_sleeping_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_stand_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_stand_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_writing_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_writing_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_yiyaoshi_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_yiyaoshi_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animation_yiyaoshi_e_syao_qpd/walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk_carry_straw_idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/walk_carry_straw_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk_carry_wheelbox_idle"
+			FileName="animation_yiyaoshi_e_syao_qpd/walk_carry_wheelbox_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="agree"
+			FileName="animation_yiyaoshi_e_syao_qpd/agree.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="be_lift"
+			FileName="animation_yiyaoshi_e_syao_qpd/be_lift.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animation_yiyaoshi_e_syao_qpd/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_by"
+			FileName="animation_yiyaoshi_e_syao_qpd/catch_by.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="change_cocoon_spider"
+			FileName="animation_yiyaoshi_e_syao_qpd/change_cocoon_spider.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animation_yiyaoshi_e_syao_qpd/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animation_yiyaoshi_e_syao_qpd/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="covereyes"
+			FileName="animation_yiyaoshi_e_syao_qpd/covereyes.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_envelope"
+			FileName="animation_yiyaoshi_e_syao_qpd/discard_envelope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_charging"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_charging.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_die_front"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_die_front.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_die_rear"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_die_rear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_fall"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_throw"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_throw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_throw_above"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_throw_above.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_throw_left"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_throw_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dod_throw_right"
+			FileName="animation_yiyaoshi_e_syao_qpd/dod_throw_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bainian"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_bainian.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cheer_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_cheer_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_circle"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_circle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_cjfirework"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_cjfirework.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_dance_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_dice_20_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_etj"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_etj.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.533333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fkiss"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_fkiss.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_doctor"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_fourth_doctor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_lying_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_lying_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_oro"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_oro.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_photo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_chase_lose_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_chase_lose_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_chase_lose_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_4"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_chase_lose_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_chase_lose_5"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_chase_lose_5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_lose"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_win_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_race_win_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_race_win_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shame_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_shame_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_shout_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_shout_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sp_lose_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_sp_lose_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_taunt_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_taunt_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_tribute_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_tribute_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.033333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yawn_ys"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_yawn_ys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_yd_xiangsi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_yd_xiangsi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.233334"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="enter"
+			FileName="animation_yiyaoshi_e_syao_qpd/enter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animation_yiyaoshi_e_syao_qpd/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forward"
+			FileName="animation_yiyaoshi_e_syao_qpd/forward.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="getup"
+			FileName="animation_yiyaoshi_e_syao_qpd/getup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="getup2"
+			FileName="animation_yiyaoshi_e_syao_qpd/getup2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="get_off_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/get_off_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.533333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animation_yiyaoshi_e_syao_qpd/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_putback_cflute"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_putback_cflute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_envelope"
+			FileName="animation_yiyaoshi_e_syao_qpd/hang_envelope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle1"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_carry_struggle1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_redqu"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_pick_redqu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_ripper_catch"
+			FileName="animation_yiyaoshi_e_syao_qpd/happy_ripper_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/hit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_groundpet_common"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_special_groundpet_common.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="inject_failed_yys"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_failed_yys.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="inject_filed"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_filed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="jump"
+			FileName="animation_yiyaoshi_e_syao_qpd/jump.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="left_push_impact"
+			FileName="animation_yiyaoshi_e_syao_qpd/left_push_impact.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="openbox"
+			FileName="animation_yiyaoshi_e_syao_qpd/openbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="opentheswitch_act1"
+			FileName="animation_yiyaoshi_e_syao_qpd/opentheswitch_act1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="opentheswitch_act2"
+			FileName="animation_yiyaoshi_e_syao_qpd/opentheswitch_act2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.133333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="out"
+			FileName="animation_yiyaoshi_e_syao_qpd/out.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick_envelope"
+			FileName="animation_yiyaoshi_e_syao_qpd/pick_envelope.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="push_down"
+			FileName="animation_yiyaoshi_e_syao_qpd/push_down.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_hurdle"
+			FileName="animation_yiyaoshi_e_syao_qpd/race_hurdle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/race_tram_jump_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/race_tram_jump_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_3"
+			FileName="animation_yiyaoshi_e_syao_qpd/race_tram_jump_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="race_tram_jump_4"
+			FileName="animation_yiyaoshi_e_syao_qpd/race_tram_jump_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recall"
+			FileName="animation_yiyaoshi_e_syao_qpd/recall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="recuit_chain"
+			FileName="animation_yiyaoshi_e_syao_qpd/recuit_chain.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="right_push_impact"
+			FileName="animation_yiyaoshi_e_syao_qpd/right_push_impact.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="roll_down"
+			FileName="animation_yiyaoshi_e_syao_qpd/roll_down.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="save2"
+			FileName="animation_yiyaoshi_e_syao_qpd/save2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="save_by2"
+			FileName="animation_yiyaoshi_e_syao_qpd/save_by2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shakewatch"
+			FileName="animation_yiyaoshi_e_syao_qpd/shakewatch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shoot"
+			FileName="animation_yiyaoshi_e_syao_qpd/shoot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="shy"
+			FileName="animation_yiyaoshi_e_syao_qpd/shy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide2"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide3"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide4"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide5"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide5.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="slide6"
+			FileName="animation_yiyaoshi_e_syao_qpd/slide6.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animation_yiyaoshi_e_syao_qpd/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.033333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span3"
+			FileName="animation_yiyaoshi_e_syao_qpd/span3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span_wall_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/span_wall_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash"
+			FileName="animation_yiyaoshi_e_syao_qpd/splash.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_1"
+			FileName="animation_yiyaoshi_e_syao_qpd/splash_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="splash_2"
+			FileName="animation_yiyaoshi_e_syao_qpd/splash_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_hit"
+			FileName="animation_yiyaoshi_e_syao_qpd/sprint_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_stop"
+			FileName="animation_yiyaoshi_e_syao_qpd/sprint_stop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="start_bra"
+			FileName="animation_yiyaoshi_e_syao_qpd/start_bra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="start_fri"
+			FileName="animation_yiyaoshi_e_syao_qpd/start_fri.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="start_per"
+			FileName="animation_yiyaoshi_e_syao_qpd/start_per.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="start_tra"
+			FileName="animation_yiyaoshi_e_syao_qpd/start_tra.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="start_wrestle"
+			FileName="animation_yiyaoshi_e_syao_qpd/start_wrestle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tentacle_attacked"
+			FileName="animation_yiyaoshi_e_syao_qpd/tentacle_attacked.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="treat"
+			FileName="animation_yiyaoshi_e_syao_qpd/treat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="unvoice"
+			FileName="animation_yiyaoshi_e_syao_qpd/unvoice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_xuanhu_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_xuanhu_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.166667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/run_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sp_lose_yiyaoshi_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_sp_lose_yiyaoshi_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="inject_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject_filed_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_filed_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.433333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_play_yiyaoshi_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_play_yiyaoshi_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wait_stand_yiyaoshi_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/wait_stand_yiyaoshi_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_throne_sit_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_sit_chair_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_syao"
+			FileName="animation_yiyaoshi_e_syao_qpd/idle_special_syao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bind_up_right_zl"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up_right_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up_zl"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bind_up_left_zl"
+			FileName="animation_yiyaoshi_e_syao_qpd/bind_up_left_zl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_medicine_yiyaoshi"
+			FileName="animation_yiyaoshi_e_syao_qpd/emotion_medicine_yiyaoshi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animation_yiyaoshi_e_syao_qpd/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="inject_plus"
+			FileName="animation_yiyaoshi_e_syao_qpd/inject_plus.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="true"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

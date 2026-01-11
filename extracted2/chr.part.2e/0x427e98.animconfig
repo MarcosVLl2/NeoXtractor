@@ -1,0 +1,83 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="redqueen_e_al_head/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="7.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_al_redqueen"
+			FileName="redqueen_e_al_head/show_appear_al_redqueen.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="21" />
+		<Animation
+			Name="show_idle_al_redqueen"
+			FileName="redqueen_e_al_head/show_idle_al_redqueen.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="11.866667" />
+		<Animation
+			Name="show_idle_special_al_redqueen"
+			FileName="redqueen_e_al_head/show_idle_special_al_redqueen.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.633333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="redqueen_e_al_head/idle_special.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="8.933333" />
+		<Animation
+			Name="load"
+			FileName="redqueen_e_al_head/load.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="17" />
+		<Animation
+			Name="load_redqueen_sleep"
+			FileName="redqueen_e_al_head/load_redqueen_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_redqu"
+			FileName="redqueen_e_al_head/load_stand_redqu.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="19" />
+		<Animation
+			Name="load_visit_redqu"
+			FileName="redqueen_e_al_head/load_visit_redqu.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="12.833333" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

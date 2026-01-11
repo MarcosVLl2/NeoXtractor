@@ -1,0 +1,81 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_body01_01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro1
+				Key="FLOW_LUMINOUS"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_crystal_fade.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/ice_diffuse00.tga" />
+			<TexAdd
+				Value="" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_micai.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_ordnance_factory_cube_inside.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_mask.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_mask01.tga" />
+			<TexStarNoise
+				Value="" />
+			<Tex_const
+				Value="" />
+			<Tex_const_mask
+				Value="" />
+			<anisotropy_color
+				Value="0.667475,0.678950,0.861692,1.000000" />
+			<anisotropy_noise
+				Value="0.350000" />
+			<anisotropy_width
+				Value="50" />
+			<u_ambient
+				Value="0.300000" />
+			<u_luminous_color
+				Value="0.007889,0.007889,0.007889,1.000000" />
+			<u_luminous_intensity
+				Value="110" />
+			<u_luminous_scale
+				Value="8.000000,7.000000,36.000000,55.000000" />
+			<u_luminous_speed
+				Value="0.300000,-0.200000,0.000000,0.000000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

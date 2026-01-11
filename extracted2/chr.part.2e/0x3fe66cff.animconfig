@@ -1,0 +1,194 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bzt_e_holmes_maozi/skin.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.666667"
+			default_loop="false"
+			default_rate="1.000000" />
+		<Animation
+			Name="show_idle_holmes_bzt"
+			FileName="animations_bzt_e_holmes_maozi/show_idle_holmes_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="12.666667"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="show_idle_special_holmes_bzt"
+			FileName="animations_bzt_e_holmes_maozi/show_idle_special_holmes_bzt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.233334"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_holmes_bzt"
+			FileName="animations_bzt_e_holmes_maozi/show_appear_holmes_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="20.000000"
+			default_loop="false"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_cheer_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_cheer_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="5.833333"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_dance_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_dance_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="7.400000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_dice_20_wzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_dice_20_wzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="4.333333"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_facepalm_wzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_facepalm_wzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="2.466667"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_kuitan_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_kuitan_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.500000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_lying_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_lying_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.000000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_shame_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_shame_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.400000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_shout_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_shout_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="7.266667"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_taunt_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_taunt_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.933333"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_tidy_up_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_tidy_up_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="3.500000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_yanzou_bzt"
+			FileName="animations_bzt_e_holmes_maozi/emotion_yanzou_bzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="6.500000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="wait_look_wzt"
+			FileName="animations_bzt_e_holmes_maozi/wait_look_wzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="8.166667"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="wait_sleeping_wzt"
+			FileName="animations_bzt_e_holmes_maozi/wait_sleeping_wzt.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="11.000000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="emotion_dice_wzt_homles"
+			FileName="animations_bzt_e_holmes_maozi/emotion_dice_wzt_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="3.000000"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="notebook_write_during_homles"
+			FileName="animations_bzt_e_holmes_maozi/notebook_write_during_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="1.333333"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="notebook_write_end_homles"
+			FileName="animations_bzt_e_holmes_maozi/notebook_write_end_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="0.800000"
+			default_loop="false"
+			default_rate="1.000000" />
+		<Animation
+			Name="notebook_write_start_homles"
+			FileName="animations_bzt_e_holmes_maozi/notebook_write_start_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="0.800000"
+			default_loop="false"
+			default_rate="1.000000" />
+		<Animation
+			Name="wait_play_wzt_homles"
+			FileName="animations_bzt_e_holmes_maozi/wait_play_wzt_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="10.733334"
+			default_loop="true"
+			default_rate="1.000000" />
+		<Animation
+			Name="wait_stand_wzt_homles"
+			FileName="animations_bzt_e_holmes_maozi/wait_stand_wzt_homles.animation"
+			LoadAsync="true"
+			start_time="0.000000"
+			end_time="12.000000"
+			default_loop="true"
+			default_rate="1.000000" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

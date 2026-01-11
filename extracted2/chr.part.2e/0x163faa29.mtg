@@ -1,0 +1,8 @@
+<NeoX>
+    <MaterialGroup MaterialCount="4" Name="qiutu_e_dj_xuying02" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_dj/materials/qiutu_e_dianjing_head.mtl" />
+        <Material_1 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_dj/materials/qiutu_e_dianjing_body01.mtl" />
+        <Material_2 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_dj/materials/qiutu_e_dianjing_body01_1.mtl" />
+        <Material_3 Path="chr/player/dm65_survivor_m/h55_survivor_m_qiutu/separate_dir/qiutu_e_dj/materials/qiutu_e_dianjing_body02.mtl" />
+    </MaterialGroup>
+</NeoX>

@@ -1,0 +1,8 @@
+<NeoX>
+    <MaterialGroup MaterialCount="4" Name="billy_e_gelude_glass" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_glass01_mat.mtl" />
+        <Material_1 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_glass_mat.mtl" />
+        <Material_2 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_glass01a_mat.mtl" />
+        <Material_3 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_glass01_mat.mtl" />
+    </MaterialGroup>
+</NeoX>

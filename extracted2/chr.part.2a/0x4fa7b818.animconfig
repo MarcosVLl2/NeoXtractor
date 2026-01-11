@@ -1,0 +1,26 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_hds_e_baojun_weiba/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_bosom"
+			FileName="animations_hds_e_baojun_weiba/idle_bosom.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.8" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

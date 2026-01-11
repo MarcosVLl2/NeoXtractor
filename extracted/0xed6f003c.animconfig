@@ -1,0 +1,166 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="walk_scare"
+			FileName="animations_h55_pet_renou/walk_scare.animation"
+			LoadAsync="false"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cautious"
+			FileName="animations_h55_pet_renou/cautious.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="curious"
+			FileName="animations_h55_pet_renou/curious.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="exciting"
+			FileName="animations_h55_pet_renou/exciting.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.766666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_h55_pet_renou/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_scare"
+			FileName="animations_h55_pet_renou/idle_scare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.933333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_1"
+			FileName="animations_h55_pet_renou/idle_special_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.833333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_2"
+			FileName="animations_h55_pet_renou/idle_special_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_h55_pet_renou/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="silent"
+			FileName="animations_h55_pet_renou/silent.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="walk"
+			FileName="animations_h55_pet_renou/walk.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_groundpet_common"
+			FileName="animations_h55_pet_renou/idle_special_groundpet_common.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_pet_furniture"
+			FileName="animations_h55_pet_renou/hall_pet_furniture.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_pet_special_3"
+			FileName="animations_h55_pet_renou/hall_pet_special_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_pet_special_1"
+			FileName="animations_h55_pet_renou/hall_pet_special_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_pet_special_2"
+			FileName="animations_h55_pet_renou/hall_pet_special_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="23.766666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_pet_idle"
+			FileName="animations_h55_pet_renou/hall_pet_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="skin"
+			FileName="animations_h55_pet_renou/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit"
+			FileName="animations_h55_pet_renou/sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_h55_pet_renou/load.animation"
+			LoadAsync="true" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

@@ -1,0 +1,2191 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_goat/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal"
+			FileName="animations_goat/activate_crystal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_goat/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_goat/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_goat/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_goat/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_goat/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_goat/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_goat/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs"
+			FileName="animations_goat/climb_downstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs"
+			FileName="animations_goat/climb_upstairs.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_goat/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet"
+			FileName="animations_goat/close_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed"
+			FileName="animations_goat/cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="deceit"
+			FileName="animations_goat/deceit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy"
+			FileName="animations_goat/destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb"
+			FileName="animations_goat/destroy_mb.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter"
+			FileName="animations_goat/destroy_transmittter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_goat/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_goat/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_goat/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit"
+			FileName="animations_goat/hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizziness"
+			FileName="animations_goat/dizziness.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy"
+			FileName="animations_goat/dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dread"
+			FileName="animations_goat/dread.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_goat/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_goat/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall"
+			FileName="animations_goat/fall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_goat/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_idle_special"
+			FileName="animations_goat/goat_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special"
+			FileName="animations_goat/idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_bon"
+			FileName="animations_goat/guisu_show_bon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_goat/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_goat/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_goat/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_goat/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_goat/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_goat/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_goat/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_goat/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_goat/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.1999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_goat/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_1"
+			FileName="animations_goat/happy_goat_attack_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_1_end"
+			FileName="animations_goat/happy_goat_attack_1_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_2"
+			FileName="animations_goat/happy_goat_attack_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_2_end"
+			FileName="animations_goat/happy_goat_attack_2_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_rebound"
+			FileName="animations_goat/happy_goat_attack_rebound.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_show"
+			FileName="animations_goat/happy_goat_attack_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx"
+			FileName="animations_goat/hit_skin_spnx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1"
+			FileName="animations_goat/hit_skin_spnx_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle"
+			FileName="animations_goat/idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_goat/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1"
+			FileName="animations_goat/kick_car_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2"
+			FileName="animations_goat/kick_car_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle"
+			FileName="animations_goat/liftcar_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move"
+			FileName="animations_goat/liftcar_move.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch"
+			FileName="animations_goat/liftcar_switch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_goat/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet"
+			FileName="animations_goat/open_cabinet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher"
+			FileName="animations_goat/outfire_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying"
+			FileName="animations_goat/pighit_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet"
+			FileName="animations_goat/place_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="place_tower"
+			FileName="animations_goat/place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_goat/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_goat/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower"
+			FileName="animations_goat/prepare_place_tower.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_goat/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_goat/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet"
+			FileName="animations_goat/remote_patrol_puppet.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook"
+			FileName="animations_goat/repair_hook.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan"
+			FileName="animations_goat/rope_swing_1_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan"
+			FileName="animations_goat/rope_swing_2_jianguan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run"
+			FileName="animations_goat/run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth"
+			FileName="animations_goat/run_smooth.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid"
+			FileName="animations_goat/scare_puppet_rigid.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc"
+			FileName="animations_goat/sit_dc.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_goat/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sleeping"
+			FileName="animations_goat/sleeping.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_goat/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2"
+			FileName="animations_goat/sleeping_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="span"
+			FileName="animations_goat/span.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_goat/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_goat/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed"
+			FileName="animations_goat/strong_cursed.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="tough"
+			FileName="animations_goat/tough.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy"
+			FileName="animations_goat/toyman_jump_destroy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="vigilance"
+			FileName="animations_goat/vigilance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_goat/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback1_b"
+			FileName="animations_goat/blackgoat_jumpback1_b.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback1_a"
+			FileName="animations_goat/blackgoat_jumpback1_a.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback_b"
+			FileName="animations_goat/blackgoat_jumpback_b.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback_a"
+			FileName="animations_goat/blackgoat_jumpback_a.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jump01"
+			FileName="animations_goat/blackgoat_jump01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback1"
+			FileName="animations_goat/blackgoat_jumpback1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jumpback"
+			FileName="animations_goat/blackgoat_jumpback.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_jump"
+			FileName="animations_goat/blackgoat_jump.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_cloak_hold"
+			FileName="animations_goat/blackgoat_cloak_hold.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_cloak_start"
+			FileName="animations_goat/blackgoat_cloak_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_cloak_end"
+			FileName="animations_goat/blackgoat_cloak_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_cloak_excute"
+			FileName="animations_goat/blackgoat_cloak_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm"
+			FileName="animations_goat/disarm.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_goat/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_goat/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_goat/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_goat/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers"
+			FileName="animations_goat/light_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_goat/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sit_goat"
+			FileName="animations_goat/load_sit_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep_goat"
+			FileName="animations_goat/load_sleep_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_stand_goat"
+			FileName="animations_goat/load_stand_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.166666"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="load_visit_goat"
+			FileName="animations_goat/load_visit_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.9666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_goat/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry"
+			FileName="animations_goat/carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit"
+			FileName="animations_goat/carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle"
+			FileName="animations_goat/carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch"
+			FileName="animations_goat/catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard"
+			FileName="animations_goat/discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang"
+			FileName="animations_goat/hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pick"
+			FileName="animations_goat/pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_goat/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_goat/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_goat/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_goat/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_goat/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_goat/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_goat/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_goat/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry"
+			FileName="animations_goat/happy_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit"
+			FileName="animations_goat/happy_carry_hit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle"
+			FileName="animations_goat/happy_carry_struggle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add"
+			FileName="animations_goat/happy_carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch"
+			FileName="animations_goat/happy_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard"
+			FileName="animations_goat/happy_discard.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_carry"
+			FileName="animations_goat/happy_goat_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_goat_attack_carry_end"
+			FileName="animations_goat/happy_goat_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang"
+			FileName="animations_goat/happy_hang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick"
+			FileName="animations_goat/happy_pick.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_goat"
+			FileName="animations_goat/show_idle_special_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_goat"
+			FileName="animations_goat/show_idle_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_goat/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_goat"
+			FileName="animations_goat/like_drink_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure"
+			FileName="animations_goat/butcher_civilian_cure.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox"
+			FileName="animations_goat/close_elecbox.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher"
+			FileName="animations_goat/crystalcard_used_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2"
+			FileName="animations_goat/elec_suffer_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="goat_idle_l"
+			FileName="animations_goat/goat_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="goat_idle_r"
+			FileName="animations_goat/goat_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="goat_special_l"
+			FileName="animations_goat/goat_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_special_r"
+			FileName="animations_goat/goat_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_goat/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_goat/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_goat/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_goat/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_goat/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1"
+			FileName="animations_goat/stone_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2"
+			FileName="animations_goat/stone_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3"
+			FileName="animations_goat/stone_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add"
+			FileName="animations_goat/carry_struggle_add.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_attack_carry"
+			FileName="animations_goat/goat_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="goat_attack_carry_end"
+			FileName="animations_goat/goat_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_goat/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.0666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_duola"
+			FileName="animations_goat/show_appear_duola.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_duola"
+			FileName="animations_goat/show_idle_duola.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_duola"
+			FileName="animations_goat/show_idle_special_duola.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_goat/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_goat"
+			FileName="animations_goat/forbidden_therapy_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_goat/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_goat/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_goat/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill"
+			FileName="animations_goat/dmm_butcher_skill.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_goat/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_goat/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_goat/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_muwai"
+			FileName="animations_goat/show_appear_muwai.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_muwai"
+			FileName="animations_goat/show_idle_muwai.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_muwai"
+			FileName="animations_goat/show_idle_special_muwai.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_goat/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_goat/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_mw"
+			FileName="animations_goat/hall_idle_2_mw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_mw"
+			FileName="animations_goat/hall_idle_special_mw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_mw"
+			FileName="animations_goat/run_mw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_mw"
+			FileName="animations_goat/idle_mw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_mw"
+			FileName="animations_goat/idle_special_mw.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_goat/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_goat/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_goat/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_goat/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_goat/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_goat/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_goat/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_goat/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_goat/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_photo_goat"
+			FileName="animations_goat/emotion_photo_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_goat/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_goat/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_goat/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_goat/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_goat/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_goat/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon"
+			FileName="animations_goat/examining_weapon.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_goat/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_goat/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_goat/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_goat/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie"
+			FileName="animations_goat/sprint_jiaoxie.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_goat/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_goat/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_goat/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_goat/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_goat/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_goat/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_goat/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_goat/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_goat/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_goat/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_goat/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_goat/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_goat/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_goat/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_goat/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_goat/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_goat/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_goat/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_goat/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_goat/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_goat/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_goat/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_goat/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_goat/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_goat/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_goat/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_shuguang_goat"
+			FileName="animations_goat/show_appear_shuguang_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_shuguang_goat"
+			FileName="animations_goat/show_idle_shuguang_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_shuguang_goat"
+			FileName="animations_goat/show_idle_special_shuguang_goat.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_goat/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_shuguang"
+			FileName="animations_goat/idle_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="blackgoat_cloak_hold_shuguang"
+			FileName="animations_goat/blackgoat_cloak_hold_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_shuguang"
+			FileName="animations_goat/run_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_shuguang"
+			FileName="animations_goat/liftcar_idle_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_shuguang"
+			FileName="animations_goat/climb_upstairs_1_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_shuguang"
+			FileName="animations_goat/climb_upstairs_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_goat/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.766666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_shuguang"
+			FileName="animations_goat/liftcar_move_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_shuguang"
+			FileName="animations_goat/idle_special_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_shuguang"
+			FileName="animations_goat/load_mirror_shuguang.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.066667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_goat/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_goat/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_goat/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_goat/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_goat/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_goat/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_goat/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_goat/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_goat/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_goat/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_goat/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_bouquet_geju"
+			FileName="animations_goat/emotion_bouquet_geju.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_goat/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_goat/pzjg_char_sit.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2.333333" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_goat/pzjg_char_lose.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_goat/pzjg_char_success.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_goat/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="true"
+			start_time="0"
+			end_time="8" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_goat/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_goat/hall_selfie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_goat/hall_selfie_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_goat/hall_selfie_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.166667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_goat/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.466667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_goat/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.533333" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_goat/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_goat/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<bee_push
+			TransitTime="-2147483648" />
+		<idle
+			run="3,120"
+			blackgoat_cloak_hold="3,130" />
+		<run
+			idle="3,200"
+			blackgoat_cloak_hold="3,130" />
+		<blackgoat_jump01
+			idle="1,40"
+			run="3,80" />
+		<cr_jump_loop
+			fall="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

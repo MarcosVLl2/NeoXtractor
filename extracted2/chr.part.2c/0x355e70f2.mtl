@@ -1,0 +1,86 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_body02_02">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="SPECULAR_ENABLE"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_MASK_MAP"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro4
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_star_rimlight.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="common/lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_micai.tga" />
+			<TexMask
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_mask02.tga" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_mask.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_mask01.tga" />
+			<TexStar
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body01_xiongkong.tga" />
+			<anisotropy_color
+				Value="0.616892,0.636088,0.685374,1.000000" />
+			<anisotropy_noise
+				Value="0.300000" />
+			<anisotropy_offset
+				Value="0.200000" />
+			<anisotropy_width
+				Value="200" />
+			<u_ambient
+				Value="0.300000" />
+			<u_brightness
+				Value="0.250000" />
+			<u_rim_color
+				Value="0.704616,0.698741,0.853239,1.000000" />
+			<u_rim_fac
+				Value="2.500000" />
+			<u_rim_strength
+				Value="0.400000" />
+			<u_star_color
+				Value="0.822766,0.783642,1.000000,1.000000" />
+			<u_star_uv
+				Value="10.000000,5.000000,0.150000,0.200000" />
+			<u_toon_offset
+				Value="0.200000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="53"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="3" />
+		</RenderStates>
+	</Material>
+</NeoX>

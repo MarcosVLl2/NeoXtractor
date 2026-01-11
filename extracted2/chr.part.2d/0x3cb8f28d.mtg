@@ -1,0 +1,5 @@
+<NeoX>
+    <MaterialGroup MaterialCount="1" Name="billy_e_gelude_white" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_weapon01.mtl" />
+    </MaterialGroup>
+</NeoX>

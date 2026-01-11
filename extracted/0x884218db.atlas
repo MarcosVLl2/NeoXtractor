@@ -1,0 +1,20 @@
+
+plot_clue_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+线索台/词条需求/png切图/02英文小纸条
+  rotate: false
+  xy: 2, 2
+  size: 148, 122
+  orig: 148, 122
+  offset: 0, 0
+  index: -1
+线索台/词条需求/png切图/02英文报纸
+  rotate: false
+  xy: 2, 126
+  size: 340, 382
+  orig: 340, 382
+  offset: 0, 0
+  index: -1

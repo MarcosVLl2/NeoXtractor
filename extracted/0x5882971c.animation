@@ -1,0 +1,269 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Animation",
+		"AssetVersion" : 1,
+		"Dependices" : [
+			"chr/player/dm65_survivor_m/h55_survivor_m_zbs/animations_h55_survivor_m_zbs/repair_4_chunxin.cpdanimation"
+		]
+	},
+	"_FileTypeInfo" : {
+		"/m_track_group/0/tracks/0" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/1" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/2" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/3" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/4" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0/tracks/5" : {
+			"type_name" : "unique_ptr<TrackBase>",
+			"customized" : false,
+			"wrapped_type_name" : "StringTrack"
+		},
+		"/m_track_group/0" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/1" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/2" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/m_track_group/3" : {
+			"type_name" : "shared_ptr<TrackGroup>",
+			"customized" : false,
+			"wrapped_type_name" : "TrackGroup"
+		},
+		"/action_data_list/0/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/0" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/1/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/1" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/action_data_list/2/events" : {
+			"type_name" : "TypedIndexArray<uint32,Event>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<uint32,Event>"
+		},
+		"/action_data_list/2" : {
+			"type_name" : "unique_ptr<ActionCreateData>",
+			"customized" : false,
+			"wrapped_type_name" : "Audio3DCreateData"
+		},
+		"/motion_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		},
+		"/motion_joint_rest_transform_track/curve_data" : {
+			"type_name" : "TransformTrack",
+			"customized" : true,
+			"wrapped_type_name" : "TransformTrack"
+		}
+	},
+	"m_track_group" : [
+		{
+			"property_name" : "Notifier",
+			"display_name" : "",
+			"tracks" : [
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,5.400000095367432
+						],
+						"key_values" : [
+							"start","end"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/SyncNotifierTrack",
+					"display_name" : "sync",
+					"curve" : {
+						"key_times" : [],
+						"key_values" : []
+					}
+				},
+				{
+					"property_name" : "Notifier/CustomNotifierTrack",
+					"display_name" : "default",
+					"curve" : {
+						"key_times" : [
+							0,0.059390000998973846,5.400000095367432
+						],
+						"key_values" : [
+							"start0","sound","end0"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.059390000998973846
+						],
+						"key_values" : [
+							"sound_0"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "",
+					"curve" : {
+						"key_times" : [
+							0.059390000998973846
+						],
+						"key_values" : [
+							"sound_1"
+						]
+					}
+				},
+				{
+					"property_name" : "Notifier/CommonNotifierTrack",
+					"display_name" : "\u901A\u7528\u4E8B\u4EF6\u8F68\u9053",
+					"curve" : {
+						"key_times" : [
+							0.06666667014360428
+						],
+						"key_values" : [
+							"sound0"
+						]
+					}
+				}
+			]
+		},
+		{
+			"property_name" : "CustomCurve",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Material",
+			"display_name" : "",
+			"tracks" : []
+		},
+		{
+			"property_name" : "Morph",
+			"display_name" : "",
+			"tracks" : []
+		}
+	],
+	"action_data_list" : [
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound_0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "bd823833b7e53555",
+			"socket_name" : "sound",
+			"obj_name" : "survivor_repair4",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound_1"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "4baeb8a5cb78a76d",
+			"socket_name" : "sound",
+			"obj_name" : "survovir_repair4",
+			"state" : 0,
+			"fadeout_time" : -1
+		},
+		{
+			"type" : "Audio3D",
+			"events" : [
+				"sound0"
+			],
+			"loop_trigger" : true,
+			"stop_when_anim_switch_out" : true,
+			"stop_when_anim_change" : true,
+			"support_overlap_audio" : false,
+			"id" : "e5fa8ec647725ddb",
+			"socket_name" : "sound",
+			"obj_name" : "Event|Play_3p_fxt_blk_repair4",
+			"state" : 0,
+			"fadeout_time" : -1
+		}
+	],
+	"name" : "repair_4_chunxin",
+	"animation_property" : {
+		"name" : "Clip",
+		"start_time" : 0,
+		"end_time" : 5.400000095367432,
+		"motion" : {
+			"extracted_joint_name" : "",
+			"rotation_mode" : "None",
+			"translation_mode" : "None",
+			"reference_frame" : "None"
+		},
+		"target_compression_level" : "High",
+		"default_loop" : false,
+		"default_rate" : 1,
+		"cached_pose_count" : 0,
+		"raw_fbx_uri" : "",
+		"compressed_by_editor" : false
+	},
+	"motion_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"motion_joint_rest_transform_track" : {
+		"curve_data" : "AAAAAAAAAAAAAAAA"
+	},
+	"animation_layer" : [],
+	"is_retargeted" : false,
+	"related_joint_names" : [],
+	"pose_time" : [],
+	"pose_data" : []
+}

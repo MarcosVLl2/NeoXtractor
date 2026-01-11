@@ -1,0 +1,27 @@
+
+insect_game_plants_c_2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cj_b_14
+  rotate: false
+  xy: 2, 2
+  size: 320, 286
+  orig: 320, 286
+  offset: 0, 0
+  index: -1
+cj_b_15
+  rotate: false
+  xy: 324, 67
+  size: 272, 221
+  orig: 272, 222
+  offset: 0, 1
+  index: -1
+cj_b_2
+  rotate: false
+  xy: 598, 160
+  size: 114, 128
+  orig: 123, 128
+  offset: 9, 0
+  index: -1

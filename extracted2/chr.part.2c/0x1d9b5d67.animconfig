@@ -1,0 +1,23 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<AnimationList>
+		<Animation
+			Name="show_idle_special_kbl_ttds"
+			FileName="animations_ttds_e_kbl_maoxianjia/show_idle_special_kbl_ttds.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="skin"
+			FileName="animations_ttds_e_kbl_maoxianjia/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

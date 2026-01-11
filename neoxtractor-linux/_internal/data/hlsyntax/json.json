@@ -1,0 +1,53 @@
+{
+  "name": "JSON",
+  "string_patterns": [
+    {
+      "pattern": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "multiline": false
+    }
+  ],
+  "formats": {
+    "key": {
+      "foreground": "#000080@variable"
+    },
+    "string": {
+      "foreground": "#008000@string"
+    },
+    "number": {
+      "foreground": "#800080@number"
+    },
+    "boolean": {
+      "foreground": "#0000ff@keyword",
+      "bold": true
+    },
+    "null": {
+      "foreground": "#808080@comment",
+      "italic": true
+    },
+    "punctuation": {
+      "foreground": "#000000@operator"
+    }
+  },
+  "rules": [
+    {
+      "pattern": "\"[^\"]*\"\\s*:",
+      "format": "key"
+    },
+    {
+      "pattern": "\\b-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+      "format": "number"
+    },
+    {
+      "pattern": "\\b(?:true|false)\\b",
+      "format": "boolean"
+    },
+    {
+      "pattern": "\\bnull\\b",
+      "format": "null"
+    },
+    {
+      "pattern": "[{}\\[\\],:]",
+      "format": "punctuation"
+    }
+  ]
+}

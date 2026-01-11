@@ -1,0 +1,27 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone046" BoundingInfo="(14.3870, 0.1847, -0.0089),(3.2058, 2.8497, 2.7659),3.3655" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="14.3870,0.1847,-0.0089" BoundingHalf="3.2058,2.8497,2.7659" BoundingInfo="(14.3870, 0.1847, -0.0089),(3.2058, 2.8497, 2.7659),3.3655" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="bonbon_e_cat_weapon" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="../../bonbon_bomb.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="../../bonbon_bomb.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_1 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,9.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="show_bomb" PlayRatePolicy="1" />
+        <Socket_2 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_ui_01" PlayRatePolicy="1" />
+        <Socket_3 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="9.8764,-0.0009,0.2666" LocalRotation="-0.0001,0.0000,-0.7070,0.7073" LocalScale="1.5025,1.5037,1.5027" Name="fx_id_001" PlayRatePolicy="1" />
+        <Socket_4 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="-7.7478,18.1187,3.5247" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_yanhua_hand_001" PlayRatePolicy="1">
+            <Object CastShadow="false" Id="55d4d4d0aac3a029" Inherit="263" Loading="2" Name="fx\common\yanhua2022_shouchi.sfx" Uri="fx\common\yanhua2022_shouchi.pse" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="1.0351,1.0378,0.0921" LocalRotation="0.1022,-0.0291,-0.9757,0.1639" LocalScale="1.0016,1.0032,1.0040" Name="chunjie_yanhua" PlayRatePolicy="1" />
+        <Socket_6 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="9.8764,-0.0009,0.2666" LocalRotation="-0.0001,0.0000,-0.7070,0.7073" LocalScale="1.5025,1.5037,1.5027" Name="const_fx_id_001" PlayRatePolicy="1" />
+        <Socket_7 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.9510,-0.4884,0.7308" LocalRotation="0.2911,0.5429,-0.6585,0.4326" LocalScale="1.0008,1.0019,1.0021" Name="const_fx_dmm_bld" PlayRatePolicy="1" />
+    </SocketObject>
+</NeoX>

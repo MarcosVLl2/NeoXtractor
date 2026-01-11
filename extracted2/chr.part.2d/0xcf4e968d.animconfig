@@ -1,0 +1,28 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_bonbon_e_cat_show_cailani/skin.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="3.333333" />
+		<Animation
+			Name="show_appear_cat_bonbon"
+			FileName="animations_bonbon_e_cat_show_cailani/show_appear_cat_bonbon.animation"
+			LoadAsync="true"
+			softbone_state="Default"
+			start_time="0"
+			end_time="19.333334"
+			default_loop="false"
+			default_rate="1" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

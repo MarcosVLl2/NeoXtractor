@@ -1,0 +1,12 @@
+<NeoX AnimAccumEnable="true" BoundingInfo="(-0.34, 1.27, 0.07),(1.15, 1.25, 0.57),1.79" DivideAgsFile="false" GeoBatchHint="16" HighPrecisionAABBEnable="false" PreZAlphaBlend="true" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.3448,1.2734,0.0714" BoundingHalf="1.1516,1.2523,0.5747" BoundingInfo="(-0.34, 1.27, 0.07),(1.15, 1.25, 0.57),1.80" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_chuizi" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_chuizi_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="ed0cf9ced8f68ad6" Inherit="7" Loading="4" Name="yuanding_chuizi_idle_001.pse" Uri="fx/pendant/yuanding_chuizi_idle_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

@@ -1,0 +1,77 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "artist_e_changsheng_qun",
+	"joint_names" : [
+		"biped_bone1000","biped_bone1001","biped_bone1002","biped_bone1003","biped_bone1004","biped_bone1025","biped_bone1005","biped_bone1010","biped_bone1015","biped_bone1020","biped_bone1026","biped_bone1006","biped_bone1011","biped_bone1016","biped_bone1021","biped_bone1027","biped_bone1007","biped_bone1012","biped_bone1017","biped_bone1022","biped_bone1008","biped_bone1013","biped_bone1018","biped_bone1023"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19
+	],
+	"reference_pose" : "ntwJtqiBEkH8jLy9AACAPwLvfrTw5yIz6gQ1P/0ENT///38//f9/P/7/fz8AAIA/SpyNP28OjT/wQHc9AACAP4LtnzxQ8zQ/Bzk0P4myhz0AAIA/AACAP/3/fz8AAIA/TpyNP+ccjb+cQHc9AACAP9fun7xV8zQ/Ajk0v5ayhz0AAIA/AQCAP/z/fz8AAIA/lJOJP/7//zU39n+/AACAP+PrnLTNzX8/Wj6GtHlJID39/38///9/P/7/fz8AAIA/hZOJP+D/fzU3hVs/AACAPz7VBzvh0pe03P9/P67Iq7T//38///9/PwAAgD8AAIA/fb+JPwLZLj+2zlk/AACAPx0JqT3i2lI+BmR5P22kKz39/38/AQCAP/v/fz8AAIA/nBQDQAAAhLUAAIC0AACAPwAAAIAAAAAAoiLXuur/fz8CAIA/AgCAPwIAgD8AAIA/lRQDQAAAALQAAEC1AACAPw0AgC8AAAAAtCPXOur/fz8AAIA/AQCAPwAAgD8AAIA/8wYDQAAAAKsAAAAAAACAPzwA4Kiywjq7JQAMq7z/fz8BAIA///9/PwAAgD8AAIA/ARsDQAAAgCoAAEA0AACAPwMAaCjmcAG6AAAAAP7/fz///38///9/P///fz8AAIA/gjaXPwAAgDMAAAC0AACAPzGqxTFO06c9lG6AsJcjfz8BAIA/AQCAPwAAgD8AAIA//6gAQAAAADYAAJC1AACAPzEFUjQ8BKyz72RjvLD5fz8DAIA/+/9/P/7/fz8AAIA/CKkAQAAAhDUAACg2AACAP03mfzUpA4CyImZjPLD5fz///38///9/PwMAgD8AAIA/DZgAQBRUtLUAAIC0AACAP1HFzLNg/MW8t6Qms9zsfz8AAIA/AACAPwEAgD8AAIA/77AAQIT4mDUAAEA0AACAP0YJbTQFFY67TfXfsWP/fz8BAIA///9/PwEAgD8AAIA/SLtTPwAAcLUAAAAAAACAP4XbijWwxfe7PwEosyH+fz/6/38/AQCAP///fz8AAIA/mLfxPwAAIDQAAIC1AACAP+3BbDZFBno0ZxVlvJj5fz/7/38///9/PwAAgD8AAIA/wLfxPwAAAAAAAIC0AACAPwLubzbOAxizExZlPJj5fz8AAIA///9/P///fz8AAIA/vnTxPwAAQKwAAAC0AACAP/sCUDZ9FPK8d4QrM2Hjfz///38/AACAPwAAgD8AAIA/crXxPwAAAAAAAAAAAACAP3oOADV5GHK8+GQ4stn4fz8BAIA/AACAPwAAgD8AAIA/jvHXPwAAQLUAAMC1AACAP9p2jjbcA0Cy8g1NvN76fz8AAIA/AwCAP///fz8AAIA/ivHXPwAAALQAAOC1AACAP7DptzYsBNCzoA1NPN76fz8AAIA/AACAPwAAgD8AAIA/MNPXP4BtTTQAAAi2AACAP02G/DSNsti8HbqGNBLpfz8AAIA/AACAPwEAgD8AAIA/gPDXPwAAACsAAAi2AACAP08QoDUGs1i8S2LwskX6fz8AAIA/AACAPwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			24
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

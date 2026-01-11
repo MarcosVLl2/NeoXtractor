@@ -1,0 +1,50 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="false" />
+	<DefaultAnimation
+		Name="idle"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="idle"
+			FileName="animations_hds_e_baojun_pian/idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="slide_idle"
+			FileName="animations_hds_e_baojun_pian/slide_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+		<Animation
+			Name="slide_left"
+			FileName="animations_hds_e_baojun_pian/slide_left.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="slide_return"
+			FileName="animations_hds_e_baojun_pian/slide_return.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="slide_stay"
+			FileName="animations_hds_e_baojun_pian/slide_stay.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

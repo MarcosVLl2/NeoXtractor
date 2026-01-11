@@ -1,0 +1,70 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="hds_e_baojun_body02_01">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_cloth.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="common/lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_micai.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_mask.tga" />
+			<TexNormalCloth
+				Value="lut/velour.tga" />
+			<TexReflection
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_mask01.tga" />
+			<anisotropy_color
+				Value="0.986084,0.705470,0.917922,1.000000" />
+			<anisotropy_noise
+				Value="0.150000" />
+			<anisotropy_offset
+				Value="0.100000" />
+			<anisotropy_width
+				Value="200" />
+			<u_fuzz_color
+				Value="0.266651,0.136995,0.180209,1.000000" />
+			<u_fuzz_enhance
+				Value="9" />
+			<u_ibl_enhance
+				Value="-1" />
+			<u_normal_ST
+				Value="1.500000,1.500000" />
+			<u_normal_scale
+				Value="1.500000" />
+			<u_sheen_enhance
+				Value="3" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_diff.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_body02_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

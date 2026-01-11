@@ -1,0 +1,59 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "bonbon_e_cat_show_cailani",
+	"joint_names" : [
+		"bone_lankuang_01","bone_pingguo_01","bone_pingguo_02","bone_pingguo_03","bone_pingguo_04","bone_pingzi_01","bone_pingzi_02","bone_pingzi_03","bone_shizi_01","bone_shizi_02","bone_shizi_03","bone_shizi_04","bone_tishou_01","bone_putao_root_01","bone_putao_root_02","bone_putao_root_03","bone_yu_03","bone_putao_10","bone_putao_02","bone_putao_03","bone_putao_01","bone_putao_04","bone_putao_05","bone_putao_06","bone_putao_09","bone_putao_08","bone_putao_07","bone_yu_04","bone_yu_02","bone_yu_05","bone_yu_01"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,13,13,14,14,14,15,15,15,16,16,27,28
+	],
+	"reference_pose" : "AAAAAFdzokBEOJI7AACAP+cENT/mBDW/BxyKOoxuhjoDAIA/AACAPwMAgD8AAIA/d5cCQD9dRr7i0xO/AACAP2kZG7YdFn4/w0Opt2zx+T0BAIA/AACAPwEAgD8AAIA/LsjtP45jS78AVAo/AACAP5/8HD6d+nk/4cfAvNlbGb78/38/AACAPwAAgD8AAIA/jXYvQCi2Oj8Us2k+AACAP+B8nz0+Rn0/9dzsu09c+70DAIA//v9/PwIAgD8AAIA/CC5hQAUUCD/Xf1O/AACAPzjEZz7VK18/u5jfPYlV1z7+/38/BQCAP/n/fz8AAIA/2CsFQD9fKj8uaRxAAACAP8HuwD2yl3w/VKdSPKwWB74CAIA/AACAP/3/fz8AAIA/gzghQB/1EL9eHhBAAACAPxpnbb1pHX4/3XLRu0ty2b35/38/AwCAP/3/fz8AAIA/tatBQJC9Bz9iuwfAAACAP2qzFD7JEno/wACSvA7THz74/38/BwCAP/7/fz8AAIA/s3QCQKIAbj4jBjzAAACAP4FqQrbGKXc/jZ2ht7dchb76/38/AACAP/r/fz8AAIA/R6UHQK7BFj+uorO/AACAP9bJQT7VAXE/+zVhPQwXjD71/38/AwCAP/3/fz8AAIA/65A1QEmvhj+1cqO/AACAPwAjgb3Th3M/X12jPP4rmr4DAIA/AgCAP/z/fz8AAIA/iB5YQHcvlj+snfK/AACAP9b3jr1lxnk/xj1zvIg2VD76/38/BACAP/7/fz8AAIA/QPrvPgAAALVkiU+8AACAPw2Bd7Pu/38/OgCqt4W2wDr//38/AACAP///fz8AAIA/DEPdP5g7Zr/+8zXAAACAPxq5+zPu/38/rf+pt6a0wDoCAIA/AACAPwIAgD8AAIA/lDu/PwyCq78+QcK/AACAP5v7/zLu/38/9P+pt3O9wDoCAIA/AACAPwIAgD8AAIA/wrW8P2hCtL5vXvm/AACAP/kEb7Lu/38/FwCqt4S6wDoCAIA/AACAPwIAgD8AAIA/HAq/P3Ak0T4yGM8/AACAP7CMPj74sHQ/4y4GPox5Pr7//38/AgCAP/3/fz8AAIA/VzIUQJxZSb/RBwrAAACAP9lrejtUAKY3hv9/Pz8yBa/9/38/AACAP/v/fz8AAIA/MNYavgh4gz7QDqO+AACAP2XeeT+M7fS01cRevlm7uTT//38/AACAP///fz8AAIA/WLWJvhjAeD5gj2w+AACAP1Zhe7SCVf29LdFTs60Ifj/+/38/AACAP/7/fz8AAIA/sGgbvmjFR74QHwe+AACAPypQkDpC5BY+49TxO74yfT8EAIA///9/P/v/fz8AAIA/ONMlv8AYxD3aAiO/AACAP/qcVzol5NC982wDvBGofj8CAIA///9/PwgAgD8AAIA/6Pz3vgAAOT3Ay0K9AACAP6GcOLSKdgU/dRrEtBV1Wj8AAIA/AACAPwAAgD8AAIA/oD5UvvCKAD5MHUw/AACAPzWn6r3y8eY+aiNfvuecWz/6/38/AgCAP/7/fz8AAIA/SCXgvgE4tD78lo6+AACAPyUGaTRJMxq+JXUNtK8UfT///38/AACAP///fz8AAIA/AF3OvnDM9bxsyL6+AACAPy7MurR7yrM9INfHtPoCfz/+/38/AACAP/7/fz8AAIA/KJPEvpxkXr64CxQ+AACAP9IqLrqK+K69iw7/O2EOfz8CAIA//f9/P/7/fz8AAIA/cgSVPwAAAAAAAMA0AACAPwAAPDQAAEAnAAAwJwAAgD/+/38/AACAP///fz8AAIA/oFemPQAO3DwA2Bm7AACAP14ikLrp6n8/N+7NvKdhU7sAAIA/AQCAPwIAgD8AAIA/aPNBPwAAALQAAMA0AACAPwIAYDQFAAAyAADgpgAAgD/+/38///9/P/7/fz8AAIA/4J7lPwAAgDMAAMA0AACAPwIAYDIAAAAmAAAAAAAAgD8AAIA//f9/PwAAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [],
+		"joint_counts" : [],
+		"joint_index_ordered_by_lod" : [],
+		"joint_lod_levels" : [],
+		"current_lod_config" : -1
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : []
+}

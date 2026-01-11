@@ -1,0 +1,156 @@
+{
+				"Head" : {
+								"Type" : "NewSpringAnimData",
+								"MainVer" : 1,
+								"SubVer" : 0
+				},
+				"Body" : {
+								"TypeName" : "NewSpringAnimData",
+								"m_SpringAnimChainArray" : [],
+								"m_SkeletonName" : "chr/player/dm65_survivor_w/dm65_survivor_w.skeleton",
+								"m_SpringAnimColliderArray" : [
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped spine",
+																"collider_type" : "Capsule",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				2.037954330444336,-0.251158207654953,-3.2773590087890625
+																],
+																"collider_offset_rotation" : [
+																				-0.0740944892168045,-7.215510368347168,0.14534509181976318
+																],
+																"collider_size" : [
+																				2.2277779579162598,0.7086520195007324,2.2277779579162598
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped l thigh",
+																"collider_type" : "Capsule",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				2.673649787902832,-0.16360431909561157,-0.07304680347442627
+																],
+																"collider_offset_rotation" : [
+																				0,0,0
+																],
+																"collider_size" : [
+																				0.9635137319564819,1.6990890502929688,0.9635137319564819
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped r thigh",
+																"collider_type" : "Capsule",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				2.704244613647461,0.23033595085144043,-0.2140803337097168
+																],
+																"collider_offset_rotation" : [
+																				0,0,0
+																],
+																"collider_size" : [
+																				1.067690134048462,1.4276480674743652,1.067690134048462
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped spine",
+																"collider_type" : "Sphere",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				0.4499788284301758,-0.27919039130210876,-3.7388720512390137
+																],
+																"collider_offset_rotation" : [
+																				0,0,0
+																],
+																"collider_size" : [
+																				1.8616759777069092,1.8616759777069092,1.8616759777069092
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped head",
+																"collider_type" : "Sphere",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				1.2856550216674805,-1.035170555114746,0.028226494789123535
+																],
+																"collider_offset_rotation" : [
+																				0,0,0
+																],
+																"collider_size" : [
+																				0.30000001192092896,0.30000001192092896,0.30000001192092896
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped head",
+																"collider_type" : "Sphere",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				1.333540916442871,0.9825061559677124,0.07190513610839844
+																],
+																"collider_offset_rotation" : [
+																				0,0,0
+																],
+																"collider_size" : [
+																				0.30000001192092896,0.30000001192092896,0.30000001192092896
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped l clavicle",
+																"collider_type" : "Capsule",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				1.1250383853912354,0.6941061019897461,0.17451655864715576
+																],
+																"collider_offset_rotation" : [
+																				14.767452239990234,-8.935708045959473,31.030323028564453
+																],
+																"collider_size" : [
+																				0.44999998807907104,0.5189110040664673,0.44999998807907104
+																]
+												},
+												{
+																"TypeName" : "NewSoftBoneColliderItemData",
+																"collider_binded_bone_name" : "biped r clavicle",
+																"collider_type" : "Capsule",
+																"collider_collision_hierarchy" : 1,
+																"collider_offset_position" : [
+																				0.8907299041748047,0.2248086929321289,-0.04691267013549805
+																],
+																"collider_offset_rotation" : [
+																				47.61431884765625,172.4045867919922,141.16310119628906
+																],
+																"collider_size" : [
+																				0.6000000238418579,2.1515960693359375,0.6000000238418579
+																]
+												}
+								],
+								"m_SpringAnimGlobalSetting" : {
+												"TypeName" : "NewSpringAnimGlobalData",
+												"multithread" : true,
+												"chain_update_rate" : 60,
+												"chain_update_mode" : 1,
+												"max_update_distance" : 1000000,
+												"update_level" : 0,
+												"fade_in_time" : 0,
+												"fade_out_time" : 0,
+												"global_weight" : 1,
+												"max_rotation_degree" : 0,
+												"max_travel_distance" : 0,
+												"add_global_wind" : false,
+												"wind_direction" : [
+																1,0,0
+												],
+												"wind_min_value" : 1,
+												"wind_max_value" : 2,
+												"base_bone" : "",
+												"collision_enhance" : 0
+								},
+								"m_NewSoftBoneClothData" : []
+				}
+}

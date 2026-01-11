@@ -1,0 +1,77 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "polun_arm_right",
+	"joint_names" : [
+		"root2","biped2  r upperarm","biped2  r forearm","biped2  r hand","biped2  r finger0","biped2  r finger1","biped2  r finger2","biped2  r finger01","biped2  r finger11","biped2  r finger21","biped2  r finger02","biped2  r finger12","biped2  r finger22"
+	],
+	"joint_parent_indices" : [
+		-1,0,1,2,3,3,3,4,5,6,7,8,9
+	],
+	"reference_pose" : "AAAAAAAAQLUAAAAAAACAPwAAADVpISIpAACAP2khojMAAIA/AACAPwAAgD8AAIA/AAAAtAAAALUAAIAzAACAPzMNA73uLVg9v7R3P5uyej7+/38/CACAPwUAgD8AAIA/l0RaQAAAkDUAgH+3AACAP39xjbMn6hG+Fpn+ND5jfT8BAIA/AwCAPwEAgD8AAIA/GppVQAAAgLbgg5W8AACAP3YXpb26YwI+yPtOvsG6dz/8/38/+/9/P/z/fz8AAIA/yJaaPqCEqb4csMY+AACAP194Oz/yHKi+/n7gPMGQGD8CAIA/+/9/PwIAgD8AAIA/SADwP8A56T1fFQo/AACAP7cpYbulkRG8/ZSvvrZ2cD8BAIA/AgCAPwIAgD8AAIA/PE/3PyChQD6MdD2+AACAP+ublDvJ7Do8bNy/vl5TbT8DAIA/AQCAPwAAgD8AAIA/F1SHPwAAADQAAEC4AACAP4NqKzwBpWi6B5o2vTu7fz8DAIA/AwCAP///fz8AAIA/TptXPwAAADUAABu4AACAP0VD4jdpOAY5+F7Wvf2Xfj8BAIA/+v9/P/z/fz8AAIA/xSZYPwAAALUAABq4AACAP8kIATbTKpC3gnAqvtNtfD/8/38//v9/P/3/fz8AAIA/QtMuPwAAIDUAAIC1AACAP1OIL7ar+KCzWomovqi7cT/6/38//f9/PwAAgD8AAIA/ojYTPwAAAAAAAAC1AACAP5lWGrd4QpU49DUjvje6fD/+/38//P9/P/7/fz8AAIA/EKclPwAAwLUAACC1AACAPzoVvDVyQjI3sYxAvYy3fz8BAIA/AQCAPwIAgD8AAIA/",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			13
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

@@ -1,0 +1,5149 @@
+<AnimationConfig>
+	<BundleLoadAsync
+		Value="true" />
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="idle_2"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_h55_banshee/skin.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_3"
+			FileName="animations_h55_banshee/repair_hook_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_3"
+			FileName="animations_h55_banshee/idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_catch_3"
+			FileName="animations_h55_banshee/happy_catch_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_2"
+			FileName="animations_h55_banshee/idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_hang_3"
+			FileName="animations_h55_banshee/happy_hang_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_1"
+			FileName="animations_h55_banshee/idle_special_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_2"
+			FileName="animations_h55_banshee/idle_special_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_3"
+			FileName="animations_h55_banshee/idle_special_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_2"
+			FileName="animations_h55_banshee/run_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_3"
+			FileName="animations_h55_banshee/run_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_add_3"
+			FileName="animations_h55_banshee/carry_struggle_add_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="catch_3"
+			FileName="animations_h55_banshee/catch_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hang_3"
+			FileName="animations_h55_banshee/hang_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet_1"
+			FileName="animations_h55_banshee/close_cabinet_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_cabinet_3"
+			FileName="animations_h55_banshee/close_cabinet_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall_1"
+			FileName="animations_h55_banshee/fall_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fall_3"
+			FileName="animations_h55_banshee/fall_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet_1"
+			FileName="animations_h55_banshee/open_cabinet_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet_3"
+			FileName="animations_h55_banshee/open_cabinet_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load"
+			FileName="animations_h55_banshee/load.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_end_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_2_3"
+			FileName="animations_h55_banshee/happy_fan_attack_2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_2_end_3"
+			FileName="animations_h55_banshee/happy_fan_attack_2_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_carry"
+			FileName="animations_h55_banshee/fan_attack_carry.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_carry_end"
+			FileName="animations_h55_banshee/fan_attack_carry_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_show_3"
+			FileName="animations_h55_banshee/happy_fan_attack_show_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view1_3"
+			FileName="animations_h55_banshee/bird_view1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view2_3"
+			FileName="animations_h55_banshee/bird_view2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view3_3"
+			FileName="animations_h55_banshee/bird_view3_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_3"
+			FileName="animations_h55_banshee/carry_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_hit_3"
+			FileName="animations_h55_banshee/carry_hit_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="carry_struggle_3"
+			FileName="animations_h55_banshee/carry_struggle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_3"
+			FileName="animations_h55_banshee/destroy_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_transmittter_3"
+			FileName="animations_h55_banshee/destroy_transmittter_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dizziness_3"
+			FileName="animations_h55_banshee/dizziness_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dizzy_3"
+			FileName="animations_h55_banshee/dizzy_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_1_3"
+			FileName="animations_h55_banshee/fan_attack_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_1_end_3"
+			FileName="animations_h55_banshee/fan_attack_1_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.7666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_2_3"
+			FileName="animations_h55_banshee/fan_attack_2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_2_end_3"
+			FileName="animations_h55_banshee/fan_attack_2_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_rebound_3"
+			FileName="animations_h55_banshee/fan_attack_rebound_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_show_3"
+			FileName="animations_h55_banshee/fan_attack_show_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_3"
+			FileName="animations_h55_banshee/happy_carry_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_3"
+			FileName="animations_h55_banshee/happy_carry_hit_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_3"
+			FileName="animations_h55_banshee/happy_carry_struggle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_struggle_add_3"
+			FileName="animations_h55_banshee/happy_carry_struggle_add_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_3"
+			FileName="animations_h55_banshee/happy_discard_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_carry_3"
+			FileName="animations_h55_banshee/happy_fan_attack_carry_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_carry_end_3"
+			FileName="animations_h55_banshee/happy_fan_attack_carry_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_pick_3"
+			FileName="animations_h55_banshee/happy_pick_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hells_sprint_3"
+			FileName="animations_h55_banshee/hells_sprint_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_3"
+			FileName="animations_h55_banshee/hit_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_1"
+			FileName="animations_h55_banshee/idle_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pick_3"
+			FileName="animations_h55_banshee/pick_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remote_patrol_puppet_3"
+			FileName="animations_h55_banshee/remote_patrol_puppet_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_banshee_3"
+			FileName="animations_h55_banshee/repair_hook_banshee_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_1"
+			FileName="animations_h55_banshee/run_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_1"
+			FileName="animations_h55_banshee/span_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_3"
+			FileName="animations_h55_banshee/span_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="discard_3"
+			FileName="animations_h55_banshee/discard_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy"
+			FileName="animations_h55_banshee/sprint_dizzy.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_tower_3"
+			FileName="animations_h55_banshee/place_tower_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying"
+			FileName="animations_h55_banshee/sprint_flying.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_visit"
+			FileName="animations_h55_banshee/load_banshee_visit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.666599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_stand"
+			FileName="animations_h55_banshee/load_banshee_stand.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_sit"
+			FileName="animations_h55_banshee/load_banshee_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_4"
+			FileName="animations_h55_banshee/idle_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_4"
+			FileName="animations_h55_banshee/idle_special_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_4"
+			FileName="animations_h55_banshee/run_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="scare_puppet_rigid_3"
+			FileName="animations_h55_banshee/scare_puppet_rigid_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="place_patrol_puppet_3"
+			FileName="animations_h55_banshee/place_patrol_puppet_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.7666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="prepare_place_tower_3"
+			FileName="animations_h55_banshee/prepare_place_tower_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy_3"
+			FileName="animations_h55_banshee/sprint_dizzy_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying_1"
+			FileName="animations_h55_banshee/sprint_flying_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_flying_3"
+			FileName="animations_h55_banshee/sprint_flying_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_rebound_3"
+			FileName="animations_h55_banshee/happy_fan_attack_rebound_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view4_3"
+			FileName="animations_h55_banshee/bird_view4_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_hunsha"
+			FileName="animations_h55_banshee/show_appear_hunsha.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_hunsha"
+			FileName="animations_h55_banshee/show_idle_hunsha.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hunsha"
+			FileName="animations_h55_banshee/show_idle_special_hunsha.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yumao"
+			FileName="animations_h55_banshee/show_appear_yumao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yumao"
+			FileName="animations_h55_banshee/show_idle_special_yumao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yumao"
+			FileName="animations_h55_banshee/show_idle_yumao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="glide"
+			FileName="animations_h55_banshee/glide.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller"
+			FileName="animations_h55_banshee/sit_roller.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hangup"
+			FileName="animations_h55_banshee/hangup.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dial"
+			FileName="animations_h55_banshee/dial.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast"
+			FileName="animations_h55_banshee/cast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast"
+			FileName="animations_h55_banshee/beforecast.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="answerphone"
+			FileName="animations_h55_banshee/answerphone.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror"
+			FileName="animations_h55_banshee/load_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_banshee"
+			FileName="animations_h55_banshee/emotion_salute_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_3"
+			FileName="animations_h55_banshee/cast_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_3"
+			FileName="animations_h55_banshee/beforecast_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dial_3"
+			FileName="animations_h55_banshee/dial_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup_3"
+			FileName="animations_h55_banshee/hangup_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="answerphone_3"
+			FileName="animations_h55_banshee/answerphone_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dial_1"
+			FileName="animations_h55_banshee/dial_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hangup_1"
+			FileName="animations_h55_banshee/hangup_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="answerphone_1"
+			FileName="animations_h55_banshee/answerphone_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble"
+			FileName="animations_h55_banshee/emotion_trouble.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_1"
+			FileName="animations_h55_banshee/glide_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_3"
+			FileName="animations_h55_banshee/glide_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_1"
+			FileName="animations_h55_banshee/sit_roller_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_3"
+			FileName="animations_h55_banshee/sit_roller_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_3"
+			FileName="animations_h55_banshee/emotion_dance_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_1"
+			FileName="animations_h55_banshee/emotion_trouble_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_3"
+			FileName="animations_h55_banshee/emotion_trouble_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb_1"
+			FileName="animations_h55_banshee/destroy_mb_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="destroy_mb_3"
+			FileName="animations_h55_banshee/destroy_mb_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_1"
+			FileName="animations_h55_banshee/emotion_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute"
+			FileName="animations_h55_banshee/emotion_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_1"
+			FileName="animations_h55_banshee/emotion_salute_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_3"
+			FileName="animations_h55_banshee/emotion_salute_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_carry_end_3"
+			FileName="animations_h55_banshee/fan_attack_carry_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_carry_3"
+			FileName="animations_h55_banshee/fan_attack_carry_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_xianhe"
+			FileName="animations_h55_banshee/show_appear_xianhe.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xianhe"
+			FileName="animations_h55_banshee/show_idle_special_xianhe.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xianhe_tx"
+			FileName="animations_h55_banshee/show_idle_special_xianhe_tx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_xianhe"
+			FileName="animations_h55_banshee/show_idle_xianhe.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_baiwugou"
+			FileName="animations_h55_banshee/show_appear_baiwugou.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_baiwugou"
+			FileName="animations_h55_banshee/show_idle_baiwugou.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_baiwugou"
+			FileName="animations_h55_banshee/show_idle_special_baiwugou.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_baiwugou_tx"
+			FileName="animations_h55_banshee/show_appear_baiwugou_tx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2"
+			FileName="animations_h55_banshee/hall_idle_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special"
+			FileName="animations_h55_banshee/hall_idle_special.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2"
+			FileName="animations_h55_banshee/hall_walk_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_pet_banshee_1"
+			FileName="animations_h55_banshee/idle_special_pet_banshee_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice"
+			FileName="animations_h55_banshee/emotion_dice.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_3"
+			FileName="animations_h55_banshee/emotion_dice_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher"
+			FileName="animations_h55_banshee/pullback_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher"
+			FileName="animations_h55_banshee/pushforward_butcher.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_1"
+			FileName="animations_h55_banshee/emotion_dice_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_1"
+			FileName="animations_h55_banshee/pullback_butcher_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_3"
+			FileName="animations_h55_banshee/pullback_butcher_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher_1"
+			FileName="animations_h55_banshee/pushforward_butcher_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pushforward_butcher_3"
+			FileName="animations_h55_banshee/pushforward_butcher_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_dizzy_1"
+			FileName="animations_h55_banshee/sprint_dizzy_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_dance"
+			FileName="animations_h55_banshee/load_banshee_dance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cursed_1"
+			FileName="animations_h55_banshee/cursed_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cursed_3"
+			FileName="animations_h55_banshee/cursed_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed_1"
+			FileName="animations_h55_banshee/strong_cursed_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="strong_cursed_3"
+			FileName="animations_h55_banshee/strong_cursed_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_3"
+			FileName="animations_h55_banshee/sit_dc_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.9333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sit_dc_1"
+			FileName="animations_h55_banshee/sit_dc_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_banshee_1"
+			FileName="animations_h55_banshee/guisu_show_banshee_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_banshee_2"
+			FileName="animations_h55_banshee/guisu_show_banshee_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="guisu_show_banshee_3"
+			FileName="animations_h55_banshee/guisu_show_banshee_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying_1"
+			FileName="animations_h55_banshee/pighit_flying_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher_3"
+			FileName="animations_h55_banshee/outfire_butcher_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="outfire_butcher_1"
+			FileName="animations_h55_banshee/outfire_butcher_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pighit_flying_3"
+			FileName="animations_h55_banshee/pighit_flying_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_1_3"
+			FileName="animations_h55_banshee/kick_car_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="kick_car_2_3"
+			FileName="animations_h55_banshee/kick_car_2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic_1"
+			FileName="animations_h55_banshee/release_hypnotic_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="release_hypnotic_3"
+			FileName="animations_h55_banshee/release_hypnotic_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1"
+			FileName="animations_h55_banshee/sleeping_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_3"
+			FileName="animations_h55_banshee/sleeping_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20"
+			FileName="animations_h55_banshee/emotion_dice_20.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1_1"
+			FileName="animations_h55_banshee/sleeping_1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2_1"
+			FileName="animations_h55_banshee/sleeping_2_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_2_3"
+			FileName="animations_h55_banshee/sleeping_2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="sleeping_1_3"
+			FileName="animations_h55_banshee/sleeping_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_poker_exchange"
+			FileName="animations_h55_banshee/idle_poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_exchange"
+			FileName="animations_h55_banshee/poker_exchange.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wait_21_idle"
+			FileName="animations_h55_banshee/wait_21_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="poker_show_hunter"
+			FileName="animations_h55_banshee/poker_show_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa"
+			FileName="animations_h55_banshee/hall_sit_catsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal"
+			FileName="animations_h55_banshee/hall_sleep_royal.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature"
+			FileName="animations_h55_banshee/hall_swing_nature.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_1"
+			FileName="animations_h55_banshee/repair_hook_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repair_hook_banshee_1"
+			FileName="animations_h55_banshee/repair_hook_banshee_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xueshan"
+			FileName="animations_h55_banshee/show_idle_special_xueshan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_xueshan_01"
+			FileName="animations_h55_banshee/show_idle_special_xueshan_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_xueshan"
+			FileName="animations_h55_banshee/show_idle_xueshan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_xueshan"
+			FileName="animations_h55_banshee/show_appear_xueshan.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_1"
+			FileName="animations_h55_banshee/liftcar_idle_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_1"
+			FileName="animations_h55_banshee/liftcar_move_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch_1"
+			FileName="animations_h55_banshee/liftcar_switch_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs_1"
+			FileName="animations_h55_banshee/climb_downstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_1"
+			FileName="animations_h55_banshee/climb_upstairs_1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yanyi_01"
+			FileName="animations_h55_banshee/show_idle_special_yanyi_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_yanyi"
+			FileName="animations_h55_banshee/show_appear_yanyi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_yanyi"
+			FileName="animations_h55_banshee/show_idle_special_yanyi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_yanyi"
+			FileName="animations_h55_banshee/show_idle_yanyi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_3"
+			FileName="animations_h55_banshee/liftcar_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_3"
+			FileName="animations_h55_banshee/liftcar_move_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_switch_3"
+			FileName="animations_h55_banshee/liftcar_switch_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_yanyi_1"
+			FileName="animations_h55_banshee/idle_yanyi_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1"
+			FileName="animations_h55_banshee/climb_upstairs_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_downstairs_3"
+			FileName="animations_h55_banshee/climb_downstairs_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_1_3"
+			FileName="animations_h55_banshee/climb_upstairs_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="climb_upstairs_3"
+			FileName="animations_h55_banshee/climb_upstairs_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_yanyi_1"
+			FileName="animations_h55_banshee/run_yanyi_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_yanyi_3"
+			FileName="animations_h55_banshee/idle_yanyi_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_yanyi_3"
+			FileName="animations_h55_banshee/run_yanyi_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_sit_yanyi"
+			FileName="animations_h55_banshee/load_banshee_sit_yanyi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_yanyi"
+			FileName="animations_h55_banshee/load_yanyi.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_1"
+			FileName="animations_h55_banshee/emotion_dice_20_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_3"
+			FileName="animations_h55_banshee/emotion_dice_20_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_yanyi_2"
+			FileName="animations_h55_banshee/idle_yanyi_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_yanyi_4"
+			FileName="animations_h55_banshee/idle_yanyi_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_throne_sit"
+			FileName="animations_h55_banshee/hall_throne_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox_3"
+			FileName="animations_h55_banshee/close_elecbox_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1_3"
+			FileName="animations_h55_banshee/elec_suffer_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2_3"
+			FileName="animations_h55_banshee/elec_suffer_2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3_3"
+			FileName="animations_h55_banshee/elec_suffer_3_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer_3"
+			FileName="animations_h55_banshee/elecstrike_suffer_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="close_elecbox_1"
+			FileName="animations_h55_banshee/close_elecbox_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_1_1"
+			FileName="animations_h55_banshee/elec_suffer_1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_2_1"
+			FileName="animations_h55_banshee/elec_suffer_2_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.4333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="elec_suffer_3_1"
+			FileName="animations_h55_banshee/elec_suffer_3_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.0333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="elecstrike_suffer_1"
+			FileName="animations_h55_banshee/elecstrike_suffer_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.1333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_ssn"
+			FileName="animations_h55_banshee/show_idle_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ssn"
+			FileName="animations_h55_banshee/show_idle_special_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_ssn"
+			FileName="animations_h55_banshee/show_appear_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_sit_ssn"
+			FileName="animations_h55_banshee/load_banshee_sit_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_stand_ssn"
+			FileName="animations_h55_banshee/load_banshee_stand_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_visit_ssn"
+			FileName="animations_h55_banshee/load_banshee_visit_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.666599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_ssn"
+			FileName="animations_h55_banshee/load_mirror_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_ssn"
+			FileName="animations_h55_banshee/load_ssn.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_ssn_tx"
+			FileName="animations_h55_banshee/show_idle_special_ssn_tx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.8999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="forbidden_therapy_banshee"
+			FileName="animations_h55_banshee/forbidden_therapy_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="repel"
+			FileName="animations_h55_banshee/repel.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_idle_l"
+			FileName="animations_h55_banshee/banshee_idle_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_idle_r"
+			FileName="animations_h55_banshee/banshee_idle_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_special_l"
+			FileName="animations_h55_banshee/banshee_special_l.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_special_r"
+			FileName="animations_h55_banshee/banshee_special_r.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure_1"
+			FileName="animations_h55_banshee/butcher_civilian_cure_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure_2"
+			FileName="animations_h55_banshee/butcher_civilian_cure_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="butcher_civilian_cure_3"
+			FileName="animations_h55_banshee/butcher_civilian_cure_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="painting_attract"
+			FileName="animations_h55_banshee/painting_attract.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher1"
+			FileName="animations_h55_banshee/crystalcard_used_butcher1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1_1"
+			FileName="animations_h55_banshee/stone_used_butcher1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1_2"
+			FileName="animations_h55_banshee/stone_used_butcher1_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher1_3"
+			FileName="animations_h55_banshee/stone_used_butcher1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher2"
+			FileName="animations_h55_banshee/crystalcard_used_butcher2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2_1"
+			FileName="animations_h55_banshee/stone_used_butcher2_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2_2"
+			FileName="animations_h55_banshee/stone_used_butcher2_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher2_3"
+			FileName="animations_h55_banshee/stone_used_butcher2_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="crystalcard_used_butcher3"
+			FileName="animations_h55_banshee/crystalcard_used_butcher3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3_1"
+			FileName="animations_h55_banshee/stone_used_butcher3_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3_2"
+			FileName="animations_h55_banshee/stone_used_butcher3_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="stone_used_butcher3_3"
+			FileName="animations_h55_banshee/stone_used_butcher3_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance"
+			FileName="animations_h55_banshee/emotion_dance.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool"
+			FileName="animations_h55_banshee/hall_sit_stool.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chair"
+			FileName="animations_h55_banshee/hall_sit_chair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ready_butterfly_3"
+			FileName="animations_h55_banshee/ready_butterfly_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="summon_butterfly_3"
+			FileName="animations_h55_banshee/summon_butterfly_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ready_butterfly_1"
+			FileName="animations_h55_banshee/ready_butterfly_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="summon_butterfly_1"
+			FileName="animations_h55_banshee/summon_butterfly_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_chariot"
+			FileName="animations_h55_banshee/hall_sit_chariot.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse"
+			FileName="animations_h55_banshee/hall_sit_horse.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push_2"
+			FileName="animations_h55_banshee/bee_push_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bee_push"
+			FileName="animations_h55_banshee/bee_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_sofa02"
+			FileName="animations_h55_banshee/hall_sit_sofa02.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock"
+			FileName="animations_h55_banshee/hall_sit_hammock.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_mirror"
+			FileName="animations_h55_banshee/hall_sit_mirror.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_rockingchair"
+			FileName="animations_h55_banshee/hall_sit_rockingchair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy_1"
+			FileName="animations_h55_banshee/toyman_jump_destroy_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_gametable"
+			FileName="animations_h55_banshee/hall_sit_gametable.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="toyman_jump_destroy_3"
+			FileName="animations_h55_banshee/toyman_jump_destroy_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_oldcatsofa"
+			FileName="animations_h55_banshee/hall_sit_oldcatsofa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal_1"
+			FileName="animations_h55_banshee/activate_crystal_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal_2"
+			FileName="animations_h55_banshee/activate_crystal_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="activate_crystal_3"
+			FileName="animations_h55_banshee/activate_crystal_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth_1"
+			FileName="animations_h55_banshee/run_smooth_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth_2"
+			FileName="animations_h55_banshee/run_smooth_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_smooth_3"
+			FileName="animations_h55_banshee/run_smooth_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_wuji"
+			FileName="animations_h55_banshee/show_appear_wuji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.5666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_wuji"
+			FileName="animations_h55_banshee/show_idle_special_wuji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_wuji_01"
+			FileName="animations_h55_banshee/show_idle_special_wuji_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.7333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_wuji"
+			FileName="animations_h55_banshee/show_idle_wuji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_jingyu"
+			FileName="animations_h55_banshee/show_appear_jingyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_jingyu"
+			FileName="animations_h55_banshee/show_idle_jingyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_jingyu"
+			FileName="animations_h55_banshee/show_idle_special_jingyu.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_jingyu01"
+			FileName="animations_h55_banshee/show_idle_special_jingyu01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair"
+			FileName="animations_h55_banshee/hall_sit_loungechair.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food"
+			FileName="animations_h55_banshee/dislike_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_food"
+			FileName="animations_h55_banshee/like_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan_1"
+			FileName="animations_h55_banshee/rope_swing_1_jianguan_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan_1"
+			FileName="animations_h55_banshee/rope_swing_2_jianguan_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_1_jianguan_3"
+			FileName="animations_h55_banshee/rope_swing_1_jianguan_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan_3"
+			FileName="animations_h55_banshee/rope_swing_2_jianguan_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_1"
+			FileName="animations_h55_banshee/dislike_food_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dislike_food_2"
+			FileName="animations_h55_banshee/dislike_food_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="send_food"
+			FileName="animations_h55_banshee/send_food.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_pull"
+			FileName="animations_h55_banshee/littlegirl_pull.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push"
+			FileName="animations_h55_banshee/littlegirl_push.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push_1"
+			FileName="animations_h55_banshee/littlegirl_push_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="littlegirl_push_3"
+			FileName="animations_h55_banshee/littlegirl_push_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl"
+			FileName="animations_h55_banshee/pullback_butcher_girl.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pullback_butcher_girl_3"
+			FileName="animations_h55_banshee/pullback_butcher_girl_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear"
+			FileName="animations_h55_banshee/hall_sit_bear.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bath"
+			FileName="animations_h55_banshee/hall_sit_bath.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.2333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_geji"
+			FileName="animations_h55_banshee/show_appear_geji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.4333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_geji"
+			FileName="animations_h55_banshee/show_idle_geji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.7333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_geji"
+			FileName="animations_h55_banshee/show_idle_special_geji.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_geji_1"
+			FileName="animations_h55_banshee/show_idle_special_geji_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.9333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers_1"
+			FileName="animations_h55_banshee/light_firecrackers_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers_1"
+			FileName="animations_h55_banshee/setoff_firecrackers_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="light_firecrackers_3"
+			FileName="animations_h55_banshee/light_firecrackers_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers_3"
+			FileName="animations_h55_banshee/setoff_firecrackers_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_1"
+			FileName="animations_h55_banshee/cast_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="beforecast_1"
+			FileName="animations_h55_banshee/beforecast_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_3"
+			FileName="animations_h55_banshee/hit_skin_spnx_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hit_skin_spnx_1_3"
+			FileName="animations_h55_banshee/hit_skin_spnx_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish"
+			FileName="animations_h55_banshee/cast_fear_finish.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare"
+			FileName="animations_h55_banshee/cast_fear_prepare.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start"
+			FileName="animations_h55_banshee/cast_fear_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_finish_3"
+			FileName="animations_h55_banshee/cast_fear_finish_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_prepare_3"
+			FileName="animations_h55_banshee/cast_fear_prepare_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cast_fear_start_3"
+			FileName="animations_h55_banshee/cast_fear_start_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="disarm_1"
+			FileName="animations_h55_banshee/disarm_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="disarm_3"
+			FileName="animations_h55_banshee/disarm_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie_1"
+			FileName="animations_h55_banshee/sprint_jiaoxie_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="sprint_jiaoxie_3"
+			FileName="animations_h55_banshee/sprint_jiaoxie_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_basket_panda"
+			FileName="animations_h55_banshee/hall_basket_panda.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_baize"
+			FileName="animations_h55_banshee/hall_interact_baize.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_hei"
+			FileName="animations_h55_banshee/show_appear_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17.666599"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_hei"
+			FileName="animations_h55_banshee/show_idle_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hei"
+			FileName="animations_h55_banshee/show_idle_special_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hei_01"
+			FileName="animations_h55_banshee/show_idle_special_hei_01.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sae_kurosawa"
+			FileName="animations_h55_banshee/emotion_sae_kurosawa.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_hei"
+			FileName="animations_h55_banshee/hall_sit_stool_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sae_kurosawa_1"
+			FileName="animations_h55_banshee/emotion_sae_kurosawa_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_hei"
+			FileName="animations_h55_banshee/hall_walk_2_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_dance_hei"
+			FileName="animations_h55_banshee/load_banshee_dance_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.233299"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_sit_hei"
+			FileName="animations_h55_banshee/load_banshee_sit_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.6999"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_stand_hei"
+			FileName="animations_h55_banshee/load_banshee_stand_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_visit_hei"
+			FileName="animations_h55_banshee/load_banshee_visit_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.666599"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_hei"
+			FileName="animations_h55_banshee/load_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.3666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sae_kurosawa_3"
+			FileName="animations_h55_banshee/emotion_sae_kurosawa_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_hei"
+			FileName="animations_h55_banshee/emotion_salute_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_catsofa_hei"
+			FileName="animations_h55_banshee/hall_sit_catsofa_hei.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_hei_3"
+			FileName="animations_h55_banshee/emotion_salute_hei_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_plum_blossom"
+			FileName="animations_h55_banshee/hall_interact_plum_blossom.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_zh"
+			FileName="animations_h55_banshee/show_appear_zh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zh"
+			FileName="animations_h55_banshee/show_idle_special_zh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_zh"
+			FileName="animations_h55_banshee/show_idle_zh.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10.1666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_zh_tx"
+			FileName="animations_h55_banshee/show_idle_special_zh_tx.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_tea_table"
+			FileName="animations_h55_banshee/hall_interact_tea_table.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_zh_1"
+			FileName="animations_h55_banshee/idle_zh_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.8333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_zh_3"
+			FileName="animations_h55_banshee/idle_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_zh_3"
+			FileName="animations_h55_banshee/run_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_zh_3"
+			FileName="animations_h55_banshee/happy_carry_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_discard_zh_3"
+			FileName="animations_h55_banshee/happy_discard_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_zh_3"
+			FileName="animations_h55_banshee/carry_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="fan_attack_show_zh_3"
+			FileName="animations_h55_banshee/fan_attack_show_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="run_zh_1"
+			FileName="animations_h55_banshee/run_zh_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_zh_2"
+			FileName="animations_h55_banshee/idle_zh_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_zh_4"
+			FileName="animations_h55_banshee/idle_zh_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.5333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_zh_2"
+			FileName="animations_h55_banshee/run_zh_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.1333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_zh_4"
+			FileName="animations_h55_banshee/run_zh_4.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.4666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_zh_3"
+			FileName="animations_h55_banshee/emotion_dice_20_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_zh_3"
+			FileName="animations_h55_banshee/emotion_salute_zh_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_banshee"
+			FileName="animations_h55_banshee/emotion_fourth_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_banshee_3"
+			FileName="animations_h55_banshee/emotion_fourth_banshee_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_banshee_1"
+			FileName="animations_h55_banshee/emotion_fourth_banshee_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.1999"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_hei_3_3"
+			FileName="animations_h55_banshee/emotion_salute_hei_3_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="like_drink_banshee"
+			FileName="animations_h55_banshee/like_drink_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h"
+			FileName="animations_h55_banshee/emotion_srspark_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_insect_catch"
+			FileName="animations_h55_banshee/room_insect_catch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_hunter"
+			FileName="animations_h55_banshee/hall_swing_hunter.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="dmm_butcher_skill_3"
+			FileName="animations_h55_banshee/dmm_butcher_skill_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle"
+			FileName="animations_h55_banshee/ride_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run"
+			FileName="animations_h55_banshee/ride_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint"
+			FileName="animations_h55_banshee/ride_sprint.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_liuh_banshee"
+			FileName="animations_h55_banshee/show_appear_liuh_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="17"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_liuh_banshee"
+			FileName="animations_h55_banshee/show_idle_liuh_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.5666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_liuh_banshee"
+			FileName="animations_h55_banshee/show_idle_special_liuh_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless"
+			FileName="animations_h55_banshee/banshee_bless.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute"
+			FileName="animations_h55_banshee/banshee_salute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_3"
+			FileName="animations_h55_banshee/emotion_pause_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_yy_3"
+			FileName="animations_h55_banshee/emotion_pause_yy_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_yy_1"
+			FileName="animations_h55_banshee/emotion_pause_yy_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="ride_idle_3"
+			FileName="animations_h55_banshee/ride_idle_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_run_3"
+			FileName="animations_h55_banshee/ride_run_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ride_sprint_3"
+			FileName="animations_h55_banshee/ride_sprint_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause"
+			FileName="animations_h55_banshee/emotion_pause.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_1"
+			FileName="animations_h55_banshee/emotion_pause_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.0666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless_3"
+			FileName="animations_h55_banshee/banshee_bless_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless_1"
+			FileName="animations_h55_banshee/banshee_bless_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute"
+			FileName="animations_h55_banshee/wormhole_excute.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start"
+			FileName="animations_h55_banshee/wormhole_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute_1"
+			FileName="animations_h55_banshee/banshee_salute_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute_3"
+			FileName="animations_h55_banshee/banshee_salute_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.8333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers"
+			FileName="animations_h55_banshee/setoff_firecrackers.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_1"
+			FileName="animations_h55_banshee/cr_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_bar_sit"
+			FileName="animations_h55_banshee/cr_bar_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute_1"
+			FileName="animations_h55_banshee/wormhole_excute_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_excute_3"
+			FileName="animations_h55_banshee/wormhole_excute_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start_1"
+			FileName="animations_h55_banshee/wormhole_start_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="wormhole_start_3"
+			FileName="animations_h55_banshee/wormhole_start_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_motorcycle"
+			FileName="animations_h55_banshee/hall_interact_motorcycle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_h"
+			FileName="animations_h55_banshee/hall_interact_bed_h.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_interact_bed_s"
+			FileName="animations_h55_banshee/hall_interact_bed_s.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1"
+			FileName="animations_h55_banshee/cr_solo_dance_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1_1"
+			FileName="animations_h55_banshee/cr_solo_dance_1_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_1_3"
+			FileName="animations_h55_banshee/cr_solo_dance_1_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_srspark_h_1"
+			FileName="animations_h55_banshee/emotion_srspark_h_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.1666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left"
+			FileName="animations_h55_banshee/cr_dizzy_left.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right"
+			FileName="animations_h55_banshee/cr_dizzy_right.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right_1"
+			FileName="animations_h55_banshee/cr_dizzy_right_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_right_3"
+			FileName="animations_h55_banshee/cr_dizzy_right_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left_1"
+			FileName="animations_h55_banshee/cr_dizzy_left_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_dizzy_left_3"
+			FileName="animations_h55_banshee/cr_dizzy_left_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end"
+			FileName="animations_h55_banshee/cr_fish_show_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop"
+			FileName="animations_h55_banshee/cr_fish_show_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start"
+			FileName="animations_h55_banshee/cr_fish_show_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show"
+			FileName="animations_h55_banshee/emotion_fish_show.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show_1"
+			FileName="animations_h55_banshee/emotion_fish_show_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fish_show_3"
+			FileName="animations_h55_banshee/emotion_fish_show_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start_1"
+			FileName="animations_h55_banshee/cr_fish_show_start_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_start_3"
+			FileName="animations_h55_banshee/cr_fish_show_start_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop_1"
+			FileName="animations_h55_banshee/cr_fish_show_loop_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_loop_3"
+			FileName="animations_h55_banshee/cr_fish_show_loop_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end_1"
+			FileName="animations_h55_banshee/cr_fish_show_end_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_fish_show_end_3"
+			FileName="animations_h55_banshee/cr_fish_show_end_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.3333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon_3"
+			FileName="animations_h55_banshee/examining_weapon_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="examining_weapon_1"
+			FileName="animations_h55_banshee/examining_weapon_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="remove_cage_killer"
+			FileName="animations_h55_banshee/remove_cage_killer.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_moto_idle"
+			FileName="animations_h55_banshee/hall_moto_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.3333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_s_like"
+			FileName="animations_h55_banshee/hall_d_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_dislike"
+			FileName="animations_h55_banshee/hall_f_s_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_s_like"
+			FileName="animations_h55_banshee/hall_f_s_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite"
+			FileName="animations_h55_banshee/dog_bite.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite_1"
+			FileName="animations_h55_banshee/dog_bite_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="dog_bite_3"
+			FileName="animations_h55_banshee/dog_bite_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_qixi_pose"
+			FileName="animations_h55_banshee/cr_qixi_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="10"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_d_c_like"
+			FileName="animations_h55_banshee/hall_d_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_dislike"
+			FileName="animations_h55_banshee/hall_f_c_dislike.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_idle"
+			FileName="animations_h55_banshee/hall_f_c_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_f_c_like"
+			FileName="animations_h55_banshee/hall_f_c_like.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_end2"
+			FileName="animations_h55_banshee/cr_slide_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_loop"
+			FileName="animations_h55_banshee/cr_slide_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_slide_start"
+			FileName="animations_h55_banshee/cr_slide_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.966667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_solo_dance_2"
+			FileName="animations_h55_banshee/cr_solo_dance_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.566667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end"
+			FileName="animations_h55_banshee/cr_jump_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_end2"
+			FileName="animations_h55_banshee/cr_jump_end2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_loop"
+			FileName="animations_h55_banshee/cr_jump_loop.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_jump_start"
+			FileName="animations_h55_banshee/cr_jump_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.266667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_idle"
+			FileName="animations_h55_banshee/room_skate_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.733333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_play"
+			FileName="animations_h55_banshee/room_skate_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="room_skate_start"
+			FileName="animations_h55_banshee/room_skate_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_linkdoor"
+			FileName="animations_h55_banshee/cr_linkdoor.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_toilet_play"
+			FileName="animations_h55_banshee/hall_toilet_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_fly"
+			FileName="animations_h55_banshee/cr_cannon_fly.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_cannon_pose"
+			FileName="animations_h55_banshee/cr_cannon_pose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_photo_wall"
+			FileName="animations_h55_banshee/cr_photo_wall.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_bathtub_play"
+			FileName="animations_h55_banshee/hall_bathtub_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.133333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_idle"
+			FileName="animations_h55_banshee/cr_fly_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.266667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="cr_fly_run"
+			FileName="animations_h55_banshee/cr_fly_run.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge"
+			FileName="animations_h55_banshee/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge_1"
+			FileName="animations_h55_banshee/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_charge_3"
+			FileName="animations_h55_banshee/emotion_charge.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="12.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_choco_play"
+			FileName="animations_h55_banshee/hall_choco_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_box_play"
+			FileName="animations_h55_banshee/hall_box_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_huajiao"
+			FileName="animations_h55_banshee/hall_sit_huajiao.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_hupo"
+			FileName="animations_h55_banshee/show_idle_special_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="19.266666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_hupo"
+			FileName="animations_h55_banshee/show_appear_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.266666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_hupo"
+			FileName="animations_h55_banshee/show_idle_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_removing_obstacles_all"
+			FileName="animations_h55_banshee/emotion_removing_obstacles_all.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="cr_sit_2"
+			FileName="animations_h55_banshee/cr_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_shower_play"
+			FileName="animations_h55_banshee/hall_shower_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_doubt"
+			FileName="animations_h55_banshee/pzjg_char_doubt.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_gameover"
+			FileName="animations_h55_banshee/pzjg_char_gameover.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_sit"
+			FileName="animations_h55_banshee/pzjg_char_sit.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.333333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_end"
+			FileName="animations_h55_banshee/pzjg_char_think_end.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_idle"
+			FileName="animations_h55_banshee/pzjg_char_think_idle.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_think_start"
+			FileName="animations_h55_banshee/pzjg_char_think_start.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.233333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="carry_hupo_3"
+			FileName="animations_h55_banshee/carry_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hupo_3"
+			FileName="animations_h55_banshee/happy_carry_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_end_hupo_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_end_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_hupo_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_hupo_3"
+			FileName="animations_h55_banshee/idle_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.833333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_hupo_3"
+			FileName="animations_h55_banshee/run_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_hupo_1"
+			FileName="animations_h55_banshee/span_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.533333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="span_hupo_3"
+			FileName="animations_h55_banshee/span_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.533333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_hupo_1"
+			FileName="animations_h55_banshee/idle_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="run_hupo_1"
+			FileName="animations_h55_banshee/run_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="sit_roller_hupo_3"
+			FileName="animations_h55_banshee/sit_roller_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.333333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_mirror_hupo"
+			FileName="animations_h55_banshee/load_mirror_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_hupo"
+			FileName="animations_h55_banshee/load_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.366667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_visit_hupo"
+			FileName="animations_h55_banshee/load_banshee_visit_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.666666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_stand_hupo"
+			FileName="animations_h55_banshee/load_banshee_stand_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="18"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_dance_hupo"
+			FileName="animations_h55_banshee/load_banshee_dance_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="20.266666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_move_hupo_3"
+			FileName="animations_h55_banshee/liftcar_move_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_1_hupo"
+			FileName="animations_h55_banshee/idle_special_1_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_hupo_1"
+			FileName="animations_h55_banshee/idle_special_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_2_hupo"
+			FileName="animations_h55_banshee/idle_special_2_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_hupo"
+			FileName="animations_h55_banshee/hall_walk_2_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_swing_nature_hupo"
+			FileName="animations_h55_banshee/hall_swing_nature_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair_hupo"
+			FileName="animations_h55_banshee/hall_sit_loungechair_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_hupo"
+			FileName="animations_h55_banshee/hall_sit_horse_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_hupo_1"
+			FileName="animations_h55_banshee/emotion_trouble_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_hupo"
+			FileName="animations_h55_banshee/emotion_trouble_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_hupo_1"
+			FileName="animations_h55_banshee/emotion_pause_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_hupo"
+			FileName="animations_h55_banshee/emotion_pause_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_hupo_1"
+			FileName="animations_h55_banshee/emotion_dice_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_hupo"
+			FileName="animations_h55_banshee/emotion_dice_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_hupo_1"
+			FileName="animations_h55_banshee/emotion_dance_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dance_hupo"
+			FileName="animations_h55_banshee/emotion_dance_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view3_hupo_3"
+			FileName="animations_h55_banshee/bird_view3_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute_hupo_3"
+			FileName="animations_h55_banshee/banshee_salute_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute_hupo_1"
+			FileName="animations_h55_banshee/banshee_salute_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_salute_hupo"
+			FileName="animations_h55_banshee/banshee_salute_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.866667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless_hupo_3"
+			FileName="animations_h55_banshee/banshee_bless_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless_hupo_1"
+			FileName="animations_h55_banshee/banshee_bless_hupo_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="banshee_bless_hupo"
+			FileName="animations_h55_banshee/banshee_bless_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.366667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_hupo"
+			FileName="animations_h55_banshee/hall_idle_2_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_hupo"
+			FileName="animations_h55_banshee/hall_idle_special_hupo.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="liftcar_idle_hupo_3"
+			FileName="animations_h55_banshee/liftcar_idle_hupo_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_yongzhe_play"
+			FileName="animations_h55_banshee/hall_yongzhe_play.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.666667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="emotion_threaten"
+			FileName="animations_h55_banshee/emotion_threaten.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_sleep"
+			FileName="animations_h55_banshee/load_sleep.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="15.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch"
+			FileName="animations_h55_banshee/hall_crouch.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_lose"
+			FileName="animations_h55_banshee/pzjg_char_lose.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="pzjg_char_success"
+			FileName="animations_h55_banshee/pzjg_char_success.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_long_banshee"
+			FileName="animations_h55_banshee/show_idle_long_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="11.5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="show_appear_long_banshee"
+			FileName="animations_h55_banshee/show_appear_long_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.666667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="show_idle_special_long_banshee"
+			FileName="animations_h55_banshee/show_idle_special_long_banshee.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="16.666666"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_2"
+			FileName="animations_h55_banshee/hall_flower_sit_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_flower_sit_1"
+			FileName="animations_h55_banshee/hall_flower_sit_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_special_long"
+			FileName="animations_h55_banshee/hall_idle_special_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_carry_hit_long_3"
+			FileName="animations_h55_banshee/happy_carry_hit_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.5"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle_long_1"
+			FileName="animations_h55_banshee/idle_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8.833333"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_long_3"
+			FileName="animations_h55_banshee/idle_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.833333"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_long_3"
+			FileName="animations_h55_banshee/run_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_long_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_long_1"
+			FileName="animations_h55_banshee/idle_special_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_long_3"
+			FileName="animations_h55_banshee/idle_special_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6.566667"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="span_long_3"
+			FileName="animations_h55_banshee/span_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.533333"
+			default_loop="false"
+			default_rate="1" />
+		<Animation
+			Name="hall_crouch_long"
+			FileName="animations_h55_banshee/hall_crouch_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_idle_2_long"
+			FileName="animations_h55_banshee/hall_idle_2_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_long_1"
+			FileName="animations_h55_banshee/hall_walk_2_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="true"
+			default_rate="1" />
+		<Animation
+			Name="run_long_1"
+			FileName="animations_h55_banshee/run_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4.8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="ready_butterfly_long_3"
+			FileName="animations_h55_banshee/ready_butterfly_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="idle_long_2"
+			FileName="animations_h55_banshee/idle_long_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="7.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="open_cabinet_long_1"
+			FileName="animations_h55_banshee/open_cabinet_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.633333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="idle_special_long_2"
+			FileName="animations_h55_banshee/idle_special_long_2.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="13.333333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_show_long_3"
+			FileName="animations_h55_banshee/happy_fan_attack_show_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3.5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_carry_long_3"
+			FileName="animations_h55_banshee/happy_fan_attack_carry_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.933333"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_2_long_3"
+			FileName="animations_h55_banshee/happy_fan_attack_2_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="happy_fan_attack_1_end_long_3"
+			FileName="animations_h55_banshee/happy_fan_attack_1_end_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.766667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view2_long_3"
+			FileName="animations_h55_banshee/bird_view2_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view1_long_3"
+			FileName="animations_h55_banshee/bird_view1_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="0.9"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="bird_view3_long_3"
+			FileName="animations_h55_banshee/bird_view3_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_walk_2_long_3"
+			FileName="animations_h55_banshee/hall_walk_2_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2.666667"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="bird_view4_long_3"
+			FileName="animations_h55_banshee/bird_view4_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="1.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="glide_long_1"
+			FileName="animations_h55_banshee/glide_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_bear_long"
+			FileName="animations_h55_banshee/hall_sit_bear_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_hammock_long"
+			FileName="animations_h55_banshee/hall_sit_hammock_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_horse_long"
+			FileName="animations_h55_banshee/hall_sit_horse_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_loungechair_long"
+			FileName="animations_h55_banshee/hall_sit_loungechair_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="8"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sit_stool_long"
+			FileName="animations_h55_banshee/hall_sit_stool_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="hall_sleep_royal_long"
+			FileName="animations_h55_banshee/hall_sleep_royal_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="rope_swing_2_jianguan_long_1"
+			FileName="animations_h55_banshee/rope_swing_2_jianguan_long_1.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="4"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_sit_long"
+			FileName="animations_h55_banshee/load_banshee_sit_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="14.7"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="load_banshee_visit_long"
+			FileName="animations_h55_banshee/load_banshee_visit_long.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="21.666666"
+			default_loop="True"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_20_long_3"
+			FileName="animations_h55_banshee/emotion_dice_20_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_dice_long_3"
+			FileName="animations_h55_banshee/emotion_dice_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_fourth_banshee_long_3"
+			FileName="animations_h55_banshee/emotion_fourth_banshee_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="9.2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_pause_long_3"
+			FileName="animations_h55_banshee/emotion_pause_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5.066667"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_sae_kurosawa_long_3"
+			FileName="animations_h55_banshee/emotion_sae_kurosawa_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="6"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_salute_long_3"
+			FileName="animations_h55_banshee/emotion_salute_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="2"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="emotion_trouble_long_3"
+			FileName="animations_h55_banshee/emotion_trouble_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="3"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="setoff_firecrackers_long_3"
+			FileName="animations_h55_banshee/setoff_firecrackers_long_3.animation"
+			LoadAsync="true"
+			start_time="0"
+			end_time="5"
+			default_loop="False"
+			default_rate="1" />
+		<Animation
+			Name="hall_selfie_1"
+			FileName="animations_h55_banshee/hall_selfie_1.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_2"
+			FileName="animations_h55_banshee/hall_selfie_2.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="hall_selfie_3"
+			FileName="animations_h55_banshee/hall_selfie_3.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="0.166667" />
+		<Animation
+			Name="cast_chain_xmas_end"
+			FileName="animations_h55_banshee/cast_chain_xmas_end.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.333333" />
+		<Animation
+			Name="cast_chain_xmas_start"
+			FileName="animations_h55_banshee/cast_chain_xmas_start.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="0.666667" />
+		<Animation
+			Name="cast_chain_xmas_loop"
+			FileName="animations_h55_banshee/cast_chain_xmas_loop.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="1" />
+		<Animation
+			Name="hall_selfie_idle"
+			FileName="animations_h55_banshee/hall_selfie_idle.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="2" />
+	</AnimationList>
+	<AnimationBundleList />
+	<TransitInfo>
+		<skin
+			run_2="1,120"
+			run_3="1,120"
+			run_1="1,120"
+			run_4="1,120" />
+		<repair_hook_3
+			idle_3="1,100"
+			run_2="1,100"
+			run_3="1,100"
+			sprint_flying_1="1,100"
+			sprint_flying_3="1,100" />
+		<idle_3
+			skin="1,100"
+			repair_hook_3="1,100"
+			idle_3="1,110"
+			happy_catch_3="1,100"
+			idle_2="1,110"
+			happy_hang_3="1,100"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			carry_struggle_add_3="1,100"
+			catch_3="1,100"
+			hang_3="1,100"
+			fall_1="1,100"
+			fall_3="1,100"
+			open_cabinet_1="1,120"
+			open_cabinet_3="1,100"
+			happy_fan_attack_1_3="1,100"
+			happy_fan_attack_1_end_3="1,100"
+			happy_fan_attack_2_3="1,100"
+			happy_fan_attack_2_end_3="1,100"
+			happy_fan_attack_show_3="1,100"
+			idle_1="1,110"
+			remote_patrol_puppet_3="1,200"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			pullback_butcher_1="1,200"
+			pullback_butcher_3="1,200"
+			pushforward_butcher_1="1,200"
+			pushforward_butcher_3="1,200"
+			disarm_3="1,300" />
+		<happy_catch_3
+			run_2="1,100"
+			run_3="1,100"
+			happy_fan_attack_1_3="1,100"
+			happy_fan_attack_1_end_3="1,100"
+			happy_fan_attack_2_3="1,100"
+			happy_fan_attack_2_end_3="1,100"
+			happy_fan_attack_show_3="1,100"
+			idle_4="1,100"
+			sprint_flying_1="1,100"
+			sprint_flying_3="1,100" />
+		<idle_2
+			skin="1,100"
+			repair_hook_3="1,100"
+			idle_3="1,110"
+			happy_catch_3="1,100"
+			idle_2="1,110"
+			happy_hang_3="1,100"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			carry_struggle_add_3="1,100"
+			catch_3="1,100"
+			hang_3="1,100"
+			fall_1="1,100"
+			fall_3="1,100"
+			open_cabinet_1="1,100"
+			open_cabinet_3="1,100"
+			idle_1="1,110"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150" />
+		<happy_hang_3
+			TransitTime="0.1181"
+			run_2="1,100"
+			run_3="1,100" />
+		<idle_special_1
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			idle_1="1,150"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			sprint_flying_1="1,110"
+			sprint_flying_3="1,110" />
+		<idle_special_2
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			idle_1="1,110"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			sprint_flying_1="1,110"
+			sprint_flying_3="1,110" />
+		<idle_special_3
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			idle_1="1,110"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			sprint_flying_1="1,170"
+			sprint_flying_3="1,170" />
+		<run_2
+			skin="1,100"
+			repair_hook_3="1,100"
+			idle_3="1,170"
+			happy_catch_3="1,100"
+			idle_2="1,170"
+			happy_hang_3="1,100"
+			idle_special_1="1,170"
+			idle_special_2="1,170"
+			idle_special_3="1,170"
+			run_2="1,120"
+			run_3="1,120"
+			carry_struggle_add_3="1,100"
+			catch_3="1,100"
+			hang_3="1,100"
+			close_cabinet_1="1,100"
+			close_cabinet_3="1,100"
+			fall_1="1,100"
+			fall_3="1,100"
+			open_cabinet_1="1,100"
+			open_cabinet_3="1,100"
+			happy_fan_attack_1_3="1,100"
+			happy_fan_attack_1_end_3="1,100"
+			happy_fan_attack_2_3="1,100"
+			happy_fan_attack_2_end_3="1,100"
+			happy_fan_attack_show_3="1,100"
+			idle_1="1,170"
+			run_1="1,120"
+			idle_4="1,170"
+			idle_special_4="1,170"
+			run_4="1,120"
+			sprint_flying_1="1,120"
+			sprint_flying_3="1,120" />
+		<run_3
+			skin="1,100"
+			repair_hook_3="1,100"
+			idle_3="1,170"
+			happy_catch_3="1,100"
+			idle_2="1,170"
+			happy_hang_3="1,100"
+			idle_special_1="1,170"
+			idle_special_2="1,170"
+			idle_special_3="1,170"
+			run_2="1,120"
+			run_3="1,120"
+			carry_struggle_add_3="1,100"
+			catch_3="1,100"
+			hang_3="1,100"
+			close_cabinet_1="1,100"
+			close_cabinet_3="1,100"
+			fall_1="1,100"
+			fall_3="1,100"
+			open_cabinet_1="1,100"
+			open_cabinet_3="1,100"
+			happy_fan_attack_1_3="1,100"
+			happy_fan_attack_1_end_3="1,100"
+			happy_fan_attack_2_3="1,100"
+			happy_fan_attack_2_end_3="1,100"
+			happy_fan_attack_show_3="1,100"
+			idle_1="1,170"
+			run_1="1,120"
+			idle_4="1,170"
+			idle_special_4="1,170"
+			run_4="1,120"
+			sprint_flying_1="1,100"
+			sprint_flying_3="1,100"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			pullback_butcher_1="1,200"
+			pullback_butcher_3="1,200"
+			pushforward_butcher_1="1,200"
+			pushforward_butcher_3="1,200"
+			disarm_3="1,300" />
+		<carry_struggle_add_3
+			run_2="1,100"
+			run_3="1,100" />
+		<catch_3
+			TransitTime="4466.666504"
+			run_2="1,100"
+			run_3="1,100"
+			carry_3="1,130" />
+		<hang_3
+			run_2="1,100"
+			run_3="1,100"
+			carry_3="1,130"
+			idle_4="1,100" />
+		<close_cabinet_1
+			run_2="1,100"
+			run_3="1,100" />
+		<close_cabinet_3
+			run_2="1,100"
+			run_3="1,100" />
+		<fall_1
+			run_2="1,100"
+			run_3="1,100" />
+		<fall_3
+			run_2="1,100"
+			run_3="1,100" />
+		<open_cabinet_1
+			idle_3="1,100"
+			run_2="1,100"
+			run_3="1,100" />
+		<open_cabinet_3
+			idle_3="1,100"
+			run_2="1,100"
+			run_3="1,100" />
+		<happy_fan_attack_1_3
+			run_2="1,100"
+			run_3="1,100"
+			idle_4="1,100" />
+		<happy_fan_attack_1_end_3
+			run_2="1,100"
+			run_3="1,100"
+			idle_4="1,100" />
+		<happy_fan_attack_2_3
+			run_2="1,100"
+			run_3="1,100"
+			idle_4="1,100" />
+		<happy_fan_attack_2_end_3
+			run_2="1,100"
+			run_3="1,100"
+			idle_4="1,100" />
+		<fan_attack_carry
+			idle_4="1,100" />
+		<fan_attack_carry_end
+			idle_4="1,100" />
+		<happy_fan_attack_show_3
+			run_2="1,100"
+			run_3="1,100"
+			happy_fan_attack_1_3="1,100"
+			happy_fan_attack_1_end_3="1,100"
+			happy_fan_attack_2_3="1,100"
+			happy_fan_attack_2_end_3="1,100" />
+		<bird_view1_3
+			idle_3="1,100"
+			idle_2="1,100"
+			bird_view1_3="1,120"
+			bird_view2_3="1,120"
+			bird_view3_3="1,120"
+			idle_1="1,100"
+			idle_4="1,100"
+			sprint_flying_1="1,120"
+			sprint_flying_3="1,120" />
+		<bird_view2_3
+			idle_3="1,100"
+			idle_2="1,100"
+			bird_view1_3="1,120"
+			bird_view2_3="1,120"
+			bird_view3_3="1,120"
+			idle_1="1,100"
+			idle_4="1,100"
+			sprint_flying_1="1,120"
+			sprint_flying_3="1,120" />
+		<bird_view3_3
+			idle_3="1,100"
+			idle_2="1,100"
+			bird_view1_3="1,120"
+			bird_view2_3="1,120"
+			bird_view3_3="1,120"
+			idle_1="1,100"
+			idle_4="1,100" />
+		<carry_3
+			catch_3="1,120"
+			hang_3="1,120"
+			carry_3="1,150"
+			pick_3="1,120"
+			fan_attack_carry_end_3="1,130"
+			fan_attack_carry_3="1,130" />
+		<fan_attack_1_3
+			idle_4="1,100" />
+		<fan_attack_1_end_3
+			idle_4="1,100" />
+		<fan_attack_2_3
+			idle_4="1,100" />
+		<fan_attack_2_end_3
+			idle_4="1,100" />
+		<fan_attack_rebound_3
+			idle_4="1,100" />
+		<fan_attack_show_3
+			idle_4="1,100" />
+		<happy_carry_3
+			happy_carry_3="1,170"
+			idle_4="1,100" />
+		<happy_carry_hit_3
+			idle_4="1,100" />
+		<happy_carry_struggle_3
+			idle_4="1,100" />
+		<happy_carry_struggle_add_3
+			idle_4="1,100" />
+		<happy_discard_3
+			idle_4="1,100" />
+		<hells_sprint_3
+			idle_3="1,200"
+			run_3="1,300"
+			run_yanyi_3="1,300"
+			run_zh_3="1,300"
+			idle_long_3="1,200"
+			run_long_3="1,300" />
+		<hit_3
+			run_2="1,150"
+			run_3="1,150"
+			run_1="1,150"
+			run_4="1,150" />
+		<idle_1
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			open_cabinet_1="1,120"
+			remote_patrol_puppet_3="1,200"
+			run_1="1,200"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			emotion_salute_banshee="3,200"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			pullback_butcher_1="1,200"
+			pullback_butcher_3="1,200"
+			pushforward_butcher_1="1,200"
+			pushforward_butcher_3="1,200"
+			disarm_1="1,300" />
+		<pick_3
+			idle_3="1,100"
+			carry_3="1,120" />
+		<remote_patrol_puppet_3
+			idle_3="1,100" />
+		<repair_hook_banshee_3
+			idle_3="1,170"
+			idle_2="1,170"
+			idle_special_1="1,170"
+			idle_special_2="1,170"
+			idle_special_3="1,170"
+			idle_1="1,170"
+			idle_4="1,170"
+			idle_special_4="1,170" />
+		<run_1
+			idle_3="1,170"
+			idle_2="1,170"
+			idle_special_1="1,170"
+			idle_special_2="1,170"
+			idle_special_3="1,170"
+			run_2="1,120"
+			run_3="1,120"
+			idle_1="1,200"
+			run_1="1,120"
+			idle_4="1,170"
+			idle_special_4="1,170"
+			run_4="1,120"
+			sprint_flying_1="1,120"
+			sprint_flying_3="1,120"
+			pullback_butcher="1,200"
+			pushforward_butcher="1,200"
+			pullback_butcher_1="1,200"
+			pullback_butcher_3="1,200"
+			pushforward_butcher_1="1,200"
+			pushforward_butcher_3="1,200"
+			disarm_1="1,300" />
+		<span_1
+			run_2="1,120"
+			run_3="1,120"
+			run_1="1,120"
+			run_4="1,120" />
+		<place_tower_3
+			idle_3="1,100" />
+		<idle_4
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			idle_1="1,110"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			sprint_flying_1="1,110"
+			sprint_flying_3="1,110" />
+		<idle_special_4
+			idle_3="1,110"
+			idle_2="1,110"
+			idle_special_1="1,110"
+			idle_special_2="1,110"
+			idle_special_3="1,110"
+			run_2="1,150"
+			run_3="1,150"
+			idle_1="1,110"
+			run_1="1,150"
+			idle_4="1,110"
+			idle_special_4="1,110"
+			run_4="1,150"
+			sprint_flying_1="1,170"
+			sprint_flying_3="1,170" />
+		<run_4
+			idle_3="1,170"
+			idle_2="1,170"
+			idle_special_1="1,170"
+			idle_special_2="1,170"
+			idle_special_3="1,170"
+			run_2="1,120"
+			run_3="1,120"
+			idle_1="1,170"
+			run_1="1,120"
+			idle_4="1,170"
+			idle_special_4="1,170"
+			run_4="1,120" />
+		<sprint_dizzy_3
+			disarm_3="1,300" />
+		<fan_attack_carry_end_3
+			carry_3="1,130" />
+		<fan_attack_carry_3
+			carry_3="1,130" />
+		<pullback_butcher
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<pushforward_butcher
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<pullback_butcher_1
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<pullback_butcher_3
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<pushforward_butcher_1
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<pushforward_butcher_3
+			idle_3="1,250"
+			idle_2="1,250"
+			run_2="1,200"
+			run_3="1,200"
+			idle_1="1,250"
+			run_1="1,200"
+			idle_4="1,250"
+			run_4="1,200" />
+		<sprint_dizzy_1
+			disarm_1="1,300" />
+		<disarm_1
+			idle_1="1,300"
+			run_1="1,300"
+			sprint_dizzy_1="1,300" />
+		<disarm_3
+			idle_3="1,300"
+			run_3="1,300"
+			sprint_dizzy_3="1,300" />
+		<cr_jump_loop
+			fall_1="1,300" />
+		<cr_cannon_fly
+			cr_jump_loop="1,300" />
+		<cr_cannon_pose
+			cr_cannon_fly="1,300" />
+	</TransitInfo>
+</AnimationConfig>

@@ -1,0 +1,63 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="True"
+		Name="hds_e_baojun_niaolong01b">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_MASK_MAP"
+				Val="TRUE" />
+			<Macro1
+				Key="DYNAMIC_GI_ENABLE"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_glass.nfx::TShader" />
+		<ParamTable>
+			<TexCamo
+				Value="" />
+			<TexEnvironment
+				Value="shader/env/h55_main_cup.dds" />
+			<TexMetal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_m.tga" />
+			<TexReflection
+				Value="" />
+			<TexRefract
+				Value="shader/env/crystaltest.dds" />
+			<u_enhance_specular
+				Value="1" />
+			<u_fresnel_alpha
+				Value="0.330000" />
+			<u_fresnel_thickness
+				Value="2.594000" />
+			<u_ibl_enhance
+				Value="5" />
+			<u_metallic_offset
+				Value="0.000000,0.000000,1.000000,1.000000" />
+			<Tex0
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_d.tga" />
+			<TexNormal
+				Value="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_niaolong01_n.tga" />
+			<u_alpha_val
+				Value="0.564706" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="255"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="2" />
+		</RenderStates>
+	</Material>
+</NeoX>

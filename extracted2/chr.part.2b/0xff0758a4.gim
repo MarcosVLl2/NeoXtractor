@@ -1,0 +1,22 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped" BoundingInfo="(0.05, 14.65, -2.60),(6.89, 14.68, 6.10),17.33" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0542,13.2575,-0.9765" BoundingHalf="6.8572,13.2882,4.4767" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="frank_d_zhxs_body" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="-0.1336,22.4984,-4.7527" BoundingHalf="5.5912,6.3280,3.9487" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="frank_d_zhxs_daoju" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="-1.9876,20.4000,1.3301" BoundingHalf="2.8276,8.7393,1.7102" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="frank_d_zhxs_daoju01" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="0.2151,26.8664,0.9645" BoundingHalf="1.4446,2.4562,1.3702" ForceBatch="false" IsSkin4S="false" MtlIdx="3" Name="frank_d_zhxs_head" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="-5.1402,15.9723,0.9990" BoundingHalf="1.6924,4.2742,2.3590" ForceBatch="false" IsSkin4S="false" MtlIdx="4" Name="frankenstein_body_l" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="5.1166,16.0083,0.9729" BoundingHalf="1.8237,4.3398,2.3851" ForceBatch="false" IsSkin4S="false" MtlIdx="5" Name="frankenstein_body_r" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_frank.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_frank.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

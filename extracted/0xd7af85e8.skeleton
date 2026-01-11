@@ -1,0 +1,179 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/sockets/spaces/0" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/1" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/2" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/3" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/4" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/5" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/6" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/7" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/sockets/spaces/8" : {
+			"type_name" : "SimdTransformf",
+			"customized" : true,
+			"wrapped_type_name" : "SimdTransformf"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "space",
+	"joint_names" : [
+		"biped","biped pelvis","biped spine","biped l thigh","biped r thigh","biped_bone11","biped_bone12","biped_bone70","biped_bone75","biped_bone80","biped_bone85","biped spine1","biped_bone13","biped_bone68","biped l calf","biped r calf","biped_bone71","biped_bone76","biped_bone81","biped_bone86","biped spine2","biped_bone14","biped_bone16","biped_bone18","biped_bone19","biped_bone69","biped l foot","biped_bone29","biped r foot","biped_bone72","biped_bone77","biped_bone82","biped_bone87","biped l clavicle","biped neck","biped r clavicle","biped_bone40","biped_bone47","biped_bone48","biped_bone61","biped_bone15","biped_bone17","biped l toe0","biped_bone22","biped r toe0","biped_bone73","biped_bone78","biped_bone83","biped_bone88","biped l upperarm","biped_bone32","biped_bone37","biped_bone65","biped head","biped r upperarm","biped_bone33","biped_bone36","biped_bone64","biped_bone41","biped_bone49","biped_bone50","biped_bone62","biped_bone23","biped_bone74","biped_bone79","biped_bone84","biped_bone89","biped l forearm","biped_bone34","biped_bone39","biped_bone67","biped_bone01","biped_bone02","biped_bone03","biped_bone04","biped_bone05","biped_bone06","biped_bone07","biped_bone21","biped_bone27","biped_bone28","biped_bone30","biped_bone31","biped r forearm","biped_bone35","biped_bone38","biped_bone66","biped_bone42","biped_bone51","biped_bone52","biped_bone63","biped_bone24","biped l hand","biped r hand","biped_bone43","biped_bone53","biped_bone54","biped_bone25","biped l finger0","biped l finger1","biped l finger2","biped l finger3","biped l finger4","biped r finger0","biped r finger1","biped r finger2","biped r finger3","biped r finger4","biped_bone20","biped_bone44","biped_bone55","biped_bone56","biped_bone26","biped l finger01","biped l finger11","biped l finger21","biped l finger31","biped l finger41","biped r finger01","biped r finger11","biped r finger21","biped r finger31","biped r finger41","biped_bone45","biped_bone57","biped_bone58","biped l finger02","biped l finger12","biped l finger22","biped l finger32","biped l finger42","biped r finger02","biped r finger12","biped r finger22","biped r finger32","biped r finger42","biped_bone46","biped_bone59","biped_bone60"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,1,1,1,1,1,1,1,1,2,2,2,3,4,7,8,9,10,11,11,11,11,11,13,14,14,15,16,17,18,19,20,20,20,20,20,20,20,21,22,26,27,28,29,30,31,32,33,33,33,33,34,35,35,35,35,36,37,38,39,43,45,46,47,48,49,50,51,52,53,53,53,53,53,53,53,53,53,53,53,53,54,55,56,57,58,59,60,61,62,67,83,87,88,89,91,92,92,92,92,92,93,93,93,93,93,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,113,114,115,116,117,118,119,120,121,122,123,124,125
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			139
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [
+			"cr_fish","hall_pumpkin","decal","carry_balloon_moonriver","const_2024shengdan_r","const_2024shengdan_l","sound_sk","const_fx_chengyin_001","weapon_xmas"
+		],
+		"related_joint_names" : [
+			"biped l hand","biped head","","biped r hand","biped r foot","biped l foot","","","biped l hand"
+		],
+		"spaces" : [
+			[
+				1.453199,-0.329198,-0.233199,-0.686965,0.566961,-0.325617,0.317186,1.003255,1.002655,1.003888
+			],
+			[
+				-1.115200,-0.000500,-1.532500,0.140735,-0.140694,-0.692872,0.693056,1.001901,1.002236,1.003309
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				2.052155,0.057532,0.510694,0.477288,-0.849080,-0.226204,-0.009489,1,1,1
+			],
+			[
+				1.413532,-0.003889,-0.023057,0.288158,-0.289750,0.644365,0.646376,1.000110,1.000018,0.999867
+			],
+			[
+				1.498154,0.123341,-0.111326,-0.095847,0.139863,0.727978,0.664302,0.999912,0.999943,1.000138
+			],
+			[
+				0,0,0,0,0,0,1,1,1,1
+			],
+			[
+				0,12,0,0,0,0,1,1,1,1
+			],
+			[
+				2.132771,-0.557233,0.591442,-0.000183,0.000890,-0.000441,0.999999,0.999119,1.004602,0.999218
+			]
+		],
+		"binding_flags" : [
+			"LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset","LocalOffset"
+		],
+		"play_rate_policies" : [
+			"InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel","InheritModel"
+		],
+		"bind_types" : [
+			7,7,7,7,7,7,7,7,7
+		],
+		"sync_vos" : [
+			"None","None","None","None","None","None","None","None","None"
+		],
+		"submesh_sort_idxs" : [
+			-1,-1,-1,-1,-1,-1,-1,-1,-1
+		],
+		"preloading_levels" : [
+			-1,-1,-1,-1,-1,-1,-1,-1,-1
+		]
+	},
+	"socket_objects" : {
+		"names" : [
+			"sprint_suhua_lp","sprint_suhua_step"
+		],
+		"uris" : [
+			"wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_lp","wwise/survivor.bnk:survivor/Event|P_survivor_survivor_skill_3p_qianfeng_sprint_suhua_step"
+		],
+		"ids" : [
+			"d3fe389205b28c6a","515eeb406d602850"
+		],
+		"related_socket_names" : [
+			"sound_sk","sound_sk"
+		],
+		"space_inherit_flags" : [
+			"Space All","Space All"
+		],
+		"loading_flags" : [
+			"None","None"
+		]
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

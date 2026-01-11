@@ -1,0 +1,5 @@
+<NeoX>
+    <MaterialGroup MaterialCount="1" Name="bonbon_e_cat_huxu" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/bonbon/separate_dir/bonbon_e_cat/materials/bonbon_e_cat_body01.mtl" />
+    </MaterialGroup>
+</NeoX>

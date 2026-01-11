@@ -1,0 +1,21 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_ylw_01" BoundingInfo="(-0.23, 1.68, -0.20),(1.27, 1.71, 1.08),2.39" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-0.2302,1.6774,-0.1986" BoundingHalf="1.2694,1.7113,1.0787" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_yulongwu" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_yulongwu.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_yulongwu.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_ylw_44" BindingFlag="2" LocalPosition="-0.5903,-0.0005,-0.0376" LocalRotation="-0.3187,0.5479,0.6536,0.4137" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_wjs_ylw_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="fe41b3b42aa4e896" Inherit="7" Loading="4" Name="toyman_yulong_idle_001.pse" Uri="fx/pendant/toyman_yulong_idle_001.pse" />
+        </Socket_0>
+    </SocketObject>
+</NeoX>

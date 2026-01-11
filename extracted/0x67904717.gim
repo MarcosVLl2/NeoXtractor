@@ -1,0 +1,17 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="bone_ylwg02_01" BoundingInfo="(-10.22, 1.85, -0.07),(5.02, 1.88, 4.23),6.83" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="-10.2178,1.8543,-0.0654" BoundingHalf="5.0246,1.8760,4.2310" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_guajian_yulongwu_ghost02" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="h55_guajian_yulongwu_hua.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="h55_guajian_yulongwu_hua.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject />
+</NeoX>

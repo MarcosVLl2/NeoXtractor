@@ -1,0 +1,15 @@
+<AnimationConfig>
+	<BundleLoadAsync Value="false" />
+	<NonProportionalScaling Value="false" />
+	<DefaultAnimation Name="skin" Autoplay="true" />
+	<AnimationList>
+		<Animation Name="skin" FileName="animations_h55_survivor_m_dxzh_saber/skin.animation" LoadAsync="false" start_time="0" end_time="3.3333" default_loop="False" default_rate="1" />
+		<Animation Name="show_appear_hqs_dzxh" FileName="animations_h55_survivor_m_dxzh_saber/show_appear_hqs_dzxh.animation" LoadAsync="false" start_time="0" end_time="13.9" default_loop="False" default_rate="1" />
+		<Animation Name="knight_rescue" FileName="animations_h55_survivor_m_dxzh_saber/knight_rescue.animation" LoadAsync="true" start_time="0" end_time="0.8" default_loop="False" default_rate="1" />
+		<Animation Name="knight_rescue_end" FileName="animations_h55_survivor_m_dxzh_saber/knight_rescue_end.animation" LoadAsync="true" start_time="0" end_time="0.4" default_loop="False" default_rate="1" />
+		<Animation Name="emotion_sword_dxzh" FileName="animations_h55_survivor_m_dxzh_saber/emotion_sword_dxzh.animation" LoadAsync="true" start_time="0" end_time="4.033333" default_loop="False" default_rate="1" />
+		<Animation Name="knight_rescue_yong" FileName="animations_h55_survivor_m_dxzh_saber/knight_rescue_yong.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="0.8" />
+		<Animation Name="knight_rescue_end_yong" FileName="animations_h55_survivor_m_dxzh_saber/knight_rescue_end_yong.animation" LoadAsync="true" default_rate="1" default_loop="False" start_time="0" end_time="0.4" />
+		</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

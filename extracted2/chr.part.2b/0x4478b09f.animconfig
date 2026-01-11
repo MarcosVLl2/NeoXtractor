@@ -1,0 +1,26 @@
+<AnimationConfig>
+	<NonProportionalScaling
+		Value="true" />
+	<DefaultAnimation
+		Name="skin"
+		Autoplay="true" />
+	<AnimationList>
+		<Animation
+			Name="skin"
+			FileName="animations_hds_e_baojun_frank/skin.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="True"
+			start_time="0"
+			end_time="4.666667" />
+		<Animation
+			Name="show_idle_special_baojun_hds"
+			FileName="animations_hds_e_baojun_frank/show_idle_special_baojun_hds.animation"
+			LoadAsync="true"
+			default_rate="1"
+			default_loop="False"
+			start_time="0"
+			end_time="21.866667" />
+	</AnimationList>
+	<AnimationBundleList />
+</AnimationConfig>

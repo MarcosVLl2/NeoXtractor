@@ -1,0 +1,89 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="h55_guajian_yulongwu">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_SELF_LUMINOUS"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\clearcoat_flake.fx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_micai.tga" />
+			<TexEmission
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_mask02.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_mask.tga" />
+			<TexReflection
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_mask01.tga" />
+			<TexStar
+				Value="" />
+			<TexStarMask
+				Value="" />
+			<anisotropy_color
+				Value="0.796078,1.000000,0.862745,1.000000" />
+			<anisotropy_noise
+				Value="0.250000" />
+			<anisotropy_width
+				Value="30" />
+			<u_ambient
+				Value="0.300000" />
+			<u_coatAmount
+				Value="1" />
+			<u_coatGIEnhance
+				Value="5" />
+			<u_coatNormalScale
+				Value="1" />
+			<u_emissionColor
+				Value="1.000000,0.931395,0.358938,1.000000" />
+			<u_emissionStrength
+				Value="0.700000" />
+			<u_flakeColor1
+				Value="0.949508,0.979019,0.831006,1.000000" />
+			<u_flakeColor2
+				Value="0.704707,0.957427,0.768917,1.000000" />
+			<u_flakeColorAmount
+				Value="1" />
+			<u_flakeNormalScale
+				Value="1" />
+			<Tex0
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_diff.tga" />
+			<TexNormal
+				Value="chr/guajian/h55_guajian_yulongwu/h55_guajian_yulongwu_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="1" />
+		</RenderStates>
+	</Material>
+</NeoX>

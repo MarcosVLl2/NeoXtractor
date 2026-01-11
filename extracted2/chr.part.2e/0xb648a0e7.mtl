@@ -1,0 +1,83 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_e_gelude_body03">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="USE_BACKFACE_SPECULAR"
+				Val="TRUE" />
+			<Macro1
+				Key="TOON_EFFECT"
+				Val="TRUE" />
+			<Macro2
+				Key="USE_ANISOTROPY_MASK"
+				Val="TRUE" />
+			<Macro3
+				Key="USE_ANISOTROPY"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\pbr\pbr_laser_transparent_rimlight.nfx::TShader" />
+		<ParamTable>
+			<Tex1
+				Value="lut/ice_diffuse38.dds" />
+			<TexCamo
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_nor01.tga" />
+			<TexEnvironment
+				Value="shader/env/dm65_main_env01_d.dds" />
+			<TexMetal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_mask.tga" />
+			<TexNoise
+				Value="" />
+			<TexReflection
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_mask01.tga" />
+			<anisotropy_color
+				Value="0.216907,0.624903,0.637995,1.000000" />
+			<anisotropy_noise
+				Value="0.010000" />
+			<anisotropy_offset
+				Value="0.100000" />
+			<anisotropy_width
+				Value="10" />
+			<u_ambient
+				Value="0.300000" />
+			<u_laser_hue_offset
+				Value="0.828000" />
+			<u_laser_hue_scale
+				Value="2.820000" />
+			<u_laser_power
+				Value="0.420260" />
+			<u_laser_saturation
+				Value="0.600000" />
+			<u_rim_color
+				Value="0.269017,0.110704,0.000000,0.113725" />
+			<u_rim_fac
+				Value="5" />
+			<u_rim_strength
+				Value="1.500000" />
+			<Tex0
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_diff.tga" />
+			<TexNormal
+				Value="chr/boss/billy/separate_dir/billy_e_gelude/billy_e_gelude_body03_nor.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="28"
+			AlphaVal="255"
+			CullMode="0"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="2" />
+		</RenderStates>
+	</Material>
+</NeoX>

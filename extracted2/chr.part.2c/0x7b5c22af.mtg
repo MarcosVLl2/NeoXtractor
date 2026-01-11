@@ -1,0 +1,11 @@
+<NeoX>
+    <MaterialGroup MaterialCount="7" Name="billy_e_yp01" Version="0.0000,0.0000,1.0000,4.0000">
+        <Material_0 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx.mtl" />
+        <Material_1 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx.mtl" />
+        <Material_2 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx_body02.mtl" />
+        <Material_3 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx_body02.mtl" />
+        <Material_4 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx_head.mtl" />
+        <Material_5 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx_weapon.mtl" />
+        <Material_6 Path="chr/boss/billy/separate_dir/billy_e_gelude/materials/billy_e_gelude_fx_weapon.mtl" />
+    </MaterialGroup>
+</NeoX>

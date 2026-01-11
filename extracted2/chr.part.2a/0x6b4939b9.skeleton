@@ -1,0 +1,78 @@
+{
+	"_FileHeader" : {
+		"ResourceVersion" : "2021.1",
+		"AssetType" : "Skeleton",
+		"AssetVersion" : 2,
+		"Dependices" : []
+	},
+	"_FileTypeInfo" : {
+		"/reference_pose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		},
+		"/humanoid_data/reference_tpose" : {
+			"type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>",
+			"customized" : true,
+			"wrapped_type_name" : "TypedIndexArray<SkeletonJointIndex,SimdTransformf>"
+		}
+	},
+	"name" : "hds_e_baojun_pian",
+	"joint_names" : [
+		"biped_huapian_bone01","biped_bird01","biped_bird011","biped_bird021","biped_bird031","biped_bird041","biped_bird02","biped_bird04","biped_bird05","biped_bird08","biped_bird012","biped_bird014","biped_bird015","biped_bird018","biped_bird022","biped_bird024","biped_bird025","biped_bird028","biped_bird032","biped_bird034","biped_bird035","biped_bird038","biped_bird042","biped_bird044","biped_bird045","biped_bird048","biped_bird06","biped_bird09","biped_bird016","biped_bird019","biped_bird026","biped_bird029","biped_bird036","biped_bird039","biped_bird046","biped_bird049"
+	],
+	"joint_parent_indices" : [
+		-1,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,8,9,12,13,16,17,20,21,24,25
+	],
+	"reference_pose" : "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",
+	"joint_lods" : {
+		"lod_level_counts" : [
+			1
+		],
+		"joint_counts" : [
+			36
+		],
+		"joint_index_ordered_by_lod" : [
+			0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35
+		],
+		"joint_lod_levels" : [
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+		"current_lod_config" : 0
+	},
+	"sockets" : {
+		"names" : [],
+		"related_joint_names" : [],
+		"spaces" : [],
+		"binding_flags" : [],
+		"play_rate_policies" : [],
+		"bind_types" : [],
+		"sync_vos" : [],
+		"submesh_sort_idxs" : [],
+		"preloading_levels" : []
+	},
+	"socket_objects" : {
+		"names" : [],
+		"uris" : [],
+		"ids" : [],
+		"related_socket_names" : [],
+		"space_inherit_flags" : [],
+		"loading_flags" : []
+	},
+	"humanoid_data" : {
+		"mapping_indices" : [],
+		"reference_tpose" : ""
+	},
+	"retargeting_data" : {
+		"joint_retarget_modes" : [
+			"Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation","Animation"
+		],
+		"pelvis_height" : 0
+	},
+	"constraint_data" : [],
+	"mirror_data" : {
+		"axis" : "None",
+		"mirror_replaceable_rules" : [],
+		"mirror_table" : []
+	}
+}

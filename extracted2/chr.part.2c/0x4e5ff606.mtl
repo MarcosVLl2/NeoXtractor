@@ -1,0 +1,64 @@
+<NeoX>
+	<Material
+		Version="0,0,1,3"
+		IsLegacy="False"
+		Name="billy_e_gelude_body02">
+		<AnimParam
+			Speed="1" />
+		<ShaderMacro>
+			<Macro0
+				Key="Use_Dissolve"
+				Val="TRUE" />
+			<Macro1
+				Key="Use_Disort"
+				Val="TRUE" />
+			<Macro2
+				Key="Use_AlphaMask"
+				Val="TRUE" />
+		</ShaderMacro>
+		<Technique
+			Type="Effect"
+			TechName="shader\fx\fx_common.nfx::TShader" />
+		<ParamTable>
+			<TexDissolve
+				Value="" />
+			<TexDistort
+				Value="fx/texture/noise/noise_egame_042.tga" />
+			<TexMask
+				Value="fx/texture/noise/noise_mask_02_tp159.tga" />
+			<u_alpha_multiply
+				Value="2" />
+			<u_diffuse_speed
+				Value="0,-0.200000" />
+			<u_diffuse_tilling_offset
+				Value="10.000000,1.000000,0.100000,0.000000" />
+			<u_distort_strength
+				Value="0.100000" />
+			<u_distort_tiling
+				Value="5,0.500000" />
+			<u_mask_color
+				Value="0.325490,0.977523,1.000000,1.000000" />
+			<u_mask_power
+				Value="10" />
+			<u_mask_tiling_offset
+				Value="1.000000,1.000000,0.500000,0.200000" />
+			<Tex0
+				Value="fx/texture/trail/trail_12_djs_005.tga" />
+			<u_uv0_trans
+				Value="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" />
+		</ParamTable>
+		<LightingMaterial />
+		<RenderStates
+			AlphaRef="0"
+			AlphaVal="255"
+			CullMode="2"
+			EnableDepthTest="True"
+			EnableDepthWrite="True"
+			DepthFunc="3"
+			CustomStencilRef="0"
+			CustomStencilType="0">
+			<TransparentMode
+				TransparentMode="5" />
+		</RenderStates>
+	</Material>
+</NeoX>

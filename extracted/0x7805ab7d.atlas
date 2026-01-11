@@ -1,0 +1,104 @@
+
+insect_game_beetle_11.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiachong_11_guang
+  rotate: false
+  xy: 2, 48
+  size: 258, 455
+  orig: 258, 455
+  offset: 0, 0
+  index: -1
+jichong_0
+  rotate: false
+  xy: 262, 234
+  size: 162, 269
+  orig: 162, 269
+  offset: 0, 0
+  index: -1
+jichong_1
+  rotate: false
+  xy: 426, 369
+  size: 124, 134
+  orig: 124, 135
+  offset: 0, 0
+  index: -1
+jichong_10
+  rotate: true
+  xy: 564, 295
+  size: 109, 107
+  orig: 109, 108
+  offset: 0, 1
+  index: -1
+jichong_11
+  rotate: false
+  xy: 357, 25
+  size: 98, 207
+  orig: 98, 208
+  offset: 0, 1
+  index: -1
+jichong_12
+  rotate: false
+  xy: 262, 10
+  size: 93, 222
+  orig: 93, 222
+  offset: 0, 0
+  index: -1
+jichong_2
+  rotate: false
+  xy: 601, 61
+  size: 66, 85
+  orig: 66, 85
+  offset: 0, 0
+  index: -1
+jichong_3
+  rotate: true
+  xy: 426, 267
+  size: 100, 136
+  orig: 100, 136
+  offset: 0, 0
+  index: -1
+jichong_4
+  rotate: false
+  xy: 457, 130
+  size: 98, 135
+  orig: 98, 135
+  offset: 0, 0
+  index: -1
+jichong_5
+  rotate: true
+  xy: 2, 25
+  size: 21, 57
+  orig: 21, 57
+  offset: 0, 0
+  index: -1
+jichong_6
+  rotate: true
+  xy: 2, 2
+  size: 21, 57
+  orig: 21, 57
+  offset: 0, 0
+  index: -1
+jichong_7
+  rotate: true
+  xy: 457, 35
+  size: 93, 142
+  orig: 93, 143
+  offset: 0, 0
+  index: -1
+jichong_8
+  rotate: true
+  xy: 552, 406
+  size: 97, 138
+  orig: 97, 138
+  offset: 0, 0
+  index: -1
+jichong_9
+  rotate: false
+  xy: 557, 148
+  size: 102, 117
+  orig: 104, 117
+  offset: 0, 0
+  index: -1

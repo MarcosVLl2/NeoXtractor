@@ -1,0 +1,48 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_niaolong01" BoundingInfo="(2.34, 12.64, -0.35),(19.44, 12.62, 10.07),25.27" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="5.3701,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird06" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub1 BoundingCenter="7.9574,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird07" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub2 BoundingCenter="10.5448,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird08" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub3 BoundingCenter="13.1321,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird09" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub4 BoundingCenter="15.7194,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird10" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub5 BoundingCenter="18.3068,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird11" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub6 BoundingCenter="20.8941,0.6425,-0.0107" BoundingHalf="0.8877,0.6206,0.6668" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_bird12" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub7 BoundingCenter="-1.0607,14.4356,-0.3549" BoundingHalf="16.0442,10.6297,10.0674" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="hds_e_baojun_niaolong01a_0" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub8 BoundingCenter="-1.0136,12.4118,-0.3469" BoundingHalf="15.7612,8.1585,9.8206" ForceBatch="false" IsSkin4S="false" MtlIdx="2" Name="hds_e_baojun_niaolong01a_1" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+        <Sub9 BoundingCenter="-4.1555,24.3467,-9.1011" BoundingHalf="0.0504,0.9178,0.0492" ForceBatch="false" IsSkin4S="false" MtlIdx="1" Name="hds_e_baojun_niaolong01b" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_niaolong.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_niaolong.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="bone_bird01" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="8629bce462154d7a" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_0>
+        <Socket_1 BindType="7" BindingBone="bone_bird011" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="f4a74ddcb011150b" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="bone_bird021" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="8a4cd76d3de222e5" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_2>
+        <Socket_3 BindType="7" BindingBone="bone_bird031" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_004" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="a2e95e6259650442" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_3>
+        <Socket_4 BindType="7" BindingBone="bone_bird041" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_005" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="1ea0bae7df8ebdf2" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_4>
+        <Socket_5 BindType="7" BindingBone="bone_bird051" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_006" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="a0ec9155e93e4e6b" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_5>
+        <Socket_6 BindType="7" BindingBone="bone_bird061" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.0000,0.0000,0.0000,1.0000" LocalScale="1.0000,1.0000,1.0000" Name="fx_show_bj_appear_007" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="3f2e1ecb5027d416" Inherit="7" Loading="4" Name="huandeng_baojun_zhanshi_appear_002.pse" Uri="fx/survivor/huandeng_baojun_zhanshi_appear_002.pse" />
+        </Socket_6>
+    </SocketObject>
+</NeoX>

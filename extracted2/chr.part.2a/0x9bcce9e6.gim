@@ -1,0 +1,28 @@
+<NeoX AnimAccumEnable="false" BoundingBoneName="biped_weiba01" BoundingInfo="(0.46, 7.72, -2.25),(0.77, 1.47, 1.30),2.11" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="0" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseNewAnimationSystem="true" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.4550,7.7233,-2.2493" BoundingHalf="0.7729,1.4697,1.2969" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="hds_e_baojun_body02_weiba" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <LogicProperties>
+        <Physics IsDiy="false" type="0" value="true" />
+    </LogicProperties>
+    <SkeletonFile>
+        <FileName Value="hds_e_baojun_weiba.skeleton" />
+    </SkeletonFile>
+    <AnimationConfigFile>
+        <FileName Value="hds_e_baojun_weiba.animconfig" />
+    </AnimationConfigFile>
+    <AnimationGraphPostProcess>
+        <FileName value="" />
+    </AnimationGraphPostProcess>
+    <NewSoftBonePath Path="chr/player/dm65_survivor_w/h55_survivor_w_hds/separate_dir/hds_e_baojun/hds_e_baojun_weiba.stb" />
+    <MtgFile MtgPath="" />
+    <SocketObject>
+        <Socket_0 BindType="7" BindingBone="biped_weiba02" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.6843,-0.6725,-0.1893,0.2089" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_001" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false" />
+        <Socket_1 BindType="7" BindingBone="biped_weiba04" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.7205,-0.5909,-0.3629,-0.0042" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_002" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="b6a2efc167fdaa13" Inherit="7" Loading="4" Name="huandeng_baojun_idle_021.pse" Uri="fx/survivor/huandeng_baojun_idle_021.pse" />
+        </Socket_1>
+        <Socket_2 BindType="7" BindingBone="biped_weiba06" BindingFlag="2" LocalPosition="0.0000,0.0000,0.0000" LocalRotation="0.5753,-0.1894,-0.5347,0.5892" LocalScale="1.0000,1.0000,1.0000" Name="const_fx_hds_bj_idle_003" PlayRatePolicy="1" PreloadingLevel="4294967295" SubmeshSortIdx="4294967295" SyncVo="false">
+            <Object CastShadow="false" Id="48569e2a4abbd603" Inherit="7" Loading="4" Name="huandeng_baojun_idle_022.pse" Uri="fx/survivor/huandeng_baojun_idle_022.pse" />
+        </Socket_2>
+    </SocketObject>
+</NeoX>

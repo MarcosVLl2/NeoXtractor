@@ -1,0 +1,7 @@
+<NeoX AnimAccumEnable="false" BoundingInfo="(0.00, 22.82, 0.00),(41.09, 23.25, 1.97),47.25" DivideAgsFile="false" GeoBatchHint="0" HighPrecisionAABBEnable="false" PreZAlphaBlend="false" ProbeAnchorType="0" TangentEnable="true" UseLightProbe="1" UseLightProbeAtSubMesh="false" UseMikkTaspace="false" UseReflectionProbe="0" UseReflectionProbeAtSubMesh="false">
+    <SubMesh>
+        <Sub0 BoundingCenter="0.0000,22.8201,0.0000" BoundingHalf="41.0867,23.2493,1.9703" BoundingInfo="(0.00, 22.82, 0.00),(41.09, 23.25, 1.97),47.25" ForceBatch="false" IsSkin4S="false" MtlIdx="0" Name="h55_manor_ttds_mural" RenderGroup="0" RenderOffset="0" ShadowBias="0" ShadowNormalBias="0" />
+    </SubMesh>
+    <NewSoftBonePath Path="" />
+    <SocketObject />
+</NeoX>

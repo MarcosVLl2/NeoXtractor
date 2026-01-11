@@ -1,0 +1,29 @@
+{
+  "name": "Plain Text",
+  "formats": {
+    "default": {
+      "foreground": "#000000@.text"
+    },
+    "url": {
+      "foreground": "#0066cc@variable",
+      "underline": true
+    },
+    "number": {
+      "foreground": "#800080@number"
+    }
+  },
+  "rules": [
+    {
+      "pattern": ".*",
+      "format": "default"
+    },
+    {
+      "pattern": "\\b(?:https?|ftp)://[\\w\\d\\-\\.]+\\.[a-zA-Z]{2,}[\\w\\d\\-\\._~:/?#[\\]@!$&'()*+,;=]*",
+      "format": "url"
+    },
+    {
+      "pattern": "\\b\\d+(?:\\.\\d+)?\\b",
+      "format": "number"
+    }
+  ]
+}
