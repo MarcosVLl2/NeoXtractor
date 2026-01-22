@@ -19,7 +19,7 @@ class IFile(metaclass=ABCMeta):
     @property
     def extension(self) -> str:
         """Extension of the file."""
-        return os.path.splitext(self.name)[1]
+        return os.path.splitext(self.name)[1][1:]
 
     @property
     @abstractmethod

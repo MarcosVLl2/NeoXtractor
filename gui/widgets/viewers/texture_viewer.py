@@ -230,7 +230,7 @@ class TextureViewer(Viewer, ICustomTabWindow):
 
     def set_file(self, file: IFile):
         """Set the texture data and extension."""
-        if file.extension not in self.accepted_extensions:
+        if file.extension.lower() not in self.accepted_extensions:
             raise ValueError(f"Unsupported image format: {file.extension}")
 
         self._file = file

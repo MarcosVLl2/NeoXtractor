@@ -89,7 +89,7 @@ class BnkViewer(Viewer):
         """Read a BNK file and populate the list widget with WEM files."""
         self.clear_all()
 
-        if extension not in self.accepted_extensions:
+        if extension.lower() not in self.accepted_extensions:
             raise ValueError(f"Unsupported file extension: {extension}")
 
         self.container = BNKExtractor(data)
