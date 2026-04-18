@@ -1,14 +1,16 @@
 """Provides mesh viewer."""
 
-from PySide6 import QtWidgets, QtCore
+from PySide6 import QtCore, QtWidgets
 
 from core.file import IFile
-from gui.widgets.viewer import Viewer
 from gui.widgets.tab_window_ui.mesh_viewer import setup_mesh_viewer_tab_window
+from gui.widgets.viewer import Viewer
+from gui.windows.viewer_tab_window import ICustomTabWindow
 
 from .render_widget import MeshRenderWidget
 
-class MeshViewer(Viewer):
+
+class MeshViewer(Viewer, ICustomTabWindow):
     """
     A Qt widget that provides a 3D mesh viewer with interactive controls.
     This widget combines a mesh rendering area with control checkboxes for toggling
@@ -40,28 +42,36 @@ class MeshViewer(Viewer):
         control_layout = QtWidgets.QHBoxLayout()
 
         self.wireframe_checkbox = QtWidgets.QCheckBox("Wireframe Mode", self)
+
         def toggle_wireframe(state):
             self.render_widget.wireframe_mode = state == QtCore.Qt.CheckState.Checked
+
         self.wireframe_checkbox.checkStateChanged.connect(toggle_wireframe)
         control_layout.addWidget(self.wireframe_checkbox)
 
         self.bone_checkbox = QtWidgets.QCheckBox("Show Bones", self)
         self.bone_checkbox.setChecked(True)
+
         def toggle_bones(state):
             self.render_widget.draw_bones = state == QtCore.Qt.CheckState.Checked
+
         self.bone_checkbox.checkStateChanged.connect(toggle_bones)
         control_layout.addWidget(self.bone_checkbox)
 
         self.normal_checkbox = QtWidgets.QCheckBox("Show Normals", self)
+
         def toggle_normals(state):
             self.render_widget.draw_normals = state == QtCore.Qt.CheckState.Checked
+
         self.normal_checkbox.checkStateChanged.connect(toggle_normals)
         control_layout.addWidget(self.normal_checkbox)
 
         self.text_checkbox = QtWidgets.QCheckBox("Show Text", self)
         self.text_checkbox.setChecked(True)
+
         def toggle_text(state):
             self.render_widget.draw_text = state == QtCore.Qt.CheckState.Checked
+
         self.text_checkbox.checkStateChanged.connect(toggle_text)
         control_layout.addWidget(self.text_checkbox)
 

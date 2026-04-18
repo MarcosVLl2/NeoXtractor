@@ -31,19 +31,3 @@ class Viewer(QtWidgets.QWidget):
     def unload_file(self):
         """Unload the current file and free resources."""
         pass
-
-
-class ICustomTabWindow:
-    """Interface for viewers that need custom tab window setup."""
-
-    @staticmethod
-    def setup_tab_window(window: QtWidgets.QMainWindow):
-        """Setup custom tab window features.
-
-        Args:
-            window: The tab window to setup
-
-        Raises:
-            NotImplementedError: If subclass doesn't implement this method
-        """
-        raise NotImplementedError("Subclasses must implement setup_tab_window()")
