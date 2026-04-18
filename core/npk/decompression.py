@@ -7,7 +7,6 @@ from typing import cast
 import lz4.block
 import zstandard
 from cryptography.hazmat.backends import default_backend
-from cryptography.hazmat.bindings._rust.openssl.rsa import RSAPublicKey
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 

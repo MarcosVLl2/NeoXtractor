@@ -292,37 +292,6 @@ class NPKFile:
         if self.file_type == NPKFileType.EXPK and self.key_generator is not None:
             entry.data = self.key_generator.decrypt(entry.data)
 
-        # Check for special 128-byte XOR + Zstd format
-        # encrypt_flag = 1 (BASIC_XOR) but with 128-byte key + Zstd compression
-        if (entry.encrypt_flag == DecryptionType.BASIC_XOR and
-            len(entry.data) >= 4 and
-            entry.data[:4] == bytes([0x7B, 0xE1, 0x7A, 0xAB])):
-            
-            import zstandard
-            xor_key = bytes(range(0x53, 0xD3))
-            xor_len = min(128, len(entry.data))
-            decrypted_header = bytearray(entry.data[:xor_len])
-            for i in range(xor_len):
-                decrypted_header[i] ^= xor_key[i]
-            if len(entry.data) > 128:
-                entry.data = bytes(decrypted_header) + entry.data[128:]
-            else:
-                entry.data = bytes(decrypted_header)
-            entry.data = zstandard.ZstdDecompressor().decompress(entry.data)
-            entry.data_flags |= NPKEntryDataFlags.ENCRYPTED
-            entry.unwrap_layers = ["ZSTD_XOR"]
-            
-            binary = is_binary(entry.data)
-            if not binary:
-                entry.data_flags |= NPKEntryDataFlags.TEXT
-            processed = process_entry_with_processors(entry)
-            if processed and not is_binary(entry.data):
-                entry.data_flags |= NPKEntryDataFlags.TEXT
-            entry.extension = get_ext(entry.data, entry.data_flags)
-            entry.category = get_file_category(entry.extension)
-            get_logger().debug("Entry %s: %s", entry.filename, entry.category)
-            return
-
         # Normal flow: decrypt with Config key
         if entry.encrypt_flag != DecryptionType.NONE:
             entry.data = decrypt_entry(entry, self.options.decryption_key)

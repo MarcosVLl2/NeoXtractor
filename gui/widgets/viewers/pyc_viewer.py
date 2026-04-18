@@ -2,18 +2,9 @@
 Pyc/Bindict file viewer - displays parsed dictionaries as Python dict
 """
 
-import sys
-from pathlib import Path
+from PySide6 import QtGui, QtWidgets
 
 from core.file import IFile
-
-# 确保可以导入 core 模块
-sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-
-from PySide6 import QtCore, QtGui, QtWidgets
-from PySide6.QtCore import Qt
-
-from core.npk.class_types import NPKEntry
 from gui.widgets.viewer import Viewer
 
 
