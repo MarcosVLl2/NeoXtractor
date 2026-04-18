@@ -92,7 +92,7 @@ class NPKFileModel(QtCore.QAbstractListModel):
                 if entry.state == State.UNLOADED:
                     return QtGui.QBrush(QtGui.QColorConstants.Red)
                 elif entry.state == State.CACHED:
-                    return QtGui.QBrush(self._theme_config.get_color("palette.primary"))
+                    return QtGui.QBrush(self._theme_config.get_color("background"))
                 elif entry.state == State.PRIMARY_LOAD:
                     return QtGui.QBrush(QtGui.QColorConstants.Green)
                 elif entry.state == State.SECONDARY_LOAD:
