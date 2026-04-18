@@ -118,6 +118,10 @@ def _get_binary_ext(data: bytes, flags: NPKEntryDataFlags):
         return "bnk"
     if data[:4] == b"8BPS":
         return "psd"
+    if data[:4] == b"NXBI":
+        return "npse"
+    if data[:4] == b"NSXC":
+        return "nsxc"
     if data[:4] == b"TZif":
         return "tzif"
     if data[6:10] == b"JFIF":

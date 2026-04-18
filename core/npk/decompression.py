@@ -312,17 +312,3 @@ def unpack_nxs3(data: bytes) -> bytes:
     elif data[:8] == b"\x4e\x58\x5a\x00\x47\x38\x36\x00":
         return _unpack_nxs_new(data)
     return data
-
-
-def check_zstd_xor(data: bytes) -> bool:
-    return len(data) >= 4 and data[:4] == bytes([0x7B, 0xE1, 0x7A, 0xAB])
-
-
-def unpack_zstd_xor(data: bytes) -> bytes:
-    if data[:4] != bytes([0x7B, 0xE1, 0x7A, 0xAB]):
-        return data
-    xor_key = bytes(range(0x53, 0xD3))
-    decrypted = bytearray(data)
-    for i in range(min(128, len(data))):
-        decrypted[i] ^= xor_key[i]
-    return zstandard.ZstdDecompressor().decompress(bytes(decrypted))
