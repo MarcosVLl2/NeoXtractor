@@ -1,7 +1,8 @@
 """Provides a preview widget for Main Window."""
 
 from typing import cast
-from PySide6 import QtWidgets, QtCore
+
+from PySide6 import QtCore, QtWidgets
 
 from core.npk.class_types import NPKEntry, NPKEntryDataFlags
 from core.utils import format_bytes
@@ -9,6 +10,7 @@ from gui.utils.viewer import ALL_VIEWERS, find_best_viewer
 from gui.widgets.viewer import Viewer
 
 SELECT_ENTRY_TEXT = "Select an entry to preview."
+
 
 class PreviewWidget(QtWidgets.QWidget):
     """
@@ -35,11 +37,13 @@ class PreviewWidget(QtWidgets.QWidget):
         self.control_bar_layout.addStretch()
 
         self.previewer_selector = QtWidgets.QComboBox(self)
+
         def on_previewer_selected(index: int):
             previewer = self.previewer_selector.currentData()
             if previewer is None:
                 return
             self.select_previewer(previewer)
+
         self.previewer_selector.currentIndexChanged.connect(on_previewer_selected)
 
         self.control_bar_layout.addWidget(self.previewer_selector)
@@ -62,7 +66,7 @@ class PreviewWidget(QtWidgets.QWidget):
     def _add_previewer(self, previewer: Viewer):
         """
         Add a previewer to the preview widget.
-        
+
         :param previewer: The previewer to add.
         """
         self.previewer_selector.addItem(previewer.name, previewer)
@@ -71,7 +75,7 @@ class PreviewWidget(QtWidgets.QWidget):
     def _set_data_for_previewer(self, previewer: Viewer, data: NPKEntry | None):
         """
         Set the data for the previewer. When errors occur, hide the previewer and show an error message.
-        
+
         :param previewer: The previewer to set the data for.
         :param data: The NPK entry data to set.
         """
@@ -88,7 +92,7 @@ class PreviewWidget(QtWidgets.QWidget):
     def set_control_bar_visible(self, visible: bool):
         """
         Set the visibility of the control bar.
-        
+
         :param visible: Whether to show or hide the control bar.
         """
         self.status_label.setVisible(visible)
@@ -97,7 +101,7 @@ class PreviewWidget(QtWidgets.QWidget):
     def select_previewer(self, previewer: Viewer):
         """
         Select a previewer to display.
-        
+
         :param previewer: The previewer to display.
         """
         self.message_label.setVisible(False)
@@ -109,7 +113,9 @@ class PreviewWidget(QtWidgets.QWidget):
             previewer.setVisible(True)
 
         # Set the previewer selector to the selected previewer
-        self.previewer_selector.setCurrentIndex(self.previewer_selector.findData(previewer))
+        self.previewer_selector.setCurrentIndex(
+            self.previewer_selector.findData(previewer)
+        )
 
         if self._current_entry is None:
             return
@@ -120,25 +126,29 @@ class PreviewWidget(QtWidgets.QWidget):
     def set_file(self, npk_entry: NPKEntry):
         """
         Set the file to be previewed and select the appropriate previewer.
-        
+
         :param npk_entry: The NPK entry to preview.
         """
         self.clear()
 
         self._current_entry = npk_entry
 
-        self.status_label.setText(f"Signature: {hex(npk_entry.file_signature)} | " +
-                                  f"Size: {format_bytes(npk_entry.file_original_length)}")
+        self.status_label.setText(
+            f"Signature: {hex(npk_entry.file_signature)} | "
+            + f"Size: {format_bytes(npk_entry.file_original_length)}"
+        )
 
         self.set_control_bar_visible(True)
 
         # Find the best previewer for the given NPK entry
-        best_previewer = find_best_viewer(npk_entry.extension, bool(npk_entry.data_flags & NPKEntryDataFlags.TEXT))
+        best_previewer = find_best_viewer(
+            npk_entry.extension, bool(npk_entry.data_flags & NPKEntryDataFlags.TEXT)
+        )
         for previewer in self._previewers:
             if isinstance(previewer, best_previewer):
                 self.select_previewer(previewer)
                 return
-        
+
         # If no previewer found, show message
         self.message_label.setText(f"No previewer available for this file type")
         self.message_label.setVisible(True)

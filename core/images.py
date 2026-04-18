@@ -202,7 +202,7 @@ def pvr_convert(data: bytes):
 
 
 # https://registry.khronos.org/KTX/specs/1.0/ktxspec.v1.html
-# https://github.com/KhronosGroup/KTX-Software/blob/main/lib/gl_format.h
+# https://github.com/KhronosGroup/KTX-Software/blob/main/lib/src/gl_format.h
 def ktx_convert(data: bytes):
     """Convert KTX to Image."""
     f = ConstBitStream(io.BytesIO(data))
@@ -227,33 +227,33 @@ def ktx_convert(data: bytes):
             return _decode_correct_format("ETC2A1", image_data, width, height)
         case 0x9278:
             return _decode_correct_format("ETC2A8", image_data, width, height)
-        case 0x93B0:
+        case 0x93B0 | 0x93D0:
             return _decode_correct_format("ASTC", image_data, width, height, 4, 4)
-        case 0x93B1:
+        case 0x93B1 | 0x93D1:
             return _decode_correct_format("ASTC", image_data, width, height, 5, 4)
-        case 0x93B2:
+        case 0x93B2 | 0x93D2:
             return _decode_correct_format("ASTC", image_data, width, height, 5, 5)
-        case 0x93B3:
+        case 0x93B3 | 0x93D3:
             return _decode_correct_format("ASTC", image_data, width, height, 6, 5)
-        case 0x93B4:
+        case 0x93B4 | 0x93D4:
             return _decode_correct_format("ASTC", image_data, width, height, 6, 6)
-        case 0x93B5:
+        case 0x93B5 | 0x93D5:
             return _decode_correct_format("ASTC", image_data, width, height, 8, 5)
-        case 0x93B6:
+        case 0x93B6 | 0x93D6:
             return _decode_correct_format("ASTC", image_data, width, height, 8, 6)
-        case 0x93B7:
+        case 0x93B7 | 0x93D7:
             return _decode_correct_format("ASTC", image_data, width, height, 8, 8)
-        case 0x93B8:
+        case 0x93B8 | 0x93D8:
             return _decode_correct_format("ASTC", image_data, width, height, 10, 5)
-        case 0x93B9:
+        case 0x93B9 | 0x93D9:
             return _decode_correct_format("ASTC", image_data, width, height, 10, 6)
-        case 0x93BA:
+        case 0x93BA | 0x93DA:
             return _decode_correct_format("ASTC", image_data, width, height, 10, 8)
-        case 0x93BB:
+        case 0x93BB | 0x93DB:
             return _decode_correct_format("ASTC", image_data, width, height, 10, 10)
-        case 0x93BC:
+        case 0x93BC | 0x93DC:
             return _decode_correct_format("ASTC", image_data, width, height, 12, 10)
-        case 0x93BD:
+        case 0x93BD | 0x93DD:
             return _decode_correct_format("ASTC", image_data, width, height, 12, 12)
     raise ValueError(f"Unknown KTX format: {glInternalFormat:#x}")
 
