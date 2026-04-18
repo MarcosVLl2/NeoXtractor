@@ -14,6 +14,7 @@ from core.npk.enums import CompressionType
 from core.npk.class_types import NPKEntry
 from core.rotor import Rotor
 
+
 def init_rotor():
     """Initializes the rotor instance."""
     asdf_dn = 'j2h56ogodh3se'
@@ -23,11 +24,13 @@ def init_rotor():
     rot = Rotor(asdf_tm)
     return rot
 
+
 def _reverse_string(s):
     l = list(s)
     l = list(map(lambda x: x ^ 154, l[0:128])) + l[128:]
     l.reverse()
     return bytes(l)
+
 
 def decompress_entry(entry: NPKEntry):
     """
@@ -54,6 +57,7 @@ def decompress_entry(entry: NPKEntry):
 
     # No matched compression.
     return entry.data
+
 
 def strip_none_wrapper(data: bytes) -> bytes:
     """Strip a simple NONE wrapper header if present."""
@@ -303,3 +307,17 @@ def unpack_nxs3(data: bytes) -> bytes:
     elif data[:8] == b'\x4E\x58\x5A\x00\x47\x38\x36\x00':
         return _unpack_nxs_new(data)
     return data
+
+
+def check_zstd_xor(data: bytes) -> bool:
+    return len(data) >= 4 and data[:4] == bytes([0x7B, 0xE1, 0x7A, 0xAB])
+
+
+def unpack_zstd_xor(data: bytes) -> bytes:
+    if data[:4] != bytes([0x7B, 0xE1, 0x7A, 0xAB]):
+        return data
+    xor_key = bytes(range(0x53, 0xD3))
+    decrypted = bytearray(data)
+    for i in range(min(128, len(data))):
+        decrypted[i] ^= xor_key[i]
+    return zstandard.ZstdDecompressor().decompress(bytes(decrypted))
