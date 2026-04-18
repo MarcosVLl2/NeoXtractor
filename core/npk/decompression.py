@@ -1,26 +1,37 @@
 """Provides decompression functions."""
 
-from typing import cast
+import struct
 import zlib
+from typing import cast
+
 import lz4.block
 import zstandard
-import struct
-
-from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.bindings._rust.openssl.rsa import RSAPublicKey
+from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 
-from core.npk.enums import CompressionType
 from core.npk.class_types import NPKEntry
+from core.npk.enums import CompressionType
 from core.rotor import Rotor
 
 
 def init_rotor():
     """Initializes the rotor instance."""
-    asdf_dn = 'j2h56ogodh3se'
-    asdf_dt = '=dziaq.'
+    asdf_dn = "j2h56ogodh3se"
+    asdf_dt = "=dziaq."
     asdf_df = '|os=5v7!"-234'
-    asdf_tm = asdf_dn * 4 + (asdf_dt + asdf_dn + asdf_df) * 5 + '!' + '#' + asdf_dt * 7 + asdf_df * 2 + '*' + '&' + "'"
+    asdf_tm = (
+        asdf_dn * 4
+        + (asdf_dt + asdf_dn + asdf_df) * 5
+        + "!"
+        + "#"
+        + asdf_dt * 7
+        + asdf_df * 2
+        + "*"
+        + "&"
+        + "'"
+    )
     rot = Rotor(asdf_tm)
     return rot
 
@@ -49,8 +60,9 @@ def decompress_entry(entry: NPKEntry):
         return zlib.decompress(entry.data, bufsize=entry.file_original_length)
 
     if entry.zip_flag == CompressionType.LZ4:
-        return lz4.block.decompress(entry.data,
-                                          uncompressed_size=entry.file_original_length)
+        return lz4.block.decompress(
+            entry.data, uncompressed_size=entry.file_original_length
+        )
 
     if entry.zip_flag == CompressionType.ZSTANDARD:
         return zstandard.ZstdDecompressor().decompress(entry.data)
@@ -68,7 +80,7 @@ def strip_none_wrapper(data: bytes) -> bytes:
 
 def check_lz4_like(data: bytes) -> bool:
     """Check for the custom LZ4-like stream seen in some payloads."""
-    return len(data) >= 4 and data[:4] == b"\x27\xE3\x00\x01"
+    return len(data) >= 4 and data[:4] == b"\x27\xe3\x00\x01"
 
 
 def unpack_lz4_like(data: bytes) -> bytes:
@@ -102,7 +114,7 @@ def unpack_lz4_like(data: bytes) -> bytes:
         if in_ptr + literal_len > data_len:
             break
 
-        out_buf.extend(data[in_ptr:in_ptr + literal_len])
+        out_buf.extend(data[in_ptr : in_ptr + literal_len])
         in_ptr += literal_len
 
         if in_ptr >= data_len:
@@ -111,7 +123,7 @@ def unpack_lz4_like(data: bytes) -> bytes:
         if in_ptr + 2 > data_len:
             break
 
-        offset = struct.unpack('<H', data[in_ptr:in_ptr + 2])[0]
+        offset = struct.unpack("<H", data[in_ptr : in_ptr + 2])[0]
         in_ptr += 2
 
         if match_len == 15:
@@ -140,17 +152,21 @@ def unpack_lz4_like(data: bytes) -> bytes:
 
 def check_nxs3(entry: NPKEntry) -> bool:
     """Check if the data is wrapped in any NXS format (old NXS3 or new NXS)."""
-    return entry.data[:8] == b"NXS3\x03\x00\x00\x01" or \
-           entry.data[:8] == b'\x4E\x58\x5A\x00\x47\x38\x36\x00'
+    return (
+        entry.data[:8] == b"NXS3\x03\x00\x00\x01"
+        or entry.data[:8] == b"\x4e\x58\x5a\x00\x47\x38\x36\x00"
+    )
 
 
 def check_rotor(entry: NPKEntry) -> bool:
     """Check if the data is ROTOR encrypted."""
-    return (entry.data[:2] == bytes([0x1D, 0x04]) or entry.data[:2] == bytes([0x15, 0x23]))
+    return entry.data[:2] == bytes([0x1D, 0x04]) or entry.data[:2] == bytes(
+        [0x15, 0x23]
+    )
 
 
 def check_stzb(entry: NPKEntry) -> bool:
-    return entry.data[:4] == b'STZB'
+    return entry.data[:4] == b"STZB"
 
 
 def unpack_rotor(data):
@@ -160,22 +176,22 @@ def unpack_rotor(data):
 
 def unpack_stzb(data):
     """Unpacks STZB encrypted data - completely aligned with the second script"""
-    if data[:4] != b'STZB':
+    if data[:4] != b"STZB":
         return data
-    
-    magic = data[0:4]
-    unknown = data[4:8]
-    compressed_len = struct.unpack('<I', data[8:12])[0]
-    encrypted_len = struct.unpack('<I', data[12:16])[0]
-    
-    xor_key = b'\x8E\x50\x9F\xE8\x59\x67\x91\xFB'
+
+    # magic = data[0:4]
+    # unknown = data[4:8]
+    # compressed_len = struct.unpack('<I', data[8:12])[0]
+    encrypted_len = struct.unpack("<I", data[12:16])[0]
+
+    xor_key = b"\x8e\x50\x9f\xe8\x59\x67\x91\xfb"
     decrypted_data = bytearray()
-    
-    encrypted_data = data[16:16+encrypted_len]
+
+    encrypted_data = data[16 : 16 + encrypted_len]
     for i, byte in enumerate(encrypted_data):
         key_byte = xor_key[i % len(xor_key)]
         decrypted_data.append(byte ^ key_byte)
-    
+
     return bytes(decrypted_data)
 
 
@@ -190,13 +206,13 @@ def rsa_public_decrypt(signature: bytes, key: rsa.RSAPublicKey) -> bytes:
         raise ValueError("Signature length does not match key size")
 
     # Convert signature to integer
-    sig_int = int.from_bytes(signature, byteorder='big')
+    sig_int = int.from_bytes(signature, byteorder="big")
 
     # RSA public operation: m = sig^e mod n
     m_int = pow(sig_int, e, n)
 
     # Convert back to bytes
-    decrypted = m_int.to_bytes(k, byteorder='big')
+    decrypted = m_int.to_bytes(k, byteorder="big")
 
     # Remove PKCS#1 v1.5 padding
     if decrypted[0] != 0x00 or decrypted[1] != 0x01:
@@ -208,7 +224,7 @@ def rsa_public_decrypt(signature: bytes, key: rsa.RSAPublicKey) -> bytes:
     except ValueError as e:
         raise ValueError("Padding end not found") from e
 
-    return decrypted[padding_end + 1:]
+    return decrypted[padding_end + 1 :]
 
 
 def _unpack_nxs3_old(data: bytes) -> bytes:
@@ -222,36 +238,20 @@ pY4/jT3aipwPNVTjM6yHbzOLhrnGJh7Ec3CQG/FZu6VKoCqVEtCeh15hjcu6QYtn
 YWIEf8qgkylqsOQ3IIn76udV6m0AWC2jDlmLeRcR04w9NNw7+9t9AgMBAAE=
 -----END RSA PUBLIC KEY-----"""
 
-    rsa_key = cast(rsa.RSAPublicKey, serialization.load_pem_public_key(pem_key, backend=default_backend()))
+    rsa_key = cast(
+        rsa.RSAPublicKey,
+        serialization.load_pem_public_key(pem_key, backend=default_backend()),
+    )
 
-    wrapped_key = rsa_public_decrypt(data[20:20+128], rsa_key)[:4]
+    decrypted = _nxs3_logic(data, rsa_key, 128)
 
-    if wrapped_key is None:
-        raise ValueError("Decryption of the encrypted key failed.")
-
-    # Convert to int
-    ephemeral_key = int.from_bytes(wrapped_key, "little")
-
-    # Continue with the existing decryption logic
-    decrypted = []
-
-    for i, x in enumerate(data[20 + 128:]):
-        val = x ^ ((ephemeral_key >> (i % 4 * 8)) & 0xff)
-        if i % 4 == 3:
-            ror = (ephemeral_key >> 19) | ((ephemeral_key << (32 - 19)) & 0xFFFFFFFF)
-            ephemeral_key = (ror + ((ror << 2) & 0xFFFFFFFF) + 0xE6546B64) & 0xFFFFFFFF
-        decrypted.append(val)
-
-    decrypted = bytes(decrypted)
     return decrypted
 
 
 def _unpack_nxs_new(data: bytes) -> bytes:
     """
-   Add NXS decryption support for endless Lagrange
+    Add NXS decryption support for endless Lagrange
     """
-    if data[:8] != b'\x4E\x58\x5A\x00\x47\x38\x36\x00':
-        return data
 
     # 4096-bit RSA public key
     pem_key = b"""-----BEGIN RSA PUBLIC KEY-----
@@ -268,10 +268,23 @@ iOvQK1rRaJgE2NdU0EOAOhDAJu+1JfiB60nJw20gSM6Wl3s9N+UmXrR+xJxxcgnK
 P0VB60qOgnlYmNwld5muJazI9P7sbtFRuEVLoN5Y+P9PCIXQ/RrZVLMCAwEAAQ==
 -----END RSA PUBLIC KEY-----"""
 
-    rsa_key = cast(rsa.RSAPublicKey, serialization.load_pem_public_key(pem_key, backend=default_backend()))
+    rsa_key = cast(
+        rsa.RSAPublicKey,
+        serialization.load_pem_public_key(pem_key, backend=default_backend()),
+    )
 
-    # Decrypt the wrapped key (512 bytes for 4096-bit RSA)
-    wrapped_key = rsa_public_decrypt(data[20:20+512], rsa_key)[:4]
+    decrypted = _nxs3_logic(data, rsa_key, 512)
+
+    # Check if Zstd compressed and decompress
+    if decrypted[:4] == b"\x28\xb5\x2f\xfd":
+        dctx = zstandard.ZstdDecompressor()
+        return dctx.decompress(decrypted)
+
+    return decrypted
+
+
+def _nxs3_logic(data: bytes, key: rsa.RSAPublicKey, size: int):
+    wrapped_key = rsa_public_decrypt(data[20 : 20 + size], key)[:4]
 
     if wrapped_key is None or len(wrapped_key) != 4:
         raise ValueError("Decryption of the encrypted key failed.")
@@ -281,7 +294,7 @@ P0VB60qOgnlYmNwld5muJazI9P7sbtFRuEVLoN5Y+P9PCIXQ/RrZVLMCAwEAAQ==
 
     # Stream cipher decryption
     decrypted = bytearray()
-    payload = data[20 + 512:]
+    payload = data[20 + size :]
 
     for i, x in enumerate(payload):
         val = x ^ ((ephemeral_key >> (i % 4 * 8)) & 0xFF)
@@ -290,21 +303,14 @@ P0VB60qOgnlYmNwld5muJazI9P7sbtFRuEVLoN5Y+P9PCIXQ/RrZVLMCAwEAAQ==
             ror = (ephemeral_key >> 19) | ((ephemeral_key << 13) & 0xFFFFFFFF)
             ephemeral_key = (ror + ((ror << 2) & 0xFFFFFFFF) + 0xE6546B64) & 0xFFFFFFFF
 
-    decrypted = bytes(decrypted)
-
-    # Check if Zstd compressed and decompress
-    if decrypted[:4] == b'\x28\xB5\x2F\xFD':
-        dctx = zstandard.ZstdDecompressor()
-        return dctx.decompress(decrypted)
-
-    return decrypted
+    return bytes(decrypted)
 
 
 def unpack_nxs3(data: bytes) -> bytes:
     """Unpack any NXS format (old NXS3 or new NXS)."""
     if data[:8] == b"NXS3\x03\x00\x00\x01":
         return _unpack_nxs3_old(data)
-    elif data[:8] == b'\x4E\x58\x5A\x00\x47\x38\x36\x00':
+    elif data[:8] == b"\x4e\x58\x5a\x00\x47\x38\x36\x00":
         return _unpack_nxs_new(data)
     return data
 

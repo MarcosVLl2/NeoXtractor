@@ -1,7 +1,7 @@
 {
   "name": "Infinite Lagrange",
   "read_options": {
-    "decryption_key": null,
+    "decryption_key": 83,
     "aes_key": null,
     "info_size": 28
   },

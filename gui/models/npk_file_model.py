@@ -8,6 +8,7 @@ from core.config import Config
 from core.npk.class_types import NPKEntryDataFlags, State
 from core.npk.npk_file import NPKFile
 from core.utils import get_filename_in_config
+from gui.theme import ThemeManager
 
 
 class NPKFileModel(QtCore.QAbstractListModel):
@@ -37,6 +38,7 @@ class NPKFileModel(QtCore.QAbstractListModel):
         self._npk_file = npk_file
         app = cast(QtCore.QCoreApplication, QtWidgets.QApplication.instance())
         self._game_config: Config = app.property("game_config")
+        self._theme_config: ThemeManager = app.property("theme_manager")
 
     def rowCount(
         self,
@@ -90,7 +92,7 @@ class NPKFileModel(QtCore.QAbstractListModel):
                 if entry.state == State.UNLOADED:
                     return QtGui.QBrush(QtGui.QColorConstants.Red)
                 elif entry.state == State.CACHED:
-                    return QtGui.QBrush(QtGui.QColorConstants.White)
+                    return QtGui.QBrush(self._theme_config.get_color("palette.primary"))
                 elif entry.state == State.PRIMARY_LOAD:
                     return QtGui.QBrush(QtGui.QColorConstants.Green)
                 elif entry.state == State.SECONDARY_LOAD:
