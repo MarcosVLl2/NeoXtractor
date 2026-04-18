@@ -20,7 +20,7 @@ from gui.widgets.viewer import Viewer
 class PythonHighlighter(QtGui.QSyntaxHighlighter):
     """Syntax highlighter for Python code"""
 
-    def __init__(self, parent=None):
+    def __init__(self, parent):
         super().__init__(parent)
 
         self._formats = {}
@@ -124,7 +124,7 @@ class PycViewer(Viewer):
     """Python Compiled (.pyc) / Binary Dictionary Viewer"""
 
     name = "Python Compiled / Dictionary"
-    accepted_extensions = ["pyc"]
+    accepted_extensions = {"pyc"}
     allow_unsupported_extensions = False
 
     def __init__(self):
