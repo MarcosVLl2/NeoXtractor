@@ -2,7 +2,7 @@
   "name": "Dark Theme",
   "base": "dark",
   "description": "A modern dark theme for low-light environments",
-  
+
   "colors": {
     "palette": {
       "background": "#1e1e1e",
@@ -42,7 +42,7 @@
       "row_color": "#1e1e1e",
       "alternate_row_color": "#252525"
     },
-    
+
     "code_viewer": {
       "background": "#1e1e1e",
       "text": "#ffffff",
@@ -51,10 +51,10 @@
       "current_line_background": "#3a3a3a",
       "selection_background": "#264f78",
       "selection_text": "#ffffff",
-      
+
       "syntax": {
         "keyword": "#569cd6",
-        "string": "#ce9178", 
+        "string": "#ce9178",
         "comment": "#6a9955",
         "number": "#b5cea8",
         "function": "#dcdcaa",

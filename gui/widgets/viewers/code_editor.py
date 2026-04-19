@@ -6,9 +6,25 @@ Provides a flexible syntax highlighting system with JSON-based rules.
 import json
 import os
 
-from PySide6.QtCore import QRegularExpression, Qt, QRect, QSize, Signal
-from PySide6.QtGui import QSyntaxHighlighter, QTextCharFormat, QColor, QFont, QTextDocument, QPainter, QPaintEvent
-from PySide6.QtWidgets import QPlainTextEdit, QWidget, QHBoxLayout, QLabel, QComboBox, QFrame, QVBoxLayout
+from PySide6.QtCore import QRect, QRegularExpression, QSize, Qt, Signal
+from PySide6.QtGui import (
+    QColor,
+    QFont,
+    QPainter,
+    QPaintEvent,
+    QSyntaxHighlighter,
+    QTextCharFormat,
+    QTextDocument,
+)
+from PySide6.QtWidgets import (
+    QComboBox,
+    QFrame,
+    QHBoxLayout,
+    QLabel,
+    QPlainTextEdit,
+    QVBoxLayout,
+    QWidget,
+)
 
 from core.file import IFile
 from core.logger import get_logger
@@ -16,18 +32,19 @@ from core.utils import get_application_path
 from gui.theme.theme_manager import ThemeManager
 from gui.widgets.viewer import Viewer
 
+
 class LineNumberArea(QWidget):
     """
     Widget that displays line numbers for a QPlainTextEdit.
-    
-    This widget is displayed in the left margin of the CodeViewer and 
+
+    This widget is displayed in the left margin of the CodeViewer and
     shows the line numbers for the visible text.
     """
 
-    def __init__(self, editor: 'CodeViewer'):
+    def __init__(self, editor: "CodeViewer"):
         """
         Initialize the line number area.
-        
+
         Args:
             editor: The CodeViewer instance this line number area belongs to
         """
@@ -48,12 +65,17 @@ class LineNumberArea(QWidget):
     def _update_theme(self, theme):
         """Update colors based on current theme."""
 
-        self.background_color = QColor(self._theme_manager.get_color(
-            "code_viewer.line_number_background") or "#f5f5f5")
-        self.current_line_color = QColor(self._theme_manager.get_color(
-            "code_viewer.current_line_background") or "#e8e8e8")
-        self.text_color = QColor(self._theme_manager.get_color(
-            "code_viewer.line_number_text") or "#666666")
+        self.background_color = QColor(
+            self._theme_manager.get_color("code_viewer.line_number_background")
+            or "#f5f5f5"
+        )
+        self.current_line_color = QColor(
+            self._theme_manager.get_color("code_viewer.current_line_background")
+            or "#e8e8e8"
+        )
+        self.text_color = QColor(
+            self._theme_manager.get_color("code_viewer.line_number_text") or "#666666"
+        )
         self.update()
 
     def sizeHint(self):
@@ -67,7 +89,11 @@ class LineNumberArea(QWidget):
 
         block = self.editor.firstVisibleBlock()
         block_number = block.blockNumber()
-        top = round(self.editor.blockBoundingGeometry(block).translated(self.editor.contentOffset()).top())
+        top = round(
+            self.editor.blockBoundingGeometry(block)
+            .translated(self.editor.contentOffset())
+            .top()
+        )
         bottom = top + round(self.editor.blockBoundingRect(block).height())
 
         # Font for line numbers
@@ -81,11 +107,22 @@ class LineNumberArea(QWidget):
             if block.isVisible() and bottom >= event.rect().top():
                 number = str(block_number + 1)
                 if number == str(self.editor.textCursor().blockNumber() + 1):
-                    painter.fillRect(0, top, self.width(), self.editor.fontMetrics().height(), self.current_line_color)
+                    painter.fillRect(
+                        0,
+                        top,
+                        self.width(),
+                        self.editor.fontMetrics().height(),
+                        self.current_line_color,
+                    )
                 painter.setPen(self.text_color)
-                painter.drawText(0, top, self.width() - 5,
-                              self.editor.fontMetrics().height(),
-                              Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter, number)
+                painter.drawText(
+                    0,
+                    top,
+                    self.width() - 5,
+                    self.editor.fontMetrics().height(),
+                    Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter,
+                    number,
+                )
 
             block = block.next()
             top = bottom
@@ -132,21 +169,23 @@ class CodeHighlighter(QSyntaxHighlighter):
     def _parse_color(self, color_string: str) -> QColor:
         """
         Parse color string that can be in format '#ffffff' or '#ffffff@keyword'.
-        
+
         Args:
             color_string: Color in format '#ffffff' or '#ffffff@keyword'
-            
+
         Returns:
             QColor: The resolved color
         """
-        if '@' in color_string:
+        if "@" in color_string:
             # Format: #ffffff@keyword - check theme first, fallback to color
-            color_hex, theme_key = color_string.split('@', 1)
+            color_hex, theme_key = color_string.split("@", 1)
 
             if theme_key.startswith("."):
                 theme_color = self._theme_manager.get_color(f"palette{theme_key}")
             else:
-                theme_color = self._theme_manager.get_color(f"code_viewer.syntax.{theme_key}")
+                theme_color = self._theme_manager.get_color(
+                    f"code_viewer.syntax.{theme_key}"
+                )
             if theme_color:
                 return QColor(theme_color)
 
@@ -173,65 +212,83 @@ class CodeHighlighter(QSyntaxHighlighter):
         self.language_name: str | None = None
 
         # Get the syntax file path using get_application_path
-        rules_file = os.path.join(get_application_path(), "data", "hlsyntax", f"{language}.json")
+        rules_file = os.path.join(
+            get_application_path(), "data", "hlsyntax", f"{language}.json"
+        )
         if not os.path.exists(rules_file):
             get_logger().warning("Language rules file not found: %s", rules_file)
             return False
 
         try:
-            with open(rules_file, 'r', encoding='utf-8') as f:
+            with open(rules_file, "r", encoding="utf-8") as f:
                 rules_data = json.load(f)
 
-            if 'name' in rules_data:
-                self.language_name = rules_data['name']
+            if "name" in rules_data:
+                self.language_name = rules_data["name"]
 
             # Load string patterns if defined
-            if 'string_patterns' in rules_data:
-                self.string_patterns = rules_data['string_patterns']
+            if "string_patterns" in rules_data:
+                self.string_patterns = rules_data["string_patterns"]
 
             # Load comment patterns if defined
-            if 'comment_patterns' in rules_data:
-                self.comment_patterns = rules_data['comment_patterns']
+            if "comment_patterns" in rules_data:
+                self.comment_patterns = rules_data["comment_patterns"]
 
             # Create formats first
-            if 'formats' in rules_data:
-                for format_name, format_data in rules_data['formats'].items():
+            if "formats" in rules_data:
+                for format_name, format_data in rules_data["formats"].items():
                     text_format = QTextCharFormat()
 
                     # Set foreground color
-                    if 'foreground' in format_data:
-                        text_format.setForeground(self._parse_color(format_data['foreground']))
+                    if "foreground" in format_data:
+                        text_format.setForeground(
+                            self._parse_color(format_data["foreground"])
+                        )
 
                     # Set background color
-                    if 'background' in format_data:
-                        text_format.setBackground(self._parse_color(format_data['background']))
+                    if "background" in format_data:
+                        text_format.setBackground(
+                            self._parse_color(format_data["background"])
+                        )
 
                     # Set font weight
-                    if 'bold' in format_data and format_data['bold']:
+                    if "bold" in format_data and format_data["bold"]:
                         text_format.setFontWeight(QFont.Weight.Bold)
 
                     # Set font style
-                    if 'italic' in format_data and format_data['italic']:
+                    if "italic" in format_data and format_data["italic"]:
                         text_format.setFontItalic(True)
 
                     # Set underline
-                    if 'underline' in format_data and format_data['underline']:
-                        text_format.setUnderlineStyle(QTextCharFormat.UnderlineStyle.SingleUnderline)
+                    if "underline" in format_data and format_data["underline"]:
+                        text_format.setUnderlineStyle(
+                            QTextCharFormat.UnderlineStyle.SingleUnderline
+                        )
 
                     self.formats[format_name] = text_format
 
             # Create highlighting rules
-            if 'rules' in rules_data:
-                for rule in rules_data['rules']:
-                    if 'pattern' in rule and 'format' in rule and rule['format'] in self.formats:
-                        pattern = QRegularExpression(rule['pattern'])
-                        format_name = rule['format']
-                        capture_group = rule.get('capture_group', 0)  # Default to entire match
-                        self.highlighting_rules.append((pattern, self.formats[format_name], capture_group))
+            if "rules" in rules_data:
+                for rule in rules_data["rules"]:
+                    if (
+                        "pattern" in rule
+                        and "format" in rule
+                        and rule["format"] in self.formats
+                    ):
+                        pattern = QRegularExpression(rule["pattern"])
+                        format_name = rule["format"]
+                        capture_group = rule.get(
+                            "capture_group", 0
+                        )  # Default to entire match
+                        self.highlighting_rules.append(
+                            (pattern, self.formats[format_name], capture_group)
+                        )
 
             return True
         except (json.JSONDecodeError, IOError, KeyError) as e:
-            get_logger().error("Error loading language rules for %s: %s", language, str(e))
+            get_logger().error(
+                "Error loading language rules for %s: %s", language, str(e)
+            )
             return False
 
     def highlightBlock(self, text: str) -> None:
@@ -250,13 +307,17 @@ class CodeHighlighter(QSyntaxHighlighter):
         protected_regions.sort()
 
         # Apply string formatting first
-        string_formats = [fmt for name, fmt in self.formats.items() if 'string' in name.lower()]
+        string_formats = [
+            fmt for name, fmt in self.formats.items() if "string" in name.lower()
+        ]
         if string_formats:
             for start, end in string_regions:
                 self.setFormat(start, end - start, string_formats[0])
 
         # Apply comment formatting
-        comment_formats = [fmt for name, fmt in self.formats.items() if 'comment' in name.lower()]
+        comment_formats = [
+            fmt for name, fmt in self.formats.items() if "comment" in name.lower()
+        ]
         if comment_formats:
             for start, end in comment_regions:
                 self.setFormat(start, end - start, comment_formats[0])
@@ -294,10 +355,10 @@ class CodeHighlighter(QSyntaxHighlighter):
     def _findStringRegions(self, text: str) -> list[tuple[int, int]]:
         """
         Find all string regions in the text based on the loaded language rules.
-        
+
         Args:
             text: The text to analyze
-            
+
         Returns:
             List of (start, end) tuples representing string regions
         """
@@ -308,7 +369,7 @@ class CodeHighlighter(QSyntaxHighlighter):
             # Fallback to basic patterns if no string patterns defined
             patterns = [
                 {"pattern": r'"(?:[^"\\]|\\.)*"', "multiline": False},  # Double quotes
-                {"pattern": r"'(?:[^'\\]|\\.)*'", "multiline": False}   # Single quotes
+                {"pattern": r"'(?:[^'\\]|\\.)*'", "multiline": False},  # Single quotes
             ]
 
         return self._findRegionsFromPatterns(text, patterns)
@@ -316,10 +377,10 @@ class CodeHighlighter(QSyntaxHighlighter):
     def _findCommentRegions(self, text: str) -> list[tuple[int, int]]:
         """
         Find all comment regions in the text based on the loaded language rules.
-        
+
         Args:
             text: The text to analyze
-            
+
         Returns:
             List of (start, end) tuples representing comment regions
         """
@@ -332,14 +393,16 @@ class CodeHighlighter(QSyntaxHighlighter):
 
         return self._findRegionsFromPatterns(text, patterns)
 
-    def _findRegionsFromPatterns(self, text: str, patterns: list[dict]) -> list[tuple[int, int]]:
+    def _findRegionsFromPatterns(
+        self, text: str, patterns: list[dict]
+    ) -> list[tuple[int, int]]:
         """
         Find all regions in text that match the given patterns.
-        
+
         Args:
             text: The text to analyze
             patterns: List of pattern dictionaries with 'pattern' and optional 'multiline' keys
-            
+
         Returns:
             List of (start, end) tuples representing matching regions
         """
@@ -351,7 +414,9 @@ class CodeHighlighter(QSyntaxHighlighter):
 
             # Set multiline option if specified
             if pattern_info.get("multiline", False):
-                pattern.setPatternOptions(QRegularExpression.PatternOption.DotMatchesEverythingOption)
+                pattern.setPatternOptions(
+                    QRegularExpression.PatternOption.DotMatchesEverythingOption
+                )
 
             match_iterator = pattern.globalMatch(text)
             while match_iterator.hasNext():
@@ -373,10 +438,11 @@ class CodeHighlighter(QSyntaxHighlighter):
 
         return regions
 
+
 class CodeViewer(QPlainTextEdit):
     """
     A code viewer widget with syntax highlighting support.
-    
+
     This widget is a read-only code viewer by default but can be switched
     to edit mode if needed.
     """
@@ -395,7 +461,7 @@ class CodeViewer(QPlainTextEdit):
 
         self.setReadOnly(True)  # Read-only by default
         self.setLineWrapMode(QPlainTextEdit.LineWrapMode.NoWrap)
-        self.setTabStopDistance(4 * self.fontMetrics().horizontalAdvance(' '))
+        self.setTabStopDistance(4 * self.fontMetrics().horizontalAdvance(" "))
 
         # Set a monospace font
         font = QFont("Space Mono")
@@ -421,7 +487,10 @@ class CodeViewer(QPlainTextEdit):
     def setReadOnly(self, read_only: bool):
         super().setReadOnly(read_only)
         if read_only:
-            self.setTextInteractionFlags(self.textInteractionFlags() | Qt.TextInteractionFlag.TextSelectableByKeyboard)
+            self.setTextInteractionFlags(
+                self.textInteractionFlags()
+                | Qt.TextInteractionFlag.TextSelectableByKeyboard
+            )
 
     def set_language(self, language: str) -> bool:
         """
@@ -450,7 +519,7 @@ class CodeViewer(QPlainTextEdit):
             max_num //= 10
             digits += 1
 
-        space = 2 * 3 + self.fontMetrics().horizontalAdvance('9') * digits
+        space = 2 * 3 + self.fontMetrics().horizontalAdvance("9") * digits
         return space
 
     def update_line_number_area_width(self):
@@ -462,7 +531,9 @@ class CodeViewer(QPlainTextEdit):
         if dy:
             self.line_number_area.scroll(0, dy)
         else:
-            self.line_number_area.update(0, rect.y(), self.line_number_area.width(), rect.height())
+            self.line_number_area.update(
+                0, rect.y(), self.line_number_area.width(), rect.height()
+            )
 
         if rect.contains(self.viewport().rect()):
             self.update_line_number_area_width()
@@ -472,7 +543,10 @@ class CodeViewer(QPlainTextEdit):
         super().resizeEvent(event)
 
         cr = self.contentsRect()
-        self.line_number_area.setGeometry(QRect(cr.left(), cr.top(), self.line_number_area_width(), cr.height()))
+        self.line_number_area.setGeometry(
+            QRect(cr.left(), cr.top(), self.line_number_area_width(), cr.height())
+        )
+
 
 class CodeEditor(Viewer):
     """
@@ -488,7 +562,17 @@ class CodeEditor(Viewer):
     """
 
     name = "Code Viewer"
-    accepted_extensions = {"txt", "h", "json", "py", "xml", "gim", "mtg", "ags", "unknown1"}
+    accepted_extensions = {
+        "txt",
+        "h",
+        "json",
+        "py",
+        "xml",
+        "gim",
+        "mtg",
+        "ags",
+        "unknown1",
+    }
     allow_unsupported_extensions = True
 
     _ext_lang_map: dict[str, str] = {}
@@ -541,7 +625,9 @@ class CodeEditor(Viewer):
 
         data_dir = os.path.join(get_application_path(), "data")
 
-        with open(os.path.join(data_dir, "ext_lang_map.json"), 'r', encoding='utf-8') as f:
+        with open(
+            os.path.join(data_dir, "ext_lang_map.json"), "r", encoding="utf-8"
+        ) as f:
             self._ext_lang_map = json.load(f)
 
         # Add available languages
@@ -550,11 +636,16 @@ class CodeEditor(Viewer):
         for file in os.listdir(hlsyntax_dir):
             if file.endswith(".json"):
                 language = file[:-5]
-                with open(os.path.join(hlsyntax_dir, file), 'r', encoding='utf-8') as f:
+                with open(os.path.join(hlsyntax_dir, file), "r", encoding="utf-8") as f:
                     rules_data = json.load(f)
-                    self.language_selector.addItem(rules_data['name'] if 'name' in rules_data else language, language)
+                    self.language_selector.addItem(
+                        rules_data["name"] if "name" in rules_data else language,
+                        language,
+                    )
 
-        self.language_selector.setCurrentText(self.viewer.highlighter.language_name or "Unknown")
+        self.language_selector.setCurrentText(
+            self.viewer.highlighter.language_name or "Unknown"
+        )
 
     def _on_language_selected(self, index: int):
         """Handle language selection changes."""
@@ -562,7 +653,9 @@ class CodeEditor(Viewer):
 
     def _on_language_changed(self, language):
         """Handle language changes in the viewer."""
-        self.language_selector.setCurrentText(self.viewer.highlighter.language_name or "Unknown")
+        self.language_selector.setCurrentText(
+            self.viewer.highlighter.language_name or "Unknown"
+        )
 
     def _update_cursor_position(self):
         """Update the cursor position label."""
@@ -582,7 +675,7 @@ class CodeEditor(Viewer):
         """Set the content of the code editor."""
         self._file = file
         self.set_language(self._ext_lang_map.get(file.extension, "text"))
-        self.set_content(file.data.decode(errors='replace'))
+        self.set_content(file.data.decode(errors="replace"))
 
     def unload_file(self):
         self._file = None
