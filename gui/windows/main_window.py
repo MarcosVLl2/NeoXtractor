@@ -542,5 +542,21 @@ class MainWindow(QtWidgets.QMainWindow):
         if self._loading_cancelled:
             self.unload_npk()
         else:
-            # This causes all the entries to be read. Making the cancelling not working and stuck the thread.
+            archive_file = self.app.property("npk_file")
+
+            if archive_file is not None and hasattr(archive_file, "get_load_error_summary"):
+                summary = archive_file.get_load_error_summary()
+
+                missing = summary.get("missing_entry_count", 0)
+                partial = summary.get("partial_entry_count", 0)
+                other = summary.get("other_error_count", 0)
+
+                if missing or partial or other:
+                    get_logger().warning(
+                        "IDX/WPK load summary: %d missing resources, %d incomplete entries, %d other errors",
+                        missing,
+                        partial,
+                        other,
+                    )
+
             self.filter.apply_filter()
