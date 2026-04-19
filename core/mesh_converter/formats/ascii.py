@@ -5,14 +5,15 @@ from core.mesh_loader import MeshData
 NAME = "ASCII Mesh Format"
 EXTENSION = ".ascii"
 
+
 def convert(mesh: MeshData, flip_uv=False) -> bytes:
     """
     Convert mesh to ASCII format.
-    
+
     Parameters:
     - mesh: MeshData object containing bones, vertices, faces, etc.
     - flip_uv: Boolean to indicate whether to flip the UV coordinates on the Y-axis.
-    
+
     Returns:
     - bytes: ASCII file content as bytes
     """
@@ -63,4 +64,4 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
     for v1, v2, v3 in mesh.face:
         ascii_lines.append(f"{v1} {v2} {v3}\n")
 
-    return ''.join(ascii_lines).encode('utf-8')
+    return "".join(ascii_lines).encode("utf-8")

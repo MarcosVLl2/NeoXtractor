@@ -1,15 +1,16 @@
 """Text renderer for QRhiWidget"""
 
-import os
 import ctypes
+import os
 from dataclasses import dataclass
 from typing import cast
 
-from PySide6 import QtGui, QtWidgets
 from PIL import Image, ImageDraw, ImageFont
+from PySide6 import QtGui, QtWidgets
 
 from core.logger import get_logger
 from core.utils import get_application_path
+
 
 @dataclass
 class Character:
@@ -19,13 +20,13 @@ class Character:
     from a font texture atlas, including its position in the texture, dimensions,
     and vertical positioning information.
     Args:
-        tex_coords (tuple[int | float, int | float, int | float, int | float]): 
-            Texture coordinates in the format (x1, y1, x2, y2) defining the 
+        tex_coords (tuple[int | float, int | float, int | float, int | float]):
+            Texture coordinates in the format (x1, y1, x2, y2) defining the
             character's position in the texture atlas.
-        size (tuple[int | float, int]): 
+        size (tuple[int | float, int]):
             The width and height of the character in pixels as (width, height).
-        ascent (int): 
-            The ascent value representing the distance from the baseline to the 
+        ascent (int):
+            The ascent value representing the distance from the baseline to the
             top of the character, used for proper vertical alignment.
     Attributes:
         tex_coords: Texture coordinates for the character in the atlas.
@@ -33,13 +34,16 @@ class Character:
         ascent: Vertical offset from baseline to character top.
     """
 
-    def __init__(self,
-                 tex_coords: tuple[int | float, int | float, int | float, int | float],
-                 size: tuple[int | float, int],
-                 ascent: int):
+    def __init__(
+        self,
+        tex_coords: tuple[int | float, int | float, int | float, int | float],
+        size: tuple[int | float, int],
+        ascent: int,
+    ):
         self.tex_coords = tex_coords
         self.size = size
         self.ascent = ascent
+
 
 @dataclass
 class QueuedTextRender:
@@ -54,10 +58,17 @@ class QueuedTextRender:
         position: The (x, y) coordinates where the text should be rendered.
         color: The RGBA color of the text.
     """
+
     text: str
     position: tuple[int, int]
-    color: tuple[float, float, float, float] = (1.0, 1.0, 1.0, 1.0)  # Default white color
+    color: tuple[float, float, float, float] = (
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+    )  # Default white color
     scale: float = 1.0
+
 
 class TextRenderer:
     """
@@ -90,7 +101,7 @@ class TextRenderer:
         - Maximum of 1024 quads and 4096 characters can be rendered per frame
     """
 
-    def __init__(self, rhi_widget: QtWidgets.QRhiWidget, font_size = 12):
+    def __init__(self, rhi_widget: QtWidgets.QRhiWidget, font_size=12):
         self._rhi_widget = rhi_widget
 
         self._rhi: QtGui.QRhi | None = None
@@ -107,15 +118,17 @@ class TextRenderer:
 
     def _create_atlas_texture(self, font_size: int):
         atlas_size = 512
-        atlas = Image.new('L', (atlas_size, atlas_size), 0)
+        atlas = Image.new("L", (atlas_size, atlas_size), 0)
         atlas_draw = ImageDraw.Draw(atlas)
 
         font: ImageFont.FreeTypeFont | ImageFont.ImageFont
         try:
-            font = ImageFont.truetype(os.path.join(get_application_path(),
-                                                   "data",
-                                                   "fonts",
-                                                   "Roboto-Regular.ttf"),font_size)
+            font = ImageFont.truetype(
+                os.path.join(
+                    get_application_path(), "data", "fonts", "Roboto-Regular.ttf"
+                ),
+                font_size,
+            )
         except OSError as exc:
             get_logger().warning("Failed to load font, falling back to default")
             font = ImageFont.load_default()
@@ -144,26 +157,35 @@ class TextRenderer:
             max_height = max(max_height, char_height)
 
             # Draw character aligned to the baseline
-            atlas_draw.text((cursor_x, cursor_y + ascent), char, font=font, fill=255, anchor="ls")
+            atlas_draw.text(
+                (cursor_x, cursor_y + ascent), char, font=font, fill=255, anchor="ls"
+            )
 
             self._char_data[char] = Character(
                 (
                     cursor_x / atlas_size,
                     cursor_y / atlas_size,
                     (cursor_x + char_width) / atlas_size,
-                    (cursor_y + total_height) / atlas_size
+                    (cursor_y + total_height) / atlas_size,
                 ),
                 (char_width, total_height),
-                ascent
+                ascent,
             )
 
             cursor_x += char_width + 2
 
-        get_logger().debug("Font atlas created with %d characters", len(self._char_data))
+        get_logger().debug(
+            "Font atlas created with %d characters", len(self._char_data)
+        )
 
         # Convert to QImage with proper format and stride
-        self._image = QtGui.QImage(atlas.tobytes(), atlas.size[0], atlas.size[1],
-                                  atlas.size[0], QtGui.QImage.Format.Format_Grayscale8)
+        self._image = QtGui.QImage(
+            atlas.tobytes(),
+            atlas.size[0],
+            atlas.size[1],
+            atlas.size[0],
+            QtGui.QImage.Format.Format_Grayscale8,
+        )
 
     def releaseResources(self):
         """
@@ -224,15 +246,19 @@ class TextRenderer:
         resource_updates.uploadTexture(texture, self._image)
 
         # Create vertex buffer for dynamic geometry
-        self._vbuf = self._rhi.newBuffer(QtGui.QRhiBuffer.Type.Dynamic,
-                                    QtGui.QRhiBuffer.UsageFlag.VertexBuffer,
-                                    4096 * 4 * 4)  # Enough space for many characters
+        self._vbuf = self._rhi.newBuffer(
+            QtGui.QRhiBuffer.Type.Dynamic,
+            QtGui.QRhiBuffer.UsageFlag.VertexBuffer,
+            4096 * 4 * 4,
+        )  # Enough space for many characters
         self._vbuf.create()
 
         # Create index buffer for rendering quads (0,1,2, 0,2,3)
-        self._ibuf = self._rhi.newBuffer(QtGui.QRhiBuffer.Type.Immutable,
-                                    QtGui.QRhiBuffer.UsageFlag.IndexBuffer,
-                                    1024 * 6 * 2)  # 6 indices per quad (uint16), 1024 quads max
+        self._ibuf = self._rhi.newBuffer(
+            QtGui.QRhiBuffer.Type.Immutable,
+            QtGui.QRhiBuffer.UsageFlag.IndexBuffer,
+            1024 * 6 * 2,
+        )  # 6 indices per quad (uint16), 1024 quads max
         self._ibuf.create()
 
         # Fill index buffer with quad indices pattern (0,1,2, 0,2,3, ...)
@@ -245,71 +271,109 @@ class TextRenderer:
         resource_updates.uploadStaticBuffer(self._ibuf, cast(int, index_data))
 
         # Create uniform buffer for projection matrix and text color
-        self._ubuf = self._rhi.newBuffer(QtGui.QRhiBuffer.Type.Dynamic,
-                                    QtGui.QRhiBuffer.UsageFlag.UniformBuffer,
-                                    64)  # Matrix (64 bytes)
+        self._ubuf = self._rhi.newBuffer(
+            QtGui.QRhiBuffer.Type.Dynamic, QtGui.QRhiBuffer.UsageFlag.UniformBuffer, 64
+        )  # Matrix (64 bytes)
         self._ubuf.create()
 
-        sampler = self._rhi.newSampler(QtGui.QRhiSampler.Filter.Nearest,
-                                    QtGui.QRhiSampler.Filter.Nearest,
-                                    QtGui.QRhiSampler.Filter.None_,
-                                    QtGui.QRhiSampler.AddressMode.ClampToEdge,
-                                    QtGui.QRhiSampler.AddressMode.ClampToEdge)
+        sampler = self._rhi.newSampler(
+            QtGui.QRhiSampler.Filter.Nearest,
+            QtGui.QRhiSampler.Filter.Nearest,
+            QtGui.QRhiSampler.Filter.None_,
+            QtGui.QRhiSampler.AddressMode.ClampToEdge,
+            QtGui.QRhiSampler.AddressMode.ClampToEdge,
+        )
         sampler.create()
 
         # Create shader resource bindings
         self._srb = self._rhi.newShaderResourceBindings()
-        self._srb.setBindings([
-            QtGui.QRhiShaderResourceBinding.uniformBuffer(0, QtGui.QRhiShaderResourceBinding.StageFlag.VertexStage |
-                                                    QtGui.QRhiShaderResourceBinding.StageFlag.FragmentStage,
-                                                    self._ubuf),
-            QtGui.QRhiShaderResourceBinding.sampledTexture(1,
-                                                    QtGui.QRhiShaderResourceBinding.StageFlag.FragmentStage,
-                                                    texture, sampler)
-        ])
+        self._srb.setBindings(
+            [
+                QtGui.QRhiShaderResourceBinding.uniformBuffer(
+                    0,
+                    QtGui.QRhiShaderResourceBinding.StageFlag.VertexStage
+                    | QtGui.QRhiShaderResourceBinding.StageFlag.FragmentStage,
+                    self._ubuf,
+                ),
+                QtGui.QRhiShaderResourceBinding.sampledTexture(
+                    1,
+                    QtGui.QRhiShaderResourceBinding.StageFlag.FragmentStage,
+                    texture,
+                    sampler,
+                ),
+            ]
+        )
         self._srb.create()
 
         # Create graphics pipeline
         self._pipeline = self._rhi.newGraphicsPipeline()
 
-        with open(os.path.join(get_application_path(), "data", "shaders", "text.vert.qsb"), "rb") as f:
+        with open(
+            os.path.join(get_application_path(), "data", "shaders", "text.vert.qsb"),
+            "rb",
+        ) as f:
             vsrc = f.read()
             vsrc = QtGui.QShader.fromSerialized(vsrc)
-            with open(os.path.join(get_application_path(), "data", "shaders", "text.frag.qsb"), "rb") as f:
+            with open(
+                os.path.join(
+                    get_application_path(), "data", "shaders", "text.frag.qsb"
+                ),
+                "rb",
+            ) as f:
                 fsrc = f.read()
                 fsrc = QtGui.QShader.fromSerialized(fsrc)
 
-                self._pipeline.setShaderStages([
-                    QtGui.QRhiShaderStage(QtGui.QRhiShaderStage.Type.Vertex, vsrc),
-                    QtGui.QRhiShaderStage(QtGui.QRhiShaderStage.Type.Fragment, fsrc)
-                ])
+                self._pipeline.setShaderStages(
+                    [
+                        QtGui.QRhiShaderStage(QtGui.QRhiShaderStage.Type.Vertex, vsrc),
+                        QtGui.QRhiShaderStage(
+                            QtGui.QRhiShaderStage.Type.Fragment, fsrc
+                        ),
+                    ]
+                )
 
         # Set up vertex input layout
         input_layout = QtGui.QRhiVertexInputLayout()
-        input_layout.setBindings([
-            QtGui.QRhiVertexInputBinding(8 * ctypes.sizeof(ctypes.c_float))
-            # 8 floats per vertex (pos.xy + tex.uv + color.rgba)
-        ])
-        input_layout.setAttributes([
-            QtGui.QRhiVertexInputAttribute(0, 0, QtGui.QRhiVertexInputAttribute.Format.Float2, 0),
-            QtGui.QRhiVertexInputAttribute(0, 1, QtGui.QRhiVertexInputAttribute.Format.Float2,
-                                           2 * ctypes.sizeof(ctypes.c_float)),
-            QtGui.QRhiVertexInputAttribute(0, 2, QtGui.QRhiVertexInputAttribute.Format.Float4,
-                                           4 * ctypes.sizeof(ctypes.c_float))
-        ])
+        input_layout.setBindings(
+            [
+                QtGui.QRhiVertexInputBinding(8 * ctypes.sizeof(ctypes.c_float))
+                # 8 floats per vertex (pos.xy + tex.uv + color.rgba)
+            ]
+        )
+        input_layout.setAttributes(
+            [
+                QtGui.QRhiVertexInputAttribute(
+                    0, 0, QtGui.QRhiVertexInputAttribute.Format.Float2, 0
+                ),
+                QtGui.QRhiVertexInputAttribute(
+                    0,
+                    1,
+                    QtGui.QRhiVertexInputAttribute.Format.Float2,
+                    2 * ctypes.sizeof(ctypes.c_float),
+                ),
+                QtGui.QRhiVertexInputAttribute(
+                    0,
+                    2,
+                    QtGui.QRhiVertexInputAttribute.Format.Float4,
+                    4 * ctypes.sizeof(ctypes.c_float),
+                ),
+            ]
+        )
 
         self._pipeline.setVertexInputLayout(input_layout)
         self._pipeline.setShaderResourceBindings(self._srb)
-        self._pipeline.setRenderPassDescriptor(self._rhi_widget.renderTarget().renderPassDescriptor())
+        self._pipeline.setRenderPassDescriptor(
+            self._rhi_widget.renderTarget().renderPassDescriptor()
+        )
 
         # Set up blending for text rendering
         target_blend = QtGui.QRhiGraphicsPipeline.TargetBlend()
         # TargetBlend is not currently typed
-        target_blend.enable = True # type: ignore
-        target_blend.srcColor = QtGui.QRhiGraphicsPipeline.BlendFactor.SrcAlpha # type: ignore
-        target_blend.dstColor = QtGui.QRhiGraphicsPipeline.BlendFactor.OneMinusSrcAlpha # type: ignore
-        target_blend.srcAlpha = QtGui.QRhiGraphicsPipeline.BlendFactor.One # type: ignore
-        target_blend.dstAlpha = QtGui.QRhiGraphicsPipeline.BlendFactor.OneMinusSrcAlpha # type: ignore
+        target_blend.enable = True  # type: ignore
+        target_blend.srcColor = QtGui.QRhiGraphicsPipeline.BlendFactor.SrcAlpha  # type: ignore
+        target_blend.dstColor = QtGui.QRhiGraphicsPipeline.BlendFactor.OneMinusSrcAlpha  # type: ignore
+        target_blend.srcAlpha = QtGui.QRhiGraphicsPipeline.BlendFactor.One  # type: ignore
+        target_blend.dstAlpha = QtGui.QRhiGraphicsPipeline.BlendFactor.OneMinusSrcAlpha  # type: ignore
 
         self._pipeline.setTargetBlends([target_blend])
 
@@ -330,26 +394,45 @@ class TextRenderer:
             None: Returns early if required resources are not available or no valid characters to render
         """
 
-        if not self._rhi or not self._pipeline or not self._srb or not self._vbuf or not self._ibuf or not self._ubuf:
+        if (
+            not self._rhi
+            or not self._pipeline
+            or not self._srb
+            or not self._vbuf
+            or not self._ibuf
+            or not self._ubuf
+        ):
             return
 
         projection = QtGui.QMatrix4x4()
         if self._rhi_widget.api() == QtWidgets.QRhiWidget.Api.Vulkan:
             # Vulkan needs Y-flip for orthographic projection
-            projection.ortho(0, self._rhi_widget.renderTarget().pixelSize().width(),
-                            self._rhi_widget.renderTarget().pixelSize().height(),
-                            0, -1.0, 1.0)
+            projection.ortho(
+                0,
+                self._rhi_widget.renderTarget().pixelSize().width(),
+                self._rhi_widget.renderTarget().pixelSize().height(),
+                0,
+                -1.0,
+                1.0,
+            )
         else:
-            projection.ortho(0, self._rhi_widget.renderTarget().pixelSize().width(), 0,
-                             self._rhi_widget.renderTarget().pixelSize().height(), -1.0, 1.0)
+            projection.ortho(
+                0,
+                self._rhi_widget.renderTarget().pixelSize().width(),
+                0,
+                self._rhi_widget.renderTarget().pixelSize().height(),
+                -1.0,
+                1.0,
+            )
 
         # Convert matrix and color to array
         matrix_data = projection.data()
 
         uniform_array = (ctypes.c_float * len(matrix_data))(*matrix_data)
 
-        resource_updates.updateDynamicBuffer(self._ubuf, 0, ctypes.sizeof(uniform_array),
-                                           cast(int, uniform_array))
+        resource_updates.updateDynamicBuffer(
+            self._ubuf, 0, ctypes.sizeof(uniform_array), cast(int, uniform_array)
+        )
 
         vertices = []
         char_count = 0
@@ -378,19 +461,40 @@ class TextRenderer:
                 char_y = viewport_height - position[1] - (char_info.ascent * scale)
 
                 # Add quad vertices (position + texcoord for each vertex)
-                quad = [
-                    # Bottom-left
-                    cursor_x, char_y + h, tex_coords[0], tex_coords[1]
-                ] + color_data + [
-                    # Top-left
-                    cursor_x, char_y, tex_coords[0], tex_coords[3]
-                ] + color_data + [
-                    # Top-right
-                    cursor_x + w, char_y, tex_coords[2], tex_coords[3]
-                ] + color_data + [
-                    # Bottom-right
-                    cursor_x + w, char_y + h, tex_coords[2], tex_coords[1]
-                ] + color_data
+                quad = (
+                    [
+                        # Bottom-left
+                        cursor_x,
+                        char_y + h,
+                        tex_coords[0],
+                        tex_coords[1],
+                    ]
+                    + color_data
+                    + [
+                        # Top-left
+                        cursor_x,
+                        char_y,
+                        tex_coords[0],
+                        tex_coords[3],
+                    ]
+                    + color_data
+                    + [
+                        # Top-right
+                        cursor_x + w,
+                        char_y,
+                        tex_coords[2],
+                        tex_coords[3],
+                    ]
+                    + color_data
+                    + [
+                        # Bottom-right
+                        cursor_x + w,
+                        char_y + h,
+                        tex_coords[2],
+                        tex_coords[1],
+                    ]
+                    + color_data
+                )
                 vertices.extend(quad)
                 cursor_x += w
                 char_count += 1
@@ -406,8 +510,9 @@ class TextRenderer:
         vertex_array = (ctypes.c_float * len(vertices))(*vertices)
 
         # Update vertex buffer
-        resource_updates.updateDynamicBuffer(self._vbuf, 0, ctypes.sizeof(vertex_array),
-                                          cast(int, vertex_array))
+        resource_updates.updateDynamicBuffer(
+            self._vbuf, 0, ctypes.sizeof(vertex_array), cast(int, vertex_array)
+        )
 
     def render(self, cb: QtGui.QRhiCommandBuffer):
         """
@@ -432,23 +537,39 @@ class TextRenderer:
             return
 
         cb.setGraphicsPipeline(self._pipeline)
-        cb.setViewport(QtGui.QRhiViewport(0, 0, self._rhi_widget.renderTarget().pixelSize().width(),
-                                          self._rhi_widget.renderTarget().pixelSize().height()))
+        cb.setViewport(
+            QtGui.QRhiViewport(
+                0,
+                0,
+                self._rhi_widget.renderTarget().pixelSize().width(),
+                self._rhi_widget.renderTarget().pixelSize().height(),
+            )
+        )
         cb.setShaderResources()
 
-        cb.setVertexInput(0, [(self._vbuf, 0)], self._ibuf, 0, QtGui.QRhiCommandBuffer.IndexFormat.IndexUInt16)
+        cb.setVertexInput(
+            0,
+            [(self._vbuf, 0)],
+            self._ibuf,
+            0,
+            QtGui.QRhiCommandBuffer.IndexFormat.IndexUInt16,
+        )
 
         # Draw text (6 indices per quad)
         cb.drawIndexed(self._char_count * 6)
 
         self._char_count = 0
 
-    def render_text(self, text: str, position: tuple[int, int],
-                     color: tuple[float, float, float, float] = (1.0, 1.0, 1.0, 1.0),
-                     scale: float = 1.0):
+    def render_text(
+        self,
+        text: str,
+        position: tuple[int, int],
+        color: tuple[float, float, float, float] = (1.0, 1.0, 1.0, 1.0),
+        scale: float = 1.0,
+    ):
         """
         Queue a text render request.
-        
+
         :param text: The text to render.
         :param position: The (x, y) position to render the text at.
         :param color: The RGBA color of the text.

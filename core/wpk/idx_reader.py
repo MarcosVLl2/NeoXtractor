@@ -77,7 +77,10 @@ def log_idx_split_summary(reader) -> None:
     if not pkg_counts:
         return
 
-    get_logger().info("IDX split summary for %s", os.path.basename(reader.idx_path or reader.file_path))
+    get_logger().info(
+        "IDX split summary for %s",
+        os.path.basename(reader.idx_path or reader.file_path),
+    )
 
     slot_file_count = 0
     for pkg_id in sorted(pkg_counts):
@@ -87,7 +90,11 @@ def log_idx_split_summary(reader) -> None:
             continue
 
         resolved_path = reader._find_wpk_path(pkg_id)
-        label = os.path.basename(resolved_path) if os.path.exists(resolved_path) else f"package {pkg_id}"
+        label = (
+            os.path.basename(resolved_path)
+            if os.path.exists(resolved_path)
+            else f"package {pkg_id}"
+        )
         get_logger().info("  %s -> %d files", label, count)
 
     if slot_file_count:
@@ -98,5 +105,7 @@ def log_idx_split_summary(reader) -> None:
         get_logger().info(
             "  slot_file -> %d indexed entries%s",
             slot_file_count,
-            f" ({actual_slot_files} files in {slot_dir.name}/)" if actual_slot_files else "",
+            f" ({actual_slot_files} files in {slot_dir.name}/)"
+            if actual_slot_files
+            else "",
         )

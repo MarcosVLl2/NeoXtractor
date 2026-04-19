@@ -37,7 +37,15 @@ class NPKReadOptions:
 
 
 @dataclass
-class NPKIndex:
+class WPKIndexExtra:
+    pkg_id: int = 0
+    hdr_size: int = 0
+    payload_size: int = 0
+    raw_hash_hex: str = ""
+
+
+@dataclass
+class NPKIndex(WPKIndexExtra):
     """Represents an index entry in an NPK file."""
 
     filename = ""
@@ -64,7 +72,25 @@ class NPKIndex:
         )
 
 
-class NPKEntry(NPKIndex, IFile):
+@dataclass
+class WPKExtra:
+    """Extra data we appoint to an WPK file when decompressing it."""
+
+    none_header_stripped: bool
+    enon_header_stripped: bool
+    is_slot_file: bool
+    source_mode: str
+    stage1_decoded: bool
+    stage1_tag: int | None
+    raw_data: bytes
+    payload_data: bytes
+    dtsz_unpacked: bool
+    cobl_unpacked: bool
+    unwrap_layers: list[str]
+    stage1_skip_header_decode: bool
+
+
+class NPKEntry(NPKIndex, IFile, WPKExtra):
     """Represents a file entry in an NPK file, including the actual file data."""
 
     def __init__(self):
@@ -76,7 +102,6 @@ class NPKEntry(NPKIndex, IFile):
         self.source_extension: str = ""
         self.processed_by: str | None = None
         self.has_decoded_view: bool = False
-        self.unwrap_layers: list | None
         self.format_metadata: dict = {}
         self.state: State = State.UNLOADED
 

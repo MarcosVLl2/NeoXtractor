@@ -31,7 +31,9 @@ class SlotFileResolver:
             return None
 
         dir_index = self._get_dir_index(slot_dir)
-        raw_hash_hex = getattr(entry, "raw_hash_hex", "") or entry.filename.split(".", 1)[0]
+        raw_hash_hex = (
+            getattr(entry, "raw_hash_hex", "") or entry.filename.split(".", 1)[0]
+        )
 
         candidate_paths: list[Path] = []
         for key in (raw_hash_hex, entry.filename):

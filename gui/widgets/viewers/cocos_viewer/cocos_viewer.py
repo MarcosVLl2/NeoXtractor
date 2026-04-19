@@ -1,12 +1,8 @@
-import argparse
-import io
 import json
 import math
-import plistlib
 import re
 from typing import Any
 
-from PIL import Image
 from PySide6 import QtCore, QtGui, QtWidgets
 
 from core.file import IFile
@@ -96,12 +92,14 @@ def tint_qimage(image: QtGui.QImage, color: dict[str, Any] | None) -> QtGui.QIma
     if (red, green, blue, alpha) == (255, 255, 255, 255):
         return image
 
-    tinted = image.convertToFormat(QtGui.QImage.Format_ARGB32_Premultiplied)
+    tinted = image.convertToFormat(QtGui.QImage.Format.Format_ARGB32_Premultiplied)
     painter = QtGui.QPainter()
     if not painter.begin(tinted):
         return image
     try:
-        painter.setCompositionMode(QtGui.QPainter.CompositionMode_Multiply)
+        painter.setCompositionMode(
+            QtGui.QPainter.CompositionMode.CompositionMode_Multiply
+        )
         painter.fillRect(tinted.rect(), QtGui.QColor(red, green, blue, 255))
     finally:
         painter.end()
@@ -171,9 +169,9 @@ class NodeHandleItem(QtWidgets.QGraphicsObject):
         self.rect = QtCore.QRectF(rect)
         self.hovered = False
         self._last_scene_pos: QtCore.QPointF | None = None
-        self.setAcceptedMouseButtons(QtCore.Qt.LeftButton)
+        self.setAcceptedMouseButtons(QtCore.Qt.MouseButton.LeftButton)
         self.setAcceptHoverEvents(True)
-        self.setCursor(QtCore.Qt.OpenHandCursor)
+        self.setCursor(QtCore.Qt.CursorShape.OpenHandCursor)
         self.setZValue(9_000)
 
     def boundingRect(self) -> QtCore.QRectF:
@@ -191,13 +189,15 @@ class NodeHandleItem(QtWidgets.QGraphicsObject):
     ) -> None:
         del option, widget
         if self.hovered:
-            painter.setPen(QtGui.QPen(QtGui.QColor("#38bdf8"), 1, QtCore.Qt.DashLine))
-            painter.setBrush(QtCore.Qt.NoBrush)
+            painter.setPen(
+                QtGui.QPen(QtGui.QColor("#38bdf8"), 1, QtCore.Qt.PenStyle.DashLine)
+            )
+            painter.setBrush(QtCore.Qt.BrushStyle.NoBrush)
             painter.drawRect(self.rect)
 
     def mousePressEvent(self, event: QtWidgets.QGraphicsSceneMouseEvent) -> None:
         self._last_scene_pos = event.scenePos()
-        self.setCursor(QtCore.Qt.ClosedHandCursor)
+        self.setCursor(QtCore.Qt.CursorShape.ClosedHandCursor)
         self.node_selected.emit(self.node)
         event.accept()
 
@@ -212,7 +212,7 @@ class NodeHandleItem(QtWidgets.QGraphicsObject):
 
     def mouseReleaseEvent(self, event: QtWidgets.QGraphicsSceneMouseEvent) -> None:
         self._last_scene_pos = None
-        self.setCursor(QtCore.Qt.OpenHandCursor)
+        self.setCursor(QtCore.Qt.CursorShape.OpenHandCursor)
         event.accept()
 
     def hoverEnterEvent(self, event: QtWidgets.QGraphicsSceneHoverEvent) -> None:
@@ -470,7 +470,9 @@ class PreviewScene(QtWidgets.QGraphicsScene):
         ):
             self.addRect(
                 self.game_rect,
-                QtGui.QPen(QtGui.QColor("#22c55e"), 2, QtCore.Qt.DashLine),  # "#22c55e"
+                QtGui.QPen(
+                    QtGui.QColor("#22c55e"), 2, QtCore.Qt.PenStyle.DashLine
+                ),  # "#22c55e"
             )
 
     @staticmethod
@@ -706,7 +708,9 @@ class PreviewScene(QtWidgets.QGraphicsScene):
             and local_rect.height() > 1.0
         ):
             fill = self.addRect(
-                local_rect, QtGui.QPen(QtCore.Qt.NoPen), QtGui.QBrush(fill_color)
+                local_rect,
+                QtGui.QPen(QtCore.Qt.PenStyle.NoPen),
+                QtGui.QBrush(fill_color),
             )
             fill.setTransform(node_transform)
             fill.setOpacity(local_opacity)
@@ -727,8 +731,8 @@ class PreviewScene(QtWidgets.QGraphicsScene):
             pixmap = pixmap.scaled(
                 max(1, int(round(local_rect.width()))),
                 max(1, int(round(local_rect.height()))),
-                QtCore.Qt.IgnoreAspectRatio,
-                QtCore.Qt.SmoothTransformation,
+                QtCore.Qt.AspectRatioMode.IgnoreAspectRatio,
+                QtCore.Qt.TransformationMode.SmoothTransformation,
             )
             item = self.addPixmap(pixmap)
             item.setTransform(node_transform)
@@ -964,16 +968,16 @@ class CocosViewer(Viewer):
         self.scene = PreviewScene()
         self.preview = QtWidgets.QGraphicsView(self.scene)
         self.preview.setRenderHints(
-            QtGui.QPainter.Antialiasing
-            | QtGui.QPainter.SmoothPixmapTransform
-            | QtGui.QPainter.TextAntialiasing
+            QtGui.QPainter.RenderHint.Antialiasing
+            | QtGui.QPainter.RenderHint.SmoothPixmapTransform
+            | QtGui.QPainter.RenderHint.TextAntialiasing
         )
 
-        bottom_split = QtWidgets.QSplitter(QtCore.Qt.Horizontal)
+        bottom_split = QtWidgets.QSplitter(QtCore.Qt.Orientation.Horizontal)
         bottom_split.addWidget(self.node_tree)
         bottom_split.addWidget(self.bottom_tabs)
 
-        right_split = QtWidgets.QSplitter(QtCore.Qt.Vertical)
+        right_split = QtWidgets.QSplitter(QtCore.Qt.Orientation.Vertical)
         right_split.addWidget(self.preview)
         right_split.addWidget(bottom_split)
         right_split.setSizes([700, 260])
@@ -1070,7 +1074,7 @@ class CocosViewer(Viewer):
         self.animation_combo.blockSignals(False)
         self.animation_combo.setEnabled(bool(clip_names))
 
-        active_name = None
+        active_name: str | None = None
         if isinstance(animation, dict):
             active_name = animation.get("activeAnimationName") or animation.get(
                 "currentAnimationName"
@@ -1129,7 +1133,8 @@ class CocosViewer(Viewer):
             playback_frame_cursor=self.playback_frame_cursor,
         )
         self.preview.fitInView(
-            self.scene.focus_view_rect(view_mode), QtCore.Qt.KeepAspectRatio
+            self.scene.focus_view_rect(view_mode),
+            QtCore.Qt.AspectRatioMode.KeepAspectRatio,
         )
         if self.selected_node_path:
             self.scene.highlight_node(self.selected_node_path)
@@ -1208,7 +1213,7 @@ class CocosViewer(Viewer):
         node_path = str(node.get("__editor_path") or "")
         if node_path:
             self.path_lookup[node_path] = item
-            item.setData(0, QtCore.Qt.UserRole, node_path)
+            item.setData(0, QtCore.Qt.ItemDataRole.UserRole, node_path)
         if parent is None:
             self.node_tree.addTopLevelItem(item)
         else:

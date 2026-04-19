@@ -1,29 +1,27 @@
 """glTF 2.0 Format Converter"""
 
+import base64
 import json
 import struct
-import base64
 
 from core.mesh_loader import MeshData
 
 NAME = "glTF 2.0 Format"
 EXTENSION = ".gltf"
 
+
 def convert(mesh: MeshData) -> bytes:
     """
     Convert mesh to glTF format.
-    
+
     Parameters:
     - mesh: MeshData object containing bones, vertices, faces, etc.
-    
+
     Returns:
     - bytes: glTF file content as bytes (JSON with embedded binary data)
     """
     gltf_data = {
-        "asset": {
-            "version": "2.0",
-            "generator": "NeoX Model Converter"
-        },
+        "asset": {"version": "2.0", "generator": "NeoX Model Converter"},
         "meshes": [],
         "accessors": [],
         "bufferViews": [],
@@ -31,7 +29,7 @@ def convert(mesh: MeshData) -> bytes:
         "nodes": [],
         "skins": [],
         "scenes": [{"nodes": [0]}],
-        "scene": 0
+        "scene": 0,
     }
 
     # Extract mesh data using MeshData properties
@@ -109,98 +107,107 @@ def convert(mesh: MeshData) -> bytes:
     ibm_offset = len(binary_data)
     ibm_bytes = 0
     if inverse_bind_matrices:
-        binary_data.extend(struct.pack(f"{len(inverse_bind_matrices)}f", *inverse_bind_matrices))
+        binary_data.extend(
+            struct.pack(f"{len(inverse_bind_matrices)}f", *inverse_bind_matrices)
+        )
         ibm_bytes = len(inverse_bind_matrices) * 4
 
     # Create data URI for embedded binary data
-    binary_b64 = base64.b64encode(binary_data).decode('utf-8')
+    binary_b64 = base64.b64encode(binary_data).decode("utf-8")
     data_uri = f"data:application/octet-stream;base64,{binary_b64}"
 
     # Buffer definition
-    gltf_data["buffers"].append({
-        "uri": data_uri,
-        "byteLength": len(binary_data)
-    })
+    gltf_data["buffers"].append({"uri": data_uri, "byteLength": len(binary_data)})
 
     # BufferViews
     buffer_view_index = 0
 
     # Position buffer view
-    gltf_data["bufferViews"].append({
-        "buffer": 0,
-        "byteOffset": 0,
-        "byteLength": vertex_bytes,
-        "target": 34962  # ARRAY_BUFFER
-    })
+    gltf_data["bufferViews"].append(
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": vertex_bytes,
+            "target": 34962,  # ARRAY_BUFFER
+        }
+    )
     position_buffer_view = buffer_view_index
     buffer_view_index += 1
 
     # Normal buffer view
     normal_buffer_view = None
     if normal_bytes > 0:
-        gltf_data["bufferViews"].append({
-            "buffer": 0,
-            "byteOffset": normal_offset,
-            "byteLength": normal_bytes,
-            "target": 34962
-        })
+        gltf_data["bufferViews"].append(
+            {
+                "buffer": 0,
+                "byteOffset": normal_offset,
+                "byteLength": normal_bytes,
+                "target": 34962,
+            }
+        )
         normal_buffer_view = buffer_view_index
         buffer_view_index += 1
 
     # UV buffer view
     uv_buffer_view = None
     if uv_bytes > 0:
-        gltf_data["bufferViews"].append({
-            "buffer": 0,
-            "byteOffset": uv_offset,
-            "byteLength": uv_bytes,
-            "target": 34962
-        })
+        gltf_data["bufferViews"].append(
+            {
+                "buffer": 0,
+                "byteOffset": uv_offset,
+                "byteLength": uv_bytes,
+                "target": 34962,
+            }
+        )
         uv_buffer_view = buffer_view_index
         buffer_view_index += 1
 
     # Index buffer view
-    gltf_data["bufferViews"].append({
-        "buffer": 0,
-        "byteOffset": index_offset,
-        "byteLength": index_bytes,
-        "target": 34963  # ELEMENT_ARRAY_BUFFER
-    })
+    gltf_data["bufferViews"].append(
+        {
+            "buffer": 0,
+            "byteOffset": index_offset,
+            "byteLength": index_bytes,
+            "target": 34963,  # ELEMENT_ARRAY_BUFFER
+        }
+    )
     index_buffer_view = buffer_view_index
     buffer_view_index += 1
 
     # Joint buffer view
     joint_buffer_view = None
     if joint_bytes > 0:
-        gltf_data["bufferViews"].append({
-            "buffer": 0,
-            "byteOffset": joint_offset,
-            "byteLength": joint_bytes,
-            "target": 34962
-        })
+        gltf_data["bufferViews"].append(
+            {
+                "buffer": 0,
+                "byteOffset": joint_offset,
+                "byteLength": joint_bytes,
+                "target": 34962,
+            }
+        )
         joint_buffer_view = buffer_view_index
         buffer_view_index += 1
 
     # Weight buffer view
     weight_buffer_view = None
     if weight_bytes > 0:
-        gltf_data["bufferViews"].append({
-            "buffer": 0,
-            "byteOffset": weight_offset,
-            "byteLength": weight_bytes,
-            "target": 34962
-        })
+        gltf_data["bufferViews"].append(
+            {
+                "buffer": 0,
+                "byteOffset": weight_offset,
+                "byteLength": weight_bytes,
+                "target": 34962,
+            }
+        )
         weight_buffer_view = buffer_view_index
         buffer_view_index += 1
 
     # Inverse bind matrices buffer view
     ibm_buffer_view = None
     if ibm_bytes > 0:
-        gltf_data["bufferViews"].append({
-            "buffer": 0,
-            "byteOffset": ibm_offset,
-            "byteLength": ibm_bytes
-        })
+        gltf_data["bufferViews"].append(
+            {"buffer": 0, "byteOffset": ibm_offset, "byteLength": ibm_bytes}
+        )
         ibm_buffer_view = buffer_view_index
         buffer_view_index += 1
 
@@ -212,85 +219,93 @@ def convert(mesh: MeshData) -> bytes:
     accessor_index = 0
 
     # Position accessor
-    gltf_data["accessors"].append({
-        "bufferView": position_buffer_view,
-        "componentType": 5126,  # FLOAT
-        "count": len(positions),
-        "type": "VEC3",
-        "min": min_position,
-        "max": max_position
-    })
+    gltf_data["accessors"].append(
+        {
+            "bufferView": position_buffer_view,
+            "componentType": 5126,  # FLOAT
+            "count": len(positions),
+            "type": "VEC3",
+            "min": min_position,
+            "max": max_position,
+        }
+    )
     position_accessor = accessor_index
     accessor_index += 1
 
     # Normal accessor
     normal_accessor = None
     if normal_buffer_view is not None:
-        gltf_data["accessors"].append({
-            "bufferView": normal_buffer_view,
-            "componentType": 5126,
-            "count": len(normals),
-            "type": "VEC3"
-        })
+        gltf_data["accessors"].append(
+            {
+                "bufferView": normal_buffer_view,
+                "componentType": 5126,
+                "count": len(normals),
+                "type": "VEC3",
+            }
+        )
         normal_accessor = accessor_index
         accessor_index += 1
 
     # UV accessor
     uv_accessor = None
     if uv_buffer_view is not None:
-        gltf_data["accessors"].append({
-            "bufferView": uv_buffer_view,
-            "componentType": 5126,
-            "count": len(uvs),
-            "type": "VEC2"
-        })
+        gltf_data["accessors"].append(
+            {
+                "bufferView": uv_buffer_view,
+                "componentType": 5126,
+                "count": len(uvs),
+                "type": "VEC2",
+            }
+        )
         uv_accessor = accessor_index
         accessor_index += 1
 
     # Index accessor
-    gltf_data["accessors"].append({
-        "bufferView": index_buffer_view,
-        "componentType": 5123,  # UNSIGNED_SHORT
-        "count": len(index_buffer),
-        "type": "SCALAR"
-    })
+    gltf_data["accessors"].append(
+        {
+            "bufferView": index_buffer_view,
+            "componentType": 5123,  # UNSIGNED_SHORT
+            "count": len(index_buffer),
+            "type": "SCALAR",
+        }
+    )
     index_accessor = accessor_index
     accessor_index += 1
 
     # Joint accessor
-    joint_accessor = None
     if joint_buffer_view is not None:
-        gltf_data["accessors"].append({
-            "bufferView": joint_buffer_view,
-            "componentType": 5123,  # UNSIGNED_SHORT
-            "count": len(joint_buffer) // 4,
-            "type": "VEC4"
-        })
-        joint_accessor = accessor_index
+        gltf_data["accessors"].append(
+            {
+                "bufferView": joint_buffer_view,
+                "componentType": 5123,  # UNSIGNED_SHORT
+                "count": len(joint_buffer) // 4,
+                "type": "VEC4",
+            }
+        )
         accessor_index += 1
 
     # Weight accessor
-    weight_accessor = None
     if weight_buffer_view is not None:
-        gltf_data["accessors"].append({
-            "bufferView": weight_buffer_view,
-            "componentType": 5126,
-            "count": len(weight_buffer) // 4,
-            "type": "VEC4"
-        })
-        weight_accessor = accessor_index
+        gltf_data["accessors"].append(
+            {
+                "bufferView": weight_buffer_view,
+                "componentType": 5126,
+                "count": len(weight_buffer) // 4,
+                "type": "VEC4",
+            }
+        )
         accessor_index += 1
 
     # Inverse bind matrices accessor
-    ibm_accessor = None
     if ibm_buffer_view is not None:
-        gltf_data["accessors"].append({
-            "bufferView": ibm_buffer_view,
-            "componentType": 5126,
-            "count": len(inverse_bind_matrices) // 16,
-            "type": "MAT4"
-        })
-        ibm_accessor = accessor_index
+        gltf_data["accessors"].append(
+            {
+                "bufferView": ibm_buffer_view,
+                "componentType": 5126,
+                "count": len(inverse_bind_matrices) // 16,
+                "type": "MAT4",
+            }
+        )
         accessor_index += 1
 
     # Create mesh primitive
@@ -306,14 +321,9 @@ def convert(mesh: MeshData) -> bytes:
     # if weight_accessor is not None:
     #     attributes["WEIGHTS_0"] = weight_accessor
 
-    primitive = {
-        "attributes": attributes,
-        "indices": index_accessor
-    }
+    primitive = {"attributes": attributes, "indices": index_accessor}
 
-    gltf_data["meshes"].append({
-        "primitives": [primitive]
-    })
+    gltf_data["meshes"].append({"primitives": [primitive]})
 
     # Create nodes
     if mesh.has_bones:
@@ -326,7 +336,7 @@ def convert(mesh: MeshData) -> bytes:
                 "name": bone_name,
                 "translation": [0.0, 0.0, 0.0],
                 "rotation": [0.0, 0.0, 0.0, 1.0],
-                "scale": [1.0, 1.0, 1.0]
+                "scale": [1.0, 1.0, 1.0],
             }
 
             # Add children (bones that have this bone as parent)
@@ -337,10 +347,7 @@ def convert(mesh: MeshData) -> bytes:
             gltf_data["nodes"].append(node)
 
         # Create mesh node without skin (to prevent distortion)
-        gltf_data["nodes"].append({
-            "name": "Mesh",
-            "mesh": 0
-        })
+        gltf_data["nodes"].append({"name": "Mesh", "mesh": 0})
 
         # Find root bones (those with parent -1) and create scene structure
         root_bones = [i for i, parent in enumerate(bone_hierarchy) if parent == -1]
@@ -350,11 +357,8 @@ def convert(mesh: MeshData) -> bytes:
         gltf_data["scenes"][0]["nodes"] = root_bones + [mesh_node_index]
     else:
         # Create simple mesh node
-        gltf_data["nodes"].append({
-            "name": "Mesh",
-            "mesh": 0
-        })
+        gltf_data["nodes"].append({"name": "Mesh", "mesh": 0})
 
     # Convert to JSON and return as bytes
-    json_string = json.dumps(gltf_data, separators=(',', ':'))
-    return json_string.encode('utf-8')
+    json_string = json.dumps(gltf_data, separators=(",", ":"))
+    return json_string.encode("utf-8")

@@ -1,11 +1,13 @@
-from PySide6 import QtWidgets, QtCore
 from bitstring import ConstBitStream
+from PySide6 import QtCore, QtWidgets
 
 from core.file import IFile
 from gui.widgets.viewer import Viewer
 
-class BNKExtractor():
+
+class BNKExtractor:
     """A class to extract WEM files from a BNK file."""
+
     files = []
 
     def __init__(self, data: bytes):
@@ -14,18 +16,18 @@ class BNKExtractor():
             f = ConstBitStream(data)
             # BNKH
             f.pos = 32
-            f.pos += int(f.read('uintle:32')) * 8 + 32
+            f.pos += int(f.read("uintle:32")) * 8 + 32
 
             extract_list = []
 
-            #THIS ONE HAS WEM FILES
-            if f.read('bytes:4') == b"DIDX":
-                didx_len = f.read('uintle32')
+            # THIS ONE HAS WEM FILES
+            if f.read("bytes:4") == b"DIDX":
+                didx_len = f.read("uintle32")
                 files = didx_len // 12
                 for x in range(files):
                     extract_list.append(f.readlist("3*uintle32"))
 
-                #DATA
+                # DATA
                 f.pos += 64
                 start_of_data = f.pos
 
@@ -53,6 +55,7 @@ class BNKExtractor():
                 return content
         return None
 
+
 class BnkViewer(Viewer):
     """Widget that displays a BNK file and allows saving WEM files."""
 
@@ -64,15 +67,17 @@ class BnkViewer(Viewer):
 
         self._file: IFile | None = None
 
-        #self.setWindowTitle("BNK Viewer")
-        #self.resize(400, 300)
+        # self.setWindowTitle("BNK Viewer")
+        # self.resize(400, 300)
         self.container = None
 
         self.v_layout = QtWidgets.QVBoxLayout(self)
         self.list_widget = QtWidgets.QListWidget()
         self.msg_box = QtWidgets.QLabel(self)
         self.msg_box.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.msg_box.setSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.msg_box.setSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum
+        )
         self.top_frame = QtWidgets.QFrame()
         hlayout = QtWidgets.QHBoxLayout()
 
@@ -113,7 +118,7 @@ class BnkViewer(Viewer):
 
     def clear_all(self):
         """Clear the list widget and reset the container."""
-        if hasattr(self, 'container') and self.container:
+        if hasattr(self, "container") and self.container:
             self.container = None
 
         self.list_widget.clear()
@@ -131,21 +136,34 @@ class BnkViewer(Viewer):
         if self.container:
             content = self.container.get_file_content(item.text())
             if content is not None:
-                open(QtWidgets.QFileDialog.getSaveFileName(self, "Save WEM File", item.text() + ".wem", "WEM Files (*.wem)")[0], "wb").write(content)
+                open(
+                    QtWidgets.QFileDialog.getSaveFileName(
+                        self, "Save WEM File", item.text() + ".wem", "WEM Files (*.wem)"
+                    )[0],
+                    "wb",
+                ).write(content)
                 self.msg_box.setText(f"File '{item.text()}.wem' saved successfully.")
             else:
-                QtWidgets.QMessageBox.critical(self, "Not found", "File content not found.")
+                QtWidgets.QMessageBox.critical(
+                    self, "Not found", "File content not found."
+                )
 
     def save_all_wem_files(self):
         """Save all WEM files to a selected directory."""
         if self.container:
-            x = QtWidgets.QFileDialog.getExistingDirectory(self, "Select save directory")
+            x = QtWidgets.QFileDialog.getExistingDirectory(
+                self, "Select save directory"
+            )
             for fname in self.container.list_files():
                 content = self.container.get_file_content(fname)
                 if content is not None:
                     open(x + "\\" + fname + ".wem", "wb").write(content)
                 else:
-                    QtWidgets.QMessageBox.critical(self, "Not found", f"File content for '{fname}' not found.")
-            QtWidgets.QMessageBox.information(self, "Success", "All WEM files saved successfully.")
+                    QtWidgets.QMessageBox.critical(
+                        self, "Not found", f"File content for '{fname}' not found."
+                    )
+            QtWidgets.QMessageBox.information(
+                self, "Success", "All WEM files saved successfully."
+            )
         else:
             self.msg_box.setText("Cannot save files, no BNK file loaded.")

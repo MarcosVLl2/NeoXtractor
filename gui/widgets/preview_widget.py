@@ -150,7 +150,7 @@ class PreviewWidget(QtWidgets.QWidget):
                 return
 
         # If no previewer found, show message
-        self.message_label.setText(f"No previewer available for this file type")
+        self.message_label.setText("No previewer available for this file type")
         self.message_label.setVisible(True)
 
     def clear(self):

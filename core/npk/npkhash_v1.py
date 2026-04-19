@@ -1,16 +1,17 @@
-#default npk hashing algorithm reimplemented by aexadev on 22/06/25
+# default npk hashing algorithm reimplemented by aexadev on 22/06/25
 
 import struct
 
-MASK32 = 0xFFFFFFFF          
+MASK32 = 0xFFFFFFFF
+
 
 def mesh_hash(text: str) -> int:
-    raw = text.lower().encode('ascii', 'ignore')        
-    length = (len(raw) + 3) >> 2                           
-    padded = raw + b'\x00' * (length * 4 - len(raw))    
+    raw = text.lower().encode("ascii", "ignore")
+    length = (len(raw) + 3) >> 2
+    padded = raw + b"\x00" * (length * 4 - len(raw))
 
-    data = list(struct.unpack('<' + 'I' * length, padded))
-    data += [0x9BE74448, 0x66F42C48]                    
+    data = list(struct.unpack("<" + "I" * length, padded))
+    data += [0x9BE74448, 0x66F42C48]
     hash_ = 0xF4FA8928
     state = 0x37A8470E
     tweak = 0x7758B42B
@@ -18,14 +19,14 @@ def mesh_hash(text: str) -> int:
     for chunk in data:
         e = 0x267B0B11
         hash_ = ((hash_ << 1) | (hash_ >> 31)) & MASK32
-        e^= hash_
+        e ^= hash_
 
         a = chunk & MASK32
         state ^= a
         tweak ^= a
 
         b = ((e + tweak) | 0x02040801) & 0xBFEF7FDF
-        f = (b * state) & 0xFFFFFFFFFFFFFFFF          
+        f = (b * state) & 0xFFFFFFFFFFFFFFFF
         a = f & MASK32
         b = f >> 32
         if b:

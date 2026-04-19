@@ -1,9 +1,10 @@
 """Provides a filter for NPK entries in the NPK file list."""
 
-from core.npk.enums import NPKEntryFileCategories
 from core.npk.class_types import NPKEntryDataFlags
+from core.npk.enums import NPKEntryFileCategories
 from gui.utils.npk import get_npk_file, ransack_agent
 from gui.widgets.npk_file_list import NPKFileList
+
 
 class NPKEntryFilter:
     """
@@ -45,7 +46,7 @@ class NPKEntryFilter:
                     self._list_view.setRowHidden(row, True)
                     continue
             else:
-                if self.include_text == self.include_binary == False:
+                if not self.include_text and not self.include_binary:
                     # If both are unchecked, hide all non-slot files
                     self._list_view.setRowHidden(row, True)
                     continue
@@ -53,7 +54,9 @@ class NPKEntryFilter:
                 if self.include_text != self.include_binary:
                     # If only one is checked, hide the other
                     is_text_file = bool(npk_entry.data_flags & NPKEntryDataFlags.TEXT)
-                    if (self.include_text and not is_text_file) or (self.include_binary and is_text_file):
+                    if (self.include_text and not is_text_file) or (
+                        self.include_binary and is_text_file
+                    ):
                         self._list_view.setRowHidden(row, True)
                         continue
 
@@ -69,7 +72,9 @@ class NPKEntryFilter:
             elif self.filter_type == npk_entry.category:
                 if self.filter_type == NPKEntryFileCategories.MESH:
                     # Only do the expensive biped head check if needed
-                    show_item = not self.mesh_biped_head or ransack_agent(npk_entry.data, "biped head")
+                    show_item = not self.mesh_biped_head or ransack_agent(
+                        npk_entry.data, "biped head"
+                    )
                 else:
                     show_item = True
             else:

@@ -1,19 +1,30 @@
 """Dialog for editing an existing game configuration."""
 
-from PySide6.QtWidgets import (QDialog, QVBoxLayout, QFormLayout,
-                              QLineEdit, QDialogButtonBox, QSpinBox,
-                              QTableWidget, QTableWidgetItem, QHeaderView,
-                              QPushButton, QHBoxLayout, QLabel)
+from PySide6.QtWidgets import (
+    QDialog,
+    QDialogButtonBox,
+    QFormLayout,
+    QHBoxLayout,
+    QHeaderView,
+    QLabel,
+    QLineEdit,
+    QPushButton,
+    QSpinBox,
+    QTableWidget,
+    QTableWidgetItem,
+    QVBoxLayout,
+)
 
 from core.config import Config
 from core.npk.class_types import NPKReadOptions
+
 
 class EditConfigDialog(QDialog):
     """Dialog for editing an existing game configuration."""
 
     def __init__(self, config: Config, parent=None):
         """Initialize the edit config dialog.
-        
+
         Args:
             config: The config to edit
             parent: Parent widget
@@ -42,12 +53,14 @@ class EditConfigDialog(QDialog):
             self.info_size_edit.setValue(0)
         else:
             self.info_size_edit.setValue(config.read_options.info_size)
-        self.form_layout.addRow("Info Size (0 for auto determine):", self.info_size_edit)
+        self.form_layout.addRow(
+            "Info Size (0 for auto determine):", self.info_size_edit
+        )
 
         # Decryption key field
         self.key_edit = QSpinBox()
         self.key_edit.setMinimum(-2147483648)  # int32 min
-        self.key_edit.setMaximum(2147483647)   # int32 max
+        self.key_edit.setMaximum(2147483647)  # int32 max
         if config.read_options is None or config.read_options.decryption_key is None:
             self.key_edit.setValue(0)
         else:
@@ -62,7 +75,9 @@ class EditConfigDialog(QDialog):
         self.map_table = QTableWidget()
         self.map_table.setColumnCount(2)
         self.map_table.setHorizontalHeaderLabels(["Signature", "File Name"])
-        self.map_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.map_table.horizontalHeader().setSectionResizeMode(
+            QHeaderView.ResizeMode.Stretch
+        )
         self.main_layout.addWidget(self.map_table)
 
         # Populate table with existing data
@@ -103,7 +118,9 @@ class EditConfigDialog(QDialog):
         """Populate the table with existing entry signature name map data."""
         self.map_table.setRowCount(len(self.config.entry_signature_name_map))
 
-        for row, (signature, name) in enumerate(self.config.entry_signature_name_map.items()):
+        for row, (signature, name) in enumerate(
+            self.config.entry_signature_name_map.items()
+        ):
             signature_item = QTableWidgetItem(str(signature))
             name_item = QTableWidgetItem(str(name))
 
@@ -133,7 +150,7 @@ class EditConfigDialog(QDialog):
 
     def get_config(self):
         """Get the edited config.
-        
+
         Returns:
             Config: A new config instance with the edited values
         """
@@ -156,8 +173,12 @@ class EditConfigDialog(QDialog):
         new_config = Config(
             name=self.name_edit.text().strip(),
             read_options=NPKReadOptions(
-                decryption_key=None if self.key_edit.value() == 0 else self.key_edit.value(),
-                info_size=None if self.info_size_edit.value() == 0 else self.info_size_edit.value(),
+                decryption_key=None
+                if self.key_edit.value() == 0
+                else self.key_edit.value(),
+                info_size=None
+                if self.info_size_edit.value() == 0
+                else self.info_size_edit.value(),
             ),
             entry_signature_name_map=entry_signature_name_map,
         )

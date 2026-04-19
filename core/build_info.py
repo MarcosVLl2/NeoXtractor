@@ -3,9 +3,10 @@
 import datetime
 
 try:
-    from build._build_info import BUILD_INFO # type: ignore
+    from build._build_info import BUILD_INFO  # type: ignore
 except ImportError:
     BUILD_INFO = None
+
 
 class _BuildInfo:
     """Class to hold build information."""
@@ -42,5 +43,6 @@ class _BuildInfo:
         if BUILD_INFO is not None:
             return BUILD_INFO.get("branch")
         return None
+
 
 BuildInfo = _BuildInfo()

@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import os
-from io import BufferedReader
 from typing import BinaryIO, Dict, List
 
 from core.formats import process_entry_with_processors

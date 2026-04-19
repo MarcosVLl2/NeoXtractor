@@ -1,13 +1,14 @@
 """Provides HexViewer widget."""
 
-from PySide6 import QtWidgets, QtCore, QtGui
+from PySide6 import QtCore, QtGui, QtWidgets
 
 from core.file import IFile
 from gui.theme.theme_manager import ThemeManager
 from gui.widgets.viewer import Viewer
 
-from .hex_area import HexArea, HexAreaColors
 from .data_inspector import DATA_INSPECTOR_TYPES
+from .hex_area import HexArea, HexAreaColors
+
 
 class HexViewer(Viewer):
     """Main widget for the Hex Viewer."""
@@ -32,8 +33,10 @@ class HexViewer(Viewer):
         self._ascii_action = QtGui.QAction("ASCII View", self)
         self._ascii_action.setCheckable(True)
         self._ascii_action.setChecked(self.area.show_ascii)
+
         def toggle_ascii_view():
             self.area.show_ascii = self._ascii_action.isChecked()
+
         self._ascii_action.toggled.connect(toggle_ascii_view)
         self._toolbar.addAction(self._ascii_action)
 
@@ -44,7 +47,9 @@ class HexViewer(Viewer):
         self._data_inspector_action.setCheckable(True)
         self._data_inspector_action.setChecked(True)
         self._data_inspector_action.toggled.connect(
-            lambda: self._data_inspector.setVisible(self._data_inspector_action.isChecked())
+            lambda: self._data_inspector.setVisible(
+                self._data_inspector_action.isChecked()
+            )
         )
         self._toolbar.addAction(self._data_inspector_action)
 
@@ -57,6 +62,7 @@ class HexViewer(Viewer):
         self._addr_base_combo = QtWidgets.QComboBox()
         self._addr_base_combo.addItems(["Hexadecimal", "Decimal", "Octal"])
         self._addr_base_combo.setCurrentIndex(0)
+
         def update_addressing_base(index):
             if index == 0:
                 self.area.addressing_base = 16
@@ -64,6 +70,7 @@ class HexViewer(Viewer):
                 self.area.addressing_base = 10
             else:
                 self.area.addressing_base = 8
+
         self._addr_base_combo.currentIndexChanged.connect(update_addressing_base)
         self._toolbar.addWidget(self._addr_base_combo)
 
@@ -76,9 +83,11 @@ class HexViewer(Viewer):
         self._bytes_per_line_combo = QtWidgets.QComboBox()
         self._bytes_per_line_combo.addItems(["8", "16", "32", "64"])
         self._bytes_per_line_combo.setCurrentIndex(1)
+
         def update_bytes_per_line(index):
             self.area.bytes_per_line = int(self._bytes_per_line_combo.currentText())
             self.area.update()
+
         self._bytes_per_line_combo.currentIndexChanged.connect(update_bytes_per_line)
         self._toolbar.addWidget(self._bytes_per_line_combo)
 
@@ -117,7 +126,9 @@ class HexViewer(Viewer):
 
         self._data_inspector_little_endian = QtWidgets.QCheckBox("Little Endian")
         self._data_inspector_little_endian.setChecked(True)
-        self._data_inspector_little_endian.checkStateChanged.connect(self._update_data_inspector)
+        self._data_inspector_little_endian.checkStateChanged.connect(
+            self._update_data_inspector
+        )
         self._data_inspector_layout.addWidget(self._data_inspector_little_endian)
 
         center_layout.addWidget(self.area, stretch=1)
@@ -129,9 +140,11 @@ class HexViewer(Viewer):
         layout.addLayout(self._status_bar_layout)
 
         self.area.cursorPositionChanged.connect(
-            lambda:(
-                self._cursor_location.setText(f"Line: {self.area.cursor_pos[0]}, Column: {self.area.cursor_pos[1]}"),
-                self._update_data_inspector()
+            lambda: (
+                self._cursor_location.setText(
+                    f"Line: {self.area.cursor_pos[0]}, Column: {self.area.cursor_pos[1]}"
+                ),
+                self._update_data_inspector(),
             )
         )
 
@@ -156,7 +169,7 @@ class HexViewer(Viewer):
             "hex_viewer.selection_bg_color": "selection_bg_color",
             "hex_viewer.selection_fg_color": "selection_fg_color",
             "hex_viewer.row_color": "row_color",
-            "hex_viewer.alternate_row_color": "alternate_row_color"
+            "hex_viewer.alternate_row_color": "alternate_row_color",
         }
         for key, attr in color_mapping.items():
             clr = self._theme_manager.get_color(key)
@@ -179,7 +192,9 @@ class HexViewer(Viewer):
         little_endian = self._data_inspector_little_endian.isChecked()
 
         for name, label in self._data_inspector_labels.items():
-            value = DATA_INSPECTOR_TYPES[name](self.area.data, self.area.cursor_byte_pos, little_endian)
+            value = DATA_INSPECTOR_TYPES[name](
+                self.area.data, self.area.cursor_byte_pos, little_endian
+            )
             if value is not None:
                 label.setText(str(value))
             else:

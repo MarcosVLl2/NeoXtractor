@@ -7,7 +7,6 @@ import zlib
 
 from core.logger import get_logger
 from core.npk.class_types import NPKEntry, NPKEntryDataFlags
-from core.npk.detection import get_ext, is_binary
 from core.npk.decompression import (
     check_lz4_like,
     check_nxs3,
@@ -17,6 +16,7 @@ from core.npk.decompression import (
     unpack_nxs3,
     unpack_rotor,
 )
+from core.npk.detection import get_ext, is_binary
 from core.wpk.decryption import try_decode_payload_stage1
 
 
@@ -24,7 +24,7 @@ class WPKPayloadProcessor:
     """Decode WPK payloads, including slot_file heuristics and nested wrappers."""
 
     def maybe_unpack_dtsz(self, data: bytes, *, context: str) -> tuple[bytes, bool]:
-        if len(data) < 8 or data[:4] != b"DTSZ" or data[4:8] != b"\x28\xB5\x2F\xFD":
+        if len(data) < 8 or data[:4] != b"DTSZ" or data[4:8] != b"\x28\xb5\x2f\xfd":
             return data, False
 
         try:
@@ -35,18 +35,24 @@ class WPKPayloadProcessor:
 
         try:
             unpacked = zstandard.ZstdDecompressor().decompress(data[4:])
-            get_logger().debug("DTSZ unpacked: %s in=%d out=%d", context, len(data), len(unpacked))
+            get_logger().debug(
+                "DTSZ unpacked: %s in=%d out=%d", context, len(data), len(unpacked)
+            )
             return unpacked, True
         except Exception as exc:
             get_logger().warning("DTSZ decompress failed for %s: %s", context, exc)
             return data, False
 
-    def maybe_strip_enon_header(self, data: bytes, *, context: str) -> tuple[bytes, bool]:
+    def maybe_strip_enon_header(
+        self, data: bytes, *, context: str
+    ) -> tuple[bytes, bool]:
         if len(data) < 4 or data[:4] != b"ENON":
             return data, False
 
         stripped = data[4:]
-        get_logger().debug("ENON header stripped: %s in=%d out=%d", context, len(data), len(stripped))
+        get_logger().debug(
+            "ENON header stripped: %s in=%d out=%d", context, len(data), len(stripped)
+        )
         return stripped, True
 
     def unwrap_nested_payloads(self, entry: NPKEntry, *, context: str) -> None:
@@ -73,13 +79,20 @@ class WPKPayloadProcessor:
 
             stripped = strip_none_wrapper(entry.data)
             if stripped != entry.data:
-                get_logger().debug("NONE header stripped: %s in=%d out=%d", context, len(entry.data), len(stripped))
+                get_logger().debug(
+                    "NONE header stripped: %s in=%d out=%d",
+                    context,
+                    len(entry.data),
+                    len(stripped),
+                )
                 entry.data = stripped
                 entry.none_header_stripped = True
                 entry.unwrap_layers.append("NONE")
                 continue
 
-            stripped, did_strip = self.maybe_strip_enon_header(entry.data, context=context)
+            stripped, did_strip = self.maybe_strip_enon_header(
+                entry.data, context=context
+            )
             if did_strip:
                 entry.data = stripped
                 entry.enon_header_stripped = True
@@ -105,12 +118,19 @@ class WPKPayloadProcessor:
                 try:
                     unpacked = unpack_lz4_like(entry.data)
                 except Exception as exc:
-                    get_logger().warning("LZ4-like unpack failed for %s: %s", context, exc)
+                    get_logger().warning(
+                        "LZ4-like unpack failed for %s: %s", context, exc
+                    )
                     break
 
                 if unpacked and unpacked != entry.data:
                     entry.data = unpacked
-                    get_logger().debug("LZ4-like unpacked: %s in=%d out=%d", context, before_len, len(entry.data))
+                    get_logger().debug(
+                        "LZ4-like unpacked: %s in=%d out=%d",
+                        context,
+                        before_len,
+                        len(entry.data),
+                    )
                     entry.unwrap_layers.append("LZ4_LIKE")
                     continue
 
@@ -118,7 +138,12 @@ class WPKPayloadProcessor:
                 before_len = len(entry.data)
                 entry.data_flags |= NPKEntryDataFlags.ROTOR_PACKED
                 entry.data = unpack_rotor(entry.data)
-                get_logger().debug("ROTOR unpacked: %s in=%d out=%d", context, before_len, len(entry.data))
+                get_logger().debug(
+                    "ROTOR unpacked: %s in=%d out=%d",
+                    context,
+                    before_len,
+                    len(entry.data),
+                )
                 entry.unwrap_layers.append("ROTOR")
                 continue
 
@@ -126,7 +151,12 @@ class WPKPayloadProcessor:
                 before_len = len(entry.data)
                 entry.data_flags |= NPKEntryDataFlags.NXS3_PACKED
                 entry.data = unpack_nxs3(entry.data)
-                get_logger().debug("NXS3 unpacked: %s in=%d out=%d", context, before_len, len(entry.data))
+                get_logger().debug(
+                    "NXS3 unpacked: %s in=%d out=%d",
+                    context,
+                    before_len,
+                    len(entry.data),
+                )
                 entry.unwrap_layers.append("NXS3")
                 continue
 
@@ -150,7 +180,9 @@ class WPKPayloadProcessor:
                 get_logger().debug("COBL decode produced empty output for %s", context)
                 return data, False
 
-            get_logger().debug("COBL unpacked: %s in=%d out=%d", context, len(data), len(unpacked))
+            get_logger().debug(
+                "COBL unpacked: %s in=%d out=%d", context, len(data), len(unpacked)
+            )
             return unpacked, True
         except Exception as exc:
             get_logger().warning("COBL decode failed for %s: %s", context, exc)
@@ -163,7 +195,9 @@ class WPKPayloadProcessor:
 
         data_base = 16 + block_count * 8
         if len(data) < data_base:
-            raise ValueError(f"COBL truncated block table: need >= {data_base}, got {len(data)}")
+            raise ValueError(
+                f"COBL truncated block table: need >= {data_base}, got {len(data)}"
+            )
 
         rel_offset = 0
         out = bytearray()
@@ -178,7 +212,9 @@ class WPKPayloadProcessor:
                 )
 
             payload = data[start:end]
-            decoded = self.decode_cobl_block(payload, context=f"{context} block={block_index}")
+            decoded = self.decode_cobl_block(
+                payload, context=f"{context} block={block_index}"
+            )
             out.extend(decoded)
             rel_offset += size + extra
 
@@ -205,14 +241,18 @@ class WPKPayloadProcessor:
             try:
                 import zstandard
             except Exception as exc:
-                raise RuntimeError(f"COBL block requires zstandard for {context}: {exc}") from exc
+                raise RuntimeError(
+                    f"COBL block requires zstandard for {context}: {exc}"
+                ) from exc
             return zstandard.ZstdDecompressor().decompress(payload)
 
         if tag == 0x4C5A3446:
             try:
                 import lz4.frame as lz4f
             except Exception as exc:
-                raise RuntimeError(f"COBL block requires lz4.frame for {context}: {exc}") from exc
+                raise RuntimeError(
+                    f"COBL block requires lz4.frame for {context}: {exc}"
+                ) from exc
             return lz4f.decompress(payload)
 
         if tag == 0x4F4F444C:
@@ -304,7 +344,9 @@ class WPKPayloadProcessor:
 
         return score, ",".join(reasons) if reasons else "none"
 
-    def decode_slot_payload_auto(self, payload: bytes, *, context: str) -> tuple[bytes, bool, int | None, bool]:
+    def decode_slot_payload_auto(
+        self, payload: bytes, *, context: str
+    ) -> tuple[bytes, bool, int | None, bool]:
         with_header, with_decoded, with_tag = try_decode_payload_stage1(
             payload,
             context=f"{context} slot_auto with_header",
@@ -336,11 +378,15 @@ class WPKPayloadProcessor:
             return chosen, True, chosen_tag, choose_no_header
 
         if no_decoded:
-            get_logger().debug("slot_file auto-select: %s only no_header decoded", context)
+            get_logger().debug(
+                "slot_file auto-select: %s only no_header decoded", context
+            )
             return no_header, True, no_tag, True
 
         if with_decoded:
-            get_logger().debug("slot_file auto-select: %s only with_header decoded", context)
+            get_logger().debug(
+                "slot_file auto-select: %s only with_header decoded", context
+            )
             return with_header, True, with_tag, False
 
         return payload, False, None, False

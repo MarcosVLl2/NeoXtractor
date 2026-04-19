@@ -19,7 +19,7 @@ class PythonHighlighter(QtGui.QSyntaxHighlighter):
         # Keywords
         keyword_format = QtGui.QTextCharFormat()
         keyword_format.setForeground(QtGui.QColor("#569CD6"))
-        keyword_format.setFontWeight(QtGui.QFont.Bold)
+        keyword_format.setFontWeight(QtGui.QFont.Weight.Bold)
 
         keywords = [
             "False",

@@ -63,7 +63,9 @@ class WPKPathResolver:
         if custom:
             return custom
 
-        return os.path.join(self.reader.base_dir, f"{self.reader.base_stem}{pkg_id}.wpk")
+        return os.path.join(
+            self.reader.base_dir, f"{self.reader.base_stem}{pkg_id}.wpk"
+        )
 
     def is_slot_file_pkg(self, pkg_id: int) -> bool:
         return not (0 <= int(pkg_id) <= 15)

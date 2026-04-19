@@ -7,13 +7,14 @@ from core.mesh_loader import MeshData
 NAME = "Inter-Quake Export (IQE) Format"
 EXTENSION = ".iqe"
 
+
 def convert(mesh: MeshData) -> bytes:
     """
     Convert mesh to IQE format.
-    
+
     Parameters:
     - mesh: MeshData object containing bones, vertices, faces, etc.
-    
+
     Returns:
     - bytes: IQE file content as bytes
     """
@@ -36,12 +37,14 @@ def convert(mesh: MeshData) -> bytes:
         m20 = matrix[2, 0]
         m21 = matrix[2, 1]
         m22 = matrix[2, 2]
-        smatrix = np.array([
-            [m00 - m11 - m22, 0.0, 0.0, 0.0],
-            [m01 + m10, m11 - m00 - m22, 0.0, 0.0],
-            [m02 + m20, m12 + m21, m22 - m00 - m11, 0.0],
-            [m21 - m12, m02 - m20, m10 - m01, m00 + m11 + m22],
-        ])
+        smatrix = np.array(
+            [
+                [m00 - m11 - m22, 0.0, 0.0, 0.0],
+                [m01 + m10, m11 - m00 - m22, 0.0, 0.0],
+                [m02 + m20, m12 + m21, m22 - m00 - m11, 0.0],
+                [m21 - m12, m02 - m20, m10 - m01, m00 + m11 + m22],
+            ]
+        )
         smatrix /= 3.0
         w, vec = np.linalg.eigh(smatrix)
         q = vec[[3, 0, 1, 2], np.argmax(w)]
@@ -63,8 +66,8 @@ def convert(mesh: MeshData) -> bytes:
             bone_translate.append(translation_from_matrix(relative_matrix.T))
             bone_rotation.append(quaternion_from_matrix(relative_matrix.T))
 
-    iqe_lines.append('# Inter-Quake Export\n')
-    iqe_lines.append('\n')
+    iqe_lines.append("# Inter-Quake Export\n")
+    iqe_lines.append("\n")
 
     # Write bone hierarchy if bones exist
     if mesh.has_bones:
@@ -81,7 +84,7 @@ def convert(mesh: MeshData) -> bytes:
             iqe_lines.append(f'joint "{mesh.bone_name[index]}" {parent_index}\n')
             x, y, z = bone_translate[index]
             w, i_quat, j, k = bone_rotation[index]
-            iqe_lines.append(f'pq {-x} {y} {z} {i_quat} {-j} {-k} {w}\n')
+            iqe_lines.append(f"pq {-x} {y} {z} {i_quat} {-j} {-k} {w}\n")
 
         def deep_first_search(index, index_pool, parent_index):
             index_pool[0] += 1
@@ -101,7 +104,7 @@ def convert(mesh: MeshData) -> bytes:
                 old2new[i] = i
                 print_joint(i, mesh.bone_parent[i] if mesh.bone_parent[i] != -1 else -1)
 
-        iqe_lines.append('\n')
+        iqe_lines.append("\n")
     else:
         old2new = {}
 
@@ -114,45 +117,49 @@ def convert(mesh: MeshData) -> bytes:
             mesh_vertex_counter_end = mesh_vertex_counter + mesh_vertex_count
             mesh_face_counter_end = mesh_face_counter + mesh_face_count
 
-            iqe_lines.append(f'mesh mesh{mesh_i}\n')
+            iqe_lines.append(f"mesh mesh{mesh_i}\n")
             iqe_lines.append(f'material "mesh{mesh_i}Mat"\n')
-            iqe_lines.append('\n')
+            iqe_lines.append("\n")
 
             # Write vertex positions
             for i in range(mesh_vertex_counter, mesh_vertex_counter_end):
                 x, y, z = mesh.position[i]
-                iqe_lines.append(f'vp {-x} {y} {z}\n')
-            iqe_lines.append('\n')
+                iqe_lines.append(f"vp {-x} {y} {z}\n")
+            iqe_lines.append("\n")
 
             # Write vertex normals
             if mesh.has_normals:
                 for i in range(mesh_vertex_counter, mesh_vertex_counter_end):
                     x, y, z = mesh.normal[i]
-                    iqe_lines.append(f'vn {-x} {y} {z}\n')
-                iqe_lines.append('\n')
+                    iqe_lines.append(f"vn {-x} {y} {z}\n")
+                iqe_lines.append("\n")
 
             # Write UV coordinates
             if mesh.has_uvs:
                 for i in range(mesh_vertex_counter, mesh_vertex_counter_end):
                     u, v = mesh.uv[i]
-                    iqe_lines.append(f'vt {u} {1 - v}\n')
-                iqe_lines.append('\n')
+                    iqe_lines.append(f"vt {u} {1 - v}\n")
+                iqe_lines.append("\n")
 
             # Write vertex bone weights
             if mesh.has_bones:
                 for i in range(mesh_vertex_counter, mesh_vertex_counter_end):
-                    iqe_lines.append('vb')
+                    iqe_lines.append("vb")
                     if i < len(mesh.vertex_bone):
                         for j in range(min(4, len(mesh.vertex_bone[i]))):
                             v = mesh.vertex_bone[i][j]
                             if v in (255, 65535):  # Invalid bone index
                                 break
                             v = old2new.get(v, v)  # Map old bone index to new index
-                            w = mesh.vertex_weight[i][j] if i < len(mesh.vertex_weight) and \
-                                j < len(mesh.vertex_weight[i]) else 0.0
-                            iqe_lines.append(f' {v} {w}')
-                    iqe_lines.append('\n')
-                iqe_lines.append('\n')
+                            w = (
+                                mesh.vertex_weight[i][j]
+                                if i < len(mesh.vertex_weight)
+                                and j < len(mesh.vertex_weight[i])
+                                else 0.0
+                            )
+                            iqe_lines.append(f" {v} {w}")
+                    iqe_lines.append("\n")
+                iqe_lines.append("\n")
 
             # Write faces
             for i in range(mesh_face_counter, mesh_face_counter_end):
@@ -160,51 +167,55 @@ def convert(mesh: MeshData) -> bytes:
                 v1 -= mesh_vertex_counter
                 v2 -= mesh_vertex_counter
                 v3 -= mesh_vertex_counter
-                iqe_lines.append(f'fm {v3} {v1} {v2}\n')
-            iqe_lines.append('\n')
+                iqe_lines.append(f"fm {v3} {v1} {v2}\n")
+            iqe_lines.append("\n")
 
             mesh_vertex_counter = mesh_vertex_counter_end
             mesh_face_counter = mesh_face_counter_end
     else:
         # Single mesh without sub-mesh data
-        iqe_lines.append('mesh mesh0\n')
+        iqe_lines.append("mesh mesh0\n")
         iqe_lines.append('material "mesh0Mat"\n')
-        iqe_lines.append('\n')
+        iqe_lines.append("\n")
 
         # Write vertex positions
         for x, y, z in mesh.position:
-            iqe_lines.append(f'vp {-x} {y} {z}\n')
-        iqe_lines.append('\n')
+            iqe_lines.append(f"vp {-x} {y} {z}\n")
+        iqe_lines.append("\n")
 
         # Write vertex normals
         if mesh.has_normals:
             for x, y, z in mesh.normal:
-                iqe_lines.append(f'vn {-x} {y} {z}\n')
-            iqe_lines.append('\n')
+                iqe_lines.append(f"vn {-x} {y} {z}\n")
+            iqe_lines.append("\n")
 
         # Write UV coordinates
         if mesh.has_uvs:
             for u, v in mesh.uv:
-                iqe_lines.append(f'vt {u} {1 - v}\n')
-            iqe_lines.append('\n')
+                iqe_lines.append(f"vt {u} {1 - v}\n")
+            iqe_lines.append("\n")
 
         # Write vertex bone weights
         if mesh.has_bones:
             for i, bone_indices in enumerate(mesh.vertex_bone):
-                iqe_lines.append('vb')
+                iqe_lines.append("vb")
                 for j in range(min(4, len(bone_indices))):
                     v = bone_indices[j]
                     if v in (255, 65535):  # Invalid bone index
                         break
                     v = old2new.get(v, v)  # Map old bone index to new index
-                    w = mesh.vertex_weight[i][j] if i < len(mesh.vertex_weight) and \
-                        j < len(mesh.vertex_weight[i]) else 0.0
-                    iqe_lines.append(f' {v} {w}')
-                iqe_lines.append('\n')
-            iqe_lines.append('\n')
+                    w = (
+                        mesh.vertex_weight[i][j]
+                        if i < len(mesh.vertex_weight)
+                        and j < len(mesh.vertex_weight[i])
+                        else 0.0
+                    )
+                    iqe_lines.append(f" {v} {w}")
+                iqe_lines.append("\n")
+            iqe_lines.append("\n")
 
         # Write faces
         for v1, v2, v3 in mesh.face:
-            iqe_lines.append(f'fm {v3} {v1} {v2}\n')
+            iqe_lines.append(f"fm {v3} {v1} {v2}\n")
 
-    return ''.join(iqe_lines).encode('utf-8')
+    return "".join(iqe_lines).encode("utf-8")

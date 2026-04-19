@@ -1,9 +1,11 @@
 """Provides a custom vertical tab bar for use in a tab widget."""
 
-from PySide6 import QtWidgets, QtCore
+from PySide6 import QtCore, QtWidgets
+
 
 class VerticalTabBar(QtWidgets.QTabBar):
     """A custom tab bar that displays tabs vertically."""
+
     def __init__(self, parent=None):
         super().__init__(parent)
 
@@ -21,11 +23,11 @@ class VerticalTabBar(QtWidgets.QTabBar):
             painter.save()
 
             # PySide6 has incorrect typing
-            size: QtCore.QSize = opt.rect.size() # type: ignore[attr-defined]
+            size: QtCore.QSize = opt.rect.size()  # type: ignore[attr-defined]
             size.transpose()
             rect = QtCore.QRect(QtCore.QPoint(), size)
-            rect.moveCenter(opt.rect.center()) # type: ignore[attr-defined]
-            opt.rect = rect # type: ignore[attr-defined]
+            rect.moveCenter(opt.rect.center())  # type: ignore[attr-defined]
+            opt.rect = rect  # type: ignore[attr-defined]
 
             center = self.tabRect(index).center()
             painter.translate(center)

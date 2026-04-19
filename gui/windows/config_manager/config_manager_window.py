@@ -1,28 +1,37 @@
 """Config Manager Window for managing game configurations."""
 
-from dataclasses import asdict
-import os
 import json
+import os
+from dataclasses import asdict
 from typing import cast
 
-from PySide6.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout,
-                               QListWidget, QPushButton, QFileDialog,
-                               QMessageBox, QAbstractItemView, QApplication)
+from PySide6.QtWidgets import (
+    QAbstractItemView,
+    QApplication,
+    QDialog,
+    QFileDialog,
+    QHBoxLayout,
+    QListWidget,
+    QMessageBox,
+    QPushButton,
+    QVBoxLayout,
+)
 
 from core.config import Config
 from core.utils import get_application_path
 from gui.config_manager import ConfigManager
 from gui.utils.npk import get_npk_file
 
-from .new_config_dialog import NewConfigDialog
 from .edit_config_dialog import EditConfigDialog
+from .new_config_dialog import NewConfigDialog
+
 
 class ConfigManagerWindow(QDialog):
     """Config Manager Dialog for managing game configurations."""
 
     def __init__(self, config_manager: ConfigManager, parent=None):
         """Initialize the config manager window.
-        
+
         Args:
             config_manager: The config manager instance to use
             parent: Parent widget
@@ -39,12 +48,16 @@ class ConfigManagerWindow(QDialog):
         # Left side - Config list
         self.config_list = QListWidget()
         # Enable multiple selection for delete/export operations
-        self.config_list.setSelectionMode(QAbstractItemView.SelectionMode.ExtendedSelection)
+        self.config_list.setSelectionMode(
+            QAbstractItemView.SelectionMode.ExtendedSelection
+        )
         self.main_layout.addWidget(self.config_list, 3)  # Give it 3 parts of the layout
 
         # Right side - Buttons
         self.button_layout = QVBoxLayout()
-        self.main_layout.addLayout(self.button_layout, 1)  # Give it 1 part of the layout
+        self.main_layout.addLayout(
+            self.button_layout, 1
+        )  # Give it 1 part of the layout
 
         # Create buttons
         self.add_button = QPushButton("Add")
@@ -97,7 +110,9 @@ class ConfigManagerWindow(QDialog):
                 new_config = dialog.get_config()
                 self.config_manager.add_config(new_config)
                 self.refresh_config_list()
-                QMessageBox.information(self, "Success", f"Config '{new_config.name}' added successfully")
+                QMessageBox.information(
+                    self, "Success", f"Config '{new_config.name}' added successfully"
+                )
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Failed to add config: {str(e)}")
 
@@ -109,21 +124,28 @@ class ConfigManagerWindow(QDialog):
             return
 
         if len(selected_items) > 1:
-            QMessageBox.warning(self, "Warning", "Please select only one config to edit.")
+            QMessageBox.warning(
+                self, "Warning", "Please select only one config to edit."
+            )
             return
 
         try:
             config_name = selected_items[0].text()
             config = self.config_manager.get_config(config_name)
             if not config:
-                QMessageBox.critical(self, "Error", f"Config '{config_name}' not found.")
+                QMessageBox.critical(
+                    self, "Error", f"Config '{config_name}' not found."
+                )
                 return
 
             # Check if trying to edit current config while NPK file is loaded
             if self._is_config_current_config(config) and get_npk_file() is not None:
-                QMessageBox.warning(self, "Warning",
-                                  "Cannot edit the current config while an NPK file is loaded. "
-                                  "Please close the NPK file first.")
+                QMessageBox.warning(
+                    self,
+                    "Warning",
+                    "Cannot edit the current config while an NPK file is loaded. "
+                    "Please close the NPK file first.",
+                )
                 return
 
             idx = cast(int, self.config_manager.get_config_index(config))
@@ -133,7 +155,11 @@ class ConfigManagerWindow(QDialog):
                 edited_config = dialog.get_config()
                 self.config_manager.update_config(idx, edited_config)
                 self.refresh_config_list()
-                QMessageBox.information(self, "Success", f"Config '{edited_config.name}' updated successfully")
+                QMessageBox.information(
+                    self,
+                    "Success",
+                    f"Config '{edited_config.name}' updated successfully",
+                )
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Failed to edit config: {str(e)}")
 
@@ -141,34 +167,45 @@ class ConfigManagerWindow(QDialog):
         """Delete the selected configs."""
         selected_items = self.config_list.selectedItems()
         if not selected_items:
-            QMessageBox.warning(self, "Warning", "Please select at least one config to delete.")
+            QMessageBox.warning(
+                self, "Warning", "Please select at least one config to delete."
+            )
             return
 
         # Check if trying to delete current config while NPK file is loaded
         for item in selected_items:
             config_name = item.text()
             config = self.config_manager.get_config(config_name)
-            if config and self._is_config_current_config(config) and get_npk_file() is not None:
-                QMessageBox.warning(self, "Warning",
-                                  "Cannot delete the current config while an NPK file is loaded. "
-                                  "Please close the NPK file first.")
+            if (
+                config
+                and self._is_config_current_config(config)
+                and get_npk_file() is not None
+            ):
+                QMessageBox.warning(
+                    self,
+                    "Warning",
+                    "Cannot delete the current config while an NPK file is loaded. "
+                    "Please close the NPK file first.",
+                )
                 return
 
         # Confirmation dialog
         if len(selected_items) == 1:
             config_name = selected_items[0].text()
             reply = QMessageBox.question(
-                self, "Confirm Delete",
+                self,
+                "Confirm Delete",
                 f"Are you sure you want to delete the config '{config_name}'?",
                 QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                QMessageBox.StandardButton.No
+                QMessageBox.StandardButton.No,
             )
         else:
             reply = QMessageBox.question(
-                self, "Confirm Delete",
+                self,
+                "Confirm Delete",
                 f"Are you sure you want to delete {len(selected_items)} configs?",
                 QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                QMessageBox.StandardButton.No
+                QMessageBox.StandardButton.No,
             )
 
         if reply != QMessageBox.StandardButton.Yes:
@@ -186,8 +223,11 @@ class ConfigManagerWindow(QDialog):
             if len(selected_items) == 1:
                 QMessageBox.information(self, "Success", "Config deleted successfully.")
             else:
-                QMessageBox.information(self, "Success",
-                                        f"{len(selected_items)} configs deleted successfully.")
+                QMessageBox.information(
+                    self,
+                    "Success",
+                    f"{len(selected_items)} configs deleted successfully.",
+                )
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Failed to delete config(s): {str(e)}")
 
@@ -213,11 +253,12 @@ class ConfigManagerWindow(QDialog):
         # Only show confirmation if there are existing configs
         if len(self.config_manager.configs) > 0:
             reply = QMessageBox.question(
-                self, "Confirm Import Defaults",
+                self,
+                "Confirm Import Defaults",
                 "This will import all default configs and may overwrite existing configs with the same names. "
                 "Are you sure you want to continue?",
                 QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                QMessageBox.StandardButton.No
+                QMessageBox.StandardButton.No,
             )
 
             if reply != QMessageBox.StandardButton.Yes:
@@ -226,7 +267,9 @@ class ConfigManagerWindow(QDialog):
         try:
             configs_path = os.path.join(get_application_path(), "configs")
             if not os.path.exists(configs_path):
-                QMessageBox.warning(self, "Warning", "Default configs directory not found.")
+                QMessageBox.warning(
+                    self, "Warning", "Default configs directory not found."
+                )
                 return
 
             # Load configs with overwrite enabled
@@ -238,19 +281,29 @@ class ConfigManagerWindow(QDialog):
 
             imported_count = new_count - original_count
             if imported_count > 0:
-                QMessageBox.information(self, "Success",
-                                      f"Successfully imported {imported_count} default configs.")
+                QMessageBox.information(
+                    self,
+                    "Success",
+                    f"Successfully imported {imported_count} default configs.",
+                )
             else:
-                QMessageBox.information(self, "Success",
-                                      "Default configs imported (existing configs may have been updated).")
+                QMessageBox.information(
+                    self,
+                    "Success",
+                    "Default configs imported (existing configs may have been updated).",
+                )
         except Exception as e:
-            QMessageBox.critical(self, "Error", f"Failed to import default configs: {str(e)}")
+            QMessageBox.critical(
+                self, "Error", f"Failed to import default configs: {str(e)}"
+            )
 
     def export_config(self):
         """Export the selected config(s)."""
         selected_items = self.config_list.selectedItems()
         if not selected_items:
-            QMessageBox.warning(self, "Warning", "Please select at least one config to export.")
+            QMessageBox.warning(
+                self, "Warning", "Please select at least one config to export."
+            )
             return
 
         selected_configs: list[Config] = []
@@ -279,9 +332,13 @@ class ConfigManagerWindow(QDialog):
                     # Create a dictionary representing the config
                     json.dump(asdict(config), config_file, indent=4)
 
-                QMessageBox.information(self, "Success", f"Exported config to: {file_path}")
+                QMessageBox.information(
+                    self, "Success", f"Exported config to: {file_path}"
+                )
             except Exception as e:
-                QMessageBox.critical(self, "Error", f"Failed to export config: {str(e)}")
+                QMessageBox.critical(
+                    self, "Error", f"Failed to export config: {str(e)}"
+                )
         else:
             # Multiple configs: Save to directory
             dir_path = QFileDialog.getExistingDirectory(
@@ -301,8 +358,10 @@ class ConfigManagerWindow(QDialog):
 
                 QMessageBox.information(
                     self,
-                    "Success", 
-                    f"Exported {successful_exports} configs to: {dir_path}"
+                    "Success",
+                    f"Exported {successful_exports} configs to: {dir_path}",
                 )
             except Exception as e:
-                QMessageBox.critical(self, "Error", f"Failed to export configs: {str(e)}")
+                QMessageBox.critical(
+                    self, "Error", f"Failed to export configs: {str(e)}"
+                )

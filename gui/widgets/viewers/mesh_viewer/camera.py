@@ -1,8 +1,10 @@
 """Provides a 3D camera class."""
 
-from enum import IntEnum
 import math
-from PySide6.QtGui import QVector3D, QVector4D, QMatrix4x4
+from enum import IntEnum
+
+from PySide6.QtGui import QMatrix4x4, QVector3D, QVector4D
+
 
 class OrthogonalDirection(IntEnum):
     """
@@ -12,13 +14,14 @@ class OrthogonalDirection(IntEnum):
     from which to observe 3D objects.
     Attributes:
         FRONT (int): Front-facing view direction (value: 1)
-        RIGHT (int): Right-side view direction (value: 3)  
+        RIGHT (int): Right-side view direction (value: 3)
         TOP (int): Top-down view direction (value: 7)
     """
 
     FRONT = 1
     RIGHT = 3
     TOP = 7
+
 
 class Camera:
     """
@@ -33,7 +36,7 @@ class Camera:
     and supports both free-form movement and constrained orthogonal views.
     Attributes:
         pitch (float): Rotation around X-axis in degrees
-        yaw (float): Rotation around Y-axis in degrees  
+        yaw (float): Rotation around Y-axis in degrees
         roll (float): Rotation around Z-axis in degrees
         dist (float): Distance from camera to target point
         fov_y (float): Vertical field of view in degrees for perspective projection
@@ -67,6 +70,7 @@ class Camera:
     def dist(self):
         """Return current distance from camera to target."""
         return self._dist
+
     @dist.setter
     def dist(self, value):
         """Set distance, ensuring it stays within min/max bounds."""
@@ -112,19 +116,30 @@ class Camera:
 
     def proj(self):
         """Return projection matrix"""
-        far_clip = 500000.0  #<aex>1 unit size is 0.065555 in NeoX
+        far_clip = 500000.0  # <aex>1 unit size is 0.065555 in NeoX
         proj = QMatrix4x4()
         if self.perspective:
             proj.perspective(self.fov_y, self.aspect_ratio, 0.1, far_clip)
         else:
             length = math.tan(math.radians(self.fov_y / 2)) * abs(self.dist)
             if self.aspect_ratio >= 1:
-                proj.ortho(-length * self.aspect_ratio, length * self.aspect_ratio,
-                          -length, length, 0.1, far_clip)
+                proj.ortho(
+                    -length * self.aspect_ratio,
+                    length * self.aspect_ratio,
+                    -length,
+                    length,
+                    0.1,
+                    far_clip,
+                )
             else:
-                proj.ortho(-length, length,
-                          -length / self.aspect_ratio, length / self.aspect_ratio,
-                          0.1, far_clip)
+                proj.ortho(
+                    -length,
+                    length,
+                    -length / self.aspect_ratio,
+                    length / self.aspect_ratio,
+                    0.1,
+                    far_clip,
+                )
         return proj
 
     def view_proj(self):
@@ -144,22 +159,22 @@ class Camera:
 
     def pan(self, dx_pix: float, dy_pix: float):
         """Pan camera by moving in screen space"""
-        fov_rad   = math.radians(self.fov_y)
+        fov_rad = math.radians(self.fov_y)
         per_pix_y = 2.0 * self.dist * math.tan(fov_rad * 0.5) / self._vp_size[1]
         per_pix_x = per_pix_y * self.aspect_ratio
 
         right_amount = -dx_pix * per_pix_x
-        up_amount    =  dy_pix * per_pix_y
+        up_amount = dy_pix * per_pix_y
 
         rot_inv = self.rot().inverted()[0]
-        right   = rot_inv.map(QVector4D(1, 0, 0, 0))
-        up      = rot_inv.map(QVector4D(0, 1, 0, 0))
+        right = rot_inv.map(QVector4D(1, 0, 0, 0))
+        up = rot_inv.map(QVector4D(0, 1, 0, 0))
 
-        offset  = right * right_amount + up * up_amount
+        offset = right * right_amount + up * up_amount
 
         self._pos += offset
 
-    def orthogonal(self, direct: OrthogonalDirection, opposite = False):
+    def orthogonal(self, direct: OrthogonalDirection, opposite=False):
         """Set camera to orthogonal view"""
         self.perspective = False
         self.yaw, self.pitch, self.roll = 0.0, 0.0, 0.0
@@ -178,9 +193,11 @@ class Camera:
             focus_point = QVector4D(0.0, 0.0, 0.0, 1.0)
 
         self._pos = focus_point
-        self.dist = math.sqrt((self._pos.x() - focus_point.x())**2 +
-                            (self._pos.y() - focus_point.y())**2 +
-                            (self._pos.z() - focus_point.z())**2)
+        self.dist = math.sqrt(
+            (self._pos.x() - focus_point.x()) ** 2
+            + (self._pos.y() - focus_point.y()) ** 2
+            + (self._pos.z() - focus_point.z()) ** 2
+        )
 
     def set_aspect_ratio(self, width, height):
         """Set camera aspect ratio"""

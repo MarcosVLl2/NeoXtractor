@@ -1,7 +1,5 @@
 """Image conversion functions for various formats."""
 
-# TODO: Code cleanup
-
 import io
 import math
 from typing import cast

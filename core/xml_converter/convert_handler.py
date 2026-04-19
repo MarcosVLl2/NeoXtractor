@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 from collections import deque
 
+
 # Multiple roots support
-def tagWrapper(element_tags: list[tuple[str, int]], attribute_map:list):
+def tagWrapper(element_tags: list[tuple[str, int]], attribute_map: list):
     roots = []  # multiple roots support
     queue = deque()
     index = 0

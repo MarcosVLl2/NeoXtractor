@@ -1,7 +1,7 @@
 """Provides a settings window for the application."""
 
 import sys
-from typing import Any, cast, TYPE_CHECKING
+from typing import TYPE_CHECKING, Any, cast
 
 from PySide6 import QtGui, QtWidgets
 
@@ -9,15 +9,19 @@ from gui.settings_manager import SettingsManager
 from gui.theme import ThemeManager
 from gui.widgets.color_triangle_widget import ColorTriangleWidget
 from gui.widgets.managed_rhi_widget import ManagedRhiWidget
+
 if TYPE_CHECKING:
     from gui.windows.main_window import MainWindow
+
 
 class SettingsWindow(QtWidgets.QDialog):
     """
     A window for application settings.
     """
 
-    def __init__(self, settings_manager: SettingsManager, parent: QtWidgets.QWidget | None = None):
+    def __init__(
+        self, settings_manager: SettingsManager, parent: QtWidgets.QWidget | None = None
+    ):
         super().__init__(parent)
 
         self.setWindowTitle("Settings")
@@ -43,10 +47,7 @@ class SettingsWindow(QtWidgets.QDialog):
 
         self.save_button = QtWidgets.QPushButton("Save", self)
         self.save_button.setDefault(True)
-        self.save_button.clicked.connect(lambda: (
-            self.save_settings(),
-            self.close()
-        ))
+        self.save_button.clicked.connect(lambda: (self.save_settings(), self.close()))
         action_layout.addWidget(self.save_button)
 
         layout.addLayout(action_layout)
@@ -71,7 +72,7 @@ class SettingsWindow(QtWidgets.QDialog):
             available_themes = theme_manager.get_available_themes()
 
             for theme_id, theme_info in available_themes.items():
-                display_name = theme_info.get('name', theme_id.title())
+                display_name = theme_info.get("name", theme_id.title())
                 self.theme_combobox.addItem(display_name, theme_id)
 
         except Exception as e:
@@ -104,7 +105,9 @@ class SettingsWindow(QtWidgets.QDialog):
                 try:
                     theme_manager = ThemeManager.instance()
                     theme_info = theme_manager.get_theme_info(current_data)
-                    description = theme_info.get('description', 'No description available')
+                    description = theme_info.get(
+                        "description", "No description available"
+                    )
                     self.theme_description.setText(description)
                 except Exception:
                     self.theme_description.setText("")
@@ -134,14 +137,19 @@ class SettingsWindow(QtWidgets.QDialog):
         self.backend_combobox.addItem("Vulkan", QtWidgets.QRhiWidget.Api.Vulkan)
 
         if sys.platform == "win32":
-            self.backend_combobox.addItem("Direct3D 11", QtWidgets.QRhiWidget.Api.Direct3D11)
-            self.backend_combobox.addItem("Direct3D 12", QtWidgets.QRhiWidget.Api.Direct3D12)
+            self.backend_combobox.addItem(
+                "Direct3D 11", QtWidgets.QRhiWidget.Api.Direct3D11
+            )
+            self.backend_combobox.addItem(
+                "Direct3D 12", QtWidgets.QRhiWidget.Api.Direct3D12
+            )
 
         if sys.platform == "darwin":
             self.backend_combobox.addItem("Metal", QtWidgets.QRhiWidget.Api.Metal)
 
         def set_backend(api: QtWidgets.QRhiWidget.Api):
             self._pending_changes["graphics.backend"] = api.value
+
         self.backend_combobox.currentIndexChanged.connect(
             lambda idx: set_backend(self.backend_combobox.itemData(idx))
         )
@@ -150,14 +158,18 @@ class SettingsWindow(QtWidgets.QDialog):
         options_layout.addWidget(self.backend_combobox)
         self.current_backend = QtWidgets.QLabel("", self)
         options_layout.addWidget(self.current_backend)
-        options_layout.addWidget(QtWidgets.QLabel("To apply the API change, restart the application.", self))
+        options_layout.addWidget(
+            QtWidgets.QLabel("To apply the API change, restart the application.", self)
+        )
         options_layout.addStretch()
 
         options_layout.addWidget(QtWidgets.QLabel("MSAA:", self))
         self.msaa_combobox = QtWidgets.QComboBox(self)
+
         def set_msaa(value: int):
             self._pending_changes["graphics.msaa"] = value
             self.triangle_widget.setSampleCount(value)
+
         self.msaa_combobox.currentIndexChanged.connect(
             lambda idx: set_msaa(self.msaa_combobox.itemData(idx))
         )
@@ -200,7 +212,9 @@ class SettingsWindow(QtWidgets.QDialog):
         self.theme_combobox.currentIndexChanged.emit(self.theme_combobox.currentIndex())
 
         # Load graphics settings
-        backend = self._settings_manager.get("graphics.backend", QtWidgets.QRhiWidget.Api.Null.value)
+        backend = self._settings_manager.get(
+            "graphics.backend", QtWidgets.QRhiWidget.Api.Null.value
+        )
         index = self.backend_combobox.findData(QtWidgets.QRhiWidget.Api(backend))
         if index != -1:
             self.backend_combobox.setCurrentIndex(index)
@@ -245,11 +259,13 @@ class SettingsWindow(QtWidgets.QDialog):
             except Exception as e:
                 print(f"Error applying theme: {e}")
 
-        main_window = cast('MainWindow', self.parent())
+        main_window = cast("MainWindow", self.parent())
 
         # Apply MSAA to all QRhiWidgets
         msaa = self._settings_manager.get("graphics.msaa", 1)
-        rhi_widgets: list[ManagedRhiWidget] = main_window.app.property("managed_rhi_widgets")
+        rhi_widgets: list[ManagedRhiWidget] = main_window.app.property(
+            "managed_rhi_widgets"
+        )
         if rhi_widgets is None:
             # If no managed RHI widgets list exists, we cannot proceed.
             return

@@ -2,7 +2,7 @@
 
 import io
 import os
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 from arc4 import ARC4
 

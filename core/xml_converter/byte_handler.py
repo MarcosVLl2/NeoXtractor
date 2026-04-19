@@ -1,43 +1,50 @@
 import struct
 from typing import BinaryIO
 
-def readuint8(data:bytes) -> int:
+
+def readuint8(data: bytes) -> int:
     if len(data) == 1:
-        return int(struct.unpack('B', data)[0])
+        return int(struct.unpack("B", data)[0])
     else:
         raise ValueError(f"1 byte needed, {len(data)} given.")
 
-def readuint16(data:bytes) -> int:
+
+def readuint16(data: bytes) -> int:
     if len(data) == 2:
-        return int(struct.unpack('H', data)[0])
+        return int(struct.unpack("H", data)[0])
     else:
         raise ValueError(f"2 byte needed, {len(data)} given.")
 
-def readuint32(data:bytes) -> int:
+
+def readuint32(data: bytes) -> int:
     if len(data) == 4:
-        return struct.unpack('I', data)[0]
+        return struct.unpack("I", data)[0]
     else:
         raise ValueError(f"4 byte needed, {len(data)} given.")
 
-def readint32(data:bytes) -> int:
+
+def readint32(data: bytes) -> int:
     if len(data) == 4:
-        return struct.unpack('I', data)[0]
+        return struct.unpack("I", data)[0]
     else:
         raise ValueError(f"4 byte needed, {len(data)} given.")
 
-def readuint64(data:bytes) -> int:
+
+def readuint64(data: bytes) -> int:
     if len(data) == 8:
-        return struct.unpack('Q', data)[0]
+        return struct.unpack("Q", data)[0]
     else:
         raise ValueError(f"8 byte needed, {len(data)} given.")
 
-def readfloat32(data:bytes):
+
+def readfloat32(data: bytes):
     if len(data) == 4:
-        return struct.unpack('f', data)[0]
+        return struct.unpack("f", data)[0]
     else:
         raise ValueError(f"4 byte needed, {len(data)} given.")
 
-def readLEB128(file:BinaryIO) -> int:
+
+def readLEB128(file: BinaryIO) -> int:
     value, shift = 0, 0
     while True:
         byte = file.read(1)[0]

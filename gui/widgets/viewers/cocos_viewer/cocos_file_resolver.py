@@ -148,15 +148,19 @@ class ResourceResolver:
         crop = atlas_image.copy(frame_rect)
         if rotated:
             transform = QtGui.QTransform().rotate(90)
-            crop = crop.transformed(transform, QtCore.Qt.SmoothTransformation)
+            crop = crop.transformed(
+                transform, QtCore.Qt.TransformationMode.SmoothTransformation
+            )
 
         if source_rect is None:
             return crop
 
         canvas = QtGui.QImage(
-            source_size[0], source_size[1], QtGui.QImage.Format_ARGB32_Premultiplied
+            source_size[0],
+            source_size[1],
+            QtGui.QImage.Format.Format_ARGB32_Premultiplied,
         )
-        canvas.fill(QtCore.Qt.transparent)
+        canvas.fill(QtCore.Qt.GlobalColor.transparent)
         painter = QtGui.QPainter()
         if not painter.begin(canvas):
             return None

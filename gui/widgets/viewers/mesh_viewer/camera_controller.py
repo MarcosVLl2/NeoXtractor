@@ -5,8 +5,9 @@ from .camera import Camera, OrthogonalDirection
 ORTHOGONAL_KEY_MAP = {
     QtCore.Qt.Key.Key_1: OrthogonalDirection.FRONT,
     QtCore.Qt.Key.Key_3: OrthogonalDirection.RIGHT,
-    QtCore.Qt.Key.Key_7: OrthogonalDirection.TOP
+    QtCore.Qt.Key.Key_7: OrthogonalDirection.TOP,
 }
+
 
 class CameraController:
     def __init__(self):
@@ -19,7 +20,7 @@ class CameraController:
         self._mouse_pressed_buttons = {
             QtCore.Qt.MouseButton.LeftButton: False,
             QtCore.Qt.MouseButton.RightButton: False,
-            QtCore.Qt.MouseButton.MiddleButton: False
+            QtCore.Qt.MouseButton.MiddleButton: False,
         }
 
         self._keyboard_pressed_keys = {}
@@ -38,7 +39,7 @@ class CameraController:
             return
 
         current_pos = event.position()
-        delta       = current_pos - self._last_mouse_pos
+        delta = current_pos - self._last_mouse_pos
         self._last_mouse_pos = current_pos
 
         dx = -delta.x()
@@ -62,8 +63,10 @@ class CameraController:
         self._keyboard_pressed_keys[event.key()] = True
 
         if event.key() in ORTHOGONAL_KEY_MAP:
-            self.camera.orthogonal(ORTHOGONAL_KEY_MAP[QtCore.Qt.Key(event.key())],
-                                   self._keyboard_pressed_keys.get(QtCore.Qt.Key.Key_Control, False))
+            self.camera.orthogonal(
+                ORTHOGONAL_KEY_MAP[QtCore.Qt.Key(event.key())],
+                self._keyboard_pressed_keys.get(QtCore.Qt.Key.Key_Control, False),
+            )
 
     def _camera_key_released_event(self, event: QtGui.QKeyEvent):
         if event.key() in self._keyboard_pressed_keys:
@@ -87,6 +90,8 @@ class CameraController:
         if self._keyboard_pressed_keys.get(QtCore.Qt.Key.Key_D, False):
             right += 1
 
-        speed = 0.1 * self.movement_factor if not sprinting else 0.2 * self.movement_factor
+        speed = (
+            0.1 * self.movement_factor if not sprinting else 0.2 * self.movement_factor
+        )
 
         self.camera.move(QtGui.QVector4D(right * speed, 0, -forward * speed, 0))

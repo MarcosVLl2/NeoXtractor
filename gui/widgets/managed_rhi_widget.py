@@ -4,6 +4,7 @@ from PySide6 import QtWidgets
 
 from gui.settings_manager import SettingsManager
 
+
 class ManagedRhiWidget(QtWidgets.QRhiWidget):
     """
     A managed QRhiWidget that automatically handles the RHI backend and MSAA settings.

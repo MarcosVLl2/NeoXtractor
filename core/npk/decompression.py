@@ -15,7 +15,7 @@ from core.npk.enums import CompressionType
 from core.rotor import Rotor
 
 
-def init_rotor():
+def init_rotor() -> Rotor:
     """Initializes the rotor instance."""
     asdf_dn = "j2h56ogodh3se"
     asdf_dt = "=dziaq."
@@ -35,11 +35,11 @@ def init_rotor():
     return rot
 
 
-def _reverse_string(s):
-    l = list(s)
-    l = list(map(lambda x: x ^ 154, l[0:128])) + l[128:]
-    l.reverse()
-    return bytes(l)
+def _reverse_string(s: bytes) -> bytes:
+    spin = list(s)
+    spin = list(map(lambda x: x ^ 154, spin[0:128])) + spin[128:]
+    spin.reverse()
+    return bytes(spin)
 
 
 def decompress_entry(entry: NPKEntry):
@@ -168,12 +168,12 @@ def check_stzb(entry: NPKEntry) -> bool:
     return entry.data[:4] == b"STZB"
 
 
-def unpack_rotor(data):
+def unpack_rotor(data: bytes) -> bytes:
     """Unpacks the ROTOR decryption with the RSA public key and zlib decompression"""
     return _reverse_string(zlib.decompress(init_rotor().decrypt(data)))
 
 
-def unpack_stzb(data):
+def unpack_stzb(data: bytes) -> bytes:
     """Unpacks STZB encrypted data - completely aligned with the second script"""
     if data[:4] != b"STZB":
         return data
@@ -282,7 +282,7 @@ P0VB60qOgnlYmNwld5muJazI9P7sbtFRuEVLoN5Y+P9PCIXQ/RrZVLMCAwEAAQ==
     return decrypted
 
 
-def _nxs3_logic(data: bytes, key: rsa.RSAPublicKey, size: int):
+def _nxs3_logic(data: bytes, key: rsa.RSAPublicKey, size: int) -> bytes:
     wrapped_key = rsa_public_decrypt(data[20 : 20 + size], key)[:4]
 
     if wrapped_key is None or len(wrapped_key) != 4:

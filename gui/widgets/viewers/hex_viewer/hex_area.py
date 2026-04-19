@@ -2,25 +2,49 @@
 
 from collections.abc import Sequence
 from dataclasses import dataclass, field
-from PySide6 import QtWidgets, QtCore, QtGui
+
+from PySide6 import QtCore, QtGui, QtWidgets
+
 
 @dataclass
 class HexAreaColors:
     """Colors used in HexArea widget."""
-    header_color_begin: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(240, 240, 240))
-    header_color_end: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(220, 220, 220))
-    header_separator_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(180, 180, 180))
-    header_text_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(80, 80, 80))
 
-    address_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(80, 80, 80))
+    header_color_begin: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(240, 240, 240)
+    )
+    header_color_end: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(220, 220, 220)
+    )
+    header_separator_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(180, 180, 180)
+    )
+    header_text_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(80, 80, 80)
+    )
+
+    address_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(80, 80, 80)
+    )
     hex_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
     ascii_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 180))
-    highlight_bg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(220, 240, 255))
-    highlight_fg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
-    selection_bg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(180, 220, 255))
-    selection_fg_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(0, 0, 0))
+    highlight_bg_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(220, 240, 255)
+    )
+    highlight_fg_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(0, 0, 0)
+    )
+    selection_bg_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(180, 220, 255)
+    )
+    selection_fg_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(0, 0, 0)
+    )
     row_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(255, 255, 255))
-    alternate_row_color: QtGui.QColor = field(default_factory=lambda: QtGui.QColor(245, 245, 245))
+    alternate_row_color: QtGui.QColor = field(
+        default_factory=lambda: QtGui.QColor(245, 245, 245)
+    )
+
 
 class HexArea(QtWidgets.QWidget):
     """
@@ -72,7 +96,9 @@ class HexArea(QtWidgets.QWidget):
         self._main_layout.addWidget(self._h_scrollbar, 1, 0)
 
         self._corner_widget = QtWidgets.QWidget()
-        self._corner_widget.setFixedSize(self._v_scrollbar.width(), self._h_scrollbar.height())
+        self._corner_widget.setFixedSize(
+            self._v_scrollbar.width(), self._h_scrollbar.height()
+        )
         self._corner_widget.setAutoFillBackground(True)
         self._main_layout.addWidget(self._corner_widget, 1, 1)
 
@@ -103,7 +129,9 @@ class HexArea(QtWidgets.QWidget):
     def addressing_base(self, value: int):
         """Set the addressing base."""
         if value not in (16, 10, 8):
-            raise ValueError("Addressing base must be 16 (hex), 10 (decimal), or 8 (octal).")
+            raise ValueError(
+                "Addressing base must be 16 (hex), 10 (decimal), or 8 (octal)."
+            )
         self._addressing_base = value
         self.update()
 
@@ -165,16 +193,22 @@ class HexArea(QtWidgets.QWidget):
 
         # Calculate the width needed for full display
         address_width = self._calculate_address_width()
-        hex_width = (self._char_width * 4) * self._bytes_per_line  # Width for hex columns
+        hex_width = (
+            self._char_width * 4
+        ) * self._bytes_per_line  # Width for hex columns
         if self._bytes_per_group > 1:
-            hex_width += (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width
+            hex_width += (
+                self._bytes_per_line // self._bytes_per_group - 1
+            ) * self._char_width
 
         ascii_width = 0
         if self._show_ascii:
             ascii_width = int(self._char_width * 1.5) * self._bytes_per_line
 
         # Total content width with padding
-        self._total_width = total_width = address_width + hex_width + ascii_width + self._char_width * 2 + 40
+        self._total_width = total_width = (
+            address_width + hex_width + ascii_width + self._char_width * 2 + 40
+        )
 
         # Calculate available width accounting for the vertical scrollbar
         available_width = self._hex_widget.width()
@@ -186,7 +220,9 @@ class HexArea(QtWidgets.QWidget):
         else:
             self._h_scrollbar.setRange(0, total_width - available_width)
             self._h_scrollbar.setPageStep(available_width)
-            self._h_scrollbar.setSingleStep(self._char_width * 4)  # Scroll by 4 character widths
+            self._h_scrollbar.setSingleStep(
+                self._char_width * 4
+            )  # Scroll by 4 character widths
             self._h_scrollbar.setVisible(True)
 
             # Ensure current position is valid
@@ -197,7 +233,9 @@ class HexArea(QtWidgets.QWidget):
         self._visible_lines = max(1, self._hex_widget.height() // self._char_height)
 
         # Calculate total lines needed to display all data
-        self._total_lines = total_lines = (len(self._data) + self._bytes_per_line - 1) // self._bytes_per_line + 2
+        self._total_lines = total_lines = (
+            len(self._data) + self._bytes_per_line - 1
+        ) // self._bytes_per_line + 2
 
         # Vertical scrollbar visibility and range
         if total_lines <= self._visible_lines:
@@ -216,7 +254,9 @@ class HexArea(QtWidgets.QWidget):
                 self._v_scrollbar.setValue(total_lines - self._visible_lines)
 
         if self._v_scrollbar.isVisible() and self._h_scrollbar.isVisible():
-            self._corner_widget.setFixedSize(self._v_scrollbar.width(), self._h_scrollbar.height())
+            self._corner_widget.setFixedSize(
+                self._v_scrollbar.width(), self._h_scrollbar.height()
+            )
             self._corner_widget.setVisible(True)
 
     def _measure_font_metrics(self):
@@ -246,35 +286,51 @@ class HexArea(QtWidgets.QWidget):
         addr_chars = max(min_width + 2, len(str(max_address)))
         return addr_chars * self._char_width
 
-    def _draw_header(self, painter: QtGui.QPainter, rect: QtCore.QRect, addr_width: int,
-                    hex_width: int, ascii_width: int):
+    def _draw_header(
+        self,
+        painter: QtGui.QPainter,
+        rect: QtCore.QRect,
+        addr_width: int,
+        hex_width: int,
+        ascii_width: int,
+    ):
         """Draw the header with column addresses."""
-        header_rect = QtCore.QRect(rect.left(),
-                                   rect.top(),
-                                   rect.width(),
-                                   self._char_height + 8
-                                   )
+        header_rect = QtCore.QRect(
+            rect.left(), rect.top(), rect.width(), self._char_height + 8
+        )
 
         # Draw header background
-        header_bg = QtGui.QLinearGradient(header_rect.topLeft(), header_rect.bottomLeft())
+        header_bg = QtGui.QLinearGradient(
+            header_rect.topLeft(), header_rect.bottomLeft()
+        )
         header_bg.setColorAt(0, self.colors.header_color_begin)
         header_bg.setColorAt(1, self.colors.header_color_end)
         painter.fillRect(header_rect, header_bg)
 
         # Draw header separator line
         painter.setPen(self.colors.header_separator_color)
-        painter.drawLine(header_rect.left(), header_rect.bottom(),
-                        header_rect.right(), header_rect.bottom())
+        painter.drawLine(
+            header_rect.left(),
+            header_rect.bottom(),
+            header_rect.right(),
+            header_rect.bottom(),
+        )
 
         # Draw address column header
         painter.setPen(self.colors.header_text_color)
-        addr_rect = QtCore.QRect(rect.left(), rect.top(), addr_width, self._char_height + 8)  # Increased height
+        addr_rect = QtCore.QRect(
+            rect.left(), rect.top(), addr_width, self._char_height + 8
+        )  # Increased height
         painter.drawText(addr_rect, QtCore.Qt.AlignmentFlag.AlignCenter, "Address")
 
         # Draw column separators
         painter.setPen(self.colors.header_separator_color)
-        painter.drawLine(addr_rect.right(), header_rect.top(),
-                        addr_rect.right(), header_rect.bottom())
+        painter.drawLine(
+            addr_rect.right(),
+            header_rect.top(),
+            addr_rect.right(),
+            header_rect.bottom(),
+        )
 
         # Draw hex column headers (00-0F)
         hex_start_x = addr_rect.right() + 10
@@ -289,8 +345,12 @@ class HexArea(QtWidgets.QWidget):
                 x_offset += self._char_width
 
             column_text = f"{i:02X}"
-            col_rect = QtCore.QRect(hex_start_x + i * col_width + x_offset, rect.top(),
-                            col_width, self._char_height + 8)
+            col_rect = QtCore.QRect(
+                hex_start_x + i * col_width + x_offset,
+                rect.top(),
+                col_width,
+                self._char_height + 8,
+            )
 
             painter.drawText(col_rect, QtCore.Qt.AlignmentFlag.AlignCenter, column_text)
 
@@ -298,17 +358,30 @@ class HexArea(QtWidgets.QWidget):
         if self._show_ascii:
             painter.setPen(self.colors.header_separator_color)
             ascii_start_x = hex_start_x + hex_width + x_offset + 5
-            painter.drawLine(ascii_start_x - 5, header_rect.top(),
-                            ascii_start_x - 5, header_rect.bottom())
+            painter.drawLine(
+                ascii_start_x - 5,
+                header_rect.top(),
+                ascii_start_x - 5,
+                header_rect.bottom(),
+            )
 
             # Draw ASCII header
-            ascii_header_rect = QtCore.QRect(ascii_start_x, rect.top(),
-                                    ascii_width, self._char_height + 8)
+            ascii_header_rect = QtCore.QRect(
+                ascii_start_x, rect.top(), ascii_width, self._char_height + 8
+            )
             painter.setPen(self.colors.header_text_color)
-            painter.drawText(ascii_header_rect, QtCore.Qt.AlignmentFlag.AlignCenter, "ASCII")
+            painter.drawText(
+                ascii_header_rect, QtCore.Qt.AlignmentFlag.AlignCenter, "ASCII"
+            )
 
-    def _draw_hex_content(self, painter: QtGui.QPainter, rect: QtCore.QRect, addr_width: int,
-                         hex_width: int, ascii_width: int):
+    def _draw_hex_content(
+        self,
+        painter: QtGui.QPainter,
+        rect: QtCore.QRect,
+        addr_width: int,
+        hex_width: int,
+        ascii_width: int,
+    ):
         """Draw the hex content and ASCII representation."""
         if len(self._data) == 0:
             return
@@ -322,8 +395,10 @@ class HexArea(QtWidgets.QWidget):
 
         # Calculate visible range
         first_row = self._v_scrollbar.value()
-        visible_rows = min(self._visible_lines,
-                          (len(self._data) + bytes_per_row - 1) // bytes_per_row - first_row)
+        visible_rows = min(
+            self._visible_lines,
+            (len(self._data) + bytes_per_row - 1) // bytes_per_row - first_row,
+        )
 
         # For each visible row
         for row in range(visible_rows):
@@ -332,11 +407,15 @@ class HexArea(QtWidgets.QWidget):
 
             # Draw alternating row backgrounds
             if (first_row + row) % 2 == 0:
-                painter.fillRect(QtCore.QRect(rect.left(), y, rect.width(), row_height),
-                                self.colors.row_color)
+                painter.fillRect(
+                    QtCore.QRect(rect.left(), y, rect.width(), row_height),
+                    self.colors.row_color,
+                )
             else:
-                painter.fillRect(QtCore.QRect(rect.left(), y, rect.width(), row_height),
-                                self.colors.alternate_row_color)
+                painter.fillRect(
+                    QtCore.QRect(rect.left(), y, rect.width(), row_height),
+                    self.colors.alternate_row_color,
+                )
 
             # Draw address
             painter.setPen(self.colors.address_color)
@@ -350,7 +429,9 @@ class HexArea(QtWidgets.QWidget):
             elif self._addressing_base == 8:  # Octal
                 addr_text = f"0o{row_addr:0{min_width}o}"
             else:  # Decimal
-                addr_text = f"{row_addr:0{min_width+2}d}"  # +2 to account for missing prefix
+                addr_text = (
+                    f"{row_addr:0{min_width + 2}d}"  # +2 to account for missing prefix
+                )
 
             painter.drawText(addr_rect, QtCore.Qt.AlignmentFlag.AlignCenter, addr_text)
 
@@ -374,13 +455,15 @@ class HexArea(QtWidgets.QWidget):
                     int(byte_x + self._char_width / 2 + x_offset),
                     y,
                     col_width - self._char_width,
-                    row_height
-                    )
+                    row_height,
+                )
 
                 # Check if this byte is selected or cursor is here
-                is_selected = (self._selection_start >= 0 and
-                              byte_addr >= min(self._selection_start, self._selection_end) and
-                              byte_addr <= max(self._selection_start, self._selection_end))
+                is_selected = (
+                    self._selection_start >= 0
+                    and byte_addr >= min(self._selection_start, self._selection_end)
+                    and byte_addr <= max(self._selection_start, self._selection_end)
+                )
                 is_cursor = byte_addr == self._cursor_pos
 
                 # Draw background if selected or cursor is here
@@ -394,9 +477,16 @@ class HexArea(QtWidgets.QWidget):
                     painter.setPen(self.colors.hex_color)
 
                 byte_text = f"{byte_val:02X}"
-                painter.drawText(byte_rect, QtCore.Qt.AlignmentFlag.AlignCenter, byte_text)
+                painter.drawText(
+                    byte_rect, QtCore.Qt.AlignmentFlag.AlignCenter, byte_text
+                )
 
-            ascii_x = hex_x + hex_width + (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width + 15
+            ascii_x = (
+                hex_x
+                + hex_width
+                + (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width
+                + 15
+            )
 
             # Draw ASCII representation
             if self._show_ascii:
@@ -406,12 +496,16 @@ class HexArea(QtWidgets.QWidget):
 
                     # Calculate position for this ASCII char
                     char_x = ascii_x + col * int(self._char_width * 1.5)
-                    char_rect = QtCore.QRect(char_x, y, int(self._char_width * 1.5), row_height)
+                    char_rect = QtCore.QRect(
+                        char_x, y, int(self._char_width * 1.5), row_height
+                    )
 
                     # Check if this byte is selected or cursor is here
-                    is_selected = (self._selection_start >= 0 and
-                                  byte_addr >= min(self._selection_start, self._selection_end) and
-                                  byte_addr <= max(self._selection_start, self._selection_end))
+                    is_selected = (
+                        self._selection_start >= 0
+                        and byte_addr >= min(self._selection_start, self._selection_end)
+                        and byte_addr <= max(self._selection_start, self._selection_end)
+                    )
                     is_cursor = byte_addr == self._cursor_pos
 
                     # Draw background if selected or cursor is here
@@ -428,9 +522,11 @@ class HexArea(QtWidgets.QWidget):
                     if 32 <= byte_val <= 126:  # Printable ASCII
                         char = chr(byte_val)
                     else:
-                        char = '.'
+                        char = "."
 
-                    painter.drawText(char_rect, QtCore.Qt.AlignmentFlag.AlignCenter, char)
+                    painter.drawText(
+                        char_rect, QtCore.Qt.AlignmentFlag.AlignCenter, char
+                    )
 
     def _ensure_cursor_visible(self):
         """Ensure the cursor is visible by scrolling if necessary."""
@@ -480,12 +576,15 @@ class HexArea(QtWidgets.QWidget):
             self.cursorPositionChanged.emit(byte_addr)
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
     def mouseMoveEvent(self, event: QtGui.QMouseEvent):
         """Handle mouse move events."""
-        if len(self._data) == 0 or not event.buttons() & QtCore.Qt.MouseButton.LeftButton:
+        if (
+            len(self._data) == 0
+            or not event.buttons() & QtCore.Qt.MouseButton.LeftButton
+        ):
             return
 
         # Extend selection if button is pressed
@@ -497,7 +596,7 @@ class HexArea(QtWidgets.QWidget):
             self.update()
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
     def _byte_at_position(self, pos: QtCore.QPoint) -> int:
@@ -520,9 +619,13 @@ class HexArea(QtWidgets.QWidget):
 
         # Calculate layout
         address_width = self._calculate_address_width()
-        hex_width = (self._char_width * 4) * self._bytes_per_line  # Increased width for hex columns
+        hex_width = (
+            self._char_width * 4
+        ) * self._bytes_per_line  # Increased width for hex columns
         if self._bytes_per_group > 1:
-            hex_width += (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width
+            hex_width += (
+                self._bytes_per_line // self._bytes_per_group - 1
+            ) * self._char_width
 
         # Check if click is in hex area or ASCII area
         hex_start_x = rect.left() + address_width + 10  # Increased spacing
@@ -533,8 +636,14 @@ class HexArea(QtWidgets.QWidget):
         in_ascii_area = False
         ascii_start_x = 0
         if self._show_ascii:
-            ascii_start_x = hex_end_x + (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width + 15
-            ascii_end_x = ascii_start_x + int(self._char_width * 1.5) * self._bytes_per_line
+            ascii_start_x = (
+                hex_end_x
+                + (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width
+                + 15
+            )
+            ascii_end_x = (
+                ascii_start_x + int(self._char_width * 1.5) * self._bytes_per_line
+            )
             in_ascii_area = pos.x() >= ascii_start_x and pos.x() < ascii_end_x
 
         if not (in_hex_area or in_ascii_area):
@@ -586,16 +695,24 @@ class HexArea(QtWidgets.QWidget):
                 return
 
             # Calculate scroll amount
-            delta = event.angleDelta().x() if event.angleDelta().x() != 0 else event.angleDelta().y()
+            delta = (
+                event.angleDelta().x()
+                if event.angleDelta().x() != 0
+                else event.angleDelta().y()
+            )
             pixels_to_scroll = max(self._char_width * 2, abs(delta) // 4)
 
             if delta > 0:
                 # Scroll left
-                self._h_scrollbar.setValue(max(0, self._h_scrollbar.value() - pixels_to_scroll))
+                self._h_scrollbar.setValue(
+                    max(0, self._h_scrollbar.value() - pixels_to_scroll)
+                )
             else:
                 # Scroll right
                 max_scroll = self._h_scrollbar.maximum()
-                self._h_scrollbar.setValue(min(max_scroll, self._h_scrollbar.value() + pixels_to_scroll))
+                self._h_scrollbar.setValue(
+                    min(max_scroll, self._h_scrollbar.value() + pixels_to_scroll)
+                )
 
         else:
             # Vertical scrolling
@@ -608,11 +725,15 @@ class HexArea(QtWidgets.QWidget):
 
             if delta > 0:
                 # Scroll up
-                self._v_scrollbar.setValue(max(0, self._v_scrollbar.value() - lines_to_scroll))
+                self._v_scrollbar.setValue(
+                    max(0, self._v_scrollbar.value() - lines_to_scroll)
+                )
             else:
                 # Scroll down
                 max_first_line = self._total_lines - self._visible_lines
-                self._v_scrollbar.setValue(min(max_first_line, self._v_scrollbar.value() + lines_to_scroll))
+                self._v_scrollbar.setValue(
+                    min(max_first_line, self._v_scrollbar.value() + lines_to_scroll)
+                )
 
         self.update()
 
@@ -640,7 +761,7 @@ class HexArea(QtWidgets.QWidget):
                 self.cursorPositionChanged.emit(self._cursor_pos)
                 self.selectionChanged.emit(
                     min(self._selection_start, self._selection_end),
-                    max(self._selection_start, self._selection_end)
+                    max(self._selection_start, self._selection_end),
                 )
 
         elif event.key() == QtGui.Qt.Key.Key_Right:
@@ -662,7 +783,7 @@ class HexArea(QtWidgets.QWidget):
                 self.cursorPositionChanged.emit(self._cursor_pos)
                 self.selectionChanged.emit(
                     min(self._selection_start, self._selection_end),
-                    max(self._selection_start, self._selection_end)
+                    max(self._selection_start, self._selection_end),
                 )
 
         elif event.key() == QtGui.Qt.Key.Key_Up:
@@ -684,7 +805,7 @@ class HexArea(QtWidgets.QWidget):
                 self.cursorPositionChanged.emit(self._cursor_pos)
                 self.selectionChanged.emit(
                     min(self._selection_start, self._selection_end),
-                    max(self._selection_start, self._selection_end)
+                    max(self._selection_start, self._selection_end),
                 )
 
         elif event.key() == QtGui.Qt.Key.Key_Down:
@@ -706,12 +827,14 @@ class HexArea(QtWidgets.QWidget):
                 self.cursorPositionChanged.emit(self._cursor_pos)
                 self.selectionChanged.emit(
                     min(self._selection_start, self._selection_end),
-                    max(self._selection_start, self._selection_end)
+                    max(self._selection_start, self._selection_end),
                 )
 
         elif event.key() == QtGui.Qt.Key.Key_Home:
             # Move cursor to start of line
-            line_start = (self._cursor_pos // self._bytes_per_line) * self._bytes_per_line
+            line_start = (
+                self._cursor_pos // self._bytes_per_line
+            ) * self._bytes_per_line
             self._cursor_pos = line_start
 
             # Update selection if shift is pressed
@@ -728,12 +851,14 @@ class HexArea(QtWidgets.QWidget):
             self.cursorPositionChanged.emit(self._cursor_pos)
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
         elif event.key() == QtGui.Qt.Key.Key_End:
             # Move cursor to end of line
-            line_start = (self._cursor_pos // self._bytes_per_line) * self._bytes_per_line
+            line_start = (
+                self._cursor_pos // self._bytes_per_line
+            ) * self._bytes_per_line
             line_end = min(line_start + self._bytes_per_line - 1, len(self._data) - 1)
             self._cursor_pos = line_end
 
@@ -751,13 +876,15 @@ class HexArea(QtWidgets.QWidget):
             self.cursorPositionChanged.emit(self._cursor_pos)
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
         elif event.key() == QtGui.Qt.Key.Key_PageUp:
             # Move cursor up one page
             old_pos = self._cursor_pos
-            lines_to_move = min(self._visible_lines, self._cursor_pos // self._bytes_per_line)
+            lines_to_move = min(
+                self._visible_lines, self._cursor_pos // self._bytes_per_line
+            )
             self._cursor_pos -= lines_to_move * self._bytes_per_line
 
             # Update selection if shift is pressed
@@ -774,7 +901,7 @@ class HexArea(QtWidgets.QWidget):
             self.cursorPositionChanged.emit(self._cursor_pos)
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
         elif event.key() == QtGui.Qt.Key.Key_PageDown:
@@ -801,7 +928,7 @@ class HexArea(QtWidgets.QWidget):
             self.cursorPositionChanged.emit(self._cursor_pos)
             self.selectionChanged.emit(
                 min(self._selection_start, self._selection_end),
-                max(self._selection_start, self._selection_end)
+                max(self._selection_start, self._selection_end),
             )
 
         elif event.key() == QtGui.Qt.Key.Key_Escape:
@@ -833,14 +960,20 @@ class HexArea(QtWidgets.QWidget):
 
         # Calculate layout
         address_width = self._calculate_address_width()
-        hex_width = (self._char_width * 4) * self._bytes_per_line  # Increased width for hex columns
+        hex_width = (
+            self._char_width * 4
+        ) * self._bytes_per_line  # Increased width for hex columns
         if self._bytes_per_group > 1:
             # Extra space between groups
-            hex_width += (self._bytes_per_line // self._bytes_per_group - 1) * self._char_width
+            hex_width += (
+                self._bytes_per_line // self._bytes_per_group - 1
+            ) * self._char_width
 
         ascii_width = 0
         if self._show_ascii:
-            ascii_width = int(self._char_width * 1.5) * self._bytes_per_line  # Increased spacing for ASCII chars
+            ascii_width = (
+                int(self._char_width * 1.5) * self._bytes_per_line
+            )  # Increased spacing for ASCII chars
 
         rect.setWidth(max(self._total_width, rect.width()))
 
@@ -897,8 +1030,8 @@ class HexArea(QtWidgets.QWidget):
         if end >= len(self._data):
             end = len(self._data) - 1
 
-        selected_bytes = self._data[start:end+1]
-        hex_text = ' '.join(f"{b:02X}" for b in selected_bytes)
+        selected_bytes = self._data[start : end + 1]
+        hex_text = " ".join(f"{b:02X}" for b in selected_bytes)
 
         QtWidgets.QApplication.clipboard().setText(hex_text)
 
@@ -915,8 +1048,8 @@ class HexArea(QtWidgets.QWidget):
         if end >= len(self._data):
             end = len(self._data) - 1
 
-        selected_bytes = self._data[start:end+1]
-        ascii_text = ''.join(chr(b) if 32 <= b <= 126 else '.' for b in selected_bytes)
+        selected_bytes = self._data[start : end + 1]
+        ascii_text = "".join(chr(b) if 32 <= b <= 126 else "." for b in selected_bytes)
 
         QtWidgets.QApplication.clipboard().setText(ascii_text)
 
@@ -958,11 +1091,13 @@ class HexArea(QtWidgets.QWidget):
                     self.selectionChanged.emit(addr, addr)
                 else:
                     QtWidgets.QMessageBox.warning(
-                        self, "Invalid Address",
-                        f"Address must be between 0 and {len(self._data)-1}"
+                        self,
+                        "Invalid Address",
+                        f"Address must be between 0 and {len(self._data) - 1}",
                     )
             except ValueError:
                 QtWidgets.QMessageBox.warning(
-                    self, "Invalid Address",
-                    "Please enter a valid decimal or hexadecimal address"
+                    self,
+                    "Invalid Address",
+                    "Please enter a valid decimal or hexadecimal address",
                 )

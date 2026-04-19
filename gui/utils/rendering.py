@@ -1,7 +1,8 @@
 """Utilities for rendering."""
 
 import numpy as np
-from PySide6 import QtWidgets, QtGui
+from PySide6 import QtGui, QtWidgets
+
 
 def is_d3d(widget: QtWidgets.QRhiWidget) -> bool:
     """
@@ -13,8 +14,11 @@ def is_d3d(widget: QtWidgets.QRhiWidget) -> bool:
     Returns:
         bool: True if the widget is using Direct3D, False otherwise.
     """
-    return widget.api() == QtWidgets.QRhiWidget.Api.Direct3D11 or \
-        widget.api() == QtWidgets.QRhiWidget.Api.Direct3D12
+    return (
+        widget.api() == QtWidgets.QRhiWidget.Api.Direct3D11
+        or widget.api() == QtWidgets.QRhiWidget.Api.Direct3D12
+    )
+
 
 def static_uniform_buffer_type(widget: QtWidgets.QRhiWidget) -> QtGui.QRhiBuffer.Type:
     """
@@ -22,8 +26,12 @@ def static_uniform_buffer_type(widget: QtWidgets.QRhiWidget) -> QtGui.QRhiBuffer
 
     In Direct3D, uniform buffers must use Dynamic buffers.
     """
-    return QtGui.QRhiBuffer.Type.Dynamic if is_d3d(widget) else \
-        QtGui.QRhiBuffer.Type.Immutable
+    return (
+        QtGui.QRhiBuffer.Type.Dynamic
+        if is_d3d(widget)
+        else QtGui.QRhiBuffer.Type.Immutable
+    )
+
 
 def grid(size: int, steps: int):
     """

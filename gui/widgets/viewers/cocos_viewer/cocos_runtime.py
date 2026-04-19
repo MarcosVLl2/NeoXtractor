@@ -315,7 +315,7 @@ def _states_equal(left: Any, right: Any, tolerance: float = 0.0001) -> bool:
             if not _states_equal(left.get(key), right.get(key), tolerance):
                 return False
         return True
-    if isinstance(left, (int, float)) or isinstance(right, (int, float)):
+    if isinstance(left, (int, float)) and isinstance(right, (int, float)):
         try:
             return abs(float(left or 0) - float(right or 0)) <= tolerance
         except (TypeError, ValueError):

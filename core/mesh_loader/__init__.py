@@ -7,14 +7,9 @@ Supports adaptive parsing with fallback mechanisms for robust file handling.
 
 from . import parsers
 from .exceptions import MeshParsingError
-from .types import MeshData
 
 # Import the loader components after defining parsers
 from .loader import MeshLoader
+from .types import MeshData
 
-__all__ = [
-    'parsers',
-    'MeshLoader',
-    'MeshData',
-    'MeshParsingError'
-]
+__all__ = ["parsers", "MeshLoader", "MeshData", "MeshParsingError"]

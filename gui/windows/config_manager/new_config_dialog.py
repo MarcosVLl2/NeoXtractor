@@ -1,18 +1,24 @@
 """Dialog for creating a new game configuration."""
 
-from PySide6.QtWidgets import (QDialog, QVBoxLayout, QFormLayout,
-                              QLineEdit, QDialogButtonBox,
-                              QSpinBox)
+from PySide6.QtWidgets import (
+    QDialog,
+    QDialogButtonBox,
+    QFormLayout,
+    QLineEdit,
+    QSpinBox,
+    QVBoxLayout,
+)
 
 from core.config import Config
 from core.npk.class_types import NPKReadOptions
+
 
 class NewConfigDialog(QDialog):
     """Dialog for creating a new game configuration."""
 
     def __init__(self, parent=None):
         """Initialize the new config dialog.
-        
+
         Args:
             parent: Parent widget
         """
@@ -33,13 +39,15 @@ class NewConfigDialog(QDialog):
         self.info_size_edit = QSpinBox()
         self.info_size_edit.setMinimum(0)
         self.info_size_edit.setMaximum(999999)
-        self.info_size_edit.setValue(0) # Default value
-        self.form_layout.addRow("Info Size (0 for auto determine):", self.info_size_edit)
+        self.info_size_edit.setValue(0)  # Default value
+        self.form_layout.addRow(
+            "Info Size (0 for auto determine):", self.info_size_edit
+        )
 
         # Decryption key field
         self.key_edit = QSpinBox()
         self.key_edit.setMinimum(-2147483648)  # int32 min
-        self.key_edit.setMaximum(2147483647)   # int32 max
+        self.key_edit.setMaximum(2147483647)  # int32 max
         self.key_edit.setValue(0)  # Default value
         self.form_layout.addRow("Decryption Key (Use 0 for no key):", self.key_edit)
 
@@ -63,15 +71,19 @@ class NewConfigDialog(QDialog):
 
     def get_config(self):
         """Get the created config.
-        
+
         Returns:
             Config: The newly created config
         """
         config = Config(
             name=self.name_edit.text(),
             read_options=NPKReadOptions(
-                decryption_key=None if self.key_edit.value() == 0 else self.key_edit.value(),
-                info_size=None if self.info_size_edit.value() == 0 else self.info_size_edit.value(),
-            )
+                decryption_key=None
+                if self.key_edit.value() == 0
+                else self.key_edit.value(),
+                info_size=None
+                if self.info_size_edit.value() == 0
+                else self.info_size_edit.value(),
+            ),
         )
         return config

@@ -1,8 +1,7 @@
 import json
 import struct
 from collections import Counter
-from pathlib import Path
-from typing import Any, Dict, Optional, Union
+from typing import Any, Dict, Optional
 
 from flatbuffers import encode
 from flatbuffers import number_types as N

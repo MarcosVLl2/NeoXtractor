@@ -2,16 +2,11 @@
 
 from core.mesh_loader import MeshData
 
-from .formats import (
-    ascii as mesh_ascii,
-    gltf,
-    iqe,
-    obj,
-    pmx,
-    smd
-)
+from .formats import ascii as mesh_ascii
+from .formats import gltf, iqe, obj, pmx, smd
 
 FORMATS = [mesh_ascii, gltf, iqe, obj, pmx, smd]
+
 
 def convert_mesh(mesh: MeshData, target_format: type, **kwargs) -> bytes:
     """
@@ -27,13 +22,5 @@ def convert_mesh(mesh: MeshData, target_format: type, **kwargs) -> bytes:
     """
     return target_format.convert(mesh, **kwargs)
 
-__all__ = [
-    'convert_mesh',
-    'FORMATS',
-    'mesh_ascii',
-    'gltf',
-    'iqe',
-    'obj',
-    'pmx',
-    'smd'
-]
+
+__all__ = ["convert_mesh", "FORMATS", "mesh_ascii", "gltf", "iqe", "obj", "pmx", "smd"]

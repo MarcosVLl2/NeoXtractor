@@ -3,17 +3,16 @@
 from __future__ import annotations
 
 import struct
-from typing import Optional
 
 from core.logger import get_logger
 
 try:
     from cryptography.hazmat.backends import default_backend as aes_default_backend
     from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
     _HAS_AES = True
-except Exception:  # pragma: no cover - graceful fallback
-    Cipher = algorithms = modes = None
-    aes_default_backend = None
+except ImportError:  # pragma: no cover - graceful fallback
+    Cipher = algorithms = modes = aes_default_backend = None
     _HAS_AES = False
 
 
@@ -40,7 +39,16 @@ def derive_key(length: int, t: int) -> bytes:
 
 def aes_decrypt_prefix(buf: bytearray, length: int, key16: bytes) -> int:
     """AES-ECB decrypt the prefix aligned to 16-byte blocks."""
-    if length <= 0 or not _HAS_AES:
+    if (
+        length <= 0
+        or not _HAS_AES
+        or (
+            Cipher is None
+            or algorithms is None
+            or modes is None
+            or aes_default_backend is None
+        )  # Makes the linter shush
+    ):
         return 0
 
     done = (length // 16) * 16
@@ -83,7 +91,9 @@ def header_decode(buf: bytearray) -> None:
         buf[i] ^= 0x5A
 
 
-def decode_payload_stage1(payload: bytes, *, skip_header_decode: bool = False) -> tuple[bytes, int] | None:
+def decode_payload_stage1(
+    payload: bytes, *, skip_header_decode: bool = False
+) -> tuple[bytes, int] | None:
     """Decode one payload using the WPD1 stage-1 rules.
 
     Returns (decoded_body, tag) on success, or None if the payload does not

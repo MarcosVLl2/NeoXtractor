@@ -1,6 +1,7 @@
 import os
 from abc import ABCMeta, abstractmethod
 
+
 class IFile(metaclass=ABCMeta):
     """
     Abstracted file interface.
@@ -31,8 +32,10 @@ class IFile(metaclass=ABCMeta):
         """Size of the file in bytes."""
         return len(self.data)
 
+
 class SimpleFile(IFile):
     """Simple file implementation."""
+
     def __init__(self, name: str, data: bytes):
         self._name = name
         self._data = data

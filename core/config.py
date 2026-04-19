@@ -1,10 +1,11 @@
 """Provides game config utilities."""
 
-from dataclasses import dataclass, field
 import json
+from dataclasses import dataclass, field
 from typing import Any
 
 from core.npk.class_types import NPKReadOptions
+
 
 @dataclass
 class Config:
@@ -21,7 +22,7 @@ class Config:
             self.read_options = NPKReadOptions(**self.read_options)
 
     @staticmethod
-    def from_file(path: str) -> 'Config':
+    def from_file(path: str) -> "Config":
         """Creates a config from file."""
         with open(path, "r", encoding="utf-8") as config_file:
             data: dict[str, Any] = json.load(config_file)

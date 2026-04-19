@@ -6,24 +6,26 @@ import sys
 from core.config import Config
 from core.npk.npk_file import NPKFile
 
+
 def get_application_path():
     """
     Returns the base path of the application, works both in development
     and when packaged with PyInstaller.
     """
-    if getattr(sys, 'frozen', False):
+    if getattr(sys, "frozen", False):
         # PyInstaller creates a temporary folder and stores path in _MEIPASS
-        application_path = getattr(sys, '_MEIPASS')
+        application_path = getattr(sys, "_MEIPASS")
     else:
         # Get the directory of the main script when running normally
         application_path = os.path.dirname(os.path.abspath(sys.argv[0]))
 
     return application_path
 
+
 def get_filename_in_config(config: Config, index: int, file: NPKFile) -> str:
     """
     Get the filename for a given index in the config.
-    
+
     :param config: The game config.
     :param index: The index of the file.
     :param file: The NPK file.
@@ -36,13 +38,18 @@ def get_filename_in_config(config: Config, index: int, file: NPKFile) -> str:
             name = base_name + "." + file.entries[index].extension
             return name
         return base_name
-    name = entry_index.filename if not file.is_entry_loaded(index) else file.entries[index].filename
+    name = (
+        entry_index.filename
+        if not file.is_entry_loaded(index)
+        else file.entries[index].filename
+    )
     return name
+
 
 def format_bytes(num_bytes: int) -> str:
     """
     Format bytes into a human-readable string with appropriate unit.
-    
+
     :param num_bytes: Number of bytes to format
     :return: Formatted string (e.g., "1.23 KB", "45.6 MB")
     """

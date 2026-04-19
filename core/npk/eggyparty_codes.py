@@ -1303,10 +1303,14 @@ AES_DEC_T0 = [
 
 def decrypt_mode3_block(b, k):
     T, S, M = [AES_DEC_T0, AES_DEC_T1, AES_DEC_T2, AES_DEC_T3], AES_INV_SBOX, 0xFFFFFFFF
+
     # N (NeoX Transform): Handles the custom byte-swap mask (rot8 ^ mask)
-    N = lambda v, r=0: (
-        (rk := (v >> 8 | v << 24) & M) ^ r ^ ((rk ^ (v << 8 | v >> 24) & M) & 0xFF00FF)
-    )
+    def N(v, r=0):
+        return (
+            (rk := (v >> 8 | v << 24) & M)
+            ^ r
+            ^ ((rk ^ (v << 8 | v >> 24) & M) & 0xFF00FF)
+        )
 
     x = struct.unpack("<4I", b)
     s = [N(x[i], k[i]) for i in range(4)]

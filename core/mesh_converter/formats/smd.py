@@ -5,14 +5,15 @@ from core.mesh_loader import MeshData
 NAME = "Source Model Data (SMD) Format"
 EXTENSION = ".smd"
 
+
 def convert(mesh: MeshData, flip_uv=False) -> bytes:
     """
     Convert mesh to Valve's SMD format as a reference (static) SMD.
-    
+
     Parameters:
     - mesh: MeshData object containing bones, vertices, faces, etc.
     - flip_uv: Boolean to indicate whether to flip the UV coordinates on the Y-axis.
-    
+
     Returns:
     - bytes: SMD file content as bytes
     """
@@ -31,7 +32,7 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
         # Recursive function to build bone hierarchy
         def write_bone_hierarchy(index, parent_index, lines):
             bone_name = mesh.bone_name[index]
-            lines.append(f"{index} \"{bone_name}\" {parent_index}\n")
+            lines.append(f'{index} "{bone_name}" {parent_index}\n')
             if index in parent_child_dict:
                 for child in parent_child_dict[index]:
                     write_bone_hierarchy(child, index, lines)
@@ -49,12 +50,14 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
             x, y, z = matrix[0, 3], matrix[1, 3], matrix[2, 3]
             # Extract rotation angles (simplified - assumes no complex rotations)
             rx, ry, rz = 0.0, 0.0, 0.0
-            smd_lines.append(f"{i} {x:.6f} {y:.6f} {z:.6f} {rx:.6f} {ry:.6f} {rz:.6f}\n")
+            smd_lines.append(
+                f"{i} {x:.6f} {y:.6f} {z:.6f} {rx:.6f} {ry:.6f} {rz:.6f}\n"
+            )
         smd_lines.append("end\n")
     else:
         # No bones - create a single root bone
         smd_lines.append("nodes\n")
-        smd_lines.append("0 \"root\" -1\n")
+        smd_lines.append('0 "root" -1\n')
         smd_lines.append("end\n")
 
         smd_lines.append("skeleton\n")
@@ -85,17 +88,17 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
                 # Find the bone with highest weight
                 max_weight_idx = weights.index(max(weights))
                 bone_id = joint_indices[max_weight_idx]
-                weight = weights[max_weight_idx]
             else:
                 # No bones - assign to root bone
                 bone_id = 0
-                weight = 1.0
 
             # Format: <bone ID> <x> <y> <z> <nx> <ny> <nz> <u> <v> [links]
-            smd_lines.append(f"{bone_id} {pos[0]:.6f} {pos[1]:.6f} {pos[2]:.6f} "
-                           f"{norm[0]:.6f} {norm[1]:.6f} {norm[2]:.6f} "
-                           f"{uv[0]:.6f} {uv[1]:.6f}\n")
+            smd_lines.append(
+                f"{bone_id} {pos[0]:.6f} {pos[1]:.6f} {pos[2]:.6f} "
+                f"{norm[0]:.6f} {norm[1]:.6f} {norm[2]:.6f} "
+                f"{uv[0]:.6f} {uv[1]:.6f}\n"
+            )
 
     smd_lines.append("end\n")
 
-    return ''.join(smd_lines).encode('utf-8')
+    return "".join(smd_lines).encode("utf-8")

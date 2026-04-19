@@ -5,14 +5,15 @@ from core.mesh_loader import MeshData
 NAME = "Wavefront OBJ Format"
 EXTENSION = ".obj"
 
+
 def convert(mesh: MeshData, flip_uv=False) -> bytes:
     """
     Convert mesh to OBJ format as a static mesh without skeleton.
-    
+
     Parameters:
     - mesh: MeshData object to be converted to OBJ format.
     - flip_uv: Boolean to indicate whether to flip the UV coordinates on the Y-axis.
-    
+
     Returns:
     - bytes: OBJ file content as bytes
     """
@@ -37,14 +38,16 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
             obj_lines.append(f"g Sub-mesh_{i}\n")
 
             # Write UVs for this sub-mesh
-            for uv in mesh.uv[vertex_offset:vertex_offset + mesh_vertex_count]:
+            for uv in mesh.uv[vertex_offset : vertex_offset + mesh_vertex_count]:
                 if flip_uv:
                     uv = (uv[0], 1 - uv[1])  # Flip UV on the Y axis
                 obj_lines.append(f"vt {uv[0]} {uv[1]}\n")
 
             # Write faces, adjusting for vertex offset
-            for v1, v2, v3 in mesh.face[face_offset:face_offset + mesh_face_count]:
-                obj_lines.append(f"f {v1 + 1}/{v1 + 1} {v2 + 1}/{v2 + 1} {v3 + 1}/{v3 + 1}\n")
+            for v1, v2, v3 in mesh.face[face_offset : face_offset + mesh_face_count]:
+                obj_lines.append(
+                    f"f {v1 + 1}/{v1 + 1} {v2 + 1}/{v2 + 1} {v3 + 1}/{v3 + 1}\n"
+                )
 
             # Update the offsets for the next sub-mesh
             vertex_offset += mesh_vertex_count
@@ -60,7 +63,9 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
         # Write all faces
         for v1, v2, v3 in mesh.face:
             if mesh.has_uvs:
-                obj_lines.append(f"f {v1 + 1}/{v1 + 1} {v2 + 1}/{v2 + 1} {v3 + 1}/{v3 + 1}\n")
+                obj_lines.append(
+                    f"f {v1 + 1}/{v1 + 1} {v2 + 1}/{v2 + 1} {v3 + 1}/{v3 + 1}\n"
+                )
             else:
                 obj_lines.append(f"f {v1 + 1} {v2 + 1} {v3 + 1}\n")
 
@@ -71,4 +76,4 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
             parent = mesh.bone_parent[i]
             obj_lines.append(f"# Bone: {bone_name}, Parent: {parent}\n")
 
-    return ''.join(obj_lines).encode('utf-8')
+    return "".join(obj_lines).encode("utf-8")

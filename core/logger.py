@@ -1,10 +1,10 @@
 """Logger module."""
 
-import os
-import logging
 import inspect
+import logging
+import os
 
-from PySide6.QtCore import QtMsgType, qInstallMessageHandler, QMessageLogContext
+from PySide6.QtCore import QMessageLogContext, QtMsgType, qInstallMessageHandler
 
 from core.args import arguments
 
@@ -13,10 +13,13 @@ LEVEL_MAP = {
     "INFO": logging.INFO,
     "WARNING": logging.WARNING,
     "ERROR": logging.ERROR,
-    "CRITICAL": logging.CRITICAL
+    "CRITICAL": logging.CRITICAL,
 }
 
-def custom_logging_handler(mode: QtMsgType, _context: QMessageLogContext, message: str | None):
+
+def custom_logging_handler(
+    mode: QtMsgType, _context: QMessageLogContext, message: str | None
+):
     """
     Custom logging handler for Qt to log messages to a file.
 
@@ -38,12 +41,14 @@ def custom_logging_handler(mode: QtMsgType, _context: QMessageLogContext, messag
     elif mode == QtMsgType.QtFatalMsg:
         qt_logger.fatal(message)
 
+
 qInstallMessageHandler(custom_logging_handler)
+
 
 def get_logger(module_name=None):
     """
     Get a logger with a specific module name.
-    
+
     :param module_name: The name of the module. If None, uses the caller's module name.
     :return: A logger instance with the specified name.
     """
@@ -57,8 +62,10 @@ def get_logger(module_name=None):
 
     return logging.getLogger(module_name)
 
+
 # Default logger with the main application name
 default_logger = get_logger("NeoXtractor")
+
 
 def setup_logger():
     """Setup logger for NeoXtractor."""
@@ -90,7 +97,7 @@ def setup_logger():
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
         handlers=[
             logging.StreamHandler()  # Print logs to the console
-        ]
+        ],
     )
 
     get_logger().debug("Logger initialized with level: %s", log_level)

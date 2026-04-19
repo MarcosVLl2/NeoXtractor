@@ -1,7 +1,6 @@
 """Custom QListView to display NPK files."""
 
 import os
-from sys import prefix
 from typing import cast
 
 from PySide6 import QtCore, QtWidgets

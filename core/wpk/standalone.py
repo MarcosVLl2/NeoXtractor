@@ -39,7 +39,9 @@ def scan_wpk_indices(reader, file) -> None:
     reader.indices = []
     if not offsets:
         reader.file_count = 0
-        get_logger().warning("No embedded %r entries found in WPK: %s", EMBEDDED_MAGIC, reader.wpk_path)
+        get_logger().warning(
+            "No embedded %r entries found in WPK: %s", EMBEDDED_MAGIC, reader.wpk_path
+        )
         return
 
     for i, off in enumerate(offsets):
@@ -50,10 +52,14 @@ def scan_wpk_indices(reader, file) -> None:
     reader.file_count = len(reader.indices)
     reader._wpk_paths[0] = reader.wpk_path or reader.file_path
 
-    get_logger().info("Scanned %d embedded entries from standalone WPK", reader.file_count)
+    get_logger().info(
+        "Scanned %d embedded entries from standalone WPK", reader.file_count
+    )
 
 
-def build_index_from_embedded_header(data: bytes, off: int, next_off: int, ordinal: int) -> NPKIndex:
+def build_index_from_embedded_header(
+    data: bytes, off: int, next_off: int, ordinal: int
+) -> NPKIndex:
     """Build an NPKIndex from one embedded WPK entry header."""
     index = NPKIndex()
 
@@ -63,15 +69,19 @@ def build_index_from_embedded_header(data: bytes, off: int, next_off: int, ordin
 
     available = len(data) - off
     if available >= MIN_EMBEDDED_HEADER_SIZE:
-        raw_hash = data[off + 0x08: off + 0x18]
-        payload_size = int.from_bytes(data[off + 0x20: off + 0x24], "little")
-        hdr_size = int.from_bytes(data[off + 0x24: off + 0x26], "little")
+        raw_hash = data[off + 0x08 : off + 0x18]
+        payload_size = int.from_bytes(data[off + 0x20 : off + 0x24], "little")
+        hdr_size = int.from_bytes(data[off + 0x24 : off + 0x26], "little")
 
     guessed_total = hdr_size + payload_size if hdr_size > 0 else 0
     max_possible = max(0, next_off - off)
 
     if hdr_size < MIN_EMBEDDED_HEADER_SIZE or hdr_size > max_possible:
-        hdr_size = MIN_EMBEDDED_HEADER_SIZE if max_possible >= MIN_EMBEDDED_HEADER_SIZE else max_possible
+        hdr_size = (
+            MIN_EMBEDDED_HEADER_SIZE
+            if max_possible >= MIN_EMBEDDED_HEADER_SIZE
+            else max_possible
+        )
     if guessed_total <= 0 or guessed_total > max_possible:
         total_size = max_possible
         if total_size >= hdr_size:

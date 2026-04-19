@@ -892,7 +892,7 @@ class BindictParser:
             string_count = struct.unpack("<I", dict_data[offset : offset + 4])[0]
             offset += 4
 
-            padding = struct.unpack("<I", dict_data[offset : offset + 4])[0]
+            struct.unpack("<I", dict_data[offset : offset + 4])[0]  # padding
             offset += 4
 
             self.has_string_pool = string_count > 0
@@ -1019,7 +1019,6 @@ class BindictParser:
 
     def extract_from_pyc(self, pyc_data: bytes) -> Optional[Dict[str, Any]]:
         """Extract all dictionary data from pyc file"""
-        dictionaries = []
         dict_names = ["data", "extra"]
 
         if len(pyc_data) < 4:

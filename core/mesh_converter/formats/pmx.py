@@ -3,29 +3,30 @@
 import io
 from typing import cast
 
-from pymeshio import pmx, common
 import pymeshio.pmx.writer
+from pymeshio import common, pmx
 
 from core.mesh_loader import MeshData
 
 NAME = "Polygon Model eXtended (PMX) Format"
 EXTENSION = ".pmx"
 
+
 def convert(mesh: MeshData) -> bytes:
     """
     Convert mesh to PMX format.
-    
+
     Parameters:
     - mesh: MeshData object containing bones, vertices, faces, etc.
-    
+
     Returns:
     - bytes: PMX file content as bytes
     """
     pmx_model = pmx.Model()
-    pmx_model.display_slots.append(pmx.DisplaySlot('表情', 'Exp', 1, None))
-    pmx_model.english_name = 'Empty model'
-    pmx_model.comment = 'NeoX Model Converterで生成'
-    pmx_model.english_comment = 'Created by NeoX Model Converter.'
+    pmx_model.display_slots.append(pmx.DisplaySlot("表情", "Exp", 1, None))
+    pmx_model.english_name = "Empty model"
+    pmx_model.comment = "NeoX Model Converterで生成"
+    pmx_model.english_comment = "Created by NeoX Model Converter."
 
     # Build bone hierarchy if bones exist
     if mesh.has_bones:
@@ -44,14 +45,16 @@ def convert(mesh: MeshData) -> bytes:
             matrix = mesh.bone_matrix[index]
             # Extract translation from matrix for PMX
             x, y, z = matrix[0, 3], matrix[1, 3], matrix[2, 3]
-            bone_pool.append(pmx.Bone(
-                name=mesh.bone_name[index],
-                english_name=mesh.bone_name[index],
-                position=common.Vector3(x, y, z),
-                parent_index=parent_index,
-                layer=0,
-                flag=0
-            ))
+            bone_pool.append(
+                pmx.Bone(
+                    name=mesh.bone_name[index],
+                    english_name=mesh.bone_name[index],
+                    position=common.Vector3(x, y, z),
+                    parent_index=parent_index,
+                    layer=0,
+                    flag=0,
+                )
+            )
             bone_pool[-1].setFlag(pmx.BONEFLAG_CAN_ROTATE, True)
             bone_pool[-1].setFlag(pmx.BONEFLAG_IS_VISIBLE, True)
             bone_pool[-1].setFlag(pmx.BONEFLAG_CAN_MANIPULATE, True)
@@ -84,7 +87,7 @@ def convert(mesh: MeshData) -> bytes:
             position=common.Vector3(0, 0, 0),
             parent_index=-1,
             layer=0,
-            flag=0
+            flag=0,
         )
         root_bone.setFlag(pmx.BONEFLAG_CAN_ROTATE, True)
         root_bone.setFlag(pmx.BONEFLAG_IS_VISIBLE, True)
@@ -111,7 +114,11 @@ def convert(mesh: MeshData) -> bytes:
                 vertex_joint_index.append(0)
             vertex_joint_index = vertex_joint_index[:4]
 
-            vertex_weights = mesh.vertex_weight[i] if i < len(mesh.vertex_weight) else [1.0, 0.0, 0.0, 0.0]
+            vertex_weights = (
+                mesh.vertex_weight[i]
+                if i < len(mesh.vertex_weight)
+                else [1.0, 0.0, 0.0, 0.0]
+            )
             while len(vertex_weights) < 4:
                 vertex_weights.append(0.0)
             vertex_weights = vertex_weights[:4]
@@ -121,7 +128,7 @@ def convert(mesh: MeshData) -> bytes:
                 common.Vector3(cast(int, nx), cast(int, ny), cast(int, nz)),
                 common.Vector2(cast(int, u), cast(int, v)),
                 pmx.Bdef4(*vertex_joint_index, *vertex_weights),
-                0.0
+                0.0,
             )
         else:
             # No bone data - assign to root bone
@@ -130,7 +137,7 @@ def convert(mesh: MeshData) -> bytes:
                 common.Vector3(cast(int, nx), cast(int, ny), cast(int, nz)),
                 common.Vector2(cast(int, u), cast(int, v)),
                 pmx.Bdef1(0),
-                0.0
+                0.0,
             )
         pmx_model.vertices.append(vertex)
 
@@ -142,8 +149,8 @@ def convert(mesh: MeshData) -> bytes:
     if mesh.mesh:
         for i, (_mesh_vertex_count, mesh_face_count, _, _) in enumerate(mesh.mesh):
             material = pmx.Material(
-                name=f'Mat{i}',
-                english_name=f'material{i}',
+                name=f"Mat{i}",
+                english_name=f"material{i}",
                 diffuse_color=common.RGB(1, 1, 1),
                 alpha=1.0,
                 specular_factor=1,
@@ -158,14 +165,14 @@ def convert(mesh: MeshData) -> bytes:
                 toon_sharing_flag=1,
                 toon_texture_index=0,
                 comment="Auto-Generated Material",
-                vertex_count=mesh_face_count * 3
+                vertex_count=mesh_face_count * 3,
             )
             pmx_model.materials.append(material)
     else:
         # Default single material
         material = pmx.Material(
-            name='Material',
-            english_name='Material',
+            name="Material",
+            english_name="Material",
             diffuse_color=common.RGB(1, 1, 1),
             alpha=1.0,
             specular_factor=1,
@@ -180,7 +187,7 @@ def convert(mesh: MeshData) -> bytes:
             toon_sharing_flag=1,
             toon_texture_index=0,
             comment="Auto-Generated Material",
-            vertex_count=len(mesh.face) * 3
+            vertex_count=len(mesh.face) * 3,
         )
         pmx_model.materials.append(material)
 

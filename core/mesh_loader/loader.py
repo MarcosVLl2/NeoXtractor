@@ -2,8 +2,8 @@
 Main mesh loader class that provides adaptive parsing functionality.
 """
 
-from typing import Union, Optional, List
 from pathlib import Path
+from typing import List, Optional, Union
 
 from core.logger import get_logger
 from core.mesh_loader.parsers import (
@@ -11,14 +11,15 @@ from core.mesh_loader.parsers import (
     MeshParser2,
     MeshParser3,
     MeshParser4,
-    MeshParser5
+    MeshParser5,
 )
 from core.mesh_loader.types import BaseMeshParser, MeshData
+
 
 class MeshLoader:
     """
     Main mesh loader class that provides adaptive parsing with fallback mechanisms.
-    
+
     This class attempts to parse mesh files using multiple parsing strategies,
     falling back to alternative methods if the primary method fails.
     """
@@ -26,7 +27,7 @@ class MeshLoader:
     def __init__(self):
         """
         Initialize the mesh loader.
-        
+
         Args:
             logger: Optional logger instance for debugging and error reporting
         """
@@ -39,16 +40,16 @@ class MeshLoader:
             MeshParser2(),
             MeshParser3(),
             MeshParser4(),
-            MeshParser5()
+            MeshParser5(),
         ]
 
     def load_from_bytes(self, data: bytes) -> Optional[MeshData]:
         """
         Load mesh data from raw bytes using adaptive parsing.
-        
+
         Args:
             data: Raw mesh data as bytes
-            
+
         Returns:
             MeshData object containing parsed mesh data, or None if all parsers fail
         """
@@ -74,10 +75,10 @@ class MeshLoader:
     def load_from_file(self, file_path: Union[str, Path]) -> Optional[MeshData]:
         """
         Load mesh data from a file using adaptive parsing.
-        
+
         Args:
             file_path: Path to the mesh file
-            
+
         Returns:
             MeshData object containing parsed mesh data, or None if all parsers fail
         """
@@ -90,7 +91,7 @@ class MeshLoader:
         get_logger().debug("Parsing mesh from file: %s", file_path)
 
         try:
-            with open(file_path, 'rb') as f:
+            with open(file_path, "rb") as f:
                 file_content = f.read()
 
             return self.load_from_bytes(file_content)
@@ -102,7 +103,7 @@ class MeshLoader:
     def get_parser_info(self) -> List[str]:
         """
         Get information about available parsers.
-        
+
         Returns:
             List of parser class names
         """
@@ -111,7 +112,7 @@ class MeshLoader:
     def add_parser(self, parser: BaseMeshParser, position: Optional[int] = None):
         """
         Add a custom parser to the loader.
-        
+
         Args:
             parser: Parser instance to add
             position: Optional position to insert the parser (default: append)
@@ -127,7 +128,7 @@ class MeshLoader:
     def remove_parser(self, parser_class: type):
         """
         Remove a parser by class type.
-        
+
         Args:
             parser_class: Class type of the parser to remove
         """
