@@ -34,6 +34,8 @@ from .standalone import (
     scan_wpk_indices,
 )
 
+class MissingIndexedResourceError(EOFError):
+    """Entry exists in IDX, but the actual data cannot be read from the current resource set."""
 
 class IDXWPKFile:
     """
@@ -66,6 +68,10 @@ class IDXWPKFile:
         self.file_count: int = 0
         self._wpk_cache: Dict[int, BinaryIO | None] = {}
         self._wpk_paths: Dict[int, str] = {}
+
+        self._missing_entry_count: int = 0
+        self._partial_entry_count: int = 0
+        self._other_error_count: int = 0
 
         self.mode = ""
         self.idx_path: str | None = None
@@ -111,6 +117,13 @@ class IDXWPKFile:
                 except Exception:
                     pass
         self._wpk_cache.clear()
+
+    def get_load_error_summary(self) -> dict:
+        return {
+            "missing_entry_count": self._missing_entry_count,
+            "partial_entry_count": self._partial_entry_count,
+            "other_error_count": self._other_error_count,
+        }
 
     # ------------------------------------------------------------------
     # Delegated IDX parsing
@@ -251,12 +264,60 @@ class IDXWPKFile:
 
         try:
             self._load_entry_data(entry)
+
+        except MissingIndexedResourceError as exc:
+            msg = str(exc)
+
+            entry.data = b""
+            entry.extension = "bin"
+            entry.category = get_file_category(entry.extension)
+            entry.data_flags |= NPKEntryDataFlags.ERROR
+            entry.format_metadata["load_error"] = msg
+            entry.format_metadata["missing_reason"] = "deleted_or_in_other_pack"
+            entry.state = State.CACHED
+
+            self._missing_entry_count += 1
+            self.entries[index] = entry
+            return entry
+
+        except EOFError as exc:
+            msg = f"{entry.filename}: resource data is incomplete, possibly due to a corrupted pack or mismatched index"
+
+            entry.data = b""
+            entry.extension = "bin"
+            entry.category = get_file_category(entry.extension)
+            entry.data_flags |= NPKEntryDataFlags.ERROR
+            entry.format_metadata["load_error"] = msg
+            entry.format_metadata["missing_reason"] = "partial_or_mismatched"
+            entry.state = State.CACHED
+
+            self._partial_entry_count += 1
+            self.entries[index] = entry
+            return entry
+
+        except FileNotFoundError:
+            msg = f"{entry.filename}: resource is missing or located in a different resource pack"
+
+            entry.data = b""
+            entry.extension = "bin"
+            entry.category = get_file_category(entry.extension)
+            entry.data_flags |= NPKEntryDataFlags.ERROR
+            entry.format_metadata["load_error"] = msg
+            entry.format_metadata["missing_reason"] = "deleted_or_in_other_pack"
+            entry.state = State.CACHED
+
+            self._missing_entry_count += 1
+            self.entries[index] = entry
+            return entry
+
         except Exception as exc:
             get_logger().exception("Failed to load IDX/WPK entry %d: %s", index, exc)
             entry.data = b""
             entry.extension = "bin"
             entry.category = get_file_category(entry.extension)
             entry.data_flags |= NPKEntryDataFlags.ERROR
+            entry.state = State.CACHED
+            self._other_error_count += 1
             self.entries[index] = entry
             return entry
 
@@ -308,6 +369,12 @@ class IDXWPKFile:
 
             handle.seek(entry.file_offset)
             raw_data = handle.read(total_size)
+
+            if len(raw_data) == 0:
+                raise MissingIndexedResourceError(
+                    f"{entry.filename}: resource is missing or located in a different resource pack"
+                )
+
             if len(raw_data) != total_size:
                 raise EOFError(
                     f"Failed to read entry data: expected {total_size}, got {len(raw_data)}"
