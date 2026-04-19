@@ -8,8 +8,8 @@ from typing import cast, overload
 import numpy as np
 from PySide6 import QtCore, QtGui, QtWidgets
 
-from core.mesh_loader.loader import MeshLoader
 from core.mesh_loader import MeshData
+from core.mesh_loader.loader import MeshLoader
 from core.utils import get_application_path
 from gui.renderers.mesh_renderer import MeshRenderer, ProcessedMeshData
 from gui.renderers.point_renderer import PointRenderer
@@ -29,7 +29,7 @@ INSTRUCTIONS = [
     ("Key 1", ("Front View", "Back View")),
     ("Key 3", ("Right View", "Left View")),
     ("Key 7", ("Top View", "Bottom View")),
-    ((sys.platform == "darwin" and "Option" or "Ctrl"), "Alternative Actions")
+    ((sys.platform == "darwin" and "Option" or "Ctrl"), "Alternative Actions"),
 ]
 
 GRID_COLOR = [0.3, 0.3, 0.3]
@@ -41,6 +41,7 @@ GRID_VERTEX_DATA = [
 ]
 
 REF_POINT_COLOR = [1.0, 0.0, 0.0]
+
 
 class MeshRenderWidget(ManagedRhiWidget, CameraController):
     """A Qt widget for rendering 3D meshes with bones and normals visualization.
@@ -63,6 +64,7 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
     and render pipeline setup. Mesh data can be loaded from MeshData objects or
     raw bytes using the load_mesh() method.
     """
+
     def __init__(self, parent: QtWidgets.QWidget | None = None):
         super().__init__(parent)
 
@@ -72,7 +74,9 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
 
         self._rhi: QtGui.QRhi | None = None
 
-        self._colored_vertices_shaders: tuple[QtGui.QShader, QtGui.QShader] | None = None
+        self._colored_vertices_shaders: tuple[QtGui.QShader, QtGui.QShader] | None = (
+            None
+        )
         self._point_shaders: tuple[QtGui.QShader, QtGui.QShader] | None = None
 
         self._grid_pipeline: QtGui.QRhiGraphicsPipeline | None = None
@@ -81,9 +85,11 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
         self._mvp_ubuf: QtGui.QRhiBuffer | None = None
         self._mvp_srb: QtGui.QRhiShaderResourceBindings | None = None
 
-        self._ref_point_renderer: PointRenderer = PointRenderer(self,
-                                 cast(tuple[float, float, float], tuple(REF_POINT_COLOR)))
+        self._ref_point_renderer: PointRenderer = PointRenderer(
+            self, cast(tuple[float, float, float], tuple(REF_POINT_COLOR))
+        )
         self._mesh_renderer = MeshRenderer(self)
+        self._mesh_loader = MeshLoader()
         self._text_renderer = TextRenderer(self, 14)
 
         self._ref_point_renderer.add_points([(0.0, 0.0, 0.0, 5.0)])
@@ -94,6 +100,7 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
     def wireframe_mode(self) -> bool:
         """Get the current wireframe mode state."""
         return self._mesh_renderer.wireframe_mode
+
     @wireframe_mode.setter
     def wireframe_mode(self, value: bool):
         """Set the wireframe mode state."""
@@ -103,6 +110,7 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
     def draw_bones(self) -> bool:
         """Get whether bone visualization is enabled."""
         return self._mesh_renderer.draw_bones
+
     @draw_bones.setter
     def draw_bones(self, value: bool):
         """Set whether to draw bones in the mesh."""
@@ -112,23 +120,28 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
     def draw_normals(self) -> bool:
         """Get whether normals visualization is enabled."""
         return self._mesh_renderer.draw_normals
+
     @draw_normals.setter
     def draw_normals(self, value: bool):
         """Set whether to draw normals in the mesh."""
         self._mesh_renderer.draw_normals = value
 
     def initialize(self, cb: QtGui.QRhiCommandBuffer):
-        if self._rhi != self.rhi() or self._rhi is None: # type hint
+        if self._rhi != self.rhi() or self._rhi is None:  # type hint
             self._grid_pipeline = None
             self._text_renderer.releaseResources()
             self._rhi = self.rhi()
 
         shaders_path = os.path.join(get_application_path(), "data", "shaders")
         if self._colored_vertices_shaders is None:
-            with open(os.path.join(shaders_path, "colored_vertices.vert.qsb"), "rb") as f:
+            with open(
+                os.path.join(shaders_path, "colored_vertices.vert.qsb"), "rb"
+            ) as f:
                 vsrc = f.read()
                 vsrc = QtGui.QShader.fromSerialized(vsrc)
-                with open(os.path.join(shaders_path, "colored_vertices.frag.qsb"), "rb") as f:
+                with open(
+                    os.path.join(shaders_path, "colored_vertices.frag.qsb"), "rb"
+                ) as f:
                     fsrc = f.read()
                     fsrc = QtGui.QShader.fromSerialized(fsrc)
 
@@ -145,48 +158,73 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
                     self._point_shaders = (vsrc, fsrc)
 
         if self._mvp_ubuf is None or self._mvp_srb is None:
-            self._mvp_ubuf = self._rhi.newBuffer(QtGui.QRhiBuffer.Type.Dynamic,
-                                            QtGui.QRhiBuffer.UsageFlag.UniformBuffer,
-                                            16 * ctypes.sizeof(ctypes.c_float)
-                                            )
+            self._mvp_ubuf = self._rhi.newBuffer(
+                QtGui.QRhiBuffer.Type.Dynamic,
+                QtGui.QRhiBuffer.UsageFlag.UniformBuffer,
+                16 * ctypes.sizeof(ctypes.c_float),
+            )
             self._mvp_ubuf.create()
 
             self._mvp_srb = self._rhi.newShaderResourceBindings()
-            self._mvp_srb.setBindings([
-                QtGui.QRhiShaderResourceBinding.uniformBuffer(0,
-                                                            QtGui.QRhiShaderResourceBinding.StageFlag.VertexStage,
-                                                            self._mvp_ubuf),
-            ])
+            self._mvp_srb.setBindings(
+                [
+                    QtGui.QRhiShaderResourceBinding.uniformBuffer(
+                        0,
+                        QtGui.QRhiShaderResourceBinding.StageFlag.VertexStage,
+                        self._mvp_ubuf,
+                    ),
+                ]
+            )
             self._mvp_srb.create()
 
         if self._grid_pipeline is None:
-            self._grid_vbuf = self._rhi.newBuffer(QtGui.QRhiBuffer.Type.Immutable,
-                                             QtGui.QRhiBuffer.UsageFlag.VertexBuffer,
-                                             ctypes.sizeof(ctypes.c_float) * len(GRID_VERTEX_DATA)
-                                             )
+            self._grid_vbuf = self._rhi.newBuffer(
+                QtGui.QRhiBuffer.Type.Immutable,
+                QtGui.QRhiBuffer.UsageFlag.VertexBuffer,
+                ctypes.sizeof(ctypes.c_float) * len(GRID_VERTEX_DATA),
+            )
             self._grid_vbuf.create()
 
             self._grid_pipeline = self._rhi.newGraphicsPipeline()
-            self._grid_pipeline.setShaderStages([
-                QtGui.QRhiShaderStage(QtGui.QRhiShaderStage.Type.Vertex, self._colored_vertices_shaders[0]),
-                QtGui.QRhiShaderStage(QtGui.QRhiShaderStage.Type.Fragment, self._colored_vertices_shaders[1])
-            ])
+            self._grid_pipeline.setShaderStages(
+                [
+                    QtGui.QRhiShaderStage(
+                        QtGui.QRhiShaderStage.Type.Vertex,
+                        self._colored_vertices_shaders[0],
+                    ),
+                    QtGui.QRhiShaderStage(
+                        QtGui.QRhiShaderStage.Type.Fragment,
+                        self._colored_vertices_shaders[1],
+                    ),
+                ]
+            )
             input_layout = QtGui.QRhiVertexInputLayout()
-            input_layout.setBindings([
-                QtGui.QRhiVertexInputBinding(6 * ctypes.sizeof(ctypes.c_float)),
-            ])
-            input_layout.setAttributes([
-                QtGui.QRhiVertexInputAttribute(0, 0, QtGui.QRhiVertexInputAttribute.Format.Float3, 0),
-                QtGui.QRhiVertexInputAttribute(0, 1, QtGui.QRhiVertexInputAttribute.Format.Float3,
-                                               3 * ctypes.sizeof(ctypes.c_float)
-                                               ),
-            ])
+            input_layout.setBindings(
+                [
+                    QtGui.QRhiVertexInputBinding(6 * ctypes.sizeof(ctypes.c_float)),
+                ]
+            )
+            input_layout.setAttributes(
+                [
+                    QtGui.QRhiVertexInputAttribute(
+                        0, 0, QtGui.QRhiVertexInputAttribute.Format.Float3, 0
+                    ),
+                    QtGui.QRhiVertexInputAttribute(
+                        0,
+                        1,
+                        QtGui.QRhiVertexInputAttribute.Format.Float3,
+                        3 * ctypes.sizeof(ctypes.c_float),
+                    ),
+                ]
+            )
             self._grid_pipeline.setDepthTest(True)
             self._grid_pipeline.setDepthWrite(True)
             self._grid_pipeline.setVertexInputLayout(input_layout)
             self._grid_pipeline.setShaderResourceBindings(self._mvp_srb)
             self._grid_pipeline.setTopology(QtGui.QRhiGraphicsPipeline.Topology.Lines)
-            self._grid_pipeline.setRenderPassDescriptor(self.renderTarget().renderPassDescriptor())
+            self._grid_pipeline.setRenderPassDescriptor(
+                self.renderTarget().renderPassDescriptor()
+            )
             self._grid_pipeline.create()
 
             resource_updates = self._rhi.nextResourceUpdateBatch()
@@ -195,11 +233,13 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
             cb.resourceUpdate(resource_updates)
 
         self._ref_point_renderer.initialize(cb, self._mvp_ubuf)
-        self._mesh_renderer.initialize(cb,
-                                       self._colored_vertices_shaders,
-                                       self._point_shaders,
-                                       self._mvp_ubuf,
-                                       self._mvp_srb)
+        self._mesh_renderer.initialize(
+            cb,
+            self._colored_vertices_shaders,
+            self._point_shaders,
+            self._mvp_ubuf,
+            self._mvp_srb,
+        )
         self._text_renderer.initialize(cb)
 
         output_size = self.renderTarget().pixelSize()
@@ -208,16 +248,20 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
     def render(self, cb: QtGui.QRhiCommandBuffer):
         self._camera_update()
 
-        if self._rhi is None or \
-            self._mvp_ubuf is None or \
-            self._grid_pipeline is None or \
-            self._grid_vbuf is None:
+        if (
+            self._rhi is None
+            or self._mvp_ubuf is None
+            or self._grid_pipeline is None
+            or self._grid_vbuf is None
+        ):
             return
 
         viewport_height = self.renderTarget().pixelSize().height()
 
         # Calculate starting Y position from bottom
-        start_y = viewport_height - (len(INSTRUCTIONS) * self._text_renderer.font_height) - 20
+        start_y = (
+            viewport_height - (len(INSTRUCTIONS) * self._text_renderer.font_height) - 20
+        )
 
         for i, (key, action) in enumerate(INSTRUCTIONS):
             if isinstance(action, tuple):
@@ -226,7 +270,9 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
                 else:
                     action = action[0]
             y_pos = start_y + i * self._text_renderer.font_height
-            self._text_renderer.render_text(f"{key}:", (20, y_pos), (0.5, 1.0, 1.0, 1.0))
+            self._text_renderer.render_text(
+                f"{key}:", (20, y_pos), (0.5, 1.0, 1.0, 1.0)
+            )
             self._text_renderer.render_text(action, (90, y_pos), (1.0, 1.0, 1.0, 1.0))
 
         if self._mesh_renderer.mesh_data is not None:
@@ -234,13 +280,17 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
                 ("Version", self._mesh_renderer.mesh_data.raw_data.version),
                 ("Bones", self._mesh_renderer.mesh_data.bone_count),
                 ("Vertices", self._mesh_renderer.mesh_data.vertex_count),
-                ("Triangles", self._mesh_renderer.mesh_data.triangle_count)
+                ("Triangles", self._mesh_renderer.mesh_data.triangle_count),
             ]
 
             for i, (label, value) in enumerate(mesh_info):
                 y_pos = 20 + i * self._text_renderer.font_height
-                self._text_renderer.render_text(f"{label}:", (20, y_pos), (0.5, 1.0, 1.0, 1.0))
-                self._text_renderer.render_text(str(value), (90, y_pos), (1.0, 1.0, 1.0, 1.0))
+                self._text_renderer.render_text(
+                    f"{label}:", (20, y_pos), (0.5, 1.0, 1.0, 1.0)
+                )
+                self._text_renderer.render_text(
+                    str(value), (90, y_pos), (1.0, 1.0, 1.0, 1.0)
+                )
 
         resource_updates = self._rhi.nextResourceUpdateBatch()
 
@@ -250,7 +300,9 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
 
         vp_data = view_proj.data()
         arr = (ctypes.c_float * len(vp_data))(*vp_data)
-        resource_updates.updateDynamicBuffer(self._mvp_ubuf, 0, ctypes.sizeof(arr), cast(int, arr))
+        resource_updates.updateDynamicBuffer(
+            self._mvp_ubuf, 0, ctypes.sizeof(arr), cast(int, arr)
+        )
 
         self._ref_point_renderer.update_resources(resource_updates)
         self._mesh_renderer.update_resources(resource_updates, self.camera)
@@ -260,16 +312,27 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
             self._text_renderer.clear_queue()
 
         clr = QtGui.QColor.fromRgbF(0.23, 0.23, 0.23)
-        cb.beginPass(self.renderTarget(), clr, QtGui.QRhiDepthStencilClearValue(1, 0), resource_updates)
+        cb.beginPass(
+            self.renderTarget(),
+            clr,
+            QtGui.QRhiDepthStencilClearValue(1, 0),
+            resource_updates,
+        )
 
-        viewport = QtGui.QRhiViewport(0, 0, self.renderTarget().pixelSize().width(),
-                                                    self.renderTarget().pixelSize().height())
+        viewport = QtGui.QRhiViewport(
+            0,
+            0,
+            self.renderTarget().pixelSize().width(),
+            self.renderTarget().pixelSize().height(),
+        )
 
         cb.setGraphicsPipeline(self._grid_pipeline)
         cb.setViewport(viewport)
         cb.setShaderResources()
         cb.setVertexInput(0, [(self._grid_vbuf, 0)])
-        cb.draw(len(GRID_VERTEX_DATA) // 6)  # 6 floats per vertex (3 for position, 3 for color)
+        cb.draw(
+            len(GRID_VERTEX_DATA) // 6
+        )  # 6 floats per vertex (3 for position, 3 for color)
 
         self._ref_point_renderer.render(cb)
         self._mesh_renderer.render(cb)
@@ -299,26 +362,33 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
             ideal_distance = self.mesh_data.size / np.sin(fov_radians / 2)
 
             # Adjust camera distance to ensure object fits in view
-            self.camera.dist = max(self.camera.min_dist, min(ideal_distance, self.camera.max_dist))
+            self.camera.dist = max(
+                self.camera.min_dist, min(ideal_distance, self.camera.max_dist)
+            )
         else:
             self.camera.focus()
-        #self.camera.orthogonal(OrthogonalDirection.FRONT)
-        #<aex> this makes viewing experience hell, keep the original user camera viewpos
+        # self.camera.orthogonal(OrthogonalDirection.FRONT)
+        # <aex> this makes viewing experience hell, keep the original user camera viewpos
 
     def mousePressEvent(self, event: QtGui.QMouseEvent):
         super()._camera_mouse_pressed_event(event)
+
     def mouseReleaseEvent(self, event: QtGui.QMouseEvent):
         super()._camera_mouse_released_event(event)
+
     def mouseMoveEvent(self, event: QtGui.QMouseEvent):
         super()._camera_mouse_moved_event(event)
+
     def wheelEvent(self, event: QtGui.QWheelEvent):
         super()._camera_wheel_event(event)
+
     def keyPressEvent(self, event: QtGui.QKeyEvent):
         if event.key() == QtCore.Qt.Key.Key_Control:
             self._alternative_actions = True
         elif event.key() == QtCore.Qt.Key.Key_F:
             self.focus_mesh()
         super()._camera_key_pressed_event(event)
+
     def keyReleaseEvent(self, event: QtGui.QKeyEvent):
         if event.key() == QtCore.Qt.Key.Key_Control:
             self._alternative_actions = False
@@ -334,19 +404,17 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
         Unloads the currently loaded mesh by destroying GPU buffers and clearing mesh data.
         This method safely cleans up mesh resources by:
         - Destroying the index buffer if it exists
-        - Destroying the vertex buffer if it exists  
+        - Destroying the vertex buffer if it exists
         - Clearing the mesh data reference
         If no mesh is currently loaded, this method returns early without performing any operations.
         """
         self._mesh_renderer.mesh_data = None
 
     @overload
-    def load_mesh(self, data: MeshData) -> None:
-        ...
+    def load_mesh(self, data: MeshData) -> None: ...
 
     @overload
-    def load_mesh(self, data: bytes) -> None:
-        ...
+    def load_mesh(self, data: bytes) -> None: ...
 
     def load_mesh(self, data: MeshData | bytes) -> None:
         """Load mesh data into the viewer widget.
@@ -367,8 +435,7 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
             self.movement_factor = processed.size
             self._mesh_renderer.mesh_data = processed
         else:
-            loader = MeshLoader()
-            dat = loader.load_from_bytes(data)
+            dat = self._mesh_loader.load_from_bytes(data)
             if dat is None:
                 raise ValueError("Failed to load mesh data from bytes")
             self._mesh_renderer.mesh_data = ProcessedMeshData(dat)

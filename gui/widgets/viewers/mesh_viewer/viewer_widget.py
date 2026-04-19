@@ -80,16 +80,13 @@ class MeshViewer(Viewer, ICustomTabWindow):
         self.render_widget = MeshRenderWidget(self)
         layout.addWidget(self.render_widget)
 
-        self.load_mesh = self.render_widget.load_mesh
-        self.unload_mesh = self.render_widget.unload_mesh
-
     def set_file(self, file: IFile):
         self._file = file
-        self.load_mesh(file.data)
+        self.render_widget.load_mesh(file.data)
 
     def get_file(self) -> IFile | None:
         return self._file
 
     def unload_file(self):
         self._file = None
-        self.unload_mesh()
+        self.render_widget.unload_mesh()
