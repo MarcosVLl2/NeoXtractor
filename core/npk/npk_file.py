@@ -100,13 +100,13 @@ class NPKFile:
 
         # Read basic header info
         self.file_count = read_uint32(file)
-        var1 = read_uint32(file)  # Unknown variable
+        self.var1 = read_uint32(file)  # Unknown variable
         self.encrypt_mode = read_uint32(file)
         self.hash_mode = read_uint32(file)
         self.index_offset = read_uint32(file)
 
         get_logger().info("NPK entry count: %d", self.file_count)
-        get_logger().info("NPK unknown var: %d", var1)
+        get_logger().info("NPK unknown var: %d", self.var1)
         get_logger().info("NPK encryption mode: %s", self.encrypt_mode)
         get_logger().info("NPK hash mode: %s", self.hash_mode)
         get_logger().info("NPK index offset: 0x%X", self.index_offset)
@@ -138,20 +138,26 @@ class NPKFile:
         """Determine the size of each index entry."""
         if self.encrypt_mode == 256 or self.hash_mode == 2:
             return 0x1C  # 28 bytes
+        elif self.var1 == 1:
+            return 0x20
 
         current_pos = file.tell()
         file.seek(self.index_offset)
-        buf = file.read()
+        index_start = file.tell()
+        file.seek(0, 2)
+        index_end = file.tell()
         file.seek(current_pos)
 
         # The total size of the index divided by number of files gives us the entry size
-        return len(buf) // self.file_count
+        return (index_end - index_start) // self.file_count
 
     def _read_indices(self, file: io.BufferedReader) -> None:
         """Read all the index entries from the NPK file."""
         self.indices = []
 
         file.seek(self.index_offset)
+        if self.var1 == 1:
+            file.seek(-self.info_size * self.file_count, 2)
         index_data = file.read(self.file_count * self.info_size)
 
         if self.file_type == NPKFileType.EXPK:
