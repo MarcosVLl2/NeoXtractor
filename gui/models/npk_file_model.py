@@ -38,7 +38,7 @@ class NPKFileModel(QtCore.QAbstractListModel):
         self._npk_file = npk_file
         app = cast(QtCore.QCoreApplication, QtWidgets.QApplication.instance())
         self._game_config: Config = app.property("game_config")
-        self._theme_config: ThemeManager = app.property("theme_manager")
+        self._theme_config: ThemeManager = ThemeManager.instance()
 
     def rowCount(
         self,

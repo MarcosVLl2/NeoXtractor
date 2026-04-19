@@ -717,15 +717,14 @@ class CocosParser:
 
     def __init__(self):
         """Initialize the parser"""
-        self.data = None
-        self.file_path = None
+        ...
 
     def parse_file(self, entry: IFile) -> Optional[Dict[str, Any]]:
         """
         Parse a Cocos UI file
 
         Args:
-            file_path: Path to the .csb or .json file
+            entry: Path to the .csb or .json file
 
         Returns:
             Parsed data as dictionary, or None if parsing failed

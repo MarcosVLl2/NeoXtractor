@@ -429,7 +429,7 @@ class PreviewScene(QtWidgets.QGraphicsScene):
         self.node_items.clear()
         self.node_handles.clear()
         self.highlight_items.clear()
-        self.setBackgroundBrush(QtGui.QColor("#0f1720"))
+        self.setBackgroundBrush(QtGui.QColor("#0f1720"))  # 0f1720
         self.playback_frame_cursor = playback_frame_cursor
 
         if document.get("format") == "spine-json":
@@ -470,7 +470,7 @@ class PreviewScene(QtWidgets.QGraphicsScene):
         ):
             self.addRect(
                 self.game_rect,
-                QtGui.QPen(QtGui.QColor("#22c55e"), 2, QtCore.Qt.DashLine),
+                QtGui.QPen(QtGui.QColor("#22c55e"), 2, QtCore.Qt.DashLine),  # "#22c55e"
             )
 
     @staticmethod
