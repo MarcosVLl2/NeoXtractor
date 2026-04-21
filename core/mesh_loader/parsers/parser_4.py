@@ -57,11 +57,11 @@ class MeshParser4(BaseMeshParser):
         model["bone_count"] = read_uint8(f)
         f.seek(current_pos)  # Reset to position after magic number
 
-        model["bone_exist"] = read_uint32(f)
-        model["mesh"] = []
+        model["has_bones"] = read_uint32(f)
+        model["mesh"] = {}
 
-        if model["bone_exist"]:
-            if model["bone_exist"] > 1:
+        if model["has_bones"]:
+            if model["has_bones"] > 1:
                 count = read_uint8(f)
                 f.read(2)
                 f.read(count * 4)
@@ -93,10 +93,10 @@ class MeshParser4(BaseMeshParser):
         self._validate_vertex_count(vertex_count)
         self._validate_face_count(face_count)
 
-        model["position"] = [
+        model["mesh"]["position"] = [
             (read_float(f), read_float(f), read_float(f)) for _ in range(vertex_count)
         ]
-        model["normal"] = [
+        model["mesh"]["normal"] = [
             (read_float(f), read_float(f), read_float(f)) for _ in range(vertex_count)
         ]
 
@@ -104,12 +104,12 @@ class MeshParser4(BaseMeshParser):
         if _flag:
             f.seek(vertex_count * 12, 1)
 
-        model["face"] = [
+        model["mesh"]["face"] = [
             (read_uint16(f), read_uint16(f), read_uint16(f)) for _ in range(face_count)
         ]
 
-        model["uv"] = []
-        for mesh_vertex_count, _, uv_layers, _ in model["mesh"]:
+        model["mesh"]["uv"] = []
+        for mesh_vertex_count, _, uv_layers, _ in model["mesh"]["data"]:
             if uv_layers > 0:
                 for _ in range(mesh_vertex_count):
                     u = read_float(f)
@@ -120,10 +120,10 @@ class MeshParser4(BaseMeshParser):
                 for _ in range(mesh_vertex_count):
                     model["uv"].append((0.0, 0.0))
 
-        for mesh_vertex_count, _, _, color_len in model["mesh"]:
+        for mesh_vertex_count, _, _, color_len in model["mesh"]["data"]:
             f.read(mesh_vertex_count * 4 * color_len)
 
-        if model["bone_exist"]:
+        if model["has_bones"]:
             model["vertex_bone"] = [
                 [read_uint8(f) for _ in range(4)] for _ in range(vertex_count)
             ]

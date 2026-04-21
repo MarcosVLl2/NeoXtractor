@@ -7,6 +7,7 @@ from typing import List, Optional, Union
 
 from core.logger import get_logger
 from core.mesh_loader.parsers import (
+    MeshParser0,
     MeshParser1,
     MeshParser2,
     MeshParser3,
@@ -36,6 +37,7 @@ class MeshLoader:
     def _initialize_parsers(self) -> List[BaseMeshParser]:
         """Initialize the list of available parsers in order of preference."""
         return [
+            MeshParser0(),
             MeshParser1(),
             MeshParser2(),
             MeshParser3(),

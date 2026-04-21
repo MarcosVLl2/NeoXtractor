@@ -29,7 +29,7 @@ def convert(mesh: MeshData) -> bytes:
     pmx_model.english_comment = "Created by NeoX Model Converter."
 
     # Build bone hierarchy if bones exist
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         parent_child_dict = {}
         old2new = {}
         index_pool = [-1]
@@ -100,7 +100,7 @@ def convert(mesh: MeshData) -> bytes:
         nx, ny, nz = mesh.normal[i] if mesh.has_normals else (0.0, 0.0, 1.0)
         u, v = mesh.uv[i] if mesh.has_uvs else (0.0, 0.0)
 
-        if mesh.has_bones and i < len(mesh.vertex_bone):
+        if mesh.has_bone_structure and i < len(mesh.vertex_bone):
             # Map old bone indices to new ones
             vertex_joint_index = []
             for joint_idx in mesh.vertex_bone[i]:

@@ -70,7 +70,7 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
                 obj_lines.append(f"f {v1 + 1} {v2 + 1} {v3 + 1}\n")
 
     # Write bone information as comments
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         obj_lines.append("\n# Bone Information\n")
         for i, bone_name in enumerate(mesh.bone_name):
             parent = mesh.bone_parent[i]

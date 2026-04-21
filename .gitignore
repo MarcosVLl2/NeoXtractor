@@ -15,3 +15,4 @@ settings.json
 *.npk
 *.idx
 *.wpk
+*.mesh

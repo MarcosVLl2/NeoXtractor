@@ -326,7 +326,7 @@ def convert(mesh: MeshData) -> bytes:
     gltf_data["meshes"].append({"primitives": [primitive]})
 
     # Create nodes
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         bone_names = mesh.bone_name
         bone_hierarchy = mesh.bone_parent
 

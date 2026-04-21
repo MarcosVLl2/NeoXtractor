@@ -218,7 +218,6 @@ class MeshRenderer:
         """
         self._mesh_data = value
         if value is None:
-            self._bone_points_renderer.clear_points()
             if self._mesh_vbuf is not None:
                 self._mesh_vbuf.destroy()
                 self._mesh_vbuf = None

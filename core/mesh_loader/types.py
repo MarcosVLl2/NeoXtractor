@@ -8,7 +8,7 @@ import numpy as np
 
 MAX_VERTEX_COUNT = 500000
 MAX_FACE_COUNT = 250000
-MAX_BONE_COUNT = 2000
+MAX_BONE_COUNT = 20000
 
 
 @dataclass
@@ -30,7 +30,7 @@ class MeshData:
     uv: list[tuple[float, float]] = field(default_factory=list)
 
     # Bone/skeleton data
-    bone_exist: int = 0
+    has_bones: int = 0
     bone_parent: list[int] = field(default_factory=list)
     bone_name: list[str] = field(default_factory=list)
     bone_matrix: list[np.ndarray] = field(default_factory=list)
@@ -59,9 +59,9 @@ class MeshData:
         return len(self.face)
 
     @property
-    def has_bones(self) -> bool:
+    def has_bone_structure(self) -> bool:
         """Check if the mesh has bone data."""
-        return self.bone_exist > 0 and len(self.bone_name) > 0
+        return self.has_bones > 0 and len(self.bone_name) > 0
 
     @property
     def has_normals(self) -> bool:
@@ -139,12 +139,12 @@ class BaseMeshParser(ABC):
             # Metadata
             version=model.get("mesh_version", 0),
             # Core mesh data
-            position=model.get("position", []),
-            normal=model.get("normal", []),
-            face=model.get("face", []),
-            uv=model.get("uv", []),
+            position=model.get("mesh", []).get("position", []),
+            normal=model.get("mesh", []).get("normal", []),
+            face=model.get("mesh", []).get("face", []),
+            uv=model.get("mesh", []).get("uv", []),
             # Bone data
-            bone_exist=model.get("bone_exist", 0),
+            has_bones=model.get("has_bones", 0),
             bone_parent=model.get("bone_parent", []),
             bone_name=model.get("bone_name", []),
             bone_matrix=model.get("bone_original_matrix", model.get("bone_matrix", [])),
@@ -184,13 +184,19 @@ class BaseMeshParser(ABC):
                 mesh_data.uv.extend([(0.0, 0.0)] * (vertex_count - len(mesh_data.uv)))
 
             # Pad missing bone assignments
-            if mesh_data.bone_exist and len(mesh_data.vertex_bone) < vertex_count:
+            if (
+                mesh_data.has_bone_structure
+                and len(mesh_data.vertex_bone) < vertex_count
+            ):
                 mesh_data.vertex_bone.extend(
                     [[0, 0, 0, 0]] * (vertex_count - len(mesh_data.vertex_bone))
                 )
 
             # Pad missing bone weights
-            if mesh_data.bone_exist and len(mesh_data.vertex_weight) < vertex_count:
+            if (
+                mesh_data.has_bone_structure
+                and len(mesh_data.vertex_weight) < vertex_count
+            ):
                 mesh_data.vertex_weight.extend(
                     [[1.0, 0.0, 0.0, 0.0]]
                     * (vertex_count - len(mesh_data.vertex_weight))

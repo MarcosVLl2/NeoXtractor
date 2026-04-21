@@ -55,7 +55,7 @@ def convert(mesh: MeshData) -> bytes:
     # Calculate bone transforms if bones exist
     bone_translate = []
     bone_rotation = []
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         bone_count = len(mesh.bone_parent)
         for i in range(bone_count):
             matrix = np.eye(4)
@@ -70,7 +70,7 @@ def convert(mesh: MeshData) -> bytes:
     iqe_lines.append("\n")
 
     # Write bone hierarchy if bones exist
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         parent_child_dict = {}
         old2new = {}
         index_pool = [-1]
@@ -142,7 +142,7 @@ def convert(mesh: MeshData) -> bytes:
                 iqe_lines.append("\n")
 
             # Write vertex bone weights
-            if mesh.has_bones:
+            if mesh.has_bone_structure:
                 for i in range(mesh_vertex_counter, mesh_vertex_counter_end):
                     iqe_lines.append("vb")
                     if i < len(mesh.vertex_bone):
@@ -196,7 +196,7 @@ def convert(mesh: MeshData) -> bytes:
             iqe_lines.append("\n")
 
         # Write vertex bone weights
-        if mesh.has_bones:
+        if mesh.has_bone_structure:
             for i, bone_indices in enumerate(mesh.vertex_bone):
                 iqe_lines.append("vb")
                 for j in range(min(4, len(bone_indices))):

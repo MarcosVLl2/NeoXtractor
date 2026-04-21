@@ -30,11 +30,11 @@ class MeshParser2(BaseMeshParser):
             model["bone_count"] = read_uint8(f)
             f.seek(current_pos)  # Reset to position after magic number
 
-            model["bone_exist"] = read_uint32(f)
-            model["mesh"] = []
+            model["has_bones"] = read_uint32(f)
+            model["mesh"] = {}
 
-            if model["bone_exist"]:
-                if model["bone_exist"] == 1 or model["bone_exist"] == 4:
+            if model["has_bones"]:
+                if model["has_bones"] == 1 or model["has_bones"] == 4:
                     count = read_uint8(f)
                     f.read(2)
                     f.read(count * 4)
@@ -79,6 +79,7 @@ class MeshParser2(BaseMeshParser):
                 assert _flag == 0
 
             _offset = read_uint32(f)
+            model["mesh"]["data"] = []
             while True:
                 flag = read_uint16(f)
                 if flag == 1:
@@ -92,7 +93,7 @@ class MeshParser2(BaseMeshParser):
                 self._validate_vertex_count(mesh_vertex_count)
                 self._validate_face_count(mesh_face_count)
 
-                model["mesh"].append(
+                model["mesh"]["data"].append(
                     (mesh_vertex_count, mesh_face_count, uv_layers, color_len)
                 )
 
@@ -102,54 +103,54 @@ class MeshParser2(BaseMeshParser):
             self._validate_vertex_count(vertex_count)
             self._validate_face_count(face_count)
 
-            model["position"] = []
+            model["mesh"]["position"] = []
             # vertex position
             for _ in range(vertex_count):
                 x = read_float(f)
                 y = read_float(f)
                 z = read_float(f)
-                model["position"].append((x, y, z))
+                model["mesh"]["position"].append((x, y, z))
 
-            model["normal"] = []
+            model["mesh"]["normal"] = []
             # vertex normal
             for _ in range(vertex_count):
                 x = read_float(f)
                 y = read_float(f)
                 z = read_float(f)
-                model["normal"].append((x, y, z))
+                model["mesh"]["normal"].append((x, y, z))
 
             _flag = read_uint16(f)
             if _flag:
                 f.seek(vertex_count * 12, 1)
 
-            model["face"] = []
+            model["mesh"]["face"] = []
             # face index table
             for _ in range(face_count):
                 v1 = read_uint16(f)
                 v2 = read_uint16(f)
                 v3 = read_uint16(f)
-                model["face"].append((v1, v2, v3))
+                model["mesh"]["face"].append((v1, v2, v3))
 
-            model["uv"] = []
+            model["mesh"]["uv"] = []
             # vertex uv
-            for mesh_vertex_count, _, uv_layers, _ in model["mesh"]:
+            for mesh_vertex_count, _, uv_layers, _ in model["mesh"]["data"]:
                 if uv_layers > 0:
                     for _ in range(mesh_vertex_count):
                         u = read_float(f)
                         v = read_float(f)
-                        model["uv"].append((u, v))
+                        model["mesh"]["uv"].append((u, v))
                     f.read(mesh_vertex_count * 8 * (uv_layers - 1))
                 else:
                     for _ in range(mesh_vertex_count):
                         u = 0.0
                         v = 0.0
-                        model["uv"].append((u, v))
+                        model["mesh"]["uv"].append((u, v))
 
             # vertex color
-            for mesh_vertex_count, _, _, color_len in model["mesh"]:
+            for mesh_vertex_count, _, _, color_len in model["mesh"]["data"]:
                 f.read(mesh_vertex_count * 4 * color_len)
 
-            if model["bone_exist"]:
+            if model["has_bones"]:
                 model["vertex_bone"] = []
                 for _ in range(vertex_count):
                     vertex_bones = [read_uint8(f) for _ in range(4)]

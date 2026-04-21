@@ -21,7 +21,7 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
     smd_lines.append("version 1\n")
 
     # Bone Structure - Write nodes as in a static SMD
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         smd_lines.append("nodes\n")
         parent_child_dict = {}
         for i, parent in enumerate(mesh.bone_parent):
@@ -80,7 +80,7 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
             if flip_uv:
                 uv = (uv[0], 1 - uv[1])
 
-            if mesh.has_bones and vertex_index < len(mesh.vertex_bone):
+            if mesh.has_bone_structure and vertex_index < len(mesh.vertex_bone):
                 # Use bone weights
                 joint_indices = mesh.vertex_bone[vertex_index]
                 weights = mesh.vertex_weight[vertex_index]

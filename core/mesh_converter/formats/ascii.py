@@ -20,7 +20,7 @@ def convert(mesh: MeshData, flip_uv=False) -> bytes:
     ascii_lines = []
 
     # Write Bone Count
-    if mesh.has_bones:
+    if mesh.has_bone_structure:
         ascii_lines.append(f"{len(mesh.bone_name)}\n")
 
         # Write Bone Information

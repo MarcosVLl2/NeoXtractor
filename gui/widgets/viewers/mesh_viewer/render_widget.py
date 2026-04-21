@@ -409,6 +409,7 @@ class MeshRenderWidget(ManagedRhiWidget, CameraController):
         If no mesh is currently loaded, this method returns early without performing any operations.
         """
         self._mesh_renderer.mesh_data = None
+        self._mesh_renderer._bone_points_renderer.clear_points()
 
     @overload
     def load_mesh(self, data: MeshData) -> None: ...

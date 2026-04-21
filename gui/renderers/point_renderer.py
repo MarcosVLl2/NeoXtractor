@@ -129,7 +129,7 @@ class PointRenderer:
         """
         Clear all points from the renderer.
         """
-        self._new_points = []
+        self._points = []
 
     def initialize(self, cb: QtGui.QRhiCommandBuffer, mvp_ubuf: QtGui.QRhiBuffer):
         """
