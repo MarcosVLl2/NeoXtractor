@@ -6,7 +6,7 @@ MASK32 = 0xFFFFFFFF
 
 
 def mesh_hash(text: str) -> int:
-    raw = text.lower().encode("ascii", "ignore")
+    raw = text.encode("ascii", "ignore")
     length = (len(raw) + 3) >> 2
     padded = raw + b"\x00" * (length * 4 - len(raw))
 
